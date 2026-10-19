@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "eyebrow": "Tax Advisory × Law Technology Solutions",
+    "subtitle": "Your assistant for investing in Mozambique",
+    "lead": "Describe your project in a few lines. Receive the assessment on company set-up, investment, licences, tax, employment, exchange control and customs — with the legal reference for every point.",
+    "primary": "Describe my project",
+    "secondary": "See an example"
+  },
+  "map": {
+    "label": "Map of Mozambique showing provinces, main cities, ports and corridors",
+    "hint": "Hover over or tap a province",
+    "ports": "Ports",
+    "cities": "Cities",
+    "corridors": "Corridors"
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "Eight legal regimes before day one",
+    "text": "A foreign investor in Mozambique meets company law, licensing, investment, tax, employment, immigration, exchange control and customs — each with its own instrument and authority.",
+    "regimes": {
+      "companies": { "title": "Company law", "covers": "Lda, SA, SAS or branch" },
+      "licensing": { "title": "Licensing", "covers": "BAU, sector and environmental licences" },
+      "investment": { "title": "Investment", "covers": "APIEX registration and incentives" },
+      "tax": { "title": "Tax", "covers": "IRPC, VAT, withholding and tax treaties" },
+      "labour": { "title": "Employment", "covers": "Contracts, foreign-worker quotas and INSS" },
+      "immigration": { "title": "Immigration", "covers": "Work permits and DIRE" },
+      "exchange": { "title": "Exchange control", "covers": "FDI registration, dividends and loans" },
+      "customs": { "title": "Customs", "covers": "Imports, Class K and temporary import" }
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From project to first map, in three steps",
+    "step1": { "title": "Describe the project", "text": "Activity, province, origin of capital, investment and workforce. The more concrete, the better the assessment." },
+    "step2": { "title": "Receive the setup assessment", "text": "Company vehicle, timed roadmap, licences, incentives, obligations and points to watch, with the legal references." },
+    "step3": { "title": "Talk to Tax Advisory", "text": "Your enquiry reaches the firm with the project summary attached. A professional validates it and proposes next steps." },
+    "pricing": "General information is free and instant. Detailed advice, drafting and filings are paid services of Tax Advisory."
+  },
+  "trust": {
+    "eyebrow": "Trust",
+    "title": "Built like an advisory memo, not a guess",
+    "reviewed": { "title": "Answers only from a reviewed legal base", "text": "Every answer cites the instrument it comes from. No source, no answer." },
+    "noInvented": { "title": "No invented numbers", "text": "When a value is not yet confirmed, it is flagged as \"to be confirmed\"." },
+    "sources": { "title": "Sources", "text": "Tax Advisory's legal base and the APIEX Investment Guide 2026." },
+    "language": { "title": "Professional Portuguese (pre-AO90)", "text": "Written in Mozambican Portuguese with the spelling used in legal practice, and available in English and French." }
+  },
+  "partners": {
+    "eyebrow": "Partnership",
+    "title": "Tax Advisory × Law Technology Solutions",
+    "ta": "Tax and legal advisory firm in Maputo. Supplies and reviews all legal and tax content.",
+    "lts": "Builds the technology: the rules engine, the assistant and the platform.",
+    "principle": "The assistant provides the first map; a professional always validates detailed advice.",
+    "principleBy": "Shared principle"
+  },
+  "demo": {
+    "eyebrow": "Demo access",
+    "title": "Tax Advisory inbox",
+    "text": "See enquiries from the firm's side: status, internal notes and the attached project summary.",
+    "email": "Email",
+    "password": "Password",
+    "cta": "Sign in as Tax Advisory",
+    "note": "Demonstration environment with fictitious data. This is not secure access."
+  },
+  "phases": {
+    "eyebrow": "Next phases",
+    "title": "After approval",
+    "phase": "Phase",
+    "p1": { "title": "Public version", "text": "Launch on taxadvisorymoz.com, with the reviewed legal base and answers drawn from the legal texts." },
+    "p2": { "title": "Reach", "text": "WhatsApp channel, more languages and sector packs." },
+    "p3": { "title": "Institutional", "text": "Chambers of commerce, APIEX or municipality versions, and a quarterly legal review." }
+  }
+}

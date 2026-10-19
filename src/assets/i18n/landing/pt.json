@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "eyebrow": "Tax Advisory × Law Technology Solutions",
+    "subtitle": "O seu assistente para investir em Moçambique",
+    "lead": "Descreva o seu projecto em poucas linhas. Receba o enquadramento societário, de investimento, licenças, fiscalidade, trabalho, câmbios e alfândegas — com a referência legal de cada ponto.",
+    "primary": "Descrever o meu projecto",
+    "secondary": "Ver um exemplo"
+  },
+  "map": {
+    "label": "Mapa de Moçambique com as províncias, principais cidades, portos e corredores",
+    "hint": "Passe o cursor ou toque numa província",
+    "ports": "Portos",
+    "cities": "Cidades",
+    "corridors": "Corredores"
+  },
+  "problem": {
+    "eyebrow": "O problema",
+    "title": "Oito regimes jurídicos antes do primeiro dia",
+    "text": "Um investidor estrangeiro em Moçambique cruza-se com direito societário, licenciamento, investimento, fiscalidade, trabalho, imigração, câmbios e alfândegas — cada um com o seu diploma e a sua entidade.",
+    "regimes": {
+      "companies": { "title": "Direito societário", "covers": "Lda, SA, SAS ou sucursal" },
+      "licensing": { "title": "Licenciamento", "covers": "BAU, licenças sectoriais e ambientais" },
+      "investment": { "title": "Investimento", "covers": "Registo na APIEX e incentivos" },
+      "tax": { "title": "Fiscalidade", "covers": "IRPC, IVA, retenções e acordos de dupla tributação" },
+      "labour": { "title": "Trabalho", "covers": "Contratos, quotas de estrangeiros e INSS" },
+      "immigration": { "title": "Imigração", "covers": "Autorizações de trabalho e DIRE" },
+      "exchange": { "title": "Câmbios", "covers": "Registo do IDE, dividendos e empréstimos" },
+      "customs": { "title": "Alfândegas", "covers": "Importação, Classe K e importação temporária" }
+    }
+  },
+  "how": {
+    "eyebrow": "Como funciona",
+    "title": "Do projecto ao primeiro mapa, em três passos",
+    "step1": { "title": "Descreva o projecto", "text": "Actividade, província, origem do capital, investimento e trabalhadores. Quanto mais concreto, melhor o enquadramento." },
+    "step2": { "title": "Receba a ficha de enquadramento", "text": "Veículo societário, roteiro com prazos, licenças, incentivos, obrigações e pontos de atenção, com as referências legais." },
+    "step3": { "title": "Fale com a Tax Advisory", "text": "O pedido segue para a firma com o resumo do projecto anexado. Um profissional valida e propõe os próximos passos." },
+    "pricing": "Informação geral gratuita e imediata. Aconselhamento detalhado, redacção e submissões são serviços pagos da Tax Advisory."
+  },
+  "trust": {
+    "eyebrow": "Confiança",
+    "title": "Construído como um parecer, não como um palpite",
+    "reviewed": { "title": "Respostas apenas a partir de uma base jurídica revista", "text": "Cada resposta cita o diploma de onde vem. Sem fonte, não há resposta." },
+    "noInvented": { "title": "Sem números inventados", "text": "Quando um valor ainda não está confirmado, aparece assinalado como «a confirmar»." },
+    "sources": { "title": "Fontes", "text": "Base jurídica da Tax Advisory e Guia do Investidor APIEX 2026." },
+    "language": { "title": "Português profissional (pré-AO90)", "text": "Escrito em português de Moçambique, com a ortografia da prática jurídica, e disponível em inglês e francês." }
+  },
+  "partners": {
+    "eyebrow": "Parceria",
+    "title": "Tax Advisory × Law Technology Solutions",
+    "ta": "Sociedade de consultoria fiscal e jurídica em Maputo. Fornece e revê todo o conteúdo jurídico e fiscal.",
+    "lts": "Desenvolve a tecnologia: o motor de regras, o assistente e a plataforma.",
+    "principle": "O assistente dá o primeiro mapa; um profissional valida sempre o aconselhamento detalhado.",
+    "principleBy": "Princípio partilhado"
+  },
+  "demo": {
+    "eyebrow": "Acesso de demonstração",
+    "title": "Caixa de entrada da Tax Advisory",
+    "text": "Veja os pedidos do lado da firma: estado, notas internas e o resumo do projecto anexado.",
+    "email": "Email",
+    "password": "Palavra-passe",
+    "cta": "Entrar como Tax Advisory",
+    "note": "Ambiente de demonstração com dados fictícios. Não é um acesso seguro."
+  },
+  "phases": {
+    "eyebrow": "Próximas fases",
+    "title": "Depois da aprovação",
+    "phase": "Fase",
+    "p1": { "title": "Versão pública", "text": "Publicação em taxadvisorymoz.com, com a base jurídica revista e respostas a partir dos textos legais." },
+    "p2": { "title": "Alcance", "text": "Canal WhatsApp, mais idiomas e pacotes sectoriais." },
+    "p3": { "title": "Institucional", "text": "Câmaras de comércio, versões para a APIEX ou municípios e revisão jurídica trimestral." }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "eyebrow": "Step 1 of 2",
+  "title": "Your project",
+  "note": "The more concrete, the better the assessment.",
+  "loadExample": "Load an example",
+  "example": "Example",
+  "fields": {
+    "idea": "Business idea",
+    "ideaPlaceholder": "E.g. a cashew processing plant in Nampula, exporting to India…",
+    "ideaHint": "Activity, products or services, customers and markets.",
+    "province": "Province",
+    "choose": "Choose the province",
+    "capital": "Share capital",
+    "country": "Investor's country",
+    "countryMz": "Mozambique (Mozambican capital)",
+    "countryPlaceholder": "Search for a country…",
+    "countryEmpty": "No country found",
+    "treaty": "DTA",
+    "countryHint": "\"DTA\" marks a double tax treaty (illustrative).",
+    "investment": "Investment (USD)",
+    "workers": "Workers",
+    "foreignWorkers": "of which foreign",
+    "facts": "Project facts"
+  },
+  "capital": {
+    "foreign": "Foreign",
+    "mixed": "Mixed",
+    "mozambican": "Mozambican"
+  },
+  "flags": {
+    "importsGoods": "Imports equipment or goods",
+    "exports": "Exports",
+    "needsLand": "Needs land (DUAT)",
+    "shareholderLoan": "Shareholder loan or external financing",
+    "feesAbroad": "Pays services, royalties or technical assistance abroad",
+    "temporaryImport": "Brings equipment under temporary import"
+  },
+  "privacy": "Your data stays in this browser. Nothing is sent until you choose to contact Tax Advisory.",
+  "submit": "Prepare the assessment",
+  "outline": {
+    "eyebrow": "What you will receive",
+    "title": "Setup assessment",
+    "items": {
+      "1": "Recommended company vehicle and alternatives",
+      "2": "Company or branch: comparison",
+      "3": "Investment regime and competent authority",
+      "4": "Timed roadmap and critical path",
+      "5": "Licences required",
+      "6": "What changes with your project's facts",
+      "7": "Tax incentives and obligations calendar",
+      "8": "Location, financing, ESG and points to watch"
+    },
+    "note": "Every point carries its legal reference. You can print or export it as a PDF."
+  },
+  "preparing": {
+    "eyebrow": "Setup assessment",
+    "title": "Preparing the assessment…",
+    "text": "Matching the project's facts against the legal base.",
+    "done": "checked",
+    "checks": {
+      "vehicle": "Company vehicle",
+      "regime": "Investment regime",
+      "licences": "Licences",
+      "tax": "Tax",
+      "labour": "Employment and immigration",
+      "exchange": "Exchange control and customs"
+    }
+  }
+}

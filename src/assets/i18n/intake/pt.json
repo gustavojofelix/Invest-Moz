@@ -1,0 +1,69 @@
+{
+  "eyebrow": "Passo 1 de 2",
+  "title": "O seu projecto",
+  "note": "Quanto mais concreto, melhor o enquadramento.",
+  "loadExample": "Carregar exemplo",
+  "example": "Exemplo",
+  "fields": {
+    "idea": "Ideia de negócio",
+    "ideaPlaceholder": "Ex.: unidade de processamento de castanha de caju em Nampula, com exportação para a Índia…",
+    "ideaHint": "Actividade, produtos ou serviços, clientes e mercados.",
+    "province": "Província",
+    "choose": "Escolha a província",
+    "capital": "Capital social",
+    "country": "País do investidor",
+    "countryMz": "Moçambique (capital moçambicano)",
+    "countryPlaceholder": "Pesquisar país…",
+    "countryEmpty": "Nenhum país encontrado",
+    "treaty": "ADT",
+    "countryHint": "«ADT» indica um acordo para evitar a dupla tributação (ilustrativo).",
+    "investment": "Investimento (USD)",
+    "workers": "Trabalhadores",
+    "foreignWorkers": "dos quais estrangeiros",
+    "facts": "Factos do projecto"
+  },
+  "capital": {
+    "foreign": "Estrangeiro",
+    "mixed": "Misto",
+    "mozambican": "Moçambicano"
+  },
+  "flags": {
+    "importsGoods": "Importa equipamento ou mercadoria",
+    "exports": "Exporta",
+    "needsLand": "Precisa de terra (DUAT)",
+    "shareholderLoan": "Empréstimo do accionista ou financiamento externo",
+    "feesAbroad": "Paga serviços, royalties ou assistência técnica ao estrangeiro",
+    "temporaryImport": "Traz equipamento em importação temporária"
+  },
+  "privacy": "Os dados ficam neste navegador. Nada é enviado até decidir falar com a Tax Advisory.",
+  "submit": "Preparar o enquadramento",
+  "outline": {
+    "eyebrow": "O que vai receber",
+    "title": "Ficha de enquadramento",
+    "items": {
+      "1": "Veículo societário recomendado e alternativas",
+      "2": "Sociedade ou sucursal: comparação",
+      "3": "Regime de investimento e entidade competente",
+      "4": "Roteiro com prazos e caminho crítico",
+      "5": "Licenças necessárias",
+      "6": "O que muda com os factos do projecto",
+      "7": "Benefícios fiscais e calendário de obrigações",
+      "8": "Localização, financiamento, ESG e pontos de atenção"
+    },
+    "note": "Cada ponto traz a referência legal. Pode imprimir ou exportar em PDF."
+  },
+  "preparing": {
+    "eyebrow": "Ficha de enquadramento",
+    "title": "A preparar o enquadramento…",
+    "text": "A cruzar os factos do projecto com a base jurídica.",
+    "done": "verificado",
+    "checks": {
+      "vehicle": "Veículo societário",
+      "regime": "Regime de investimento",
+      "licences": "Licenças",
+      "tax": "Fiscalidade",
+      "labour": "Trabalho e imigração",
+      "exchange": "Câmbios e alfândegas"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "eyebrow": "Étape 1 sur 2",
+  "title": "Votre projet",
+  "note": "Plus c'est concret, meilleure est l'analyse.",
+  "loadExample": "Charger un exemple",
+  "example": "Exemple",
+  "fields": {
+    "idea": "Idée d'activité",
+    "ideaPlaceholder": "Ex. : unité de transformation de noix de cajou à Nampula, avec export vers l'Inde…",
+    "ideaHint": "Activité, produits ou services, clients et marchés.",
+    "province": "Province",
+    "choose": "Choisissez la province",
+    "capital": "Capital social",
+    "country": "Pays de l'investisseur",
+    "countryMz": "Mozambique (capital mozambicain)",
+    "countryPlaceholder": "Rechercher un pays…",
+    "countryEmpty": "Aucun pays trouvé",
+    "treaty": "CDI",
+    "countryHint": "« CDI » signale une convention de non-double imposition (illustratif).",
+    "investment": "Investissement (USD)",
+    "workers": "Effectif",
+    "foreignWorkers": "dont étrangers",
+    "facts": "Faits du projet"
+  },
+  "capital": {
+    "foreign": "Étranger",
+    "mixed": "Mixte",
+    "mozambican": "Mozambicain"
+  },
+  "flags": {
+    "importsGoods": "Importe des équipements ou des marchandises",
+    "exports": "Exporte",
+    "needsLand": "A besoin d'un terrain (DUAT)",
+    "shareholderLoan": "Prêt d'associé ou financement extérieur",
+    "feesAbroad": "Paie des services, redevances ou assistance technique à l'étranger",
+    "temporaryImport": "Fait entrer des équipements en admission temporaire"
+  },
+  "privacy": "Vos données restent dans ce navigateur. Rien n'est envoyé tant que vous ne contactez pas Tax Advisory.",
+  "submit": "Préparer l'analyse",
+  "outline": {
+    "eyebrow": "Ce que vous recevrez",
+    "title": "Fiche d'analyse",
+    "items": {
+      "1": "Structure juridique recommandée et alternatives",
+      "2": "Société ou succursale : comparaison",
+      "3": "Régime d'investissement et autorité compétente",
+      "4": "Feuille de route avec délais et chemin critique",
+      "5": "Autorisations nécessaires",
+      "6": "Ce qui change selon les faits du projet",
+      "7": "Avantages fiscaux et calendrier des obligations",
+      "8": "Localisation, financement, ESG et points de vigilance"
+    },
+    "note": "Chaque point comporte sa référence juridique. Vous pouvez l'imprimer ou l'exporter en PDF."
+  },
+  "preparing": {
+    "eyebrow": "Fiche d'analyse",
+    "title": "Préparation de l'analyse…",
+    "text": "Rapprochement des faits du projet avec la base juridique.",
+    "done": "vérifié",
+    "checks": {
+      "vehicle": "Structure juridique",
+      "regime": "Régime d'investissement",
+      "licences": "Autorisations",
+      "tax": "Fiscalité",
+      "labour": "Travail et immigration",
+      "exchange": "Changes et douanes"
+    }
+  }
+}

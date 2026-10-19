@@ -1,0 +1,207 @@
+<ng-container *transloco="let t">
+  @if (preparing()) {
+    <section class="container-page py-16 sm:py-24" aria-live="polite">
+      <div class="mx-auto max-w-lg">
+        <im-section-label tone="brand">{{ t('intake.preparing.eyebrow') }}</im-section-label>
+        <h1 class="mt-3 text-3xl">{{ t('intake.preparing.title') }}</h1>
+        <p class="mt-2 text-muted">{{ t('intake.preparing.text') }}</p>
+        <div class="mt-8 border-t border-ink pt-5">
+          <im-stepper
+            [steps]="checkLabels(t)"
+            [done]="checksDone()"
+            [doneLabel]="t('intake.preparing.done')"
+          />
+        </div>
+      </div>
+    </section>
+  } @else {
+    <div class="container-page grid gap-12 py-10 sm:py-14 lg:grid-cols-12">
+      <!-- Form ---------------------------------------------------------------->
+      <section class="lg:col-span-7" aria-labelledby="intake-title">
+        <div class="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <im-section-label>{{ t('intake.eyebrow') }}</im-section-label>
+            <h1 id="intake-title" class="mt-2 text-3xl sm:text-4xl">{{ t('intake.title') }}</h1>
+            <p class="mt-2 text-muted">{{ t('intake.note') }}</p>
+          </div>
+          <button type="button" class="btn btn-secondary" [cdkMenuTriggerFor]="exampleMenu">
+            <svg lucideFileText [size]="18" aria-hidden="true"></svg>{{ t('intake.loadExample') }}
+            <svg lucideChevronDown [size]="16" aria-hidden="true"></svg>
+          </button>
+          <ng-template #exampleMenu>
+            <div cdkMenu class="menu">
+              @for (p of examples.value() ?? []; track p.ref) {
+                <button type="button" cdkMenuItem class="menu-item" (cdkMenuItemTriggered)="loadExample(p)">
+                  <span class="block font-bold leading-snug">{{ p.title | loc: lang() }}</span>
+                  <span class="block text-sm text-muted">{{ p.sector | loc: lang() }}</span>
+                </button>
+              }
+            </div>
+          </ng-template>
+        </div>
+
+        @if (loadedExample(); as ex) {
+          <p class="mt-5 flex items-center gap-2 bg-panel px-4 py-2.5 text-sm" role="status">
+            <im-section-label tone="boxed-highlight">{{ t('intake.example') }}</im-section-label>
+            {{ ex.title | loc: lang() }}
+          </p>
+        }
+
+        <form [formGroup]="form" (ngSubmit)="submit()" novalidate class="mt-8 space-y-7">
+          <div>
+            <label class="field-label" for="idea">{{ t('intake.fields.idea') }}</label>
+            <textarea
+              id="idea"
+              class="input"
+              rows="5"
+              formControlName="idea"
+              [attr.aria-invalid]="invalid('idea') ? 'true' : null"
+              aria-describedby="idea-hint idea-error"
+              [placeholder]="t('intake.fields.ideaPlaceholder')"
+            ></textarea>
+            <span id="idea-hint" class="field-hint">{{ t('intake.fields.ideaHint') }}</span>
+            <im-field-error [control]="form.controls.idea" [submitted]="submitted()" errorId="idea-error" />
+          </div>
+
+          <div class="grid gap-6 sm:grid-cols-2">
+            <div>
+              <label class="field-label" for="province">{{ t('intake.fields.province') }}</label>
+              <select
+                id="province"
+                class="input"
+                formControlName="province"
+                [attr.aria-invalid]="invalid('province') ? 'true' : null"
+                aria-describedby="province-error"
+              >
+                <option value="" disabled>{{ t('intake.fields.choose') }}</option>
+                @for (p of provinces; track p) {
+                  <option [value]="p">{{ provinceNames[p] | loc: lang() }}</option>
+                }
+              </select>
+              <im-field-error [control]="form.controls.province" [submitted]="submitted()" errorId="province-error" />
+            </div>
+
+            <fieldset>
+              <legend class="field-label">{{ t('intake.fields.capital') }}</legend>
+              <div class="seg">
+                @for (c of capitals; track c) {
+                  <input type="radio" class="sr-only" [id]="'capital-' + c" formControlName="capital" [value]="c" />
+                  <label [for]="'capital-' + c">{{ t('intake.capital.' + c) }}</label>
+                }
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="grid gap-6 sm:grid-cols-2">
+            <div>
+              <label class="field-label" for="country">{{ t('intake.fields.country') }}</label>
+              @if (form.controls.capital.value === 'mozambican') {
+                <p class="input flex items-center bg-panel text-muted">{{ t('intake.fields.countryMz') }}</p>
+              } @else {
+                <im-country-combobox
+                  inputId="country"
+                  formControlName="investorCountry"
+                  [countries]="countries.value() ?? []"
+                  [lang]="lang()"
+                  [placeholder]="t('intake.fields.countryPlaceholder')"
+                  [emptyLabel]="t('intake.fields.countryEmpty')"
+                  [treatyLabel]="t('intake.fields.treaty')"
+                  [invalid]="invalid('investorCountry')"
+                  describedBy="country-hint country-error"
+                />
+                <span id="country-hint" class="field-hint">{{ t('intake.fields.countryHint') }}</span>
+                <im-field-error [control]="form.controls.investorCountry" [submitted]="submitted()" errorId="country-error" />
+              }
+            </div>
+            <div>
+              <label class="field-label" for="investment">{{ t('intake.fields.investment') }}</label>
+              <input
+                id="investment"
+                class="input"
+                type="number"
+                inputmode="numeric"
+                min="0"
+                step="1000"
+                formControlName="investmentUsd"
+                [attr.aria-invalid]="invalid('investmentUsd') ? 'true' : null"
+                aria-describedby="investment-error"
+                placeholder="2 500 000"
+              />
+              <im-field-error [control]="form.controls.investmentUsd" [submitted]="submitted()" errorId="investment-error" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div>
+              <label class="field-label" for="workers">{{ t('intake.fields.workers') }}</label>
+              <input
+                id="workers"
+                class="input"
+                type="number"
+                inputmode="numeric"
+                min="0"
+                formControlName="workers"
+                [attr.aria-invalid]="invalid('workers') ? 'true' : null"
+                aria-describedby="workers-error"
+              />
+              <im-field-error [control]="form.controls.workers" [submitted]="submitted()" errorId="workers-error" />
+            </div>
+            <div>
+              <label class="field-label" for="foreignWorkers">{{ t('intake.fields.foreignWorkers') }}</label>
+              <input
+                id="foreignWorkers"
+                class="input"
+                type="number"
+                inputmode="numeric"
+                min="0"
+                formControlName="foreignWorkers"
+                [attr.aria-invalid]="invalid('foreignWorkers') || (form.hasError('foreignExceedsWorkers') && submitted()) ? 'true' : null"
+                aria-describedby="foreign-error"
+              />
+              <im-field-error [control]="form.controls.foreignWorkers" [submitted]="submitted()" errorId="foreign-error" />
+              @if (form.hasError('foreignExceedsWorkers') && (submitted() || form.controls.foreignWorkers.touched)) {
+                <p class="field-error">{{ t('forms.foreignExceedsWorkers') }}</p>
+              }
+            </div>
+          </div>
+
+          <fieldset>
+            <legend class="field-label">{{ t('intake.fields.facts') }}</legend>
+            <div class="mt-1 flex flex-wrap gap-2">
+              @for (f of flags; track f) {
+                <im-checkbox-chip [formControlName]="f" [label]="t('intake.flags.' + f)" />
+              }
+            </div>
+          </fieldset>
+
+          <div class="flex flex-col gap-4 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
+            <p class="text-sm text-muted">{{ t('intake.privacy') }}</p>
+            <button type="submit" class="btn btn-primary shrink-0">
+              {{ t('intake.submit') }}<svg lucideArrowRight [size]="18" aria-hidden="true"></svg>
+            </button>
+          </div>
+          @if (submitted() && form.invalid) {
+            <p class="field-error" role="alert">{{ t('forms.fixErrors') }}</p>
+          }
+        </form>
+      </section>
+
+      <!-- What you'll receive ------------------------------------------------->
+      <aside class="lg:col-span-5" aria-labelledby="outline-title">
+        <div class="border border-rule bg-paper p-6 lg:sticky lg:top-24">
+          <im-section-label tone="brand">{{ t('intake.outline.eyebrow') }}</im-section-label>
+          <h2 id="outline-title" class="mt-2 text-xl">{{ t('intake.outline.title') }}</h2>
+          <ol class="memo-outline mt-4" role="list">
+            @for (n of [1, 2, 3, 4, 5, 6, 7, 8]; track n) {
+              <li>
+                <span class="font-mono text-xs text-muted">0{{ n }}</span>
+                <span>{{ t('intake.outline.items.' + n) }}</span>
+              </li>
+            }
+          </ol>
+          <p class="mt-4 text-sm text-muted">{{ t('intake.outline.note') }}</p>
+        </div>
+      </aside>
+    </div>
+  }
+</ng-container>

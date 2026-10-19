@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "eyebrow": "Tax Advisory × Law Technology Solutions",
+    "subtitle": "Votre assistant pour investir au Mozambique",
+    "lead": "Décrivez votre projet en quelques lignes. Recevez l'analyse de la structure, de l'investissement, des autorisations, de la fiscalité, du travail, du contrôle des changes et des douanes — avec la référence juridique de chaque point.",
+    "primary": "Décrire mon projet",
+    "secondary": "Voir un exemple"
+  },
+  "map": {
+    "label": "Carte du Mozambique avec les provinces, les principales villes, les ports et les corridors",
+    "hint": "Survolez ou touchez une province",
+    "ports": "Ports",
+    "cities": "Villes",
+    "corridors": "Corridors"
+  },
+  "problem": {
+    "eyebrow": "Le problème",
+    "title": "Huit régimes juridiques avant le premier jour",
+    "text": "Un investisseur étranger au Mozambique se heurte au droit des sociétés, aux autorisations, à l'investissement, à la fiscalité, au travail, à l'immigration, au contrôle des changes et aux douanes — chacun avec son texte et son autorité.",
+    "regimes": {
+      "companies": { "title": "Droit des sociétés", "covers": "Lda, SA, SAS ou succursale" },
+      "licensing": { "title": "Autorisations", "covers": "BAU, licences sectorielles et environnementales" },
+      "investment": { "title": "Investissement", "covers": "Enregistrement APIEX et incitations" },
+      "tax": { "title": "Fiscalité", "covers": "IRPC, TVA, retenues et conventions fiscales" },
+      "labour": { "title": "Travail", "covers": "Contrats, quotas d'étrangers et INSS" },
+      "immigration": { "title": "Immigration", "covers": "Permis de travail et DIRE" },
+      "exchange": { "title": "Contrôle des changes", "covers": "Enregistrement de l'IDE, dividendes et prêts" },
+      "customs": { "title": "Douanes", "covers": "Importation, Classe K et admission temporaire" }
+    }
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Du projet à une première cartographie, en trois étapes",
+    "step1": { "title": "Décrivez le projet", "text": "Activité, province, origine du capital, investissement et effectifs. Plus c'est concret, meilleure est l'analyse." },
+    "step2": { "title": "Recevez la fiche d'analyse", "text": "Structure juridique, feuille de route avec délais, autorisations, incitations, obligations et points de vigilance, avec les références légales." },
+    "step3": { "title": "Contactez Tax Advisory", "text": "Votre demande parvient au cabinet avec le résumé du projet en pièce jointe. Un professionnel la valide et propose la suite." },
+    "pricing": "L'information générale est gratuite et immédiate. Le conseil détaillé, la rédaction et les dépôts sont des services payants de Tax Advisory."
+  },
+  "trust": {
+    "eyebrow": "Confiance",
+    "title": "Conçu comme une note de conseil, pas comme une supposition",
+    "reviewed": { "title": "Des réponses issues uniquement d'une base juridique revue", "text": "Chaque réponse cite le texte dont elle provient. Sans source, pas de réponse." },
+    "noInvented": { "title": "Aucun chiffre inventé", "text": "Lorsqu'une valeur n'est pas encore confirmée, elle est signalée « à confirmer »." },
+    "sources": { "title": "Sources", "text": "Base juridique de Tax Advisory et Guide de l'investisseur APIEX 2026." },
+    "language": { "title": "Portugais professionnel (pré-AO90)", "text": "Rédigé en portugais du Mozambique, avec l'orthographe de la pratique juridique, et disponible en anglais et en français." }
+  },
+  "partners": {
+    "eyebrow": "Partenariat",
+    "title": "Tax Advisory × Law Technology Solutions",
+    "ta": "Cabinet de conseil fiscal et juridique à Maputo. Fournit et revoit l'ensemble du contenu juridique et fiscal.",
+    "lts": "Développe la technologie : le moteur de règles, l'assistant et la plateforme.",
+    "principle": "L'assistant fournit la première carte ; un professionnel valide toujours le conseil détaillé.",
+    "principleBy": "Principe commun"
+  },
+  "demo": {
+    "eyebrow": "Accès de démonstration",
+    "title": "Boîte de réception Tax Advisory",
+    "text": "Consultez les demandes côté cabinet : statut, notes internes et résumé du projet joint.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "cta": "Se connecter en tant que Tax Advisory",
+    "note": "Environnement de démonstration avec des données fictives. Ce n'est pas un accès sécurisé."
+  },
+  "phases": {
+    "eyebrow": "Prochaines étapes",
+    "title": "Après validation",
+    "phase": "Phase",
+    "p1": { "title": "Version publique", "text": "Mise en ligne sur taxadvisorymoz.com, avec la base juridique revue et des réponses tirées des textes légaux." },
+    "p2": { "title": "Diffusion", "text": "Canal WhatsApp, autres langues et offres sectorielles." },
+    "p3": { "title": "Institutionnel", "text": "Chambres de commerce, versions pour l'APIEX ou les municipalités et revue juridique trimestrielle." }
+  }
+}
