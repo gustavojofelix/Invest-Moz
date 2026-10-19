@@ -1,0 +1,187 @@
+{
+  "enquiries": [
+    {
+      "ref": "TA-IM-2026-0141",
+      "createdAt": "2026-10-17T09:42:00+02:00",
+      "locale": "en",
+      "name": "Thabo Nkosi",
+      "company": "Highveld Solar EPC (Pty) Ltd",
+      "email": "thabo.nkosi@highveldsolar.co.za",
+      "phone": "+27 82 555 0143",
+      "areas": ["companies", "tax", "exchange"],
+      "message": "We have signed two rooftop PV contracts in Maputo and expect more next year. Should we register a branch or incorporate an Lda? We would also like to understand withholding on the technical services our Johannesburg office will invoice.",
+      "projectSnapshot": {
+        "projectRef": "TA-IM-EX02",
+        "vehicle": "branch",
+        "summary": {
+          "pt": "Energia · Maputo Cidade · EPC fotovoltaico, capital 100% sul-africano, USD 1 200 000.",
+          "en": "Energy · Maputo City · solar PV EPC, 100% South African capital, USD 1,200,000.",
+          "fr": "Énergie · Ville de Maputo · EPC photovoltaïque, capital 100 % sud-africain, 1 200 000 USD."
+        },
+        "input": {
+          "idea": "Empresa sul-africana de engenharia solar: projectos EPC de sistemas fotovoltaicos para clientes comerciais e industriais em Maputo, e contratos de manutenção.",
+          "province": "maputo_cidade",
+          "capital": "foreign",
+          "investorCountry": "ZA",
+          "investmentUsd": 1200000,
+          "workers": 35,
+          "foreignWorkers": 6,
+          "importsGoods": true,
+          "exports": false,
+          "needsLand": false,
+          "shareholderLoan": false,
+          "feesAbroad": true,
+          "temporaryImport": false
+        }
+      },
+      "status": "new",
+      "notes": []
+    },
+    {
+      "ref": "TA-IM-2026-0140",
+      "createdAt": "2026-10-15T15:10:00+02:00",
+      "locale": "pt",
+      "name": "Ricardo Mendes",
+      "company": "Mendes & Filhos Turismo, Lda",
+      "email": "ricardo.mendes@mendesturismo.pt",
+      "phone": "+351 912 345 678",
+      "areas": ["land", "licensing", "investment"],
+      "message": "Pretendemos construir um pequeno lodge em Vilankulo. Gostaríamos de perceber o processo do DUAT, a consulta à comunidade e se compensa registar o projecto na APIEX com um investimento inicial reduzido.",
+      "status": "in_review",
+      "notes": [
+        { "at": "2026-10-16T10:05:00+02:00", "text": "Pedir planta de localização e confirmar se o terreno está em zona de protecção costeira." }
+      ]
+    },
+    {
+      "ref": "TA-IM-2026-0139",
+      "createdAt": "2026-10-13T11:25:00+02:00",
+      "locale": "fr",
+      "name": "Claire Dubois",
+      "company": "Atlantique Offshore Services SAS",
+      "email": "c.dubois@atlantique-offshore.fr",
+      "phone": "+33 6 12 34 56 78",
+      "areas": ["local_content", "immigration", "customs"],
+      "message": "Nous préparons une offre de services de maintenance pour un opérateur de GNL à Pemba. Nous aurons besoin de techniciens expatriés et d'importer temporairement des générateurs. Pouvez-vous nous proposer un accompagnement complet ?",
+      "projectSnapshot": {
+        "projectRef": "TA-IM-EX05",
+        "vehicle": "lda",
+        "summary": {
+          "pt": "Petróleo e gás · Cabo Delgado · serviços de apoio ao GNL, capital francês, USD 3 500 000.",
+          "en": "Oil & gas · Cabo Delgado · LNG support services, French capital, USD 3,500,000.",
+          "fr": "Pétrole et gaz · Cabo Delgado · services d'appui au GNL, capital français, 3 500 000 USD."
+        },
+        "input": {
+          "idea": "Serviços de apoio ao sector de petróleo e gás em Pemba: manutenção de equipamento, aluguer de geradores e fornecimento aos projectos de GNL.",
+          "province": "cabo_delgado",
+          "capital": "foreign",
+          "investorCountry": "FR",
+          "investmentUsd": 3500000,
+          "workers": 60,
+          "foreignWorkers": 9,
+          "importsGoods": true,
+          "exports": false,
+          "needsLand": false,
+          "shareholderLoan": false,
+          "feesAbroad": true,
+          "temporaryImport": true
+        }
+      },
+      "status": "quoted",
+      "notes": [
+        { "at": "2026-10-14T09:30:00+02:00", "text": "Chamada com a cliente: parceiro moçambicano já identificado em Pemba." },
+        { "at": "2026-10-16T17:45:00+02:00", "text": "Proposta enviada: constituição, quota de estrangeiros e importação temporária." }
+      ]
+    },
+    {
+      "ref": "TA-IM-2026-0138",
+      "createdAt": "2026-10-09T08:50:00+02:00",
+      "locale": "en",
+      "name": "Rajesh Iyer",
+      "company": "Coromandel Agro Exports Pvt Ltd",
+      "email": "rajesh.iyer@coromandelagro.in",
+      "phone": "+91 98450 12345",
+      "areas": ["investment", "incentives", "exchange", "land"],
+      "message": "Following our visit to Nampula, we would like a full proposal for setting up the cashew processing plant with our Mozambican partner, including the APIEX registration, Class K imports and the shareholder loan registration.",
+      "projectSnapshot": {
+        "projectRef": "TA-IM-EX01",
+        "vehicle": "lda",
+        "summary": {
+          "pt": "Agro-indústria · Nampula · processamento de castanha de caju, capital misto, USD 2 500 000.",
+          "en": "Agro-industry · Nampula · cashew processing, mixed capital, USD 2,500,000.",
+          "fr": "Agro-industrie · Nampula · transformation de noix de cajou, capital mixte, 2 500 000 USD."
+        },
+        "input": {
+          "idea": "Unidade de processamento de castanha de caju em Nampula: descasque, secagem e embalagem da amêndoa, com exportação de cerca de 90% para a Índia e o Vietname. Sócio indiano com parceiro moçambicano.",
+          "province": "nampula",
+          "capital": "mixed",
+          "investorCountry": "IN",
+          "investmentUsd": 2500000,
+          "workers": 80,
+          "foreignWorkers": 4,
+          "importsGoods": true,
+          "exports": true,
+          "needsLand": true,
+          "shareholderLoan": true,
+          "feesAbroad": true,
+          "temporaryImport": false
+        }
+      },
+      "status": "won",
+      "notes": [
+        { "at": "2026-10-10T14:00:00+02:00", "text": "Reunião em Maputo com o sócio moçambicano. Âmbito acordado." },
+        { "at": "2026-10-12T11:20:00+02:00", "text": "Proposta aceite. Abrir processo de constituição e marcar reunião com a APIEX." }
+      ]
+    },
+    {
+      "ref": "TA-IM-2026-0137",
+      "createdAt": "2026-10-06T16:35:00+02:00",
+      "locale": "pt",
+      "name": "Ana Cossa",
+      "company": "Cossa Agro-Pecuária, Lda",
+      "email": "ana.cossa@cossaagro.co.mz",
+      "phone": "+258 84 123 4567",
+      "areas": ["tax", "compliance"],
+      "message": "Somos uma empresa moçambicana em Chimoio e vamos receber assistência técnica de uma empresa sul-africana. Que retenções e obrigações de IVA se aplicam aos pagamentos? Precisamos também de apoio com o calendário fiscal.",
+      "status": "in_review",
+      "notes": []
+    },
+    {
+      "ref": "TA-IM-2026-0136",
+      "createdAt": "2026-09-29T10:15:00+02:00",
+      "locale": "fr",
+      "name": "Moussa Diallo",
+      "company": "Sahel Logistique SARL",
+      "email": "m.diallo@sahel-logistique.com",
+      "areas": ["companies", "customs", "labour"],
+      "message": "Nous étudions l'ouverture d'un entrepôt sous douane à Nacala pour desservir le Malawi. Quelle structure recommandez-vous et quelles sont les règles d'embauche de personnel étranger ?",
+      "status": "new",
+      "notes": []
+    },
+    {
+      "ref": "TA-IM-2026-0135",
+      "createdAt": "2026-09-22T13:05:00+02:00",
+      "locale": "en",
+      "name": "Wei Zhang",
+      "company": "Zambezi Freight Holdings Ltd",
+      "email": "wei.zhang@zambezifreight.com",
+      "phone": "+86 138 0013 8000",
+      "areas": ["customs", "exchange", "immigration"],
+      "message": "We plan a logistics hub in Beira with 220 staff and imported handling equipment under temporary import. Please advise on the shareholder loan registration with the central bank and on work permits for our engineers.",
+      "status": "quoted",
+      "notes": [{ "at": "2026-09-25T09:00:00+02:00", "text": "Proposta enviada. Aguarda resposta do conselho de administração." }]
+    },
+    {
+      "ref": "TA-IM-2026-0134",
+      "createdAt": "2026-09-15T09:00:00+02:00",
+      "locale": "pt",
+      "name": "Luís Machava",
+      "company": "Machava Digital, Lda",
+      "email": "luis@machavadigital.co.mz",
+      "phone": "+258 82 765 4321",
+      "areas": ["companies", "investment"],
+      "message": "Uma empresa de software de Maurícias quer entrar no capital da nossa sociedade. Como se faz o registo do investimento estrangeiro e que alterações ao pacto social são necessárias?",
+      "status": "won",
+      "notes": [{ "at": "2026-09-18T15:30:00+02:00", "text": "Mandato assinado. Preparar alteração do pacto social e registo do IDE." }]
+    }
+  ]
+}

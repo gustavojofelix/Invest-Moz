@@ -1,0 +1,81 @@
+{
+  "fallback": "general",
+  "sectors": [
+    {
+      "id": "oil_gas",
+      "label": { "pt": "Petróleo e gás · serviços de apoio", "en": "Oil & gas · supply services", "fr": "Pétrole et gaz · services d'appui" },
+      "envCategory": "B",
+      "keywords": {
+        "pt": ["petroleo", "petrolifer*", "gas natural", "gnl", "lng", "offshore", "conteudo local", "base logistica de pemba"],
+        "en": ["oil and gas", "oil & gas", "oil", "lng", "offshore", "local content", "upstream"],
+        "fr": ["petrole", "petrolier*", "gaz naturel", "gnl", "offshore", "contenu local"]
+      }
+    },
+    {
+      "id": "energy",
+      "label": { "pt": "Energia · solar e EPC", "en": "Energy · solar and EPC", "fr": "Énergie · solaire et EPC" },
+      "envCategory": "C",
+      "keywords": {
+        "pt": ["solar", "fotovoltaic*", "energia", "renovave*", "epc", "mini rede", "electrificacao"],
+        "en": ["solar", "photovoltaic", "pv", "energy", "renewable*", "epc", "mini grid", "power"],
+        "fr": ["solaire", "photovoltaique*", "energie", "renouvelable*", "epc", "mini reseau"]
+      }
+    },
+    {
+      "id": "tourism",
+      "label": { "pt": "Turismo · alojamento", "en": "Tourism · hospitality", "fr": "Tourisme · hébergement" },
+      "envCategory": "B",
+      "keywords": {
+        "pt": ["turismo", "turistic*", "lodge", "ecoturismo", "eco lodge", "hotel*", "alojamento", "resort", "pousada"],
+        "en": ["tourism", "tourist", "lodge", "eco lodge", "ecotourism", "hotel*", "hospitality", "resort"],
+        "fr": ["tourisme", "touristique", "lodge", "ecotourisme", "hotel*", "hebergement", "resort"]
+      }
+    },
+    {
+      "id": "logistics",
+      "label": { "pt": "Logística e armazenagem", "en": "Logistics and warehousing", "fr": "Logistique et entreposage" },
+      "envCategory": "B",
+      "keywords": {
+        "pt": ["logistic*", "armazem", "armazens", "armazenagem", "transitario*", "frete", "camioes", "terminal"],
+        "en": ["logistic*", "warehous*", "freight", "trucking", "haulage", "terminal", "storage"],
+        "fr": ["logistique", "entrepot*", "entreposage", "fret", "transitaire", "camions", "terminal"]
+      }
+    },
+    {
+      "id": "agro_industry",
+      "label": { "pt": "Indústria agro-alimentar", "en": "Agro-food industry", "fr": "Industrie agroalimentaire" },
+      "envCategory": "B",
+      "keywords": {
+        "pt": ["caju", "castanha", "amendoa*", "agro*", "agricol*", "agricultura", "alimentar*", "fruta", "moagem", "processamento agricola"],
+        "en": ["cashew*", "agro*", "agricultur*", "food processing", "farm*", "fruit", "milling", "kernel*"],
+        "fr": ["cajou", "noix de cajou", "agro*", "agricole", "agroalimentaire", "transformation alimentaire", "fruits"]
+      }
+    },
+    {
+      "id": "mining",
+      "label": { "pt": "Mineração", "en": "Mining", "fr": "Mines" },
+      "envCategory": "A",
+      "keywords": {
+        "pt": ["mineracao", "mineir*", "carvao", "grafite", "ouro", "pedreira", "areias pesadas"],
+        "en": ["mining", "mine", "coal", "graphite", "gold", "quarry", "heavy sands"],
+        "fr": ["mine", "mines", "minier*", "charbon", "graphite", "carriere"]
+      }
+    },
+    {
+      "id": "services",
+      "label": { "pt": "Serviços", "en": "Services", "fr": "Services" },
+      "envCategory": "C",
+      "keywords": {
+        "pt": ["consultoria", "servicos", "software", "tecnologia", "digital", "formacao", "escritorio"],
+        "en": ["consulting", "consultancy", "services", "software", "technology", "digital", "training", "office"],
+        "fr": ["conseil", "services", "logiciel", "technologie", "numerique", "formation", "bureau"]
+      }
+    },
+    {
+      "id": "general",
+      "label": { "pt": "Actividade comercial geral", "en": "General commercial activity", "fr": "Activité commerciale générale" },
+      "envCategory": "C",
+      "keywords": { "pt": [], "en": [], "fr": [] }
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "common.schema.json",
+  "definitions": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pt",
+        "en",
+        "fr"
+      ],
+      "properties": {
+        "pt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fr": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "localizedKeywords": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pt",
+        "en",
+        "fr"
+      ],
+      "properties": {
+        "pt": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "en": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fr": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field",
+        "op",
+        "value"
+      ],
+      "properties": {
+        "field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "op": {
+          "enum": [
+            "eq",
+            "in",
+            "gte",
+            "lt",
+            "between"
+          ]
+        },
+        "value": {}
+      }
+    },
+    "topic": {
+      "enum": [
+        "companies",
+        "licensing",
+        "investment",
+        "tax",
+        "labour",
+        "immigration",
+        "exchange",
+        "customs",
+        "incentives",
+        "compliance",
+        "land",
+        "local_content"
+      ]
+    },
+    "province": {
+      "enum": [
+        "niassa",
+        "cabo_delgado",
+        "nampula",
+        "zambezia",
+        "tete",
+        "manica",
+        "sofala",
+        "inhambane",
+        "gaza",
+        "maputo_provincia",
+        "maputo_cidade"
+      ]
+    },
+    "vehicle": {
+      "enum": [
+        "lda",
+        "sa",
+        "sas",
+        "branch"
+      ]
+    },
+    "isoDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "text",
+        "refs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "$ref": "common.schema.json#/definitions/localizedText"
+        },
+        "text": {
+          "$ref": "common.schema.json#/definitions/localizedText"
+        },
+        "refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          }
+        }
+      }
+    },
+    "projectInput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "idea",
+        "province",
+        "capital",
+        "investorCountry",
+        "investmentUsd",
+        "workers",
+        "foreignWorkers",
+        "importsGoods",
+        "exports",
+        "needsLand",
+        "shareholderLoan",
+        "feesAbroad",
+        "temporaryImport"
+      ],
+      "properties": {
+        "idea": {
+          "type": "string",
+          "minLength": 1
+        },
+        "province": {
+          "$ref": "common.schema.json#/definitions/province"
+        },
+        "capital": {
+          "enum": [
+            "foreign",
+            "mixed",
+            "mozambican"
+          ]
+        },
+        "investorCountry": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "investmentUsd": {
+          "type": "number",
+          "minimum": 0
+        },
+        "workers": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "foreignWorkers": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "importsGoods": {
+          "type": "boolean"
+        },
+        "exports": {
+          "type": "boolean"
+        },
+        "needsLand": {
+          "type": "boolean"
+        },
+        "shareholderLoan": {
+          "type": "boolean"
+        },
+        "feesAbroad": {
+          "type": "boolean"
+        },
+        "temporaryImport": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

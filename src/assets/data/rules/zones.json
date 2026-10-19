@@ -1,0 +1,203 @@
+{
+  "corridors": {
+    "niassa": "nacala",
+    "cabo_delgado": "none",
+    "nampula": "nacala",
+    "zambezia": "nacala",
+    "tete": "beira",
+    "manica": "beira",
+    "sofala": "beira",
+    "inhambane": "none",
+    "gaza": "maputo",
+    "maputo_provincia": "maputo",
+    "maputo_cidade": "maputo"
+  },
+  "location": [
+    {
+      "id": "corridor-nacala",
+      "when": [{ "field": "corridor", "op": "eq", "value": "nacala" }],
+      "then": {
+        "id": "corridor-nacala",
+        "title": { "pt": "Corredor de Nacala", "en": "Nacala corridor", "fr": "Corridor de Nacala" },
+        "text": {
+          "pt": "Porto de águas profundas de Nacala e ligação ferroviária ao interior e ao Malawi. A Zona Económica Especial de Nacala pode interessar a projectos industriais exportadores.",
+          "en": "Nacala deep-water port and rail link to the interior and Malawi. The Nacala Special Economic Zone may suit export-oriented industrial projects.",
+          "fr": "Port en eau profonde de Nacala et liaison ferroviaire vers l'intérieur et le Malawi. La zone économique spéciale de Nacala peut intéresser les projets industriels exportateurs."
+        },
+        "refs": ["zee-zfi"]
+      }
+    },
+    {
+      "id": "corridor-beira",
+      "when": [{ "field": "corridor", "op": "eq", "value": "beira" }],
+      "then": {
+        "id": "corridor-beira",
+        "title": { "pt": "Corredor da Beira", "en": "Beira corridor", "fr": "Corridor de Beira" },
+        "text": {
+          "pt": "Porto da Beira e ligação a Manica, Tete, Zimbabwe e Zâmbia: posição natural para logística regional e trânsito.",
+          "en": "Port of Beira with links to Manica, Tete, Zimbabwe and Zambia: a natural base for regional logistics and transit.",
+          "fr": "Port de Beira relié à Manica, Tete, au Zimbabwe et à la Zambie : base naturelle pour la logistique régionale et le transit."
+        },
+        "refs": ["zee-zfi"]
+      }
+    },
+    {
+      "id": "corridor-maputo",
+      "when": [{ "field": "corridor", "op": "eq", "value": "maputo" }],
+      "then": {
+        "id": "corridor-maputo",
+        "title": { "pt": "Corredor de Maputo", "en": "Maputo corridor", "fr": "Corridor de Maputo" },
+        "text": {
+          "pt": "Porto de Maputo e ligação rodoviária e ferroviária à África do Sul e a Eswatini. O parque industrial de Beluluane (MozParks) oferece infra-estrutura pronta.",
+          "en": "Port of Maputo with road and rail links to South Africa and Eswatini. The Beluluane industrial park (MozParks) offers ready infrastructure.",
+          "fr": "Port de Maputo et liaisons routière et ferroviaire avec l'Afrique du Sud et l'Eswatini. Le parc industriel de Beluluane (MozParks) offre des infrastructures prêtes."
+        },
+        "refs": ["zee-zfi"]
+      }
+    },
+    {
+      "id": "pemba",
+      "when": [{ "field": "province", "op": "eq", "value": "cabo_delgado" }],
+      "then": {
+        "id": "pemba",
+        "title": { "pt": "Pemba e a bacia do Rovuma", "en": "Pemba and the Rovuma basin", "fr": "Pemba et le bassin du Rovuma" },
+        "text": {
+          "pt": "Porto de Pemba e base logística de apoio aos projectos de GNL da bacia do Rovuma; proximidade aos operadores é um factor de selecção de fornecedores.",
+          "en": "Port of Pemba and the logistics base supporting the Rovuma basin LNG projects; proximity to operators is a supplier selection factor.",
+          "fr": "Port de Pemba et base logistique au service des projets de GNL du bassin du Rovuma ; la proximité des opérateurs est un critère de sélection des fournisseurs."
+        },
+        "refs": ["lei-21-2014"]
+      }
+    },
+    {
+      "id": "inhambane-coast",
+      "when": [{ "field": "province", "op": "eq", "value": "inhambane" }],
+      "then": {
+        "id": "inhambane-coast",
+        "title": { "pt": "Costa de Inhambane", "en": "Inhambane coast", "fr": "Côte d'Inhambane" },
+        "text": {
+          "pt": "Destino turístico consolidado; atenção às zonas de protecção costeira e às áreas de conservação na definição do terreno.",
+          "en": "An established tourist destination; mind coastal protection zones and conservation areas when choosing the site.",
+          "fr": "Destination touristique établie ; attention aux zones de protection côtière et aux aires de conservation lors du choix du site."
+        },
+        "refs": ["lei-19-97", "aia-regulation"]
+      }
+    },
+    {
+      "id": "sez-ifz",
+      "when": [{ "field": "exports", "op": "eq", "value": true }],
+      "then": {
+        "id": "sez-ifz",
+        "title": { "pt": "ZEE ou ZFI?", "en": "SEZ or IFZ?", "fr": "ZES ou ZFI ?" },
+        "text": {
+          "pt": "Exportadores podem avaliar uma Zona Económica Especial (área geográfica com regime próprio) ou uma Zona Franca Industrial (estatuto da empresa, ligado à exportação: {{ZFI_EXPORT_REQUIREMENT}}). Benefícios: {{ZEE_ZFI_BENEFITS}}.",
+          "en": "Exporters may consider a Special Economic Zone (a geographic area with its own regime) or an Industrial Free Zone (a company status tied to exports: {{ZFI_EXPORT_REQUIREMENT}}). Benefits: {{ZEE_ZFI_BENEFITS}}.",
+          "fr": "Les exportateurs peuvent envisager une zone économique spéciale (zone géographique à régime propre) ou une zone franche industrielle (statut de l'entreprise lié à l'export : {{ZFI_EXPORT_REQUIREMENT}}). Avantages : {{ZEE_ZFI_BENEFITS}}."
+        },
+        "refs": ["zee-zfi"]
+      }
+    }
+  ],
+  "financing": [
+    {
+      "id": "shareholder-loan",
+      "when": [{ "field": "shareholderLoan", "op": "eq", "value": true }],
+      "then": {
+        "id": "shareholder-loan",
+        "title": { "pt": "Empréstimo do accionista", "en": "Shareholder loan", "fr": "Prêt d'associé" },
+        "text": {
+          "pt": "Flexível e rápido, mas exige registo prévio no Banco de Moçambique e respeito do rácio 2:1 para dedução dos juros.",
+          "en": "Flexible and fast, but needs prior registration with the Banco de Moçambique and the 2:1 ratio for interest deductibility.",
+          "fr": "Souple et rapide, mais exige un enregistrement préalable auprès de la Banco de Moçambique et le ratio 2:1 pour la déductibilité des intérêts."
+        },
+        "refs": ["lei-11-2009", "cirpc"]
+      }
+    },
+    {
+      "id": "gapi",
+      "when": [],
+      "then": {
+        "id": "gapi",
+        "title": { "pt": "Garantias GAPI", "en": "GAPI guarantees", "fr": "Garanties GAPI" },
+        "text": {
+          "pt": "A GAPI, instituição moçambicana de financiamento do desenvolvimento, pode partilhar risco com os bancos comerciais através de garantias ({{GAPI_GUARANTEE_TERMS}}).",
+          "en": "GAPI, a Mozambican development finance institution, can share risk with commercial banks through guarantees ({{GAPI_GUARANTEE_TERMS}}).",
+          "fr": "La GAPI, institution mozambicaine de financement du développement, peut partager le risque avec les banques commerciales par des garanties ({{GAPI_GUARANTEE_TERMS}})."
+        },
+        "refs": []
+      }
+    },
+    {
+      "id": "funpi",
+      "when": [],
+      "then": {
+        "id": "funpi",
+        "title": { "pt": "FUNPI", "en": "FUNPI", "fr": "FUNPI" },
+        "text": {
+          "pt": "Linha pública de apoio ao investimento produtivo; condições e elegibilidade {{FUNPI_CONDITIONS}}.",
+          "en": "Public support line for productive investment; terms and eligibility {{FUNPI_CONDITIONS}}.",
+          "fr": "Ligne publique d'appui à l'investissement productif ; conditions et éligibilité {{FUNPI_CONDITIONS}}."
+        },
+        "refs": []
+      }
+    },
+    {
+      "id": "dfi",
+      "when": [{ "field": "investmentUsd", "op": "gte", "value": 1000000 }],
+      "then": {
+        "id": "dfi",
+        "title": { "pt": "Instituições financeiras de desenvolvimento", "en": "Development finance institutions", "fr": "Institutions financières de développement" },
+        "text": {
+          "pt": "Para projectos desta dimensão, DFI internacionais podem financiar a longo prazo, com exigências ambientais e sociais próprias (Padrões de Desempenho da IFC).",
+          "en": "For projects of this size, international DFIs can provide long-term finance, with their own environmental and social requirements (IFC Performance Standards).",
+          "fr": "Pour des projets de cette taille, des IFD internationales peuvent financer à long terme, avec leurs propres exigences environnementales et sociales (normes de performance de l'IFC)."
+        },
+        "refs": ["ifc-ps"]
+      }
+    }
+  ],
+  "esg": [
+    {
+      "id": "eia-category",
+      "when": [],
+      "then": {
+        "id": "eia-category",
+        "title": { "pt": "Avaliação de impacto ambiental", "en": "Environmental impact assessment", "fr": "Évaluation d'impact environnemental" },
+        "text": {
+          "pt": "Categoria provável {{fact.envCategory}} ({{fact.sector}}); a classificação final resulta da pré-avaliação pela autoridade ambiental.",
+          "en": "Likely category {{fact.envCategory}} ({{fact.sector}}); the final classification follows the environmental authority's screening.",
+          "fr": "Catégorie probable {{fact.envCategory}} ({{fact.sector}}) ; le classement définitif découle de la pré-évaluation de l'autorité environnementale."
+        },
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "community",
+      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "then": {
+        "id": "community",
+        "title": { "pt": "Consulta às comunidades", "en": "Community consultation", "fr": "Consultation des communautés" },
+        "text": {
+          "pt": "A consulta às comunidades locais é condição prévia do DUAT; registar acordos e compromissos em acta.",
+          "en": "Consultation with local communities is a precondition for the DUAT; record agreements and commitments in minutes.",
+          "fr": "La consultation des communautés locales est une condition préalable du DUAT ; consigner accords et engagements dans un procès-verbal."
+        },
+        "refs": ["lei-19-97"]
+      }
+    },
+    {
+      "id": "ifc",
+      "when": [{ "field": "investmentUsd", "op": "gte", "value": 1000000 }],
+      "then": {
+        "id": "ifc",
+        "title": { "pt": "Padrões de Desempenho da IFC", "en": "IFC Performance Standards", "fr": "Normes de performance de l'IFC" },
+        "text": {
+          "pt": "Se houver financiamento de DFI, aplicam-se os Padrões de Desempenho da IFC: sistema de gestão ambiental e social, condições de trabalho e envolvimento das partes interessadas.",
+          "en": "If DFIs finance the project, the IFC Performance Standards apply: an environmental and social management system, working conditions and stakeholder engagement.",
+          "fr": "En cas de financement par des IFD, les normes de performance de l'IFC s'appliquent : système de gestion environnementale et sociale, conditions de travail et engagement des parties prenantes."
+        },
+        "refs": ["ifc-ps"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "enquiries.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "enquiries"
+  ],
+  "properties": {
+    "enquiries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ref",
+          "createdAt",
+          "locale",
+          "name",
+          "company",
+          "email",
+          "areas",
+          "message",
+          "status",
+          "notes"
+        ],
+        "properties": {
+          "ref": {
+            "type": "string",
+            "pattern": "^TA-IM-\\d{4}-\\d{4}$"
+          },
+          "createdAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locale": {
+            "enum": [
+              "pt",
+              "en",
+              "fr"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "company": {
+            "type": "string",
+            "minLength": 1
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "phone": {
+            "type": "string",
+            "minLength": 1
+          },
+          "areas": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/topic"
+            },
+            "minItems": 1
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1
+          },
+          "projectSnapshot": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "projectRef",
+              "vehicle",
+              "summary",
+              "input"
+            ],
+            "properties": {
+              "projectRef": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vehicle": {
+                "$ref": "common.schema.json#/definitions/vehicle"
+              },
+              "summary": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "input": {
+                "$ref": "common.schema.json#/definitions/projectInput"
+              }
+            }
+          },
+          "status": {
+            "enum": [
+              "new",
+              "in_review",
+              "quoted",
+              "won"
+            ]
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "at",
+                "text"
+              ],
+              "properties": {
+                "at": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "minItems": 8
+    }
+  }
+}

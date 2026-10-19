@@ -1,0 +1,136 @@
+{
+  "topics": [
+    {
+      "id": "companies",
+      "label": { "pt": "Sociedades", "en": "Companies", "fr": "Sociétés" },
+      "refLabel": "DL 1/2022",
+      "refId": "dl-1-2022",
+      "intro": {
+        "pt": "Escolha do veículo de investimento, constituição de sociedades e sucursais, e respectivos órgãos e registos.",
+        "en": "Choice of investment vehicle, incorporation of companies and branches, and their governing bodies and registrations.",
+        "fr": "Choix du véhicule d'investissement, constitution de sociétés et de succursales, ainsi que leurs organes et immatriculations."
+      }
+    },
+    {
+      "id": "licensing",
+      "label": { "pt": "Licenciamento", "en": "Licensing", "fr": "Autorisations" },
+      "refLabel": "Dec. 41/2026",
+      "refId": "dec-41-2026",
+      "intro": {
+        "pt": "Licenças e autorizações necessárias para iniciar e manter a actividade, incluindo o BAU e as licenças sectoriais.",
+        "en": "Licences and authorisations needed to start and carry on operations, including the One-Stop Shop and sector licences.",
+        "fr": "Licences et autorisations nécessaires pour démarrer et poursuivre l'activité, y compris le guichet unique et les licences sectorielles."
+      }
+    },
+    {
+      "id": "investment",
+      "label": { "pt": "Investimento", "en": "Investment", "fr": "Investissement" },
+      "refLabel": "Lei 8/2023",
+      "refId": "lei-8-2023",
+      "intro": {
+        "pt": "Aprovação do projecto na APIEX, certificado de investimento e garantias concedidas ao investidor estrangeiro.",
+        "en": "Project approval at APIEX, the investment certificate and the guarantees granted to foreign investors.",
+        "fr": "Approbation du projet auprès de l'APIEX, certificat d'investissement et garanties accordées à l'investisseur étranger."
+      }
+    },
+    {
+      "id": "tax",
+      "label": { "pt": "Impostos", "en": "Tax", "fr": "Fiscalité" },
+      "refLabel": "IRPC · IVA",
+      "refId": "cirpc",
+      "intro": {
+        "pt": "IRPC, IVA, imposto do selo, retenções na fonte sobre pagamentos ao exterior e acordos de dupla tributação.",
+        "en": "Corporate income tax, VAT, stamp duty, withholding tax on payments abroad and double taxation agreements.",
+        "fr": "Impôt sur les sociétés, TVA, droit de timbre, retenue à la source sur les paiements à l'étranger et conventions fiscales."
+      }
+    },
+    {
+      "id": "labour",
+      "label": { "pt": "Trabalho", "en": "Employment", "fr": "Travail" },
+      "refLabel": "Lei 13/2023",
+      "refId": "lei-13-2023",
+      "intro": {
+        "pt": "Contratos de trabalho, segurança social, quotas de trabalhadores estrangeiros e obrigações do empregador.",
+        "en": "Employment contracts, social security, foreign-worker quotas and employer obligations.",
+        "fr": "Contrats de travail, sécurité sociale, quotas de travailleurs étrangers et obligations de l'employeur."
+      }
+    },
+    {
+      "id": "immigration",
+      "label": { "pt": "Imigração", "en": "Immigration", "fr": "Immigration" },
+      "refLabel": "Dec. 88/2024",
+      "refId": "dec-88-2024",
+      "intro": {
+        "pt": "Vistos, autorizações de trabalho e DIRE para quadros e técnicos estrangeiros, e respectivas renovações.",
+        "en": "Visas, work permits and DIRE residence permits for foreign managers and specialists, and their renewal.",
+        "fr": "Visas, permis de travail et titres de séjour DIRE pour les cadres et techniciens étrangers, et leur renouvellement."
+      }
+    },
+    {
+      "id": "exchange",
+      "label": { "pt": "Câmbios", "en": "Foreign exchange", "fr": "Change" },
+      "refLabel": "Aviso 4/GBM/2024",
+      "refId": "aviso-4-gbm-2024",
+      "intro": {
+        "pt": "Registo do investimento e dos financiamentos externos no Banco de Moçambique e transferências para o exterior.",
+        "en": "Registration of investment and external financing with the Banco de Moçambique, and transfers abroad.",
+        "fr": "Enregistrement des investissements et des financements extérieurs auprès de la Banco de Moçambique, et transferts vers l'étranger."
+      }
+    },
+    {
+      "id": "customs",
+      "label": { "pt": "Alfândegas", "en": "Customs", "fr": "Douanes" },
+      "refLabel": "Pauta",
+      "refId": "pauta",
+      "intro": {
+        "pt": "Importação de equipamento e mercadorias, classificação pautal, importação temporária e isenções aduaneiras.",
+        "en": "Import of equipment and goods, tariff classification, temporary import and customs exemptions.",
+        "fr": "Importation d'équipements et de marchandises, classement tarifaire, admission temporaire et exonérations douanières."
+      }
+    },
+    {
+      "id": "incentives",
+      "label": { "pt": "Benefícios fiscais", "en": "Tax incentives", "fr": "Avantages fiscaux" },
+      "refLabel": "Lei 4/2009",
+      "refId": "lei-4-2009",
+      "intro": {
+        "pt": "Benefícios fiscais para projectos aprovados, incluindo isenções aduaneiras, crédito fiscal por investimento e amortizações aceleradas.",
+        "en": "Tax incentives for approved projects, including customs exemptions, the investment tax credit and accelerated depreciation.",
+        "fr": "Avantages fiscaux pour les projets approuvés, notamment les exonérations douanières, le crédit d'impôt à l'investissement et l'amortissement accéléré."
+      }
+    },
+    {
+      "id": "compliance",
+      "label": { "pt": "Obrigações e contabilidade", "en": "Compliance and accounting", "fr": "Obligations et comptabilité" },
+      "refLabel": "M/22 · M/20",
+      "refId": "m22",
+      "intro": {
+        "pt": "Calendário de obrigações declarativas e de pagamento, contabilidade e relatórios periódicos à APIEX.",
+        "en": "Calendar of filing and payment obligations, accounting and periodic reporting to APIEX.",
+        "fr": "Calendrier des obligations déclaratives et de paiement, comptabilité et rapports périodiques à l'APIEX."
+      }
+    },
+    {
+      "id": "land",
+      "label": { "pt": "Terra, ambiente e zonas", "en": "Land, environment and zones", "fr": "Foncier, environnement et zones" },
+      "refLabel": "Lei 19/97",
+      "refId": "lei-19-97",
+      "intro": {
+        "pt": "Direito de uso e aproveitamento da terra, licenciamento ambiental, zonas económicas especiais e padrões dos financiadores.",
+        "en": "Land use rights, environmental licensing, special economic zones and lender standards.",
+        "fr": "Droit d'usage de la terre, autorisation environnementale, zones économiques spéciales et normes des bailleurs."
+      }
+    },
+    {
+      "id": "local_content",
+      "label": { "pt": "Conteúdo local e LNG", "en": "Local content and LNG", "fr": "Contenu local et GNL" },
+      "refLabel": "Lei 21/2014",
+      "refId": "lei-21-2014",
+      "intro": {
+        "pt": "Regras de conteúdo local e de preferência nacional aplicáveis aos fornecedores dos projectos de petróleo e gás.",
+        "en": "Local content and national preference rules applicable to suppliers of oil and gas projects.",
+        "fr": "Règles de contenu local et de préférence nationale applicables aux fournisseurs des projets pétroliers et gaziers."
+      }
+    }
+  ]
+}

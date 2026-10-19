@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules-vehicles.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "options",
+    "rules",
+    "comparisonWhen",
+    "comparison"
+  ],
+  "properties": {
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "vehicle",
+          "name",
+          "whenToChoose"
+        ],
+        "properties": {
+          "vehicle": {
+            "$ref": "common.schema.json#/definitions/vehicle"
+          },
+          "name": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "whenToChoose": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "when",
+          "then"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/condition"
+            }
+          },
+          "then": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "recommended",
+              "alternatives",
+              "reasoning"
+            ],
+            "properties": {
+              "recommended": {
+                "$ref": "common.schema.json#/definitions/vehicle"
+              },
+              "alternatives": {
+                "type": "array",
+                "items": {
+                  "$ref": "common.schema.json#/definitions/vehicle"
+                }
+              },
+              "reasoning": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              }
+            }
+          }
+        }
+      }
+    },
+    "comparisonWhen": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/definitions/condition"
+      }
+    },
+    "comparison": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "company",
+          "branch",
+          "refs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "company": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "branch": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

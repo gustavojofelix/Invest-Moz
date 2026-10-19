@@ -1,0 +1,154 @@
+{
+  "projects": [
+    {
+      "ref": "TA-IM-EX01",
+      "example": true,
+      "title": {
+        "pt": "Indústria agro-alimentar · processamento de amêndoas",
+        "en": "Agro-food industry · kernel processing",
+        "fr": "Industrie agroalimentaire · transformation d'amandes"
+      },
+      "sector": { "pt": "Castanha de caju · Nampula", "en": "Cashew · Nampula", "fr": "Noix de cajou · Nampula" },
+      "summary": {
+        "pt": "Unidade de processamento de castanha de caju em Nampula, com sócio indiano e exportação de cerca de 90% da amêndoa para a Índia e o Vietname.",
+        "en": "Cashew processing plant in Nampula with an Indian shareholder, exporting about 90% of the kernels to India and Vietnam.",
+        "fr": "Unité de transformation de noix de cajou à Nampula, avec un associé indien, exportant environ 90 % des amandes vers l'Inde et le Vietnam."
+      },
+      "input": {
+        "idea": "Unidade de processamento de castanha de caju em Nampula: descasque, secagem e embalagem da amêndoa, com exportação de cerca de 90% para a Índia e o Vietname. Sócio indiano com parceiro moçambicano.",
+        "province": "nampula",
+        "capital": "mixed",
+        "investorCountry": "IN",
+        "investmentUsd": 2500000,
+        "workers": 80,
+        "foreignWorkers": 4,
+        "importsGoods": true,
+        "exports": true,
+        "needsLand": true,
+        "shareholderLoan": true,
+        "feesAbroad": true,
+        "temporaryImport": false
+      }
+    },
+    {
+      "ref": "TA-IM-EX02",
+      "example": true,
+      "title": {
+        "pt": "Energia solar · EPC e manutenção",
+        "en": "Solar energy · EPC and maintenance",
+        "fr": "Énergie solaire · EPC et maintenance"
+      },
+      "sector": { "pt": "Energia · Maputo Cidade", "en": "Energy · Maputo City", "fr": "Énergie · Ville de Maputo" },
+      "summary": {
+        "pt": "Empresa sul-africana com 100% de capital estrangeiro a executar projectos EPC fotovoltaicos para clientes comerciais e industriais em Maputo.",
+        "en": "A 100% foreign-owned South African company delivering solar PV EPC projects for commercial and industrial clients in Maputo.",
+        "fr": "Société sud-africaine à capital 100 % étranger réalisant des projets EPC photovoltaïques pour des clients commerciaux et industriels à Maputo."
+      },
+      "input": {
+        "idea": "Empresa sul-africana de engenharia solar: projectos EPC de sistemas fotovoltaicos para clientes comerciais e industriais em Maputo, e contratos de manutenção.",
+        "province": "maputo_cidade",
+        "capital": "foreign",
+        "investorCountry": "ZA",
+        "investmentUsd": 1200000,
+        "workers": 35,
+        "foreignWorkers": 6,
+        "importsGoods": true,
+        "exports": false,
+        "needsLand": false,
+        "shareholderLoan": false,
+        "feesAbroad": true,
+        "temporaryImport": false
+      }
+    },
+    {
+      "ref": "TA-IM-EX03",
+      "example": true,
+      "title": {
+        "pt": "Logística e armazenagem · corredor da Beira",
+        "en": "Logistics and warehousing · Beira corridor",
+        "fr": "Logistique et entreposage · corridor de Beira"
+      },
+      "sector": { "pt": "Logística · Sofala", "en": "Logistics · Sofala", "fr": "Logistique · Sofala" },
+      "summary": {
+        "pt": "Investidor chinês instala centro de armazenagem e frota de camiões para trânsito regional, com equipamento em importação temporária.",
+        "en": "A Chinese investor sets up a warehousing hub and truck fleet for regional transit, with equipment under temporary import.",
+        "fr": "Un investisseur chinois installe un centre d'entreposage et une flotte de camions pour le transit régional, avec des équipements en admission temporaire."
+      },
+      "input": {
+        "idea": "Centro de logística e armazenagem no corredor da Beira, com frota de camiões para trânsito para o Zimbabwe e a Zâmbia. Equipamento de movimentação em importação temporária.",
+        "province": "sofala",
+        "capital": "foreign",
+        "investorCountry": "CN",
+        "investmentUsd": 6000000,
+        "workers": 220,
+        "foreignWorkers": 12,
+        "importsGoods": true,
+        "exports": false,
+        "needsLand": false,
+        "shareholderLoan": true,
+        "feesAbroad": false,
+        "temporaryImport": true
+      }
+    },
+    {
+      "ref": "TA-IM-EX04",
+      "example": true,
+      "title": {
+        "pt": "Turismo · eco-lodge costeiro",
+        "en": "Tourism · coastal eco-lodge",
+        "fr": "Tourisme · écolodge côtier"
+      },
+      "sector": { "pt": "Turismo · Inhambane", "en": "Tourism · Inhambane", "fr": "Tourisme · Inhambane" },
+      "summary": {
+        "pt": "Investidor português desenvolve um eco-lodge de pequena dimensão na costa de Inhambane; terra e ambiente no centro do projecto.",
+        "en": "A Portuguese investor develops a small eco-lodge on the Inhambane coast; land and environment are central.",
+        "fr": "Un investisseur portugais développe un petit écolodge sur la côte d'Inhambane ; foncier et environnement au cœur du projet."
+      },
+      "input": {
+        "idea": "Eco-lodge de pequena dimensão na costa de Inhambane, com oito bungalows construídos com materiais locais e actividades de mergulho.",
+        "province": "inhambane",
+        "capital": "foreign",
+        "investorCountry": "PT",
+        "investmentUsd": 85000,
+        "workers": 14,
+        "foreignWorkers": 1,
+        "importsGoods": false,
+        "exports": false,
+        "needsLand": true,
+        "shareholderLoan": false,
+        "feesAbroad": false,
+        "temporaryImport": false
+      }
+    },
+    {
+      "ref": "TA-IM-EX05",
+      "example": true,
+      "title": {
+        "pt": "Serviços ao sector de petróleo e gás · Pemba",
+        "en": "Oil & gas supply services · Pemba",
+        "fr": "Services au secteur pétrolier et gazier · Pemba"
+      },
+      "sector": { "pt": "Petróleo e gás · Cabo Delgado", "en": "Oil & gas · Cabo Delgado", "fr": "Pétrole et gaz · Cabo Delgado" },
+      "summary": {
+        "pt": "Empresa francesa de serviços de apoio aos projectos de GNL em Pemba: manutenção, aluguer de equipamento e conteúdo local.",
+        "en": "A French company providing support services to the LNG projects in Pemba: maintenance, equipment rental and local content.",
+        "fr": "Société française de services d'appui aux projets de GNL à Pemba : maintenance, location d'équipements et contenu local."
+      },
+      "input": {
+        "idea": "Serviços de apoio ao sector de petróleo e gás em Pemba: manutenção de equipamento, aluguer de geradores e fornecimento aos projectos de GNL.",
+        "province": "cabo_delgado",
+        "capital": "foreign",
+        "investorCountry": "FR",
+        "investmentUsd": 3500000,
+        "workers": 60,
+        "foreignWorkers": 9,
+        "importsGoods": true,
+        "exports": false,
+        "needsLand": false,
+        "shareholderLoan": false,
+        "feesAbroad": true,
+        "temporaryImport": true
+      }
+    }
+  ]
+}

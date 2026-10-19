@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "countries.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "countries"
+  ],
+  "properties": {
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "name",
+          "treaty"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "name": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "treaty": {
+            "type": "boolean"
+          },
+          "status": {
+            "enum": [
+              "illustrative",
+              "verified"
+            ]
+          }
+        },
+        "if": {
+          "properties": {
+            "treaty": {
+              "const": true
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "status"
+          ]
+        }
+      }
+    }
+  }
+}

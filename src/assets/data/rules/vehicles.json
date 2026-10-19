@@ -1,0 +1,172 @@
+{
+  "options": [
+    {
+      "vehicle": "lda",
+      "name": { "pt": "Sociedade por quotas (Lda)", "en": "Private limited company (Lda)", "fr": "Société à responsabilité limitée (Lda)" },
+      "whenToChoose": {
+        "pt": "A estrutura mais comum para investimento estrangeiro de pequena e média dimensão: responsabilidade limitada, gestão flexível e possibilidade de sócio único.",
+        "en": "The most common structure for small and mid-sized foreign investment: limited liability, flexible management and the option of a single shareholder.",
+        "fr": "La structure la plus courante pour l'investissement étranger de petite et moyenne taille : responsabilité limitée, gestion souple et possibilité d'associé unique."
+      }
+    },
+    {
+      "vehicle": "sa",
+      "name": { "pt": "Sociedade anónima (SA)", "en": "Public limited company (SA)", "fr": "Société anonyme (SA)" },
+      "whenToChoose": {
+        "pt": "Para projectos de maior dimensão, com vários accionistas, entrada de investidores financeiros ou acesso ao mercado de capitais. Exige uma estrutura de governação mais pesada.",
+        "en": "For larger projects with several shareholders, financial investors or access to capital markets. Requires a heavier governance structure.",
+        "fr": "Pour les projets de plus grande envergure, avec plusieurs actionnaires, l'entrée d'investisseurs financiers ou l'accès au marché des capitaux. Gouvernance plus lourde."
+      }
+    },
+    {
+      "vehicle": "sas",
+      "name": { "pt": "Sociedade simplificada (SAS)", "en": "Simplified company (SAS)", "fr": "Société simplifiée (SAS)" },
+      "whenToChoose": {
+        "pt": "Modelo simplificado introduzido pela reforma do direito societário, útil para estruturas leves de accionistas. Requisitos: {{SAS_REQUIREMENTS}}.",
+        "en": "Simplified form introduced by the company law reform, useful for light shareholder structures. Requirements: {{SAS_REQUIREMENTS}}.",
+        "fr": "Forme simplifiée introduite par la réforme du droit des sociétés, utile pour des structures d'actionnariat légères. Conditions : {{SAS_REQUIREMENTS}}."
+      }
+    },
+    {
+      "vehicle": "branch",
+      "name": { "pt": "Sucursal de sociedade estrangeira", "en": "Branch of a foreign company", "fr": "Succursale de société étrangère" },
+      "whenToChoose": {
+        "pt": "Para contratos ou projectos de duração definida, quando a sociedade-mãe pretende operar directamente. A sociedade-mãe responde pelas obrigações da sucursal.",
+        "en": "For contracts or projects of defined duration, when the parent company wants to operate directly. The parent is liable for the branch's obligations.",
+        "fr": "Pour des contrats ou projets de durée déterminée, lorsque la société mère souhaite opérer directement. La société mère répond des obligations de la succursale."
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "oil-gas-foreign",
+      "when": [
+        { "field": "sector", "op": "eq", "value": "oil_gas" },
+        { "field": "foreignOwned", "op": "eq", "value": true }
+      ],
+      "then": {
+        "recommended": "lda",
+        "alternatives": ["sa", "branch"],
+        "reasoning": {
+          "pt": "No sector petrolífero, as regras de conteúdo local favorecem fornecedores constituídos em Moçambique e parcerias com empresas moçambicanas. Uma Lda local permite acolher um sócio moçambicano e registar-se como fornecedor junto dos operadores de GNL.",
+          "en": "In the petroleum sector, local content rules favour suppliers incorporated in Mozambique and partnerships with Mozambican companies. A local Lda can take in a Mozambican partner and register as a supplier with LNG operators.",
+          "fr": "Dans le secteur pétrolier, les règles de contenu local favorisent les fournisseurs constitués au Mozambique et les partenariats avec des entreprises mozambicaines. Une Lda locale peut accueillir un associé mozambicain et s'enregistrer comme fournisseur auprès des opérateurs de GNL."
+        }
+      }
+    },
+    {
+      "id": "energy-foreign-epc",
+      "when": [
+        { "field": "sector", "op": "eq", "value": "energy" },
+        { "field": "capital", "op": "eq", "value": "foreign" }
+      ],
+      "then": {
+        "recommended": "branch",
+        "alternatives": ["lda", "sa"],
+        "reasoning": {
+          "pt": "Para contratos EPC com prazo definido, uma sucursal da empresa-mãe ({{fact.country}}) permite operar rapidamente, usar o balanço e as referências da sociedade-mãe e remeter lucros sem retenção na fonte (interpretação actual). Se o plano incluir serviços de operação e manutenção de longo prazo, uma Lda passa a ser preferível. Esta é a decisão central do projecto.",
+          "en": "For fixed-term EPC contracts, a branch of the {{fact.country}} company can start quickly, rely on the parent's balance sheet and track record, and remit profits without withholding (current interpretation). If the plan includes long-term operation and maintenance services, an Lda becomes preferable. This is the project's central decision.",
+          "fr": "Pour des contrats EPC à durée déterminée, une succursale de la société mère ({{fact.country}}) permet de démarrer rapidement, de s'appuyer sur le bilan et les références de la société mère et de rapatrier les bénéfices sans retenue à la source (interprétation actuelle). Si le projet inclut des services d'exploitation et de maintenance à long terme, une Lda devient préférable. C'est la décision centrale du projet."
+        }
+      }
+    },
+    {
+      "id": "mixed-capital",
+      "when": [{ "field": "capital", "op": "eq", "value": "mixed" }],
+      "then": {
+        "recommended": "lda",
+        "alternatives": ["sa", "sas"],
+        "reasoning": {
+          "pt": "Com capital misto, a Lda acomoda bem o investidor ({{fact.country}}) e o sócio moçambicano: responsabilidade limitada, pacto social que regula a gestão e a cessão de quotas, e base clara para registar o IDE no Banco de Moçambique. A SA justifica-se se estiver prevista a entrada de novos investidores.",
+          "en": "With mixed capital, an Lda suits both the {{fact.country}} investor and the Mozambican partner: limited liability, articles that govern management and share transfers, and a clear basis for registering the FDI with the Banco de Moçambique. An SA is justified if new investors are expected to join.",
+          "fr": "Avec un capital mixte, la Lda convient à l'investisseur ({{fact.country}}) comme à l'associé mozambicain : responsabilité limitée, statuts encadrant la gestion et la cession des parts, et base claire pour enregistrer l'IDE auprès de la Banco de Moçambique. La SA se justifie si l'entrée de nouveaux investisseurs est prévue."
+        }
+      }
+    },
+    {
+      "id": "foreign-default",
+      "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+      "then": {
+        "recommended": "lda",
+        "alternatives": ["branch", "sa", "sas"],
+        "reasoning": {
+          "pt": "Uma Lda moçambicana detida pelo investidor ({{fact.country}}) separa o risco do projecto da sociedade-mãe, permite sócio único e é a estrutura mais conhecida pelos bancos, pela APIEX e pela Autoridade Tributária.",
+          "en": "A Mozambican Lda held by the {{fact.country}} investor ring-fences the project's risk from the parent, allows a single shareholder and is the structure best known to banks, APIEX and the Tax Authority.",
+          "fr": "Une Lda mozambicaine détenue par l'investisseur ({{fact.country}}) isole le risque du projet de la société mère, admet un associé unique et constitue la structure la mieux connue des banques, de l'APIEX et de l'administration fiscale."
+        }
+      }
+    },
+    {
+      "id": "domestic-default",
+      "when": [],
+      "then": {
+        "recommended": "lda",
+        "alternatives": ["sas", "sa"],
+        "reasoning": {
+          "pt": "Para capital moçambicano, a Lda oferece responsabilidade limitada com custos e formalidades reduzidos. A SA só se justifica com vários accionistas ou entrada de investidores.",
+          "en": "For Mozambican capital, an Lda offers limited liability with lower costs and formalities. An SA is only justified with several shareholders or incoming investors.",
+          "fr": "Pour un capital mozambicain, la Lda offre la responsabilité limitée avec des coûts et formalités réduits. La SA ne se justifie qu'avec plusieurs actionnaires ou l'entrée d'investisseurs."
+        }
+      }
+    }
+  ],
+  "comparisonWhen": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+  "comparison": [
+    {
+      "id": "legal-personality",
+      "label": { "pt": "Personalidade jurídica", "en": "Legal personality", "fr": "Personnalité juridique" },
+      "company": { "pt": "Pessoa colectiva moçambicana, distinta dos sócios", "en": "Mozambican legal entity, separate from its shareholders", "fr": "Personne morale mozambicaine, distincte des associés" },
+      "branch": { "pt": "Sem personalidade própria; extensão da sociedade-mãe", "en": "No separate personality; an extension of the parent", "fr": "Pas de personnalité propre ; prolongement de la société mère" },
+      "refs": ["dl-1-2022"]
+    },
+    {
+      "id": "liability",
+      "label": { "pt": "Responsabilidade", "en": "Liability", "fr": "Responsabilité" },
+      "company": { "pt": "Limitada ao capital social", "en": "Limited to share capital", "fr": "Limitée au capital social" },
+      "branch": { "pt": "A sociedade-mãe responde por todas as obrigações", "en": "The parent answers for all obligations", "fr": "La société mère répond de toutes les obligations" },
+      "refs": ["dl-1-2022"]
+    },
+    {
+      "id": "management",
+      "label": { "pt": "Sócios e gestão", "en": "Shareholders and management", "fr": "Associés et gestion" },
+      "company": { "pt": "Sócios e gerência ou conselho de administração; admite sócio único", "en": "Shareholders and managers or a board; a single shareholder is allowed", "fr": "Associés et gérance ou conseil d'administration ; associé unique admis" },
+      "branch": { "pt": "Representante nomeado pela sociedade-mãe, que decide", "en": "A representative appointed by the parent, which decides", "fr": "Représentant nommé par la société mère, qui décide" },
+      "refs": ["dl-1-2022"]
+    },
+    {
+      "id": "duration",
+      "label": { "pt": "Duração", "en": "Duration", "fr": "Durée" },
+      "company": { "pt": "Indeterminada", "en": "Indefinite", "fr": "Indéterminée" },
+      "branch": { "pt": "Indeterminada ou ligada a um contrato ou projecto", "en": "Indefinite, or tied to a contract or project", "fr": "Indéterminée ou liée à un contrat ou projet" },
+      "refs": ["dl-1-2022"]
+    },
+    {
+      "id": "audit",
+      "label": { "pt": "Auditoria", "en": "Audit", "fr": "Audit" },
+      "company": { "pt": "Conforme a dimensão e o regime aplicável ({{AUDIT_REQUIREMENT_THRESHOLD}})", "en": "Depending on size and the applicable regime ({{AUDIT_REQUIREMENT_THRESHOLD}})", "fr": "Selon la taille et le régime applicable ({{AUDIT_REQUIREMENT_THRESHOLD}})" },
+      "branch": { "pt": "Contas próprias da sucursal; auditoria conforme o regime ({{AUDIT_REQUIREMENT_THRESHOLD}})", "en": "Separate branch accounts; audit per the regime ({{AUDIT_REQUIREMENT_THRESHOLD}})", "fr": "Comptes propres à la succursale ; audit selon le régime ({{AUDIT_REQUIREMENT_THRESHOLD}})" },
+      "refs": ["cirpc"]
+    },
+    {
+      "id": "profits-abroad",
+      "label": { "pt": "Lucros para o exterior", "en": "Profits abroad", "fr": "Bénéfices vers l'étranger" },
+      "company": { "pt": "Dividendos com retenção de 20% ou taxa do ADT", "en": "Dividends with 20% withholding or the treaty rate", "fr": "Dividendes avec retenue de 20 % ou taux conventionnel" },
+      "branch": { "pt": "Remessa de lucros sem retenção (interpretação actual)", "en": "Profit remittance without withholding (current interpretation)", "fr": "Rapatriement des bénéfices sans retenue (interprétation actuelle)" },
+      "refs": ["cirpc", "dta-network"]
+    },
+    {
+      "id": "exchange",
+      "label": { "pt": "Câmbios", "en": "Exchange control", "fr": "Contrôle des changes" },
+      "company": { "pt": "IDE registado no BdM; dividendos transferíveis com o registo", "en": "FDI registered with the BdM; dividends transferable with registration", "fr": "IDE enregistré auprès de la BdM ; dividendes transférables avec l'enregistrement" },
+      "branch": { "pt": "Capital afecto registado no BdM; remessas segundo as regras cambiais", "en": "Allocated capital registered with the BdM; remittances under exchange rules", "fr": "Capital affecté enregistré auprès de la BdM ; transferts selon les règles de change" },
+      "refs": ["lei-11-2009", "aviso-3-gbm-2024"]
+    },
+    {
+      "id": "closure",
+      "label": { "pt": "Encerramento", "en": "Closure", "fr": "Fermeture" },
+      "company": { "pt": "Dissolução e liquidação da sociedade", "en": "Dissolution and liquidation of the company", "fr": "Dissolution et liquidation de la société" },
+      "branch": { "pt": "Cancelamento do registo da sucursal, em regra mais simples", "en": "Deregistration of the branch, usually simpler", "fr": "Radiation de la succursale, en règle plus simple" },
+      "refs": ["dl-1-2022"]
+    }
+  ]
+}

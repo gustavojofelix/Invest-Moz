@@ -1,0 +1,80 @@
+{
+  "incentives": [
+    {
+      "id": "class-k",
+      "when": [{ "field": "importsGoods", "op": "eq", "value": true }],
+      "then": {
+        "id": "class-k",
+        "title": { "pt": "Isenção na importação de equipamento (Classe K)", "en": "Import exemption for equipment (Class K)", "fr": "Exonération à l'importation d'équipements (Classe K)" },
+        "detail": {
+          "pt": "Isenção de direitos aduaneiros e de IVA na importação de bens de equipamento classificados na Classe K da Pauta.",
+          "en": "Exemption from customs duties and VAT on imports of capital equipment classified in Class K of the tariff.",
+          "fr": "Exonération des droits de douane et de la TVA à l'importation de biens d'équipement classés en Classe K du tarif."
+        },
+        "conditions": {
+          "pt": "Projecto com certificado de investimento; lista de equipamento aprovada ({{CLASS_K_SCOPE_DETAIL}}).",
+          "en": "Project holding an investment certificate; approved equipment list ({{CLASS_K_SCOPE_DETAIL}}).",
+          "fr": "Projet titulaire d'un certificat d'investissement ; liste d'équipements approuvée ({{CLASS_K_SCOPE_DETAIL}})."
+        },
+        "refs": ["lei-4-2009", "pauta"]
+      }
+    },
+    {
+      "id": "itc",
+      "when": [],
+      "then": {
+        "id": "itc",
+        "title": { "pt": "Crédito fiscal por investimento", "en": "Investment tax credit", "fr": "Crédit d'impôt à l'investissement" },
+        "detail": {
+          "pt": "Dedução à colecta de IRPC de 5% a 10% do investimento total, consoante a localização, durante 5 anos.",
+          "en": "Deduction from IRPC of 5% to 10% of the total investment, depending on location, for 5 years.",
+          "fr": "Déduction de l'IRPC de 5 % à 10 % de l'investissement total, selon la localisation, pendant 5 ans."
+        },
+        "conditions": {
+          "pt": "Localização em {{fact.province}} ({{ITC_RATE_BY_LOCATION}}); certificado de investimento; contabilidade organizada.",
+          "en": "Location in {{fact.province}} ({{ITC_RATE_BY_LOCATION}}); investment certificate; organised accounts.",
+          "fr": "Localisation à {{fact.province}} ({{ITC_RATE_BY_LOCATION}}) ; certificat d'investissement ; comptabilité régulière."
+        },
+        "refs": ["lei-4-2009", "cirpc"]
+      }
+    },
+    {
+      "id": "accelerated-depreciation",
+      "when": [],
+      "then": {
+        "id": "accelerated-depreciation",
+        "title": { "pt": "Amortizações aceleradas", "en": "Accelerated depreciation", "fr": "Amortissements accélérés" },
+        "detail": {
+          "pt": "Amortização acelerada de imóveis e equipamento novo afectos ao projecto.",
+          "en": "Accelerated depreciation of new buildings and equipment used in the project.",
+          "fr": "Amortissement accéléré des immeubles et équipements neufs affectés au projet."
+        },
+        "conditions": {
+          "pt": "Activos novos afectos à actividade ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+          "en": "New assets used in the business ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+          "fr": "Actifs neufs affectés à l'activité ({{ACCELERATED_DEPRECIATION_FACTOR}})."
+        },
+        "refs": ["lei-4-2009"]
+      }
+    },
+    {
+      "id": "training",
+      "when": [{ "field": "workers", "op": "gte", "value": 1 }],
+      "then": {
+        "id": "training",
+        "title": { "pt": "Dedução de despesas de formação", "en": "Training expense deduction", "fr": "Déduction des dépenses de formation" },
+        "detail": {
+          "pt": "Despesas com a formação profissional de trabalhadores moçambicanos dedutíveis com majoração.",
+          "en": "Vocational training expenses for Mozambican workers deductible with an uplift.",
+          "fr": "Dépenses de formation professionnelle des salariés mozambicains déductibles avec majoration."
+        },
+        "conditions": {
+          "pt": "Formação de trabalhadores moçambicanos; limite {{TRAINING_DEDUCTION_LIMIT}}.",
+          "en": "Training of Mozambican workers; limit {{TRAINING_DEDUCTION_LIMIT}}.",
+          "fr": "Formation de salariés mozambicains ; plafond {{TRAINING_DEDUCTION_LIMIT}}."
+        },
+        "refs": ["lei-4-2009"]
+      }
+    }
+  ]
+}

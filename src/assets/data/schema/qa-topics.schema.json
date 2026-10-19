@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "qa-topics.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "topics"
+  ],
+  "properties": {
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "refLabel",
+          "refId",
+          "intro"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/definitions/topic"
+          },
+          "label": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "refLabel": {
+            "type": "string",
+            "minLength": 1
+          },
+          "refId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intro": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          }
+        }
+      },
+      "minItems": 12,
+      "maxItems": 12
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "triggers": [
+    {
+      "id": "treaty",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "treaty", "op": "eq", "value": true }
+      ],
+      "then": {
+        "trigger": "treaty",
+        "severity": "info",
+        "fact": { "pt": "País do investidor: {{fact.country}}", "en": "Investor's country: {{fact.country}}", "fr": "Pays de l'investisseur : {{fact.country}}" },
+        "text": {
+          "pt": "Existe acordo para evitar a dupla tributação. Retenção sobre dividendos: {{fact.treatyRate}}, mediante prova de residência fiscal do sócio.",
+          "en": "A double tax treaty applies. Dividend withholding: {{fact.treatyRate}}, subject to proof of the shareholder's tax residence.",
+          "fr": "Une convention de non-double imposition s'applique. Retenue sur dividendes : {{fact.treatyRate}}, sur justificatif de résidence fiscale de l'associé."
+        },
+        "refs": ["dta-network", "cirpc"]
+      }
+    },
+    {
+      "id": "no-treaty",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "treaty", "op": "eq", "value": false }
+      ],
+      "then": {
+        "trigger": "treaty",
+        "severity": "attention",
+        "fact": { "pt": "País do investidor: {{fact.country}}", "en": "Investor's country: {{fact.country}}", "fr": "Pays de l'investisseur : {{fact.country}}" },
+        "text": {
+          "pt": "Sem acordo de dupla tributação: dividendos pagos ao exterior com retenção na fonte de 20%.",
+          "en": "No double tax treaty: dividends paid abroad bear 20% withholding tax.",
+          "fr": "Pas de convention fiscale : les dividendes versés à l'étranger supportent une retenue à la source de 20 %."
+        },
+        "refs": ["cirpc"]
+      }
+    },
+    {
+      "id": "shareholder-loan",
+      "when": [{ "field": "shareholderLoan", "op": "eq", "value": true }],
+      "then": {
+        "trigger": "loan",
+        "severity": "attention",
+        "fact": { "pt": "Empréstimo do accionista ou financiamento externo", "en": "Shareholder loan or external financing", "fr": "Prêt d'associé ou financement extérieur" },
+        "text": {
+          "pt": "Registo no Banco de Moçambique antes do desembolso; limiares de USD 5 milhões e USD 10 milhões determinam o procedimento junto do BdM. Subcapitalização: rácio 2:1 entre dívida a partes relacionadas e capital próprio para dedução dos juros.",
+          "en": "Registration with the Banco de Moçambique before disbursement; thresholds of USD 5 million and USD 10 million determine the BdM procedure. Thin capitalisation: 2:1 ratio of related-party debt to equity for interest deductibility.",
+          "fr": "Enregistrement auprès de la Banco de Moçambique avant décaissement ; des seuils de 5 et 10 millions USD déterminent la procédure auprès de la BdM. Sous-capitalisation : ratio 2:1 entre dette envers des parties liées et fonds propres pour la déductibilité des intérêts."
+        },
+        "refs": ["lei-11-2009", "aviso-4-gbm-2024", "cirpc"]
+      }
+    },
+    {
+      "id": "fees-abroad",
+      "when": [{ "field": "feesAbroad", "op": "eq", "value": true }],
+      "then": {
+        "trigger": "fees_abroad",
+        "severity": "attention",
+        "fact": { "pt": "Serviços, royalties ou assistência técnica pagos ao exterior", "en": "Services, royalties or technical assistance paid abroad", "fr": "Services, redevances ou assistance technique payés à l'étranger" },
+        "text": {
+          "pt": "Retenção na fonte de 20% (ou taxa do ADT), autoliquidação do IVA e documentos de suporte exigidos pelo banco para a transferência.",
+          "en": "20% withholding tax (or the treaty rate), VAT reverse charge and supporting documents required by the bank for the transfer.",
+          "fr": "Retenue à la source de 20 % (ou taux conventionnel), autoliquidation de la TVA et pièces justificatives exigées par la banque pour le transfert."
+        },
+        "refs": ["cirpc", "civa", "aviso-4-gbm-2024"]
+      }
+    },
+    {
+      "id": "temporary-import",
+      "when": [{ "field": "temporaryImport", "op": "eq", "value": true }],
+      "then": {
+        "trigger": "temporary_import",
+        "severity": "info",
+        "fact": { "pt": "Equipamento em importação temporária", "en": "Equipment under temporary import", "fr": "Équipement en admission temporaire" },
+        "text": {
+          "pt": "Taxa de utilização, garantia aduaneira e prazo fixado ({{TEMPORARY_IMPORT_PERIOD}}); a reexportação no prazo liberta a garantia.",
+          "en": "Usage fee, customs guarantee and a fixed period ({{TEMPORARY_IMPORT_PERIOD}}); re-export within the period releases the guarantee.",
+          "fr": "Redevance d'utilisation, garantie douanière et délai fixé ({{TEMPORARY_IMPORT_PERIOD}}) ; la réexportation dans le délai libère la garantie."
+        },
+        "refs": ["lei-11-2016", "pauta"]
+      }
+    },
+    {
+      "id": "quota-within",
+      "when": [{ "field": "quotaStatus", "op": "eq", "value": "within" }],
+      "then": {
+        "trigger": "quota",
+        "severity": "info",
+        "fact": {
+          "pt": "{{fact.foreignWorkers}} estrangeiros em {{fact.workers}} trabalhadores ({{fact.ratio}})",
+          "en": "{{fact.foreignWorkers}} foreign out of {{fact.workers}} workers ({{fact.ratio}})",
+          "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})"
+        },
+        "text": {
+          "pt": "A quota de trabalhadores estrangeiros varia entre {{fact.minQuota}} e {{fact.maxQuota}} consoante a dimensão da empresa ({{QUOTA_BAND_BY_SIZE}}). Contratações dentro da quota exigem comunicação; acima dela, autorização de trabalho.",
+          "en": "The foreign-worker quota ranges from {{fact.minQuota}} to {{fact.maxQuota}} depending on company size ({{QUOTA_BAND_BY_SIZE}}). Hires within the quota require notification; above it, a work permit.",
+          "fr": "Le quota de travailleurs étrangers varie de {{fact.minQuota}} à {{fact.maxQuota}} selon la taille de l'entreprise ({{QUOTA_BAND_BY_SIZE}}). Les embauches dans le quota exigent une communication ; au-delà, un permis de travail."
+        },
+        "refs": ["lei-13-2023", "dec-88-2024"]
+      }
+    },
+    {
+      "id": "quota-over",
+      "when": [{ "field": "quotaStatus", "op": "eq", "value": "over" }],
+      "then": {
+        "trigger": "quota",
+        "severity": "attention",
+        "fact": {
+          "pt": "{{fact.foreignWorkers}} estrangeiros em {{fact.workers}} trabalhadores ({{fact.ratio}})",
+          "en": "{{fact.foreignWorkers}} foreign out of {{fact.workers}} workers ({{fact.ratio}})",
+          "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})"
+        },
+        "text": {
+          "pt": "Acima do máximo de {{fact.maxQuota}} da quota: os trabalhadores excedentes precisam de autorização de trabalho fora da quota, com justificação técnica e plano de formação de moçambicanos.",
+          "en": "Above the {{fact.maxQuota}} quota ceiling: the excess workers need out-of-quota work permits, with technical justification and a plan to train Mozambicans.",
+          "fr": "Au-delà du plafond de {{fact.maxQuota}} : les travailleurs en excédent nécessitent un permis de travail hors quota, avec justification technique et plan de formation de Mozambicains."
+        },
+        "refs": ["lei-13-2023", "dec-88-2024"]
+      }
+    },
+    {
+      "id": "exports",
+      "when": [{ "field": "exports", "op": "eq", "value": true }],
+      "then": {
+        "trigger": "exports",
+        "severity": "info",
+        "fact": { "pt": "Receitas de exportação", "en": "Export proceeds", "fr": "Recettes d'exportation" },
+        "text": {
+          "pt": "As receitas de exportação seguem as regras cambiais de repatriamento e conversão ({{EXPORT_PROCEEDS_RULE}}); prever contas em moeda estrangeira e o calendário de recebimentos.",
+          "en": "Export proceeds follow the exchange rules on repatriation and conversion ({{EXPORT_PROCEEDS_RULE}}); plan foreign-currency accounts and the collection schedule.",
+          "fr": "Les recettes d'exportation suivent les règles de change sur le rapatriement et la conversion ({{EXPORT_PROCEEDS_RULE}}) ; prévoir des comptes en devises et le calendrier d'encaissement."
+        },
+        "refs": ["lei-11-2009", "aviso-4-gbm-2024"]
+      }
+    },
+    {
+      "id": "land",
+      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "then": {
+        "trigger": "land",
+        "severity": "attention",
+        "fact": { "pt": "Precisa de terra", "en": "Land needed", "fr": "Besoin de terrain" },
+        "text": {
+          "pt": "O DUAT exige consulta prévia às comunidades locais e um plano de exploração; a terra não se compra nem se vende.",
+          "en": "The DUAT requires prior consultation with local communities and a land use plan; land cannot be bought or sold.",
+          "fr": "Le DUAT exige une consultation préalable des communautés locales et un plan d'exploitation ; la terre ne s'achète ni ne se vend."
+        },
+        "refs": ["lei-19-97"]
+      }
+    },
+    {
+      "id": "local-content",
+      "when": [{ "field": "sector", "op": "eq", "value": "oil_gas" }],
+      "then": {
+        "trigger": "local_content",
+        "severity": "attention",
+        "fact": { "pt": "Fornecedor do sector petrolífero", "en": "Petroleum sector supplier", "fr": "Fournisseur du secteur pétrolier" },
+        "text": {
+          "pt": "Preferência por bens e serviços moçambicanos ({{LOCAL_CONTENT_PRICE_MARGIN}}) e parcerias com empresas moçambicanas ({{LOCAL_PARTNER_MIN_SHARE}}).",
+          "en": "Preference for Mozambican goods and services ({{LOCAL_CONTENT_PRICE_MARGIN}}) and partnerships with Mozambican companies ({{LOCAL_PARTNER_MIN_SHARE}}).",
+          "fr": "Préférence pour les biens et services mozambicains ({{LOCAL_CONTENT_PRICE_MARGIN}}) et partenariats avec des entreprises mozambicaines ({{LOCAL_PARTNER_MIN_SHARE}})."
+        },
+        "refs": ["lei-21-2014", "dec-9-2017", "dec-70-2017"]
+      }
+    }
+  ],
+  "watchPoints": [
+    {
+      "id": "duat-expansion",
+      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "O DUAT para expansão pode levar até 24 meses: iniciar a segunda fase do pedido de terra em paralelo com a instalação.",
+          "en": "The DUAT for expansion can take up to 24 months: start the second-phase land request in parallel with set-up.",
+          "fr": "Le DUAT pour l'extension peut prendre jusqu'à 24 mois : lancer la demande de terrain de la deuxième phase en parallèle de l'installation."
+        },
+        "refs": ["lei-19-97"]
+      }
+    },
+    {
+      "id": "loan-before-disbursement",
+      "when": [{ "field": "shareholderLoan", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "Registar o empréstimo no Banco de Moçambique antes do primeiro desembolso; sem registo, o reembolso e os juros podem não ser transferíveis.",
+          "en": "Register the loan with the Banco de Moçambique before the first disbursement; without registration, repayments and interest may not be transferable.",
+          "fr": "Enregistrer le prêt auprès de la Banco de Moçambique avant le premier décaissement ; sans enregistrement, remboursements et intérêts peuvent ne pas être transférables."
+        },
+        "refs": ["lei-11-2009"]
+      }
+    },
+    {
+      "id": "transfer-pricing",
+      "when": [{ "field": "relatedParties", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "Operações com partes relacionadas (empréstimos, serviços, royalties): documentar preços e benefício desde o primeiro ano; o Modelo 20 inclui o anexo de preços de transferência.",
+          "en": "Related-party transactions (loans, services, royalties): document prices and benefit from year one; Modelo 20 includes the transfer-pricing annex.",
+          "fr": "Opérations avec des parties liées (prêts, services, redevances) : documenter les prix et le bénéfice dès la première année ; le Modelo 20 inclut l'annexe prix de transfert."
+        },
+        "refs": ["m20", "cirpc"]
+      }
+    },
+    {
+      "id": "branch-liability",
+      "when": [{ "field": "vehicle", "op": "eq", "value": "branch" }],
+      "then": {
+        "text": {
+          "pt": "Com sucursal, a sociedade-mãe responde sem limite pelas obrigações em Moçambique; avaliar seguros e garantias de desempenho dos contratos.",
+          "en": "With a branch, the parent is liable without limit for obligations in Mozambique; review insurance and contract performance bonds.",
+          "fr": "Avec une succursale, la société mère répond sans limite des obligations au Mozambique ; examiner assurances et garanties de bonne exécution."
+        },
+        "refs": ["dl-1-2022"]
+      }
+    },
+    {
+      "id": "fdi-below-minimum",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "fdiMinimumMet", "op": "eq", "value": false }
+      ],
+      "then": {
+        "text": {
+          "pt": "Investimento abaixo do IDE mínimo de MZN 6,5 milhões: sem garantia de exportação de lucros. Ponderar o montante de capital a registar.",
+          "en": "Investment below the MZN 6.5 million minimum FDI: no export-of-profits guarantee. Consider the amount of capital to register.",
+          "fr": "Investissement inférieur à l'IDE minimum de 6,5 millions de MZN : pas de garantie d'exportation des bénéfices. Réfléchir au montant de capital à enregistrer."
+        },
+        "refs": ["lei-8-2023"]
+      }
+    },
+    {
+      "id": "quota-over",
+      "when": [{ "field": "quotaStatus", "op": "eq", "value": "over" }],
+      "then": {
+        "text": {
+          "pt": "Peso de trabalhadores estrangeiros acima da quota: planear a formação e substituição por quadros moçambicanos.",
+          "en": "Share of foreign workers above the quota: plan training and replacement by Mozambican staff.",
+          "fr": "Part de travailleurs étrangers au-delà du quota : planifier la formation et le remplacement par des cadres mozambicains."
+        },
+        "refs": ["lei-13-2023"]
+      }
+    },
+    {
+      "id": "temporary-import-deadline",
+      "when": [{ "field": "temporaryImport", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "Controlar o prazo da importação temporária: fora do prazo, a garantia pode ser executada e os direitos tornam-se devidos.",
+          "en": "Track the temporary import period: once it lapses, the guarantee may be called and duties become payable.",
+          "fr": "Suivre le délai d'admission temporaire : à son expiration, la garantie peut être appelée et les droits deviennent exigibles."
+        },
+        "refs": ["lei-11-2016"]
+      }
+    },
+    {
+      "id": "cabo-delgado",
+      "when": [{ "field": "province", "op": "eq", "value": "cabo_delgado" }],
+      "then": {
+        "text": {
+          "pt": "Cabo Delgado: avaliar a situação de segurança, seguros e logística de acesso; prazos dos operadores de GNL podem mudar.",
+          "en": "Cabo Delgado: assess security, insurance and access logistics; LNG operators' timelines may shift.",
+          "fr": "Cabo Delgado : évaluer la sécurité, les assurances et la logistique d'accès ; les calendriers des opérateurs de GNL peuvent évoluer."
+        },
+        "refs": ["lei-21-2014"]
+      }
+    },
+    {
+      "id": "coastal",
+      "when": [{ "field": "sector", "op": "eq", "value": "tourism" }],
+      "then": {
+        "text": {
+          "pt": "Zona costeira: confirmar as zonas de protecção parcial e restrições de construção junto ao mar ({{COASTAL_PROTECTION_RULE}}).",
+          "en": "Coastal area: confirm the partial protection zones and building restrictions near the shore ({{COASTAL_PROTECTION_RULE}}).",
+          "fr": "Zone côtière : vérifier les zones de protection partielle et les restrictions de construction en bord de mer ({{COASTAL_PROTECTION_RULE}})."
+        },
+        "refs": ["lei-19-97"]
+      }
+    },
+    {
+      "id": "exports",
+      "when": [{ "field": "exports", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "Exportação: confirmar as regras de repatriamento e conversão das receitas antes de fechar contratos de venda.",
+          "en": "Exports: confirm the rules on repatriation and conversion of proceeds before signing sales contracts.",
+          "fr": "Export : confirmer les règles de rapatriement et de conversion des recettes avant de signer les contrats de vente."
+        },
+        "refs": ["aviso-4-gbm-2024"]
+      }
+    }
+  ]
+}

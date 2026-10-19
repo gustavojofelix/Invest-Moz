@@ -1,0 +1,167 @@
+{
+  "licences": [
+    {
+      "id": "bau",
+      "when": [],
+      "then": {
+        "id": "bau",
+        "kind": "bau",
+        "title": { "pt": "Licenciamento via BAU", "en": "Licensing via the BAU", "fr": "Autorisation via le BAU" },
+        "detail": {
+          "pt": "Balcão de Atendimento Único: ponto de entrada para o licenciamento da actividade em {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
+          "en": "One-stop shop (Balcão de Atendimento Único): entry point for activity licensing in {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
+          "fr": "Guichet unique (Balcão de Atendimento Único) : point d'entrée pour l'autorisation de l'activité à {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}})."
+        },
+        "authority": { "pt": "BAU provincial", "en": "Provincial BAU", "fr": "BAU provincial" },
+        "refs": ["dec-41-2026"]
+      }
+    },
+    {
+      "id": "sector-agro",
+      "when": [{ "field": "sector", "op": "eq", "value": "agro_industry" }],
+      "then": {
+        "id": "sector",
+        "kind": "sector",
+        "title": { "pt": "Licença industrial", "en": "Industrial licence", "fr": "Licence industrielle" },
+        "detail": {
+          "pt": "Unidade de processamento: licença industrial e vistoria das instalações antes do início da laboração.",
+          "en": "Processing plant: industrial licence and inspection of the premises before operations start.",
+          "fr": "Unité de transformation : licence industrielle et inspection des installations avant le démarrage."
+        },
+        "authority": { "pt": "Entidade do sector da indústria", "en": "Industry sector authority", "fr": "Autorité du secteur de l'industrie" },
+        "refs": ["dec-41-2026"]
+      }
+    },
+    {
+      "id": "sector-energy",
+      "when": [{ "field": "sector", "op": "eq", "value": "energy" }],
+      "then": {
+        "id": "sector",
+        "kind": "sector",
+        "title": { "pt": "Licença sectorial de energia e construção", "en": "Energy and construction sector licence", "fr": "Licence sectorielle énergie et construction" },
+        "detail": {
+          "pt": "Actividades EPC: requisitos de licenciamento de energia e de empreiteiro ({{SECTOR_LICENCE_MATRIX}}).",
+          "en": "EPC activities: energy and contractor licensing requirements ({{SECTOR_LICENCE_MATRIX}}).",
+          "fr": "Activités EPC : exigences d'autorisation en énergie et en entreprise de travaux ({{SECTOR_LICENCE_MATRIX}})."
+        },
+        "authority": { "pt": "Entidades dos sectores da energia e obras públicas", "en": "Energy and public works authorities", "fr": "Autorités de l'énergie et des travaux publics" },
+        "refs": ["dec-41-2026"]
+      }
+    },
+    {
+      "id": "sector-tourism",
+      "when": [{ "field": "sector", "op": "eq", "value": "tourism" }],
+      "then": {
+        "id": "sector",
+        "kind": "sector",
+        "title": { "pt": "Licença de turismo", "en": "Tourism licence", "fr": "Licence touristique" },
+        "detail": {
+          "pt": "Estabelecimento de alojamento turístico: licenciamento e classificação ({{SECTOR_LICENCE_MATRIX}}).",
+          "en": "Tourist accommodation: licensing and classification ({{SECTOR_LICENCE_MATRIX}}).",
+          "fr": "Hébergement touristique : autorisation et classement ({{SECTOR_LICENCE_MATRIX}})."
+        },
+        "authority": { "pt": "Entidade do sector do turismo", "en": "Tourism sector authority", "fr": "Autorité du secteur du tourisme" },
+        "refs": ["dec-41-2026"]
+      }
+    },
+    {
+      "id": "sector-logistics",
+      "when": [{ "field": "sector", "op": "eq", "value": "logistics" }],
+      "then": {
+        "id": "sector",
+        "kind": "sector",
+        "title": { "pt": "Licenças de transporte e armazenagem", "en": "Transport and warehousing licences", "fr": "Licences de transport et d'entreposage" },
+        "detail": {
+          "pt": "Frota de transporte de mercadorias e armazéns: licenças por actividade ({{SECTOR_LICENCE_MATRIX}}).",
+          "en": "Freight fleet and warehouses: licences per activity ({{SECTOR_LICENCE_MATRIX}}).",
+          "fr": "Flotte de transport de marchandises et entrepôts : licences par activité ({{SECTOR_LICENCE_MATRIX}})."
+        },
+        "authority": { "pt": "Entidade do sector dos transportes", "en": "Transport sector authority", "fr": "Autorité du secteur des transports" },
+        "refs": ["dec-41-2026"]
+      }
+    },
+    {
+      "id": "sector-oil-gas",
+      "when": [{ "field": "sector", "op": "eq", "value": "oil_gas" }],
+      "then": {
+        "id": "sector",
+        "kind": "sector",
+        "title": { "pt": "Qualificação no sector petrolífero", "en": "Petroleum sector qualification", "fr": "Qualification dans le secteur pétrolier" },
+        "detail": {
+          "pt": "Licença da actividade de serviços e qualificação como fornecedor dos operadores de GNL.",
+          "en": "Services activity licence and qualification as a supplier to LNG operators.",
+          "fr": "Licence de l'activité de services et qualification comme fournisseur des opérateurs de GNL."
+        },
+        "authority": { "pt": "INP · operadores", "en": "INP · operators", "fr": "INP · opérateurs" },
+        "refs": ["lei-21-2014", "dec-41-2026"]
+      }
+    },
+    {
+      "id": "env-a",
+      "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
+      "then": {
+        "id": "environmental",
+        "kind": "environmental",
+        "category": "A",
+        "title": { "pt": "Licença ambiental", "en": "Environmental licence", "fr": "Licence environnementale" },
+        "detail": {
+          "pt": "Categoria provável A: estudo de impacto ambiental completo e consulta pública.",
+          "en": "Likely category A: full environmental impact study and public consultation.",
+          "fr": "Catégorie probable A : étude d'impact environnemental complète et consultation publique."
+        },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "env-b",
+      "when": [{ "field": "envCategory", "op": "eq", "value": "B" }],
+      "then": {
+        "id": "environmental",
+        "kind": "environmental",
+        "category": "B",
+        "title": { "pt": "Licença ambiental", "en": "Environmental licence", "fr": "Licence environnementale" },
+        "detail": {
+          "pt": "Categoria provável B: estudo ambiental simplificado; 2–4 meses.",
+          "en": "Likely category B: simplified environmental study; 2–4 months.",
+          "fr": "Catégorie probable B : étude environnementale simplifiée ; 2 à 4 mois."
+        },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "env-c",
+      "when": [{ "field": "envCategory", "op": "eq", "value": "C" }],
+      "then": {
+        "id": "environmental",
+        "kind": "environmental",
+        "category": "C",
+        "title": { "pt": "Licença ambiental", "en": "Environmental licence", "fr": "Licence environnementale" },
+        "detail": {
+          "pt": "Categoria provável C: procedimento simplificado ou dispensa, consoante as instalações.",
+          "en": "Likely category C: simplified procedure or exemption, depending on the premises.",
+          "fr": "Catégorie probable C : procédure simplifiée ou dispense, selon les installations."
+        },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "duat",
+      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "then": {
+        "id": "duat",
+        "kind": "duat",
+        "title": { "pt": "DUAT — direito de uso e aproveitamento da terra", "en": "DUAT — land use and benefit right", "fr": "DUAT — droit d'usage et d'exploitation de la terre" },
+        "detail": {
+          "pt": "A terra é do Estado e não se vende: o projecto obtém um direito de uso, após consulta às comunidades locais. Para expansão, até 24 meses.",
+          "en": "Land belongs to the State and cannot be sold: the project obtains a use right, after consulting local communities. For expansion, up to 24 months.",
+          "fr": "La terre appartient à l'État et ne se vend pas : le projet obtient un droit d'usage, après consultation des communautés locales. Pour une extension, jusqu'à 24 mois."
+        },
+        "authority": { "pt": "Serviços de cadastro · governo provincial", "en": "Land registry services · provincial government", "fr": "Services du cadastre · gouvernement provincial" },
+        "refs": ["lei-19-97"]
+      }
+    }
+  ]
+}

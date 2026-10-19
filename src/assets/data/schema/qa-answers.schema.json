@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "qa-answers.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "answers"
+  ],
+  "properties": {
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "topic",
+          "question",
+          "keywords",
+          "body",
+          "refs",
+          "whenToTalk"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z_]+-\\d+$"
+          },
+          "topic": {
+            "$ref": "common.schema.json#/definitions/topic"
+          },
+          "question": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "keywords": {
+            "$ref": "common.schema.json#/definitions/localizedKeywords"
+          },
+          "body": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "whenToTalk": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          }
+        }
+      }
+    }
+  }
+}

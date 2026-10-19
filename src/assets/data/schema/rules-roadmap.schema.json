@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules-roadmap.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "steps",
+    "timeToOperate"
+  ],
+  "properties": {
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "when",
+          "then"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/condition"
+            }
+          },
+          "then": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "phase",
+              "title",
+              "authority",
+              "duration",
+              "note",
+              "critical",
+              "refs"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "phase": {
+                "enum": [
+                  "explore",
+                  "establish",
+                  "operate"
+                ]
+              },
+              "title": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "authority": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "duration": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "note": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "critical": {
+                "type": "boolean"
+              },
+              "refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "timeToOperate": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "when",
+          "then"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/condition"
+            }
+          },
+          "then": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

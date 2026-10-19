@@ -1,0 +1,553 @@
+{
+  "countries": [
+    {
+      "code": "AO",
+      "name": {
+        "pt": "Angola",
+        "en": "Angola",
+        "fr": "Angola"
+      },
+      "treaty": false
+    },
+    {
+      "code": "AU",
+      "name": {
+        "pt": "Austrália",
+        "en": "Australia",
+        "fr": "Australie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "AT",
+      "name": {
+        "pt": "Áustria",
+        "en": "Austria",
+        "fr": "Autriche"
+      },
+      "treaty": false
+    },
+    {
+      "code": "BE",
+      "name": {
+        "pt": "Bélgica",
+        "en": "Belgium",
+        "fr": "Belgique"
+      },
+      "treaty": false
+    },
+    {
+      "code": "BW",
+      "name": {
+        "pt": "Botsuana",
+        "en": "Botswana",
+        "fr": "Botswana"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "BR",
+      "name": {
+        "pt": "Brasil",
+        "en": "Brazil",
+        "fr": "Brésil"
+      },
+      "treaty": false
+    },
+    {
+      "code": "CA",
+      "name": {
+        "pt": "Canadá",
+        "en": "Canada",
+        "fr": "Canada"
+      },
+      "treaty": false
+    },
+    {
+      "code": "CN",
+      "name": {
+        "pt": "China",
+        "en": "China",
+        "fr": "Chine"
+      },
+      "treaty": false
+    },
+    {
+      "code": "KM",
+      "name": {
+        "pt": "Comores",
+        "en": "Comoros",
+        "fr": "Comores"
+      },
+      "treaty": false
+    },
+    {
+      "code": "CD",
+      "name": {
+        "pt": "República Democrática do Congo",
+        "en": "Democratic Republic of the Congo",
+        "fr": "République démocratique du Congo"
+      },
+      "treaty": false
+    },
+    {
+      "code": "DK",
+      "name": {
+        "pt": "Dinamarca",
+        "en": "Denmark",
+        "fr": "Danemark"
+      },
+      "treaty": false
+    },
+    {
+      "code": "EG",
+      "name": {
+        "pt": "Egipto",
+        "en": "Egypt",
+        "fr": "Égypte"
+      },
+      "treaty": false
+    },
+    {
+      "code": "SZ",
+      "name": {
+        "pt": "Essuatíni",
+        "en": "Eswatini",
+        "fr": "Eswatini"
+      },
+      "treaty": false
+    },
+    {
+      "code": "ET",
+      "name": {
+        "pt": "Etiópia",
+        "en": "Ethiopia",
+        "fr": "Éthiopie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "FI",
+      "name": {
+        "pt": "Finlândia",
+        "en": "Finland",
+        "fr": "Finlande"
+      },
+      "treaty": false
+    },
+    {
+      "code": "FR",
+      "name": {
+        "pt": "França",
+        "en": "France",
+        "fr": "France"
+      },
+      "treaty": false
+    },
+    {
+      "code": "DE",
+      "name": {
+        "pt": "Alemanha",
+        "en": "Germany",
+        "fr": "Allemagne"
+      },
+      "treaty": false
+    },
+    {
+      "code": "GH",
+      "name": {
+        "pt": "Gana",
+        "en": "Ghana",
+        "fr": "Ghana"
+      },
+      "treaty": false
+    },
+    {
+      "code": "GR",
+      "name": {
+        "pt": "Grécia",
+        "en": "Greece",
+        "fr": "Grèce"
+      },
+      "treaty": false
+    },
+    {
+      "code": "HK",
+      "name": {
+        "pt": "Hong Kong",
+        "en": "Hong Kong",
+        "fr": "Hong Kong"
+      },
+      "treaty": false
+    },
+    {
+      "code": "IN",
+      "name": {
+        "pt": "Índia",
+        "en": "India",
+        "fr": "Inde"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "ID",
+      "name": {
+        "pt": "Indonésia",
+        "en": "Indonesia",
+        "fr": "Indonésie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "IE",
+      "name": {
+        "pt": "Irlanda",
+        "en": "Ireland",
+        "fr": "Irlande"
+      },
+      "treaty": false
+    },
+    {
+      "code": "IL",
+      "name": {
+        "pt": "Israel",
+        "en": "Israel",
+        "fr": "Israël"
+      },
+      "treaty": false
+    },
+    {
+      "code": "IT",
+      "name": {
+        "pt": "Itália",
+        "en": "Italy",
+        "fr": "Italie"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "JP",
+      "name": {
+        "pt": "Japão",
+        "en": "Japan",
+        "fr": "Japon"
+      },
+      "treaty": false
+    },
+    {
+      "code": "KE",
+      "name": {
+        "pt": "Quénia",
+        "en": "Kenya",
+        "fr": "Kenya"
+      },
+      "treaty": false
+    },
+    {
+      "code": "LS",
+      "name": {
+        "pt": "Lesoto",
+        "en": "Lesotho",
+        "fr": "Lesotho"
+      },
+      "treaty": false
+    },
+    {
+      "code": "LU",
+      "name": {
+        "pt": "Luxemburgo",
+        "en": "Luxembourg",
+        "fr": "Luxembourg"
+      },
+      "treaty": false
+    },
+    {
+      "code": "MO",
+      "name": {
+        "pt": "Macau",
+        "en": "Macau",
+        "fr": "Macao"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "MG",
+      "name": {
+        "pt": "Madagáscar",
+        "en": "Madagascar",
+        "fr": "Madagascar"
+      },
+      "treaty": false
+    },
+    {
+      "code": "MW",
+      "name": {
+        "pt": "Malawi",
+        "en": "Malawi",
+        "fr": "Malawi"
+      },
+      "treaty": false
+    },
+    {
+      "code": "MY",
+      "name": {
+        "pt": "Malásia",
+        "en": "Malaysia",
+        "fr": "Malaisie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "MU",
+      "name": {
+        "pt": "Maurícias",
+        "en": "Mauritius",
+        "fr": "Maurice"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "MA",
+      "name": {
+        "pt": "Marrocos",
+        "en": "Morocco",
+        "fr": "Maroc"
+      },
+      "treaty": false
+    },
+    {
+      "code": "NA",
+      "name": {
+        "pt": "Namíbia",
+        "en": "Namibia",
+        "fr": "Namibie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "NL",
+      "name": {
+        "pt": "Países Baixos",
+        "en": "Netherlands",
+        "fr": "Pays-Bas"
+      },
+      "treaty": false
+    },
+    {
+      "code": "NG",
+      "name": {
+        "pt": "Nigéria",
+        "en": "Nigeria",
+        "fr": "Nigeria"
+      },
+      "treaty": false
+    },
+    {
+      "code": "NO",
+      "name": {
+        "pt": "Noruega",
+        "en": "Norway",
+        "fr": "Norvège"
+      },
+      "treaty": false
+    },
+    {
+      "code": "PL",
+      "name": {
+        "pt": "Polónia",
+        "en": "Poland",
+        "fr": "Pologne"
+      },
+      "treaty": false
+    },
+    {
+      "code": "PT",
+      "name": {
+        "pt": "Portugal",
+        "en": "Portugal",
+        "fr": "Portugal"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "QA",
+      "name": {
+        "pt": "Catar",
+        "en": "Qatar",
+        "fr": "Qatar"
+      },
+      "treaty": false
+    },
+    {
+      "code": "RW",
+      "name": {
+        "pt": "Ruanda",
+        "en": "Rwanda",
+        "fr": "Rwanda"
+      },
+      "treaty": false
+    },
+    {
+      "code": "SA",
+      "name": {
+        "pt": "Arábia Saudita",
+        "en": "Saudi Arabia",
+        "fr": "Arabie saoudite"
+      },
+      "treaty": false
+    },
+    {
+      "code": "SC",
+      "name": {
+        "pt": "Seicheles",
+        "en": "Seychelles",
+        "fr": "Seychelles"
+      },
+      "treaty": false
+    },
+    {
+      "code": "SG",
+      "name": {
+        "pt": "Singapura",
+        "en": "Singapore",
+        "fr": "Singapour"
+      },
+      "treaty": false
+    },
+    {
+      "code": "ZA",
+      "name": {
+        "pt": "África do Sul",
+        "en": "South Africa",
+        "fr": "Afrique du Sud"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "KR",
+      "name": {
+        "pt": "Coreia do Sul",
+        "en": "South Korea",
+        "fr": "Corée du Sud"
+      },
+      "treaty": false
+    },
+    {
+      "code": "ES",
+      "name": {
+        "pt": "Espanha",
+        "en": "Spain",
+        "fr": "Espagne"
+      },
+      "treaty": false
+    },
+    {
+      "code": "SE",
+      "name": {
+        "pt": "Suécia",
+        "en": "Sweden",
+        "fr": "Suède"
+      },
+      "treaty": false
+    },
+    {
+      "code": "CH",
+      "name": {
+        "pt": "Suíça",
+        "en": "Switzerland",
+        "fr": "Suisse"
+      },
+      "treaty": false
+    },
+    {
+      "code": "TZ",
+      "name": {
+        "pt": "Tanzânia",
+        "en": "Tanzania",
+        "fr": "Tanzanie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "TH",
+      "name": {
+        "pt": "Tailândia",
+        "en": "Thailand",
+        "fr": "Thaïlande"
+      },
+      "treaty": false
+    },
+    {
+      "code": "TR",
+      "name": {
+        "pt": "Turquia",
+        "en": "Turkey",
+        "fr": "Turquie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "AE",
+      "name": {
+        "pt": "Emirados Árabes Unidos",
+        "en": "United Arab Emirates",
+        "fr": "Émirats arabes unis"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "GB",
+      "name": {
+        "pt": "Reino Unido",
+        "en": "United Kingdom",
+        "fr": "Royaume-Uni"
+      },
+      "treaty": false
+    },
+    {
+      "code": "US",
+      "name": {
+        "pt": "Estados Unidos",
+        "en": "United States",
+        "fr": "États-Unis"
+      },
+      "treaty": false
+    },
+    {
+      "code": "VN",
+      "name": {
+        "pt": "Vietname",
+        "en": "Vietnam",
+        "fr": "Viêt Nam"
+      },
+      "treaty": true,
+      "status": "illustrative"
+    },
+    {
+      "code": "ZM",
+      "name": {
+        "pt": "Zâmbia",
+        "en": "Zambia",
+        "fr": "Zambie"
+      },
+      "treaty": false
+    },
+    {
+      "code": "ZW",
+      "name": {
+        "pt": "Zimbabwe",
+        "en": "Zimbabwe",
+        "fr": "Zimbabwe"
+      },
+      "treaty": false
+    }
+  ]
+}

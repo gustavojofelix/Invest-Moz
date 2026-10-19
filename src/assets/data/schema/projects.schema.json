@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "projects.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "projects"
+  ],
+  "properties": {
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ref",
+          "example",
+          "title",
+          "sector",
+          "summary",
+          "input"
+        ],
+        "properties": {
+          "ref": {
+            "type": "string",
+            "pattern": "^TA-IM-EX\\d{2}$"
+          },
+          "example": {
+            "const": true
+          },
+          "title": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "sector": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "summary": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "input": {
+            "$ref": "common.schema.json#/definitions/projectInput"
+          }
+        }
+      },
+      "minItems": 5
+    }
+  }
+}

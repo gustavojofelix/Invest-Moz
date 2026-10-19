@@ -1,0 +1,98 @@
+{
+  "$comment": "Every {{UPPER_SNAKE}} placeholder used in the data. Descriptions are for Tax Advisory's review (Portuguese). scripts/validate-data.mjs fails if a placeholder is used but not listed here; scripts/content-to-confirm.mjs regenerates CONTENT_TO_CONFIRM.md.",
+  "groups": [
+    {
+      "title": "Sociedades e licenciamento",
+      "items": {
+        "SAS_REQUIREMENTS": "Confirmar se a forma SAS existe ao abrigo do DL 1/2022 e quais os requisitos.",
+        "MIN_SHARE_CAPITAL": "Capital social mínimo para Lda, SA e SAS.",
+        "FOREIGN_OWNERSHIP_SECTOR_RESTRICTIONS": "Sectores com limites à participação estrangeira ou exigência de participação nacional.",
+        "FOREIGN_DOCS_LEGALISATION": "Legalização e tradução exigidas para documentos de sócios estrangeiros.",
+        "BRANCH_REGISTRATION_TIME": "Prazo indicativo para registo de sucursal e obtenção do NUIT.",
+        "BRANCH_PROFIT_REMITTANCE_TAX": "Tratamento fiscal da remessa de lucros da sucursal para a sede.",
+        "AUDIT_REQUIREMENT_THRESHOLD": "Critérios de dimensão que tornam obrigatória a auditoria de contas.",
+        "BAU_SERVICES_BY_PROVINCE": "Serviços efectivamente prestados por cada BAU provincial.",
+        "SECTOR_LICENCE_MATRIX": "Actividades sujeitas a licença sectorial e entidade competente (Dec. 41/2026).",
+        "SECTOR_LICENCE_TIME": "Prazo indicativo das licenças sectoriais.",
+        "PENALTIES_UNLICENSED_ACTIVITY": "Multas e medidas por exercício de actividade sem licença."
+      }
+    },
+    {
+      "title": "Investimento e APIEX",
+      "items": {
+        "APIEX_APPROVAL_THRESHOLDS": "Limiares de montante que determinam a entidade competente para aprovar o projecto (Lei 8/2023).",
+        "APIEX_REGISTRATION_THRESHOLD": "Se o registo na APIEX é obrigatório e a partir de que montante.",
+        "APIEX_REPORT_DATES": "Datas de entrega dos relatórios semestrais de progresso à APIEX.",
+        "PROJECT_IMPLEMENTATION_DEADLINE": "Prazo para iniciar a implementação após a emissão do certificado de investimento.",
+        "SCOPE_DEC_8_2024": "Âmbito do Decreto n.º 8/2024."
+      }
+    },
+    {
+      "title": "Impostos e benefícios fiscais",
+      "items": {
+        "TREATY_DIVIDEND_RATES": "Taxas de retenção sobre dividendos nos ADT (excepto África do Sul, 8%/15%): Portugal, Índia, Maurícias, EAU, Itália, Macau, Botswana, Vietname.",
+        "DTA_RELIEF_PROCEDURE": "Procedimento e formulário para comprovar a residência fiscal e aplicar o ADT.",
+        "DTA_COUNTRY_LIST": "Lista de ADT em vigor.",
+        "WHT_INTEREST_RATE": "Taxa de retenção sobre juros pagos ao exterior.",
+        "VAT_MONTHLY_RETURN_DEADLINE": "Prazo legal da declaração periódica e pagamento do IVA (o calendário usa, a título indicativo, o último dia útil do mês).",
+        "IRPC_PAYMENT_ON_ACCOUNT_BASIS": "Dia exacto e base de cálculo dos pagamentos por conta (Maio, Julho, Setembro).",
+        "ITC_RATE_BY_LOCATION": "Correspondência entre localizações e a taxa do crédito fiscal (5% a 10%).",
+        "ACCELERATED_DEPRECIATION_FACTOR": "Taxa ou factor de amortização acelerada (Lei 4/2009).",
+        "TRAINING_DEDUCTION_LIMIT": "Limite da dedução de despesas de formação de trabalhadores moçambicanos.",
+        "CLASS_K_SCOPE_DETAIL": "Bens incluídos e excluídos da Classe K."
+      }
+    },
+    {
+      "title": "Trabalho e imigração",
+      "items": {
+        "QUOTA_BAND_BY_SIZE": "Quota aplicável a cada dimensão de empresa, dentro do intervalo de 5% a 15%.",
+        "QUOTA_COMMUNICATION_DEADLINE": "Prazo para comunicar contratação de estrangeiro dentro da quota.",
+        "SHORT_TERM_WORK_REGIME": "Regime e duração do trabalho de curta duração de estrangeiros.",
+        "FOREIGN_CONTRACT_MAX_TERM": "Duração máxima e renovação dos contratos de trabalhadores estrangeiros.",
+        "INSS_CONTRIBUTION_RATES": "Taxas de contribuição para o INSS (entidade empregadora e trabalhador).",
+        "INSS_FOREIGN_WORKER_EXEMPTION": "Isenção do INSS para estrangeiros cobertos por segurança social no país de origem.",
+        "WORK_PERMIT_PROCESSING_TIME": "Prazo de tramitação da autorização de trabalho.",
+        "WORK_VISA_PROCESSING_TIME": "Prazo de emissão do visto de trabalho.",
+        "DIRE_PROCESSING_TIME": "Prazo de emissão do DIRE.",
+        "WORK_PERMIT_VALIDITY": "Validade da autorização de trabalho.",
+        "DIRE_VALIDITY": "Validade do DIRE.",
+        "RENEWAL_LEAD_TIME": "Antecedência recomendada para renovar autorização de trabalho e DIRE."
+      }
+    },
+    {
+      "title": "Câmbios e alfândegas",
+      "items": {
+        "EXPORT_PROCEEDS_RULE": "Regras de repatriamento e conversão das receitas de exportação.",
+        "TEMPORARY_IMPORT_PERIOD": "Prazo máximo da importação temporária.",
+        "TEMP_IMPORT_PROCESSING_TIME": "Prazo de tramitação do pedido de importação temporária."
+      }
+    },
+    {
+      "title": "Terra, ambiente e zonas",
+      "items": {
+        "ENV_LICENCE_CAT_A_DURATION": "Prazo indicativo da licença ambiental de categorias A+ e A.",
+        "ENV_LICENCE_CAT_C_DURATION": "Prazo indicativo da licença ambiental de categoria C.",
+        "COASTAL_PROTECTION_RULE": "Zonas de protecção parcial costeira e restrições de construção (Lei 19/97).",
+        "ZFI_EXPORT_REQUIREMENT": "Percentagem mínima de exportação para o estatuto de ZFI.",
+        "ZEE_ZFI_BENEFITS": "Benefícios aduaneiros, fiscais e cambiais das ZEE e ZFI."
+      }
+    },
+    {
+      "title": "Conteúdo local e GNL",
+      "items": {
+        "LOCAL_CONTENT_PRICE_MARGIN": "Margem de preferência para bens e serviços moçambicanos (Lei 21/2014).",
+        "LOCAL_PARTNER_MIN_SHARE": "Participação moçambicana mínima em parcerias de fornecimento ao sector petrolífero.",
+        "SUPPLIER_REGISTRATION_TIME": "Prazo indicativo de registo e qualificação como fornecedor dos operadores.",
+        "SCOPE_DEC_9_2017": "Âmbito do Decreto n.º 9/2017.",
+        "SCOPE_DEC_70_2017": "Âmbito do Decreto n.º 70/2017."
+      }
+    },
+    {
+      "title": "Financiamento",
+      "items": {
+        "GAPI_GUARANTEE_TERMS": "Condições das garantias GAPI.",
+        "FUNPI_CONDITIONS": "Designação correcta, condições e elegibilidade do FUNPI."
+      }
+    }
+  ]
+}

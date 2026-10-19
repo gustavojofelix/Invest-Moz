@@ -1,0 +1,15 @@
+{
+  "noTreatyRate": { "pt": "20% (sem ADT)", "en": "20% (no treaty)", "fr": "20 % (sans convention)" },
+  "unknownTreatyRate": {
+    "pt": "taxa do ADT {{TREATY_DIVIDEND_RATES}} (20% sem ADT)",
+    "en": "treaty rate {{TREATY_DIVIDEND_RATES}} (20% without treaty)",
+    "fr": "taux conventionnel {{TREATY_DIVIDEND_RATES}} (20 % hors convention)"
+  },
+  "entries": [
+    {
+      "country": "ZA",
+      "dividends": { "pt": "8% ou 15% (ADT Moçambique–África do Sul)", "en": "8% or 15% (Mozambique–South Africa treaty)", "fr": "8 % ou 15 % (convention Mozambique–Afrique du Sud)" },
+      "refs": ["dta-za"]
+    }
+  ]
+}

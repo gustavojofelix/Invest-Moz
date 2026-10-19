@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "holidays.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "status",
+    "note",
+    "holidays"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "illustrative",
+        "verified"
+      ]
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "holidays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "date",
+          "name"
+        ],
+        "properties": {
+          "date": {
+            "$ref": "common.schema.json#/definitions/isoDate"
+          },
+          "name": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules-quotas.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "minPercent",
+    "maxPercent"
+  ],
+  "properties": {
+    "minPercent": {
+      "type": "number"
+    },
+    "maxPercent": {
+      "type": "number"
+    }
+  }
+}

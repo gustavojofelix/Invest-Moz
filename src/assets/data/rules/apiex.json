@@ -1,0 +1,83 @@
+{
+  "fxUsdMzn": 63.9,
+  "fdiMinimumMzn": 6500000,
+  "regime": [
+    {
+      "id": "foreign-investment",
+      "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+      "then": {
+        "threshold": "{{APIEX_APPROVAL_THRESHOLDS}}",
+        "authority": {
+          "pt": "APIEX — aprovação pela entidade competente consoante o montante do investimento",
+          "en": "APIEX — approval by the competent authority according to the investment amount",
+          "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement"
+        },
+        "path": {
+          "pt": "Reunião prévia com a APIEX → submissão do projecto → certificado de investimento (mín. 3 dias úteis) → registo do IDE no Banco de Moçambique através de um banco comercial (até 90 dias).",
+          "en": "Preliminary meeting with APIEX → project submission → investment certificate (min. 3 working days) → FDI registration with the Banco de Moçambique through a commercial bank (up to 90 days).",
+          "fr": "Réunion préalable avec l'APIEX → dépôt du projet → certificat d'investissement (min. 3 jours ouvrables) → enregistrement de l'IDE auprès de la Banco de Moçambique via une banque commerciale (jusqu'à 90 jours)."
+        },
+        "refs": ["lei-8-2023", "apiex-guide-2026", "lei-11-2009", "aviso-3-gbm-2024"]
+      }
+    },
+    {
+      "id": "domestic-investment",
+      "when": [],
+      "then": {
+        "threshold": "{{APIEX_APPROVAL_THRESHOLDS}}",
+        "authority": {
+          "pt": "APIEX — aprovação pela entidade competente consoante o montante do investimento",
+          "en": "APIEX — approval by the competent authority according to the investment amount",
+          "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement"
+        },
+        "path": {
+          "pt": "Registo do projecto na APIEX para aceder às garantias e benefícios fiscais ({{APIEX_REGISTRATION_THRESHOLD}}) → certificado de investimento (mín. 3 dias úteis).",
+          "en": "Project registration with APIEX to access guarantees and tax incentives ({{APIEX_REGISTRATION_THRESHOLD}}) → investment certificate (min. 3 working days).",
+          "fr": "Enregistrement du projet auprès de l'APIEX pour accéder aux garanties et avantages fiscaux ({{APIEX_REGISTRATION_THRESHOLD}}) → certificat d'investissement (min. 3 jours ouvrables)."
+        },
+        "refs": ["lei-8-2023", "apiex-guide-2026"]
+      }
+    }
+  ],
+  "fdiGuarantee": [
+    {
+      "id": "fdi-minimum-met",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "fdiMinimumMet", "op": "eq", "value": true }
+      ],
+      "then": {
+        "text": {
+          "pt": "O investimento indicado ({{fact.investmentUsd}}, cerca de {{fact.investmentMzn}}) supera o IDE mínimo de MZN 6,5 milhões exigido para a garantia de exportação de lucros, desde que registado no Banco de Moçambique.",
+          "en": "The stated investment ({{fact.investmentUsd}}, about {{fact.investmentMzn}}) exceeds the MZN 6.5 million minimum FDI required for the export-of-profits guarantee, provided it is registered with the Banco de Moçambique.",
+          "fr": "L'investissement indiqué ({{fact.investmentUsd}}, environ {{fact.investmentMzn}}) dépasse l'IDE minimum de 6,5 millions de MZN requis pour la garantie d'exportation des bénéfices, sous réserve de son enregistrement auprès de la Banco de Moçambique."
+        }
+      }
+    },
+    {
+      "id": "fdi-minimum-not-met",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "fdiMinimumMet", "op": "eq", "value": false }
+      ],
+      "then": {
+        "text": {
+          "pt": "O investimento indicado ({{fact.investmentUsd}}, cerca de {{fact.investmentMzn}}) fica abaixo do IDE mínimo de MZN 6,5 milhões. Sem esse mínimo, não há garantia de exportação de lucros; vale a pena rever o montante de IDE a registar.",
+          "en": "The stated investment ({{fact.investmentUsd}}, about {{fact.investmentMzn}}) is below the MZN 6.5 million minimum FDI. Without it there is no export-of-profits guarantee; the FDI amount to register is worth reviewing.",
+          "fr": "L'investissement indiqué ({{fact.investmentUsd}}, environ {{fact.investmentMzn}}) est inférieur à l'IDE minimum de 6,5 millions de MZN. Sans ce minimum, il n'y a pas de garantie d'exportation des bénéfices ; le montant d'IDE à enregistrer mérite d'être revu."
+        }
+      }
+    },
+    {
+      "id": "domestic",
+      "when": [],
+      "then": {
+        "text": {
+          "pt": "Capital moçambicano: a garantia de exportação de lucros associada ao IDE não se aplica.",
+          "en": "Mozambican capital: the FDI export-of-profits guarantee does not apply.",
+          "fr": "Capital mozambicain : la garantie d'exportation des bénéfices liée à l'IDE ne s'applique pas."
+        }
+      }
+    }
+  ]
+}

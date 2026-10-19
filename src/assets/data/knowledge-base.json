@@ -1,0 +1,620 @@
+{
+  "references": [
+    {
+      "id": "dl-1-2022",
+      "topic": "companies",
+      "instrument": "DL n.º 1/2022",
+      "title": {
+        "pt": "Código Comercial",
+        "en": "Commercial Code",
+        "fr": "Code de commerce"
+      },
+      "summary": {
+        "pt": "Regula a constituição, o funcionamento e a representação das sociedades comerciais, incluindo as sociedades por quotas, as sociedades anónimas e as sucursais de sociedades estrangeiras. É a base para escolher o veículo do investimento.",
+        "en": "Governs the incorporation, operation and representation of commercial companies, including private limited companies, public limited companies and branches of foreign companies. It is the starting point for choosing the investment vehicle.",
+        "fr": "Régit la constitution, le fonctionnement et la représentation des sociétés commerciales, notamment les sociétés à responsabilité limitée, les sociétés anonymes et les succursales de sociétés étrangères. C'est le point de départ du choix du véhicule d'investissement."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o investidor estrangeiro pode actuar através de uma sociedade de direito moçambicano ou de uma sucursal da sua sociedade. A sociedade tem personalidade jurídica própria; a sucursal não, e a sociedade-mãe responde pelas obrigações assumidas em Moçambique.",
+        "en": "In short: a foreign investor may operate through a company incorporated under Mozambican law or through a branch of its own company. The company has its own legal personality; the branch does not, and the parent company is liable for the obligations incurred in Mozambique.",
+        "fr": "En résumé : l'investisseur étranger peut opérer par l'intermédiaire d'une société de droit mozambicain ou d'une succursale de sa propre société. La société dispose de sa propre personnalité juridique ; la succursale non, et la société mère répond des obligations contractées au Mozambique."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dec-41-2026",
+      "topic": "licensing",
+      "instrument": "Decreto n.º 41/2026",
+      "title": {
+        "pt": "Regulamento do Licenciamento de Actividades Económicas",
+        "en": "Regulation on the Licensing of Economic Activities",
+        "fr": "Règlement relatif à l'autorisation des activités économiques"
+      },
+      "summary": {
+        "pt": "Define o regime de licenciamento das actividades económicas, incluindo o Balcão de Atendimento Único (BAU) e as licenças sectoriais. Determina que autorizações a empresa deve obter antes de iniciar a actividade.",
+        "en": "Sets out the licensing regime for economic activities, including the One-Stop Shop (BAU) and sector licences. It determines which authorisations the company must obtain before starting operations.",
+        "fr": "Définit le régime d'autorisation des activités économiques, y compris le guichet unique (BAU) et les licences sectorielles. Il détermine les autorisations que la société doit obtenir avant de démarrer son activité."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o exercício de uma actividade económica depende de licença ou de comunicação prévia, conforme o sector e a dimensão do projecto. A entidade licenciadora varia consoante a actividade, e a licença deve estar em vigor antes do início da operação.",
+        "en": "In short: carrying on an economic activity requires a licence or a prior notification, depending on the sector and the size of the project. The licensing authority varies with the activity, and the licence must be in force before operations begin.",
+        "fr": "En résumé : l'exercice d'une activité économique est soumis à licence ou à déclaration préalable, selon le secteur et la taille du projet. L'autorité compétente varie selon l'activité, et la licence doit être en vigueur avant le démarrage de l'exploitation."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-8-2023",
+      "topic": "investment",
+      "instrument": "Lei n.º 8/2023",
+      "title": {
+        "pt": "Lei de Investimento",
+        "en": "Investment Law",
+        "fr": "Loi sur l'investissement"
+      },
+      "summary": {
+        "pt": "Estabelece o quadro jurídico do investimento nacional e estrangeiro, as garantias concedidas ao investidor e o acesso aos benefícios fiscais. Inclui a garantia de exportação de lucros para investimento directo estrangeiro registado.",
+        "en": "Establishes the legal framework for domestic and foreign investment, the guarantees granted to investors and access to tax incentives. It includes the guarantee on the export of profits for registered foreign direct investment.",
+        "fr": "Établit le cadre juridique de l'investissement national et étranger, les garanties accordées à l'investisseur et l'accès aux avantages fiscaux. Elle comprend la garantie d'exportation des bénéfices pour les investissements directs étrangers enregistrés."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o investimento directo estrangeiro de valor não inferior a MZN 6,5 milhões beneficia da garantia de exportação de lucros. Só são transferíveis lucros apurados em contas aprovadas e com os impostos pagos, e o investimento deve estar registado no Banco de Moçambique.",
+        "en": "In short: foreign direct investment of no less than MZN 6.5 million benefits from the guarantee on the export of profits. Only profits shown in approved accounts, with taxes paid, may be transferred, and the investment must be registered with the Banco de Moçambique.",
+        "fr": "En résumé : l'investissement direct étranger d'un montant d'au moins 6,5 millions de MZN bénéficie de la garantie d'exportation des bénéfices. Seuls les bénéfices issus de comptes approuvés, impôts acquittés, peuvent être transférés, et l'investissement doit être enregistré auprès de la Banco de Moçambique."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "apiex-guide-2026",
+      "topic": "investment",
+      "instrument": "Guia do Investidor APIEX 2026",
+      "title": {
+        "pt": "Guia do Investidor da APIEX",
+        "en": "APIEX Investor Guide",
+        "fr": "Guide de l'investisseur de l'APIEX"
+      },
+      "summary": {
+        "pt": "Documento de orientação da Agência para a Promoção de Investimento e Exportações que descreve o percurso do investidor, desde o primeiro contacto até ao certificado de investimento. Não é um diploma legal, mas reflecte a prática administrativa.",
+        "en": "Guidance document from the Investment and Export Promotion Agency describing the investor's path, from first contact to the investment certificate. It is not legislation, but it reflects administrative practice.",
+        "fr": "Document d'orientation de l'Agence de promotion des investissements et des exportations décrivant le parcours de l'investisseur, du premier contact jusqu'au certificat d'investissement. Ce n'est pas un texte législatif, mais il reflète la pratique administrative."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o percurso começa com uma reunião na APIEX, seguida do registo do projecto e da emissão do certificado de investimento, num prazo mínimo de 3 dias úteis. Após a aprovação, a empresa apresenta relatórios semestrais de progresso à APIEX.",
+        "en": "In short: the process begins with a meeting at APIEX, followed by project registration and the issue of the investment certificate, within a minimum of 3 working days. Once approved, the company submits semi-annual progress reports to APIEX.",
+        "fr": "En résumé : le parcours commence par une réunion à l'APIEX, suivie de l'enregistrement du projet et de la délivrance du certificat d'investissement, dans un délai minimum de 3 jours ouvrables. Après approbation, la société remet des rapports d'avancement semestriels à l'APIEX."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dec-8-2024",
+      "topic": "investment",
+      "instrument": "Decreto n.º 8/2024",
+      "title": {
+        "pt": "Decreto n.º 8/2024 (âmbito a confirmar)",
+        "en": "Decree No. 8/2024 (scope to be confirmed)",
+        "fr": "Décret n° 8/2024 (champ d'application à confirmer)"
+      },
+      "summary": {
+        "pt": "Instrumento referido na base jurídica da Tax Advisory; âmbito a confirmar: {{SCOPE_DEC_8_2024}}.",
+        "en": "Instrument cited in Tax Advisory's legal basis; scope to be confirmed: {{SCOPE_DEC_8_2024}}.",
+        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_8_2024}}."
+      },
+      "excerpt": {
+        "pt": "Em síntese: {{SCOPE_DEC_8_2024}}. O conteúdo deste instrumento será descrito após confirmação pela Tax Advisory.",
+        "en": "In short: {{SCOPE_DEC_8_2024}}. The content of this instrument will be described once confirmed by Tax Advisory.",
+        "fr": "En résumé : {{SCOPE_DEC_8_2024}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-4-2009",
+      "topic": "incentives",
+      "instrument": "Lei n.º 4/2009",
+      "title": {
+        "pt": "Código dos Benefícios Fiscais",
+        "en": "Tax Incentives Code",
+        "fr": "Code des avantages fiscaux"
+      },
+      "summary": {
+        "pt": "Define os benefícios fiscais aplicáveis aos projectos de investimento aprovados, incluindo isenções aduaneiras, crédito fiscal por investimento e amortizações aceleradas. Os benefícios dependem da aprovação do projecto e do cumprimento das respectivas condições.",
+        "en": "Sets out the tax incentives available to approved investment projects, including customs exemptions, the investment tax credit and accelerated depreciation. The incentives depend on project approval and on meeting the relevant conditions.",
+        "fr": "Définit les avantages fiscaux applicables aux projets d'investissement approuvés, notamment les exonérations douanières, le crédit d'impôt à l'investissement et l'amortissement accéléré. Les avantages dépendent de l'approbation du projet et du respect des conditions applicables."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os bens de equipamento da Classe K beneficiam de isenção de direitos aduaneiros e de IVA na importação. O projecto aprovado pode deduzir um crédito fiscal por investimento de 5% a 10%, conforme a localização, durante 5 anos, a que acrescem amortizações aceleradas e deduções por despesas de formação.",
+        "en": "In short: Class K capital equipment is exempt from customs duties and import VAT. An approved project may deduct an investment tax credit of 5% to 10%, depending on location, for 5 years, in addition to accelerated depreciation and deductions for training expenses.",
+        "fr": "En résumé : les biens d'équipement de la classe K sont exonérés de droits de douane et de TVA à l'importation. Le projet approuvé peut déduire un crédit d'impôt à l'investissement de 5 % à 10 %, selon la localisation, pendant 5 ans, auquel s'ajoutent l'amortissement accéléré et des déductions pour dépenses de formation."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "cirpc",
+      "topic": "tax",
+      "instrument": "CIRPC",
+      "title": {
+        "pt": "Código do Imposto sobre o Rendimento das Pessoas Colectivas",
+        "en": "Corporate Income Tax Code",
+        "fr": "Code de l'impôt sur le revenu des personnes morales"
+      },
+      "summary": {
+        "pt": "Regula a tributação do lucro das sociedades e sucursais, as retenções na fonte sobre pagamentos ao exterior e as regras de subcapitalização. É central para o planeamento fiscal do investidor estrangeiro.",
+        "en": "Governs the taxation of profits of companies and branches, withholding tax on payments abroad and thin capitalisation rules. It is central to the foreign investor's tax planning.",
+        "fr": "Régit l'imposition des bénéfices des sociétés et des succursales, la retenue à la source sur les paiements à l'étranger et les règles de sous-capitalisation. Il est central pour la planification fiscale de l'investisseur étranger."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os dividendos, honorários, royalties e assistência técnica pagos a não residentes estão sujeitos a retenção na fonte de 20%, salvo taxa inferior prevista em acordo de dupla tributação. Os juros de suprimentos de sócios estão sujeitos à regra de subcapitalização de 2:1.",
+        "en": "In short: dividends, fees, royalties and technical assistance paid to non-residents are subject to 20% withholding tax, unless a lower rate applies under a double taxation agreement. Interest on shareholder loans is subject to the 2:1 thin capitalisation rule.",
+        "fr": "En résumé : les dividendes, honoraires, redevances et prestations d'assistance technique payés à des non-résidents sont soumis à une retenue à la source de 20 %, sauf taux inférieur prévu par une convention fiscale. Les intérêts des prêts d'associés sont soumis à la règle de sous-capitalisation de 2:1."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "civa",
+      "topic": "tax",
+      "instrument": "CIVA",
+      "title": {
+        "pt": "Código do Imposto sobre o Valor Acrescentado",
+        "en": "Value Added Tax Code",
+        "fr": "Code de la taxe sur la valeur ajoutée"
+      },
+      "summary": {
+        "pt": "Regula o IVA sobre a transmissão de bens, a prestação de serviços e as importações, incluindo a autoliquidação nos serviços adquiridos a não residentes. Define também a obrigação de declaração mensal.",
+        "en": "Governs VAT on the supply of goods and services and on imports, including the reverse charge on services acquired from non-residents. It also sets the monthly return obligation.",
+        "fr": "Régit la TVA sur les livraisons de biens, les prestations de services et les importations, y compris l'autoliquidation sur les services acquis auprès de non-résidents. Il fixe également l'obligation de déclaration mensuelle."
+      },
+      "excerpt": {
+        "pt": "Em síntese: quando a empresa adquire serviços a um prestador não residente, é ela que liquida o IVA devido (autoliquidação). O sujeito passivo apresenta a declaração periódica de IVA mensalmente.",
+        "en": "In short: when the company acquires services from a non-resident supplier, it accounts for the VAT due itself (reverse charge). The taxable person files the periodic VAT return monthly.",
+        "fr": "En résumé : lorsque la société acquiert des services auprès d'un prestataire non résident, c'est elle qui liquide la TVA due (autoliquidation). L'assujetti dépose la déclaration périodique de TVA chaque mois."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "imposto-selo",
+      "topic": "tax",
+      "instrument": "Código do Imposto do Selo",
+      "title": {
+        "pt": "Código do Imposto do Selo",
+        "en": "Stamp Duty Code",
+        "fr": "Code du droit de timbre"
+      },
+      "summary": {
+        "pt": "Regula o imposto do selo sobre actos, contratos e operações, incluindo operações de financiamento e actos societários. Relevante na constituição da empresa e nos empréstimos.",
+        "en": "Governs stamp duty on acts, contracts and transactions, including financing operations and corporate acts. Relevant at incorporation and for loans.",
+        "fr": "Régit le droit de timbre sur les actes, contrats et opérations, y compris les opérations de financement et les actes sociaux. Pertinent lors de la constitution de la société et pour les prêts."
+      },
+      "excerpt": {
+        "pt": "Em síntese: certos actos e contratos, como a constituição de sociedades e as operações de crédito, estão sujeitos a imposto do selo. O imposto liquidado é entregue até ao dia 20 do mês seguinte.",
+        "en": "In short: certain acts and contracts, such as company incorporation and credit operations, are subject to stamp duty. The duty assessed is paid by the 20th of the following month.",
+        "fr": "En résumé : certains actes et contrats, comme la constitution de sociétés et les opérations de crédit, sont soumis au droit de timbre. Le droit liquidé est versé au plus tard le 20 du mois suivant."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dta-network",
+      "topic": "tax",
+      "instrument": "ADT (rede de acordos)",
+      "title": {
+        "pt": "Rede de acordos para evitar a dupla tributação",
+        "en": "Double taxation agreement network",
+        "fr": "Réseau de conventions fiscales"
+      },
+      "summary": {
+        "pt": "Conjunto de acordos celebrados por Moçambique para evitar a dupla tributação, que podem reduzir a retenção na fonte sobre pagamentos a residentes do outro Estado. A aplicação depende da residência fiscal comprovada do beneficiário.",
+        "en": "The set of agreements concluded by Mozambique to avoid double taxation, which may reduce withholding tax on payments to residents of the other State. Application depends on the beneficiary's proven tax residence.",
+        "fr": "Ensemble des conventions conclues par le Mozambique pour éviter la double imposition, qui peuvent réduire la retenue à la source sur les paiements aux résidents de l'autre État. L'application dépend de la résidence fiscale justifiée du bénéficiaire."
+      },
+      "excerpt": {
+        "pt": "Em síntese: quando existe acordo, a retenção na fonte de 20% pode ser reduzida para a taxa prevista no acordo. O beneficiário deve comprovar a sua residência fiscal antes do pagamento.",
+        "en": "In short: where an agreement exists, the 20% withholding tax may be reduced to the rate set in the agreement. The beneficiary must prove its tax residence before payment.",
+        "fr": "En résumé : lorsqu'une convention existe, la retenue à la source de 20 % peut être réduite au taux prévu par la convention. Le bénéficiaire doit justifier de sa résidence fiscale avant le paiement."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dta-za",
+      "topic": "tax",
+      "instrument": "ADT Moçambique–África do Sul",
+      "title": {
+        "pt": "Acordo de dupla tributação entre Moçambique e a África do Sul",
+        "en": "Mozambique–South Africa double taxation agreement",
+        "fr": "Convention fiscale entre le Mozambique et l'Afrique du Sud"
+      },
+      "summary": {
+        "pt": "Acordo bilateral que reparte o direito de tributar entre os dois Estados e reduz a retenção na fonte sobre dividendos pagos a residentes sul-africanos. Relevante para o elevado volume de investimento sul-africano em Moçambique.",
+        "en": "Bilateral agreement that allocates taxing rights between the two States and reduces withholding tax on dividends paid to South African residents. Relevant given the high volume of South African investment in Mozambique.",
+        "fr": "Convention bilatérale qui répartit le droit d'imposer entre les deux États et réduit la retenue à la source sur les dividendes versés aux résidents sud-africains. Pertinente compte tenu du volume élevé d'investissements sud-africains au Mozambique."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os dividendos pagos a um residente na África do Sul podem beneficiar de retenção na fonte de 8% ou 15%, em vez de 20%, consoante as condições do acordo. A taxa aplicável depende da participação detida e da comprovação da residência fiscal.",
+        "en": "In short: dividends paid to a South African resident may benefit from 8% or 15% withholding tax instead of 20%, depending on the conditions of the agreement. The applicable rate depends on the shareholding held and on proof of tax residence.",
+        "fr": "En résumé : les dividendes versés à un résident sud-africain peuvent bénéficier d'une retenue à la source de 8 % ou 15 % au lieu de 20 %, selon les conditions de la convention. Le taux applicable dépend de la participation détenue et de la justification de la résidence fiscale."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-13-2023",
+      "topic": "labour",
+      "instrument": "Lei n.º 13/2023",
+      "title": {
+        "pt": "Lei do Trabalho",
+        "en": "Labour Law",
+        "fr": "Loi sur le travail"
+      },
+      "summary": {
+        "pt": "Regula as relações individuais e colectivas de trabalho, incluindo contratos, despedimentos e a contratação de trabalhadores estrangeiros. Fixa as quotas de mão-de-obra estrangeira por dimensão da empresa.",
+        "en": "Governs individual and collective employment relations, including contracts, dismissals and the hiring of foreign workers. It sets the foreign-worker quotas by company size.",
+        "fr": "Régit les relations individuelles et collectives de travail, y compris les contrats, les licenciements et l'embauche de travailleurs étrangers. Elle fixe les quotas de main-d'œuvre étrangère selon la taille de l'entreprise."
+      },
+      "excerpt": {
+        "pt": "Em síntese: a empresa pode contratar trabalhadores estrangeiros dentro de uma quota que varia entre 5% e 15% do efectivo, conforme a dimensão da empresa. Acima da quota, a contratação depende de autorização de trabalho.",
+        "en": "In short: the company may hire foreign workers within a quota ranging from 5% to 15% of the workforce, depending on company size. Above the quota, hiring requires a work permit.",
+        "fr": "En résumé : la société peut embaucher des travailleurs étrangers dans la limite d'un quota compris entre 5 % et 15 % de l'effectif, selon la taille de l'entreprise. Au-delà du quota, l'embauche est soumise à un permis de travail."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "inss",
+      "topic": "labour",
+      "instrument": "Regime do INSS",
+      "title": {
+        "pt": "Sistema de Segurança Social Obrigatória",
+        "en": "Mandatory Social Security System",
+        "fr": "Régime obligatoire de sécurité sociale"
+      },
+      "summary": {
+        "pt": "Regula a inscrição de empregadores e trabalhadores no Instituto Nacional de Segurança Social e o pagamento das contribuições mensais. Aplica-se desde a primeira contratação.",
+        "en": "Governs the registration of employers and employees with the National Social Security Institute and the payment of monthly contributions. It applies from the first hire.",
+        "fr": "Régit l'immatriculation des employeurs et des salariés auprès de l'Institut national de sécurité sociale et le paiement des cotisations mensuelles. Il s'applique dès la première embauche."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o empregador inscreve-se a si e aos seus trabalhadores no INSS e entrega as contribuições até ao dia 10 de cada mês. As contribuições incidem sobre a remuneração dos trabalhadores abrangidos.",
+        "en": "In short: the employer registers itself and its employees with the INSS and pays the contributions by the 10th of each month. Contributions are calculated on the pay of the employees covered.",
+        "fr": "En résumé : l'employeur s'immatricule et immatricule ses salariés auprès de l'INSS et verse les cotisations au plus tard le 10 de chaque mois. Les cotisations sont assises sur la rémunération des salariés couverts."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dec-88-2024",
+      "topic": "immigration",
+      "instrument": "Decreto n.º 88/2024",
+      "title": {
+        "pt": "Regulamento da contratação de trabalhadores estrangeiros",
+        "en": "Regulation on the employment of foreign workers",
+        "fr": "Règlement sur l'emploi de travailleurs étrangers"
+      },
+      "summary": {
+        "pt": "Define os procedimentos para a contratação de cidadãos estrangeiros, incluindo a comunicação dentro da quota e a autorização de trabalho. Articula-se com os vistos e o DIRE emitidos pelos serviços de migração.",
+        "en": "Sets out the procedures for employing foreign nationals, including notification within the quota and the work permit. It operates alongside the visas and the DIRE residence permit issued by the migration services.",
+        "fr": "Définit les procédures d'embauche de ressortissants étrangers, y compris la communication dans le cadre du quota et le permis de travail. Il s'articule avec les visas et le titre de séjour DIRE délivrés par les services de migration."
+      },
+      "excerpt": {
+        "pt": "Em síntese: dentro da quota, a contratação de um estrangeiro é comunicada à entidade competente; fora da quota, exige autorização de trabalho prévia. A autorização de trabalho e o DIRE têm prazos de validade e devem ser renovados atempadamente.",
+        "en": "In short: within the quota, hiring a foreign national is notified to the competent authority; outside the quota, a prior work permit is required. The work permit and the DIRE have validity periods and must be renewed in good time.",
+        "fr": "En résumé : dans le cadre du quota, l'embauche d'un étranger est communiquée à l'autorité compétente ; hors quota, un permis de travail préalable est exigé. Le permis de travail et le DIRE ont une durée de validité et doivent être renouvelés en temps utile."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-11-2009",
+      "topic": "exchange",
+      "instrument": "Lei n.º 11/2009",
+      "title": {
+        "pt": "Lei Cambial",
+        "en": "Foreign Exchange Law",
+        "fr": "Loi sur les changes"
+      },
+      "summary": {
+        "pt": "Regula as operações cambiais e os movimentos de capitais entre Moçambique e o exterior. Exige o registo do investimento directo estrangeiro e dos financiamentos externos no Banco de Moçambique.",
+        "en": "Governs foreign exchange transactions and capital movements between Mozambique and other countries. It requires foreign direct investment and external financing to be registered with the Banco de Moçambique.",
+        "fr": "Régit les opérations de change et les mouvements de capitaux entre le Mozambique et l'étranger. Elle exige l'enregistrement des investissements directs étrangers et des financements extérieurs auprès de la Banco de Moçambique."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o investimento directo estrangeiro é registado no Banco de Moçambique, através de um banco comercial. Sem esse registo, a repatriação de capital e de lucros fica comprometida.",
+        "en": "In short: foreign direct investment is registered with the Banco de Moçambique through a commercial bank. Without that registration, the repatriation of capital and profits is put at risk.",
+        "fr": "En résumé : l'investissement direct étranger est enregistré auprès de la Banco de Moçambique par l'intermédiaire d'une banque commerciale. Sans cet enregistrement, le rapatriement du capital et des bénéfices est compromis."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "aviso-3-gbm-2024",
+      "topic": "exchange",
+      "instrument": "Aviso n.º 3/GBM/2024",
+      "title": {
+        "pt": "Normas cambiais sobre o registo do investimento directo estrangeiro",
+        "en": "Foreign exchange rules on the registration of foreign direct investment",
+        "fr": "Règles de change relatives à l'enregistrement des investissements directs étrangers"
+      },
+      "summary": {
+        "pt": "Aviso do Banco de Moçambique que regulamenta o procedimento de registo do investimento directo estrangeiro através dos bancos comerciais. Define a documentação de suporte exigida.",
+        "en": "Banco de Moçambique notice regulating the procedure for registering foreign direct investment through commercial banks. It sets out the supporting documents required.",
+        "fr": "Avis de la Banco de Moçambique réglementant la procédure d'enregistrement des investissements directs étrangers par l'intermédiaire des banques commerciales. Il précise les pièces justificatives exigées."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o pedido de registo do IDE é apresentado através de um banco comercial, com a documentação do investimento e da entrada dos fundos. O procedimento junto do Banco de Moçambique pode levar até 90 dias.",
+        "en": "In short: the FDI registration application is submitted through a commercial bank, with documentation of the investment and of the inflow of funds. The procedure with the Banco de Moçambique may take up to 90 days.",
+        "fr": "En résumé : la demande d'enregistrement de l'IDE est déposée par l'intermédiaire d'une banque commerciale, avec les justificatifs de l'investissement et de l'entrée des fonds. La procédure auprès de la Banco de Moçambique peut prendre jusqu'à 90 jours."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "aviso-4-gbm-2024",
+      "topic": "exchange",
+      "instrument": "Aviso n.º 4/GBM/2024",
+      "title": {
+        "pt": "Normas cambiais sobre financiamentos externos e transferências",
+        "en": "Foreign exchange rules on external financing and transfers",
+        "fr": "Règles de change relatives aux financements extérieurs et aux transferts"
+      },
+      "summary": {
+        "pt": "Aviso do Banco de Moçambique que regula o registo de suprimentos de sócios e de financiamentos externos, bem como as transferências para o exterior. Relevante para estruturas de financiamento intra-grupo.",
+        "en": "Banco de Moçambique notice governing the registration of shareholder loans and external financing, as well as transfers abroad. Relevant to intra-group financing structures.",
+        "fr": "Avis de la Banco de Moçambique régissant l'enregistrement des prêts d'associés et des financements extérieurs, ainsi que les transferts vers l'étranger. Pertinent pour les structures de financement intragroupe."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os suprimentos de sócios e os financiamentos externos são registados no Banco de Moçambique, existindo limiares de USD 5 milhões e USD 10 milhões que determinam o procedimento junto do BdM. As transferências para o exterior são suportadas por documentação apresentada ao banco comercial.",
+        "en": "In short: shareholder loans and external financing are registered with the Banco de Moçambique, with thresholds of USD 5 million and USD 10 million determining the procedure with the BdM. Transfers abroad are supported by documentation submitted to the commercial bank.",
+        "fr": "En résumé : les prêts d'associés et les financements extérieurs sont enregistrés auprès de la Banco de Moçambique, des seuils de 5 millions USD et de 10 millions USD déterminant la procédure auprès de la BdM. Les transferts vers l'étranger sont étayés par des justificatifs remis à la banque commerciale."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-11-2016",
+      "topic": "customs",
+      "instrument": "Lei n.º 11/2016",
+      "title": {
+        "pt": "Regime jurídico aduaneiro",
+        "en": "Customs legal regime",
+        "fr": "Régime juridique douanier"
+      },
+      "summary": {
+        "pt": "Regula o despacho aduaneiro de mercadorias e os regimes aduaneiros especiais, incluindo a importação temporária. Relevante para a importação de equipamento e matérias-primas.",
+        "en": "Governs the customs clearance of goods and special customs procedures, including temporary import. Relevant to the import of equipment and raw materials.",
+        "fr": "Régit le dédouanement des marchandises et les régimes douaniers particuliers, y compris l'admission temporaire. Pertinent pour l'importation d'équipements et de matières premières."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o equipamento que entra no país para utilização por período limitado pode beneficiar de importação temporária. O regime exige o pagamento de uma taxa de utilização, a prestação de uma garantia e a reexportação dentro de um prazo fixado.",
+        "en": "In short: equipment entering the country for use over a limited period may qualify for temporary import. The regime requires payment of a usage fee, the provision of a guarantee and re-export within a fixed period.",
+        "fr": "En résumé : l'équipement entrant dans le pays pour une utilisation de durée limitée peut bénéficier de l'admission temporaire. Le régime exige le paiement d'une redevance d'utilisation, la constitution d'une garantie et la réexportation dans un délai fixé."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "pauta",
+      "topic": "customs",
+      "instrument": "Pauta Aduaneira",
+      "title": {
+        "pt": "Pauta Aduaneira",
+        "en": "Customs Tariff",
+        "fr": "Tarif douanier"
+      },
+      "summary": {
+        "pt": "Classifica as mercadorias e fixa os direitos aduaneiros aplicáveis à importação, incluindo a Classe K para bens de equipamento. A classificação correcta determina os direitos e benefícios aplicáveis.",
+        "en": "Classifies goods and sets the customs duties applicable on import, including Class K for capital equipment. Correct classification determines the duties and incentives that apply.",
+        "fr": "Classe les marchandises et fixe les droits de douane applicables à l'importation, y compris la classe K pour les biens d'équipement. Un classement correct détermine les droits et avantages applicables."
+      },
+      "excerpt": {
+        "pt": "Em síntese: cada mercadoria importada é classificada numa posição pautal, à qual corresponde uma taxa de direitos. Os bens de equipamento da Classe K podem beneficiar de isenção quando integrados num projecto aprovado.",
+        "en": "In short: each imported good is classified under a tariff heading, which carries a duty rate. Class K capital equipment may be exempt when it forms part of an approved project.",
+        "fr": "En résumé : chaque marchandise importée est classée sous une position tarifaire, à laquelle correspond un taux de droits. Les biens d'équipement de la classe K peuvent être exonérés lorsqu'ils s'inscrivent dans un projet approuvé."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "m22",
+      "topic": "compliance",
+      "instrument": "Modelo 22",
+      "title": {
+        "pt": "Declaração de rendimentos do IRPC",
+        "en": "Corporate income tax return",
+        "fr": "Déclaration de résultats à l'IRPC"
+      },
+      "summary": {
+        "pt": "Declaração anual em que a empresa apura o lucro tributável e o IRPC do exercício. Os pagamentos por conta efectuados ao longo do ano são deduzidos ao imposto apurado.",
+        "en": "Annual return in which the company computes its taxable profit and corporate income tax for the year. Payments on account made during the year are credited against the tax assessed.",
+        "fr": "Déclaration annuelle par laquelle la société détermine son bénéfice imposable et l'IRPC de l'exercice. Les acomptes versés au cours de l'année sont imputés sur l'impôt dû."
+      },
+      "excerpt": {
+        "pt": "Em síntese: a Modelo 22 é entregue até ao último dia útil de Maio do ano seguinte ao exercício. Ao longo do ano, a empresa efectua pagamentos por conta em Maio, Julho e Setembro.",
+        "en": "In short: the Modelo 22 is filed by the last working day of May of the year following the financial year. During the year, the company makes payments on account in May, July and September.",
+        "fr": "En résumé : le Modelo 22 est déposé au plus tard le dernier jour ouvrable de mai de l'année suivant l'exercice. En cours d'année, la société verse des acomptes en mai, juillet et septembre."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "m20",
+      "topic": "compliance",
+      "instrument": "Modelo 20",
+      "title": {
+        "pt": "Declaração anual de informação contabilística e fiscal",
+        "en": "Annual accounting and tax information return",
+        "fr": "Déclaration annuelle d'informations comptables et fiscales"
+      },
+      "summary": {
+        "pt": "Declaração anual que reúne a informação contabilística e fiscal da empresa, incluindo o anexo de preços de transferência quando existam entidades relacionadas. Relevante para filiais de grupos estrangeiros.",
+        "en": "Annual return bringing together the company's accounting and tax information, including the transfer pricing annex where there are related parties. Relevant to subsidiaries of foreign groups.",
+        "fr": "Déclaration annuelle regroupant les informations comptables et fiscales de la société, y compris l'annexe sur les prix de transfert en présence de parties liées. Pertinente pour les filiales de groupes étrangers."
+      },
+      "excerpt": {
+        "pt": "Em síntese: a Modelo 20 é entregue até ao último dia útil de Junho. As empresas com operações com entidades relacionadas juntam o anexo de preços de transferência.",
+        "en": "In short: the Modelo 20 is filed by the last working day of June. Companies with related-party transactions attach the transfer pricing annex.",
+        "fr": "En résumé : le Modelo 20 est déposé au plus tard le dernier jour ouvrable de juin. Les sociétés réalisant des opérations avec des parties liées y joignent l'annexe sur les prix de transfert."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-19-97",
+      "topic": "land",
+      "instrument": "Lei n.º 19/97",
+      "title": {
+        "pt": "Lei de Terras",
+        "en": "Land Law",
+        "fr": "Loi foncière"
+      },
+      "summary": {
+        "pt": "Estabelece que a terra é propriedade do Estado e regula o direito de uso e aproveitamento da terra (DUAT). Qualquer projecto que necessite de terreno depende de um DUAT ou de um contrato com o seu titular.",
+        "en": "Establishes that land is owned by the State and governs the land use and benefit right (DUAT). Any project that needs land depends on a DUAT or on an agreement with its holder.",
+        "fr": "Établit que la terre appartient à l'État et régit le droit d'usage et d'exploitation de la terre (DUAT). Tout projet nécessitant un terrain dépend d'un DUAT ou d'un accord avec son titulaire."
+      },
+      "excerpt": {
+        "pt": "Em síntese: a terra não pode ser vendida, mas o direito de uso e aproveitamento pode ser atribuído a pessoas singulares e colectivas, mediante consulta às comunidades locais. O procedimento para expansão pode levar até 24 meses.",
+        "en": "In short: land cannot be sold, but the right of use and benefit may be granted to individuals and legal entities, subject to consultation with local communities. The procedure for expansion may take up to 24 months.",
+        "fr": "En résumé : la terre ne peut être vendue, mais le droit d'usage et d'exploitation peut être attribué à des personnes physiques et morales, après consultation des communautés locales. La procédure en cas d'extension peut prendre jusqu'à 24 mois."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "aia-regulation",
+      "topic": "land",
+      "instrument": "Regulamento de AIA",
+      "title": {
+        "pt": "Regulamento sobre o Processo de Avaliação do Impacto Ambiental",
+        "en": "Regulation on the Environmental Impact Assessment Process",
+        "fr": "Règlement relatif à la procédure d'évaluation de l'impact environnemental"
+      },
+      "summary": {
+        "pt": "Classifica as actividades por categoria de impacto ambiental e define o procedimento para obter a licença ambiental. A categoria determina os estudos exigidos e o prazo do processo.",
+        "en": "Classifies activities by environmental impact category and sets out the procedure for obtaining the environmental licence. The category determines the studies required and the duration of the process.",
+        "fr": "Classe les activités par catégorie d'impact environnemental et définit la procédure d'obtention de la licence environnementale. La catégorie détermine les études exigées et la durée de la procédure."
+      },
+      "excerpt": {
+        "pt": "Em síntese: antes de iniciar a actividade, o projecto é submetido a uma pré-avaliação que determina a sua categoria. Para a categoria B, a obtenção da licença ambiental leva habitualmente 2 a 4 meses.",
+        "en": "In short: before operations begin, the project undergoes a pre-assessment that determines its category. For category B, obtaining the environmental licence usually takes 2 to 4 months.",
+        "fr": "En résumé : avant le démarrage de l'activité, le projet fait l'objet d'une pré-évaluation qui détermine sa catégorie. Pour la catégorie B, l'obtention de la licence environnementale prend habituellement 2 à 4 mois."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "zee-zfi",
+      "topic": "land",
+      "instrument": "Regime ZEE / ZFI",
+      "title": {
+        "pt": "Zonas Económicas Especiais e Zonas Francas Industriais",
+        "en": "Special Economic Zones and Industrial Free Zones",
+        "fr": "Zones économiques spéciales et zones franches industrielles"
+      },
+      "summary": {
+        "pt": "Regime aplicável aos projectos instalados em Zonas Económicas Especiais ou Zonas Francas Industriais, com condições próprias, sobretudo para actividades de exportação. A elegibilidade depende da localização e da natureza do projecto.",
+        "en": "Regime applicable to projects located in Special Economic Zones or Industrial Free Zones, with specific conditions, mainly for export activities. Eligibility depends on the location and nature of the project.",
+        "fr": "Régime applicable aux projets implantés dans des zones économiques spéciales ou des zones franches industrielles, assorti de conditions propres, surtout pour les activités d'exportation. L'éligibilité dépend de la localisation et de la nature du projet."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os projectos aprovados numa ZEE ou ZFI ficam sujeitos a um regime específico de benefícios e obrigações, distinto do regime geral. O enquadramento deve ser avaliado antes de escolher a localização.",
+        "en": "In short: projects approved in an SEZ or IFZ are subject to a specific regime of incentives and obligations, distinct from the general regime. Eligibility should be assessed before choosing the location.",
+        "fr": "En résumé : les projets approuvés dans une ZES ou une ZFI relèvent d'un régime spécifique d'avantages et d'obligations, distinct du régime général. L'éligibilité doit être évaluée avant de choisir l'implantation."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dec-9-2017",
+      "topic": "local_content",
+      "instrument": "Decreto n.º 9/2017",
+      "title": {
+        "pt": "Decreto n.º 9/2017 (âmbito a confirmar)",
+        "en": "Decree No. 9/2017 (scope to be confirmed)",
+        "fr": "Décret n° 9/2017 (champ d'application à confirmer)"
+      },
+      "summary": {
+        "pt": "Instrumento referido na base jurídica da Tax Advisory; âmbito a confirmar: {{SCOPE_DEC_9_2017}}.",
+        "en": "Instrument cited in Tax Advisory's legal basis; scope to be confirmed: {{SCOPE_DEC_9_2017}}.",
+        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_9_2017}}."
+      },
+      "excerpt": {
+        "pt": "Em síntese: {{SCOPE_DEC_9_2017}}. O conteúdo deste instrumento será descrito após confirmação pela Tax Advisory.",
+        "en": "In short: {{SCOPE_DEC_9_2017}}. The content of this instrument will be described once confirmed by Tax Advisory.",
+        "fr": "En résumé : {{SCOPE_DEC_9_2017}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "dec-70-2017",
+      "topic": "local_content",
+      "instrument": "Decreto n.º 70/2017",
+      "title": {
+        "pt": "Decreto n.º 70/2017 (âmbito a confirmar)",
+        "en": "Decree No. 70/2017 (scope to be confirmed)",
+        "fr": "Décret n° 70/2017 (champ d'application à confirmer)"
+      },
+      "summary": {
+        "pt": "Instrumento referido na base jurídica da Tax Advisory; âmbito a confirmar: {{SCOPE_DEC_70_2017}}.",
+        "en": "Instrument cited in Tax Advisory's legal basis; scope to be confirmed: {{SCOPE_DEC_70_2017}}.",
+        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_70_2017}}."
+      },
+      "excerpt": {
+        "pt": "Em síntese: {{SCOPE_DEC_70_2017}}. O conteúdo deste instrumento será descrito após confirmação pela Tax Advisory.",
+        "en": "In short: {{SCOPE_DEC_70_2017}}. The content of this instrument will be described once confirmed by Tax Advisory.",
+        "fr": "En résumé : {{SCOPE_DEC_70_2017}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "lei-21-2014",
+      "topic": "local_content",
+      "instrument": "Lei n.º 21/2014",
+      "title": {
+        "pt": "Lei dos Petróleos",
+        "en": "Petroleum Law",
+        "fr": "Loi sur le pétrole"
+      },
+      "summary": {
+        "pt": "Regula as operações petrolíferas em Moçambique, incluindo os projectos de gás natural liquefeito, e estabelece preferências em favor de empresas e trabalhadores moçambicanos. Relevante para fornecedores da cadeia de valor do LNG.",
+        "en": "Governs petroleum operations in Mozambique, including liquefied natural gas projects, and establishes preferences in favour of Mozambican companies and workers. Relevant to suppliers in the LNG value chain.",
+        "fr": "Régit les opérations pétrolières au Mozambique, y compris les projets de gaz naturel liquéfié, et établit des préférences en faveur des entreprises et des travailleurs mozambicains. Pertinente pour les fournisseurs de la chaîne de valeur du GNL."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os operadores petrolíferos e os seus subcontratados devem dar preferência à aquisição de bens e serviços a empresas moçambicanas e à contratação de trabalhadores moçambicanos, nas condições previstas na lei. Os fornecedores estrangeiros devem avaliar a parceria com empresas locais.",
+        "en": "In short: petroleum operators and their subcontractors must give preference to procuring goods and services from Mozambican companies and to hiring Mozambican workers, on the terms set out in the law. Foreign suppliers should consider partnering with local companies.",
+        "fr": "En résumé : les opérateurs pétroliers et leurs sous-traitants doivent accorder la préférence à l'achat de biens et services auprès d'entreprises mozambicaines et à l'embauche de travailleurs mozambicains, dans les conditions prévues par la loi. Les fournisseurs étrangers ont intérêt à envisager un partenariat avec des entreprises locales."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "ifc-ps",
+      "topic": "land",
+      "instrument": "IFC Performance Standards",
+      "title": {
+        "pt": "Padrões de Desempenho da IFC",
+        "en": "IFC Performance Standards",
+        "fr": "Normes de performance de la SFI"
+      },
+      "summary": {
+        "pt": "Padrões ambientais e sociais da International Finance Corporation, exigidos por muitos financiadores internacionais. Não são lei moçambicana, mas condicionam o acesso a financiamento de bancos de desenvolvimento.",
+        "en": "Environmental and social standards of the International Finance Corporation, required by many international lenders. They are not Mozambican law, but they condition access to development bank financing.",
+        "fr": "Normes environnementales et sociales de la Société financière internationale, exigées par de nombreux bailleurs internationaux. Elles ne relèvent pas du droit mozambicain, mais conditionnent l'accès au financement des banques de développement."
+      },
+      "excerpt": {
+        "pt": "Em síntese: o projecto financiado deve identificar e gerir os seus riscos ambientais e sociais, incluindo a aquisição de terra e o reassentamento involuntário. Os financiadores verificam a conformidade antes do desembolso e durante a vida do projecto.",
+        "en": "In short: a financed project must identify and manage its environmental and social risks, including land acquisition and involuntary resettlement. Lenders check compliance before disbursement and throughout the life of the project.",
+        "fr": "En résumé : le projet financé doit identifier et gérer ses risques environnementaux et sociaux, y compris l'acquisition de terres et la réinstallation involontaire. Les bailleurs vérifient la conformité avant le décaissement et pendant toute la durée du projet."
+      },
+      "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    }
+  ]
+}

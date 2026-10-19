@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules-obligations.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "obligations"
+  ],
+  "properties": {
+    "obligations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "when",
+          "then"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/condition"
+            }
+          },
+          "then": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "title",
+              "frequency",
+              "schedule",
+              "refs"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "frequency": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "schedule": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "kind",
+                      "day"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "const": "monthly"
+                      },
+                      "day": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 31
+                          },
+                          {
+                            "const": "last-working-day"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "kind",
+                      "months",
+                      "day"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "const": "annual"
+                      },
+                      "months": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 12
+                        },
+                        "minItems": 1
+                      },
+                      "day": {
+                        "oneOf": [
+                          {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 31
+                          },
+                          {
+                            "const": "last-working-day"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "kind"
+                    ],
+                    "properties": {
+                      "kind": {
+                        "const": "text"
+                      }
+                    }
+                  }
+                ]
+              },
+              "note": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

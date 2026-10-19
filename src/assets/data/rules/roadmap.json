@@ -1,0 +1,367 @@
+{
+  "steps": [
+    {
+      "id": "apiex-meeting",
+      "when": [],
+      "then": {
+        "id": "apiex-meeting",
+        "phase": "explore",
+        "title": { "pt": "Reunião com a APIEX", "en": "Meeting with APIEX", "fr": "Réunion avec l'APIEX" },
+        "authority": { "pt": "APIEX", "en": "APIEX", "fr": "APIEX" },
+        "duration": { "pt": "1–4 semanas", "en": "1–4 weeks", "fr": "1 à 4 semaines" },
+        "note": {
+          "pt": "Apresentar o projecto, confirmar o enquadramento e a documentação para o registo.",
+          "en": "Present the project, confirm the regime and the documents needed for registration.",
+          "fr": "Présenter le projet, confirmer le régime applicable et les pièces nécessaires à l'enregistrement."
+        },
+        "critical": false,
+        "refs": ["apiex-guide-2026", "lei-8-2023"]
+      }
+    },
+    {
+      "id": "env-land-pre",
+      "when": [{ "field": "envRelevant", "op": "eq", "value": true }],
+      "then": {
+        "id": "env-land-pre",
+        "phase": "explore",
+        "title": { "pt": "Pré-avaliação ambiental e de terra", "en": "Environmental and land pre-assessment", "fr": "Pré-évaluation environnementale et foncière" },
+        "authority": { "pt": "Autoridade ambiental e serviços de cadastro da província", "en": "Provincial environmental authority and land registry services", "fr": "Autorité environnementale et services du cadastre de la province" },
+        "duration": { "pt": "2–8 semanas", "en": "2–8 weeks", "fr": "2 à 8 semaines" },
+        "note": {
+          "pt": "Classificação ambiental provável e verificação da situação da terra em {{fact.province}}.",
+          "en": "Likely environmental category and a check of the land situation in {{fact.province}}.",
+          "fr": "Catégorie environnementale probable et vérification de la situation foncière à {{fact.province}}."
+        },
+        "critical": false,
+        "refs": ["aia-regulation", "lei-19-97"]
+      }
+    },
+    {
+      "id": "incorporation-lda",
+      "when": [{ "field": "vehicle", "op": "eq", "value": "lda" }],
+      "then": {
+        "id": "incorporation",
+        "phase": "establish",
+        "title": { "pt": "Constituição da Lda e NUIT", "en": "Lda incorporation and NUIT", "fr": "Constitution de la Lda et NUIT" },
+        "authority": { "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária", "en": "Legal Entities Registry · Tax Authority", "fr": "Registre des entités juridiques · Administration fiscale" },
+        "duration": { "pt": "3–10 dias", "en": "3–10 days", "fr": "3 à 10 jours" },
+        "note": {
+          "pt": "Pacto social, registo comercial e número único de identificação tributária.",
+          "en": "Articles of association, commercial registration and taxpayer number (NUIT).",
+          "fr": "Statuts, immatriculation au registre du commerce et numéro d'identification fiscale (NUIT)."
+        },
+        "critical": false,
+        "refs": ["dl-1-2022"]
+      }
+    },
+    {
+      "id": "incorporation-company",
+      "when": [{ "field": "vehicle", "op": "in", "value": ["sa", "sas"] }],
+      "then": {
+        "id": "incorporation",
+        "phase": "establish",
+        "title": { "pt": "Constituição da sociedade e NUIT", "en": "Company incorporation and NUIT", "fr": "Constitution de la société et NUIT" },
+        "authority": { "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária", "en": "Legal Entities Registry · Tax Authority", "fr": "Registre des entités juridiques · Administration fiscale" },
+        "duration": { "pt": "3–10 dias", "en": "3–10 days", "fr": "3 à 10 jours" },
+        "note": {
+          "pt": "Estatutos, registo comercial e número único de identificação tributária.",
+          "en": "Articles, commercial registration and taxpayer number (NUIT).",
+          "fr": "Statuts, immatriculation et numéro d'identification fiscale (NUIT)."
+        },
+        "critical": false,
+        "refs": ["dl-1-2022"]
+      }
+    },
+    {
+      "id": "incorporation-branch",
+      "when": [{ "field": "vehicle", "op": "eq", "value": "branch" }],
+      "then": {
+        "id": "incorporation",
+        "phase": "establish",
+        "title": { "pt": "Registo da sucursal e NUIT", "en": "Branch registration and NUIT", "fr": "Immatriculation de la succursale et NUIT" },
+        "authority": { "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária", "en": "Legal Entities Registry · Tax Authority", "fr": "Registre des entités juridiques · Administration fiscale" },
+        "duration": { "pt": "{{BRANCH_REGISTRATION_TIME}}", "en": "{{BRANCH_REGISTRATION_TIME}}", "fr": "{{BRANCH_REGISTRATION_TIME}}" },
+        "note": {
+          "pt": "Documentos da sociedade-mãe legalizados e traduzidos; nomeação do representante.",
+          "en": "Parent company documents legalised and translated; appointment of the representative.",
+          "fr": "Documents de la société mère légalisés et traduits ; nomination du représentant."
+        },
+        "critical": false,
+        "refs": ["dl-1-2022"]
+      }
+    },
+    {
+      "id": "project-registration",
+      "when": [],
+      "then": {
+        "id": "project-registration",
+        "phase": "establish",
+        "title": { "pt": "Registo do projecto e certificado de investimento", "en": "Project registration and investment certificate", "fr": "Enregistrement du projet et certificat d'investissement" },
+        "authority": { "pt": "APIEX", "en": "APIEX", "fr": "APIEX" },
+        "duration": { "pt": "mín. 3 dias úteis", "en": "min. 3 working days", "fr": "min. 3 jours ouvrables" },
+        "note": {
+          "pt": "O certificado dá acesso às garantias e aos benefícios fiscais.",
+          "en": "The certificate unlocks the guarantees and tax incentives.",
+          "fr": "Le certificat ouvre l'accès aux garanties et aux avantages fiscaux."
+        },
+        "critical": false,
+        "refs": ["lei-8-2023", "lei-4-2009"]
+      }
+    },
+    {
+      "id": "fdi-registration-critical",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "envRelevant", "op": "eq", "value": false }
+      ],
+      "then": {
+        "id": "fdi-registration",
+        "phase": "operate",
+        "title": { "pt": "Registo do IDE no Banco de Moçambique", "en": "FDI registration with the Banco de Moçambique", "fr": "Enregistrement de l'IDE auprès de la Banco de Moçambique" },
+        "authority": { "pt": "Banco de Moçambique, via banco comercial", "en": "Banco de Moçambique, via a commercial bank", "fr": "Banco de Moçambique, via une banque commerciale" },
+        "duration": { "pt": "até 90 dias", "en": "up to 90 days", "fr": "jusqu'à 90 jours" },
+        "note": {
+          "pt": "Caminho crítico: condiciona a entrada de capital e a futura transferência de lucros.",
+          "en": "Critical path: it governs capital inflows and future profit transfers.",
+          "fr": "Chemin critique : conditionne l'entrée des capitaux et le futur transfert des bénéfices."
+        },
+        "critical": true,
+        "refs": ["lei-11-2009", "aviso-3-gbm-2024"]
+      }
+    },
+    {
+      "id": "fdi-registration",
+      "when": [
+        { "field": "foreignOwned", "op": "eq", "value": true },
+        { "field": "envRelevant", "op": "eq", "value": true }
+      ],
+      "then": {
+        "id": "fdi-registration",
+        "phase": "operate",
+        "title": { "pt": "Registo do IDE no Banco de Moçambique", "en": "FDI registration with the Banco de Moçambique", "fr": "Enregistrement de l'IDE auprès de la Banco de Moçambique" },
+        "authority": { "pt": "Banco de Moçambique, via banco comercial", "en": "Banco de Moçambique, via a commercial bank", "fr": "Banco de Moçambique, via une banque commerciale" },
+        "duration": { "pt": "até 90 dias", "en": "up to 90 days", "fr": "jusqu'à 90 jours" },
+        "note": {
+          "pt": "Condiciona a entrada de capital e a futura transferência de lucros.",
+          "en": "Governs capital inflows and future profit transfers.",
+          "fr": "Conditionne l'entrée des capitaux et le futur transfert des bénéfices."
+        },
+        "critical": false,
+        "refs": ["lei-11-2009", "aviso-3-gbm-2024"]
+      }
+    },
+    {
+      "id": "env-licence-a",
+      "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
+      "then": {
+        "id": "env-licence",
+        "phase": "operate",
+        "title": { "pt": "Licença ambiental (categoria A)", "en": "Environmental licence (category A)", "fr": "Licence environnementale (catégorie A)" },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "duration": { "pt": "{{ENV_LICENCE_CAT_A_DURATION}}", "en": "{{ENV_LICENCE_CAT_A_DURATION}}", "fr": "{{ENV_LICENCE_CAT_A_DURATION}}" },
+        "note": {
+          "pt": "Caminho crítico: estudo de impacto ambiental completo e consulta pública.",
+          "en": "Critical path: full environmental impact study and public consultation.",
+          "fr": "Chemin critique : étude d'impact environnemental complète et consultation publique."
+        },
+        "critical": true,
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "env-licence-b-land",
+      "when": [
+        { "field": "envCategory", "op": "eq", "value": "B" },
+        { "field": "needsLand", "op": "eq", "value": true }
+      ],
+      "then": {
+        "id": "env-licence",
+        "phase": "operate",
+        "title": { "pt": "Licença ambiental (categoria B)", "en": "Environmental licence (category B)", "fr": "Licence environnementale (catégorie B)" },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "duration": { "pt": "2–4 meses", "en": "2–4 months", "fr": "2 à 4 mois" },
+        "note": {
+          "pt": "Caminho crítico; corre em paralelo com o processo do DUAT.",
+          "en": "Critical path; runs in parallel with the DUAT process.",
+          "fr": "Chemin critique ; se déroule en parallèle de la procédure de DUAT."
+        },
+        "critical": true,
+        "refs": ["aia-regulation", "lei-19-97"]
+      }
+    },
+    {
+      "id": "env-licence-b",
+      "when": [
+        { "field": "envCategory", "op": "eq", "value": "B" },
+        { "field": "needsLand", "op": "eq", "value": false }
+      ],
+      "then": {
+        "id": "env-licence",
+        "phase": "operate",
+        "title": { "pt": "Licença ambiental (categoria B)", "en": "Environmental licence (category B)", "fr": "Licence environnementale (catégorie B)" },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "duration": { "pt": "2–4 meses", "en": "2–4 months", "fr": "2 à 4 mois" },
+        "note": {
+          "pt": "Caminho crítico; a instalação só pode operar com a licença emitida.",
+          "en": "Critical path; the facility can only operate once the licence is issued.",
+          "fr": "Chemin critique ; l'installation ne peut fonctionner qu'une fois la licence délivrée."
+        },
+        "critical": true,
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "env-licence-c-land",
+      "when": [
+        { "field": "envCategory", "op": "eq", "value": "C" },
+        { "field": "needsLand", "op": "eq", "value": true }
+      ],
+      "then": {
+        "id": "env-licence",
+        "phase": "operate",
+        "title": { "pt": "Licença ambiental (categoria C)", "en": "Environmental licence (category C)", "fr": "Licence environnementale (catégorie C)" },
+        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "duration": { "pt": "{{ENV_LICENCE_CAT_C_DURATION}}", "en": "{{ENV_LICENCE_CAT_C_DURATION}}", "fr": "{{ENV_LICENCE_CAT_C_DURATION}}" },
+        "note": {
+          "pt": "Procedimento simplificado; corre em paralelo com o DUAT.",
+          "en": "Simplified procedure; runs in parallel with the DUAT.",
+          "fr": "Procédure simplifiée ; en parallèle du DUAT."
+        },
+        "critical": false,
+        "refs": ["aia-regulation"]
+      }
+    },
+    {
+      "id": "sector-licence",
+      "when": [{ "field": "sector", "op": "in", "value": ["energy", "tourism", "logistics", "oil_gas", "mining"] }],
+      "then": {
+        "id": "sector-licence",
+        "phase": "operate",
+        "title": { "pt": "Licença da actividade · {{fact.sector}}", "en": "Activity licence · {{fact.sector}}", "fr": "Licence d'activité · {{fact.sector}}" },
+        "authority": { "pt": "Entidade de licenciamento do sector, via BAU", "en": "Sector licensing authority, via the BAU", "fr": "Autorité sectorielle d'autorisation, via le BAU" },
+        "duration": { "pt": "{{SECTOR_LICENCE_TIME}}", "en": "{{SECTOR_LICENCE_TIME}}", "fr": "{{SECTOR_LICENCE_TIME}}" },
+        "note": {
+          "pt": "Licenciamento da actividade nos termos do novo regulamento de licenciamento.",
+          "en": "Activity licensing under the new licensing regulation.",
+          "fr": "Autorisation de l'activité au titre du nouveau règlement sur les autorisations."
+        },
+        "critical": false,
+        "refs": ["dec-41-2026"]
+      }
+    },
+    {
+      "id": "temporary-import",
+      "when": [{ "field": "temporaryImport", "op": "eq", "value": true }],
+      "then": {
+        "id": "temporary-import",
+        "phase": "operate",
+        "title": { "pt": "Importação temporária de equipamento", "en": "Temporary import of equipment", "fr": "Admission temporaire d'équipements" },
+        "authority": { "pt": "Autoridade Tributária — Alfândegas", "en": "Tax Authority — Customs", "fr": "Administration fiscale — Douanes" },
+        "duration": { "pt": "{{TEMP_IMPORT_PROCESSING_TIME}}", "en": "{{TEMP_IMPORT_PROCESSING_TIME}}", "fr": "{{TEMP_IMPORT_PROCESSING_TIME}}" },
+        "note": {
+          "pt": "Taxa de utilização, garantia e prazo fixado; a reexportação tem de ser documentada.",
+          "en": "Usage fee, guarantee and a fixed period; re-export must be documented.",
+          "fr": "Redevance d'utilisation, garantie et délai fixé ; la réexportation doit être documentée."
+        },
+        "critical": false,
+        "refs": ["lei-11-2016", "pauta"]
+      }
+    },
+    {
+      "id": "work-permits",
+      "when": [
+        { "field": "hasForeignWorkers", "op": "eq", "value": true },
+        { "field": "sector", "op": "in", "value": ["energy", "tourism", "logistics", "oil_gas", "mining", "services", "general"] }
+      ],
+      "then": {
+        "id": "work-permits",
+        "phase": "operate",
+        "title": { "pt": "Autorizações de trabalho e DIRE", "en": "Work permits and DIRE", "fr": "Permis de travail et DIRE" },
+        "authority": { "pt": "Ministério do Trabalho · Serviço Nacional de Migração", "en": "Ministry of Labour · National Migration Service", "fr": "Ministère du Travail · Service national des migrations" },
+        "duration": { "pt": "{{WORK_PERMIT_PROCESSING_TIME}}", "en": "{{WORK_PERMIT_PROCESSING_TIME}}", "fr": "{{WORK_PERMIT_PROCESSING_TIME}}" },
+        "note": {
+          "pt": "{{fact.foreignWorkers}} trabalhadores estrangeiros: quota ou autorização fora da quota.",
+          "en": "{{fact.foreignWorkers}} foreign workers: within quota or out-of-quota authorisation.",
+          "fr": "{{fact.foreignWorkers}} travailleurs étrangers : dans le quota ou autorisation hors quota."
+        },
+        "critical": false,
+        "refs": ["lei-13-2023", "dec-88-2024"]
+      }
+    },
+    {
+      "id": "supplier-registration",
+      "when": [{ "field": "sector", "op": "eq", "value": "oil_gas" }],
+      "then": {
+        "id": "supplier-registration",
+        "phase": "operate",
+        "title": { "pt": "Registo como fornecedor (conteúdo local)", "en": "Supplier registration (local content)", "fr": "Enregistrement comme fournisseur (contenu local)" },
+        "authority": { "pt": "Operadores de GNL · INP", "en": "LNG operators · INP", "fr": "Opérateurs de GNL · INP" },
+        "duration": { "pt": "{{SUPPLIER_REGISTRATION_TIME}}", "en": "{{SUPPLIER_REGISTRATION_TIME}}", "fr": "{{SUPPLIER_REGISTRATION_TIME}}" },
+        "note": {
+          "pt": "Qualificação nas plataformas dos operadores e plano de conteúdo local.",
+          "en": "Qualification on the operators' platforms and a local content plan.",
+          "fr": "Qualification sur les plateformes des opérateurs et plan de contenu local."
+        },
+        "critical": false,
+        "refs": ["lei-21-2014"]
+      }
+    }
+  ],
+  "timeToOperate": [
+    {
+      "id": "with-land",
+      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "Cerca de 4–6 meses até operar. O DUAT para expansão pode levar até 24 meses.",
+          "en": "About 4–6 months to operate. The DUAT for expansion can take up to 24 months.",
+          "fr": "Environ 4 à 6 mois avant l'exploitation. Le DUAT pour l'extension peut prendre jusqu'à 24 mois."
+        }
+      }
+    },
+    {
+      "id": "category-a",
+      "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
+      "then": {
+        "text": {
+          "pt": "Prazo determinado pela licença ambiental de categoria A ({{ENV_LICENCE_CAT_A_DURATION}}).",
+          "en": "Timing driven by the category A environmental licence ({{ENV_LICENCE_CAT_A_DURATION}}).",
+          "fr": "Délai déterminé par la licence environnementale de catégorie A ({{ENV_LICENCE_CAT_A_DURATION}})."
+        }
+      }
+    },
+    {
+      "id": "category-b",
+      "when": [{ "field": "envCategory", "op": "eq", "value": "B" }],
+      "then": {
+        "text": {
+          "pt": "Cerca de 3–5 meses até operar, condicionado pela licença ambiental (2–4 meses na categoria B).",
+          "en": "About 3–5 months to operate, driven by the environmental licence (2–4 months for category B).",
+          "fr": "Environ 3 à 5 mois avant l'exploitation, selon la licence environnementale (2 à 4 mois en catégorie B)."
+        }
+      }
+    },
+    {
+      "id": "foreign",
+      "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+      "then": {
+        "text": {
+          "pt": "Cerca de 1–3 meses até operar. O registo do IDE no Banco de Moçambique pode levar até 90 dias.",
+          "en": "About 1–3 months to operate. FDI registration with the Banco de Moçambique can take up to 90 days.",
+          "fr": "Environ 1 à 3 mois avant l'exploitation. L'enregistrement de l'IDE auprès de la Banco de Moçambique peut prendre jusqu'à 90 jours."
+        }
+      }
+    },
+    {
+      "id": "default",
+      "when": [],
+      "then": {
+        "text": {
+          "pt": "Cerca de 2–4 semanas até operar, após constituição e registo do projecto.",
+          "en": "About 2–4 weeks to operate, after incorporation and project registration.",
+          "fr": "Environ 2 à 4 semaines avant l'exploitation, après constitution et enregistrement du projet."
+        }
+      }
+    }
+  ]
+}

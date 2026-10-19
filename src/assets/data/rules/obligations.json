@@ -1,0 +1,117 @@
+{
+  "obligations": [
+    {
+      "id": "inss",
+      "when": [{ "field": "workers", "op": "gte", "value": 1 }],
+      "then": {
+        "id": "inss",
+        "title": { "pt": "Contribuições para o INSS", "en": "INSS social security contributions", "fr": "Cotisations sociales INSS" },
+        "frequency": { "pt": "Mensal · até ao dia 10", "en": "Monthly · by the 10th", "fr": "Mensuel · avant le 10" },
+        "schedule": { "kind": "monthly", "day": 10 },
+        "refs": ["inss"]
+      }
+    },
+    {
+      "id": "withholding-stamp",
+      "when": [],
+      "then": {
+        "id": "withholding-stamp",
+        "title": { "pt": "Retenções na fonte e imposto do selo", "en": "Withholding taxes and stamp duty", "fr": "Retenues à la source et droit de timbre" },
+        "frequency": { "pt": "Mensal · até ao dia 20", "en": "Monthly · by the 20th", "fr": "Mensuel · avant le 20" },
+        "schedule": { "kind": "monthly", "day": 20 },
+        "refs": ["cirpc", "imposto-selo"]
+      }
+    },
+    {
+      "id": "vat-return",
+      "when": [],
+      "then": {
+        "id": "vat-return",
+        "title": { "pt": "Declaração periódica de IVA", "en": "Monthly VAT return", "fr": "Déclaration mensuelle de TVA" },
+        "frequency": { "pt": "Mensal", "en": "Monthly", "fr": "Mensuel" },
+        "schedule": { "kind": "monthly", "day": "last-working-day" },
+        "note": {
+          "pt": "Data indicativa; prazo legal {{VAT_MONTHLY_RETURN_DEADLINE}}.",
+          "en": "Indicative date; legal deadline {{VAT_MONTHLY_RETURN_DEADLINE}}.",
+          "fr": "Date indicative ; délai légal {{VAT_MONTHLY_RETURN_DEADLINE}}."
+        },
+        "refs": ["civa"]
+      }
+    },
+    {
+      "id": "irpc-payments-on-account",
+      "when": [],
+      "then": {
+        "id": "irpc-payments-on-account",
+        "title": { "pt": "Pagamentos por conta de IRPC", "en": "IRPC payments on account", "fr": "Acomptes d'IRPC" },
+        "frequency": { "pt": "Maio, Julho e Setembro", "en": "May, July and September", "fr": "Mai, juillet et septembre" },
+        "schedule": { "kind": "annual", "months": [5, 7, 9], "day": "last-working-day" },
+        "note": {
+          "pt": "Dia exacto e base de cálculo: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
+          "en": "Exact day and calculation basis: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
+          "fr": "Jour exact et base de calcul : {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}."
+        },
+        "refs": ["cirpc"]
+      }
+    },
+    {
+      "id": "modelo-22",
+      "when": [],
+      "then": {
+        "id": "modelo-22",
+        "title": { "pt": "Declaração anual de IRPC (Modelo 22)", "en": "Annual IRPC return (Modelo 22)", "fr": "Déclaration annuelle d'IRPC (Modelo 22)" },
+        "frequency": { "pt": "Anual · último dia útil de Maio", "en": "Annual · last working day of May", "fr": "Annuel · dernier jour ouvrable de mai" },
+        "schedule": { "kind": "annual", "months": [5], "day": "last-working-day" },
+        "refs": ["m22", "cirpc"]
+      }
+    },
+    {
+      "id": "modelo-20",
+      "when": [{ "field": "relatedParties", "op": "eq", "value": true }],
+      "then": {
+        "id": "modelo-20",
+        "title": { "pt": "Modelo 20 e anexo de preços de transferência", "en": "Modelo 20 and transfer-pricing annex", "fr": "Modelo 20 et annexe prix de transfert" },
+        "frequency": { "pt": "Anual · último dia útil de Junho", "en": "Annual · last working day of June", "fr": "Annuel · dernier jour ouvrable de juin" },
+        "schedule": { "kind": "annual", "months": [6], "day": "last-working-day" },
+        "note": {
+          "pt": "Aplicável por existirem partes relacionadas (empréstimo ou serviços do grupo).",
+          "en": "Applies because there are related parties (group loan or services).",
+          "fr": "Applicable en raison de parties liées (prêt ou services intragroupe)."
+        },
+        "refs": ["m20", "cirpc"]
+      }
+    },
+    {
+      "id": "apiex-report",
+      "when": [],
+      "then": {
+        "id": "apiex-report",
+        "title": { "pt": "Relatório de progresso à APIEX", "en": "APIEX progress report", "fr": "Rapport d'avancement à l'APIEX" },
+        "frequency": { "pt": "Semestral", "en": "Half-yearly", "fr": "Semestriel" },
+        "schedule": { "kind": "text" },
+        "note": {
+          "pt": "Datas de entrega {{APIEX_REPORT_DATES}}.",
+          "en": "Filing dates {{APIEX_REPORT_DATES}}.",
+          "fr": "Dates de dépôt {{APIEX_REPORT_DATES}}."
+        },
+        "refs": ["lei-8-2023", "apiex-guide-2026"]
+      }
+    },
+    {
+      "id": "permit-renewals",
+      "when": [{ "field": "hasForeignWorkers", "op": "eq", "value": true }],
+      "then": {
+        "id": "permit-renewals",
+        "title": { "pt": "Renovação de autorizações de trabalho e DIRE", "en": "Work permit and DIRE renewals", "fr": "Renouvellement des permis de travail et DIRE" },
+        "frequency": { "pt": "Conforme a validade de cada título", "en": "According to each document's validity", "fr": "Selon la validité de chaque titre" },
+        "schedule": { "kind": "text" },
+        "note": {
+          "pt": "Iniciar a renovação com antecedência ({{RENEWAL_LEAD_TIME}}).",
+          "en": "Start renewals early ({{RENEWAL_LEAD_TIME}}).",
+          "fr": "Lancer le renouvellement à l'avance ({{RENEWAL_LEAD_TIME}})."
+        },
+        "refs": ["dec-88-2024", "lei-13-2023"]
+      }
+    }
+  ]
+}

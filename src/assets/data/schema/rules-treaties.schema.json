@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules-treaties.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "noTreatyRate",
+    "unknownTreatyRate",
+    "entries"
+  ],
+  "properties": {
+    "noTreatyRate": {
+      "$ref": "common.schema.json#/definitions/localizedText"
+    },
+    "unknownTreatyRate": {
+      "$ref": "common.schema.json#/definitions/localizedText"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "country",
+          "dividends",
+          "refs"
+        ],
+        "properties": {
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "dividends": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

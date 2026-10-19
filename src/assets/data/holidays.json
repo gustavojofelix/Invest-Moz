@@ -1,0 +1,158 @@
+{
+  "status": "illustrative",
+  "note": "Public holidays as published; a holiday falling on a Sunday is observed on the Monday.",
+  "holidays": [
+    {
+      "date": "2026-01-01",
+      "name": {
+        "pt": "Dia da Fraternidade Universal",
+        "en": "Universal Fraternity Day",
+        "fr": "Journée de la fraternité universelle"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "name": {
+        "pt": "Dia dos Heróis Moçambicanos",
+        "en": "Mozambican Heroes Day",
+        "fr": "Journée des héros mozambicains"
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "name": {
+        "pt": "Dia da Mulher Moçambicana",
+        "en": "Mozambican Women's Day",
+        "fr": "Journée de la femme mozambicaine"
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "name": {
+        "pt": "Dia Internacional dos Trabalhadores",
+        "en": "International Workers' Day",
+        "fr": "Fête internationale des travailleurs"
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "name": {
+        "pt": "Dia da Independência Nacional",
+        "en": "Independence Day",
+        "fr": "Fête de l'indépendance"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "name": {
+        "pt": "Dia da Vitória",
+        "en": "Victory Day",
+        "fr": "Jour de la victoire"
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "name": {
+        "pt": "Dia das Forças Armadas de Libertação Nacional",
+        "en": "Armed Forces Day",
+        "fr": "Journée des forces armées"
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "name": {
+        "pt": "Dia da Paz e Reconciliação",
+        "en": "Peace and Reconciliation Day",
+        "fr": "Journée de la paix et de la réconciliation"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "name": {
+        "pt": "Dia da Paz e Reconciliação (gozo)",
+        "en": "Peace and Reconciliation Day (observed)",
+        "fr": "Journée de la paix et de la réconciliation (report)"
+      }
+    },
+    {
+      "date": "2026-12-25",
+      "name": {
+        "pt": "Dia da Família",
+        "en": "Family Day",
+        "fr": "Journée de la famille"
+      }
+    },
+    {
+      "date": "2027-01-01",
+      "name": {
+        "pt": "Dia da Fraternidade Universal",
+        "en": "Universal Fraternity Day",
+        "fr": "Journée de la fraternité universelle"
+      }
+    },
+    {
+      "date": "2027-02-03",
+      "name": {
+        "pt": "Dia dos Heróis Moçambicanos",
+        "en": "Mozambican Heroes Day",
+        "fr": "Journée des héros mozambicains"
+      }
+    },
+    {
+      "date": "2027-04-07",
+      "name": {
+        "pt": "Dia da Mulher Moçambicana",
+        "en": "Mozambican Women's Day",
+        "fr": "Journée de la femme mozambicaine"
+      }
+    },
+    {
+      "date": "2027-05-01",
+      "name": {
+        "pt": "Dia Internacional dos Trabalhadores",
+        "en": "International Workers' Day",
+        "fr": "Fête internationale des travailleurs"
+      }
+    },
+    {
+      "date": "2027-06-25",
+      "name": {
+        "pt": "Dia da Independência Nacional",
+        "en": "Independence Day",
+        "fr": "Fête de l'indépendance"
+      }
+    },
+    {
+      "date": "2027-09-07",
+      "name": {
+        "pt": "Dia da Vitória",
+        "en": "Victory Day",
+        "fr": "Jour de la victoire"
+      }
+    },
+    {
+      "date": "2027-09-25",
+      "name": {
+        "pt": "Dia das Forças Armadas de Libertação Nacional",
+        "en": "Armed Forces Day",
+        "fr": "Journée des forces armées"
+      }
+    },
+    {
+      "date": "2027-10-04",
+      "name": {
+        "pt": "Dia da Paz e Reconciliação",
+        "en": "Peace and Reconciliation Day",
+        "fr": "Journée de la paix et de la réconciliation"
+      }
+    },
+    {
+      "date": "2027-12-25",
+      "name": {
+        "pt": "Dia da Família",
+        "en": "Family Day",
+        "fr": "Journée de la famille"
+      }
+    }
+  ]
+}

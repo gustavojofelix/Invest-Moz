@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules-triggers.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "triggers",
+    "watchPoints"
+  ],
+  "properties": {
+    "triggers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "when",
+          "then"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/condition"
+            }
+          },
+          "then": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "trigger",
+              "fact",
+              "text",
+              "severity",
+              "refs"
+            ],
+            "properties": {
+              "trigger": {
+                "enum": [
+                  "treaty",
+                  "loan",
+                  "fees_abroad",
+                  "temporary_import",
+                  "quota",
+                  "land",
+                  "exports",
+                  "local_content"
+                ]
+              },
+              "fact": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "text": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "severity": {
+                "enum": [
+                  "info",
+                  "attention"
+                ]
+              },
+              "refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "watchPoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "when",
+          "then"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "when": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/definitions/condition"
+            }
+          },
+          "then": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
