@@ -34,11 +34,18 @@ function compare(dir, label) {
   for (const key of all) {
     for (const l of LOCALES) {
       if (!(key in files[l])) errors.push(`${label} [${l}]: missing key "${key}"`);
-      else if (typeof files[l][key] === 'string' && !files[l][key].trim()) errors.push(`${label} [${l}]: empty "${key}"`);
+      else if (typeof files[l][key] === 'string' && !files[l][key].trim())
+        errors.push(`${label} [${l}]: empty "${key}"`);
     }
     // Interpolation params must match across locales.
-    const params = LOCALES.map((l) => [...String(files[l][key] ?? '').matchAll(/\{\{\s*(\w+)\s*\}\}/g)].map((m) => m[1]).sort().join(','));
-    if (new Set(params).size > 1) errors.push(`${label}: params differ for "${key}" (${params.join(' | ')})`);
+    const params = LOCALES.map((l) =>
+      [...String(files[l][key] ?? '').matchAll(/\{\{\s*(\w+)\s*\}\}/g)]
+        .map((m) => m[1])
+        .sort()
+        .join(','),
+    );
+    if (new Set(params).size > 1)
+      errors.push(`${label}: params differ for "${key}" (${params.join(' | ')})`);
   }
   return all.size;
 }
@@ -59,7 +66,8 @@ function walkData(node, path) {
     localized++;
     for (const l of LOCALES) {
       if (!(l in node)) errors.push(`${path}: LocalizedText missing "${l}"`);
-      else if (typeof node[l] === 'string' && !node[l].trim()) errors.push(`${path}: LocalizedText empty "${l}"`);
+      else if (typeof node[l] === 'string' && !node[l].trim())
+        errors.push(`${path}: LocalizedText empty "${l}"`);
       else if (Array.isArray(node[l]) && node[l].length === 0 && !path.includes('sectors[7]'))
         errors.push(`${path}: keywords empty for "${l}"`);
     }
@@ -84,4 +92,6 @@ if (errors.length) {
   for (const e of errors.slice(0, 200)) console.error('  - ' + e);
   process.exit(1);
 }
-console.log(`✓ i18n complete: ${keys} UI keys × ${LOCALES.length} locales, ${localized} LocalizedText values in data.`);
+console.log(
+  `✓ i18n complete: ${keys} UI keys × ${LOCALES.length} locales, ${localized} LocalizedText values in data.`,
+);

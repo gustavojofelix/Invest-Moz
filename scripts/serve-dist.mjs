@@ -4,6 +4,7 @@
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { extname, join, normalize, resolve } from 'node:path';
+import { brotliCompressSync, gzipSync } from 'node:zlib';
 
 const root = resolve('dist/invest-moz/browser');
 const portArg = process.argv.indexOf('--port');
@@ -32,11 +33,12 @@ async function isFile(path) {
   }
 }
 
-// Apply the generated _headers (CSP) like Netlify does.
+// Apply the global block of the generated _headers (CSP for "/*") like Netlify does.
 let extraHeaders = {};
 try {
   const raw = await readFile(join(root, '_headers'), 'utf8');
   for (const line of raw.split(/\r?\n/).slice(1)) {
+    if (!/^\s/.test(line)) break; // next path block
     const i = line.indexOf(':');
     if (i > 0) extraHeaders[line.slice(0, i).trim()] = line.slice(i + 1).trim();
   }
@@ -61,8 +63,23 @@ createServer(async (req, res) => {
     }
   }
   file ??= join(root, 'index.csr.html');
-  const body = await readFile(file);
-  res.writeHead(200, { ...extraHeaders, 'Content-Type': types[extname(file)] ?? 'application/octet-stream' });
+  let body = await readFile(file);
+  const headers = {
+    ...extraHeaders,
+    'Content-Type': types[extname(file)] ?? 'application/octet-stream',
+  };
+  // Compress text like Netlify does (brotli, else gzip).
+  const accept = String(req.headers['accept-encoding'] ?? '');
+  if (/\.(html|js|mjs|css|json|svg|txt|xml)$/.test(file)) {
+    if (accept.includes('br')) {
+      body = brotliCompressSync(body);
+      headers['Content-Encoding'] = 'br';
+    } else if (accept.includes('gzip')) {
+      body = gzipSync(body);
+      headers['Content-Encoding'] = 'gzip';
+    }
+  }
+  res.writeHead(200, headers);
   res.end(body);
 }).listen(port, () => {
   console.log(`Invest Moz preview: http://localhost:${port}`);

@@ -14,7 +14,9 @@ export class JsonProjectRepository extends ProjectRepository {
   private readonly storage = inject(SafeStorage);
   private readonly tasks = inject(PendingTasks);
   private examplesP?: Promise<Project[]>;
-  private readonly _current = signal<string | null>(this.storage.get<string | null>(CURRENT_KEY, null));
+  private readonly _current = signal<string | null>(
+    this.storage.get<string | null>(CURRENT_KEY, null),
+  );
   readonly currentRef = this._current.asReadonly();
 
   examples(): Promise<Project[]> {
@@ -35,7 +37,12 @@ export class JsonProjectRepository extends ProjectRepository {
       import('../../domain/rules-engine'),
     ]);
     const now = new Date();
-    const project = describeProject(newProjectRef(now.getFullYear()), input, RULE_SET, now.toISOString());
+    const project = describeProject(
+      newProjectRef(now.getFullYear()),
+      input,
+      RULE_SET,
+      now.toISOString(),
+    );
     this.storage.set(CUSTOM_KEY, { ...this.custom(), [project.ref]: project });
     return project;
   }

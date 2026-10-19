@@ -63,7 +63,10 @@ export abstract class QaService {
   abstract stream(text: string, opts?: { instant?: boolean }): Observable<string>;
 }
 
-export type EnquiryDraft = Omit<Enquiry, 'ref' | 'createdAt' | 'status' | 'notes' | 'submittedInDemo'>;
+export type EnquiryDraft = Omit<
+  Enquiry,
+  'ref' | 'createdAt' | 'status' | 'notes' | 'submittedInDemo'
+>;
 
 export abstract class EnquiryRepository {
   abstract readonly enquiries: Signal<Enquiry[]>;

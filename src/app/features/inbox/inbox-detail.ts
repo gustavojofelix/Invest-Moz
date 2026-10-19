@@ -1,8 +1,16 @@
-import { ChangeDetectionStrategy, Component, computed, effect, inject, input, signal, untracked } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  computed,
+  effect,
+  inject,
+  input,
+  signal,
+  untracked,
+} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideArrowLeft, LucideCheck, LucideMail, LucidePhone } from '@lucide/angular';
 import { PROVINCE_NAMES } from '@core/domain/provinces';
 import { RULE_SET } from '@core/domain/rule-set.data';
 import type { EnquiryStatus } from '@core/domain/types';
@@ -14,11 +22,24 @@ import { SectionLabel } from '@shared/ui/section-label';
 import { Skeleton } from '@shared/ui/skeleton';
 import { StatusPill } from '@shared/ui/status-pill';
 import { STATUSES } from './inbox-page';
+import { Icon } from '@shared/ui/icon';
 
 @Component({
   selector: 'im-inbox-detail',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [FormsModule, RouterLink, TranslocoDirective, ImDatePipe, LocPipe, MoneyPipe, EmptyState, SectionLabel, Skeleton, StatusPill, LucideArrowLeft, LucideMail, LucidePhone, LucideCheck],
+  imports: [
+    Icon,
+    FormsModule,
+    RouterLink,
+    TranslocoDirective,
+    ImDatePipe,
+    LocPipe,
+    MoneyPipe,
+    EmptyState,
+    SectionLabel,
+    Skeleton,
+    StatusPill,
+  ],
   templateUrl: './inbox-detail.html',
   styles: `
     .steps {
@@ -68,8 +89,12 @@ export class InboxDetail {
   protected readonly note = signal('');
   protected readonly saved = signal(false);
   protected readonly loaded = this.repo.loaded;
-  protected readonly enquiry = computed(() => this.repo.enquiries().find((e) => e.ref === this.ref()) ?? null);
-  protected readonly statusIndex = computed(() => STATUSES.indexOf(this.enquiry()?.status ?? 'new'));
+  protected readonly enquiry = computed(
+    () => this.repo.enquiries().find((e) => e.ref === this.ref()) ?? null,
+  );
+  protected readonly statusIndex = computed(() =>
+    STATUSES.indexOf(this.enquiry()?.status ?? 'new'),
+  );
   protected readonly vehicleName = computed(() => {
     const v = this.enquiry()?.projectSnapshot?.vehicle;
     return RULE_SET.vehicles.options.find((o) => o.vehicle === v)?.name;

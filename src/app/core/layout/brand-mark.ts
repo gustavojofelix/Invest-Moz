@@ -55,7 +55,9 @@ const STAR = starPoints(4.4, 10, 2.7, 1.1);
           </span>
           <span class="text-muted" aria-hidden="true">×</span>
           <span class="inline-flex items-center gap-2.5">
-            <span class="roundel bg-flag-black" [style.--d]="diameter()" aria-hidden="true">LTS</span>
+            <span class="roundel bg-flag-black" [style.--d]="diameter()" aria-hidden="true"
+              >LTS</span
+            >
             <span class="text-sm font-bold leading-tight">Law Technology Solutions</span>
           </span>
         </span>
@@ -112,5 +114,7 @@ export class BrandMark {
   readonly size = input<'sm' | 'md' | 'lg'>('md');
   protected readonly star = STAR;
   protected readonly flagWidth = computed(() => ({ sm: 24, md: 28, lg: 40 })[this.size()]);
-  protected readonly diameter = computed(() => ({ sm: '28px', md: '36px', lg: '48px' })[this.size()]);
+  protected readonly diameter = computed(
+    () => ({ sm: '28px', md: '36px', lg: '48px' })[this.size()],
+  );
 }

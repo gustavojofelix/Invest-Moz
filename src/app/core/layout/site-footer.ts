@@ -32,8 +32,12 @@ import { LanguageSwitcher } from './language-switcher';
             <im-language-switcher [label]="t('nav.language')" />
           </div>
           <ul class="mt-4 space-y-1" role="list">
-            <li><a class="link" [routerLink]="['/', lang(), 'questions']">{{ t('nav.questions') }}</a></li>
-            <li><a class="link" [routerLink]="['/', lang(), 'login']">{{ t('footer.firmAccess') }}</a></li>
+            <li>
+              <a class="link" [routerLink]="['/', lang(), 'questions']">{{ t('nav.questions') }}</a>
+            </li>
+            <li>
+              <a class="link" [routerLink]="['/', lang(), 'login']">{{ t('footer.firmAccess') }}</a>
+            </li>
           </ul>
         </div>
       </div>

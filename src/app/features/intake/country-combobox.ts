@@ -12,9 +12,9 @@ import {
   viewChild,
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR, type ControlValueAccessor } from '@angular/forms';
-import { LucideChevronDown } from '@lucide/angular';
 import type { Country, Locale } from '@core/domain/types';
 import { normalize } from '@core/domain/text';
+import { Icon } from '@shared/ui/icon';
 
 let nextId = 0;
 
@@ -25,8 +25,10 @@ let nextId = 0;
 @Component({
   selector: 'im-country-combobox',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [LucideChevronDown],
-  providers: [{ provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CountryCombobox), multi: true }],
+  imports: [Icon],
+  providers: [
+    { provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CountryCombobox), multi: true },
+  ],
   host: { '(focusout)': 'onFocusOut($event)' },
   template: `
     <div class="relative">
@@ -51,7 +53,12 @@ let nextId = 0;
         (click)="open.set(true)"
         (keydown)="onKey($event)"
       />
-      <svg lucideChevronDown [size]="16" class="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 text-muted" aria-hidden="true"></svg>
+      <svg
+        imIcon="chevron-down"
+        [size]="16"
+        class="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 text-muted"
+        aria-hidden="true"
+      ></svg>
       @if (open()) {
         <ul [id]="listId" role="listbox" class="list" [attr.aria-label]="placeholder()">
           @for (c of filtered(); track c.code; let i = $index) {
@@ -151,7 +158,9 @@ export class CountryCombobox implements ControlValueAccessor {
   protected readonly filtered = computed(() => {
     const q = normalize(this.query());
     const lang = this.lang();
-    const sorted = [...this.countries()].sort((a, b) => a.name[lang].localeCompare(b.name[lang], lang));
+    const sorted = [...this.countries()].sort((a, b) =>
+      a.name[lang].localeCompare(b.name[lang], lang),
+    );
     const selected = sorted.find((c) => c.code === this.value());
     if (!q || (selected && selected.name[lang] === this.query())) return sorted;
     return sorted.filter((c) => normalize(c.name[lang]).includes(q) || c.code.toLowerCase() === q);
@@ -226,7 +235,9 @@ export class CountryCombobox implements ControlValueAccessor {
 
   private scrollActive(): void {
     queueMicrotask(() =>
-      this.host.nativeElement.querySelector(`#${this.optionId(this.activeIndex())}`)?.scrollIntoView({ block: 'nearest' }),
+      this.host.nativeElement
+        .querySelector(`#${this.optionId(this.activeIndex())}`)
+        ?.scrollIntoView({ block: 'nearest' }),
     );
   }
 

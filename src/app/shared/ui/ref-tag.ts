@@ -11,7 +11,12 @@ import { CitationService } from './citation.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     @if (refId()) {
-      <button type="button" class="tag tag-btn" (click)="open($event)" [attr.aria-label]="ariaLabel()">
+      <button
+        type="button"
+        class="tag tag-btn"
+        (click)="open($event)"
+        [attr.aria-label]="ariaLabel()"
+      >
         {{ text() }}
       </button>
     } @else {
@@ -32,7 +37,7 @@ import { CitationService } from './citation.service';
       color: var(--ink);
       font-family: var(--font-mono);
       font-size: 0.78em;
-      font-weight: 500;
+      font-weight: 400;
       line-height: 1.5;
       letter-spacing: 0;
       white-space: nowrap;

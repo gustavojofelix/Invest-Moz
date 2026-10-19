@@ -1,16 +1,16 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideFlag } from '@lucide/angular';
 import type { Locale, Obligation } from '@core/domain/types';
 import { ImDatePipe, LocPipe } from '@core/i18n/format';
 import { ConfirmText } from './confirm-text';
 import { RefTag } from './ref-tag';
+import { Icon } from '@shared/ui/icon';
 
 /** Recurring obligations with the next actual due date; shifted dates flagged. */
 @Component({
   selector: 'im-obligation-calendar',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [TranslocoDirective, LocPipe, ImDatePipe, ConfirmText, RefTag, LucideFlag],
+  imports: [Icon, TranslocoDirective, LocPipe, ImDatePipe, ConfirmText, RefTag],
   template: `
     <ul *transloco="let t" role="list" class="border-t border-rule">
       @for (o of obligations(); track o.id) {
@@ -18,12 +18,24 @@ import { RefTag } from './ref-tag';
           <div class="date">
             @if (o.next.length) {
               @let first = o.next[0];
-              <p class="font-serif text-3xl leading-none font-semibold">{{ first.date | imDate: lang() : 'day' }}</p>
-              <p class="mt-1 text-xs font-bold uppercase tracking-wider">{{ first.date | imDate: lang() : 'monthYear' }}</p>
+              <p class="font-serif text-3xl leading-none font-semibold">
+                {{ first.date | imDate: lang() : 'day' }}
+              </p>
+              <p class="mt-1 text-xs font-bold uppercase tracking-wider">
+                {{ first.date | imDate: lang() : 'monthYear' }}
+              </p>
               <p class="text-xs text-muted">{{ first.date | imDate: lang() : 'weekday' }}</p>
               @if (first.shifted) {
-                <p class="shifted mt-1" [attr.title]="t('ui.calendar.shiftedHint', { date: (first.nominal | imDate: lang() : 'long') })">
-                  <svg lucideFlag [size]="12" aria-hidden="true"></svg>{{ t('ui.calendar.shifted') }}
+                <p
+                  class="shifted mt-1"
+                  [attr.title]="
+                    t('ui.calendar.shiftedHint', {
+                      date: (first.nominal | imDate: lang() : 'long'),
+                    })
+                  "
+                >
+                  <svg imIcon="flag" [size]="12" aria-hidden="true"></svg
+                  >{{ t('ui.calendar.shifted') }}
                 </p>
               }
             } @else {
@@ -40,9 +52,24 @@ import { RefTag } from './ref-tag';
               <p class="mt-1.5 text-xs text-muted">
                 {{ t('ui.calendar.then') }}
                 @for (d of o.next.slice(1); track d.date; let last = $last) {
-                  <span [class.font-bold]="d.shifted" [attr.title]="d.shifted ? t('ui.calendar.shiftedHint', { date: (d.nominal | imDate: lang() : 'long') }) : null"
-                    >{{ d.date | imDate: lang() : 'medium' }}@if (d.shifted) {<span aria-hidden="true"> ⚑</span><span class="sr-only"> ({{ t('ui.calendar.shifted') }})</span>}</span
-                  >@if (!last) {<span>, </span>}
+                  <span
+                    [class.font-bold]="d.shifted"
+                    [attr.title]="
+                      d.shifted
+                        ? t('ui.calendar.shiftedHint', {
+                            date: (d.nominal | imDate: lang() : 'long'),
+                          })
+                        : null
+                    "
+                    >{{ d.date | imDate: lang() : 'medium' }}
+                    @if (d.shifted) {
+                      <span aria-hidden="true"> ⚑</span
+                      ><span class="sr-only"> ({{ t('ui.calendar.shifted') }})</span>
+                    }
+                  </span>
+                  @if (!last) {
+                    <span>, </span>
+                  }
                 }
               </p>
             }

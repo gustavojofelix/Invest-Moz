@@ -1,9 +1,24 @@
-import { ChangeDetectionStrategy, Component, ElementRef, computed, effect, inject, resource, signal, untracked } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ElementRef,
+  computed,
+  effect,
+  inject,
+  resource,
+  signal,
+  untracked,
+} from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { type AbstractControl, NonNullableFormBuilder, ReactiveFormsModule, type ValidationErrors, Validators } from '@angular/forms';
+import {
+  type AbstractControl,
+  NonNullableFormBuilder,
+  ReactiveFormsModule,
+  type ValidationErrors,
+  Validators,
+} from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
-import { LucideCheck, LucideCopy, LucideMail, LucideSend } from '@lucide/angular';
 import { TOPICS, type TopicId } from '@core/domain/types';
 import { PROVINCE_NAMES } from '@core/domain/provinces';
 import { LocPipe, MoneyPipe } from '@core/i18n/format';
@@ -13,17 +28,30 @@ import { CheckboxChip } from '@shared/ui/checkbox-chip';
 import { FieldError } from '@shared/ui/field-error';
 import { SectionLabel } from '@shared/ui/section-label';
 import { copyText, enquiryText, mailtoHref } from './enquiry-text';
+import { Icon } from '@shared/ui/icon';
 
 const SERVICES = ['incorporation', 'investment', 'licensing', 'tax', 'labour', 'exchange'] as const;
 
 function atLeastOne(group: AbstractControl): ValidationErrors | null {
-  return Object.values(group.value as Record<string, boolean>).some(Boolean) ? null : { areasRequired: true };
+  return Object.values(group.value as Record<string, boolean>).some(Boolean)
+    ? null
+    : { areasRequired: true };
 }
 
 @Component({
   selector: 'im-enquiry-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ReactiveFormsModule, RouterLink, TranslocoDirective, LocPipe, MoneyPipe, CheckboxChip, FieldError, SectionLabel, LucideSend, LucideCopy, LucideMail, LucideCheck],
+  imports: [
+    Icon,
+    ReactiveFormsModule,
+    RouterLink,
+    TranslocoDirective,
+    LocPipe,
+    MoneyPipe,
+    CheckboxChip,
+    FieldError,
+    SectionLabel,
+  ],
   templateUrl: './enquiry-page.html',
   styles: `
     .service {
@@ -66,7 +94,10 @@ export class EnquiryPage {
     company: ['', [Validators.required, Validators.maxLength(160)]],
     email: ['', [Validators.required, Validators.email, Validators.maxLength(160)]],
     phone: ['', [Validators.pattern(/^\+?[0-9 ()-]{7,20}$/)]],
-    areas: this.fb.group(Object.fromEntries(TOPICS.map((t) => [t, false])) as Record<TopicId, boolean>, { validators: atLeastOne }),
+    areas: this.fb.group(
+      Object.fromEntries(TOPICS.map((t) => [t, false])) as Record<TopicId, boolean>,
+      { validators: atLeastOne },
+    ),
     message: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(3000)]],
   });
 
@@ -118,7 +149,12 @@ export class EnquiryPage {
         const areas = this.form.controls.areas;
         if (Object.values(areas.value).some(Boolean)) return;
         const pick: TopicId[] = ['companies', 'investment'];
-        if (r.assessment.factTriggers.some((t) => ['loan', 'fees_abroad', 'treaty'].includes(t.trigger))) pick.push('tax', 'exchange');
+        if (
+          r.assessment.factTriggers.some((t) =>
+            ['loan', 'fees_abroad', 'treaty'].includes(t.trigger),
+          )
+        )
+          pick.push('tax', 'exchange');
         if (r.project.input.needsLand) pick.push('land');
         if (r.project.input.foreignWorkers > 0) pick.push('immigration');
         pick.forEach((k) => areas.controls[k].setValue(true));
@@ -146,7 +182,9 @@ export class EnquiryPage {
     this.submitted.set(true);
     this.form.markAllAsTouched();
     if (this.form.invalid) {
-      queueMicrotask(() => this.host.nativeElement.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus());
+      queueMicrotask(() =>
+        this.host.nativeElement.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus(),
+      );
       return;
     }
     this.sending.set(true);

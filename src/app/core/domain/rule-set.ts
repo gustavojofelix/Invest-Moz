@@ -48,7 +48,12 @@ export interface ApiexTable {
   fxUsdMzn: number;
   /** Minimum FDI for the export-of-profits guarantee (Lei 8/2023). */
   fdiMinimumMzn: number;
-  regime: Rule<{ threshold: string; authority: LocalizedText; path: LocalizedText; refs: RefId[] }>[];
+  regime: Rule<{
+    threshold: string;
+    authority: LocalizedText;
+    path: LocalizedText;
+    refs: RefId[];
+  }>[];
   fdiGuarantee: Rule<{ text: LocalizedText }>[];
 }
 

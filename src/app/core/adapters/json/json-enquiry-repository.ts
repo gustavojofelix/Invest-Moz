@@ -78,7 +78,9 @@ export class JsonEnquiryRepository extends EnquiryRepository {
   async addNote(ref: string, text: string): Promise<void> {
     const current = this.enquiries().find((e) => e.ref === ref);
     if (!current || !text.trim()) return;
-    this.patch(ref, { notes: [...current.notes, { at: new Date().toISOString(), text: text.trim() }] });
+    this.patch(ref, {
+      notes: [...current.notes, { at: new Date().toISOString(), text: text.trim() }],
+    });
   }
 
   markSeen(ref: string): void {

@@ -3,9 +3,21 @@ import type { Enquiry, Locale } from '@core/domain/types';
 
 /** Plain-text version of an enquiry (copy to clipboard / mailto body). */
 export function enquiryText(
-  e: Pick<Enquiry, 'name' | 'company' | 'email' | 'phone' | 'message' | 'projectSnapshot'> & { areasLabels: string[]; ref?: string },
+  e: Pick<Enquiry, 'name' | 'company' | 'email' | 'phone' | 'message' | 'projectSnapshot'> & {
+    areasLabels: string[];
+    ref?: string;
+  },
   lang: Locale,
-  labels: { subject: string; name: string; company: string; email: string; phone: string; areas: string; message: string; project: string },
+  labels: {
+    subject: string;
+    name: string;
+    company: string;
+    email: string;
+    phone: string;
+    areas: string;
+    message: string;
+    project: string;
+  },
 ): { subject: string; body: string } {
   const lines: (string | null)[] = [
     e.ref ? `Ref. ${e.ref}` : null,
@@ -19,9 +31,16 @@ export function enquiryText(
     e.message,
   ];
   if (e.projectSnapshot) {
-    lines.push('', `${labels.project} (${e.projectSnapshot.projectRef}):`, e.projectSnapshot.summary[lang]);
+    lines.push(
+      '',
+      `${labels.project} (${e.projectSnapshot.projectRef}):`,
+      e.projectSnapshot.summary[lang],
+    );
   }
-  return { subject: `${labels.subject}${e.ref ? ` — ${e.ref}` : ''}`, body: lines.filter((l): l is string => l !== null).join('\n') };
+  return {
+    subject: `${labels.subject}${e.ref ? ` — ${e.ref}` : ''}`,
+    body: lines.filter((l): l is string => l !== null).join('\n'),
+  };
 }
 
 export function mailtoHref(subject: string, body: string): string {

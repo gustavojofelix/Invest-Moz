@@ -1,6 +1,13 @@
-import { ChangeDetectionStrategy, Component, forwardRef, input, model, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  forwardRef,
+  input,
+  model,
+  signal,
+} from '@angular/core';
 import { NG_VALUE_ACCESSOR, type ControlValueAccessor } from '@angular/forms';
-import { LucideCheck } from '@lucide/angular';
+import { Icon } from '@shared/ui/icon';
 
 let nextId = 0;
 
@@ -8,8 +15,10 @@ let nextId = 0;
 @Component({
   selector: 'im-checkbox-chip',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [LucideCheck],
-  providers: [{ provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CheckboxChip), multi: true }],
+  imports: [Icon],
+  providers: [
+    { provide: NG_VALUE_ACCESSOR, useExisting: forwardRef(() => CheckboxChip), multi: true },
+  ],
   template: `
     <label class="chip" [class.on]="checked()" [class.disabled]="disabled()" [attr.for]="id">
       <input
@@ -23,7 +32,7 @@ let nextId = 0;
       />
       <span class="box" aria-hidden="true">
         @if (checked()) {
-          <svg lucideCheck [size]="14" [strokeWidth]="2.5"></svg>
+          <svg imIcon="check" [size]="14" [strokeWidth]="2.5"></svg>
         }
       </span>
       <span>{{ label() }}</span>

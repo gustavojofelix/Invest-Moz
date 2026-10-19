@@ -1,9 +1,16 @@
-import { ChangeDetectionStrategy, Component, computed, inject, output, resource, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  computed,
+  inject,
+  output,
+  resource,
+  signal,
+} from '@angular/core';
 import { DialogRef } from '@angular/cdk/dialog';
 import { Router } from '@angular/router';
-import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
+import { TranslocoDirective, TranslocoService, provideTranslocoScope } from '@jsverse/transloco';
 import { firstValueFrom } from 'rxjs';
-import { LucideArrowRight, LucideMoon, LucideRotateCcw, LucideSun } from '@lucide/angular';
 import { LOCALES, type Locale } from '@core/domain/types';
 import { LocPipe } from '@core/i18n/format';
 import { LOCALE_LABEL } from '@core/i18n/locales';
@@ -12,12 +19,15 @@ import { CurrentUrl } from '@core/layout/current-url';
 import { ThemeService } from '@core/layout/theme.service';
 import { AuthService, DemoStateService, ProjectRepository } from '@core/ports';
 import { Sheet } from '@shared/ui/sheet';
+import { Icon } from '@shared/ui/icon';
 
 /** Presenter controls: examples, screens, language, theme, reset. */
 @Component({
   selector: 'im-demo-panel',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [TranslocoDirective, LocPipe, LucideArrowRight, LucideMoon, LucideSun, LucideRotateCcw],
+  // Also opened as an overlay (Shift + D) outside the /demo route.
+  providers: [provideTranslocoScope('demo')],
+  imports: [Icon, TranslocoDirective, LocPipe],
   template: `
     <div *transloco="let t" class="space-y-8">
       <section>
@@ -28,9 +38,11 @@ import { Sheet } from '@shared/ui/sheet';
               <button type="button" class="row" (click)="openExample(p.ref)">
                 <span class="min-w-0">
                   <span class="block font-bold leading-snug">{{ p.title | loc: lang() }}</span>
-                  <span class="block text-sm text-muted">{{ p.sector | loc: lang() }} · {{ p.ref }}</span>
+                  <span class="block text-sm text-muted"
+                    >{{ p.sector | loc: lang() }} · {{ p.ref }}</span
+                  >
                 </span>
-                <svg lucideArrowRight [size]="18" aria-hidden="true"></svg>
+                <svg imIcon="arrow-right" [size]="18" aria-hidden="true"></svg>
               </button>
             </li>
           }
@@ -42,7 +54,11 @@ import { Sheet } from '@shared/ui/sheet';
         <ul class="mt-2 grid grid-cols-2 gap-2" role="list">
           @for (s of screens(); track s.key) {
             <li>
-              <button type="button" class="btn btn-secondary btn-sm w-full justify-start" (click)="go(s.path)">
+              <button
+                type="button"
+                class="btn btn-secondary btn-sm w-full justify-start"
+                (click)="go(s.path)"
+              >
                 {{ t('demo.screen.' + s.key) }}
               </button>
             </li>
@@ -71,11 +87,16 @@ import { Sheet } from '@shared/ui/sheet';
         </div>
         <div>
           <h3 class="label-caps text-muted">{{ t('demo.theme') }}</h3>
-          <button type="button" class="btn btn-secondary btn-sm mt-2" [attr.aria-pressed]="theme.theme() === 'dark'" (click)="theme.toggle()">
+          <button
+            type="button"
+            class="btn btn-secondary btn-sm mt-2"
+            [attr.aria-pressed]="theme.theme() === 'dark'"
+            (click)="theme.toggle()"
+          >
             @if (theme.theme() === 'dark') {
-              <svg lucideSun [size]="18" aria-hidden="true"></svg>{{ t('demo.light') }}
+              <svg imIcon="sun" [size]="18" aria-hidden="true"></svg>{{ t('demo.light') }}
             } @else {
-              <svg lucideMoon [size]="18" aria-hidden="true"></svg>{{ t('demo.dark') }}
+              <svg imIcon="moon" [size]="18" aria-hidden="true"></svg>{{ t('demo.dark') }}
             }
           </button>
         </div>
@@ -86,12 +107,20 @@ import { Sheet } from '@shared/ui/sheet';
         <p class="mt-1 text-sm text-muted">{{ t('demo.resetText') }}</p>
         @if (confirming()) {
           <div class="mt-3 flex flex-wrap gap-2" role="group" [attr.aria-label]="t('demo.reset')">
-            <button type="button" class="btn btn-primary btn-sm" (click)="reset()">{{ t('demo.resetConfirm') }}</button>
-            <button type="button" class="btn btn-ghost btn-sm" (click)="confirming.set(false)">{{ t('ui.cancel') }}</button>
+            <button type="button" class="btn btn-primary btn-sm" (click)="reset()">
+              {{ t('demo.resetConfirm') }}
+            </button>
+            <button type="button" class="btn btn-ghost btn-sm" (click)="confirming.set(false)">
+              {{ t('ui.cancel') }}
+            </button>
           </div>
         } @else {
-          <button type="button" class="btn btn-secondary btn-sm mt-3" (click)="confirming.set(true)">
-            <svg lucideRotateCcw [size]="18" aria-hidden="true"></svg>{{ t('demo.resetCta') }}
+          <button
+            type="button"
+            class="btn btn-secondary btn-sm mt-3"
+            (click)="confirming.set(true)"
+          >
+            <svg imIcon="rotate-ccw" [size]="18" aria-hidden="true"></svg>{{ t('demo.resetCta') }}
           </button>
         }
         @if (resetDone()) {
@@ -185,9 +214,15 @@ export class DemoPanel {
 @Component({
   selector: 'im-demo-panel-sheet',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  providers: [provideTranslocoScope('demo')],
   imports: [Sheet, DemoPanel, TranslocoDirective],
   template: `
-    <im-sheet *transloco="let t" [heading]="t('demo.title')" [eyebrow]="t('demo.eyebrow')" [closeLabel]="t('ui.close')">
+    <im-sheet
+      *transloco="let t"
+      [heading]="t('demo.title')"
+      [eyebrow]="t('demo.eyebrow')"
+      [closeLabel]="t('ui.close')"
+    >
       <im-demo-panel (navigated)="ref.close()" />
     </im-sheet>
   `,

@@ -1,6 +1,5 @@
 import { Directive, Injector, PLATFORM_ID, inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
-import { SheetService } from '../../shared/ui/sheet';
 
 /** Shift + D toggles the presenter panel as an overlay (lazy-loaded). */
 @Directive({
@@ -8,7 +7,6 @@ import { SheetService } from '../../shared/ui/sheet';
   host: { '(document:keydown)': 'onKey($event)' },
 })
 export class DemoHotkey {
-  private readonly sheet = inject(SheetService);
   private readonly injector = inject(Injector);
   private readonly browser = isPlatformBrowser(inject(PLATFORM_ID));
   private ref: { close(): void } | null = null;
@@ -23,8 +21,12 @@ export class DemoHotkey {
       this.ref.close();
       return;
     }
-    const { DemoPanelSheet } = await import('../../features/demo/demo-panel');
-    const ref = this.sheet.open(DemoPanelSheet, {
+    // Loaded on demand so the CDK overlay stays out of the initial bundle.
+    const [{ DemoPanelSheet }, { SheetService }] = await Promise.all([
+      import('../../features/demo/demo-panel'),
+      import('../../shared/ui/sheet'),
+    ]);
+    const ref = this.injector.get(SheetService).open(DemoPanelSheet, {
       label: 'Demo',
       side: 'right',
       width: 'min(28rem, 100vw)',

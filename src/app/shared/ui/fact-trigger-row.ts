@@ -1,25 +1,38 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideArrowRight } from '@lucide/angular';
 import type { Locale, TriggerResult } from '@core/domain/types';
 import { LocPipe } from '@core/i18n/format';
 import { ConfirmText } from './confirm-text';
 import { RefTag } from './ref-tag';
+import { Icon } from '@shared/ui/icon';
 
 /** "Fact of the project → what changes", with the supporting references. */
 @Component({
   selector: 'im-fact-trigger-row',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [TranslocoDirective, LocPipe, ConfirmText, RefTag, LucideArrowRight],
+  imports: [Icon, TranslocoDirective, LocPipe, ConfirmText, RefTag],
   template: `
-    <div *transloco="let t" class="row avoid-break" [class.attention]="trigger().severity === 'attention'">
+    <div
+      *transloco="let t"
+      class="row avoid-break"
+      [class.attention]="trigger().severity === 'attention'"
+    >
       <div class="fact">
         <p class="label-caps text-[0.6875rem] text-muted">{{ t('ui.trigger.fact') }}</p>
         <p class="mt-1 font-bold leading-snug">{{ trigger().fact | loc: lang() }}</p>
       </div>
-      <svg lucideArrowRight [size]="18" class="arrow hidden text-muted sm:block" aria-hidden="true"></svg>
+      <svg
+        imIcon="arrow-right"
+        [size]="18"
+        class="arrow hidden text-muted sm:block"
+        aria-hidden="true"
+      ></svg>
       <div class="min-w-0">
-        <p class="label-caps text-[0.6875rem]" [class.text-accent]="trigger().severity === 'attention'" [class.text-brand]="trigger().severity === 'info'">
+        <p
+          class="label-caps text-[0.6875rem]"
+          [class.text-accent]="trigger().severity === 'attention'"
+          [class.text-brand]="trigger().severity === 'info'"
+        >
           {{ t(trigger().severity === 'attention' ? 'ui.trigger.attention' : 'ui.trigger.info') }}
         </p>
         <p class="mt-1"><im-confirm-text [text]="trigger().text | loc: lang()" /></p>

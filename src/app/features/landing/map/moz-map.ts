@@ -28,7 +28,11 @@ import { MAP_CITIES, MAP_CORRIDORS, MAP_PROVINCES, MAP_VIEWBOX } from './map-dat
               [class.on]="active() === p.code"
               [class.city]="p.code === 'maputo_cidade'"
               tabindex="0"
+              role="button"
               [attr.aria-label]="names()[p.code]"
+              [attr.aria-pressed]="active() === p.code"
+              (keydown.enter)="active.set(p.code)"
+              (keydown.space)="$event.preventDefault(); active.set(p.code)"
               (mouseenter)="active.set(p.code)"
               (focus)="active.set(p.code)"
               (blur)="active.set(null)"
@@ -49,22 +53,48 @@ import { MAP_CITIES, MAP_CORRIDORS, MAP_PROVINCES, MAP_VIEWBOX } from './map-dat
               <circle [attr.cx]="c.x" [attr.cy]="c.y" r="3.2" class="town" />
             }
             <text
-              [attr.x]="c.name === 'Maputo' || c.name === 'Xai-Xai' || c.name === 'Chimoio' || c.name === 'Tete' || c.name === 'Lichinga' ? c.x - 8 : c.x + 8"
+              [attr.x]="
+                c.name === 'Maputo' ||
+                c.name === 'Xai-Xai' ||
+                c.name === 'Chimoio' ||
+                c.name === 'Tete' ||
+                c.name === 'Lichinga'
+                  ? c.x - 8
+                  : c.x + 8
+              "
               [attr.y]="c.y + 4"
-              [attr.text-anchor]="c.name === 'Maputo' || c.name === 'Xai-Xai' || c.name === 'Chimoio' || c.name === 'Tete' || c.name === 'Lichinga' ? 'end' : 'start'"
+              [attr.text-anchor]="
+                c.name === 'Maputo' ||
+                c.name === 'Xai-Xai' ||
+                c.name === 'Chimoio' ||
+                c.name === 'Tete' ||
+                c.name === 'Lichinga'
+                  ? 'end'
+                  : 'start'
+              "
               class="lbl"
               [class.port-lbl]="c.port"
-            >{{ c.name }}</text>
+            >
+              {{ c.name }}
+            </text>
           }
         </g>
       </svg>
 
       <figcaption class="mt-3 flex flex-wrap items-center justify-between gap-3 text-sm">
-        <span class="min-h-6 font-serif text-lg font-semibold" aria-live="polite">{{ activeName() }}</span>
+        <span class="min-h-6 font-serif text-lg font-semibold" aria-live="polite">{{
+          activeName()
+        }}</span>
         <span class="flex flex-wrap gap-x-4 gap-y-1 text-muted">
-          <span class="inline-flex items-center gap-1.5"><span class="lg-port" aria-hidden="true"></span>{{ portsLabel() }}</span>
-          <span class="inline-flex items-center gap-1.5"><span class="lg-town" aria-hidden="true"></span>{{ citiesLabel() }}</span>
-          <span class="inline-flex items-center gap-1.5"><span class="lg-corr" aria-hidden="true"></span>{{ corridorsLabel() }}</span>
+          <span class="inline-flex items-center gap-1.5"
+            ><span class="lg-port" aria-hidden="true"></span>{{ portsLabel() }}</span
+          >
+          <span class="inline-flex items-center gap-1.5"
+            ><span class="lg-town" aria-hidden="true"></span>{{ citiesLabel() }}</span
+          >
+          <span class="inline-flex items-center gap-1.5"
+            ><span class="lg-corr" aria-hidden="true"></span>{{ corridorsLabel() }}</span
+          >
         </span>
       </figcaption>
     </figure>
@@ -151,7 +181,10 @@ export class MozMap {
 
   protected readonly names = computed(() => {
     const l = this.lang();
-    return Object.fromEntries(Object.entries(PROVINCE_NAMES).map(([k, v]) => [k, v[l]])) as Record<ProvinceCode, string>;
+    return Object.fromEntries(Object.entries(PROVINCE_NAMES).map(([k, v]) => [k, v[l]])) as Record<
+      ProvinceCode,
+      string
+    >;
   });
   protected readonly activeName = computed(() => {
     const a = this.active();

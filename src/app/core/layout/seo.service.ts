@@ -54,7 +54,10 @@ export class SeoService {
       name: 'description',
       content: this.locale.t(data.description ?? 'seo.siteDescription'),
     });
-    this.meta.updateTag({ name: 'robots', content: data.noindex ? 'noindex, nofollow' : 'index, follow' });
+    this.meta.updateTag({
+      name: 'robots',
+      content: data.noindex ? 'noindex, nofollow' : 'index, follow',
+    });
 
     const origin = this.browser ? this.document.location.origin : SITE_ORIGIN_TOKEN;
     const path = url.split(/[?#]/)[0];

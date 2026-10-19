@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
-import { LucideCheck } from '@lucide/angular';
+import { Icon } from '@shared/ui/icon';
 
 /**
  * Vertical checklist with ticks appearing in sequence. `done` is the number of
@@ -8,14 +8,19 @@ import { LucideCheck } from '@lucide/angular';
 @Component({
   selector: 'im-stepper',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [LucideCheck],
+  imports: [Icon],
   template: `
     <ol role="list" class="space-y-1">
       @for (s of steps(); track s; let i = $index) {
-        <li class="item" [class.done]="i < done()" [class.active]="i === done()" [attr.aria-current]="i === done() ? 'step' : null">
+        <li
+          class="item"
+          [class.done]="i < done()"
+          [class.active]="i === done()"
+          [attr.aria-current]="i === done() ? 'step' : null"
+        >
           <span class="mark" aria-hidden="true">
             @if (i < done()) {
-              <svg lucideCheck [size]="14" [strokeWidth]="2.5"></svg>
+              <svg imIcon="check" [size]="14" [strokeWidth]="2.5"></svg>
             }
           </span>
           <span>{{ s }}</span>

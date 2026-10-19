@@ -138,7 +138,15 @@ export interface LicenceItem {
   refs: RefId[];
 }
 
-export type TriggerKind = 'treaty' | 'loan' | 'fees_abroad' | 'temporary_import' | 'quota' | 'land' | 'exports' | 'local_content';
+export type TriggerKind =
+  | 'treaty'
+  | 'loan'
+  | 'fees_abroad'
+  | 'temporary_import'
+  | 'quota'
+  | 'land'
+  | 'exports'
+  | 'local_content';
 
 export interface TriggerResult {
   id: string;

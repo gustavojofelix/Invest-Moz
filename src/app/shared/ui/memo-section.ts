@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, input, signal } from '@angular/core';
-import { LucideChevronDown } from '@lucide/angular';
+import { Icon } from '@shared/ui/icon';
 
 /**
  * A numbered section of the advisory memo. Anchored (id) for the section
@@ -8,7 +8,7 @@ import { LucideChevronDown } from '@lucide/angular';
 @Component({
   selector: 'im-memo-section',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [LucideChevronDown],
+  imports: [Icon],
   template: `
     <section [attr.aria-labelledby]="anchor() + '-title'" class="border-t border-ink pt-5 pb-10">
       <div class="flex items-baseline gap-3">
@@ -28,7 +28,13 @@ import { LucideChevronDown } from '@lucide/angular';
               (click)="open.set(!open())"
             >
               <span>{{ heading() }}</span>
-              <svg lucideChevronDown [size]="20" class="chev" [class.rotate-180]="open()" aria-hidden="true"></svg>
+              <svg
+                imIcon="chevron-down"
+                [size]="20"
+                class="chev"
+                [class.rotate-180]="open()"
+                aria-hidden="true"
+              ></svg>
             </button>
             <span class="static-heading">{{ heading() }}</span>
           </h2>

@@ -42,6 +42,8 @@ export class Skeleton {
   readonly lines = input(3);
   readonly height = input('');
   protected readonly widths = computed(() =>
-    Array.from({ length: this.lines() }, (_, i) => (i === this.lines() - 1 ? '62%' : `${96 - (i % 3) * 7}%`)),
+    Array.from({ length: this.lines() }, (_, i) =>
+      i === this.lines() - 1 ? '62%' : `${96 - (i % 3) * 7}%`,
+    ),
   );
 }

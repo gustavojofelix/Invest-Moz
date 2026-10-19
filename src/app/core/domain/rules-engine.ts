@@ -50,18 +50,27 @@ export function classifySector(idea: string, table: RuleSet['sectors']): SectorD
     const hit = LOCALES.some((l) => sector.keywords[l].some((k) => containsPhrase(text, k)));
     if (hit) return sector;
   }
-  return table.sectors.find((s) => s.id === table.fallback) ?? table.sectors[table.sectors.length - 1];
+  return (
+    table.sectors.find((s) => s.id === table.fallback) ?? table.sectors[table.sectors.length - 1]
+  );
 }
 
 export type QuotaStatus = 'none' | 'within' | 'over';
 
-export function quotaStatus(input: Pick<ProjectInput, 'workers' | 'foreignWorkers'>, maxPercent: number): QuotaStatus {
+export function quotaStatus(
+  input: Pick<ProjectInput, 'workers' | 'foreignWorkers'>,
+  maxPercent: number,
+): QuotaStatus {
   if (input.foreignWorkers <= 0) return 'none';
   if (input.workers <= 0) return 'over';
   return (input.foreignWorkers / input.workers) * 100 > maxPercent ? 'over' : 'within';
 }
 
-export function deriveFacts(input: ProjectInput, rules: RuleSet, countries: readonly Country[]): Facts {
+export function deriveFacts(
+  input: ProjectInput,
+  rules: RuleSet,
+  countries: readonly Country[],
+): Facts {
   const sector = classifySector(input.idea, rules.sectors);
   const foreignOwned = input.capital !== 'mozambican';
   const country = countries.find((c) => c.code === input.investorCountry);
@@ -86,7 +95,11 @@ export function deriveFacts(input: ProjectInput, rules: RuleSet, countries: read
 }
 
 /** Localised dividend withholding for the investor's country. */
-export function treatyRate(countryCode: string, countries: readonly Country[], rules: RuleSet): LocalizedText {
+export function treatyRate(
+  countryCode: string,
+  countries: readonly Country[],
+  rules: RuleSet,
+): LocalizedText {
   const country = countries.find((c) => c.code === countryCode);
   if (!country?.treaty) return rules.treaties.noTreatyRate;
   const entry = rules.treaties.entries.find((e) => e.country === countryCode);
@@ -94,7 +107,12 @@ export function treatyRate(countryCode: string, countries: readonly Country[], r
   return renderLocalized(rules.treaties.unknownTreatyRate, { 'fact.countryCode': countryCode });
 }
 
-function templateVars(input: ProjectInput, facts: Facts, rules: RuleSet, countries: readonly Country[]) {
+function templateVars(
+  input: ProjectInput,
+  facts: Facts,
+  rules: RuleSet,
+  countries: readonly Country[],
+) {
   const country = countries.find((c) => c.code === input.investorCountry);
   const rate = treatyRate(input.investorCountry, countries, rules);
   const sector = rules.sectors.sectors.find((s) => s.id === facts['sector']);
@@ -144,8 +162,13 @@ export function assess(project: Project, rules: RuleSet, ctx: EngineContext): As
   const recommendedDef = optionOf(vehicleRule.then.recommended);
 
   // Company vs branch comparison (foreign or mixed capital)
-  const showComparison = selectFirst([{ id: 'cmp', when: rules.vehicles.comparisonWhen, then: true }], facts);
-  const companyVsBranch = showComparison ? rules.vehicles.comparison.map((row) => track({ ...row })) : undefined;
+  const showComparison = selectFirst(
+    [{ id: 'cmp', when: rules.vehicles.comparisonWhen, then: true }],
+    facts,
+  );
+  const companyVsBranch = showComparison
+    ? rules.vehicles.comparison.map((row) => track({ ...row }))
+    : undefined;
 
   // Investment regime
   const regime = selectFirst(rules.apiex.regime, facts);
@@ -190,10 +213,22 @@ export function assess(project: Project, rules: RuleSet, ctx: EngineContext): As
     roadmap,
     timeToOperate: timeToOperate ? L(timeToOperate.then.text) : { pt: '', en: '', fr: '' },
     licences: selectAll(rules.licences.licences, facts).map((r) =>
-      track({ ...r.then, title: L(r.then.title), detail: L(r.then.detail), authority: L(r.then.authority), refs: [...r.then.refs] }),
+      track({
+        ...r.then,
+        title: L(r.then.title),
+        detail: L(r.then.detail),
+        authority: L(r.then.authority),
+        refs: [...r.then.refs],
+      }),
     ),
     factTriggers: selectAll(rules.triggers.triggers, facts).map((r) =>
-      track({ id: r.id, ...r.then, fact: L(r.then.fact), text: L(r.then.text), refs: [...r.then.refs] }),
+      track({
+        id: r.id,
+        ...r.then,
+        fact: L(r.then.fact),
+        text: L(r.then.text),
+        refs: [...r.then.refs],
+      }),
     ),
     incentives: selectAll(rules.incentives.incentives, facts).map((r) =>
       track({
@@ -204,16 +239,18 @@ export function assess(project: Project, rules: RuleSet, ctx: EngineContext): As
         refs: [...r.then.refs],
       }),
     ),
-    obligations: selectAll(rules.obligations.obligations, facts).map((r) =>
-      track({
-        ...r.then,
-        title: L(r.then.title),
-        frequency: L(r.then.frequency),
-        note: r.then.note ? L(r.then.note) : undefined,
-        next: nextDueDates(r.then.schedule, ctx.today, holidays, 3),
-        refs: [...r.then.refs],
-      }),
-    ).sort(byNextDueDate),
+    obligations: selectAll(rules.obligations.obligations, facts)
+      .map((r) =>
+        track({
+          ...r.then,
+          title: L(r.then.title),
+          frequency: L(r.then.frequency),
+          note: r.then.note ? L(r.then.note) : undefined,
+          next: nextDueDates(r.then.schedule, ctx.today, holidays, 3),
+          refs: [...r.then.refs],
+        }),
+      )
+      .sort(byNextDueDate),
     location: selectAll(rules.zones.location, facts).map((r) =>
       track({ ...r.then, title: L(r.then.title), text: L(r.then.text), refs: [...r.then.refs] }),
     ),
@@ -245,17 +282,25 @@ function byNextDueDate(a: { next: { date: string }[] }, b: { next: { date: strin
 // ---------------------------------------------------------------------------
 
 /** Builds a stored Project (title, sector, summary) from free input. */
-export function describeProject(ref: string, input: ProjectInput, rules: RuleSet, createdAt: string): Project {
+export function describeProject(
+  ref: string,
+  input: ProjectInput,
+  rules: RuleSet,
+  createdAt: string,
+): Project {
   const sector = classifySector(input.idea, rules.sectors);
   const firstSentence = input.idea.trim().split(/(?<=[.!?])\s|\n/)[0] ?? '';
-  const short = firstSentence.length > 72 ? firstSentence.slice(0, 69).trimEnd() + '…' : firstSentence;
+  const short =
+    firstSentence.length > 72 ? firstSentence.slice(0, 69).trimEnd() + '…' : firstSentence;
   const title = {} as LocalizedText;
   const summary = {} as LocalizedText;
   for (const l of LOCALES) {
     title[l] = short || sector.label[l];
-    const usd = new Intl.NumberFormat(INTL[l], { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(
-      input.investmentUsd,
-    );
+    const usd = new Intl.NumberFormat(INTL[l], {
+      style: 'currency',
+      currency: 'USD',
+      maximumFractionDigits: 0,
+    }).format(input.investmentUsd);
     summary[l] = `${sector.label[l]} · ${PROVINCE_NAMES[input.province][l]} · ${usd}`;
   }
   return { ref, example: false, title, sector: sector.label, summary, input, createdAt };

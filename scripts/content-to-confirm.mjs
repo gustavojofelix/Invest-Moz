@@ -43,7 +43,11 @@ entrada de \`placeholders.json\` e correr \`npm run check\`.
 for (const g of groups) {
   md += `## ${g.title}\n\n| Marcador | O que confirmar | Onde é usado |\n|---|---|---|\n`;
   for (const [key, desc] of Object.entries(g.items)) {
-    const where = [...(usage.get(key) ?? [])].sort().map((f) => `\`${f}\``).join(', ') || '—';
+    const where =
+      [...(usage.get(key) ?? [])]
+        .sort()
+        .map((f) => `\`${f}\``)
+        .join(', ') || '—';
     md += `| \`{{${key}}}\` | ${desc} | ${where} |\n`;
   }
   md += '\n';

@@ -26,13 +26,18 @@ const PHASES: RoadmapPhase[] = ['explore', 'establish', 'operate'];
                 <span class="num" aria-hidden="true">{{ step.number }}</span>
                 <div class="min-w-0">
                   <h4 class="font-sans text-base font-bold leading-snug">
-                    <span class="sr-only">{{ t('ui.roadmap.step') }} {{ step.number }}: </span>{{ step.title | loc: lang() }}
+                    <span class="sr-only">{{ t('ui.roadmap.step') }} {{ step.number }}: </span
+                    >{{ step.title | loc: lang() }}
                   </h4>
                   <p class="mt-0.5 text-sm text-muted">{{ step.authority | loc: lang() }}</p>
                   <p class="mt-2 flex flex-wrap items-center gap-2">
-                    <span class="duration"><im-confirm-text [text]="step.duration | loc: lang()" /></span>
+                    <span class="duration"
+                      ><im-confirm-text [text]="step.duration | loc: lang()"
+                    /></span>
                     @if (step.critical) {
-                      <span class="label-caps text-[0.6875rem] text-accent">{{ t('ui.roadmap.critical') }}</span>
+                      <span class="label-caps text-[0.6875rem] text-accent">{{
+                        t('ui.roadmap.critical')
+                      }}</span>
                     }
                   </p>
                   <p class="mt-2 text-sm"><im-confirm-text [text]="step.note | loc: lang()" /></p>

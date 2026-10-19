@@ -1,32 +1,42 @@
-import { ChangeDetectionStrategy, Component, computed, effect, inject, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  computed,
+  effect,
+  inject,
+  signal,
+} from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideMenu, LucideX } from '@lucide/angular';
 import { AuthService } from '../ports';
 import { LocaleService } from '../i18n/locale.service';
 import { BrandMark } from './brand-mark';
 import { CurrentUrl } from './current-url';
 import { FlagStripe } from './flag-stripe';
 import { LanguageSwitcher } from './language-switcher';
+import { Icon } from '@shared/ui/icon';
 
 @Component({
   selector: 'im-site-header',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
+    Icon,
     RouterLink,
     RouterLinkActive,
     TranslocoDirective,
     BrandMark,
     FlagStripe,
     LanguageSwitcher,
-    LucideMenu,
-    LucideX,
   ],
   template: `
-    <header *transloco="let t" class="no-print sticky top-0 z-40 border-b border-rule bg-surface/95 backdrop-blur-[2px]">
+    <header *transloco="let t" class="no-print sticky top-0 z-40 border-b border-rule bg-surface">
       <im-flag-stripe />
       <div class="container-page flex h-16 items-center justify-between gap-4">
-        <a [routerLink]="['/', lang()]" class="-ml-1 rounded p-1 no-underline" [attr.aria-label]="t('nav.home')">
+        <a
+          [routerLink]="['/', lang()]"
+          class="-ml-1 rounded p-1 no-underline"
+          [attr.aria-label]="t('nav.home')"
+        >
           <im-brand-mark />
         </a>
 
@@ -58,9 +68,9 @@ import { LanguageSwitcher } from './language-switcher';
             (click)="open.set(!open())"
           >
             @if (open()) {
-              <svg lucideX [size]="22" aria-hidden="true"></svg>
+              <svg imIcon="x" [size]="22" aria-hidden="true"></svg>
             } @else {
-              <svg lucideMenu [size]="22" aria-hidden="true"></svg>
+              <svg imIcon="menu" [size]="22" aria-hidden="true"></svg>
             }
             <span class="sr-only">{{ t('nav.menu') }}</span>
           </button>
@@ -73,7 +83,11 @@ import { LanguageSwitcher } from './language-switcher';
             <ul role="list">
               @for (item of items(); track item.key) {
                 <li class="border-b border-rule last:border-0">
-                  <a [routerLink]="item.link" class="flex min-h-12 items-center font-bold no-underline" (click)="open.set(false)">
+                  <a
+                    [routerLink]="item.link"
+                    class="flex min-h-12 items-center font-bold no-underline"
+                    (click)="open.set(false)"
+                  >
                     {{ t(item.key) }}
                   </a>
                 </li>

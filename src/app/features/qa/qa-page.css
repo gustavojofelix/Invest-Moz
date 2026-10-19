@@ -1,3 +1,6 @@
+.context p {
+  flex: 1 1 14rem;
+}
 .context {
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +20,7 @@
   margin-inline: -1rem;
   padding-inline: 1rem;
   scroll-snap-type: x proximity;
+  scroll-padding-inline: 1rem;
   scrollbar-width: thin;
 }
 .topic {
@@ -91,12 +95,17 @@
   opacity: 0.55;
 }
 
+/* Sticky only where there is room for it. */
 .composer {
-  position: sticky;
-  bottom: 0;
   padding: 1rem 0 1.25rem;
   background: var(--surface);
   border-top: 1px solid var(--ink);
+}
+@media (min-width: 1024px) {
+  .composer {
+    position: sticky;
+    bottom: 0;
+  }
 }
 
 .talk {

@@ -12,13 +12,6 @@ import {
 import { isPlatformBrowser } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
 import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
-import {
-  LucideArrowRight,
-  LucideMessageSquareText,
-  LucidePrinter,
-  LucideSend,
-  LucideTriangleAlert,
-} from '@lucide/angular';
 import type { Assessment, LocalizedText } from '@core/domain/types';
 import { PROVINCE_NAMES } from '@core/domain/provinces';
 import { ImDatePipe, LocPipe, MoneyPipe, NumberPipe } from '@core/i18n/format';
@@ -39,6 +32,7 @@ import { RuledTable, type RuledColumn } from '@shared/ui/ruled-table';
 import { SectionLabel } from '@shared/ui/section-label';
 import { Skeleton } from '@shared/ui/skeleton';
 import { AssessmentFacade } from './assessment.facade';
+import { Icon } from '@shared/ui/icon';
 
 type SectionId =
   | 'vehicle'
@@ -57,6 +51,7 @@ type SectionId =
   changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [AssessmentFacade],
   imports: [
+    Icon,
     RouterLink,
     TranslocoDirective,
     LocPipe,
@@ -76,11 +71,6 @@ type SectionId =
     RuledTable,
     SectionLabel,
     Skeleton,
-    LucidePrinter,
-    LucideMessageSquareText,
-    LucideSend,
-    LucideArrowRight,
-    LucideTriangleAlert,
   ],
   templateUrl: './assessment-page.html',
   styleUrl: './assessment-page.css',
@@ -120,8 +110,16 @@ export class AssessmentPage {
     const recommendBranch = a?.vehicle.recommended === 'branch';
     return [
       { key: 'label', label: this.transloco.translate('assessment.comparison.aspect') },
-      { key: 'company', label: this.transloco.translate('assessment.comparison.company'), emphasis: !recommendBranch },
-      { key: 'branch', label: this.transloco.translate('assessment.comparison.branch'), emphasis: recommendBranch },
+      {
+        key: 'company',
+        label: this.transloco.translate('assessment.comparison.company'),
+        emphasis: !recommendBranch,
+      },
+      {
+        key: 'branch',
+        label: this.transloco.translate('assessment.comparison.branch'),
+        emphasis: recommendBranch,
+      },
     ];
   });
 
@@ -175,7 +173,10 @@ export class AssessmentPage {
     this.activeSection.set(id);
     if (!this.browser) return;
     const el = document.getElementById(`sec-${id}`);
-    el?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    el?.scrollIntoView({
+      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start',
+    });
     el?.querySelector<HTMLElement>('h2')?.focus?.();
     history.replaceState(history.state, '', `${location.pathname}#sec-${id}`);
   }

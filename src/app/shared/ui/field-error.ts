@@ -1,8 +1,17 @@
-import { ChangeDetectionStrategy, Component, DestroyRef, computed, effect, inject, input, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  DestroyRef,
+  computed,
+  effect,
+  inject,
+  input,
+  signal,
+} from '@angular/core';
 import type { AbstractControl } from '@angular/forms';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideCircleAlert } from '@lucide/angular';
 import type { Subscription } from 'rxjs';
+import { Icon } from '@shared/ui/icon';
 
 /**
  * Translated validation message for a control. Shown once the control was
@@ -11,11 +20,11 @@ import type { Subscription } from 'rxjs';
 @Component({
   selector: 'im-field-error',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [TranslocoDirective, LucideCircleAlert],
+  imports: [Icon, TranslocoDirective],
   template: `
     @if (message(); as m) {
       <p *transloco="let t" class="field-error" [id]="errorId()">
-        <svg lucideCircleAlert [size]="16" class="mt-0.5" aria-hidden="true"></svg>
+        <svg imIcon="circle-alert" [size]="16" class="mt-0.5" aria-hidden="true"></svg>
         <span>{{ t('forms.' + m.key, m.params) }}</span>
       </p>
     }
@@ -42,7 +51,10 @@ export class FieldError {
     this.version();
     const c = this.control();
     if (!c.errors || !(c.touched || this.submitted())) return null;
-    const [name, detail] = Object.entries(c.errors)[0] as [string, Record<string, unknown> | boolean];
+    const [name, detail] = Object.entries(c.errors)[0] as [
+      string,
+      Record<string, unknown> | boolean,
+    ];
     const params: Record<string, unknown> = {};
     if (detail && typeof detail === 'object') {
       if ('min' in detail) params['min'] = detail['min'];

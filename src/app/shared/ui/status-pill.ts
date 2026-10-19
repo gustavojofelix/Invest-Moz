@@ -7,9 +7,9 @@ import type { EnquiryStatus } from '@core/domain/types';
   selector: 'im-status-pill',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [TranslocoDirective],
-  template: `<span *transloco="let t" class="pill" [attr.data-status]="status()"><span class="dot" aria-hidden="true"></span>{{
-    t('ui.status.' + status())
-  }}</span>`,
+  template: `<span *transloco="let t" class="pill" [attr.data-status]="status()"
+    ><span class="dot" aria-hidden="true"></span>{{ t('ui.status.' + status()) }}</span
+  >`,
   styles: `
     .pill {
       display: inline-flex;

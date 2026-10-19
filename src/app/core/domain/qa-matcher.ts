@@ -63,7 +63,9 @@ export function bestAnswer(
       bestScore = s;
     }
   }
-  return bestScore >= MIN_SCORE ? { answer: best, score: bestScore } : { answer: null, score: bestScore };
+  return bestScore >= MIN_SCORE
+    ? { answer: best, score: bestScore }
+    : { answer: null, score: bestScore };
 }
 
 /** Splits text into phrase-sized chunks for the simulated streaming. */
@@ -72,7 +74,8 @@ export function chunkPhrases(text: string): string[] {
   // Merge very short pieces so the reveal reads naturally.
   const out: string[] = [];
   for (const c of chunks) {
-    if (out.length && out[out.length - 1].length < 18 && !c.startsWith('\n')) out[out.length - 1] += c;
+    if (out.length && out[out.length - 1].length < 18 && !c.startsWith('\n'))
+      out[out.length - 1] += c;
     else out.push(c);
   }
   return out;

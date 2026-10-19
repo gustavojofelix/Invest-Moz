@@ -10,7 +10,8 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
     '[class.plain]': "tone() === 'muted'",
     '[class.brand]': "tone() === 'brand'",
     '[class.accent]': "tone() === 'accent'",
-    '[class.boxed]': "tone() === 'boxed-brand' || tone() === 'boxed-accent' || tone() === 'boxed-highlight'",
+    '[class.boxed]':
+      "tone() === 'boxed-brand' || tone() === 'boxed-accent' || tone() === 'boxed-highlight'",
     '[class.boxed-brand]': "tone() === 'boxed-brand'",
     '[class.boxed-accent]': "tone() === 'boxed-accent'",
     '[class.boxed-highlight]': "tone() === 'boxed-highlight'",
@@ -46,5 +47,7 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
   `,
 })
 export class SectionLabel {
-  readonly tone = input<'muted' | 'brand' | 'accent' | 'boxed-brand' | 'boxed-accent' | 'boxed-highlight'>('muted');
+  readonly tone = input<
+    'muted' | 'brand' | 'accent' | 'boxed-brand' | 'boxed-accent' | 'boxed-highlight'
+  >('muted');
 }

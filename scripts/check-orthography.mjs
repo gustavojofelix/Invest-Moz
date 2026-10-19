@@ -8,20 +8,70 @@ import { join } from 'node:path';
 
 // AO90 / Brazilian form → expected pre-AO90 form
 const FORMS = {
-  projeto: 'projecto', projetos: 'projectos', atividade: 'actividade', atividades: 'actividades',
-  ação: 'acção', ações: 'acções', acionista: 'accionista', acionistas: 'accionistas',
-  exceção: 'excepção', exceções: 'excepções', excecional: 'excepcional', setor: 'sector', setores: 'sectores',
-  setorial: 'sectorial', direção: 'direcção', diretor: 'director', direta: 'directa', direto: 'directo',
-  diretamente: 'directamente', ótimo: 'óptimo', objetivo: 'objectivo', objetivos: 'objectivos',
-  efetivo: 'efectivo', efetivos: 'efectivos', efetiva: 'efectiva', coletivo: 'colectivo', coletiva: 'colectiva',
-  fatura: 'factura', faturas: 'facturas', faturação: 'facturação', adoção: 'adopção', receção: 'recepção',
-  inspeção: 'inspecção', proteção: 'protecção', seleção: 'selecção', aspeto: 'aspecto', aspetos: 'aspectos',
-  respetivo: 'respectivo', respetiva: 'respectiva', contato: 'contacto', contatos: 'contactos',
-  atual: 'actual', atuais: 'actuais', atualmente: 'actualmente', atualizado: 'actualizado', atualização: 'actualização',
-  ativo: 'activo', ativos: 'activos', exato: 'exacto', exata: 'exacta', exatamente: 'exactamente',
-  afeto: 'afecto', afeta: 'afecta', afetos: 'afectos', eletrónico: 'electrónico', eletrónica: 'electrónica',
-  eletricidade: 'electricidade', infraestrutura: 'infra-estrutura', infraestruturas: 'infra-estruturas',
-  ata: 'acta', atas: 'actas', coleta: 'colecta', perspetiva: 'perspectiva', redação: 'redacção',
+  projeto: 'projecto',
+  projetos: 'projectos',
+  atividade: 'actividade',
+  atividades: 'actividades',
+  ação: 'acção',
+  ações: 'acções',
+  acionista: 'accionista',
+  acionistas: 'accionistas',
+  exceção: 'excepção',
+  exceções: 'excepções',
+  excecional: 'excepcional',
+  setor: 'sector',
+  setores: 'sectores',
+  setorial: 'sectorial',
+  direção: 'direcção',
+  diretor: 'director',
+  direta: 'directa',
+  direto: 'directo',
+  diretamente: 'directamente',
+  ótimo: 'óptimo',
+  objetivo: 'objectivo',
+  objetivos: 'objectivos',
+  efetivo: 'efectivo',
+  efetivos: 'efectivos',
+  efetiva: 'efectiva',
+  coletivo: 'colectivo',
+  coletiva: 'colectiva',
+  fatura: 'factura',
+  faturas: 'facturas',
+  faturação: 'facturação',
+  adoção: 'adopção',
+  receção: 'recepção',
+  inspeção: 'inspecção',
+  proteção: 'protecção',
+  seleção: 'selecção',
+  aspeto: 'aspecto',
+  aspetos: 'aspectos',
+  respetivo: 'respectivo',
+  respetiva: 'respectiva',
+  contato: 'contacto',
+  contatos: 'contactos',
+  atual: 'actual',
+  atuais: 'actuais',
+  atualmente: 'actualmente',
+  atualizado: 'actualizado',
+  atualização: 'actualização',
+  ativo: 'activo',
+  ativos: 'activos',
+  exato: 'exacto',
+  exata: 'exacta',
+  exatamente: 'exactamente',
+  afeto: 'afecto',
+  afeta: 'afecta',
+  afetos: 'afectos',
+  eletrónico: 'electrónico',
+  eletrónica: 'electrónica',
+  eletricidade: 'electricidade',
+  infraestrutura: 'infra-estrutura',
+  infraestruturas: 'infra-estruturas',
+  ata: 'acta',
+  atas: 'actas',
+  coleta: 'colecta',
+  perspetiva: 'perspectiva',
+  redação: 'redacção',
 };
 const PATTERNS = Object.entries(FORMS)
   .filter(([, v]) => v)
@@ -43,7 +93,8 @@ function walkPt(node, path, inPt = false) {
     return;
   }
   if (Array.isArray(node)) return node.forEach((n, i) => walkPt(n, `${path}[${i}]`, inPt));
-  if (node && typeof node === 'object') for (const [k, v] of Object.entries(node)) walkPt(v, `${path}.${k}`, inPt || k === 'pt');
+  if (node && typeof node === 'object')
+    for (const [k, v] of Object.entries(node)) walkPt(v, `${path}.${k}`, inPt || k === 'pt');
 }
 
 function walkFiles(dir, onFile) {
@@ -73,7 +124,8 @@ walkFiles('src/assets/data', (p) => {
       for (const n of e.notes) check(n.text, `${p} ${e.ref}.note`);
     }
   }
-  if (p.endsWith('projects.json')) for (const pr of json.projects) check(pr.input.idea, `${p} ${pr.ref}.idea`);
+  if (p.endsWith('projects.json'))
+    for (const pr of json.projects) check(pr.input.idea, `${p} ${pr.ref}.idea`);
 });
 
 if (hits.length) {
@@ -81,4 +133,6 @@ if (hits.length) {
   for (const h of hits) console.error('  - ' + h);
   process.exit(1);
 }
-console.log(`✓ Orthography: pre-AO90 Portuguese in ${files} files (${PATTERNS.length} forms checked).`);
+console.log(
+  `✓ Orthography: pre-AO90 Portuguese in ${files} files (${PATTERNS.length} forms checked).`,
+);

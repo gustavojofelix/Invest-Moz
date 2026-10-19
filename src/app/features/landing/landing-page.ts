@@ -1,13 +1,13 @@
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideArrowRight, LucideKeyRound, LucideLogIn } from '@lucide/angular';
 import { DEMO_CREDENTIALS } from '@core/config/demo-credentials';
 import { LocaleService } from '@core/i18n/locale.service';
 import { BrandMark } from '@core/layout/brand-mark';
 import { AuthService, ProjectRepository } from '@core/ports';
 import { RefTag } from '@shared/ui/ref-tag';
 import { MozMap } from './map/moz-map';
+import { Icon } from '@shared/ui/icon';
 
 const REGIMES = [
   { key: 'companies', ref: 'DL 1/2022' },
@@ -23,7 +23,7 @@ const REGIMES = [
 @Component({
   selector: 'im-landing-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterLink, TranslocoDirective, BrandMark, RefTag, MozMap, LucideArrowRight, LucideLogIn, LucideKeyRound],
+  imports: [Icon, RouterLink, TranslocoDirective, BrandMark, RefTag, MozMap],
   templateUrl: './landing-page.html',
   styles: `
     .regime {

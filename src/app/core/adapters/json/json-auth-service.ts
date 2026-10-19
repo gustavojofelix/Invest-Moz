@@ -11,12 +11,15 @@ import { SafeStorage } from '../safe-storage';
 @Injectable()
 export class JsonAuthService extends AuthService {
   private readonly storage = inject(SafeStorage);
-  private readonly _user = signal<DemoUser | null>(this.storage.get<DemoUser | null>('session', null));
+  private readonly _user = signal<DemoUser | null>(
+    this.storage.get<DemoUser | null>('session', null),
+  );
   readonly user = this._user.asReadonly();
 
   async login(email: string, password: string): Promise<boolean> {
     const ok =
-      email.trim().toLowerCase() === DEMO_CREDENTIALS.email && password === DEMO_CREDENTIALS.password;
+      email.trim().toLowerCase() === DEMO_CREDENTIALS.email &&
+      password === DEMO_CREDENTIALS.password;
     if (!ok) return false;
     const user = { email: DEMO_CREDENTIALS.email, name: DEMO_CREDENTIALS.displayName };
     this._user.set(user);

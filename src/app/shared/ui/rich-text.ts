@@ -10,7 +10,25 @@ import { RefTag } from './ref-tag';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [NgTemplateOutlet, RefTag, ConfirmChip],
   template: `
-    <ng-template #inlines let-items>@for (item of items; track $index) {@switch (item.t) {@case ('text') {@if (item.bold) {<strong>{{ item.v }}</strong>} @else {<ng-container>{{ item.v }}</ng-container>}}@case ('ref') {<im-ref-tag [refId]="item.id" />}@case ('confirm') {<im-confirm-chip [key]="item.key" />}}}</ng-template>
+    <ng-template #inlines let-items>
+      @for (item of items; track $index) {
+        @switch (item.t) {
+          @case ('text') {
+            @if (item.bold) {
+              <strong>{{ item.v }}</strong>
+            } @else {
+              <ng-container>{{ item.v }}</ng-container>
+            }
+          }
+          @case ('ref') {
+            <im-ref-tag [refId]="item.id" />
+          }
+          @case ('confirm') {
+            <im-confirm-chip [key]="item.key" />
+          }
+        }
+      }
+    </ng-template>
 
     @for (block of blocks(); track $index) {
       @if (block.type === 'p') {

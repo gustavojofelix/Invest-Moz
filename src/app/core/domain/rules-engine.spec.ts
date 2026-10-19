@@ -1,5 +1,12 @@
 import { RULE_SET } from './rule-set.data';
-import { assess, classifySector, deriveFacts, describeProject, quotaStatus, treatyRate } from './rules-engine';
+import {
+  assess,
+  classifySector,
+  deriveFacts,
+  describeProject,
+  quotaStatus,
+  treatyRate,
+} from './rules-engine';
 import { COUNTRIES, CTX, custom, example } from './testing/fixtures';
 import type { Assessment } from './types';
 
@@ -45,7 +52,14 @@ describe('rules engine — example projects', () => {
 
     it('fires the fact triggers for treaty, loan, fees, quota, exports and land', () => {
       const t = ids(a.factTriggers);
-      expect(t).toEqual(['treaty', 'shareholder-loan', 'fees-abroad', 'quota-within', 'exports', 'land']);
+      expect(t).toEqual([
+        'treaty',
+        'shareholder-loan',
+        'fees-abroad',
+        'quota-within',
+        'exports',
+        'land',
+      ]);
       const treaty = a.factTriggers.find((x) => x.id === 'treaty');
       expect(treaty?.fact.pt).toBe('País do investidor: Índia');
       // India has a treaty but no confirmed rate in the brief → to-confirm placeholder
@@ -78,7 +92,15 @@ describe('rules engine — example projects', () => {
 
     it('collects every cited reference once', () => {
       expect(new Set(a.refs).size).toBe(a.refs.length);
-      expect(a.refs).toEqual(expect.arrayContaining(['lei-8-2023', 'lei-11-2009', 'lei-19-97', 'aia-regulation', 'lei-4-2009']));
+      expect(a.refs).toEqual(
+        expect.arrayContaining([
+          'lei-8-2023',
+          'lei-11-2009',
+          'lei-19-97',
+          'aia-regulation',
+          'lei-4-2009',
+        ]),
+      );
     });
 
     it('produces watch points for land, loan and transfer pricing', () => {
@@ -94,7 +116,9 @@ describe('rules engine — example projects', () => {
       expect(a.sector).toBe('energy');
       expect(a.vehicle.recommended).toBe('branch');
       expect(a.vehicle.reasoning.pt).toContain('África do Sul');
-      expect(a.companyVsBranch?.find((r) => r.id === 'profits-abroad')?.branch.pt).toContain('sem retenção');
+      expect(a.companyVsBranch?.find((r) => r.id === 'profits-abroad')?.branch.pt).toContain(
+        'sem retenção',
+      );
     });
 
     it('applies the South African treaty rate', () => {
@@ -113,7 +137,9 @@ describe('rules engine — example projects', () => {
       expect(ids(a.roadmap)).not.toContain('env-land-pre');
       expect(ids(a.roadmap)).toContain('sector-licence');
       expect(ids(a.roadmap)).toContain('work-permits');
-      expect(a.roadmap.find((s) => s.id === 'incorporation')?.duration.pt).toBe('{{BRANCH_REGISTRATION_TIME}}');
+      expect(a.roadmap.find((s) => s.id === 'incorporation')?.duration.pt).toBe(
+        '{{BRANCH_REGISTRATION_TIME}}',
+      );
       expect(a.timeToOperate.pt).toContain('90 dias');
       expect(ids(a.location)).toEqual(['corridor-maputo']);
       expect(a.watchPoints.some((w) => w.pt.includes('sociedade-mãe'))).toBe(true);
@@ -193,7 +219,11 @@ describe('rules engine — custom input', () => {
   });
 
   it('puts a category A environmental licence on the critical path for mining', () => {
-    const a = assess(custom({ idea: 'Mineração de grafite em Cabo Delgado', province: 'cabo_delgado' }), RULE_SET, CTX);
+    const a = assess(
+      custom({ idea: 'Mineração de grafite em Cabo Delgado', province: 'cabo_delgado' }),
+      RULE_SET,
+      CTX,
+    );
     expect(a.sector).toBe('mining');
     const env = a.roadmap.find((s) => s.id === 'env-licence');
     expect(env?.critical).toBe(true);
@@ -209,7 +239,11 @@ describe('rules engine — custom input', () => {
   });
 
   it('recommends a Lda for a foreign general project and an SA/SAS step when chosen by rules', () => {
-    const a = assess(custom({ capital: 'foreign', investorCountry: 'GB', investmentUsd: 200000 }), RULE_SET, CTX);
+    const a = assess(
+      custom({ capital: 'foreign', investorCountry: 'GB', investmentUsd: 200000 }),
+      RULE_SET,
+      CTX,
+    );
     expect(a.vehicle.recommended).toBe('lda');
     expect(a.vehicle.alternatives.map((x) => x.vehicle)).toEqual(['branch', 'sa', 'sas']);
     expect(a.factTriggers[0].id).toBe('no-treaty');
@@ -220,7 +254,17 @@ describe('rules engine — custom input', () => {
       ...RULE_SET,
       vehicles: {
         ...RULE_SET.vehicles,
-        rules: [{ id: 'sa', when: [], then: { recommended: 'sa' as const, alternatives: ['lda' as const], reasoning: { pt: 'x', en: 'x', fr: 'x' } } }],
+        rules: [
+          {
+            id: 'sa',
+            when: [],
+            then: {
+              recommended: 'sa' as const,
+              alternatives: ['lda' as const],
+              reasoning: { pt: 'x', en: 'x', fr: 'x' },
+            },
+          },
+        ],
       },
     };
     const a = assess(custom({}), rules, CTX);
@@ -250,7 +294,9 @@ describe('rules engine — custom input', () => {
 
 describe('facts', () => {
   it('classifies sectors in any of the three languages', () => {
-    expect(classifySector('Cashew kernel processing plant', RULE_SET.sectors).id).toBe('agro_industry');
+    expect(classifySector('Cashew kernel processing plant', RULE_SET.sectors).id).toBe(
+      'agro_industry',
+    );
     expect(classifySector('Hôtel et écolodge sur la côte', RULE_SET.sectors).id).toBe('tourism');
     expect(classifySector('Exportação de entrepôts', RULE_SET.sectors).id).toBe('logistics');
     expect(classifySector('', RULE_SET.sectors).id).toBe('general');
@@ -284,7 +330,16 @@ describe('facts', () => {
   });
 
   it('describes a visitor project with title, sector and summary', () => {
-    const p = describeProject('TA-IM-P26-ABCD', custom({ idea: 'Fábrica de sumos de fruta em Manica. Segunda frase.', investmentUsd: 300000, province: 'manica' }).input, RULE_SET, '2026-10-19T10:00:00Z');
+    const p = describeProject(
+      'TA-IM-P26-ABCD',
+      custom({
+        idea: 'Fábrica de sumos de fruta em Manica. Segunda frase.',
+        investmentUsd: 300000,
+        province: 'manica',
+      }).input,
+      RULE_SET,
+      '2026-10-19T10:00:00Z',
+    );
     expect(p.title.pt).toBe('Fábrica de sumos de fruta em Manica.');
     expect(p.sector.pt).toBe('Indústria agro-alimentar');
     expect(p.summary.en).toContain('Manica');

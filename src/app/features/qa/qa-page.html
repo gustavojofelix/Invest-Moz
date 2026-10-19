@@ -8,26 +8,31 @@
 
     <!-- Project context -->
     <div class="context mt-6" role="status">
-      <svg lucideFolderOpen [size]="18" class="shrink-0 text-muted" aria-hidden="true"></svg>
+      <svg imIcon="folder-open" [size]="18" class="shrink-0 text-muted" aria-hidden="true"></svg>
       @if (project.value(); as p) {
         <p class="min-w-0 flex-1">
           <span class="font-bold">{{ t('qa.context.with') }}</span>
-          {{ p.title | loc: lang() }} <span class="font-mono text-xs text-muted">· {{ p.ref }}</span>
+          {{ p.title | loc: lang() }}
+          <span class="font-mono text-xs text-muted">· {{ p.ref }}</span>
         </p>
-        <a class="link shrink-0 text-sm" [routerLink]="['/', lang(), 'assessment', p.ref]">{{ t('qa.context.open') }}</a>
+        <a class="link shrink-0 text-sm" [routerLink]="['/', lang(), 'assessment', p.ref]">{{
+          t('qa.context.open')
+        }}</a>
       } @else {
         <p class="min-w-0 flex-1 text-muted">{{ t('qa.context.none') }}</p>
-        <a class="link shrink-0 text-sm" [routerLink]="['/', lang(), 'project']">{{ t('qa.context.describe') }}</a>
+        <a class="link shrink-0 text-sm" [routerLink]="['/', lang(), 'project']">{{
+          t('qa.context.describe')
+        }}</a>
       }
     </div>
 
     <div class="mt-8 grid gap-8 lg:grid-cols-12">
       <!-- Topics -->
-      <nav class="lg:col-span-3" [attr.aria-label]="t('qa.topics')">
+      <nav class="min-w-0 lg:col-span-3" [attr.aria-label]="t('qa.topics')">
         <p class="label-caps hidden text-muted lg:block">{{ t('qa.topics') }}</p>
-        @if (topics.value(); as list) {
+        @if (topicList().length) {
           <ul class="topics" role="list">
-            @for (tp of list; track tp.id) {
+            @for (tp of topicList(); track tp.id) {
               <li>
                 <a
                   class="topic"
@@ -59,7 +64,12 @@
             <ul class="mt-2 flex flex-wrap gap-2" role="list">
               @for (s of suggestions(); track s.id) {
                 <li>
-                  <button type="button" class="suggestion" [disabled]="conversation.busy()" (click)="askSuggested(s)">
+                  <button
+                    type="button"
+                    class="suggestion"
+                    [disabled]="conversation.busy()"
+                    (click)="askSuggested(s)"
+                  >
                     {{ s.question | loc: lang() }}
                   </button>
                 </li>
@@ -94,7 +104,9 @@
                 <p class="mt-3">{{ t('qa.fallback.text') }}</p>
                 <div class="talk mt-4">
                   <p>{{ t('qa.fallback.offer') }}</p>
-                  <button type="button" class="btn btn-primary shrink-0" (click)="contact()">{{ t('ui.answer.talkCta') }}</button>
+                  <button type="button" class="btn btn-primary shrink-0" (click)="contact()">
+                    {{ t('ui.answer.talkCta') }}
+                  </button>
                 </div>
               </article>
             }
@@ -117,16 +129,21 @@
             maxlength="500"
           ></textarea>
           <div class="mt-3 flex flex-wrap items-center justify-between gap-3">
-            <button type="button" class="btn btn-ghost btn-sm" (click)="newConversation()" [disabled]="!conversation.entries().length">
-              <svg lucideRotateCcw [size]="16" aria-hidden="true"></svg>{{ t('qa.new') }}
+            <button
+              type="button"
+              class="btn btn-ghost btn-sm"
+              (click)="newConversation()"
+              [disabled]="!conversation.entries().length"
+            >
+              <svg imIcon="rotate-ccw" [size]="16" aria-hidden="true"></svg>{{ t('qa.new') }}
             </button>
             @if (conversation.busy()) {
               <button type="button" class="btn btn-secondary" (click)="conversation.stop()">
-                <svg lucideSquare [size]="16" aria-hidden="true"></svg>{{ t('qa.stop') }}
+                <svg imIcon="square" [size]="16" aria-hidden="true"></svg>{{ t('qa.stop') }}
               </button>
             } @else {
               <button type="submit" class="btn btn-brand" [disabled]="!draft().trim()">
-                <svg lucideArrowUp [size]="18" aria-hidden="true"></svg>{{ t('qa.send') }}
+                <svg imIcon="arrow-up" [size]="18" aria-hidden="true"></svg>{{ t('qa.send') }}
               </button>
             }
           </div>

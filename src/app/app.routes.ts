@@ -5,6 +5,7 @@ import { localeMatchGuard, localeResolver, scopeResolver } from '@core/i18n/i18n
 import { LocaleService } from '@core/i18n/locale.service';
 import { Shell } from '@core/layout/shell';
 import { authGuard } from '@features/auth/auth.guard';
+import { qaDataResolver } from '@features/qa/qa-data.resolver';
 
 /**
  * Route slugs are English in every locale. `/:lang` is pt | en | fr.
@@ -40,7 +41,8 @@ export const routes: Routes = [
       },
       {
         path: 'assessment/:ref',
-        loadComponent: () => import('@features/assessment/assessment-page').then((m) => m.AssessmentPage),
+        loadComponent: () =>
+          import('@features/assessment/assessment-page').then((m) => m.AssessmentPage),
         providers: [provideTranslocoScope('assessment')],
         resolve: { scope: scopeResolver('assessment') },
         data: { seo: { title: 'seo.assessment' } },
@@ -48,7 +50,7 @@ export const routes: Routes = [
       {
         path: 'questions',
         providers: [provideTranslocoScope('qa')],
-        resolve: { scope: scopeResolver('qa') },
+        resolve: { scope: scopeResolver('qa'), qaData: qaDataResolver },
         children: [
           {
             path: '',
@@ -69,12 +71,14 @@ export const routes: Routes = [
         children: [
           {
             path: '',
-            loadComponent: () => import('@features/enquiry/enquiry-page').then((m) => m.EnquiryPage),
+            loadComponent: () =>
+              import('@features/enquiry/enquiry-page').then((m) => m.EnquiryPage),
             data: { seo: { title: 'seo.contact' } },
           },
           {
             path: 'sent/:ref',
-            loadComponent: () => import('@features/enquiry/enquiry-sent').then((m) => m.EnquirySent),
+            loadComponent: () =>
+              import('@features/enquiry/enquiry-sent').then((m) => m.EnquirySent),
             data: { seo: { title: 'seo.contactSent', noindex: true } },
           },
         ],

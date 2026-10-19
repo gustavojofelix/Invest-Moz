@@ -19,7 +19,11 @@ export interface RuledColumn {
   template: `
     <table class="w-full border-collapse text-left text-[0.9375rem]">
       @if (caption()) {
-        <caption class="sr-only">{{ caption() }}</caption>
+        <caption class="sr-only">
+          {{
+            caption()
+          }}
+        </caption>
       }
       <thead>
         <tr>

@@ -34,7 +34,14 @@ module.exports = tseslint.config(
     rules: {
       'no-restricted-imports': [
         'error',
-        { patterns: [{ group: ['@angular/*', 'rxjs', 'rxjs/*'], message: 'core/domain must stay framework-free.' }] },
+        {
+          patterns: [
+            {
+              group: ['@angular/*', 'rxjs', 'rxjs/*'],
+              message: 'core/domain must stay framework-free.',
+            },
+          ],
+        },
       ],
     },
   },

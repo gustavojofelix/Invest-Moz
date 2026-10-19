@@ -47,7 +47,10 @@ export class QaConversation {
       this.context = null;
       return null;
     }
-    const [assessment, countries] = await Promise.all([this.engine.assess(project), this.reference.countries()]);
+    const [assessment, countries] = await Promise.all([
+      this.engine.assess(project),
+      this.reference.countries(),
+    ]);
     this.countries = countries;
     this.context = { project, vehicle: assessment.vehicle.recommended };
     return this.context;
@@ -62,12 +65,20 @@ export class QaConversation {
 
   async ask(input: { text?: string; answerId?: string }, lang: Locale): Promise<void> {
     this.stop();
-    const entry: QaEntry = { id: ++this.seq, asked: input.text?.trim() ?? '', answer: null, status: 'thinking', partial: '', lang };
+    const entry: QaEntry = {
+      id: ++this.seq,
+      asked: input.text?.trim() ?? '',
+      answer: null,
+      status: 'thinking',
+      partial: '',
+      lang,
+    };
     this.entries.update((list) => [...list, entry]);
     this.busy.set(true);
 
     let answer: QaAnswer | null = null;
-    if (input.answerId) answer = (await this.qa.answers()).find((a) => a.id === input.answerId) ?? null;
+    if (input.answerId)
+      answer = (await this.qa.answers()).find((a) => a.id === input.answerId) ?? null;
     else if (entry.asked) answer = (await this.qa.match(entry.asked, lang)).answer;
 
     if (!answer) {
@@ -92,7 +103,8 @@ export class QaConversation {
     if (!this.stream || this.stream.closed) return;
     this.stream.unsubscribe();
     const last = this.entries().at(-1);
-    if (last && (last.status === 'streaming' || last.status === 'thinking')) this.patch(last.id, { status: 'stopped' });
+    if (last && (last.status === 'streaming' || last.status === 'thinking'))
+      this.patch(last.id, { status: 'stopped' });
     this.busy.set(false);
   }
 
@@ -109,7 +121,8 @@ export class QaConversation {
       'ctx.investorCountry': country?.name[lang] ?? input.investorCountry,
       'ctx.treatyRate': treatyRate(input.investorCountry, this.countries, RULE_SET)[lang],
       'ctx.province': PROVINCE_NAMES[input.province][lang],
-      'ctx.vehicle': RULE_SET.vehicles.options.find((o) => o.vehicle === ctx.vehicle)?.name[lang] ?? ctx.vehicle,
+      'ctx.vehicle':
+        RULE_SET.vehicles.options.find((o) => o.vehicle === ctx.vehicle)?.name[lang] ?? ctx.vehicle,
       'ctx.workers': formatNumber(input.workers, lang),
       'ctx.foreignWorkers': formatNumber(input.foreignWorkers, lang),
       'ctx.investment': formatMoney(input.investmentUsd, 'USD', lang),

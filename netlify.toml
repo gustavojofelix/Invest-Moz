@@ -34,34 +34,7 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
     Cross-Origin-Opener-Policy = "same-origin"
 
-# Hashed build output: cache forever.
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/media/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# Private demo routes are never indexed.
-[[headers]]
-  for = "/*/inbox*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
-
-[[headers]]
-  for = "/*/login"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
-
-[[headers]]
-  for = "/*/demo*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+# Long-lived caching for hashed files (main-*.js, chunk-*.js, styles-*.css, media/*)
+# and X-Robots-Tag: noindex for the inbox, login and demo routes are written to
+# _headers by scripts/postbuild.mjs with explicit paths (Netlify header paths
+# only support trailing splats).

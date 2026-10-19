@@ -16,22 +16,24 @@ import { isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideArrowUp, LucideFolderOpen, LucideRotateCcw, LucideSquare } from '@lucide/angular';
 import { TOPICS, type QaAnswer, type TopicId } from '@core/domain/types';
 import { LocPipe } from '@core/i18n/format';
 import { LocaleService } from '@core/i18n/locale.service';
 import { SeoService } from '@core/layout/seo.service';
-import { ProjectRepository, QaService } from '@core/ports';
+import { ProjectRepository } from '@core/ports';
 import { AnswerBlock } from '@shared/ui/answer-block';
 import { RefTag } from '@shared/ui/ref-tag';
 import { SectionLabel } from '@shared/ui/section-label';
 import { Skeleton } from '@shared/ui/skeleton';
+import type { QaData } from './qa-data.resolver';
 import { QaConversation, type QaEntry } from './qa-conversation';
+import { Icon } from '@shared/ui/icon';
 
 @Component({
   selector: 'im-qa-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
+    Icon,
     FormsModule,
     RouterLink,
     TranslocoDirective,
@@ -40,21 +42,19 @@ import { QaConversation, type QaEntry } from './qa-conversation';
     RefTag,
     SectionLabel,
     Skeleton,
-    LucideArrowUp,
-    LucideSquare,
-    LucideRotateCcw,
-    LucideFolderOpen,
   ],
   templateUrl: './qa-page.html',
   styleUrl: './qa-page.css',
 })
 export class QaPage {
   readonly topic = input<string>();
-  private readonly qa = inject(QaService);
+  /** Resolved by qaDataResolver (bound through withComponentInputBinding). */
+  readonly qaData = input<QaData>();
   private readonly projects = inject(ProjectRepository);
   private readonly router = inject(Router);
   private readonly seo = inject(SeoService);
   private readonly browser = isPlatformBrowser(inject(PLATFORM_ID));
+  private readonly host = inject<ElementRef<HTMLElement>>(ElementRef);
   protected readonly conversation = inject(QaConversation);
   protected readonly lang = inject(LocaleService).lang;
   protected readonly locale = inject(LocaleService);
@@ -62,8 +62,6 @@ export class QaPage {
   private readonly thread = viewChild<ElementRef<HTMLElement>>('thread');
   private readonly field = viewChild<ElementRef<HTMLTextAreaElement>>('field');
 
-  protected readonly topics = resource({ loader: () => this.qa.topics() });
-  protected readonly answers = resource({ loader: () => this.qa.answers() });
   protected readonly project = resource({
     params: () => this.projects.currentRef(),
     loader: async ({ params: ref }) => {
@@ -77,9 +75,12 @@ export class QaPage {
     const t = this.topic();
     return (TOPICS as readonly string[]).includes(t ?? '') ? (t as TopicId) : 'companies';
   });
-  protected readonly topicDef = computed(() => this.topics.value()?.find((t) => t.id === this.activeTopic()));
+  protected readonly topicList = computed(() => this.qaData()?.topics ?? []);
+  protected readonly topicDef = computed(() =>
+    this.topicList().find((t) => t.id === this.activeTopic()),
+  );
   protected readonly suggestions = computed(() =>
-    (this.answers.value() ?? []).filter((a) => a.topic === this.activeTopic()),
+    (this.qaData()?.answers ?? []).filter((a) => a.topic === this.activeTopic()),
   );
 
   constructor() {
@@ -87,6 +88,18 @@ export class QaPage {
       const def = this.topicDef();
       const l = this.lang();
       if (def && this.topic()) untracked(() => this.seo.setTitle(def.label[l]));
+    });
+    // Mobile topic scroller: bring the active topic into view.
+    effect(() => {
+      this.activeTopic();
+      if (!this.topicList().length || !this.browser) return;
+      setTimeout(() => {
+        const active = this.host.nativeElement.querySelector<HTMLElement>('.topic.active');
+        const list = active?.parentElement?.parentElement;
+        if (active && list && list.scrollWidth > list.clientWidth) {
+          list.scrollTo({ left: active.offsetLeft - 16, behavior: 'auto' });
+        }
+      });
     });
     // Keep the newest answer in view while it streams.
     effect(() => {

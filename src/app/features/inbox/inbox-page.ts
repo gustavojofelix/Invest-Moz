@@ -2,7 +2,6 @@ import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@a
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideLogOut, LucideSearch } from '@lucide/angular';
 import { normalize } from '@core/domain/text';
 import type { Enquiry, EnquiryStatus } from '@core/domain/types';
 import { ImDatePipe } from '@core/i18n/format';
@@ -12,13 +11,24 @@ import { EmptyState } from '@shared/ui/empty-state';
 import { SectionLabel } from '@shared/ui/section-label';
 import { Skeleton } from '@shared/ui/skeleton';
 import { StatusPill } from '@shared/ui/status-pill';
+import { Icon } from '@shared/ui/icon';
 
 export const STATUSES: EnquiryStatus[] = ['new', 'in_review', 'quoted', 'won'];
 
 @Component({
   selector: 'im-inbox-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [FormsModule, RouterLink, TranslocoDirective, ImDatePipe, EmptyState, SectionLabel, Skeleton, StatusPill, LucideSearch, LucideLogOut],
+  imports: [
+    Icon,
+    FormsModule,
+    RouterLink,
+    TranslocoDirective,
+    ImDatePipe,
+    EmptyState,
+    SectionLabel,
+    Skeleton,
+    StatusPill,
+  ],
   templateUrl: './inbox-page.html',
   styles: `
     .stat {
@@ -86,9 +96,15 @@ export class InboxPage {
 
   protected readonly counts = computed(() => {
     const all = this.repo.enquiries();
-    const byStatus = Object.fromEntries(STATUSES.map((s) => [s, all.filter((e) => e.status === s).length])) as Record<EnquiryStatus, number>;
+    const byStatus = Object.fromEntries(
+      STATUSES.map((s) => [s, all.filter((e) => e.status === s).length]),
+    ) as Record<EnquiryStatus, number>;
     const weekAgo = Date.now() - 7 * 24 * 3600 * 1000;
-    return { total: all.length, byStatus, week: all.filter((e) => new Date(e.createdAt).getTime() >= weekAgo).length };
+    return {
+      total: all.length,
+      byStatus,
+      week: all.filter((e) => new Date(e.createdAt).getTime() >= weekAgo).length,
+    };
   });
 
   protected readonly rows = computed(() => {
@@ -97,7 +113,10 @@ export class InboxPage {
     return this.repo
       .enquiries()
       .filter((e) => f === 'all' || e.status === f)
-      .filter((e) => !q || normalize([e.ref, e.name, e.company, e.email, e.message].join(' ')).includes(q));
+      .filter(
+        (e) =>
+          !q || normalize([e.ref, e.name, e.company, e.email, e.message].join(' ')).includes(q),
+      );
   });
 
   constructor() {

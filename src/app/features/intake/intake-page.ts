@@ -1,4 +1,12 @@
-import { ChangeDetectionStrategy, Component, DestroyRef, ElementRef, inject, resource, signal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  DestroyRef,
+  ElementRef,
+  inject,
+  resource,
+  signal,
+} from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import {
   type AbstractControl,
@@ -10,8 +18,13 @@ import {
 import { Router } from '@angular/router';
 import { CdkMenu, CdkMenuItem, CdkMenuTrigger } from '@angular/cdk/menu';
 import { TranslocoDirective } from '@jsverse/transloco';
-import { LucideArrowRight, LucideChevronDown, LucideFileText } from '@lucide/angular';
-import { PROVINCES, type CapitalOrigin, type Project, type ProjectInput, type ProvinceCode } from '@core/domain/types';
+import {
+  PROVINCES,
+  type CapitalOrigin,
+  type Project,
+  type ProjectInput,
+  type ProvinceCode,
+} from '@core/domain/types';
 import { PROVINCE_NAMES } from '@core/domain/provinces';
 import { LocPipe } from '@core/i18n/format';
 import { LocaleService } from '@core/i18n/locale.service';
@@ -21,13 +34,23 @@ import { SectionLabel } from '@shared/ui/section-label';
 import { Stepper } from '@shared/ui/stepper';
 import { CheckboxChip } from '@shared/ui/checkbox-chip';
 import { CountryCombobox } from './country-combobox';
+import { Icon } from '@shared/ui/icon';
 
-const FLAGS = ['importsGoods', 'exports', 'needsLand', 'shareholderLoan', 'feesAbroad', 'temporaryImport'] as const;
+const FLAGS = [
+  'importsGoods',
+  'exports',
+  'needsLand',
+  'shareholderLoan',
+  'feesAbroad',
+  'temporaryImport',
+] as const;
 const CHECKS = ['vehicle', 'regime', 'licences', 'tax', 'labour', 'exchange'] as const;
 const PREPARE_MS = 1500;
 
 function integer(c: AbstractControl): ValidationErrors | null {
-  return c.value == null || c.value === '' || Number.isInteger(Number(c.value)) ? null : { integer: true };
+  return c.value == null || c.value === '' || Number.isInteger(Number(c.value))
+    ? null
+    : { integer: true };
 }
 
 function foreignWithinWorkers(group: AbstractControl): ValidationErrors | null {
@@ -40,6 +63,7 @@ function foreignWithinWorkers(group: AbstractControl): ValidationErrors | null {
   selector: 'im-intake-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
+    Icon,
     ReactiveFormsModule,
     TranslocoDirective,
     CdkMenu,
@@ -51,9 +75,6 @@ function foreignWithinWorkers(group: AbstractControl): ValidationErrors | null {
     Stepper,
     CheckboxChip,
     CountryCombobox,
-    LucideArrowRight,
-    LucideChevronDown,
-    LucideFileText,
   ],
   templateUrl: './intake-page.html',
   styles: `
@@ -148,8 +169,14 @@ export class IntakePage {
       province: ['' as ProvinceCode | '', Validators.required],
       capital: ['foreign' as CapitalOrigin, Validators.required],
       investorCountry: ['', Validators.required],
-      investmentUsd: [null as number | null, [Validators.required, Validators.min(1000), Validators.max(50_000_000_000)]],
-      workers: [null as number | null, [Validators.required, Validators.min(0), Validators.max(1_000_000), integer]],
+      investmentUsd: [
+        null as number | null,
+        [Validators.required, Validators.min(1000), Validators.max(50_000_000_000)],
+      ],
+      workers: [
+        null as number | null,
+        [Validators.required, Validators.min(0), Validators.max(1_000_000), integer],
+      ],
       foreignWorkers: [0 as number | null, [Validators.required, Validators.min(0), integer]],
       importsGoods: [false],
       exports: [false],
@@ -164,16 +191,18 @@ export class IntakePage {
   constructor() {
     const destroyRef = inject(DestroyRef);
     // Mozambican capital: no foreign investor country.
-    this.form.controls.capital.valueChanges.pipe(takeUntilDestroyed(destroyRef)).subscribe((capital) => {
-      const country = this.form.controls.investorCountry;
-      if (capital === 'mozambican') {
-        country.setValue('MZ');
-        country.disable();
-      } else {
-        if (country.value === 'MZ') country.setValue('');
-        country.enable();
-      }
-    });
+    this.form.controls.capital.valueChanges
+      .pipe(takeUntilDestroyed(destroyRef))
+      .subscribe((capital) => {
+        const country = this.form.controls.investorCountry;
+        if (capital === 'mozambican') {
+          country.setValue('MZ');
+          country.disable();
+        } else {
+          if (country.value === 'MZ') country.setValue('');
+          country.enable();
+        }
+      });
     // Any edit after loading an example makes it a new project.
     this.form.valueChanges.pipe(takeUntilDestroyed(destroyRef)).subscribe(() => {
       const ex = this.loadedExample();
@@ -199,14 +228,17 @@ export class IntakePage {
     this.form.markAllAsTouched();
     if (this.form.invalid) {
       queueMicrotask(() => {
-        const first = this.host.nativeElement.querySelector<HTMLElement>('[aria-invalid="true"], .ng-invalid:not(form) input, input.ng-invalid, select.ng-invalid, textarea.ng-invalid');
+        const first = this.host.nativeElement.querySelector<HTMLElement>(
+          '[aria-invalid="true"], .ng-invalid:not(form) input, input.ng-invalid, select.ng-invalid, textarea.ng-invalid',
+        );
         first?.focus();
       });
       return;
     }
     const input = this.value();
     const example = this.loadedExample();
-    const project = example && sameInput(input, example.input) ? example : await this.repo.create(input);
+    const project =
+      example && sameInput(input, example.input) ? example : await this.repo.create(input);
     this.repo.setCurrent(project.ref);
 
     this.preparing.set(true);

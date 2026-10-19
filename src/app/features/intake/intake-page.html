@@ -25,13 +25,19 @@
             <p class="mt-2 text-muted">{{ t('intake.note') }}</p>
           </div>
           <button type="button" class="btn btn-secondary" [cdkMenuTriggerFor]="exampleMenu">
-            <svg lucideFileText [size]="18" aria-hidden="true"></svg>{{ t('intake.loadExample') }}
-            <svg lucideChevronDown [size]="16" aria-hidden="true"></svg>
+            <svg imIcon="file-text" [size]="18" aria-hidden="true"></svg
+            >{{ t('intake.loadExample') }}
+            <svg imIcon="chevron-down" [size]="16" aria-hidden="true"></svg>
           </button>
           <ng-template #exampleMenu>
             <div cdkMenu class="menu">
               @for (p of examples.value() ?? []; track p.ref) {
-                <button type="button" cdkMenuItem class="menu-item" (cdkMenuItemTriggered)="loadExample(p)">
+                <button
+                  type="button"
+                  cdkMenuItem
+                  class="menu-item"
+                  (cdkMenuItemTriggered)="loadExample(p)"
+                >
                   <span class="block font-bold leading-snug">{{ p.title | loc: lang() }}</span>
                   <span class="block text-sm text-muted">{{ p.sector | loc: lang() }}</span>
                 </button>
@@ -60,7 +66,11 @@
               [placeholder]="t('intake.fields.ideaPlaceholder')"
             ></textarea>
             <span id="idea-hint" class="field-hint">{{ t('intake.fields.ideaHint') }}</span>
-            <im-field-error [control]="form.controls.idea" [submitted]="submitted()" errorId="idea-error" />
+            <im-field-error
+              [control]="form.controls.idea"
+              [submitted]="submitted()"
+              errorId="idea-error"
+            />
           </div>
 
           <div class="grid gap-6 sm:grid-cols-2">
@@ -78,14 +88,24 @@
                   <option [value]="p">{{ provinceNames[p] | loc: lang() }}</option>
                 }
               </select>
-              <im-field-error [control]="form.controls.province" [submitted]="submitted()" errorId="province-error" />
+              <im-field-error
+                [control]="form.controls.province"
+                [submitted]="submitted()"
+                errorId="province-error"
+              />
             </div>
 
             <fieldset>
               <legend class="field-label">{{ t('intake.fields.capital') }}</legend>
               <div class="seg">
                 @for (c of capitals; track c) {
-                  <input type="radio" class="sr-only" [id]="'capital-' + c" formControlName="capital" [value]="c" />
+                  <input
+                    type="radio"
+                    class="sr-only"
+                    [id]="'capital-' + c"
+                    formControlName="capital"
+                    [value]="c"
+                  />
                   <label [for]="'capital-' + c">{{ t('intake.capital.' + c) }}</label>
                 }
               </div>
@@ -96,7 +116,9 @@
             <div>
               <label class="field-label" for="country">{{ t('intake.fields.country') }}</label>
               @if (form.controls.capital.value === 'mozambican') {
-                <p class="input flex items-center bg-panel text-muted">{{ t('intake.fields.countryMz') }}</p>
+                <p class="input flex items-center bg-panel text-muted">
+                  {{ t('intake.fields.countryMz') }}
+                </p>
               } @else {
                 <im-country-combobox
                   inputId="country"
@@ -109,12 +131,20 @@
                   [invalid]="invalid('investorCountry')"
                   describedBy="country-hint country-error"
                 />
-                <span id="country-hint" class="field-hint">{{ t('intake.fields.countryHint') }}</span>
-                <im-field-error [control]="form.controls.investorCountry" [submitted]="submitted()" errorId="country-error" />
+                <span id="country-hint" class="field-hint">{{
+                  t('intake.fields.countryHint')
+                }}</span>
+                <im-field-error
+                  [control]="form.controls.investorCountry"
+                  [submitted]="submitted()"
+                  errorId="country-error"
+                />
               }
             </div>
             <div>
-              <label class="field-label" for="investment">{{ t('intake.fields.investment') }}</label>
+              <label class="field-label" for="investment">{{
+                t('intake.fields.investment')
+              }}</label>
               <input
                 id="investment"
                 class="input"
@@ -127,7 +157,11 @@
                 aria-describedby="investment-error"
                 placeholder="2 500 000"
               />
-              <im-field-error [control]="form.controls.investmentUsd" [submitted]="submitted()" errorId="investment-error" />
+              <im-field-error
+                [control]="form.controls.investmentUsd"
+                [submitted]="submitted()"
+                errorId="investment-error"
+              />
             </div>
           </div>
 
@@ -144,10 +178,16 @@
                 [attr.aria-invalid]="invalid('workers') ? 'true' : null"
                 aria-describedby="workers-error"
               />
-              <im-field-error [control]="form.controls.workers" [submitted]="submitted()" errorId="workers-error" />
+              <im-field-error
+                [control]="form.controls.workers"
+                [submitted]="submitted()"
+                errorId="workers-error"
+              />
             </div>
             <div>
-              <label class="field-label" for="foreignWorkers">{{ t('intake.fields.foreignWorkers') }}</label>
+              <label class="field-label" for="foreignWorkers">{{
+                t('intake.fields.foreignWorkers')
+              }}</label>
               <input
                 id="foreignWorkers"
                 class="input"
@@ -155,11 +195,23 @@
                 inputmode="numeric"
                 min="0"
                 formControlName="foreignWorkers"
-                [attr.aria-invalid]="invalid('foreignWorkers') || (form.hasError('foreignExceedsWorkers') && submitted()) ? 'true' : null"
+                [attr.aria-invalid]="
+                  invalid('foreignWorkers') ||
+                  (form.hasError('foreignExceedsWorkers') && submitted())
+                    ? 'true'
+                    : null
+                "
                 aria-describedby="foreign-error"
               />
-              <im-field-error [control]="form.controls.foreignWorkers" [submitted]="submitted()" errorId="foreign-error" />
-              @if (form.hasError('foreignExceedsWorkers') && (submitted() || form.controls.foreignWorkers.touched)) {
+              <im-field-error
+                [control]="form.controls.foreignWorkers"
+                [submitted]="submitted()"
+                errorId="foreign-error"
+              />
+              @if (
+                form.hasError('foreignExceedsWorkers') &&
+                (submitted() || form.controls.foreignWorkers.touched)
+              ) {
                 <p class="field-error">{{ t('forms.foreignExceedsWorkers') }}</p>
               }
             </div>
@@ -174,10 +226,13 @@
             </div>
           </fieldset>
 
-          <div class="flex flex-col gap-4 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
+          <div
+            class="flex flex-col gap-4 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between"
+          >
             <p class="text-sm text-muted">{{ t('intake.privacy') }}</p>
             <button type="submit" class="btn btn-primary shrink-0">
-              {{ t('intake.submit') }}<svg lucideArrowRight [size]="18" aria-hidden="true"></svg>
+              {{ t('intake.submit')
+              }}<svg imIcon="arrow-right" [size]="18" aria-hidden="true"></svg>
             </button>
           </div>
           @if (submitted() && form.invalid) {

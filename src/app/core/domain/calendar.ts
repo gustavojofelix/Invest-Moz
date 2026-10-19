@@ -48,7 +48,11 @@ export function dueDateInMonth(
   }
   const nominal = new Date(Date.UTC(year, month0, Math.min(day, last)));
   const actual = previousWorkingDay(nominal, holidays);
-  return { date: toIso(actual), nominal: toIso(nominal), shifted: toIso(actual) !== toIso(nominal) };
+  return {
+    date: toIso(actual),
+    nominal: toIso(nominal),
+    shifted: toIso(actual) !== toIso(nominal),
+  };
 }
 
 /**

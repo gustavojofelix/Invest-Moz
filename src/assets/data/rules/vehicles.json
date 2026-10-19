@@ -65,7 +65,7 @@
         "alternatives": ["lda", "sa"],
         "reasoning": {
           "pt": "Para contratos EPC com prazo definido, uma sucursal da empresa-mãe ({{fact.country}}) permite operar rapidamente, usar o balanço e as referências da sociedade-mãe e remeter lucros sem retenção na fonte (interpretação actual). Se o plano incluir serviços de operação e manutenção de longo prazo, uma Lda passa a ser preferível. Esta é a decisão central do projecto.",
-          "en": "For fixed-term EPC contracts, a branch of the {{fact.country}} company can start quickly, rely on the parent's balance sheet and track record, and remit profits without withholding (current interpretation). If the plan includes long-term operation and maintenance services, an Lda becomes preferable. This is the project's central decision.",
+          "en": "For fixed-term EPC contracts, a branch of the parent company ({{fact.country}}) can start quickly, rely on the parent's balance sheet and track record, and remit profits without withholding (current interpretation). If the plan includes long-term operation and maintenance services, an Lda becomes preferable. This is the project's central decision.",
           "fr": "Pour des contrats EPC à durée déterminée, une succursale de la société mère ({{fact.country}}) permet de démarrer rapidement, de s'appuyer sur le bilan et les références de la société mère et de rapatrier les bénéfices sans retenue à la source (interprétation actuelle). Si le projet inclut des services d'exploitation et de maintenance à long terme, une Lda devient préférable. C'est la décision centrale du projet."
         }
       }
@@ -78,7 +78,7 @@
         "alternatives": ["sa", "sas"],
         "reasoning": {
           "pt": "Com capital misto, a Lda acomoda bem o investidor ({{fact.country}}) e o sócio moçambicano: responsabilidade limitada, pacto social que regula a gestão e a cessão de quotas, e base clara para registar o IDE no Banco de Moçambique. A SA justifica-se se estiver prevista a entrada de novos investidores.",
-          "en": "With mixed capital, an Lda suits both the {{fact.country}} investor and the Mozambican partner: limited liability, articles that govern management and share transfers, and a clear basis for registering the FDI with the Banco de Moçambique. An SA is justified if new investors are expected to join.",
+          "en": "With mixed capital, an Lda suits both the investor ({{fact.country}}) and the Mozambican partner: limited liability, articles that govern management and share transfers, and a clear basis for registering the FDI with the Banco de Moçambique. An SA is justified if new investors are expected to join.",
           "fr": "Avec un capital mixte, la Lda convient à l'investisseur ({{fact.country}}) comme à l'associé mozambicain : responsabilité limitée, statuts encadrant la gestion et la cession des parts, et base claire pour enregistrer l'IDE auprès de la Banco de Moçambique. La SA se justifie si l'entrée de nouveaux investisseurs est prévue."
         }
       }
@@ -91,7 +91,7 @@
         "alternatives": ["branch", "sa", "sas"],
         "reasoning": {
           "pt": "Uma Lda moçambicana detida pelo investidor ({{fact.country}}) separa o risco do projecto da sociedade-mãe, permite sócio único e é a estrutura mais conhecida pelos bancos, pela APIEX e pela Autoridade Tributária.",
-          "en": "A Mozambican Lda held by the {{fact.country}} investor ring-fences the project's risk from the parent, allows a single shareholder and is the structure best known to banks, APIEX and the Tax Authority.",
+          "en": "A Mozambican Lda held by the investor ({{fact.country}}) ring-fences the project's risk from the parent, allows a single shareholder and is the structure best known to banks, APIEX and the Tax Authority.",
           "fr": "Une Lda mozambicaine détenue par l'investisseur ({{fact.country}}) isole le risque du projet de la société mère, admet un associé unique et constitue la structure la mieux connue des banques, de l'APIEX et de l'administration fiscale."
         }
       }

@@ -1,7 +1,7 @@
 <ng-container *transloco="let t">
   <div class="container-page py-10 sm:py-14">
     <a class="btn btn-ghost btn-sm -ml-3" [routerLink]="['/', lang(), 'inbox']">
-      <svg lucideArrowLeft [size]="16" aria-hidden="true"></svg>{{ t('inbox.back') }}
+      <svg imIcon="arrow-left" [size]="16" aria-hidden="true"></svg>{{ t('inbox.back') }}
     </a>
 
     @if (!loaded()) {
@@ -17,7 +17,10 @@
             }
           </p>
           <h1 class="mt-3 text-3xl">{{ e.company }}</h1>
-          <p class="mt-1 text-muted">{{ e.name }} · {{ e.createdAt | imDate: lang() : 'datetime' }} · <span class="font-mono uppercase">{{ e.locale }}</span></p>
+          <p class="mt-1 text-muted">
+            {{ e.name }} · {{ e.createdAt | imDate: lang() : 'datetime' }} ·
+            <span class="font-mono uppercase">{{ e.locale }}</span>
+          </p>
         </div>
       </header>
 
@@ -28,7 +31,12 @@
             <h2 id="status-title" class="block-title">{{ t('inbox.detail.status') }}</h2>
             <div class="steps mt-4" role="group" [attr.aria-label]="t('inbox.detail.status')">
               @for (s of statuses; track s; let i = $index) {
-                <button type="button" [attr.aria-pressed]="e.status === s" [class.reached]="i <= statusIndex()" (click)="setStatus(s)">
+                <button
+                  type="button"
+                  [attr.aria-pressed]="e.status === s"
+                  [class.reached]="i <= statusIndex()"
+                  (click)="setStatus(s)"
+                >
                   {{ t('ui.status.' + s) }}
                 </button>
               }
@@ -38,7 +46,9 @@
           <!-- Message -->
           <section aria-labelledby="msg-title">
             <h2 id="msg-title" class="block-title">{{ t('inbox.detail.message') }}</h2>
-            <p class="mt-4 font-serif text-lg leading-relaxed whitespace-pre-line">{{ e.message }}</p>
+            <p class="mt-4 font-serif text-lg leading-relaxed whitespace-pre-line">
+              {{ e.message }}
+            </p>
           </section>
 
           <!-- Project -->
@@ -49,12 +59,28 @@
                 <p class="font-mono text-xs text-muted">{{ s.projectRef }}</p>
                 <p class="mt-1">{{ s.summary | loc: lang() }}</p>
                 <dl class="mt-3 grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2">
-                  <div><dt class="inline text-muted">{{ t('inbox.detail.province') }}:</dt> <dd class="inline">{{ provinceNames[s.input.province] | loc: lang() }}</dd></div>
-                  <div><dt class="inline text-muted">{{ t('inbox.detail.investment') }}:</dt> <dd class="inline">{{ s.input.investmentUsd | money: 'USD' : lang() }}</dd></div>
-                  <div><dt class="inline text-muted">{{ t('inbox.detail.workers') }}:</dt> <dd class="inline">{{ s.input.workers }} ({{ s.input.foreignWorkers }})</dd></div>
-                  <div><dt class="inline text-muted">{{ t('inbox.detail.vehicle') }}:</dt> <dd class="inline">{{ vehicleName() | loc: lang() }}</dd></div>
+                  <div>
+                    <dt class="inline text-muted">{{ t('inbox.detail.province') }}:</dt>
+                    <dd class="inline">{{ provinceNames[s.input.province] | loc: lang() }}</dd>
+                  </div>
+                  <div>
+                    <dt class="inline text-muted">{{ t('inbox.detail.investment') }}:</dt>
+                    <dd class="inline">{{ s.input.investmentUsd | money: 'USD' : lang() }}</dd>
+                  </div>
+                  <div>
+                    <dt class="inline text-muted">{{ t('inbox.detail.workers') }}:</dt>
+                    <dd class="inline">{{ s.input.workers }} ({{ s.input.foreignWorkers }})</dd>
+                  </div>
+                  <div>
+                    <dt class="inline text-muted">{{ t('inbox.detail.vehicle') }}:</dt>
+                    <dd class="inline">{{ vehicleName() | loc: lang() }}</dd>
+                  </div>
                 </dl>
-                <a class="btn btn-secondary btn-sm mt-4" [routerLink]="['/', lang(), 'assessment', s.projectRef]">{{ t('inbox.detail.openAssessment') }}</a>
+                <a
+                  class="btn btn-secondary btn-sm mt-4"
+                  [routerLink]="['/', lang(), 'assessment', s.projectRef]"
+                  >{{ t('inbox.detail.openAssessment') }}</a
+                >
               </div>
             } @else {
               <p class="mt-4 text-muted">{{ t('inbox.detail.noProject') }}</p>
@@ -76,8 +102,18 @@
             </ol>
             <form class="mt-4" (submit)="addNote($event)">
               <label for="note" class="field-label">{{ t('inbox.detail.addNote') }}</label>
-              <textarea id="note" rows="3" class="input" name="note" [ngModel]="note()" (ngModelChange)="note.set($event)" maxlength="1000"></textarea>
-              <button type="submit" class="btn btn-brand btn-sm mt-3" [disabled]="!note().trim()">{{ t('inbox.detail.saveNote') }}</button>
+              <textarea
+                id="note"
+                rows="3"
+                class="input"
+                name="note"
+                [ngModel]="note()"
+                (ngModelChange)="note.set($event)"
+                maxlength="1000"
+              ></textarea>
+              <button type="submit" class="btn btn-brand btn-sm mt-3" [disabled]="!note().trim()">
+                {{ t('inbox.detail.saveNote') }}
+              </button>
             </form>
           </section>
         </div>
@@ -88,14 +124,24 @@
             <h2 class="block-title">{{ t('inbox.detail.contact') }}</h2>
             <p class="mt-4 font-bold">{{ e.name }}</p>
             <p class="text-muted">{{ e.company }}</p>
-            <p class="mt-3"><a class="link inline-flex items-center gap-2 break-all" [href]="'mailto:' + e.email"><svg lucideMail [size]="16" aria-hidden="true"></svg>{{ e.email }}</a></p>
+            <p class="mt-3">
+              <a class="link inline-flex items-center gap-2 break-all" [href]="'mailto:' + e.email"
+                ><svg imIcon="mail" [size]="16" aria-hidden="true"></svg>{{ e.email }}</a
+              >
+            </p>
             @if (e.phone) {
-              <p class="mt-2"><a class="link inline-flex items-center gap-2" [href]="'tel:' + e.phone"><svg lucidePhone [size]="16" aria-hidden="true"></svg>{{ e.phone }}</a></p>
+              <p class="mt-2">
+                <a class="link inline-flex items-center gap-2" [href]="'tel:' + e.phone"
+                  ><svg imIcon="phone" [size]="16" aria-hidden="true"></svg>{{ e.phone }}</a
+                >
+              </p>
             }
             <h3 class="label-caps mt-6 text-muted">{{ t('inbox.detail.areas') }}</h3>
             <ul class="mt-2 flex flex-wrap gap-1.5" role="list">
               @for (a of e.areas; track a) {
-                <li class="border border-rule-strong px-2 py-0.5 text-sm">{{ t('topics.' + a) }}</li>
+                <li class="border border-rule-strong px-2 py-0.5 text-sm">
+                  {{ t('topics.' + a) }}
+                </li>
               }
             </ul>
           </div>
@@ -104,14 +150,19 @@
 
       <p class="sr-only" aria-live="polite">{{ saved() ? t('inbox.detail.saved') : '' }}</p>
       @if (saved()) {
-        <p class="im-rise fixed right-4 bottom-4 z-50 flex items-center gap-2 bg-ink px-4 py-3 text-sm font-bold text-surface shadow-[var(--shadow-overlay)]" aria-hidden="true">
-          <svg lucideCheck [size]="16"></svg>{{ t('inbox.detail.saved') }}
+        <p
+          class="im-rise fixed right-4 bottom-4 z-50 flex items-center gap-2 bg-ink px-4 py-3 text-sm font-bold text-surface shadow-[var(--shadow-overlay)]"
+          aria-hidden="true"
+        >
+          <svg imIcon="check" [size]="16"></svg>{{ t('inbox.detail.saved') }}
         </p>
       }
     } @else {
       <div class="mt-8">
         <im-empty-state [eyebrow]="t('inbox.eyebrow')" [heading]="t('inbox.detail.missing')">
-          <a class="btn btn-secondary btn-sm" [routerLink]="['/', lang(), 'inbox']">{{ t('inbox.back') }}</a>
+          <a class="btn btn-secondary btn-sm" [routerLink]="['/', lang(), 'inbox']">{{
+            t('inbox.back')
+          }}</a>
         </im-empty-state>
       </div>
     }

@@ -10,7 +10,9 @@ const ANSWERS = answersJson.answers as QaAnswer[];
 
 describe('template', () => {
   it('replaces variables and leaves unknown ones and placeholders', () => {
-    expect(renderTemplate('A {{ctx.x}} {{ctx.y}} {{TO_CONFIRM}}', { 'ctx.x': 1 })).toBe('A 1 {{ctx.y}} {{TO_CONFIRM}}');
+    expect(renderTemplate('A {{ctx.x}} {{ctx.y}} {{TO_CONFIRM}}', { 'ctx.x': 1 })).toBe(
+      'A 1 {{ctx.y}} {{TO_CONFIRM}}',
+    );
   });
 
   it('keeps or drops sections', () => {
@@ -22,7 +24,11 @@ describe('template', () => {
   it('renders all locales with shared or per-locale vars', () => {
     const text = { pt: 'p {{v}}', en: 'e {{v}}', fr: 'f {{v}}' };
     expect(renderLocalized(text, { v: 1 })).toEqual({ pt: 'p 1', en: 'e 1', fr: 'f 1' });
-    expect(renderLocalized(text, { pt: { v: 'a' }, en: { v: 'b' } })).toEqual({ pt: 'p a', en: 'e b', fr: 'f {{v}}' });
+    expect(renderLocalized(text, { pt: { v: 'a' }, en: { v: 'b' } })).toEqual({
+      pt: 'p a',
+      en: 'e b',
+      fr: 'f {{v}}',
+    });
   });
 
   it('finds placeholders', () => {
@@ -32,7 +38,9 @@ describe('template', () => {
 
 describe('richtext', () => {
   it('parses paragraphs, bullets, bold, refs and placeholders', () => {
-    const blocks = parseRich('**Sim.** Texto [ref:lei-8-2023].\n\nCondições:\n- um {{X_Y}}\n- dois\n  continua\n\nFim');
+    const blocks = parseRich(
+      '**Sim.** Texto [ref:lei-8-2023].\n\nCondições:\n- um {{X_Y}}\n- dois\n  continua\n\nFim',
+    );
     expect(blocks.map((b) => b.type)).toEqual(['p', 'p', 'ul', 'p']);
     expect(blocks[0]).toEqual({
       type: 'p',
@@ -65,7 +73,9 @@ describe('text and refs', () => {
   });
 
   it('generates enquiry references in sequence per year', () => {
-    expect(nextEnquiryRef(['TA-IM-2026-0141', 'TA-IM-2026-0139', 'TA-IM-2025-0900', 'bad'], 2026)).toBe('TA-IM-2026-0142');
+    expect(
+      nextEnquiryRef(['TA-IM-2026-0141', 'TA-IM-2026-0139', 'TA-IM-2025-0900', 'bad'], 2026),
+    ).toBe('TA-IM-2026-0142');
     expect(nextEnquiryRef([], 2027)).toBe('TA-IM-2027-0001');
   });
 
@@ -79,9 +89,17 @@ describe('text and refs', () => {
 
 describe('qa matcher', () => {
   it('matches the flagship dividends question in all three languages', () => {
-    expect(bestAnswer('Uma empresa com sócio sul-africano pode repatriar dividendos?', ANSWERS, 'pt').answer?.id).toBe('exchange-1');
-    expect(bestAnswer('Can a South African shareholder repatriate dividends?', ANSWERS, 'en').answer?.id).toBe('exchange-1');
-    expect(bestAnswer('Un associé sud-africain peut-il rapatrier des dividendes ?', ANSWERS, 'fr').answer?.id).toBe('exchange-1');
+    expect(
+      bestAnswer('Uma empresa com sócio sul-africano pode repatriar dividendos?', ANSWERS, 'pt')
+        .answer?.id,
+    ).toBe('exchange-1');
+    expect(
+      bestAnswer('Can a South African shareholder repatriate dividends?', ANSWERS, 'en').answer?.id,
+    ).toBe('exchange-1');
+    expect(
+      bestAnswer('Un associé sud-africain peut-il rapatrier des dividendes ?', ANSWERS, 'fr').answer
+        ?.id,
+    ).toBe('exchange-1');
   });
 
   it('matches every canonical question to its own answer', () => {
@@ -100,8 +118,12 @@ describe('qa matcher', () => {
   });
 
   it('chunks text by phrase', () => {
-    const chunks = chunkPhrases('Primeira frase longa o suficiente. Segunda frase também longa.\n\n- item');
-    expect(chunks.join('')).toBe('Primeira frase longa o suficiente. Segunda frase também longa.\n\n- item');
+    const chunks = chunkPhrases(
+      'Primeira frase longa o suficiente. Segunda frase também longa.\n\n- item',
+    );
+    expect(chunks.join('')).toBe(
+      'Primeira frase longa o suficiente. Segunda frase também longa.\n\n- item',
+    );
     expect(chunks.length).toBeGreaterThan(2);
   });
 });

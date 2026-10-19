@@ -14,7 +14,8 @@ export const serverRoutes: ServerRoute[] = [
   {
     path: ':lang/questions/:topic',
     renderMode: RenderMode.Prerender,
-    getPrerenderParams: async () => LOCALES.flatMap((lang) => TOPICS.map((topic) => ({ lang, topic }))),
+    getPrerenderParams: async () =>
+      LOCALES.flatMap((lang) => TOPICS.map((topic) => ({ lang, topic }))),
   },
   { path: '**', renderMode: RenderMode.Client },
 ];

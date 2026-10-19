@@ -9,12 +9,16 @@
     <div class="mt-10 grid gap-12 lg:grid-cols-12">
       <!-- Services -->
       <aside class="lg:col-span-4" aria-labelledby="services-title">
-        <h2 id="services-title" class="label-caps border-b border-ink pb-2 text-ink">{{ t('enquiry.services.title') }}</h2>
+        <h2 id="services-title" class="label-caps border-b border-ink pb-2 text-ink">
+          {{ t('enquiry.services.title') }}
+        </h2>
         <ul role="list">
           @for (s of services; track s) {
             <li class="service">
               <p class="font-bold">{{ t('enquiry.services.' + s + '.title') }}</p>
-              <p class="mt-0.5 text-[0.9375rem] text-muted">{{ t('enquiry.services.' + s + '.text') }}</p>
+              <p class="mt-0.5 text-[0.9375rem] text-muted">
+                {{ t('enquiry.services.' + s + '.text') }}
+              </p>
             </li>
           }
         </ul>
@@ -28,23 +32,74 @@
           <div class="grid gap-6 sm:grid-cols-2">
             <div>
               <label class="field-label" for="name">{{ t('enquiry.fields.name') }}</label>
-              <input id="name" class="input" formControlName="name" autocomplete="name" [attr.aria-invalid]="invalid('name') ? 'true' : null" aria-describedby="name-error" />
-              <im-field-error [control]="form.controls.name" [submitted]="submitted()" errorId="name-error" />
+              <input
+                id="name"
+                class="input"
+                formControlName="name"
+                autocomplete="name"
+                [attr.aria-invalid]="invalid('name') ? 'true' : null"
+                aria-describedby="name-error"
+              />
+              <im-field-error
+                [control]="form.controls.name"
+                [submitted]="submitted()"
+                errorId="name-error"
+              />
             </div>
             <div>
               <label class="field-label" for="company">{{ t('enquiry.fields.company') }}</label>
-              <input id="company" class="input" formControlName="company" autocomplete="organization" [attr.aria-invalid]="invalid('company') ? 'true' : null" aria-describedby="company-error" />
-              <im-field-error [control]="form.controls.company" [submitted]="submitted()" errorId="company-error" />
+              <input
+                id="company"
+                class="input"
+                formControlName="company"
+                autocomplete="organization"
+                [attr.aria-invalid]="invalid('company') ? 'true' : null"
+                aria-describedby="company-error"
+              />
+              <im-field-error
+                [control]="form.controls.company"
+                [submitted]="submitted()"
+                errorId="company-error"
+              />
             </div>
             <div>
               <label class="field-label" for="email">{{ t('enquiry.fields.email') }}</label>
-              <input id="email" type="email" class="input" formControlName="email" autocomplete="email" [attr.aria-invalid]="invalid('email') ? 'true' : null" aria-describedby="email-error" />
-              <im-field-error [control]="form.controls.email" [submitted]="submitted()" errorId="email-error" />
+              <input
+                id="email"
+                type="email"
+                class="input"
+                formControlName="email"
+                autocomplete="email"
+                [attr.aria-invalid]="invalid('email') ? 'true' : null"
+                aria-describedby="email-error"
+              />
+              <im-field-error
+                [control]="form.controls.email"
+                [submitted]="submitted()"
+                errorId="email-error"
+              />
             </div>
             <div>
-              <label class="field-label" for="phone">{{ t('enquiry.fields.phone') }} <span class="font-normal text-muted">({{ t('enquiry.optional') }})</span></label>
-              <input id="phone" type="tel" class="input" formControlName="phone" autocomplete="tel" placeholder="+258 84 000 0000" [attr.aria-invalid]="invalid('phone') ? 'true' : null" aria-describedby="phone-error" />
-              <im-field-error [control]="form.controls.phone" [submitted]="submitted()" errorId="phone-error" [keys]="{ pattern: 'phone' }" />
+              <label class="field-label" for="phone"
+                >{{ t('enquiry.fields.phone') }}
+                <span class="font-normal text-muted">({{ t('enquiry.optional') }})</span></label
+              >
+              <input
+                id="phone"
+                type="tel"
+                class="input"
+                formControlName="phone"
+                autocomplete="tel"
+                placeholder="+258 84 000 0000"
+                [attr.aria-invalid]="invalid('phone') ? 'true' : null"
+                aria-describedby="phone-error"
+              />
+              <im-field-error
+                [control]="form.controls.phone"
+                [submitted]="submitted()"
+                errorId="phone-error"
+                [keys]="{ pattern: 'phone' }"
+              />
             </div>
           </div>
 
@@ -55,34 +110,64 @@
                 <im-checkbox-chip [formControlName]="tp" [label]="t('topics.' + tp)" />
               }
             </div>
-            <im-field-error [control]="form.controls.areas" [submitted]="submitted()" errorId="areas-error" />
+            <im-field-error
+              [control]="form.controls.areas"
+              [submitted]="submitted()"
+              errorId="areas-error"
+            />
           </fieldset>
 
           <div>
             <label class="field-label" for="message">{{ t('enquiry.fields.message') }}</label>
-            <textarea id="message" rows="5" class="input" formControlName="message" [attr.aria-invalid]="invalid('message') ? 'true' : null" aria-describedby="message-error" [placeholder]="t('enquiry.fields.messagePlaceholder')"></textarea>
-            <im-field-error [control]="form.controls.message" [submitted]="submitted()" errorId="message-error" />
+            <textarea
+              id="message"
+              rows="5"
+              class="input"
+              formControlName="message"
+              [attr.aria-invalid]="invalid('message') ? 'true' : null"
+              aria-describedby="message-error"
+              [placeholder]="t('enquiry.fields.messagePlaceholder')"
+            ></textarea>
+            <im-field-error
+              [control]="form.controls.message"
+              [submitted]="submitted()"
+              errorId="message-error"
+            />
           </div>
 
           <!-- Attached summary -->
           @if (project.value(); as r) {
             <div class="attach">
-              <p class="flex flex-wrap items-center justify-between gap-2 border-b border-rule px-4 py-3 text-sm">
+              <p
+                class="flex flex-wrap items-center justify-between gap-2 border-b border-rule px-4 py-3 text-sm"
+              >
                 <span>{{ t('enquiry.attach.note') }}</span>
                 <label class="inline-flex min-h-11 cursor-pointer items-center gap-2 font-bold">
-                  <input type="checkbox" class="h-4 w-4 accent-[var(--brand)]" [checked]="attach()" (change)="attach.set($any($event.target).checked)" />
+                  <input
+                    type="checkbox"
+                    class="h-4 w-4 accent-[var(--brand)]"
+                    [checked]="attach()"
+                    (change)="attach.set($any($event.target).checked)"
+                  />
                   {{ t('enquiry.attach.toggle') }}
                 </label>
               </p>
               @if (attach()) {
                 <details>
-                  <summary>{{ t('enquiry.attach.preview') }} · <span class="ml-1 font-mono text-xs font-normal">{{ r.project.ref }}</span></summary>
+                  <summary>
+                    {{ t('enquiry.attach.preview') }} ·
+                    <span class="ml-1 font-mono text-xs font-normal">{{ r.project.ref }}</span>
+                  </summary>
                   <div class="space-y-2 px-4 pb-4 text-[0.9375rem]">
-                    <p class="font-serif text-lg font-semibold">{{ r.project.title | loc: lang() }}</p>
+                    <p class="font-serif text-lg font-semibold">
+                      {{ r.project.title | loc: lang() }}
+                    </p>
                     <p>{{ r.project.summary | loc: lang() }}</p>
                     <p class="text-muted">
-                      {{ provinceNames[r.project.input.province] | loc: lang() }} · {{ r.project.input.investmentUsd | money: 'USD' : lang() }} ·
-                      {{ t('enquiry.attach.vehicle') }}: {{ r.assessment.vehicle.recommendedName | loc: lang() }}
+                      {{ provinceNames[r.project.input.province] | loc: lang() }} ·
+                      {{ r.project.input.investmentUsd | money: 'USD' : lang() }} ·
+                      {{ t('enquiry.attach.vehicle') }}:
+                      {{ r.assessment.vehicle.recommendedName | loc: lang() }}
                     </p>
                     <ul class="list-disc pl-5 text-muted">
                       @for (tr of r.assessment.factTriggers; track tr.id) {
@@ -95,14 +180,19 @@
             </div>
           } @else {
             <p class="bg-panel px-4 py-3 text-sm text-muted">
-              {{ t('enquiry.attach.none') }} <a class="link" [routerLink]="['/', lang(), 'project']">{{ t('enquiry.attach.describe') }}</a>
+              {{ t('enquiry.attach.none') }}
+              <a class="link" [routerLink]="['/', lang(), 'project']">{{
+                t('enquiry.attach.describe')
+              }}</a>
             </p>
           }
 
-          <div class="flex flex-col gap-4 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
+          <div
+            class="flex flex-col gap-4 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between"
+          >
             <p class="text-sm text-muted">{{ t('enquiry.privacy') }}</p>
             <button type="submit" class="btn btn-primary shrink-0" [disabled]="sending()">
-              <svg lucideSend [size]="18" aria-hidden="true"></svg>{{ t('enquiry.submit') }}
+              <svg imIcon="send" [size]="18" aria-hidden="true"></svg>{{ t('enquiry.submit') }}
             </button>
           </div>
           @if (submitted() && form.invalid) {
@@ -117,19 +207,24 @@
           <div class="mt-3 flex flex-wrap gap-3">
             <button type="button" class="btn btn-secondary btn-sm" (click)="copy()">
               @if (copied()) {
-                <svg lucideCheck [size]="16" aria-hidden="true"></svg>{{ t('enquiry.fallback.copied') }}
+                <svg imIcon="check" [size]="16" aria-hidden="true"></svg
+                >{{ t('enquiry.fallback.copied') }}
               } @else {
-                <svg lucideCopy [size]="16" aria-hidden="true"></svg>{{ t('enquiry.fallback.copy') }}
+                <svg imIcon="copy" [size]="16" aria-hidden="true"></svg
+                >{{ t('enquiry.fallback.copy') }}
               }
             </button>
             <a class="btn btn-secondary btn-sm" [href]="fallback().href">
-              <svg lucideMail [size]="16" aria-hidden="true"></svg>{{ t('enquiry.fallback.mail') }}
+              <svg imIcon="mail" [size]="16" aria-hidden="true"></svg
+              >{{ t('enquiry.fallback.mail') }}
             </a>
           </div>
           @if (copied() === false) {
             <p class="field-error" role="alert">{{ t('enquiry.fallback.copyFailed') }}</p>
           }
-          <span class="sr-only" aria-live="polite">{{ copied() ? t('enquiry.fallback.copied') : '' }}</span>
+          <span class="sr-only" aria-live="polite">{{
+            copied() ? t('enquiry.fallback.copied') : ''
+          }}</span>
         </div>
       </section>
     </div>

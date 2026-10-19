@@ -30,7 +30,9 @@ const lt = (pt: string, en = pt, fr = pt) => ({ pt, en, fr });
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [Sheet],
   template: `<im-sheet heading="Sheet" eyebrow="Overlay"
-    ><p>Side panel from 768px, bottom sheet on mobile. Focus is trapped and restored; Esc closes.</p></im-sheet
+    ><p>
+      Side panel from 768px, bottom sheet on mobile. Focus is trapped and restored; Esc closes.
+    </p></im-sheet
   >`,
 })
 export class StyleGuideSheet {}
@@ -81,7 +83,16 @@ export class StyleGuide {
   protected readonly chipB = signal(false);
   protected readonly stepDone = signal(2);
 
-  protected readonly tokens = ['brand', 'accent', 'highlight', 'ink', 'muted', 'surface', 'panel', 'rule'];
+  protected readonly tokens = [
+    'brand',
+    'accent',
+    'highlight',
+    'ink',
+    'muted',
+    'surface',
+    'panel',
+    'rule',
+  ];
   protected readonly scale = [
     { size: 48, cls: 'text-4xl font-serif' },
     { size: 36, cls: 'text-3xl font-serif' },
@@ -93,14 +104,62 @@ export class StyleGuide {
   ];
 
   protected readonly steps: RoadmapStep[] = [
-    { id: 'a', number: 1, phase: 'explore', title: lt('Reunião com a APIEX'), authority: lt('APIEX'), duration: lt('1–4 semanas'), note: lt('Apresentar o projecto.'), critical: false, refs: ['apiex-guide-2026'] },
-    { id: 'b', number: 2, phase: 'establish', title: lt('Constituição da Lda e NUIT'), authority: lt('Conservatória'), duration: lt('3–10 dias'), note: lt('Pacto social e NUIT.'), critical: false, refs: ['dl-1-2022'] },
-    { id: 'c', number: 3, phase: 'operate', title: lt('Licença ambiental (categoria B)'), authority: lt('Autoridade ambiental'), duration: lt('2–4 meses'), note: lt('Caminho crítico.'), critical: true, refs: ['aia-regulation'] },
+    {
+      id: 'a',
+      number: 1,
+      phase: 'explore',
+      title: lt('Reunião com a APIEX'),
+      authority: lt('APIEX'),
+      duration: lt('1–4 semanas'),
+      note: lt('Apresentar o projecto.'),
+      critical: false,
+      refs: ['apiex-guide-2026'],
+    },
+    {
+      id: 'b',
+      number: 2,
+      phase: 'establish',
+      title: lt('Constituição da Lda e NUIT'),
+      authority: lt('Conservatória'),
+      duration: lt('3–10 dias'),
+      note: lt('Pacto social e NUIT.'),
+      critical: false,
+      refs: ['dl-1-2022'],
+    },
+    {
+      id: 'c',
+      number: 3,
+      phase: 'operate',
+      title: lt('Licença ambiental (categoria B)'),
+      authority: lt('Autoridade ambiental'),
+      duration: lt('2–4 meses'),
+      note: lt('Caminho crítico.'),
+      critical: true,
+      refs: ['aia-regulation'],
+    },
   ];
 
   protected readonly obligations: Obligation[] = [
-    { id: 'w', title: lt('Retenções na fonte e imposto do selo'), frequency: lt('Mensal · até ao dia 20'), schedule: { kind: 'monthly', day: 20 }, next: [{ date: '2026-12-18', nominal: '2026-12-20', shifted: true }, { date: '2027-01-20', nominal: '2027-01-20', shifted: false }], refs: ['cirpc'] },
-    { id: 'r', title: lt('Relatório de progresso à APIEX'), frequency: lt('Semestral'), schedule: { kind: 'text' }, next: [], note: lt('Datas {{APIEX_REPORT_DATES}}.'), refs: ['lei-8-2023'] },
+    {
+      id: 'w',
+      title: lt('Retenções na fonte e imposto do selo'),
+      frequency: lt('Mensal · até ao dia 20'),
+      schedule: { kind: 'monthly', day: 20 },
+      next: [
+        { date: '2026-12-18', nominal: '2026-12-20', shifted: true },
+        { date: '2027-01-20', nominal: '2027-01-20', shifted: false },
+      ],
+      refs: ['cirpc'],
+    },
+    {
+      id: 'r',
+      title: lt('Relatório de progresso à APIEX'),
+      frequency: lt('Semestral'),
+      schedule: { kind: 'text' },
+      next: [],
+      note: lt('Datas {{APIEX_REPORT_DATES}}.'),
+      refs: ['lei-8-2023'],
+    },
   ];
 
   protected readonly trigger: TriggerResult = {
@@ -118,8 +177,16 @@ export class StyleGuide {
     { key: 'branch', label: 'Sucursal' },
   ];
   protected readonly tableRows = [
-    { row: 'Responsabilidade', company: 'Limitada ao capital social', branch: 'A sociedade-mãe responde' },
-    { row: 'Auditoria', company: 'Conforme a dimensão ({{AUDIT_REQUIREMENT_THRESHOLD}})', branch: 'Contas próprias' },
+    {
+      row: 'Responsabilidade',
+      company: 'Limitada ao capital social',
+      branch: 'A sociedade-mãe responde',
+    },
+    {
+      row: 'Auditoria',
+      company: 'Conforme a dimensão ({{AUDIT_REQUIREMENT_THRESHOLD}})',
+      branch: 'Contas próprias',
+    },
   ];
 
   protected readonly answer =

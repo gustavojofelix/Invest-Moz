@@ -8,9 +8,13 @@ import { RefTag } from './ref-tag';
   selector: 'im-confirm-chip',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [TranslocoDirective],
-  template: `<span *transloco="let t" class="chip" [attr.title]="t('ui.toConfirmHint')" [attr.data-key]="key()">{{
-    t('ui.toConfirm')
-  }}</span>`,
+  template: `<span
+    *transloco="let t"
+    class="chip"
+    [attr.title]="t('ui.toConfirmHint')"
+    [attr.data-key]="key()"
+    >{{ t('ui.toConfirm') }}</span
+  >`,
   styles: `
     .chip {
       display: inline-block;
@@ -40,7 +44,23 @@ export class ConfirmChip {
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [ConfirmChip, RefTag],
   // Kept on one line: whitespace between inline items would show as stray spaces.
-  template: `@for (item of inlines(); track $index) {@switch (item.t) {@case ('text') {@if (item.bold) {<strong>{{ item.v }}</strong>} @else {<ng-container>{{ item.v }}</ng-container>}}@case ('ref') {<im-ref-tag [refId]="item.id" />}@case ('confirm') {<im-confirm-chip [key]="item.key" />}}}`,
+  template: `@for (item of inlines(); track $index) {
+    @switch (item.t) {
+      @case ('text') {
+        @if (item.bold) {
+          <strong>{{ item.v }}</strong>
+        } @else {
+          <ng-container>{{ item.v }}</ng-container>
+        }
+      }
+      @case ('ref') {
+        <im-ref-tag [refId]="item.id" />
+      }
+      @case ('confirm') {
+        <im-confirm-chip [key]="item.key" />
+      }
+    }
+  }`,
   host: { style: 'display: contents' },
 })
 export class ConfirmText {

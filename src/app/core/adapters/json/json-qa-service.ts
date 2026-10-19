@@ -21,7 +21,9 @@ export class JsonQaService extends QaService {
 
   async answers(topic?: TopicId): Promise<QaAnswer[]> {
     this.answersP ??= tracked(this.tasks, () =>
-      import('../../../../assets/data/qa/answers.json').then((m) => m.default.answers as QaAnswer[]),
+      import('../../../../assets/data/qa/answers.json').then(
+        (m) => m.default.answers as QaAnswer[],
+      ),
     );
     const all = await this.answersP;
     return topic ? all.filter((a) => a.topic === topic) : all;

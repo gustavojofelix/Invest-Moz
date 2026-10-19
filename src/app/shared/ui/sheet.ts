@@ -10,7 +10,7 @@ import { Dialog, DialogRef } from '@angular/cdk/dialog';
 import { Overlay } from '@angular/cdk/overlay';
 import { BreakpointObserver } from '@angular/cdk/layout';
 import type { ComponentType } from '@angular/cdk/portal';
-import { LucideX } from '@lucide/angular';
+import { Icon } from '@shared/ui/icon';
 
 export interface SheetOptions<D> {
   data?: D;
@@ -29,7 +29,10 @@ export class SheetService {
   private readonly overlay = inject(Overlay);
   private readonly breakpoints = inject(BreakpointObserver);
 
-  open<C, D = unknown, R = unknown>(component: ComponentType<C>, opts: SheetOptions<D>): DialogRef<R, C> {
+  open<C, D = unknown, R = unknown>(
+    component: ComponentType<C>,
+    opts: SheetOptions<D>,
+  ): DialogRef<R, C> {
     const wide = this.breakpoints.isMatched('(min-width: 768px)');
     const bottom = opts.side === 'bottom' || (opts.side !== 'right' && !wide);
     const position = bottom
@@ -59,7 +62,7 @@ export class SheetService {
 @Component({
   selector: 'im-sheet',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [LucideX],
+  imports: [Icon],
   template: `
     <div class="flex h-full max-h-[inherit] flex-col bg-paper">
       <div class="flex items-start justify-between gap-4 border-b border-rule px-5 pt-4 pb-3">
@@ -70,7 +73,7 @@ export class SheetService {
           <h2 class="mt-1 text-xl leading-snug">{{ heading() }}</h2>
         </div>
         <button type="button" class="btn btn-ghost -mr-2 shrink-0" (click)="close()">
-          <svg lucideX [size]="20" aria-hidden="true"></svg>
+          <svg imIcon="x" [size]="20" aria-hidden="true"></svg>
           <span class="sr-only">{{ closeLabel() }}</span>
         </button>
       </div>

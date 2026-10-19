@@ -63,7 +63,8 @@ function simplify(points, tolerance) {
 
 const ringArea = (pts) => {
   let s = 0;
-  for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) s += pts[j][0] * pts[i][1] - pts[i][0] * pts[j][1];
+  for (let i = 0, j = pts.length - 1; i < pts.length; j = i++)
+    s += pts[j][0] * pts[i][1] - pts[i][0] * pts[j][1];
   return s / 2;
 };
 const ringCentroid = (pts) => {
@@ -99,13 +100,17 @@ const NAME_TO_CODE = {
 
 const maputos = features
   .filter((f) => f.properties.name === 'Maputo')
-  .map((f) => ({ f, area: polygonsOf(f.geometry).reduce((s, p) => s + Math.abs(ringArea(p[0])), 0) }))
+  .map((f) => ({
+    f,
+    area: polygonsOf(f.geometry).reduce((s, p) => s + Math.abs(ringArea(p[0])), 0),
+  }))
   .sort((a, b) => a.area - b.area);
 
 const provinces = [];
 for (const f of features) {
   let code = NAME_TO_CODE[f.properties.name];
-  if (f.properties.name === 'Maputo') code = f === maputos[0].f ? 'maputo_cidade' : 'maputo_provincia';
+  if (f.properties.name === 'Maputo')
+    code = f === maputos[0].f ? 'maputo_cidade' : 'maputo_provincia';
   if (!code) throw new Error(`Unknown province ${f.properties.name}`);
   let d = '';
   let largest = { area: 0, ring: [] };
@@ -210,4 +215,6 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}">
 </svg>
 `;
 writeFileSync('src/assets/map/mozambique.svg', svg);
-console.log(`✓ Map written: ${provinces.length} provinces, ${CITIES.length} cities, viewBox ${viewBox}`);
+console.log(
+  `✓ Map written: ${provinces.length} provinces, ${CITIES.length} cities, viewBox ${viewBox}`,
+);

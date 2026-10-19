@@ -11,7 +11,9 @@ export class JsonReferenceData extends ReferenceData {
 
   countries(): Promise<Country[]> {
     this.countriesP ??= tracked(this.tasks, () =>
-      import('../../../../assets/data/countries.json').then((m) => m.default.countries as Country[]),
+      import('../../../../assets/data/countries.json').then(
+        (m) => m.default.countries as Country[],
+      ),
     );
     return this.countriesP;
   }
