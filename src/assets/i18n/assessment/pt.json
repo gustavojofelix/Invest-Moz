@@ -1,0 +1,89 @@
+{
+  "loading": "A preparar a ficha de enquadramento…",
+  "missing": {
+    "eyebrow": "Ficha de enquadramento",
+    "title": "Não encontrámos este projecto",
+    "text": "Os projectos descritos ficam guardados apenas no navegador onde foram criados. Descreva-o de novo ou veja um exemplo.",
+    "cta": "Descrever o meu projecto",
+    "example": "Ver um exemplo"
+  },
+  "error": {
+    "eyebrow": "Ficha de enquadramento",
+    "title": "Não foi possível preparar a ficha",
+    "text": "Tente novamente dentro de instantes ou fale directamente com a Tax Advisory."
+  },
+  "eyebrow": "Ficha de enquadramento",
+  "example": "Exemplo",
+  "facts": {
+    "province": "Província",
+    "capital": "Capital",
+    "investment": "Investimento",
+    "workers": "Trabalhadores",
+    "foreign": "{{ n }} estrangeiros"
+  },
+  "capital": {
+    "foreign": "Estrangeiro",
+    "mixed": "Misto",
+    "mozambican": "Moçambicano"
+  },
+  "actions": {
+    "contact": "Falar com a Tax Advisory",
+    "ask": "Fazer uma pergunta sobre este projecto",
+    "print": "Imprimir / Exportar PDF"
+  },
+  "index": "Índice",
+  "sections": {
+    "vehicle": { "label": "Estrutura", "title": "Veículo societário recomendado" },
+    "comparison": { "label": "Estrutura", "title": "Sociedade ou sucursal?" },
+    "regime": { "label": "Investimento", "title": "Regime de investimento" },
+    "roadmap": { "label": "Prazos", "title": "Roteiro até operar" },
+    "licences": { "label": "Licenciamento", "title": "Licenças" },
+    "facts": { "label": "Factos do projecto", "title": "O que muda com os factos do projecto" },
+    "incentives": { "label": "Lei n.º 4/2009", "title": "Possíveis benefícios fiscais" },
+    "obligations": { "label": "Cumprimento", "title": "Calendário de obrigações recorrentes" },
+    "location": { "label": "Contexto", "title": "Localização, financiamento e ESG" },
+    "watch": { "label": "Riscos", "title": "Pontos de atenção" }
+  },
+  "recommended": "Recomendado",
+  "alternatives": "Alternativas e quando escolher",
+  "comparison": {
+    "aspect": "Aspecto",
+    "company": "Sociedade (Lda/SA)",
+    "branch": "Sucursal",
+    "intro": "Com capital estrangeiro, a primeira decisão é entre constituir uma sociedade moçambicana ou registar uma sucursal da empresa-mãe."
+  },
+  "regime": {
+    "path": "Caminho",
+    "authority": "Entidade",
+    "threshold": "Limiares de aprovação",
+    "guarantee": "Exportação de lucros"
+  },
+  "roadmap": {
+    "summary": "Tempo estimado até operar · indicativo",
+    "legend": "A vermelho: passos no caminho crítico."
+  },
+  "licenceKind": {
+    "bau": "Balcão único",
+    "sector": "Licença sectorial",
+    "environmental": "Ambiente",
+    "duat": "Terra",
+    "other": "Outra"
+  },
+  "category": "categoria {{ c }} provável",
+  "noTriggers": "Os factos indicados não alteram o enquadramento base.",
+  "conditions": "Condições",
+  "obligationsIntro": "Próximas datas reais a partir de {{ date }}. Prazos que calham ao fim-de-semana ou em feriado moçambicano passam para o dia útil anterior.",
+  "columns": {
+    "location": "Localização",
+    "financing": "Financiamento",
+    "esg": "Ambiente e social (ESG)"
+  },
+  "nothing": "Sem notas específicas.",
+  "closing": {
+    "eyebrow": "Próximo passo",
+    "title": "Validar o enquadramento com a Tax Advisory",
+    "text": "Esta ficha é o primeiro mapa. A Tax Advisory confirma os pontos assinalados, prepara a documentação e acompanha os registos junto das entidades.",
+    "generated": "Ficha gerada em {{ date }}",
+    "refsCount": "{{ n }} referências legais"
+  }
+}

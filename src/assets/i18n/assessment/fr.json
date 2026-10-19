@@ -1,0 +1,89 @@
+{
+  "loading": "Préparation de la fiche d'analyse…",
+  "missing": {
+    "eyebrow": "Fiche d'analyse",
+    "title": "Nous n'avons pas trouvé ce projet",
+    "text": "Les projets décrits sont conservés uniquement dans le navigateur où ils ont été créés. Décrivez-le à nouveau ou consultez un exemple.",
+    "cta": "Décrire mon projet",
+    "example": "Voir un exemple"
+  },
+  "error": {
+    "eyebrow": "Fiche d'analyse",
+    "title": "La fiche n'a pas pu être préparée",
+    "text": "Veuillez réessayer dans un instant ou contacter directement Tax Advisory."
+  },
+  "eyebrow": "Fiche d'analyse",
+  "example": "Exemple",
+  "facts": {
+    "province": "Province",
+    "capital": "Capital",
+    "investment": "Investissement",
+    "workers": "Effectif",
+    "foreign": "{{ n }} étrangers"
+  },
+  "capital": {
+    "foreign": "Étranger",
+    "mixed": "Mixte",
+    "mozambican": "Mozambicain"
+  },
+  "actions": {
+    "contact": "Contacter Tax Advisory",
+    "ask": "Poser une question sur ce projet",
+    "print": "Imprimer / Exporter en PDF"
+  },
+  "index": "Sommaire",
+  "sections": {
+    "vehicle": { "label": "Structure", "title": "Structure juridique recommandée" },
+    "comparison": { "label": "Structure", "title": "Société ou succursale ?" },
+    "regime": { "label": "Investissement", "title": "Régime d'investissement" },
+    "roadmap": { "label": "Délais", "title": "Feuille de route jusqu'à l'exploitation" },
+    "licences": { "label": "Autorisations", "title": "Licences et autorisations" },
+    "facts": { "label": "Faits du projet", "title": "Ce qui change selon les faits du projet" },
+    "incentives": { "label": "Lei n.º 4/2009", "title": "Avantages fiscaux possibles" },
+    "obligations": { "label": "Conformité", "title": "Calendrier des obligations récurrentes" },
+    "location": { "label": "Contexte", "title": "Localisation, financement et ESG" },
+    "watch": { "label": "Risques", "title": "Points de vigilance" }
+  },
+  "recommended": "Recommandé",
+  "alternatives": "Alternatives et quand les choisir",
+  "comparison": {
+    "aspect": "Aspect",
+    "company": "Société (Lda/SA)",
+    "branch": "Succursale",
+    "intro": "Avec un capital étranger, la première décision consiste à choisir entre constituer une société mozambicaine ou immatriculer une succursale de la société mère."
+  },
+  "regime": {
+    "path": "Parcours",
+    "authority": "Autorité",
+    "threshold": "Seuils d'approbation",
+    "guarantee": "Exportation des bénéfices"
+  },
+  "roadmap": {
+    "summary": "Délai estimé avant exploitation · indicatif",
+    "legend": "En rouge : étapes sur le chemin critique."
+  },
+  "licenceKind": {
+    "bau": "Guichet unique",
+    "sector": "Licence sectorielle",
+    "environmental": "Environnement",
+    "duat": "Foncier",
+    "other": "Autre"
+  },
+  "category": "catégorie {{ c }} probable",
+  "noTriggers": "Les faits indiqués ne modifient pas l'analyse de base.",
+  "conditions": "Conditions",
+  "obligationsIntro": "Prochaines échéances réelles à partir du {{ date }}. Les échéances tombant un week-end ou un jour férié mozambicain sont avancées au jour ouvrable précédent.",
+  "columns": {
+    "location": "Localisation",
+    "financing": "Financement",
+    "esg": "Environnement et social (ESG)"
+  },
+  "nothing": "Aucune note particulière.",
+  "closing": {
+    "eyebrow": "Prochaine étape",
+    "title": "Valider l'analyse avec Tax Advisory",
+    "text": "Cette fiche est une première cartographie. Tax Advisory confirme les points signalés, prépare les documents et assure les enregistrements auprès des autorités.",
+    "generated": "Fiche générée le {{ date }}",
+    "refsCount": "{{ n }} références juridiques"
+  }
+}
