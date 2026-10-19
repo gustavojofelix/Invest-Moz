@@ -1,0 +1,29 @@
+{
+  "eyebrow": "Présentation",
+  "title": "Panneau de démonstration",
+  "intro": "Commandes pour la présentation : charger des exemples, passer d'un écran à l'autre, changer de langue ou de thème et réinitialiser les données.",
+  "examples": "Projets d'exemple",
+  "screens": "Aller à l'écran",
+  "screen": {
+    "landing": "Accueil",
+    "intake": "Votre projet",
+    "assessment": "Fiche d'analyse",
+    "questions": "Questions rapides",
+    "contact": "Contact",
+    "login": "Connexion",
+    "inbox": "Boîte de réception",
+    "styleGuide": "Guide de style"
+  },
+  "language": "Langue",
+  "theme": "Thème",
+  "light": "Mode clair",
+  "dark": "Mode sombre",
+  "reset": "Réinitialiser les données de démonstration",
+  "resetText": "Supprime les demandes envoyées, statuts, notes, projets décrits et la session. Conserve la langue et le thème.",
+  "resetConfirm": "Oui, réinitialiser",
+  "resetCta": "Réinitialiser les données",
+  "resetDone": "Données de démonstration réinitialisées.",
+  "hotkey": "Raccourci : Maj + D ouvre ce panneau sur n'importe quel écran.",
+  "styleGuide": "Guide de style",
+  "styleGuideIntro": "Jetons, typographie et tous les composants partagés, tels qu'utilisés dans le produit."
+}

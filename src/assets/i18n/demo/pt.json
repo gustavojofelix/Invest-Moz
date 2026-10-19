@@ -1,0 +1,29 @@
+{
+  "eyebrow": "Apresentação",
+  "title": "Painel de demonstração",
+  "intro": "Controlos para a apresentação: carregar exemplos, saltar entre ecrãs, mudar de idioma ou de tema e repor os dados.",
+  "examples": "Projectos de exemplo",
+  "screens": "Ir para o ecrã",
+  "screen": {
+    "landing": "Página inicial",
+    "intake": "O seu projecto",
+    "assessment": "Ficha de enquadramento",
+    "questions": "Perguntas rápidas",
+    "contact": "Contacto",
+    "login": "Login",
+    "inbox": "Caixa de entrada",
+    "styleGuide": "Guia de estilo"
+  },
+  "language": "Idioma",
+  "theme": "Tema",
+  "light": "Modo claro",
+  "dark": "Modo escuro",
+  "reset": "Repor dados de demonstração",
+  "resetText": "Apaga pedidos enviados, estados, notas, projectos descritos e a sessão. Mantém o idioma e o tema.",
+  "resetConfirm": "Sim, repor agora",
+  "resetCta": "Repor dados de demonstração",
+  "resetDone": "Dados de demonstração repostos.",
+  "hotkey": "Atalho: Shift + D abre este painel em qualquer ecrã.",
+  "styleGuide": "Guia de estilo",
+  "styleGuideIntro": "Tokens, tipografia e todos os componentes partilhados, tal como são usados no produto."
+}

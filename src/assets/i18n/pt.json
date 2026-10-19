@@ -1,0 +1,113 @@
+{
+  "seo": {
+    "siteTitle": "Invest Moz — O seu assistente para investir em Moçambique",
+    "siteDescription": "Descreva o seu projecto e receba um enquadramento jurídico e fiscal para investir em Moçambique, com as referências legais. Tax Advisory × Law Technology Solutions.",
+    "project": "O seu projecto",
+    "assessment": "Ficha de enquadramento",
+    "questions": "Perguntas rápidas",
+    "contact": "Falar com a Tax Advisory",
+    "contactSent": "Pedido enviado",
+    "login": "Acesso Tax Advisory",
+    "inbox": "Caixa de entrada",
+    "demo": "Painel de demonstração",
+    "styleGuide": "Guia de estilo",
+    "notFound": "Página não encontrada"
+  },
+  "nav": {
+    "home": "Invest Moz — página inicial",
+    "main": "Navegação principal",
+    "project": "O seu projecto",
+    "questions": "Perguntas",
+    "contact": "Contacto",
+    "inbox": "Caixa de entrada",
+    "menu": "Menu",
+    "language": "Idioma",
+    "skip": "Saltar para o conteúdo"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "technology": "Tecnologia",
+    "firmAccess": "Acesso Tax Advisory"
+  },
+  "disclaimer": "Informação geral e indicativa, com base na legislação moçambicana em vigor em Outubro de 2026. Não constitui parecer jurídico ou fiscal.",
+  "notFound": {
+    "title": "Esta página não existe",
+    "text": "O endereço pode estar incompleto ou a página pode ter sido movida.",
+    "cta": "Voltar à página inicial"
+  },
+  "topics": {
+    "companies": "Sociedades",
+    "licensing": "Licenciamento",
+    "investment": "Investimento",
+    "tax": "Impostos",
+    "labour": "Trabalho",
+    "immigration": "Imigração",
+    "exchange": "Câmbios",
+    "customs": "Alfândegas",
+    "incentives": "Benefícios fiscais",
+    "compliance": "Obrigações e contabilidade",
+    "land": "Terra, ambiente e zonas",
+    "local_content": "Conteúdo local e LNG"
+  },
+  "forms": {
+    "required": "Campo obrigatório.",
+    "email": "Indique um email válido.",
+    "minlength": "Escreva pelo menos {{ length }} caracteres.",
+    "maxlength": "Máximo de {{ length }} caracteres.",
+    "min": "O valor mínimo é {{ min }}.",
+    "max": "O valor máximo é {{ max }}.",
+    "integer": "Indique um número inteiro.",
+    "pattern": "Formato inválido.",
+    "phone": "Indique um número de telefone válido, com indicativo.",
+    "areasRequired": "Escolha pelo menos uma área.",
+    "foreignExceedsWorkers": "O número de estrangeiros não pode ser superior ao total de trabalhadores.",
+    "fixErrors": "Reveja os campos assinalados."
+  },
+  "ui": {
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "toConfirm": "a confirmar",
+    "toConfirmHint": "Valor a confirmar pela Tax Advisory",
+    "citation": {
+      "open": "abrir referência",
+      "eyebrow": "Referência legal",
+      "status": "Estado",
+      "illustrative": "Ilustrativo",
+      "reviewed": "Última revisão",
+      "topic": "Tema",
+      "summary": "Resumo",
+      "excerpt": "Excerto ilustrativo",
+      "note": "Excerto parafraseado para efeitos de demonstração. A versão final citará as passagens revistas pela Tax Advisory."
+    },
+    "roadmap": {
+      "explore": "Explorar",
+      "establish": "Estabelecer",
+      "operate": "Operar",
+      "step": "Passo",
+      "critical": "Caminho crítico"
+    },
+    "calendar": {
+      "shifted": "Antecipado",
+      "shiftedHint": "O prazo de {{ date }} calha num fim-de-semana ou feriado: passa para o dia útil anterior.",
+      "then": "Seguintes:"
+    },
+    "trigger": {
+      "fact": "Facto do projecto",
+      "info": "O que muda",
+      "attention": "Atenção"
+    },
+    "answer": {
+      "question": "Pergunta",
+      "analysing": "A analisar",
+      "sources": "Fontes",
+      "whenToTalk": "Quando falar connosco",
+      "talkCta": "Falar com a Tax Advisory"
+    },
+    "status": {
+      "new": "Novo",
+      "in_review": "Em análise",
+      "quoted": "Proposta enviada",
+      "won": "Ganho"
+    }
+  }
+}

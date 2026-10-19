@@ -1,0 +1,137 @@
+<div *transloco="let t" class="container-page py-12">
+  <p class="label-caps text-muted">{{ t('demo.eyebrow') }}</p>
+  <h1 class="mt-2 text-3xl sm:text-4xl">{{ t('demo.styleGuide') }}</h1>
+  <p class="mt-3 max-w-2xl text-muted">{{ t('demo.styleGuideIntro') }}</p>
+
+  <div class="mt-12 space-y-14">
+    <section aria-labelledby="sg-brand">
+      <h2 id="sg-brand" class="border-b border-ink pb-2 text-xl">Brand · flag-stripe · brand-mark</h2>
+      <div class="demo mt-4 space-y-6">
+        <im-flag-stripe [height]="6" />
+        <div class="flex flex-wrap items-center gap-8">
+          <im-brand-mark size="lg" />
+          <im-brand-mark />
+          <im-brand-mark variant="flag" size="lg" />
+          <im-brand-mark variant="ta" />
+          <im-brand-mark variant="lts" />
+        </div>
+        <im-brand-mark variant="partners" />
+      </div>
+    </section>
+
+    <section aria-labelledby="sg-tokens">
+      <h2 id="sg-tokens" class="border-b border-ink pb-2 text-xl">Tokens</h2>
+      <ul class="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-4" role="list">
+        @for (tok of tokens; track tok) {
+          <li>
+            <div class="swatch" [style.background]="'var(--' + tok + ')'"></div>
+            <p class="mt-1 font-mono text-xs">--{{ tok }}</p>
+          </li>
+        }
+      </ul>
+    </section>
+
+    <section aria-labelledby="sg-type">
+      <h2 id="sg-type" class="border-b border-ink pb-2 text-xl">Type · 14 / 16 / 18 / 22 / 28 / 36 / 48</h2>
+      <div class="mt-4 space-y-2">
+        @for (s of scale; track s.size) {
+          <p [class]="s.cls"><span class="mr-3 font-mono text-xs text-muted">{{ s.size }}</span>Enquadramento para investir</p>
+        }
+      </div>
+    </section>
+
+    <section aria-labelledby="sg-labels">
+      <h2 id="sg-labels" class="border-b border-ink pb-2 text-xl">section-label · ref-tag · confirm-chip · status-pill</h2>
+      <div class="demo mt-4 flex flex-wrap items-center gap-4">
+        <im-section-label>Ficha de enquadramento</im-section-label>
+        <im-section-label tone="brand">Indicativo</im-section-label>
+        <im-section-label tone="boxed-brand">Recomendado</im-section-label>
+        <im-section-label tone="boxed-accent">Crítico</im-section-label>
+        <im-section-label tone="boxed-highlight">Exemplo</im-section-label>
+      </div>
+      <div class="demo mt-3 flex flex-wrap items-center gap-3">
+        <im-ref-tag refId="lei-11-2009" />
+        <im-ref-tag refId="lei-8-2023" />
+        <im-ref-tag label="DL 1/2022" />
+        <im-confirm-chip key="EXAMPLE" />
+        <im-status-pill status="new" />
+        <im-status-pill status="in_review" />
+        <im-status-pill status="quoted" />
+        <im-status-pill status="won" />
+      </div>
+    </section>
+
+    <section aria-labelledby="sg-buttons">
+      <h2 id="sg-buttons" class="border-b border-ink pb-2 text-xl">Buttons · fields · checkbox-chip</h2>
+      <div class="demo mt-4 space-y-5">
+        <div class="flex flex-wrap gap-3">
+          <button type="button" class="btn btn-primary">Descrever o meu projecto</button>
+          <button type="button" class="btn btn-brand">Entrar</button>
+          <button type="button" class="btn btn-secondary">Ver um exemplo</button>
+          <button type="button" class="btn btn-ghost">Cancelar</button>
+          <button type="button" class="btn btn-secondary" (click)="openSheet()">sheet</button>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label class="field-label" for="sg-input">Empresa</label>
+            <input id="sg-input" class="input" value="Coromandel Agro Exports" />
+            <span class="field-hint">Hint text</span>
+          </div>
+          <div>
+            <label class="field-label" for="sg-input-err">Email</label>
+            <input id="sg-input-err" class="input" aria-invalid="true" value="nome@" />
+            <span class="field-error">Indique um email válido.</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <im-checkbox-chip label="Sociedades" [(checked)]="chipA" />
+          <im-checkbox-chip label="Câmbios" [(checked)]="chipB" />
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="sg-stepper">
+      <h2 id="sg-stepper" class="border-b border-ink pb-2 text-xl">stepper · skeleton · empty-state</h2>
+      <div class="mt-4 grid gap-6 md:grid-cols-3">
+        <div class="demo">
+          <im-stepper [steps]="['Veículo societário', 'Regime de investimento', 'Licenças', 'Fiscalidade']" [done]="stepDone()" />
+          <button type="button" class="btn btn-ghost btn-sm mt-3" (click)="stepDone.set((stepDone() + 1) % 5)">+1</button>
+        </div>
+        <div class="demo"><im-skeleton [lines]="4" /><im-skeleton class="mt-5" height="4rem" /></div>
+        <im-empty-state heading="Sem resultados" text="Ajuste os filtros." eyebrow="Inbox">
+          <button type="button" class="btn btn-secondary btn-sm">Limpar filtros</button>
+        </im-empty-state>
+      </div>
+    </section>
+
+    <section aria-labelledby="sg-memo">
+      <h2 id="sg-memo" class="border-b border-ink pb-2 text-xl">memo-section · ruled-table · fact-trigger-row</h2>
+      <div class="mt-6">
+        <im-memo-section anchor="sg-memo-demo" number="01" label="Veículo" heading="Sociedade ou sucursal?">
+          <im-ruled-table [columns]="tableColumns" [rows]="tableRows" caption="Sociedade vs sucursal" />
+          <div class="mt-6"><im-fact-trigger-row [trigger]="trigger" [lang]="lang()" /></div>
+        </im-memo-section>
+      </div>
+    </section>
+
+    <section aria-labelledby="sg-roadmap">
+      <h2 id="sg-roadmap" class="border-b border-ink pb-2 text-xl">roadmap-timeline · obligation-calendar</h2>
+      <div class="mt-6"><im-roadmap-timeline [steps]="steps" [lang]="lang()" /></div>
+      <div class="mt-8 max-w-2xl"><im-obligation-calendar [obligations]="obligations" [lang]="lang()" /></div>
+    </section>
+
+    <section aria-labelledby="sg-answer">
+      <h2 id="sg-answer" class="border-b border-ink pb-2 text-xl">answer-block · disclaimer · language-switcher</h2>
+      <div class="demo mt-4">
+        <im-answer-block
+          question="Uma empresa com sócio sul-africano pode repatriar dividendos?"
+          [text]="answer"
+          [refs]="['lei-11-2009', 'lei-8-2023']"
+          whenToTalk="Antes de registar o IDE: a Tax Advisory confirma o enquadramento."
+        />
+      </div>
+      <div class="mt-4"><im-disclaimer /></div>
+      <div class="mt-4"><im-language-switcher /></div>
+    </section>
+  </div>
+</div>

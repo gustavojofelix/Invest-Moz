@@ -1,0 +1,113 @@
+{
+  "seo": {
+    "siteTitle": "Invest Moz — Your assistant for investing in Mozambique",
+    "siteDescription": "Describe your project and receive a legal and tax assessment for investing in Mozambique, with the legal references. Tax Advisory × Law Technology Solutions.",
+    "project": "Your project",
+    "assessment": "Setup assessment",
+    "questions": "Quick questions",
+    "contact": "Talk to Tax Advisory",
+    "contactSent": "Enquiry sent",
+    "login": "Tax Advisory access",
+    "inbox": "Inbox",
+    "demo": "Demo panel",
+    "styleGuide": "Style guide",
+    "notFound": "Page not found"
+  },
+  "nav": {
+    "home": "Invest Moz — home",
+    "main": "Main navigation",
+    "project": "Your project",
+    "questions": "Questions",
+    "contact": "Contact",
+    "inbox": "Inbox",
+    "menu": "Menu",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "footer": {
+    "contact": "Contact",
+    "technology": "Technology",
+    "firmAccess": "Tax Advisory access"
+  },
+  "disclaimer": "General, indicative information based on Mozambican legislation in force in October 2026. It does not constitute legal or tax advice.",
+  "notFound": {
+    "title": "This page does not exist",
+    "text": "The address may be incomplete or the page may have moved.",
+    "cta": "Back to the home page"
+  },
+  "topics": {
+    "companies": "Companies",
+    "licensing": "Licensing",
+    "investment": "Investment",
+    "tax": "Tax",
+    "labour": "Employment",
+    "immigration": "Immigration",
+    "exchange": "Exchange control",
+    "customs": "Customs",
+    "incentives": "Tax incentives",
+    "compliance": "Filings and accounting",
+    "land": "Land, environment and zones",
+    "local_content": "Local content and LNG"
+  },
+  "forms": {
+    "required": "This field is required.",
+    "email": "Enter a valid email address.",
+    "minlength": "Write at least {{ length }} characters.",
+    "maxlength": "Maximum {{ length }} characters.",
+    "min": "The minimum value is {{ min }}.",
+    "max": "The maximum value is {{ max }}.",
+    "integer": "Enter a whole number.",
+    "pattern": "Invalid format.",
+    "phone": "Enter a valid phone number, including the country code.",
+    "areasRequired": "Choose at least one area.",
+    "foreignExceedsWorkers": "Foreign workers cannot exceed the total number of workers.",
+    "fixErrors": "Please review the highlighted fields."
+  },
+  "ui": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "toConfirm": "to be confirmed",
+    "toConfirmHint": "Value to be confirmed by Tax Advisory",
+    "citation": {
+      "open": "open reference",
+      "eyebrow": "Legal reference",
+      "status": "Status",
+      "illustrative": "Illustrative",
+      "reviewed": "Last reviewed",
+      "topic": "Topic",
+      "summary": "Summary",
+      "excerpt": "Illustrative excerpt",
+      "note": "Paraphrased excerpt for demonstration purposes. The final version will quote the passages reviewed by Tax Advisory."
+    },
+    "roadmap": {
+      "explore": "Explore",
+      "establish": "Establish",
+      "operate": "Operate",
+      "step": "Step",
+      "critical": "Critical path"
+    },
+    "calendar": {
+      "shifted": "Brought forward",
+      "shiftedHint": "The {{ date }} deadline falls on a weekend or public holiday, so it moves to the previous working day.",
+      "then": "Next:"
+    },
+    "trigger": {
+      "fact": "Project fact",
+      "info": "What changes",
+      "attention": "Attention"
+    },
+    "answer": {
+      "question": "Question",
+      "analysing": "Analysing",
+      "sources": "Sources",
+      "whenToTalk": "When to talk to us",
+      "talkCta": "Talk to Tax Advisory"
+    },
+    "status": {
+      "new": "New",
+      "in_review": "In review",
+      "quoted": "Proposal sent",
+      "won": "Won"
+    }
+  }
+}
