@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Assistant",
+  "title": "Quick questions",
+  "intro": "Short answers from the reviewed legal base, always with the legal reference. For your specific case, Tax Advisory validates.",
+  "context": {
+    "with": "Project in context:",
+    "open": "Open memo",
+    "none": "No project in context. Answers are general.",
+    "describe": "Describe my project"
+  },
+  "topics": "Topics",
+  "conversation": "Conversation",
+  "suggested": "Suggested questions",
+  "stopped": "Answer stopped.",
+  "fallback": {
+    "text": "We do not yet have a reviewed answer to this question in the legal base.",
+    "offer": "Tax Advisory can look into it with your project's details."
+  },
+  "placeholder": "Type your question…",
+  "new": "New conversation",
+  "stop": "Stop",
+  "send": "Ask",
+  "note": "Enter to send · Shift + Enter for a new line. The conversation stays in this session only."
+}
