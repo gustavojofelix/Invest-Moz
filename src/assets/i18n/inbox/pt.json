@@ -1,0 +1,53 @@
+{
+  "eyebrow": "Tax Advisory · área reservada",
+  "title": "Caixa de entrada",
+  "signedIn": "Sessão: {{ email }}",
+  "demoNote": "demonstração",
+  "logout": "Terminar sessão",
+  "summary": {
+    "total": "Total",
+    "week": "Esta semana"
+  },
+  "filterLabel": "Filtrar por estado",
+  "all": "Todos",
+  "search": "Pesquisar nome, empresa, referência…",
+  "resultCount": "{{ n }} pedidos",
+  "newBadge": "Novo",
+  "empty": {
+    "title": "Nenhum pedido corresponde aos filtros",
+    "text": "Altere o estado ou a pesquisa.",
+    "clear": "Limpar filtros"
+  },
+  "back": "Voltar à caixa de entrada",
+  "detail": {
+    "status": "Estado",
+    "message": "Mensagem",
+    "project": "Projecto anexado",
+    "province": "Província",
+    "investment": "Investimento",
+    "workers": "Trabalhadores (estrangeiros)",
+    "vehicle": "Veículo",
+    "openAssessment": "Abrir a ficha completa",
+    "noProject": "Sem projecto anexado.",
+    "notes": "Notas internas",
+    "noNotes": "Ainda sem notas.",
+    "addNote": "Nova nota",
+    "saveNote": "Guardar nota",
+    "contact": "Contacto",
+    "areas": "Áreas",
+    "saved": "Alterações guardadas",
+    "missing": "Pedido não encontrado."
+  },
+  "login": {
+    "eyebrow": "Área reservada",
+    "title": "Acesso Tax Advisory",
+    "intro": "Entre para ver os pedidos recebidos através do Invest Moz.",
+    "demoTitle": "Credenciais de demonstração",
+    "demoText": "Os campos já estão preenchidos. Basta entrar.",
+    "email": "Email",
+    "password": "Palavra-passe",
+    "error": "Email ou palavra-passe incorrectos.",
+    "submit": "Entrar",
+    "notSecurity": "Login de demonstração, sem servidor: não constitui segurança real. A autenticação real chega com o backend."
+  }
+}

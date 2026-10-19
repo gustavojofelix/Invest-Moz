@@ -1,0 +1,97 @@
+<ng-container *transloco="let t">
+  <div class="container-page py-10 sm:py-14">
+    <header class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <im-section-label tone="brand">{{ t('inbox.eyebrow') }}</im-section-label>
+        <h1 class="mt-2 text-3xl sm:text-4xl">{{ t('inbox.title') }}</h1>
+        <p class="mt-1 text-sm text-muted">{{ t('inbox.signedIn', { email: user()?.email }) }} · {{ t('inbox.demoNote') }}</p>
+      </div>
+      <button type="button" class="btn btn-ghost btn-sm" (click)="logout()">
+        <svg lucideLogOut [size]="16" aria-hidden="true"></svg>{{ t('inbox.logout') }}
+      </button>
+    </header>
+
+    <!-- Summary strip -->
+    <dl class="mt-8 grid grid-cols-2 gap-x-6 sm:grid-cols-3 lg:grid-cols-6">
+      <div class="stat">
+        <dt class="label-caps text-muted">{{ t('inbox.summary.total') }}</dt>
+        <dd class="mt-1 font-serif text-3xl font-semibold">{{ counts().total }}</dd>
+      </div>
+      @for (s of statuses; track s) {
+        <div class="stat">
+          <dt class="label-caps text-muted">{{ t('ui.status.' + s) }}</dt>
+          <dd class="mt-1 font-serif text-3xl font-semibold">{{ counts().byStatus[s] }}</dd>
+        </div>
+      }
+      <div class="stat">
+        <dt class="label-caps text-muted">{{ t('inbox.summary.week') }}</dt>
+        <dd class="mt-1 font-serif text-3xl font-semibold text-brand">{{ counts().week }}</dd>
+      </div>
+    </dl>
+
+    <!-- Filters -->
+    <div class="mt-8 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+      <div class="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 lg:mx-0 lg:px-0" role="group" [attr.aria-label]="t('inbox.filterLabel')">
+        <button type="button" class="filter" [attr.aria-pressed]="filter() === 'all'" (click)="filter.set('all')">{{ t('inbox.all') }}</button>
+        @for (s of statuses; track s) {
+          <button type="button" class="filter" [attr.aria-pressed]="filter() === s" (click)="filter.set(s)">{{ t('ui.status.' + s) }}</button>
+        }
+      </div>
+      <div class="relative w-full lg:max-w-xs">
+        <label for="inbox-search" class="sr-only">{{ t('inbox.search') }}</label>
+        <svg lucideSearch [size]="18" class="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-muted" aria-hidden="true"></svg>
+        <input id="inbox-search" type="search" class="input pl-10" [placeholder]="t('inbox.search')" [ngModel]="query()" (ngModelChange)="query.set($event)" />
+      </div>
+    </div>
+
+    <!-- List -->
+    <div class="mt-6 border-t border-ink">
+      @if (!loaded()) {
+        <div class="space-y-6 py-6">
+          <im-skeleton [lines]="2" />
+          <im-skeleton [lines]="2" />
+          <im-skeleton [lines]="2" />
+        </div>
+      } @else {
+        <p class="sr-only" role="status">{{ t('inbox.resultCount', { n: rows().length }) }}</p>
+        <ul role="list">
+          @for (e of rows(); track e.ref) {
+            <li>
+              <a class="row" [class.fresh]="isNew(e)" [routerLink]="['/', lang(), 'inbox', e.ref]">
+                <span>
+                  <span class="block font-mono text-sm">{{ e.ref }}</span>
+                  <span class="block text-xs text-muted">{{ e.createdAt | imDate: lang() : 'medium' }}</span>
+                </span>
+                <span class="min-w-0">
+                  <span class="flex flex-wrap items-center gap-2">
+                    <span class="font-bold">{{ e.company }}</span>
+                    @if (isNew(e)) {
+                      <im-section-label tone="boxed-accent">{{ t('inbox.newBadge') }}</im-section-label>
+                    }
+                  </span>
+                  <span class="block truncate text-[0.9375rem] text-muted">{{ e.name }} — {{ e.message }}</span>
+                </span>
+                <span class="flex flex-wrap gap-1 text-xs text-muted">
+                  <span class="font-mono uppercase">{{ e.locale }}</span> ·
+                  @for (a of e.areas.slice(0, 2); track a) {
+                    <span>{{ t('topics.' + a) }}</span>
+                  }
+                  @if (e.areas.length > 2) {
+                    <span>+{{ e.areas.length - 2 }}</span>
+                  }
+                </span>
+                <span><im-status-pill [status]="e.status" /></span>
+              </a>
+            </li>
+          } @empty {
+            <li class="py-8">
+              <im-empty-state [eyebrow]="t('inbox.eyebrow')" [heading]="t('inbox.empty.title')" [text]="t('inbox.empty.text')">
+                <button type="button" class="btn btn-secondary btn-sm" (click)="clearFilters()">{{ t('inbox.empty.clear') }}</button>
+              </im-empty-state>
+            </li>
+          }
+        </ul>
+      }
+    </div>
+  </div>
+</ng-container>

@@ -1,0 +1,53 @@
+{
+  "eyebrow": "Tax Advisory · private area",
+  "title": "Inbox",
+  "signedIn": "Signed in: {{ email }}",
+  "demoNote": "demonstration",
+  "logout": "Sign out",
+  "summary": {
+    "total": "Total",
+    "week": "This week"
+  },
+  "filterLabel": "Filter by status",
+  "all": "All",
+  "search": "Search name, company, reference…",
+  "resultCount": "{{ n }} enquiries",
+  "newBadge": "New",
+  "empty": {
+    "title": "No enquiry matches the filters",
+    "text": "Change the status or the search.",
+    "clear": "Clear filters"
+  },
+  "back": "Back to the inbox",
+  "detail": {
+    "status": "Status",
+    "message": "Message",
+    "project": "Attached project",
+    "province": "Province",
+    "investment": "Investment",
+    "workers": "Workers (foreign)",
+    "vehicle": "Vehicle",
+    "openAssessment": "Open the full assessment",
+    "noProject": "No project attached.",
+    "notes": "Internal notes",
+    "noNotes": "No notes yet.",
+    "addNote": "New note",
+    "saveNote": "Save note",
+    "contact": "Contact",
+    "areas": "Areas",
+    "saved": "Changes saved",
+    "missing": "Enquiry not found."
+  },
+  "login": {
+    "eyebrow": "Private area",
+    "title": "Tax Advisory access",
+    "intro": "Sign in to see the enquiries received through Invest Moz.",
+    "demoTitle": "Demo credentials",
+    "demoText": "The fields are already filled in. Just sign in.",
+    "email": "Email",
+    "password": "Password",
+    "error": "Incorrect email or password.",
+    "submit": "Sign in",
+    "notSecurity": "Demo login with no server: this is not real security. Real authentication arrives with the backend."
+  }
+}

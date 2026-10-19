@@ -1,0 +1,63 @@
+{
+  "eyebrow": "Étape 2 sur 2",
+  "title": "Contacter Tax Advisory",
+  "intro": "Dites-nous ce dont vous avez besoin. Nous vous répondrons avec une proposition d'accompagnement pour votre projet.",
+  "services": {
+    "title": "Services de Tax Advisory",
+    "note": "Le conseil détaillé, la rédaction et les dépôts sont des services payants, sur devis préalable.",
+    "incorporation": { "title": "Constitution de sociétés", "text": "Lda, SA ou succursale : statuts, immatriculations et NUIT." },
+    "investment": { "title": "Enregistrement de l'investissement", "text": "Projet auprès de l'APIEX, certificat d'investissement et enregistrement de l'IDE." },
+    "licensing": { "title": "Autorisations", "text": "BAU, licences sectorielles et environnementales, DUAT." },
+    "tax": { "title": "Fiscalité et comptabilité", "text": "Cadrage fiscal, déclarations, prix de transfert et tenue comptable." },
+    "labour": { "title": "Travail et immigration", "text": "Contrats, quotas, permis de travail et DIRE." },
+    "exchange": { "title": "Changes et douanes", "text": "Enregistrements auprès de la Banco de Moçambique, prêts, Classe K et admission temporaire." }
+  },
+  "formTitle": "Demande de contact",
+  "fields": {
+    "name": "Nom",
+    "company": "Société",
+    "email": "E-mail",
+    "phone": "Téléphone / WhatsApp",
+    "areas": "Domaines d'intérêt",
+    "message": "Message",
+    "messagePlaceholder": "Vos besoins, vos délais et le contexte utile…"
+  },
+  "optional": "facultatif",
+  "attach": {
+    "title": "Résumé du projet",
+    "note": "Le résumé de votre projet et de l'analyse est joint automatiquement.",
+    "toggle": "Joindre",
+    "preview": "Aperçu du résumé joint",
+    "vehicle": "Structure recommandée",
+    "none": "Aucun projet en contexte.",
+    "describe": "Décrire d'abord le projet"
+  },
+  "privacy": "Démonstration : la demande est conservée dans ce navigateur et apparaît dans la boîte de réception de Tax Advisory.",
+  "submit": "Envoyer la demande",
+  "fallback": {
+    "title": "Vous préférez votre messagerie ?",
+    "text": "Copiez le texte de la demande ou ouvrez-le dans votre messagerie, adressé à info@taxadvisorymoz.com.",
+    "copy": "Copier le texte",
+    "copied": "Texte copié",
+    "mail": "Ouvrir dans la messagerie",
+    "copyFailed": "Copie impossible. Sélectionnez et copiez le texte manuellement."
+  },
+  "mail": {
+    "subject": "Invest Moz — demande de contact"
+  },
+  "sent": {
+    "eyebrow": "Demande envoyée",
+    "title": "Merci. Nous avons bien reçu votre demande.",
+    "text": "{{ name }}, Tax Advisory va examiner votre demande et le résumé du projet.",
+    "ref": "Référence",
+    "next": "Prochaines étapes",
+    "step1": "Tax Advisory examine la demande et l'analyse jointe.",
+    "step2": "Nous vous contactons sous deux jours ouvrables pour un premier échange.",
+    "step3": "Nous vous adressons une proposition précisant le périmètre, les délais et les honoraires.",
+    "backToAssessment": "Retour à la fiche d'analyse",
+    "moreQuestions": "Poser d'autres questions",
+    "fallback": "Souhaitez-vous garder une copie ou l'envoyer aussi par e-mail ?",
+    "missing": "Nous n'avons pas trouvé cette demande dans ce navigateur.",
+    "newEnquiry": "Faire une nouvelle demande"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "eyebrow": "Step 2 of 2",
+  "title": "Talk to Tax Advisory",
+  "intro": "Tell us what you need. We will reply with a proposal to support your project.",
+  "services": {
+    "title": "Tax Advisory services",
+    "note": "Detailed advice, drafting and filings are paid services, quoted in advance.",
+    "incorporation": { "title": "Company incorporation", "text": "Lda, SA or branch: articles, registrations and NUIT." },
+    "investment": { "title": "Investment registration", "text": "APIEX project, investment certificate and FDI registration." },
+    "licensing": { "title": "Licensing", "text": "BAU, sector and environmental licences, and DUAT." },
+    "tax": { "title": "Tax and accounting", "text": "Tax set-up, returns, transfer pricing and bookkeeping." },
+    "labour": { "title": "Employment and immigration", "text": "Contracts, quotas, work permits and DIRE." },
+    "exchange": { "title": "Exchange control and customs", "text": "Banco de Moçambique registrations, loans, Class K and temporary import." }
+  },
+  "formTitle": "Contact request",
+  "fields": {
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "areas": "Areas of interest",
+    "message": "Message",
+    "messagePlaceholder": "What you need, timing and relevant context…"
+  },
+  "optional": "optional",
+  "attach": {
+    "title": "Project summary",
+    "note": "The summary of your project and assessment is attached automatically.",
+    "toggle": "Attach",
+    "preview": "Preview the attached summary",
+    "vehicle": "Recommended vehicle",
+    "none": "No project in context.",
+    "describe": "Describe the project first"
+  },
+  "privacy": "Demonstration: the enquiry is stored in this browser and appears in the Tax Advisory inbox.",
+  "submit": "Send enquiry",
+  "fallback": {
+    "title": "Prefer your own email?",
+    "text": "Copy the enquiry text or open it in your email program, addressed to info@taxadvisorymoz.com.",
+    "copy": "Copy text",
+    "copied": "Text copied",
+    "mail": "Open in email",
+    "copyFailed": "Could not copy. Please select and copy the text manually."
+  },
+  "mail": {
+    "subject": "Invest Moz — contact request"
+  },
+  "sent": {
+    "eyebrow": "Enquiry sent",
+    "title": "Thank you. We have received your enquiry.",
+    "text": "{{ name }}, Tax Advisory will review your enquiry and the project summary.",
+    "ref": "Reference",
+    "next": "Next steps",
+    "step1": "Tax Advisory reviews the enquiry and the attached assessment.",
+    "step2": "We contact you within two working days for an initial conversation.",
+    "step3": "We send a proposal with scope, timing and fees.",
+    "backToAssessment": "Back to the setup assessment",
+    "moreQuestions": "Ask more questions",
+    "fallback": "Want to keep a copy or also send it by email?",
+    "missing": "We could not find this enquiry in this browser.",
+    "newEnquiry": "Make a new enquiry"
+  }
+}
