@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "eyebrow": "KI-beleggingskonsiërge vir Mosambiek",
+    "title": "U Mosambiekse beleggingspadkaart, binne minute.",
+    "lead": "Vertel Tiva u idee. Kry die maatskappystruktuur, lisensies, aansporings, visums en belastingstappe — elk met verwysing na Mosambiekse wetgewing — en ontmoet dan die mense wat dit laat gebeur.",
+    "channels": "24/7, op die web, die app en WhatsApp",
+    "pathfinder": "Verkies u ses vinnige vrae? Begin die Pathfinder",
+    "example": "Sien 'n voorbeeldpadkaart",
+    "mapLabel": "Kaart van Mosambiek met die Maputo-, Beira- en Nacala-korridors"
+  },
+  "idea": {
+    "formLabel": "Vra Tiva oor u beleggingsidee",
+    "label": "Beskryf u beleggingsidee",
+    "placeholder": "bv. 'n Kasjoeneutverwerkingsaanleg in Nampula, ongeveer USD 2 miljoen",
+    "voice": "Spreek u idee uit",
+    "voiceStop": "Hou op luister",
+    "voiceUnavailable": "Steminvoer is nie in hierdie blaaier beskikbaar nie",
+    "listening": "Luister… praat nou.",
+    "ask": "Vra",
+    "empty": "Skryf u idee in 'n paar woorde, of kies 'n voorbeeld hieronder.",
+    "examples": "Voorbeeldidees"
+  },
+  "examples": {
+    "ecoLodge": "Eko-lodge in Inhambane",
+    "solar": "Sonkrag-mininetwerke in Niassa",
+    "logistics": "Logistieke spilpunt op die Beira-korridor",
+    "bakery": "Bakkery in Matola"
+  },
+  "moves": {
+    "title": "Van idee tot gelisensieerde besigheid in drie stappe",
+    "m1": {
+      "title": "Beskryf u idee",
+      "text": "In u taal, per teks of stem. Tiva vra 'n paar vrae: sektor, provinsie, grootte, waar u vandaan kom."
+    },
+    "m2": {
+      "title": "Kry u padkaart",
+      "text": "Elke stap in volgorde — wie dit goedkeur, wat om in te dien — met die wet daaragter. Laai dit as 'n PDF af."
+    },
+    "m3": {
+      "title": "Ontmoet die regte mense",
+      "text": "Een tik na 'n prokureur, APIEX of die lisensiëring-eenstopwinkel, met u opsomming reeds aangeheg."
+    }
+  },
+  "covers": {
+    "title": "Wat Tiva dek",
+    "lead": "Die vrae wat beleggers werklik vra, beantwoord uit Mosambiekse wetgewing.",
+    "companies": {
+      "title": "Maatskappystigting",
+      "text": "Lda, SA, eenlid-Lda of tak; registrasie en NUIT"
+    },
+    "licensing": {
+      "title": "Lisensiëring",
+      "text": "Voorafkennisgewing, vereenvoudigde of volle lisensie, via e-BAU"
+    },
+    "investment": {
+      "title": "Beleggingsgoedkeuring",
+      "text": "APIEX-projekregistrasie kragtens Lei n.º 8/2023"
+    },
+    "incentives": {
+      "title": "Aansporings",
+      "text": "Kode van Fiskale Voordele, Spesiale Ekonomiese Sones en Industriële Vrysones"
+    },
+    "land": {
+      "title": "Grond",
+      "text": "Grondgebruiksregte (DUAT) en huurooreenkomste"
+    },
+    "people": {
+      "title": "Mense",
+      "text": "Aanstellings, kwotas vir uitgewekenes, werkpermitte, visums en DIRE"
+    },
+    "money": {
+      "title": "Geld",
+      "text": "Valutabeheer, kapitaalregistrasie, repatriasie van wins"
+    },
+    "tax": {
+      "title": "Belasting en doeane",
+      "text": "IRPC, IVA, IRPS, INSS, invoerprosedures"
+    }
+  },
+  "glance": {
+    "title": "Mosambiek in 'n oogopslag",
+    "people": {
+      "value": "36,9 m",
+      "label": "mense"
+    },
+    "age": {
+      "value": "16,6",
+      "label": "mediaanouderdom"
+    },
+    "coast": {
+      "value": "2 500 km",
+      "label": "Indiese Oseaan-kuslyn"
+    },
+    "sources": "Bronne: Worldometers (bevolking, mediaanouderdom); Banco de Moçambique via AIM/Lusa (beleggingsvloei). Syfers vir algemene inligting."
+  },
+  "why": {
+    "title": "Waarom nou",
+    "fdi": {
+      "value": "USD 5,69 mjd",
+      "label": "direkte buitelandse belegging in 2025"
+    },
+    "extractives": {
+      "value": "91,5%",
+      "label": "daarvan in die ontginningsbedrywe"
+    },
+    "forecast": {
+      "value": "USD 5,88 mjd",
+      "label": "vooruitskatting vir 2026"
+    },
+    "districts": {
+      "value": "129",
+      "label": "distrikte gekoppel aan die BAU-eenstopwinkels"
+    }
+  },
+  "law": {
+    "title": "Gebou op die wet, nagegaan deur prokureurs",
+    "text": "Elke antwoord toon die wetgewing waarop dit berus en die datum waarop dit laas hersien is. Niks word gepubliseer voordat 'n Mosambiekse prokureur dit goedkeur nie. Tiva verskaf algemene inligting, nie regsadvies nie — praat met 'n kenner oor u spesifieke geval.",
+    "sourcesLabel": "Van die wetgewing waarop Tiva steun",
+    "sources": {
+      "investmentLaw": "Lei n.º 8/2023 · Beleggingswet",
+      "licensing": "Decreto n.º 41/2026 · Vereenvoudigde lisensiëring",
+      "irpc": "Lei n.º 12/2025 · IRPC-wysigings"
+    },
+    "library": "Blaai deur die kennisbiblioteek",
+    "expert": "Praat met 'n kenner"
+  },
+  "office": "Agterkantoortoegang vir beoordelaars en vennote"
+}

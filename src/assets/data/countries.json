@@ -5,7 +5,12 @@
       "name": {
         "pt": "Angola",
         "en": "Angola",
-        "fr": "Angola"
+        "fr": "Angola",
+        "zh": "安哥拉",
+        "ar": "أنغولا",
+        "hi": "अंगोला",
+        "sw": "Angola",
+        "af": "Angola"
       },
       "treaty": false
     },
@@ -14,7 +19,12 @@
       "name": {
         "pt": "Austrália",
         "en": "Australia",
-        "fr": "Australie"
+        "fr": "Australie",
+        "zh": "澳大利亚",
+        "ar": "أستراليا",
+        "hi": "ऑस्ट्रेलिया",
+        "sw": "Australia",
+        "af": "Australië"
       },
       "treaty": false
     },
@@ -23,7 +33,12 @@
       "name": {
         "pt": "Áustria",
         "en": "Austria",
-        "fr": "Autriche"
+        "fr": "Autriche",
+        "zh": "奥地利",
+        "ar": "النمسا",
+        "hi": "ऑस्ट्रिया",
+        "sw": "Austria",
+        "af": "Oostenryk"
       },
       "treaty": false
     },
@@ -32,7 +47,12 @@
       "name": {
         "pt": "Bélgica",
         "en": "Belgium",
-        "fr": "Belgique"
+        "fr": "Belgique",
+        "zh": "比利时",
+        "ar": "بلجيكا",
+        "hi": "बेल्जियम",
+        "sw": "Ubelgiji",
+        "af": "België"
       },
       "treaty": false
     },
@@ -41,7 +61,12 @@
       "name": {
         "pt": "Botsuana",
         "en": "Botswana",
-        "fr": "Botswana"
+        "fr": "Botswana",
+        "zh": "博茨瓦纳",
+        "ar": "بوتسوانا",
+        "hi": "बोत्सवाना",
+        "sw": "Botswana",
+        "af": "Botswana"
       },
       "treaty": true,
       "status": "illustrative"
@@ -51,7 +76,12 @@
       "name": {
         "pt": "Brasil",
         "en": "Brazil",
-        "fr": "Brésil"
+        "fr": "Brésil",
+        "zh": "巴西",
+        "ar": "البرازيل",
+        "hi": "ब्राज़ील",
+        "sw": "Brazili",
+        "af": "Brasilië"
       },
       "treaty": false
     },
@@ -60,7 +90,12 @@
       "name": {
         "pt": "Canadá",
         "en": "Canada",
-        "fr": "Canada"
+        "fr": "Canada",
+        "zh": "加拿大",
+        "ar": "كندا",
+        "hi": "कनाडा",
+        "sw": "Kanada",
+        "af": "Kanada"
       },
       "treaty": false
     },
@@ -69,7 +104,12 @@
       "name": {
         "pt": "China",
         "en": "China",
-        "fr": "Chine"
+        "fr": "Chine",
+        "zh": "中国",
+        "ar": "الصين",
+        "hi": "चीन",
+        "sw": "China",
+        "af": "China"
       },
       "treaty": false
     },
@@ -78,7 +118,12 @@
       "name": {
         "pt": "Comores",
         "en": "Comoros",
-        "fr": "Comores"
+        "fr": "Comores",
+        "zh": "科摩罗",
+        "ar": "جزر القمر",
+        "hi": "कोमोरोस",
+        "sw": "Komoro",
+        "af": "Comore"
       },
       "treaty": false
     },
@@ -87,7 +132,12 @@
       "name": {
         "pt": "República Democrática do Congo",
         "en": "Democratic Republic of the Congo",
-        "fr": "République démocratique du Congo"
+        "fr": "République démocratique du Congo",
+        "zh": "刚果民主共和国",
+        "ar": "جمهورية الكونغو الديمقراطية",
+        "hi": "कांगो लोकतांत्रिक गणराज्य",
+        "sw": "Jamhuri ya Kidemokrasia ya Kongo",
+        "af": "Demokratiese Republiek van die Kongo"
       },
       "treaty": false
     },
@@ -96,7 +146,12 @@
       "name": {
         "pt": "Dinamarca",
         "en": "Denmark",
-        "fr": "Danemark"
+        "fr": "Danemark",
+        "zh": "丹麦",
+        "ar": "الدنمارك",
+        "hi": "डेनमार्क",
+        "sw": "Denmark",
+        "af": "Denemarke"
       },
       "treaty": false
     },
@@ -105,7 +160,12 @@
       "name": {
         "pt": "Egipto",
         "en": "Egypt",
-        "fr": "Égypte"
+        "fr": "Égypte",
+        "zh": "埃及",
+        "ar": "مصر",
+        "hi": "मिस्र",
+        "sw": "Misri",
+        "af": "Egipte"
       },
       "treaty": false
     },
@@ -114,7 +174,12 @@
       "name": {
         "pt": "Essuatíni",
         "en": "Eswatini",
-        "fr": "Eswatini"
+        "fr": "Eswatini",
+        "zh": "斯威士兰",
+        "ar": "إسواتيني",
+        "hi": "एस्वातिनी",
+        "sw": "Eswatini",
+        "af": "Eswatini"
       },
       "treaty": false
     },
@@ -123,7 +188,12 @@
       "name": {
         "pt": "Etiópia",
         "en": "Ethiopia",
-        "fr": "Éthiopie"
+        "fr": "Éthiopie",
+        "zh": "埃塞俄比亚",
+        "ar": "إثيوبيا",
+        "hi": "इथियोपिया",
+        "sw": "Ethiopia",
+        "af": "Ethiopië"
       },
       "treaty": false
     },
@@ -132,7 +202,12 @@
       "name": {
         "pt": "Finlândia",
         "en": "Finland",
-        "fr": "Finlande"
+        "fr": "Finlande",
+        "zh": "芬兰",
+        "ar": "فنلندا",
+        "hi": "फ़िनलैंड",
+        "sw": "Ufini",
+        "af": "Finland"
       },
       "treaty": false
     },
@@ -141,7 +216,12 @@
       "name": {
         "pt": "França",
         "en": "France",
-        "fr": "France"
+        "fr": "France",
+        "zh": "法国",
+        "ar": "فرنسا",
+        "hi": "फ़्रांस",
+        "sw": "Ufaransa",
+        "af": "Frankryk"
       },
       "treaty": false
     },
@@ -150,7 +230,12 @@
       "name": {
         "pt": "Alemanha",
         "en": "Germany",
-        "fr": "Allemagne"
+        "fr": "Allemagne",
+        "zh": "德国",
+        "ar": "ألمانيا",
+        "hi": "जर्मनी",
+        "sw": "Ujerumani",
+        "af": "Duitsland"
       },
       "treaty": false
     },
@@ -159,7 +244,12 @@
       "name": {
         "pt": "Gana",
         "en": "Ghana",
-        "fr": "Ghana"
+        "fr": "Ghana",
+        "zh": "加纳",
+        "ar": "غانا",
+        "hi": "घाना",
+        "sw": "Ghana",
+        "af": "Ghana"
       },
       "treaty": false
     },
@@ -168,7 +258,12 @@
       "name": {
         "pt": "Grécia",
         "en": "Greece",
-        "fr": "Grèce"
+        "fr": "Grèce",
+        "zh": "希腊",
+        "ar": "اليونان",
+        "hi": "ग्रीस",
+        "sw": "Ugiriki",
+        "af": "Griekeland"
       },
       "treaty": false
     },
@@ -177,7 +272,12 @@
       "name": {
         "pt": "Hong Kong",
         "en": "Hong Kong",
-        "fr": "Hong Kong"
+        "fr": "Hong Kong",
+        "zh": "中国香港",
+        "ar": "هونغ كونغ",
+        "hi": "हांगकांग",
+        "sw": "Hong Kong",
+        "af": "Hongkong"
       },
       "treaty": false
     },
@@ -186,7 +286,12 @@
       "name": {
         "pt": "Índia",
         "en": "India",
-        "fr": "Inde"
+        "fr": "Inde",
+        "zh": "印度",
+        "ar": "الهند",
+        "hi": "भारत",
+        "sw": "India",
+        "af": "Indië"
       },
       "treaty": true,
       "status": "illustrative"
@@ -196,7 +301,12 @@
       "name": {
         "pt": "Indonésia",
         "en": "Indonesia",
-        "fr": "Indonésie"
+        "fr": "Indonésie",
+        "zh": "印度尼西亚",
+        "ar": "إندونيسيا",
+        "hi": "इंडोनेशिया",
+        "sw": "Indonesia",
+        "af": "Indonesië"
       },
       "treaty": false
     },
@@ -205,7 +315,12 @@
       "name": {
         "pt": "Irlanda",
         "en": "Ireland",
-        "fr": "Irlande"
+        "fr": "Irlande",
+        "zh": "爱尔兰",
+        "ar": "أيرلندا",
+        "hi": "आयरलैंड",
+        "sw": "Ayalandi",
+        "af": "Ierland"
       },
       "treaty": false
     },
@@ -214,7 +329,12 @@
       "name": {
         "pt": "Israel",
         "en": "Israel",
-        "fr": "Israël"
+        "fr": "Israël",
+        "zh": "以色列",
+        "ar": "إسرائيل",
+        "hi": "इज़राइल",
+        "sw": "Israeli",
+        "af": "Israel"
       },
       "treaty": false
     },
@@ -223,7 +343,12 @@
       "name": {
         "pt": "Itália",
         "en": "Italy",
-        "fr": "Italie"
+        "fr": "Italie",
+        "zh": "意大利",
+        "ar": "إيطاليا",
+        "hi": "इटली",
+        "sw": "Italia",
+        "af": "Italië"
       },
       "treaty": true,
       "status": "illustrative"
@@ -233,7 +358,12 @@
       "name": {
         "pt": "Japão",
         "en": "Japan",
-        "fr": "Japon"
+        "fr": "Japon",
+        "zh": "日本",
+        "ar": "اليابان",
+        "hi": "जापान",
+        "sw": "Japani",
+        "af": "Japan"
       },
       "treaty": false
     },
@@ -242,7 +372,12 @@
       "name": {
         "pt": "Quénia",
         "en": "Kenya",
-        "fr": "Kenya"
+        "fr": "Kenya",
+        "zh": "肯尼亚",
+        "ar": "كينيا",
+        "hi": "केन्या",
+        "sw": "Kenya",
+        "af": "Kenia"
       },
       "treaty": false
     },
@@ -251,7 +386,12 @@
       "name": {
         "pt": "Lesoto",
         "en": "Lesotho",
-        "fr": "Lesotho"
+        "fr": "Lesotho",
+        "zh": "莱索托",
+        "ar": "ليسوتو",
+        "hi": "लेसोथो",
+        "sw": "Lesotho",
+        "af": "Lesotho"
       },
       "treaty": false
     },
@@ -260,7 +400,12 @@
       "name": {
         "pt": "Luxemburgo",
         "en": "Luxembourg",
-        "fr": "Luxembourg"
+        "fr": "Luxembourg",
+        "zh": "卢森堡",
+        "ar": "لوكسمبورغ",
+        "hi": "लक्ज़मबर्ग",
+        "sw": "Luxembourg",
+        "af": "Luxemburg"
       },
       "treaty": false
     },
@@ -269,7 +414,12 @@
       "name": {
         "pt": "Macau",
         "en": "Macau",
-        "fr": "Macao"
+        "fr": "Macao",
+        "zh": "中国澳门",
+        "ar": "ماكاو",
+        "hi": "मकाऊ",
+        "sw": "Macau",
+        "af": "Macau"
       },
       "treaty": true,
       "status": "illustrative"
@@ -279,7 +429,12 @@
       "name": {
         "pt": "Madagáscar",
         "en": "Madagascar",
-        "fr": "Madagascar"
+        "fr": "Madagascar",
+        "zh": "马达加斯加",
+        "ar": "مدغشقر",
+        "hi": "मेडागास्कर",
+        "sw": "Madagaska",
+        "af": "Madagaskar"
       },
       "treaty": false
     },
@@ -288,7 +443,12 @@
       "name": {
         "pt": "Malawi",
         "en": "Malawi",
-        "fr": "Malawi"
+        "fr": "Malawi",
+        "zh": "马拉维",
+        "ar": "ملاوي",
+        "hi": "मलावी",
+        "sw": "Malawi",
+        "af": "Malawi"
       },
       "treaty": false
     },
@@ -297,7 +457,12 @@
       "name": {
         "pt": "Malásia",
         "en": "Malaysia",
-        "fr": "Malaisie"
+        "fr": "Malaisie",
+        "zh": "马来西亚",
+        "ar": "ماليزيا",
+        "hi": "मलेशिया",
+        "sw": "Malaysia",
+        "af": "Maleisië"
       },
       "treaty": false
     },
@@ -306,7 +471,12 @@
       "name": {
         "pt": "Maurícias",
         "en": "Mauritius",
-        "fr": "Maurice"
+        "fr": "Maurice",
+        "zh": "毛里求斯",
+        "ar": "موريشيوس",
+        "hi": "मॉरीशस",
+        "sw": "Morisi",
+        "af": "Mauritius"
       },
       "treaty": true,
       "status": "illustrative"
@@ -316,7 +486,12 @@
       "name": {
         "pt": "Marrocos",
         "en": "Morocco",
-        "fr": "Maroc"
+        "fr": "Maroc",
+        "zh": "摩洛哥",
+        "ar": "المغرب",
+        "hi": "मोरक्को",
+        "sw": "Moroko",
+        "af": "Marokko"
       },
       "treaty": false
     },
@@ -325,7 +500,12 @@
       "name": {
         "pt": "Namíbia",
         "en": "Namibia",
-        "fr": "Namibie"
+        "fr": "Namibie",
+        "zh": "纳米比亚",
+        "ar": "ناميبيا",
+        "hi": "नामीबिया",
+        "sw": "Namibia",
+        "af": "Namibië"
       },
       "treaty": false
     },
@@ -334,7 +514,12 @@
       "name": {
         "pt": "Países Baixos",
         "en": "Netherlands",
-        "fr": "Pays-Bas"
+        "fr": "Pays-Bas",
+        "zh": "荷兰",
+        "ar": "هولندا",
+        "hi": "नीदरलैंड्स",
+        "sw": "Uholanzi",
+        "af": "Nederland"
       },
       "treaty": false
     },
@@ -343,7 +528,12 @@
       "name": {
         "pt": "Nigéria",
         "en": "Nigeria",
-        "fr": "Nigeria"
+        "fr": "Nigeria",
+        "zh": "尼日利亚",
+        "ar": "نيجيريا",
+        "hi": "नाइजीरिया",
+        "sw": "Nigeria",
+        "af": "Nigerië"
       },
       "treaty": false
     },
@@ -352,7 +542,12 @@
       "name": {
         "pt": "Noruega",
         "en": "Norway",
-        "fr": "Norvège"
+        "fr": "Norvège",
+        "zh": "挪威",
+        "ar": "النرويج",
+        "hi": "नॉर्वे",
+        "sw": "Norwe",
+        "af": "Noorweë"
       },
       "treaty": false
     },
@@ -361,7 +556,12 @@
       "name": {
         "pt": "Polónia",
         "en": "Poland",
-        "fr": "Pologne"
+        "fr": "Pologne",
+        "zh": "波兰",
+        "ar": "بولندا",
+        "hi": "पोलैंड",
+        "sw": "Polandi",
+        "af": "Pole"
       },
       "treaty": false
     },
@@ -370,7 +570,12 @@
       "name": {
         "pt": "Portugal",
         "en": "Portugal",
-        "fr": "Portugal"
+        "fr": "Portugal",
+        "zh": "葡萄牙",
+        "ar": "البرتغال",
+        "hi": "पुर्तगाल",
+        "sw": "Ureno",
+        "af": "Portugal"
       },
       "treaty": true,
       "status": "illustrative"
@@ -380,7 +585,12 @@
       "name": {
         "pt": "Catar",
         "en": "Qatar",
-        "fr": "Qatar"
+        "fr": "Qatar",
+        "zh": "卡塔尔",
+        "ar": "قطر",
+        "hi": "क़तर",
+        "sw": "Qatar",
+        "af": "Katar"
       },
       "treaty": false
     },
@@ -389,7 +599,12 @@
       "name": {
         "pt": "Ruanda",
         "en": "Rwanda",
-        "fr": "Rwanda"
+        "fr": "Rwanda",
+        "zh": "卢旺达",
+        "ar": "رواندا",
+        "hi": "रवांडा",
+        "sw": "Rwanda",
+        "af": "Rwanda"
       },
       "treaty": false
     },
@@ -398,7 +613,12 @@
       "name": {
         "pt": "Arábia Saudita",
         "en": "Saudi Arabia",
-        "fr": "Arabie saoudite"
+        "fr": "Arabie saoudite",
+        "zh": "沙特阿拉伯",
+        "ar": "المملكة العربية السعودية",
+        "hi": "सऊदी अरब",
+        "sw": "Saudi Arabia",
+        "af": "Saoedi-Arabië"
       },
       "treaty": false
     },
@@ -407,7 +627,12 @@
       "name": {
         "pt": "Seicheles",
         "en": "Seychelles",
-        "fr": "Seychelles"
+        "fr": "Seychelles",
+        "zh": "塞舌尔",
+        "ar": "سيشل",
+        "hi": "सेशेल्स",
+        "sw": "Shelisheli",
+        "af": "Seychelle"
       },
       "treaty": false
     },
@@ -416,7 +641,12 @@
       "name": {
         "pt": "Singapura",
         "en": "Singapore",
-        "fr": "Singapour"
+        "fr": "Singapour",
+        "zh": "新加坡",
+        "ar": "سنغافورة",
+        "hi": "सिंगापुर",
+        "sw": "Singapore",
+        "af": "Singapoer"
       },
       "treaty": false
     },
@@ -425,7 +655,12 @@
       "name": {
         "pt": "África do Sul",
         "en": "South Africa",
-        "fr": "Afrique du Sud"
+        "fr": "Afrique du Sud",
+        "zh": "南非",
+        "ar": "جنوب أفريقيا",
+        "hi": "दक्षिण अफ़्रीका",
+        "sw": "Afrika Kusini",
+        "af": "Suid-Afrika"
       },
       "treaty": true,
       "status": "illustrative"
@@ -435,7 +670,12 @@
       "name": {
         "pt": "Coreia do Sul",
         "en": "South Korea",
-        "fr": "Corée du Sud"
+        "fr": "Corée du Sud",
+        "zh": "韩国",
+        "ar": "كوريا الجنوبية",
+        "hi": "दक्षिण कोरिया",
+        "sw": "Korea Kusini",
+        "af": "Suid-Korea"
       },
       "treaty": false
     },
@@ -444,7 +684,12 @@
       "name": {
         "pt": "Espanha",
         "en": "Spain",
-        "fr": "Espagne"
+        "fr": "Espagne",
+        "zh": "西班牙",
+        "ar": "إسبانيا",
+        "hi": "स्पेन",
+        "sw": "Hispania",
+        "af": "Spanje"
       },
       "treaty": false
     },
@@ -453,7 +698,12 @@
       "name": {
         "pt": "Suécia",
         "en": "Sweden",
-        "fr": "Suède"
+        "fr": "Suède",
+        "zh": "瑞典",
+        "ar": "السويد",
+        "hi": "स्वीडन",
+        "sw": "Uswidi",
+        "af": "Swede"
       },
       "treaty": false
     },
@@ -462,7 +712,12 @@
       "name": {
         "pt": "Suíça",
         "en": "Switzerland",
-        "fr": "Suisse"
+        "fr": "Suisse",
+        "zh": "瑞士",
+        "ar": "سويسرا",
+        "hi": "स्विट्ज़रलैंड",
+        "sw": "Uswisi",
+        "af": "Switserland"
       },
       "treaty": false
     },
@@ -471,7 +726,12 @@
       "name": {
         "pt": "Tanzânia",
         "en": "Tanzania",
-        "fr": "Tanzanie"
+        "fr": "Tanzanie",
+        "zh": "坦桑尼亚",
+        "ar": "تنزانيا",
+        "hi": "तंज़ानिया",
+        "sw": "Tanzania",
+        "af": "Tanzanië"
       },
       "treaty": false
     },
@@ -480,7 +740,12 @@
       "name": {
         "pt": "Tailândia",
         "en": "Thailand",
-        "fr": "Thaïlande"
+        "fr": "Thaïlande",
+        "zh": "泰国",
+        "ar": "تايلاند",
+        "hi": "थाईलैंड",
+        "sw": "Tailandi",
+        "af": "Thailand"
       },
       "treaty": false
     },
@@ -489,7 +754,12 @@
       "name": {
         "pt": "Turquia",
         "en": "Turkey",
-        "fr": "Turquie"
+        "fr": "Turquie",
+        "zh": "土耳其",
+        "ar": "تركيا",
+        "hi": "तुर्की",
+        "sw": "Uturuki",
+        "af": "Turkye"
       },
       "treaty": false
     },
@@ -498,7 +768,12 @@
       "name": {
         "pt": "Emirados Árabes Unidos",
         "en": "United Arab Emirates",
-        "fr": "Émirats arabes unis"
+        "fr": "Émirats arabes unis",
+        "zh": "阿拉伯联合酋长国",
+        "ar": "الإمارات العربية المتحدة",
+        "hi": "संयुक्त अरब अमीरात",
+        "sw": "Falme za Kiarabu",
+        "af": "Verenigde Arabiese Emirate"
       },
       "treaty": true,
       "status": "illustrative"
@@ -508,7 +783,12 @@
       "name": {
         "pt": "Reino Unido",
         "en": "United Kingdom",
-        "fr": "Royaume-Uni"
+        "fr": "Royaume-Uni",
+        "zh": "英国",
+        "ar": "المملكة المتحدة",
+        "hi": "यूनाइटेड किंगडम",
+        "sw": "Uingereza",
+        "af": "Verenigde Koninkryk"
       },
       "treaty": false
     },
@@ -517,7 +797,12 @@
       "name": {
         "pt": "Estados Unidos",
         "en": "United States",
-        "fr": "États-Unis"
+        "fr": "États-Unis",
+        "zh": "美国",
+        "ar": "الولايات المتحدة",
+        "hi": "संयुक्त राज्य अमेरिका",
+        "sw": "Marekani",
+        "af": "Verenigde State van Amerika"
       },
       "treaty": false
     },
@@ -526,7 +811,12 @@
       "name": {
         "pt": "Vietname",
         "en": "Vietnam",
-        "fr": "Viêt Nam"
+        "fr": "Viêt Nam",
+        "zh": "越南",
+        "ar": "فيتنام",
+        "hi": "वियतनाम",
+        "sw": "Vietnam",
+        "af": "Viëtnam"
       },
       "treaty": true,
       "status": "illustrative"
@@ -536,7 +826,12 @@
       "name": {
         "pt": "Zâmbia",
         "en": "Zambia",
-        "fr": "Zambie"
+        "fr": "Zambie",
+        "zh": "赞比亚",
+        "ar": "زامبيا",
+        "hi": "ज़ाम्बिया",
+        "sw": "Zambia",
+        "af": "Zambië"
       },
       "treaty": false
     },
@@ -545,7 +840,12 @@
       "name": {
         "pt": "Zimbabwe",
         "en": "Zimbabwe",
-        "fr": "Zimbabwe"
+        "fr": "Zimbabwe",
+        "zh": "津巴布韦",
+        "ar": "زيمبابوي",
+        "hi": "ज़िम्बाब्वे",
+        "sw": "Zimbabwe",
+        "af": "Zimbabwe"
       },
       "treaty": false
     }

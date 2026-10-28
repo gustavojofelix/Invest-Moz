@@ -3,12 +3,7 @@
   "$id": "rules-apiex.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "fxUsdMzn",
-    "fdiMinimumMzn",
-    "regime",
-    "fdiGuarantee"
-  ],
+  "required": ["fxUsdMzn", "fdiMinimumMzn", "regime", "fdiGuarantee"],
   "properties": {
     "fxUsdMzn": {
       "type": "number",
@@ -23,11 +18,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -42,12 +33,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "threshold",
-              "authority",
-              "path",
-              "refs"
-            ],
+            "required": ["threshold", "authority", "path", "refs"],
             "properties": {
               "threshold": {
                 "$ref": "common.schema.json#/definitions/localizedText"
@@ -75,11 +61,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -94,9 +76,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "text"
-            ],
+            "required": ["text"],
             "properties": {
               "text": {
                 "$ref": "common.schema.json#/definitions/localizedText"

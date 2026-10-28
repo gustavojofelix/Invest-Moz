@@ -3,20 +3,14 @@
   "$id": "countries.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "countries"
-  ],
+  "required": ["countries"],
   "properties": {
     "countries": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "code",
-          "name",
-          "treaty"
-        ],
+        "required": ["code", "name", "treaty"],
         "properties": {
           "code": {
             "type": "string",
@@ -29,10 +23,7 @@
             "type": "boolean"
           },
           "status": {
-            "enum": [
-              "illustrative",
-              "verified"
-            ]
+            "enum": ["illustrative", "verified"]
           }
         },
         "if": {
@@ -43,9 +34,7 @@
           }
         },
         "then": {
-          "required": [
-            "status"
-          ]
+          "required": ["status"]
         }
       }
     }

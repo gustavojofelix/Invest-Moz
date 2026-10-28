@@ -1,0 +1,65 @@
+{
+  "illustrative": true,
+  "rules": {
+    "maxSponsoredPerCategory": 1,
+    "publicBodiesFirst": true
+  },
+  "contracts": [
+    {
+      "listingId": "bank-founding-sponsor",
+      "contract": "founding_sponsor",
+      "contractRef": "[TIVA-SP-001]",
+      "docs": "complete",
+      "placements": ["landing_footer", "directory"]
+    },
+    {
+      "listingId": "logistics-beira",
+      "contract": "sponsor",
+      "contractRef": "[TIVA-SP-002]",
+      "docs": "complete",
+      "placements": ["directory"]
+    },
+    {
+      "listingId": "tax-advisory",
+      "contract": "expert_partner",
+      "contractRef": "[TIVA-EP-001]",
+      "docs": "complete",
+      "placements": ["expert", "directory"]
+    },
+    {
+      "listingId": "cta",
+      "contract": "partner",
+      "contractRef": null,
+      "docs": "complete",
+      "placements": ["directory"]
+    },
+    {
+      "listingId": "law-firm",
+      "contract": "verified_listing",
+      "contractRef": "[TIVA-VL-004]",
+      "docs": "complete",
+      "placements": ["directory"]
+    },
+    {
+      "listingId": "accounting-firm",
+      "contract": "verified_listing",
+      "contractRef": "[TIVA-VL-007]",
+      "docs": "complete",
+      "placements": ["directory"]
+    },
+    {
+      "listingId": "logistics-nacala",
+      "contract": "verified_listing",
+      "contractRef": "[TIVA-VL-009]",
+      "docs": "complete",
+      "placements": ["directory"]
+    },
+    {
+      "listingId": "environmental-consultant",
+      "contract": "verified_listing",
+      "contractRef": null,
+      "docs": "pending",
+      "placements": []
+    }
+  ]
+}

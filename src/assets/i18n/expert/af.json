@@ -1,0 +1,85 @@
+{
+  "back": "Terug",
+  "eyebrow": "Praat met 'n kenner",
+  "title": "Wie moet dit verder neem?",
+  "intro": "Een versoek aan die regte kenner: Tax Advisory vir betaalde werk wat deur prokureurs nagegaan word, of 'n openbare liggaam wie se dienste gratis is.",
+  "share": {
+    "title": "Opsomming wat Tiva sal deel",
+    "preview": "Voorskou van wat gedeel sal word",
+    "contact": "Plus jou naam, maatskappy, e-pos, telefoon (indien verskaf) en jou nota.",
+    "none": "Geen projek in konteks nie: slegs jou kontakbesonderhede en jou nota sal gedeel word.",
+    "build": "Bou eers my padkaart"
+  },
+  "choose": "Kies met wie om kontak te maak",
+  "publicTitle": "Gratis openbare liggame",
+  "fee": {
+    "paid": "Betaalde opdrag · fooivoorstel voor enige werk",
+    "free": "Gratis openbare diens"
+  },
+  "contact": {
+    "title": "Jou besonderhede"
+  },
+  "fields": {
+    "name": "Naam",
+    "company": "Maatskappy",
+    "email": "E-pos",
+    "phone": "Telefoon of WhatsApp (opsioneel)",
+    "phoneHint": "Sluit die landkode in, bv. +258 84 000 0000.",
+    "slot": "Voorkeurtyd vir die oproep",
+    "day": "Dag",
+    "time": "Tyd",
+    "slotHint": "Maputo-tyd (UTC+2). Die kenner bevestig of stel 'n ander tyd voor.",
+    "note": "Waaroor wil jy praat? (opsioneel)"
+  },
+  "theExpert": "die gekose kenner",
+  "consent": "Ek stem in om hierdie opsomming en my kontakbesonderhede met {{expert}} te deel.",
+  "consentRequired": "Merk asseblief die blokkie om in te stem voordat ons enigiets deel.",
+  "submit": "Versoek 'n oproep",
+  "feeNote": "Jy ontvang 'n skriftelike fooivoorstel voordat enige werk begin.",
+  "referral": {
+    "text": "Tiva kan 'n verwysingsfooi van betaalde kenners ontvang. Openbare liggame word altyd gratis gelys en betaal nooit vir verwysings nie.",
+    "how": "Hoe verwysings werk",
+    "detail": "Tiva is gebou deur Law Technology Solutions met Tax Advisory as kennisvennoot. Wanneer jy 'n betaalde kenner kies en hulle daarna aanstel, kan Tiva 'n verwysingsfooi van daardie kenner ontvang. Dit verander nooit die prys wat aan jou gekwoteer word nie, en Tiva se antwoorde bly dieselfde ongeag wie jy kies. Niks word gedeel sonder die toestemming wat jy op hierdie bladsy gee nie."
+  },
+  "mail": {
+    "subject": "Tiva — versoek vir 'n oproep",
+    "areas": "Gebiede"
+  },
+  "sent": {
+    "title": "Jou versoek is by {{expert}}",
+    "text": "Hulle het jou kontakbesonderhede en jou nota.",
+    "textProject": "Hulle het jou projekopsomming en padkaart, so jy hoef dit nie weer te verduidelik nie.",
+    "ref": "Verwysing",
+    "call": "Oproep",
+    "timezone": "Maputo-tyd (UTC+2)",
+    "language": "Taal",
+    "shared": "Gedeel",
+    "sharedProject": "Opsomming · Padkaart · Kontak",
+    "sharedContact": "Kontakbesonderhede · Nota",
+    "whatShared": "Sien wat gedeel is",
+    "next": "Wat gebeur volgende",
+    "paid": {
+      "step1": "'n Adviseur bevestig die oproep per e-pos, en per WhatsApp as jy 'n nommer verskaf het.",
+      "step2": "Tydens die oproep kom julle die omvang van die werk ooreen.",
+      "step3": "Jy ontvang 'n skriftelike fooivoorstel voordat enige werk begin."
+    },
+    "free": {
+      "step1": "Die openbare liggaam se beleggerstoonbank bevestig die oproep per e-pos.",
+      "step2": "Tydens die oproep verduidelik hulle die prosedure en die dokumente vir jou saak.",
+      "step3": "Hulle dienste is gratis; enige amptelike indieningsfooie word vooraf verduidelik."
+    },
+    "feeNote": "Geen werk begin en niks word gehef totdat jy 'n skriftelike fooivoorstel aanvaar nie.",
+    "freeNote": "Openbare liggame word gratis gelys en betaal Tiva nooit vir verwysings nie.",
+    "calendar": "Voeg by kalender",
+    "icsTitle": "Oproep met {{expert}} (Tiva)",
+    "roadmap": "Terug na padkaart",
+    "pathfinder": "Bou my padkaart",
+    "chat": "Terug na die gesprek",
+    "fallback": "As iets verkeerd loop, kan jy ook die versoek kopieer of dit per e-pos stuur.",
+    "copy": "Kopieer die versoek",
+    "copied": "Gekopieer",
+    "mail": "Stuur per e-pos",
+    "missing": "Ons kon nie hierdie versoek vind nie.",
+    "again": "Rig 'n nuwe versoek"
+  }
+}

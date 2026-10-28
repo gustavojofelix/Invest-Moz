@@ -6,160 +6,444 @@
       "then": {
         "id": "bau",
         "kind": "bau",
-        "title": { "pt": "Licenciamento via BAU", "en": "Licensing via the BAU", "fr": "Autorisation via le BAU" },
+        "title": {
+          "pt": "Licenciamento via BAU",
+          "en": "Licensing via the BAU",
+          "fr": "Autorisation via le BAU",
+          "zh": "通过 BAU 办理许可",
+          "ar": "الترخيص عبر BAU",
+          "hi": "BAU के माध्यम से लाइसेंसिंग",
+          "sw": "Leseni kupitia BAU",
+          "af": "Lisensiëring deur die BAU"
+        },
         "detail": {
           "pt": "Balcão de Atendimento Único: ponto de entrada para o licenciamento da actividade em {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
           "en": "One-stop shop (Balcão de Atendimento Único): entry point for activity licensing in {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
-          "fr": "Guichet unique (Balcão de Atendimento Único) : point d'entrée pour l'autorisation de l'activité à {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}})."
+          "fr": "Guichet unique (Balcão de Atendimento Único) : point d'entrée pour l'autorisation de l'activité à {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
+          "zh": "一站式服务窗口（Balcão de Atendimento Único）：{{fact.province}} 经营活动许可的办理入口（{{BAU_SERVICES_BY_PROVINCE}}）。",
+          "ar": "الشباك الموحّد (Balcão de Atendimento Único): نقطة الدخول لترخيص الأنشطة في {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
+          "hi": "वन-स्टॉप शॉप (Balcão de Atendimento Único): {{fact.province}} में गतिविधि लाइसेंसिंग का प्रवेश बिंदु ({{BAU_SERVICES_BY_PROVINCE}})।",
+          "sw": "Kituo cha huduma moja (Balcão de Atendimento Único): mahali pa kuanzia kupata leseni ya shughuli katika {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}}).",
+          "af": "Eenstopwinkel (Balcão de Atendimento Único): toegangspunt vir die lisensiëring van bedrywighede in {{fact.province}} ({{BAU_SERVICES_BY_PROVINCE}})."
         },
-        "authority": { "pt": "BAU provincial", "en": "Provincial BAU", "fr": "BAU provincial" },
+        "authority": {
+          "pt": "BAU provincial",
+          "en": "Provincial BAU",
+          "fr": "BAU provincial",
+          "zh": "省级 BAU",
+          "ar": "BAU في المقاطعة",
+          "hi": "प्रांतीय BAU",
+          "sw": "BAU ya mkoa",
+          "af": "Provinsiale BAU"
+        },
         "refs": ["dec-41-2026"]
       }
     },
     {
       "id": "sector-agro",
-      "when": [{ "field": "sector", "op": "eq", "value": "agro_industry" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "agro_industry"
+        }
+      ],
       "then": {
         "id": "sector",
         "kind": "sector",
-        "title": { "pt": "Licença industrial", "en": "Industrial licence", "fr": "Licence industrielle" },
+        "title": {
+          "pt": "Licença industrial",
+          "en": "Industrial licence",
+          "fr": "Licence industrielle",
+          "zh": "工业许可证",
+          "ar": "الترخيص الصناعي",
+          "hi": "औद्योगिक लाइसेंस",
+          "sw": "Leseni ya viwanda",
+          "af": "Industriële lisensie"
+        },
         "detail": {
           "pt": "Unidade de processamento: licença industrial e vistoria das instalações antes do início da laboração.",
           "en": "Processing plant: industrial licence and inspection of the premises before operations start.",
-          "fr": "Unité de transformation : licence industrielle et inspection des installations avant le démarrage."
+          "fr": "Unité de transformation : licence industrielle et inspection des installations avant le démarrage.",
+          "zh": "加工厂：须取得工业许可证，并在投产前接受场所检查。",
+          "ar": "مصنع تحويلي: ترخيص صناعي وتفتيش للمنشأة قبل بدء العمليات.",
+          "hi": "प्रसंस्करण संयंत्र: संचालन शुरू होने से पहले औद्योगिक लाइसेंस और परिसर का निरीक्षण।",
+          "sw": "Kiwanda cha usindikaji: leseni ya viwanda na ukaguzi wa jengo kabla ya shughuli kuanza.",
+          "af": "Verwerkingsaanleg: industriële lisensie en inspeksie van die perseel voordat bedrywighede begin."
         },
-        "authority": { "pt": "Entidade do sector da indústria", "en": "Industry sector authority", "fr": "Autorité du secteur de l'industrie" },
+        "authority": {
+          "pt": "Entidade do sector da indústria",
+          "en": "Industry sector authority",
+          "fr": "Autorité du secteur de l'industrie",
+          "zh": "工业主管部门",
+          "ar": "سلطة قطاع الصناعة",
+          "hi": "उद्योग क्षेत्र प्राधिकरण",
+          "sw": "Mamlaka ya sekta ya viwanda",
+          "af": "Owerheid vir die nywerheidsektor"
+        },
         "refs": ["dec-41-2026"]
       }
     },
     {
       "id": "sector-energy",
-      "when": [{ "field": "sector", "op": "eq", "value": "energy" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "energy"
+        }
+      ],
       "then": {
         "id": "sector",
         "kind": "sector",
-        "title": { "pt": "Licença sectorial de energia e construção", "en": "Energy and construction sector licence", "fr": "Licence sectorielle énergie et construction" },
+        "title": {
+          "pt": "Licença sectorial de energia e construção",
+          "en": "Energy and construction sector licence",
+          "fr": "Licence sectorielle énergie et construction",
+          "zh": "能源与建筑行业许可证",
+          "ar": "ترخيص قطاعي الطاقة والإنشاءات",
+          "hi": "ऊर्जा और निर्माण क्षेत्र लाइसेंस",
+          "sw": "Leseni ya sekta ya nishati na ujenzi",
+          "af": "Sektorlisensie vir energie en konstruksie"
+        },
         "detail": {
           "pt": "Actividades EPC: requisitos de licenciamento de energia e de empreiteiro ({{SECTOR_LICENCE_MATRIX}}).",
           "en": "EPC activities: energy and contractor licensing requirements ({{SECTOR_LICENCE_MATRIX}}).",
-          "fr": "Activités EPC : exigences d'autorisation en énergie et en entreprise de travaux ({{SECTOR_LICENCE_MATRIX}})."
+          "fr": "Activités EPC : exigences d'autorisation en énergie et en entreprise de travaux ({{SECTOR_LICENCE_MATRIX}}).",
+          "zh": "EPC 业务：能源及承包商许可要求（{{SECTOR_LICENCE_MATRIX}}）。",
+          "ar": "أنشطة EPC: متطلبات ترخيص الطاقة والمقاولين ({{SECTOR_LICENCE_MATRIX}}).",
+          "hi": "EPC गतिविधियाँ: ऊर्जा और ठेकेदार लाइसेंसिंग आवश्यकताएँ ({{SECTOR_LICENCE_MATRIX}})।",
+          "sw": "Shughuli za EPC: masharti ya leseni za nishati na za wakandarasi ({{SECTOR_LICENCE_MATRIX}}).",
+          "af": "EPC-bedrywighede: lisensievereistes vir energie en kontrakteurs ({{SECTOR_LICENCE_MATRIX}})."
         },
-        "authority": { "pt": "Entidades dos sectores da energia e obras públicas", "en": "Energy and public works authorities", "fr": "Autorités de l'énergie et des travaux publics" },
+        "authority": {
+          "pt": "Entidades dos sectores da energia e obras públicas",
+          "en": "Energy and public works authorities",
+          "fr": "Autorités de l'énergie et des travaux publics",
+          "zh": "能源和公共工程主管部门",
+          "ar": "سلطات الطاقة والأشغال العامة",
+          "hi": "ऊर्जा और लोक निर्माण प्राधिकरण",
+          "sw": "Mamlaka za nishati na kazi za umma",
+          "af": "Owerhede vir energie en openbare werke"
+        },
         "refs": ["dec-41-2026"]
       }
     },
     {
       "id": "sector-tourism",
-      "when": [{ "field": "sector", "op": "eq", "value": "tourism" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "tourism"
+        }
+      ],
       "then": {
         "id": "sector",
         "kind": "sector",
-        "title": { "pt": "Licença de turismo", "en": "Tourism licence", "fr": "Licence touristique" },
+        "title": {
+          "pt": "Licença de turismo",
+          "en": "Tourism licence",
+          "fr": "Licence touristique",
+          "zh": "旅游许可证",
+          "ar": "الترخيص السياحي",
+          "hi": "पर्यटन लाइसेंस",
+          "sw": "Leseni ya utalii",
+          "af": "Toerismelisensie"
+        },
         "detail": {
           "pt": "Estabelecimento de alojamento turístico: licenciamento e classificação ({{SECTOR_LICENCE_MATRIX}}).",
           "en": "Tourist accommodation: licensing and classification ({{SECTOR_LICENCE_MATRIX}}).",
-          "fr": "Hébergement touristique : autorisation et classement ({{SECTOR_LICENCE_MATRIX}})."
+          "fr": "Hébergement touristique : autorisation et classement ({{SECTOR_LICENCE_MATRIX}}).",
+          "zh": "旅游住宿：许可与评级（{{SECTOR_LICENCE_MATRIX}}）。",
+          "ar": "الإيواء السياحي: الترخيص والتصنيف ({{SECTOR_LICENCE_MATRIX}}).",
+          "hi": "पर्यटक आवास: लाइसेंसिंग और वर्गीकरण ({{SECTOR_LICENCE_MATRIX}})।",
+          "sw": "Malazi ya watalii: leseni na uainishaji ({{SECTOR_LICENCE_MATRIX}}).",
+          "af": "Toeristeverblyf: lisensiëring en gradering ({{SECTOR_LICENCE_MATRIX}})."
         },
-        "authority": { "pt": "Entidade do sector do turismo", "en": "Tourism sector authority", "fr": "Autorité du secteur du tourisme" },
+        "authority": {
+          "pt": "Entidade do sector do turismo",
+          "en": "Tourism sector authority",
+          "fr": "Autorité du secteur du tourisme",
+          "zh": "旅游主管部门",
+          "ar": "سلطة قطاع السياحة",
+          "hi": "पर्यटन क्षेत्र प्राधिकरण",
+          "sw": "Mamlaka ya sekta ya utalii",
+          "af": "Owerheid vir die toerismesektor"
+        },
         "refs": ["dec-41-2026"]
       }
     },
     {
       "id": "sector-logistics",
-      "when": [{ "field": "sector", "op": "eq", "value": "logistics" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "logistics"
+        }
+      ],
       "then": {
         "id": "sector",
         "kind": "sector",
-        "title": { "pt": "Licenças de transporte e armazenagem", "en": "Transport and warehousing licences", "fr": "Licences de transport et d'entreposage" },
+        "title": {
+          "pt": "Licenças de transporte e armazenagem",
+          "en": "Transport and warehousing licences",
+          "fr": "Licences de transport et d'entreposage",
+          "zh": "运输与仓储许可证",
+          "ar": "تراخيص النقل والتخزين",
+          "hi": "परिवहन और भंडारण लाइसेंस",
+          "sw": "Leseni za usafirishaji na maghala",
+          "af": "Lisensies vir vervoer en pakhuise"
+        },
         "detail": {
           "pt": "Frota de transporte de mercadorias e armazéns: licenças por actividade ({{SECTOR_LICENCE_MATRIX}}).",
           "en": "Freight fleet and warehouses: licences per activity ({{SECTOR_LICENCE_MATRIX}}).",
-          "fr": "Flotte de transport de marchandises et entrepôts : licences par activité ({{SECTOR_LICENCE_MATRIX}})."
+          "fr": "Flotte de transport de marchandises et entrepôts : licences par activité ({{SECTOR_LICENCE_MATRIX}}).",
+          "zh": "货运车队和仓库：按业务类型分别办理许可证（{{SECTOR_LICENCE_MATRIX}}）。",
+          "ar": "أسطول الشحن والمستودعات: تراخيص لكل نشاط ({{SECTOR_LICENCE_MATRIX}}).",
+          "hi": "माल ढुलाई बेड़ा और गोदाम: प्रत्येक गतिविधि के लिए लाइसेंस ({{SECTOR_LICENCE_MATRIX}})।",
+          "sw": "Kundi la magari ya mizigo na maghala: leseni kwa kila shughuli ({{SECTOR_LICENCE_MATRIX}}).",
+          "af": "Vragvloot en pakhuise: lisensies per bedrywigheid ({{SECTOR_LICENCE_MATRIX}})."
         },
-        "authority": { "pt": "Entidade do sector dos transportes", "en": "Transport sector authority", "fr": "Autorité du secteur des transports" },
+        "authority": {
+          "pt": "Entidade do sector dos transportes",
+          "en": "Transport sector authority",
+          "fr": "Autorité du secteur des transports",
+          "zh": "运输主管部门",
+          "ar": "سلطة قطاع النقل",
+          "hi": "परिवहन क्षेत्र प्राधिकरण",
+          "sw": "Mamlaka ya sekta ya usafirishaji",
+          "af": "Owerheid vir die vervoersektor"
+        },
         "refs": ["dec-41-2026"]
       }
     },
     {
       "id": "sector-oil-gas",
-      "when": [{ "field": "sector", "op": "eq", "value": "oil_gas" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "oil_gas"
+        }
+      ],
       "then": {
         "id": "sector",
         "kind": "sector",
-        "title": { "pt": "Qualificação no sector petrolífero", "en": "Petroleum sector qualification", "fr": "Qualification dans le secteur pétrolier" },
+        "title": {
+          "pt": "Qualificação no sector petrolífero",
+          "en": "Petroleum sector qualification",
+          "fr": "Qualification dans le secteur pétrolier",
+          "zh": "石油行业资质",
+          "ar": "التأهيل في قطاع البترول",
+          "hi": "पेट्रोलियम क्षेत्र योग्यता",
+          "sw": "Usajili wa sifa katika sekta ya petroli",
+          "af": "Kwalifikasie in die petroleumsektor"
+        },
         "detail": {
           "pt": "Licença da actividade de serviços e qualificação como fornecedor dos operadores de GNL.",
           "en": "Services activity licence and qualification as a supplier to LNG operators.",
-          "fr": "Licence de l'activité de services et qualification comme fournisseur des opérateurs de GNL."
+          "fr": "Licence de l'activité de services et qualification comme fournisseur des opérateurs de GNL.",
+          "zh": "服务业经营许可证，以及成为液化天然气运营商供应商的资质认证。",
+          "ar": "ترخيص نشاط الخدمات والتأهيل كمورّد لمشغّلي الغاز الطبيعي المسال.",
+          "hi": "सेवा गतिविधि लाइसेंस और LNG ऑपरेटरों के आपूर्तिकर्ता के रूप में योग्यता।",
+          "sw": "Leseni ya shughuli za huduma na usajili wa sifa kama msambazaji kwa waendeshaji wa LNG.",
+          "af": "Lisensie vir diensbedrywighede en kwalifikasie as verskaffer aan LNG-operateurs."
         },
-        "authority": { "pt": "INP · operadores", "en": "INP · operators", "fr": "INP · opérateurs" },
+        "authority": {
+          "pt": "INP · operadores",
+          "en": "INP · operators",
+          "fr": "INP · opérateurs",
+          "zh": "INP · 运营商",
+          "ar": "INP · المشغّلون",
+          "hi": "INP · ऑपरेटर",
+          "sw": "INP · waendeshaji",
+          "af": "INP · operateurs"
+        },
         "refs": ["lei-21-2014", "dec-41-2026"]
       }
     },
     {
       "id": "env-a",
-      "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
+      "when": [
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "A"
+        }
+      ],
       "then": {
         "id": "environmental",
         "kind": "environmental",
         "category": "A",
-        "title": { "pt": "Licença ambiental", "en": "Environmental licence", "fr": "Licence environnementale" },
+        "title": {
+          "pt": "Licença ambiental",
+          "en": "Environmental licence",
+          "fr": "Licence environnementale",
+          "zh": "环境许可证",
+          "ar": "الترخيص البيئي",
+          "hi": "पर्यावरण लाइसेंस",
+          "sw": "Leseni ya mazingira",
+          "af": "Omgewingslisensie"
+        },
         "detail": {
           "pt": "Categoria provável A: estudo de impacto ambiental completo e consulta pública.",
           "en": "Likely category A: full environmental impact study and public consultation.",
-          "fr": "Catégorie probable A : étude d'impact environnemental complète et consultation publique."
+          "fr": "Catégorie probable A : étude d'impact environnemental complète et consultation publique.",
+          "zh": "可能属于 A 类：须进行完整的环境影响评价并开展公众咨询。",
+          "ar": "الفئة A على الأرجح: دراسة كاملة للأثر البيئي وتشاور عام.",
+          "hi": "संभावित श्रेणी A: पूर्ण पर्यावरणीय प्रभाव अध्ययन और सार्वजनिक परामर्श।",
+          "sw": "Huenda ni daraja A: tathmini kamili ya athari kwa mazingira na mashauriano ya umma.",
+          "af": "Waarskynlik kategorie A: volledige omgewingsimpakstudie en openbare raadpleging."
         },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
         "refs": ["aia-regulation"]
       }
     },
     {
       "id": "env-b",
-      "when": [{ "field": "envCategory", "op": "eq", "value": "B" }],
+      "when": [
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "B"
+        }
+      ],
       "then": {
         "id": "environmental",
         "kind": "environmental",
         "category": "B",
-        "title": { "pt": "Licença ambiental", "en": "Environmental licence", "fr": "Licence environnementale" },
+        "title": {
+          "pt": "Licença ambiental",
+          "en": "Environmental licence",
+          "fr": "Licence environnementale",
+          "zh": "环境许可证",
+          "ar": "الترخيص البيئي",
+          "hi": "पर्यावरण लाइसेंस",
+          "sw": "Leseni ya mazingira",
+          "af": "Omgewingslisensie"
+        },
         "detail": {
           "pt": "Categoria provável B: estudo ambiental simplificado; 2–4 meses.",
           "en": "Likely category B: simplified environmental study; 2–4 months.",
-          "fr": "Catégorie probable B : étude environnementale simplifiée ; 2 à 4 mois."
+          "fr": "Catégorie probable B : étude environnementale simplifiée ; 2 à 4 mois.",
+          "zh": "可能属于 B 类：简化环境研究；2–4 个月。",
+          "ar": "الفئة B على الأرجح: دراسة بيئية مبسّطة؛ من 2 إلى 4 أشهر.",
+          "hi": "संभावित श्रेणी B: सरलीकृत पर्यावरण अध्ययन; 2–4 महीने।",
+          "sw": "Huenda ni daraja B: tathmini rahisi ya mazingira; miezi 2–4.",
+          "af": "Waarskynlik kategorie B: vereenvoudigde omgewingstudie; 2–4 maande."
         },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
         "refs": ["aia-regulation"]
       }
     },
     {
       "id": "env-c",
-      "when": [{ "field": "envCategory", "op": "eq", "value": "C" }],
+      "when": [
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "C"
+        }
+      ],
       "then": {
         "id": "environmental",
         "kind": "environmental",
         "category": "C",
-        "title": { "pt": "Licença ambiental", "en": "Environmental licence", "fr": "Licence environnementale" },
+        "title": {
+          "pt": "Licença ambiental",
+          "en": "Environmental licence",
+          "fr": "Licence environnementale",
+          "zh": "环境许可证",
+          "ar": "الترخيص البيئي",
+          "hi": "पर्यावरण लाइसेंस",
+          "sw": "Leseni ya mazingira",
+          "af": "Omgewingslisensie"
+        },
         "detail": {
           "pt": "Categoria provável C: procedimento simplificado ou dispensa, consoante as instalações.",
           "en": "Likely category C: simplified procedure or exemption, depending on the premises.",
-          "fr": "Catégorie probable C : procédure simplifiée ou dispense, selon les installations."
+          "fr": "Catégorie probable C : procédure simplifiée ou dispense, selon les installations.",
+          "zh": "可能属于 C 类：简化程序或豁免，视场所而定。",
+          "ar": "الفئة C على الأرجح: إجراء مبسّط أو إعفاء، بحسب المنشأة.",
+          "hi": "संभावित श्रेणी C: परिसर के आधार पर सरलीकृत प्रक्रिया या छूट।",
+          "sw": "Huenda ni daraja C: utaratibu rahisi au msamaha, kutegemea jengo.",
+          "af": "Waarskynlik kategorie C: vereenvoudigde prosedure of vrystelling, afhangend van die perseel."
         },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
         "refs": ["aia-regulation"]
       }
     },
     {
       "id": "duat",
-      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "duat",
         "kind": "duat",
-        "title": { "pt": "DUAT — direito de uso e aproveitamento da terra", "en": "DUAT — land use and benefit right", "fr": "DUAT — droit d'usage et d'exploitation de la terre" },
+        "title": {
+          "pt": "DUAT — direito de uso e aproveitamento da terra",
+          "en": "DUAT — land use and benefit right",
+          "fr": "DUAT — droit d'usage et d'exploitation de la terre",
+          "zh": "DUAT — 土地使用和收益权",
+          "ar": "DUAT — حق الانتفاع واستغلال الأرض",
+          "hi": "DUAT — भूमि उपयोग और लाभ का अधिकार",
+          "sw": "DUAT — haki ya matumizi na manufaa ya ardhi",
+          "af": "DUAT — reg op gebruik en benutting van grond"
+        },
         "detail": {
           "pt": "A terra é do Estado e não se vende: o projecto obtém um direito de uso, após consulta às comunidades locais. Para expansão, até 24 meses.",
           "en": "Land belongs to the State and cannot be sold: the project obtains a use right, after consulting local communities. For expansion, up to 24 months.",
-          "fr": "La terre appartient à l'État et ne se vend pas : le projet obtient un droit d'usage, après consultation des communautés locales. Pour une extension, jusqu'à 24 mois."
+          "fr": "La terre appartient à l'État et ne se vend pas : le projet obtient un droit d'usage, après consultation des communautés locales. Pour une extension, jusqu'à 24 mois.",
+          "zh": "土地归国家所有，不得买卖：项目在征询当地社区意见后取得使用权。如需扩展，最长可达 24 个月。",
+          "ar": "الأرض ملك للدولة ولا يجوز بيعها: يحصل المشروع على حق انتفاع بعد التشاور مع المجتمعات المحلية. وفي حالة التوسعة، قد يستغرق ذلك حتى 24 شهراً.",
+          "hi": "भूमि राज्य की होती है और बेची नहीं जा सकती: स्थानीय समुदायों से परामर्श के बाद परियोजना को उपयोग का अधिकार मिलता है। विस्तार के लिए 24 महीनों तक।",
+          "sw": "Ardhi ni mali ya Serikali na haiwezi kuuzwa: mradi hupata haki ya matumizi, baada ya kushauriana na jamii za wenyeji. Kwa upanuzi, hadi miezi 24.",
+          "af": "Grond behoort aan die Staat en kan nie verkoop word nie: die projek verkry 'n gebruiksreg nadat plaaslike gemeenskappe geraadpleeg is. Vir uitbreiding, tot 24 maande."
         },
-        "authority": { "pt": "Serviços de cadastro · governo provincial", "en": "Land registry services · provincial government", "fr": "Services du cadastre · gouvernement provincial" },
+        "authority": {
+          "pt": "Serviços de cadastro · governo provincial",
+          "en": "Land registry services · provincial government",
+          "fr": "Services du cadastre · gouvernement provincial",
+          "zh": "土地登记部门 · 省政府",
+          "ar": "دوائر السجل العقاري · حكومة المقاطعة",
+          "hi": "भूमि रजिस्ट्री सेवाएँ (Serviços de cadastro) · प्रांतीय सरकार",
+          "sw": "Huduma za usajili wa ardhi · serikali ya mkoa",
+          "af": "Grondregistrasiedienste · provinsiale regering"
+        },
         "refs": ["lei-19-97"]
       }
     }

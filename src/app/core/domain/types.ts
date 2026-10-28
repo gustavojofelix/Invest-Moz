@@ -1,12 +1,17 @@
 /**
- * Domain types for Invest Moz.
+ * Domain types for Tiva.
  *
  * Pure TypeScript: no Angular imports. These types mirror the JSON Schemas in
  * `src/assets/data/schema/` and are designed to become Pydantic models later.
  */
 
-export const LOCALES = ['pt', 'en', 'fr'] as const;
+/**
+ * The eight languages Tiva speaks. PT, EN and FR are reviewed by Tax Advisory;
+ * the other five are machine translations awaiting review (`REVIEWED_LOCALES`).
+ */
+export const LOCALES = ['pt', 'en', 'fr', 'zh', 'ar', 'hi', 'sw', 'af'] as const;
 export type Locale = (typeof LOCALES)[number];
+export const REVIEWED_LOCALES: readonly Locale[] = ['pt', 'en', 'fr'];
 export type LocalizedText = Record<Locale, string>;
 
 export const PROVINCES = [
@@ -303,6 +308,14 @@ export interface Enquiry {
   notes: { at: string; text: string }[];
   /** True when submitted during the current demo (not seeded). */
   submittedInDemo?: boolean;
+  /** Tiva handoff: who the investor asked for (an expert id, e.g. "tax-advisory", "apiex"). */
+  expertId?: string;
+  /** The investor's explicit consent to share the summary with that expert. */
+  consent?: { shareSummary: boolean; at: string };
+  /** Requested call slot (ISO date-time, Africa/Maputo). */
+  callSlot?: string;
+  /** Where the conversation started. */
+  channel?: 'web' | 'app' | 'whatsapp';
 }
 
 // ---------------------------------------------------------------------------

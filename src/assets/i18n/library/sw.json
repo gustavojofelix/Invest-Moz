@@ -1,0 +1,99 @@
+{
+  "eyebrow": "Maktaba ya maarifa",
+  "title": "Sheria, kwa maneno rahisi",
+  "lead": "Maeneo kumi ya mada, kuanzia uwekezaji hadi utatuzi wa migogoro. Kila makala imeelezwa kwa lugha rahisi na kuunganishwa na sheria inayotokana nayo.",
+  "searchLabel": "Tafuta kwenye maktaba",
+  "searchPlaceholder": "Tafuta: DUAT, kiwango cha wafanyakazi wa kigeni, VAT…",
+  "resultsCount": "Matokeo: {{count}}",
+  "resultsTitle": "Matokeo ya «{{query}}»",
+  "clear": "Futa utafutaji",
+  "noResults": "Bado hakuna kitu kwenye maktaba",
+  "noResultsText": "Jaribu neno lingine, au muulize Tiva: jibu linakuja na chanzo chake cha kisheria.",
+  "askTiva": "Muulize Tiva",
+  "banner": {
+    "tag": "Sheria mpya",
+    "title": "Shughuli za hatari ndogo: taarifa ya awali badala ya leseni",
+    "text": "Decretos n.º 40/2026 e 41/2026 zinarahisisha utoaji wa leseni kupitia e-BAU. Zinatumika tangu 25 Oktoba 2026.",
+    "cta": "Tazama kilichobadilika"
+  },
+  "areasTitle": "Maeneo ya mada",
+  "reviewed": "Ilikaguliwa mwisho: {{date}}",
+  "articleOne": "Makala 1",
+  "articleMany": "Makala {{count}}",
+  "areas": {
+    "start": {
+      "title": "Anza hapa",
+      "tags": "Muhtasari wa nchi"
+    },
+    "investment": {
+      "title": "Uwekezaji na vivutio",
+      "tags": "APIEX · CBF · SEZ"
+    },
+    "companies": {
+      "title": "Kuanzisha kampuni",
+      "tags": "Lda · SA · matawi"
+    },
+    "licensing": {
+      "title": "Leseni",
+      "tags": "e-BAU · leseni za sekta"
+    },
+    "tax": {
+      "title": "Kodi",
+      "tags": "IRPC · IVA · IRPS"
+    },
+    "labour": {
+      "title": "Kazi na wageni",
+      "tags": "Viwango · mikataba"
+    },
+    "immigration": {
+      "title": "Uhamiaji",
+      "tags": "Vibali vya kazi · DIRE"
+    },
+    "land": {
+      "title": "Ardhi na mali",
+      "tags": "DUAT · mazingira"
+    },
+    "exchange": {
+      "title": "Udhibiti wa fedha za kigeni",
+      "tags": "Mtaji · kurejesha nje"
+    },
+    "sectors": {
+      "title": "Taratibu za sekta",
+      "tags": "Nishati · madini · utalii"
+    },
+    "disputes": {
+      "title": "Migogoro na miliki bunifu",
+      "tags": "Mahakama · usuluhishi"
+    }
+  },
+  "startHere": "Anza hapa",
+  "allArticles": "Makala zote",
+  "trust": "Kila makala inaonyesha chanzo chake cha kisheria na tarehe ilipokaguliwa mwisho. Taarifa za jumla, si ushauri wa kisheria.",
+  "article": {
+    "breadcrumb": "Njia ya urambazaji",
+    "reviewedTag": "Imekaguliwa · {{date}}",
+    "versionLabel": "Lugha ya makala",
+    "version": "Soma kwa",
+    "versionNote": "Kireno ndiyo lugha ya sheria za Msumbiji: badilisha kwenda PT kusoma maandishi yaliyo karibu zaidi na sheria rasmi. Chaguo lako linabadilisha makala hii tu.",
+    "onThisPage": "Kwenye ukurasa huu",
+    "sourceTitle": "Sheria chanzo",
+    "diplomaReviewed": "Rejea ilikaguliwa {{date}}",
+    "basedOn": "Kulingana na:",
+    "ask": "Muulize Tiva kuhusu makala hii",
+    "askShort": "Muulize Tiva",
+    "askQuestion": "Unaweza kunieleza «{{topic}}» kwa mradi wangu?",
+    "official": "Maandishi rasmi",
+    "step": "Hatua",
+    "where": "Wapi",
+    "time": "Muda wa makadirio",
+    "nextSteps": "Hatua zinazofuata",
+    "nextProject": "Itumie kwenye mradi wangu",
+    "nextExpert": "Ongea na mtaalamu",
+    "pager": "Urambazaji wa makala",
+    "previous": "Iliyotangulia",
+    "next": "Inayofuata",
+    "missingTitle": "Makala haikupatikana",
+    "missingText": "Makala hii haipo au imehamishwa.",
+    "missingBack": "Rudi kwenye maktaba"
+  }
+}

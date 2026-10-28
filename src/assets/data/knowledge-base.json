@@ -7,17 +7,32 @@
       "title": {
         "pt": "Código Comercial",
         "en": "Commercial Code",
-        "fr": "Code de commerce"
+        "fr": "Code de commerce",
+        "zh": "商法典（Código Comercial）",
+        "ar": "القانون التجاري (Código Comercial)",
+        "hi": "वाणिज्यिक संहिता (Código Comercial)",
+        "sw": "Kanuni za Biashara (Código Comercial)",
+        "af": "Handelskode (Código Comercial)"
       },
       "summary": {
         "pt": "Regula a constituição, o funcionamento e a representação das sociedades comerciais, incluindo as sociedades por quotas, as sociedades anónimas e as sucursais de sociedades estrangeiras. É a base para escolher o veículo do investimento.",
         "en": "Governs the incorporation, operation and representation of commercial companies, including private limited companies, public limited companies and branches of foreign companies. It is the starting point for choosing the investment vehicle.",
-        "fr": "Régit la constitution, le fonctionnement et la représentation des sociétés commerciales, notamment les sociétés à responsabilité limitée, les sociétés anonymes et les succursales de sociétés étrangères. C'est le point de départ du choix du véhicule d'investissement."
+        "fr": "Régit la constitution, le fonctionnement et la représentation des sociétés commerciales, notamment les sociétés à responsabilité limitée, les sociétés anonymes et les succursales de sociétés étrangères. C'est le point de départ du choix du véhicule d'investissement.",
+        "zh": "规范商业公司的设立、运营和代表，包括有限责任公司、股份有限公司以及外国公司的分公司。它是选择投资载体的出发点。",
+        "ar": "ينظّم تأسيس الشركات التجارية وتشغيلها وتمثيلها، بما في ذلك الشركات ذات المسؤولية المحدودة وشركات المساهمة وفروع الشركات الأجنبية. وهو نقطة الانطلاق لاختيار وعاء الاستثمار.",
+        "hi": "प्राइवेट लिमिटेड कंपनियों, पब्लिक लिमिटेड कंपनियों और विदेशी कंपनियों की शाखाओं सहित वाणिज्यिक कंपनियों के निगमन, संचालन और प्रतिनिधित्व को नियंत्रित करती है। निवेश का माध्यम चुनने के लिए यही प्रारंभिक बिंदु है।",
+        "sw": "Inasimamia usajili, uendeshaji na uwakilishi wa kampuni za kibiashara, ikiwemo kampuni binafsi zenye dhima ndogo, kampuni za umma zenye dhima ndogo na matawi ya kampuni za kigeni. Ndiyo mahali pa kuanzia kuchagua chombo cha uwekezaji.",
+        "af": "Reël die inlywing, bedryf en verteenwoordiging van handelsmaatskappye, insluitend private maatskappye met beperkte aanspreeklikheid, publieke maatskappye en takke van buitelandse maatskappye. Dit is die beginpunt vir die keuse van die beleggingsvoertuig."
       },
       "excerpt": {
         "pt": "Em síntese: o investidor estrangeiro pode actuar através de uma sociedade de direito moçambicano ou de uma sucursal da sua sociedade. A sociedade tem personalidade jurídica própria; a sucursal não, e a sociedade-mãe responde pelas obrigações assumidas em Moçambique.",
         "en": "In short: a foreign investor may operate through a company incorporated under Mozambican law or through a branch of its own company. The company has its own legal personality; the branch does not, and the parent company is liable for the obligations incurred in Mozambique.",
-        "fr": "En résumé : l'investisseur étranger peut opérer par l'intermédiaire d'une société de droit mozambicain ou d'une succursale de sa propre société. La société dispose de sa propre personnalité juridique ; la succursale non, et la société mère répond des obligations contractées au Mozambique."
+        "fr": "En résumé : l'investisseur étranger peut opérer par l'intermédiaire d'une société de droit mozambicain ou d'une succursale de sa propre société. La société dispose de sa propre personnalité juridique ; la succursale non, et la société mère répond des obligations contractées au Mozambique.",
+        "zh": "简而言之：外国投资者可以通过依莫桑比克法律设立的公司经营，也可以通过其本国公司的分公司经营。公司具有独立法人资格；分公司则没有，由母公司对其在莫桑比克产生的债务承担责任。",
+        "ar": "باختصار: يجوز للمستثمر الأجنبي العمل عبر شركة مؤسسة وفق القانون الموزمبيقي أو عبر فرع لشركته. وللشركة شخصية قانونية مستقلة؛ أما الفرع فلا، وتكون الشركة الأم مسؤولة عن الالتزامات المترتبة في موزمبيق.",
+        "hi": "संक्षेप में: विदेशी निवेशक मोज़ाम्बिकन कानून के तहत निगमित कंपनी के माध्यम से या अपनी कंपनी की शाखा के माध्यम से काम कर सकता है। कंपनी का अपना कानूनी व्यक्तित्व होता है; शाखा का नहीं, और मोज़ाम्बिक में किए गए दायित्वों के लिए मूल कंपनी उत्तरदायी होती है।",
+        "sw": "Kwa ufupi: mwekezaji wa kigeni anaweza kufanya kazi kupitia kampuni iliyosajiliwa chini ya sheria ya Msumbiji au kupitia tawi la kampuni yake. Kampuni ina nafsi yake ya kisheria; tawi halina, na kampuni mama inawajibika kwa wajibu unaotokea Msumbiji.",
+        "af": "Kortliks: 'n buitelandse belegger kan deur 'n maatskappy wat kragtens Mosambiekse reg ingelyf is, of deur 'n tak van sy eie maatskappy werk. Die maatskappy het sy eie regspersoonlikheid; die tak nie, en die moedermaatskappy is aanspreeklik vir die verpligtinge wat in Mosambiek aangegaan word."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -29,17 +44,32 @@
       "title": {
         "pt": "Regulamento do Licenciamento de Actividades Económicas",
         "en": "Regulation on the Licensing of Economic Activities",
-        "fr": "Règlement relatif à l'autorisation des activités économiques"
+        "fr": "Règlement relatif à l'autorisation des activités économiques",
+        "zh": "经济活动许可条例（Regulamento do Licenciamento de Actividades Económicas）",
+        "ar": "لائحة ترخيص الأنشطة الاقتصادية",
+        "hi": "आर्थिक गतिविधियों के लाइसेंसिंग पर विनियम",
+        "sw": "Kanuni za Leseni za Shughuli za Kiuchumi",
+        "af": "Regulasie oor die lisensiëring van ekonomiese bedrywighede"
       },
       "summary": {
         "pt": "Define o regime de licenciamento das actividades económicas, incluindo o Balcão de Atendimento Único (BAU) e as licenças sectoriais. Determina que autorizações a empresa deve obter antes de iniciar a actividade.",
         "en": "Sets out the licensing regime for economic activities, including the One-Stop Shop (BAU) and sector licences. It determines which authorisations the company must obtain before starting operations.",
-        "fr": "Définit le régime d'autorisation des activités économiques, y compris le guichet unique (BAU) et les licences sectorielles. Il détermine les autorisations que la société doit obtenir avant de démarrer son activité."
+        "fr": "Définit le régime d'autorisation des activités économiques, y compris le guichet unique (BAU) et les licences sectorielles. Il détermine les autorisations que la société doit obtenir avant de démarrer son activité.",
+        "zh": "规定经济活动的许可制度，包括一站式服务窗口（BAU）和行业许可证。它决定了公司在开始运营前必须取得哪些授权。",
+        "ar": "تحدد نظام ترخيص الأنشطة الاقتصادية، بما في ذلك الشباك الموحّد (BAU) والتراخيص القطاعية. وتحدد التصاريح التي يجب على الشركة الحصول عليها قبل بدء العمليات.",
+        "hi": "वन-स्टॉप शॉप (BAU) और क्षेत्रीय लाइसेंसों सहित आर्थिक गतिविधियों की लाइसेंसिंग व्यवस्था निर्धारित करता है। यह तय करता है कि संचालन शुरू करने से पहले कंपनी को कौन-से प्राधिकरण प्राप्त करने होंगे।",
+        "sw": "Inaweka utaratibu wa leseni kwa shughuli za kiuchumi, ikiwemo Kituo cha Huduma Moja (BAU) na leseni za kisekta. Huamua vibali ambavyo kampuni lazima ipate kabla ya kuanza shughuli.",
+        "af": "Stel die lisensiëringsregime vir ekonomiese bedrywighede uiteen, insluitend die Eenstopwinkel (BAU) en sektorlisensies. Dit bepaal watter magtigings die maatskappy moet verkry voordat dit met bedrywighede begin."
       },
       "excerpt": {
         "pt": "Em síntese: o exercício de uma actividade económica depende de licença ou de comunicação prévia, conforme o sector e a dimensão do projecto. A entidade licenciadora varia consoante a actividade, e a licença deve estar em vigor antes do início da operação.",
         "en": "In short: carrying on an economic activity requires a licence or a prior notification, depending on the sector and the size of the project. The licensing authority varies with the activity, and the licence must be in force before operations begin.",
-        "fr": "En résumé : l'exercice d'une activité économique est soumis à licence ou à déclaration préalable, selon le secteur et la taille du projet. L'autorité compétente varie selon l'activité, et la licence doit être en vigueur avant le démarrage de l'exploitation."
+        "fr": "En résumé : l'exercice d'une activité économique est soumis à licence ou à déclaration préalable, selon le secteur et la taille du projet. L'autorité compétente varie selon l'activité, et la licence doit être en vigueur avant le démarrage de l'exploitation.",
+        "zh": "简而言之：开展经济活动须取得许可证或事先备案，视行业和项目规模而定。许可机关因经营活动而异，且许可证必须在开始运营前生效。",
+        "ar": "باختصار: تتطلب مزاولة نشاط اقتصادي ترخيصاً أو إخطاراً مسبقاً، بحسب القطاع وحجم المشروع. وتختلف جهة الترخيص بحسب النشاط، ويجب أن يكون الترخيص سارياً قبل بدء العمليات.",
+        "hi": "संक्षेप में: किसी आर्थिक गतिविधि को करने के लिए, क्षेत्र और परियोजना के आकार के अनुसार, लाइसेंस या पूर्व सूचना आवश्यक है। लाइसेंसिंग प्राधिकरण गतिविधि के अनुसार बदलता है, और संचालन शुरू होने से पहले लाइसेंस प्रभावी होना चाहिए।",
+        "sw": "Kwa ufupi: kuendesha shughuli ya kiuchumi kunahitaji leseni au taarifa ya awali, kutegemea sekta na ukubwa wa mradi. Mamlaka ya leseni hutofautiana kulingana na shughuli, na leseni lazima iwe halali kabla ya shughuli kuanza.",
+        "af": "Kortliks: die beoefening van 'n ekonomiese bedrywigheid vereis 'n lisensie of 'n vooraf kennisgewing, afhangend van die sektor en die grootte van die projek. Die lisensiërende owerheid wissel volgens die bedrywigheid, en die lisensie moet van krag wees voordat bedrywighede begin."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -51,17 +81,32 @@
       "title": {
         "pt": "Lei de Investimento",
         "en": "Investment Law",
-        "fr": "Loi sur l'investissement"
+        "fr": "Loi sur l'investissement",
+        "zh": "投资法（Lei de Investimento）",
+        "ar": "قانون الاستثمار",
+        "hi": "निवेश कानून (Lei de Investimento)",
+        "sw": "Sheria ya Uwekezaji",
+        "af": "Beleggingswet"
       },
       "summary": {
         "pt": "Estabelece o quadro jurídico do investimento nacional e estrangeiro, as garantias concedidas ao investidor e o acesso aos benefícios fiscais. Inclui a garantia de exportação de lucros para investimento directo estrangeiro registado.",
         "en": "Establishes the legal framework for domestic and foreign investment, the guarantees granted to investors and access to tax incentives. It includes the guarantee on the export of profits for registered foreign direct investment.",
-        "fr": "Établit le cadre juridique de l'investissement national et étranger, les garanties accordées à l'investisseur et l'accès aux avantages fiscaux. Elle comprend la garantie d'exportation des bénéfices pour les investissements directs étrangers enregistrés."
+        "fr": "Établit le cadre juridique de l'investissement national et étranger, les garanties accordées à l'investisseur et l'accès aux avantages fiscaux. Elle comprend la garantie d'exportation des bénéfices pour les investissements directs étrangers enregistrés.",
+        "zh": "确立国内和外国投资的法律框架、给予投资者的保障以及享受税收优惠的途径。其中包括对已登记外国直接投资的利润汇出保障。",
+        "ar": "يضع الإطار القانوني للاستثمار المحلي والأجنبي، والضمانات الممنوحة للمستثمرين، والوصول إلى الحوافز الضريبية. ويتضمن ضمان تحويل الأرباح إلى الخارج للاستثمار الأجنبي المباشر المسجّل.",
+        "hi": "घरेलू और विदेशी निवेश के लिए कानूनी ढांचा, निवेशकों को दी जाने वाली गारंटियाँ और कर प्रोत्साहनों तक पहुँच स्थापित करता है। इसमें पंजीकृत प्रत्यक्ष विदेशी निवेश के लिए लाभ के निर्यात (प्रत्यावर्तन) की गारंटी शामिल है।",
+        "sw": "Inaweka mfumo wa kisheria wa uwekezaji wa ndani na wa kigeni, dhamana zinazotolewa kwa wawekezaji na upatikanaji wa vivutio vya kodi. Inajumuisha dhamana ya kuhamisha faida nje ya nchi kwa uwekezaji wa moja kwa moja kutoka nje uliosajiliwa.",
+        "af": "Stel die regsraamwerk vir binnelandse en buitelandse belegging vas, die waarborge wat aan beleggers verleen word en toegang tot belastingaansporings. Dit sluit die waarborg op die uitvoer van winste vir geregistreerde buitelandse direkte belegging in."
       },
       "excerpt": {
         "pt": "Em síntese: o investimento directo estrangeiro de valor não inferior a MZN 6,5 milhões beneficia da garantia de exportação de lucros. Só são transferíveis lucros apurados em contas aprovadas e com os impostos pagos, e o investimento deve estar registado no Banco de Moçambique.",
         "en": "In short: foreign direct investment of no less than MZN 6.5 million benefits from the guarantee on the export of profits. Only profits shown in approved accounts, with taxes paid, may be transferred, and the investment must be registered with the Banco de Moçambique.",
-        "fr": "En résumé : l'investissement direct étranger d'un montant d'au moins 6,5 millions de MZN bénéficie de la garantie d'exportation des bénéfices. Seuls les bénéfices issus de comptes approuvés, impôts acquittés, peuvent être transférés, et l'investissement doit être enregistré auprès de la Banco de Moçambique."
+        "fr": "En résumé : l'investissement direct étranger d'un montant d'au moins 6,5 millions de MZN bénéficie de la garantie d'exportation des bénéfices. Seuls les bénéfices issus de comptes approuvés, impôts acquittés, peuvent être transférés, et l'investissement doit être enregistré auprès de la Banco de Moçambique.",
+        "zh": "简而言之：不低于 MZN 650 万的外国直接投资享有利润汇出保障。只有经批准账目中列示且已完税的利润方可汇出，且投资必须在 Banco de Moçambique 登记。",
+        "ar": "باختصار: يستفيد الاستثمار الأجنبي المباشر الذي لا يقل عن MZN 6.5 مليون من ضمان تحويل الأرباح إلى الخارج. ولا يجوز تحويل إلا الأرباح الظاهرة في حسابات معتمدة ومسددة الضرائب، ويجب تسجيل الاستثمار لدى Banco de Moçambique.",
+        "hi": "संक्षेप में: कम से कम MZN 6.5 मिलियन के प्रत्यक्ष विदेशी निवेश को लाभ के निर्यात की गारंटी मिलती है। केवल स्वीकृत खातों में दर्शाया गया और कर चुकाया हुआ लाभ ही हस्तांतरित किया जा सकता है, और निवेश का Banco de Moçambique में पंजीकृत होना आवश्यक है।",
+        "sw": "Kwa ufupi: uwekezaji wa moja kwa moja kutoka nje usiopungua MZN milioni 6.5 hunufaika na dhamana ya kuhamisha faida nje ya nchi. Ni faida tu zinazoonyeshwa katika hesabu zilizoidhinishwa, kodi zikiwa zimelipwa, ndizo zinaweza kuhamishwa, na uwekezaji lazima usajiliwe katika Banco de Moçambique.",
+        "af": "Kortliks: buitelandse direkte belegging van nie minder nie as MZN 6.5 miljoen geniet die waarborg op die uitvoer van winste. Slegs winste wat in goedgekeurde rekeninge getoon word, met belasting betaal, mag oorgedra word, en die belegging moet by die Banco de Moçambique geregistreer wees."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -73,17 +118,32 @@
       "title": {
         "pt": "Guia do Investidor da APIEX",
         "en": "APIEX Investor Guide",
-        "fr": "Guide de l'investisseur de l'APIEX"
+        "fr": "Guide de l'investisseur de l'APIEX",
+        "zh": "APIEX 投资者指南（Guia do Investidor da APIEX）",
+        "ar": "دليل المستثمر الصادر عن APIEX",
+        "hi": "APIEX निवेशक गाइड",
+        "sw": "Mwongozo wa Mwekezaji wa APIEX",
+        "af": "APIEX-beleggersgids"
       },
       "summary": {
         "pt": "Documento de orientação da Agência para a Promoção de Investimento e Exportações que descreve o percurso do investidor, desde o primeiro contacto até ao certificado de investimento. Não é um diploma legal, mas reflecte a prática administrativa.",
         "en": "Guidance document from the Investment and Export Promotion Agency describing the investor's path, from first contact to the investment certificate. It is not legislation, but it reflects administrative practice.",
-        "fr": "Document d'orientation de l'Agence de promotion des investissements et des exportations décrivant le parcours de l'investisseur, du premier contact jusqu'au certificat d'investissement. Ce n'est pas un texte législatif, mais il reflète la pratique administrative."
+        "fr": "Document d'orientation de l'Agence de promotion des investissements et des exportations décrivant le parcours de l'investisseur, du premier contact jusqu'au certificat d'investissement. Ce n'est pas un texte législatif, mais il reflète la pratique administrative.",
+        "zh": "投资与出口促进局发布的指导文件，介绍投资者从首次接触到取得投资证书的路径。它不是法律，但反映了行政实践。",
+        "ar": "وثيقة إرشادية من وكالة تشجيع الاستثمار والتصدير تصف مسار المستثمر، من أول تواصل حتى شهادة الاستثمار. وهي ليست تشريعاً، لكنها تعكس الممارسة الإدارية.",
+        "hi": "निवेश और निर्यात संवर्धन एजेंसी (APIEX) का मार्गदर्शन दस्तावेज़, जो पहले संपर्क से लेकर निवेश प्रमाणपत्र तक निवेशक की यात्रा का वर्णन करता है। यह कानून नहीं है, लेकिन प्रशासनिक व्यवहार को दर्शाता है।",
+        "sw": "Hati ya mwongozo kutoka Wakala wa Kukuza Uwekezaji na Mauzo ya Nje inayoeleza safari ya mwekezaji, tangu mawasiliano ya kwanza hadi cheti cha uwekezaji. Si sheria, lakini inaakisi utendaji wa kiutawala.",
+        "af": "Riglyndokument van die Agentskap vir Belegging- en Uitvoerbevordering wat die belegger se pad beskryf, van eerste kontak tot die beleggingsertifikaat. Dit is nie wetgewing nie, maar dit weerspieël administratiewe praktyk."
       },
       "excerpt": {
         "pt": "Em síntese: o percurso começa com uma reunião na APIEX, seguida do registo do projecto e da emissão do certificado de investimento, num prazo mínimo de 3 dias úteis. Após a aprovação, a empresa apresenta relatórios semestrais de progresso à APIEX.",
         "en": "In short: the process begins with a meeting at APIEX, followed by project registration and the issue of the investment certificate, within a minimum of 3 working days. Once approved, the company submits semi-annual progress reports to APIEX.",
-        "fr": "En résumé : le parcours commence par une réunion à l'APIEX, suivie de l'enregistrement du projet et de la délivrance du certificat d'investissement, dans un délai minimum de 3 jours ouvrables. Après approbation, la société remet des rapports d'avancement semestriels à l'APIEX."
+        "fr": "En résumé : le parcours commence par une réunion à l'APIEX, suivie de l'enregistrement du projet et de la délivrance du certificat d'investissement, dans un délai minimum de 3 jours ouvrables. Après approbation, la société remet des rapports d'avancement semestriels à l'APIEX.",
+        "zh": "简而言之：流程始于在 APIEX 召开会议，随后进行项目登记并签发投资证书，最短需 3 个工作日。获批后，公司每半年向 APIEX 提交进度报告。",
+        "ar": "باختصار: تبدأ العملية باجتماع في APIEX، يليه تسجيل المشروع وإصدار شهادة الاستثمار، خلال 3 أيام عمل كحد أدنى. وبعد الاعتماد، تقدّم الشركة تقارير نصف سنوية عن سير المشروع إلى APIEX.",
+        "hi": "संक्षेप में: प्रक्रिया APIEX में एक बैठक से शुरू होती है, जिसके बाद परियोजना का पंजीकरण और निवेश प्रमाणपत्र जारी होता है, न्यूनतम 3 कार्य दिवसों में। स्वीकृति के बाद, कंपनी APIEX को अर्धवार्षिक प्रगति रिपोर्ट प्रस्तुत करती है।",
+        "sw": "Kwa ufupi: mchakato huanza kwa mkutano katika APIEX, ukifuatiwa na usajili wa mradi na utoaji wa cheti cha uwekezaji, ndani ya angalau siku 3 za kazi. Ukishaidhinishwa, kampuni huwasilisha ripoti za maendeleo za kila miezi sita kwa APIEX.",
+        "af": "Kortliks: die proses begin met 'n vergadering by APIEX, gevolg deur projekregistrasie en die uitreiking van die beleggingsertifikaat, binne minimum 3 werksdae. Sodra dit goedgekeur is, dien die maatskappy halfjaarlikse vorderingsverslae by APIEX in."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -95,17 +155,32 @@
       "title": {
         "pt": "Regulamento da Lei de Investimentos",
         "en": "Regulation of the Investment Law",
-        "fr": "Règlement de la loi sur les investissements"
+        "fr": "Règlement de la loi sur les investissements",
+        "zh": "投资法实施条例（Regulamento da Lei de Investimentos）",
+        "ar": "اللائحة التنفيذية لقانون الاستثمار",
+        "hi": "निवेश कानून का विनियम",
+        "sw": "Kanuni za Sheria ya Uwekezaji",
+        "af": "Regulasie van die Beleggingswet"
       },
       "summary": {
         "pt": "Regulamento da Lei n.º 8/2023, aprovado em Março de 2024 e vinculativo para todas as entidades públicas. Define os procedimentos de registo e autorização, os incentivos e os documentos a apresentar.",
         "en": "Implementing regulation of Law 8/2023, approved in March 2024 and binding on all government bodies. It sets the registration and authorisation procedures, the incentives and the documents to be filed.",
-        "fr": "Règlement d'application de la Loi n° 8/2023, approuvé en mars 2024 et contraignant pour toutes les entités publiques. Il fixe les procédures d'enregistrement et d'autorisation, les avantages et les documents à fournir."
+        "fr": "Règlement d'application de la Loi n° 8/2023, approuvé en mars 2024 et contraignant pour toutes les entités publiques. Il fixe les procédures d'enregistrement et d'autorisation, les avantages et les documents à fournir.",
+        "zh": "Lei n.º 8/2023 的实施条例，于 2024 年 3 月批准，对所有政府机构具有约束力。它规定了登记和授权程序、优惠政策以及须提交的文件。",
+        "ar": "اللائحة التنفيذية للقانون Lei n.º 8/2023، المعتمدة في مارس 2024 والملزمة لجميع الجهات الحكومية. وتحدد إجراءات التسجيل والترخيص، والحوافز، والمستندات الواجب تقديمها.",
+        "hi": "Lei n.º 8/2023 का कार्यान्वयन विनियम, मार्च 2024 में स्वीकृत और सभी सरकारी निकायों पर बाध्यकारी। यह पंजीकरण और प्राधिकरण प्रक्रियाएँ, प्रोत्साहन और दाखिल किए जाने वाले दस्तावेज़ निर्धारित करता है।",
+        "sw": "Kanuni za utekelezaji za Lei n.º 8/2023, zilizoidhinishwa Machi 2024 na zinazofunga vyombo vyote vya serikali. Zinaweka taratibu za usajili na idhini, vivutio na nyaraka za kuwasilisha.",
+        "af": "Implementeringsregulasie van Lei n.º 8/2023, in Maart 2024 goedgekeur en bindend op alle regeringsliggame. Dit stel die registrasie- en magtigingsprosedures, die aansporings en die dokumente wat ingedien moet word, vas."
       },
       "excerpt": {
         "pt": "Em síntese: o decreto põe em prática a Lei de Investimentos, concretizando os prazos de decisão, o acesso aos incentivos através do certificado de investimento e os documentos exigidos, para reduzir a margem de interpretação.",
         "en": "In short: the decree puts the Investment Law into practice, setting out decision deadlines, access to incentives through the investment certificate and the required documents, to reduce room for interpretation.",
-        "fr": "En résumé : le décret met en œuvre la loi sur les investissements en précisant les délais de décision, l'accès aux avantages par le certificat d'investissement et les documents exigés, afin de réduire la marge d'interprétation."
+        "fr": "En résumé : le décret met en œuvre la loi sur les investissements en précisant les délais de décision, l'accès aux avantages par le certificat d'investissement et les documents exigés, afin de réduire la marge d'interprétation.",
+        "zh": "简而言之：该法令将投资法付诸实施，规定了决定期限、通过投资证书享受优惠的途径以及所需文件，以减少解释空间。",
+        "ar": "باختصار: يضع المرسوم قانون الاستثمار موضع التطبيق، محدداً مواعيد القرارات، والوصول إلى الحوافز عبر شهادة الاستثمار، والمستندات المطلوبة، للحد من هامش التفسير.",
+        "hi": "संक्षेप में: यह डिक्री निवेश कानून को व्यवहार में लाती है, जिसमें निर्णय की समय-सीमाएँ, निवेश प्रमाणपत्र के माध्यम से प्रोत्साहनों तक पहुँच और आवश्यक दस्तावेज़ तय किए गए हैं, ताकि व्याख्या की गुंजाइश कम हो।",
+        "sw": "Kwa ufupi: amri hii inaweka Sheria ya Uwekezaji katika vitendo, ikiweka muda wa maamuzi, upatikanaji wa vivutio kupitia cheti cha uwekezaji na nyaraka zinazohitajika, ili kupunguza nafasi ya tafsiri tofauti.",
+        "af": "Kortliks: die dekreet sit die Beleggingswet in werking deur besluittermyne, toegang tot aansporings deur die beleggingsertifikaat en die vereiste dokumente vas te stel, om ruimte vir interpretasie te verminder."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -117,17 +192,32 @@
       "title": {
         "pt": "Código dos Benefícios Fiscais",
         "en": "Tax Incentives Code",
-        "fr": "Code des avantages fiscaux"
+        "fr": "Code des avantages fiscaux",
+        "zh": "税收优惠法典（Código dos Benefícios Fiscais）",
+        "ar": "قانون المزايا الضريبية (Código dos Benefícios Fiscais)",
+        "hi": "कर प्रोत्साहन संहिता (Código dos Benefícios Fiscais)",
+        "sw": "Kanuni za Manufaa ya Kodi (Código dos Benefícios Fiscais)",
+        "af": "Kode van Belastingaansporings (Código dos Benefícios Fiscais)"
       },
       "summary": {
         "pt": "Define os benefícios fiscais aplicáveis aos projectos de investimento aprovados, incluindo isenções aduaneiras, crédito fiscal por investimento e amortizações aceleradas. Os benefícios dependem da aprovação do projecto e do cumprimento das respectivas condições.",
         "en": "Sets out the tax incentives available to approved investment projects, including customs exemptions, the investment tax credit and accelerated depreciation. The incentives depend on project approval and on meeting the relevant conditions.",
-        "fr": "Définit les avantages fiscaux applicables aux projets d'investissement approuvés, notamment les exonérations douanières, le crédit d'impôt à l'investissement et l'amortissement accéléré. Les avantages dépendent de l'approbation du projet et du respect des conditions applicables."
+        "fr": "Définit les avantages fiscaux applicables aux projets d'investissement approuvés, notamment les exonérations douanières, le crédit d'impôt à l'investissement et l'amortissement accéléré. Les avantages dépendent de l'approbation du projet et du respect des conditions applicables.",
+        "zh": "规定获批投资项目可享受的税收优惠，包括海关豁免、投资税收抵免和加速折旧。优惠取决于项目获批并满足相关条件。",
+        "ar": "يحدد الحوافز الضريبية المتاحة لمشاريع الاستثمار المعتمدة، بما في ذلك الإعفاءات الجمركية والائتمان الضريبي للاستثمار والاستهلاك المعجّل. وتتوقف الحوافز على اعتماد المشروع واستيفاء الشروط ذات الصلة.",
+        "hi": "स्वीकृत निवेश परियोजनाओं के लिए उपलब्ध कर प्रोत्साहन निर्धारित करती है, जिनमें सीमा शुल्क छूट, निवेश कर क्रेडिट और त्वरित मूल्यह्रास शामिल हैं। प्रोत्साहन परियोजना की स्वीकृति और संबंधित शर्तों के पालन पर निर्भर करते हैं।",
+        "sw": "Inaweka vivutio vya kodi vinavyopatikana kwa miradi ya uwekezaji iliyoidhinishwa, ikiwemo misamaha ya forodha, punguzo la kodi kwa uwekezaji na uchakavu wa kasi. Vivutio hutegemea uidhinishaji wa mradi na kutimiza masharti husika.",
+        "af": "Stel die belastingaansporings uiteen wat vir goedgekeurde beleggingsprojekte beskikbaar is, insluitend doeanevrystellings, die beleggingsbelastingkrediet en versnelde waardevermindering. Die aansporings hang af van projekgoedkeuring en die nakoming van die betrokke voorwaardes."
       },
       "excerpt": {
         "pt": "Em síntese: os bens de equipamento da Classe K beneficiam de isenção de direitos aduaneiros e de IVA na importação. O projecto aprovado pode deduzir um crédito fiscal por investimento de 5% a 10%, conforme a localização, durante 5 anos, a que acrescem amortizações aceleradas e deduções por despesas de formação.",
         "en": "In short: Class K capital equipment is exempt from customs duties and import VAT. An approved project may deduct an investment tax credit of 5% to 10%, depending on location, for 5 years, in addition to accelerated depreciation and deductions for training expenses.",
-        "fr": "En résumé : les biens d'équipement de la classe K sont exonérés de droits de douane et de TVA à l'importation. Le projet approuvé peut déduire un crédit d'impôt à l'investissement de 5 % à 10 %, selon la localisation, pendant 5 ans, auquel s'ajoutent l'amortissement accéléré et des déductions pour dépenses de formation."
+        "fr": "En résumé : les biens d'équipement de la classe K sont exonérés de droits de douane et de TVA à l'importation. Le projet approuvé peut déduire un crédit d'impôt à l'investissement de 5 % à 10 %, selon la localisation, pendant 5 ans, auquel s'ajoutent l'amortissement accéléré et des déductions pour dépenses de formation.",
+        "zh": "简而言之：K 类资本设备免征关税和进口增值税。获批项目可根据所在地，在 5 年内扣除 5% 至 10% 的投资税收抵免，此外还可享受加速折旧和培训费用扣除。",
+        "ar": "باختصار: تُعفى المعدات الرأسمالية من الفئة K من الرسوم الجمركية وIVA على الاستيراد. ويجوز للمشروع المعتمد خصم ائتمان ضريبي للاستثمار بنسبة 5% إلى 10%، بحسب الموقع، لمدة 5 سنوات، إضافة إلى الاستهلاك المعجّل وخصومات نفقات التدريب.",
+        "hi": "संक्षेप में: Class K पूंजीगत उपकरण सीमा शुल्क और आयात IVA से मुक्त हैं। स्वीकृत परियोजना स्थान के अनुसार 5 वर्षों तक 5% से 10% का निवेश कर क्रेडिट घटा सकती है, साथ ही त्वरित मूल्यह्रास और प्रशिक्षण व्यय की कटौती भी।",
+        "sw": "Kwa ufupi: vifaa vya mtaji vya Daraja K vimesamehewa ushuru wa forodha na VAT ya uingizaji. Mradi ulioidhinishwa unaweza kukata punguzo la kodi kwa uwekezaji la 5% hadi 10%, kutegemea mahali, kwa miaka 5, pamoja na uchakavu wa kasi na makato ya gharama za mafunzo.",
+        "af": "Kortliks: kapitaaltoerusting in Klas K is vrygestel van doeaneregte en invoer-BTW (IVA). 'n Goedgekeurde projek mag 'n beleggingsbelastingkrediet van 5% tot 10%, afhangend van die ligging, vir 5 jaar aftrek, benewens versnelde waardevermindering en aftrekkings vir opleidingsuitgawes."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -139,17 +229,32 @@
       "title": {
         "pt": "Código do Imposto sobre o Rendimento das Pessoas Colectivas",
         "en": "Corporate Income Tax Code",
-        "fr": "Code de l'impôt sur le revenu des personnes morales"
+        "fr": "Code de l'impôt sur le revenu des personnes morales",
+        "zh": "企业所得税法典（Código do IRPC）",
+        "ar": "قانون ضريبة دخل الشركات (Código do IRPC)",
+        "hi": "कॉर्पोरेट आयकर संहिता (Código do IRPC)",
+        "sw": "Kanuni za Kodi ya Mapato ya Kampuni (CIRPC)",
+        "af": "Kode van Maatskappy-inkomstebelasting (IRPC)"
       },
       "summary": {
         "pt": "Regula a tributação do lucro das sociedades e sucursais, as retenções na fonte sobre pagamentos ao exterior e as regras de subcapitalização. É central para o planeamento fiscal do investidor estrangeiro.",
         "en": "Governs the taxation of profits of companies and branches, withholding tax on payments abroad and thin capitalisation rules. It is central to the foreign investor's tax planning.",
-        "fr": "Régit l'imposition des bénéfices des sociétés et des succursales, la retenue à la source sur les paiements à l'étranger et les règles de sous-capitalisation. Il est central pour la planification fiscale de l'investisseur étranger."
+        "fr": "Régit l'imposition des bénéfices des sociétés et des succursales, la retenue à la source sur les paiements à l'étranger et les règles de sous-capitalisation. Il est central pour la planification fiscale de l'investisseur étranger.",
+        "zh": "规范公司和分公司利润的征税、境外付款的预提税以及资本弱化规则。它是外国投资者税务筹划的核心。",
+        "ar": "ينظّم فرض الضريبة على أرباح الشركات والفروع، والضريبة المقتطعة على المدفوعات إلى الخارج، وقواعد الرسملة الضعيفة. وهو محوري في التخطيط الضريبي للمستثمر الأجنبي.",
+        "hi": "कंपनियों और शाखाओं के लाभ पर कराधान, विदेश में भुगतान पर विदहोल्डिंग टैक्स और थिन कैपिटलाइज़ेशन नियमों को नियंत्रित करती है। यह विदेशी निवेशक की कर योजना के लिए केंद्रीय है।",
+        "sw": "Inasimamia utozaji kodi wa faida za kampuni na matawi, kodi ya zuio kwa malipo ya nje ya nchi na kanuni za mtaji mdogo. Ni muhimu sana katika mipango ya kodi ya mwekezaji wa kigeni.",
+        "af": "Reël die belasting van winste van maatskappye en takke, terughoudingsbelasting op betalings na die buiteland en reëls oor onderkapitalisasie. Dit is sentraal tot die buitelandse belegger se belastingbeplanning."
       },
       "excerpt": {
         "pt": "Em síntese: os dividendos, honorários, royalties e assistência técnica pagos a não residentes estão sujeitos a retenção na fonte de 20%, salvo taxa inferior prevista em acordo de dupla tributação. Os juros de suprimentos de sócios estão sujeitos à regra de subcapitalização de 2:1.",
         "en": "In short: dividends, fees, royalties and technical assistance paid to non-residents are subject to 20% withholding tax, unless a lower rate applies under a double taxation agreement. Interest on shareholder loans is subject to the 2:1 thin capitalisation rule.",
-        "fr": "En résumé : les dividendes, honoraires, redevances et prestations d'assistance technique payés à des non-résidents sont soumis à une retenue à la source de 20 %, sauf taux inférieur prévu par une convention fiscale. Les intérêts des prêts d'associés sont soumis à la règle de sous-capitalisation de 2:1."
+        "fr": "En résumé : les dividendes, honoraires, redevances et prestations d'assistance technique payés à des non-résidents sont soumis à une retenue à la source de 20 %, sauf taux inférieur prévu par une convention fiscale. Les intérêts des prêts d'associés sont soumis à la règle de sous-capitalisation de 2:1.",
+        "zh": "简而言之：向非居民支付的股息、服务费、特许权使用费和技术援助费须缴纳 20% 的预提税，除非避免双重征税协定规定了更低的税率。股东贷款利息适用 2:1 的资本弱化规则。",
+        "ar": "باختصار: تخضع الأرباح الموزعة والأتعاب والإتاوات والمساعدة الفنية المدفوعة لغير المقيمين لضريبة مقتطعة بنسبة 20%، ما لم ينطبق معدل أدنى بموجب اتفاقية لتجنّب الازدواج الضريبي. وتخضع الفوائد على قروض المساهمين لقاعدة الرسملة الضعيفة بنسبة 2:1.",
+        "hi": "संक्षेप में: अनिवासियों को भुगतान किए गए लाभांश, शुल्क, रॉयल्टी और तकनीकी सहायता पर 20% विदहोल्डिंग टैक्स लगता है, जब तक कि दोहरा कराधान परिहार समझौते के तहत कम दर लागू न हो। शेयरधारक ऋणों पर ब्याज 2:1 थिन कैपिटलाइज़ेशन नियम के अधीन है।",
+        "sw": "Kwa ufupi: gawio, ada, mirabaha na usaidizi wa kiufundi unaolipwa kwa wasio wakaazi hutozwa kodi ya zuio ya 20%, isipokuwa kiwango cha chini kinatumika chini ya mkataba wa kuepuka kutozwa kodi mara mbili. Riba ya mikopo ya wabia iko chini ya kanuni ya mtaji mdogo ya 2:1.",
+        "af": "Kortliks: dividende, fooie, tantieme en tegniese bystand wat aan nie-inwoners betaal word, is onderworpe aan 20% terughoudingsbelasting, tensy 'n laer koers kragtens 'n dubbelbelastingooreenkoms geld. Rente op aandeelhouerslenings is onderworpe aan die 2:1-reël vir onderkapitalisasie."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -161,17 +266,32 @@
       "title": {
         "pt": "Código do Imposto sobre o Valor Acrescentado",
         "en": "Value Added Tax Code",
-        "fr": "Code de la taxe sur la valeur ajoutée"
+        "fr": "Code de la taxe sur la valeur ajoutée",
+        "zh": "增值税法典（Código do IVA）",
+        "ar": "قانون ضريبة القيمة المضافة (Código do IVA)",
+        "hi": "मूल्य वर्धित कर संहिता (Código do IVA)",
+        "sw": "Kanuni za Kodi ya Ongezeko la Thamani (CIVA)",
+        "af": "Kode van Belasting op Toegevoegde Waarde (IVA)"
       },
       "summary": {
         "pt": "Regula o IVA sobre a transmissão de bens, a prestação de serviços e as importações, incluindo a autoliquidação nos serviços adquiridos a não residentes. Define também a obrigação de declaração mensal.",
         "en": "Governs VAT on the supply of goods and services and on imports, including the reverse charge on services acquired from non-residents. It also sets the monthly return obligation.",
-        "fr": "Régit la TVA sur les livraisons de biens, les prestations de services et les importations, y compris l'autoliquidation sur les services acquis auprès de non-résidents. Il fixe également l'obligation de déclaration mensuelle."
+        "fr": "Régit la TVA sur les livraisons de biens, les prestations de services et les importations, y compris l'autoliquidation sur les services acquis auprès de non-résidents. Il fixe également l'obligation de déclaration mensuelle.",
+        "zh": "规范商品和服务供应以及进口的增值税，包括从非居民处购买服务的反向征收。它还规定了月度申报义务。",
+        "ar": "ينظّم IVA على توريد السلع والخدمات وعلى الواردات، بما في ذلك الاحتساب العكسي على الخدمات المقتناة من غير المقيمين. ويحدد أيضاً الالتزام بالإقرار الشهري.",
+        "hi": "वस्तुओं और सेवाओं की आपूर्ति तथा आयात पर IVA को नियंत्रित करती है, जिसमें अनिवासियों से ली गई सेवाओं पर रिवर्स चार्ज शामिल है। यह मासिक रिटर्न का दायित्व भी तय करती है।",
+        "sw": "Inasimamia VAT kwa ugavi wa bidhaa na huduma na kwa uagizaji, ikiwemo utaratibu wa reverse charge kwa huduma zinazonunuliwa kutoka kwa wasio wakaazi. Pia inaweka wajibu wa ritani ya kila mwezi.",
+        "af": "Reël BTW (IVA) op die lewering van goedere en dienste en op invoere, insluitend die omgekeerde heffing op dienste wat van nie-inwoners verkry word. Dit stel ook die verpligting van 'n maandelikse opgawe vas."
       },
       "excerpt": {
         "pt": "Em síntese: quando a empresa adquire serviços a um prestador não residente, é ela que liquida o IVA devido (autoliquidação). O sujeito passivo apresenta a declaração periódica de IVA mensalmente.",
         "en": "In short: when the company acquires services from a non-resident supplier, it accounts for the VAT due itself (reverse charge). The taxable person files the periodic VAT return monthly.",
-        "fr": "En résumé : lorsque la société acquiert des services auprès d'un prestataire non résident, c'est elle qui liquide la TVA due (autoliquidation). L'assujetti dépose la déclaration périodique de TVA chaque mois."
+        "fr": "En résumé : lorsque la société acquiert des services auprès d'un prestataire non résident, c'est elle qui liquide la TVA due (autoliquidation). L'assujetti dépose la déclaration périodique de TVA chaque mois.",
+        "zh": "简而言之：公司从非居民供应商处购买服务时，须自行核算应缴增值税（反向征收）。纳税人按月提交增值税定期申报表。",
+        "ar": "باختصار: عندما تقتني الشركة خدمات من مورّد غير مقيم، تحتسب بنفسها IVA المستحقة (الاحتساب العكسي). ويقدّم المكلّف الإقرار الدوري لـ IVA شهرياً.",
+        "hi": "संक्षेप में: जब कंपनी किसी अनिवासी आपूर्तिकर्ता से सेवाएँ लेती है, तो देय IVA का हिसाब वह स्वयं करती है (रिवर्स चार्ज)। करदाता आवधिक IVA रिटर्न मासिक रूप से दाखिल करता है।",
+        "sw": "Kwa ufupi: kampuni inaponunua huduma kutoka kwa msambazaji asiye mkaazi, inajihesabia yenyewe VAT inayodaiwa (reverse charge). Mlipakodi huwasilisha ritani ya VAT ya kipindi kila mwezi.",
+        "af": "Kortliks: wanneer die maatskappy dienste van 'n nie-inwonende verskaffer verkry, verantwoord dit self die verskuldigde BTW (omgekeerde heffing). Die belastingpligtige dien die periodieke BTW-opgawe maandeliks in."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -183,17 +303,32 @@
       "title": {
         "pt": "Código do Imposto do Selo",
         "en": "Stamp Duty Code",
-        "fr": "Code du droit de timbre"
+        "fr": "Code du droit de timbre",
+        "zh": "印花税法典（Código do Imposto do Selo）",
+        "ar": "قانون رسم الطابع (Código do Imposto do Selo)",
+        "hi": "स्टांप शुल्क संहिता (Código do Imposto do Selo)",
+        "sw": "Kanuni za Ushuru wa Stempu",
+        "af": "Kode van Seëlreg (Imposto do Selo)"
       },
       "summary": {
         "pt": "Regula o imposto do selo sobre actos, contratos e operações, incluindo operações de financiamento e actos societários. Relevante na constituição da empresa e nos empréstimos.",
         "en": "Governs stamp duty on acts, contracts and transactions, including financing operations and corporate acts. Relevant at incorporation and for loans.",
-        "fr": "Régit le droit de timbre sur les actes, contrats et opérations, y compris les opérations de financement et les actes sociaux. Pertinent lors de la constitution de la société et pour les prêts."
+        "fr": "Régit le droit de timbre sur les actes, contrats et opérations, y compris les opérations de financement et les actes sociaux. Pertinent lors de la constitution de la société et pour les prêts.",
+        "zh": "规范对法律行为、合同和交易征收的印花税，包括融资业务和公司行为。在公司设立和贷款时具有相关性。",
+        "ar": "ينظّم رسم الطابع على التصرفات والعقود والمعاملات، بما في ذلك عمليات التمويل والتصرفات المتعلقة بالشركات. وهو ذو صلة عند التأسيس وبالنسبة للقروض.",
+        "hi": "वित्तपोषण संचालन और कॉर्पोरेट कृत्यों सहित दस्तावेज़ों, अनुबंधों और लेनदेन पर स्टांप शुल्क को नियंत्रित करती है। कंपनी निगमन और ऋणों के लिए प्रासंगिक।",
+        "sw": "Inasimamia ushuru wa stempu kwa vitendo, mikataba na miamala, ikiwemo shughuli za ufadhili na vitendo vya kikampuni. Ni muhimu wakati wa usajili wa kampuni na kwa mikopo.",
+        "af": "Reël seëlreg op handelinge, kontrakte en transaksies, insluitend finansieringstransaksies en korporatiewe handelinge. Relevant by inlywing en vir lenings."
       },
       "excerpt": {
         "pt": "Em síntese: certos actos e contratos, como a constituição de sociedades e as operações de crédito, estão sujeitos a imposto do selo. O imposto liquidado é entregue até ao dia 20 do mês seguinte.",
         "en": "In short: certain acts and contracts, such as company incorporation and credit operations, are subject to stamp duty. The duty assessed is paid by the 20th of the following month.",
-        "fr": "En résumé : certains actes et contrats, comme la constitution de sociétés et les opérations de crédit, sont soumis au droit de timbre. Le droit liquidé est versé au plus tard le 20 du mois suivant."
+        "fr": "En résumé : certains actes et contrats, comme la constitution de sociétés et les opérations de crédit, sont soumis au droit de timbre. Le droit liquidé est versé au plus tard le 20 du mois suivant.",
+        "zh": "简而言之：某些行为和合同，例如公司设立和信贷业务，须缴纳印花税。核定的税款须在次月 20 日前缴纳。",
+        "ar": "باختصار: تخضع بعض التصرفات والعقود، مثل تأسيس الشركات وعمليات الائتمان، لرسم الطابع. ويُدفع الرسم المحتسب بحلول اليوم 20 من الشهر التالي.",
+        "hi": "संक्षेप में: कुछ कृत्य और अनुबंध, जैसे कंपनी का निगमन और ऋण संचालन, स्टांप शुल्क के अधीन हैं। निर्धारित शुल्क अगले महीने की 20 तारीख तक चुकाया जाता है।",
+        "sw": "Kwa ufupi: baadhi ya vitendo na mikataba, kama usajili wa kampuni na shughuli za mikopo, hutozwa ushuru wa stempu. Ushuru uliokadiriwa hulipwa kabla ya tarehe 20 ya mwezi unaofuata.",
+        "af": "Kortliks: sekere handelinge en kontrakte, soos maatskappy-inlywing en krediettransaksies, is onderworpe aan seëlreg. Die bepaalde reg word teen die 20ste van die volgende maand betaal."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -205,17 +340,32 @@
       "title": {
         "pt": "Rede de acordos para evitar a dupla tributação",
         "en": "Double taxation agreement network",
-        "fr": "Réseau de conventions fiscales"
+        "fr": "Réseau de conventions fiscales",
+        "zh": "避免双重征税协定网络",
+        "ar": "شبكة اتفاقيات تجنّب الازدواج الضريبي",
+        "hi": "दोहरा कराधान परिहार समझौतों का नेटवर्क",
+        "sw": "Mtandao wa mikataba ya kuepuka kutozwa kodi mara mbili",
+        "af": "Netwerk van dubbelbelastingooreenkomste"
       },
       "summary": {
         "pt": "Conjunto de acordos celebrados por Moçambique para evitar a dupla tributação, que podem reduzir a retenção na fonte sobre pagamentos a residentes do outro Estado. A aplicação depende da residência fiscal comprovada do beneficiário.",
         "en": "The set of agreements concluded by Mozambique to avoid double taxation, which may reduce withholding tax on payments to residents of the other State. Application depends on the beneficiary's proven tax residence.",
-        "fr": "Ensemble des conventions conclues par le Mozambique pour éviter la double imposition, qui peuvent réduire la retenue à la source sur les paiements aux résidents de l'autre État. L'application dépend de la résidence fiscale justifiée du bénéficiaire."
+        "fr": "Ensemble des conventions conclues par le Mozambique pour éviter la double imposition, qui peuvent réduire la retenue à la source sur les paiements aux résidents de l'autre État. L'application dépend de la résidence fiscale justifiée du bénéficiaire.",
+        "zh": "莫桑比克为避免双重征税而签订的一系列协定，可降低向另一缔约国居民付款的预提税。适用取决于受益人能否证明其税务居民身份。",
+        "ar": "مجموعة الاتفاقيات التي أبرمتها موزمبيق لتجنّب الازدواج الضريبي، والتي قد تخفّض الضريبة المقتطعة على المدفوعات لمقيمي الدولة الأخرى. ويتوقف تطبيقها على ثبوت الإقامة الضريبية للمستفيد.",
+        "hi": "दोहरे कराधान से बचने के लिए मोज़ाम्बिक द्वारा किए गए समझौतों का समूह, जो दूसरे देश के निवासियों को भुगतान पर विदहोल्डिंग टैक्स घटा सकता है। लागू होना लाभार्थी के प्रमाणित कर निवास पर निर्भर करता है।",
+        "sw": "Mkusanyiko wa mikataba iliyofanywa na Msumbiji ili kuepuka kutozwa kodi mara mbili, ambayo inaweza kupunguza kodi ya zuio kwa malipo kwa wakaazi wa Nchi nyingine. Matumizi yake hutegemea ukaazi wa kikodi uliothibitishwa wa mnufaika.",
+        "af": "Die stel ooreenkomste wat Mosambiek gesluit het om dubbele belasting te vermy, wat terughoudingsbelasting op betalings aan inwoners van die ander Staat kan verminder. Toepassing hang af van die begunstigde se bewese belastingverblyf."
       },
       "excerpt": {
         "pt": "Em síntese: quando existe acordo, a retenção na fonte de 20% pode ser reduzida para a taxa prevista no acordo. O beneficiário deve comprovar a sua residência fiscal antes do pagamento.",
         "en": "In short: where an agreement exists, the 20% withholding tax may be reduced to the rate set in the agreement. The beneficiary must prove its tax residence before payment.",
-        "fr": "En résumé : lorsqu'une convention existe, la retenue à la source de 20 % peut être réduite au taux prévu par la convention. Le bénéficiaire doit justifier de sa résidence fiscale avant le paiement."
+        "fr": "En résumé : lorsqu'une convention existe, la retenue à la source de 20 % peut être réduite au taux prévu par la convention. Le bénéficiaire doit justifier de sa résidence fiscale avant le paiement.",
+        "zh": "简而言之：在存在协定的情况下，20% 的预提税可降至协定规定的税率。受益人须在付款前证明其税务居民身份。",
+        "ar": "باختصار: حيثما توجد اتفاقية، يجوز تخفيض الضريبة المقتطعة البالغة 20% إلى المعدل المحدد في الاتفاقية. ويجب على المستفيد إثبات إقامته الضريبية قبل الدفع.",
+        "hi": "संक्षेप में: जहाँ समझौता मौजूद है, वहाँ 20% विदहोल्डिंग टैक्स को समझौते में निर्धारित दर तक घटाया जा सकता है। लाभार्थी को भुगतान से पहले अपना कर निवास प्रमाणित करना होगा।",
+        "sw": "Kwa ufupi: pale mkataba upo, kodi ya zuio ya 20% inaweza kupunguzwa hadi kiwango kilichowekwa katika mkataba. Mnufaika lazima athibitishe ukaazi wake wa kikodi kabla ya malipo.",
+        "af": "Kortliks: waar 'n ooreenkoms bestaan, kan die 20% terughoudingsbelasting tot die koers in die ooreenkoms verminder word. Die begunstigde moet sy belastingverblyf vóór betaling bewys."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -227,17 +377,32 @@
       "title": {
         "pt": "Acordo de dupla tributação entre Moçambique e a África do Sul",
         "en": "Mozambique–South Africa double taxation agreement",
-        "fr": "Convention fiscale entre le Mozambique et l'Afrique du Sud"
+        "fr": "Convention fiscale entre le Mozambique et l'Afrique du Sud",
+        "zh": "莫桑比克–南非避免双重征税协定",
+        "ar": "اتفاقية تجنّب الازدواج الضريبي بين موزمبيق وجنوب أفريقيا",
+        "hi": "मोज़ाम्बिक–दक्षिण अफ्रीका दोहरा कराधान परिहार समझौता",
+        "sw": "Mkataba wa kuepuka kutozwa kodi mara mbili kati ya Msumbiji na Afrika Kusini",
+        "af": "Dubbelbelastingooreenkoms Mosambiek–Suid-Afrika"
       },
       "summary": {
         "pt": "Acordo bilateral que reparte o direito de tributar entre os dois Estados e reduz a retenção na fonte sobre dividendos pagos a residentes sul-africanos. Relevante para o elevado volume de investimento sul-africano em Moçambique.",
         "en": "Bilateral agreement that allocates taxing rights between the two States and reduces withholding tax on dividends paid to South African residents. Relevant given the high volume of South African investment in Mozambique.",
-        "fr": "Convention bilatérale qui répartit le droit d'imposer entre les deux États et réduit la retenue à la source sur les dividendes versés aux résidents sud-africains. Pertinente compte tenu du volume élevé d'investissements sud-africains au Mozambique."
+        "fr": "Convention bilatérale qui répartit le droit d'imposer entre les deux États et réduit la retenue à la source sur les dividendes versés aux résidents sud-africains. Pertinente compte tenu du volume élevé d'investissements sud-africains au Mozambique.",
+        "zh": "在两国之间分配征税权，并降低向南非居民支付股息的预提税的双边协定。鉴于南非在莫桑比克的投资规模较大，该协定尤为重要。",
+        "ar": "اتفاقية ثنائية توزّع حقوق فرض الضريبة بين الدولتين وتخفّض الضريبة المقتطعة على الأرباح الموزعة المدفوعة لمقيمي جنوب أفريقيا. وهي ذات صلة نظراً للحجم الكبير للاستثمار الجنوب أفريقي في موزمبيق.",
+        "hi": "द्विपक्षीय समझौता जो दोनों देशों के बीच कर लगाने के अधिकार बाँटता है और दक्षिण अफ्रीकी निवासियों को दिए गए लाभांश पर विदहोल्डिंग टैक्स घटाता है। मोज़ाम्बिक में दक्षिण अफ्रीकी निवेश की बड़ी मात्रा को देखते हुए प्रासंगिक।",
+        "sw": "Mkataba wa nchi mbili unaogawa haki za kutoza kodi kati ya Nchi hizo mbili na kupunguza kodi ya zuio kwa gawio linalolipwa kwa wakaazi wa Afrika Kusini. Ni muhimu kutokana na wingi wa uwekezaji wa Afrika Kusini nchini Msumbiji.",
+        "af": "Bilaterale ooreenkoms wat belastingregte tussen die twee State toedeel en terughoudingsbelasting op dividende wat aan Suid-Afrikaanse inwoners betaal word, verminder. Relevant gegewe die groot volume Suid-Afrikaanse belegging in Mosambiek."
       },
       "excerpt": {
         "pt": "Em síntese: os dividendos pagos a um residente na África do Sul podem beneficiar de retenção na fonte de 8% ou 15%, em vez de 20%, consoante as condições do acordo. A taxa aplicável depende da participação detida e da comprovação da residência fiscal.",
         "en": "In short: dividends paid to a South African resident may benefit from 8% or 15% withholding tax instead of 20%, depending on the conditions of the agreement. The applicable rate depends on the shareholding held and on proof of tax residence.",
-        "fr": "En résumé : les dividendes versés à un résident sud-africain peuvent bénéficier d'une retenue à la source de 8 % ou 15 % au lieu de 20 %, selon les conditions de la convention. Le taux applicable dépend de la participation détenue et de la justification de la résidence fiscale."
+        "fr": "En résumé : les dividendes versés à un résident sud-africain peuvent bénéficier d'une retenue à la source de 8 % ou 15 % au lieu de 20 %, selon les conditions de la convention. Le taux applicable dépend de la participation détenue et de la justification de la résidence fiscale.",
+        "zh": "简而言之：向南非居民支付的股息可适用 8% 或 15% 的预提税，而非 20%，视协定条件而定。适用税率取决于持股比例以及税务居民身份证明。",
+        "ar": "باختصار: قد تستفيد الأرباح الموزعة المدفوعة لمقيم في جنوب أفريقيا من ضريبة مقتطعة بنسبة 8% أو 15% بدلاً من 20%، بحسب شروط الاتفاقية. ويتوقف المعدل المطبّق على نسبة المساهمة وعلى إثبات الإقامة الضريبية.",
+        "hi": "संक्षेप में: दक्षिण अफ्रीकी निवासी को दिए गए लाभांश पर, समझौते की शर्तों के अनुसार, 20% के बजाय 8% या 15% विदहोल्डिंग टैक्स लग सकता है। लागू दर धारित शेयरधारिता और कर निवास के प्रमाण पर निर्भर करती है।",
+        "sw": "Kwa ufupi: gawio linalolipwa kwa mkaazi wa Afrika Kusini linaweza kunufaika na kodi ya zuio ya 8% au 15% badala ya 20%, kutegemea masharti ya mkataba. Kiwango kinachotumika hutegemea umiliki wa hisa na uthibitisho wa ukaazi wa kikodi.",
+        "af": "Kortliks: dividende wat aan 'n Suid-Afrikaanse inwoner betaal word, kan 8% of 15% terughoudingsbelasting in plaas van 20% geniet, afhangend van die voorwaardes van die ooreenkoms. Die toepaslike koers hang af van die aandeelhouding en van bewys van belastingverblyf."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -249,17 +414,32 @@
       "title": {
         "pt": "Lei do Trabalho",
         "en": "Labour Law",
-        "fr": "Loi sur le travail"
+        "fr": "Loi sur le travail",
+        "zh": "劳动法（Lei do Trabalho）",
+        "ar": "قانون العمل",
+        "hi": "श्रम कानून (Lei do Trabalho)",
+        "sw": "Sheria ya Kazi",
+        "af": "Arbeidswet"
       },
       "summary": {
         "pt": "Regula as relações individuais e colectivas de trabalho, incluindo contratos, despedimentos e a contratação de trabalhadores estrangeiros. Fixa as quotas de mão-de-obra estrangeira por dimensão da empresa.",
         "en": "Governs individual and collective employment relations, including contracts, dismissals and the hiring of foreign workers. It sets the foreign-worker quotas by company size.",
-        "fr": "Régit les relations individuelles et collectives de travail, y compris les contrats, les licenciements et l'embauche de travailleurs étrangers. Elle fixe les quotas de main-d'œuvre étrangère selon la taille de l'entreprise."
+        "fr": "Régit les relations individuelles et collectives de travail, y compris les contrats, les licenciements et l'embauche de travailleurs étrangers. Elle fixe les quotas de main-d'œuvre étrangère selon la taille de l'entreprise.",
+        "zh": "规范个人和集体劳动关系，包括劳动合同、解雇以及外籍员工的雇用。它按公司规模规定外籍员工配额。",
+        "ar": "ينظّم علاقات العمل الفردية والجماعية، بما في ذلك العقود والفصل وتعيين العمال الأجانب. ويحدد حصص العمال الأجانب بحسب حجم الشركة.",
+        "hi": "अनुबंधों, बर्ख़ास्तगी और विदेशी कर्मचारियों की नियुक्ति सहित व्यक्तिगत और सामूहिक रोज़गार संबंधों को नियंत्रित करता है। यह कंपनी के आकार के अनुसार विदेशी कर्मचारियों का कोटा तय करता है।",
+        "sw": "Inasimamia mahusiano ya ajira ya mtu mmoja mmoja na ya pamoja, ikiwemo mikataba, kuachishwa kazi na kuajiri wafanyakazi wa kigeni. Inaweka viwango vya wafanyakazi wa kigeni kulingana na ukubwa wa kampuni.",
+        "af": "Reël individuele en kollektiewe arbeidsverhoudinge, insluitend kontrakte, ontslag en die indiensneming van buitelandse werkers. Dit stel die kwotas vir buitelandse werkers volgens maatskappygrootte vas."
       },
       "excerpt": {
         "pt": "Em síntese: a empresa pode contratar trabalhadores estrangeiros dentro de uma quota que varia entre 5% e 15% do efectivo, conforme a dimensão da empresa. Acima da quota, a contratação depende de autorização de trabalho.",
         "en": "In short: the company may hire foreign workers within a quota ranging from 5% to 15% of the workforce, depending on company size. Above the quota, hiring requires a work permit.",
-        "fr": "En résumé : la société peut embaucher des travailleurs étrangers dans la limite d'un quota compris entre 5 % et 15 % de l'effectif, selon la taille de l'entreprise. Au-delà du quota, l'embauche est soumise à un permis de travail."
+        "fr": "En résumé : la société peut embaucher des travailleurs étrangers dans la limite d'un quota compris entre 5 % et 15 % de l'effectif, selon la taille de l'entreprise. Au-delà du quota, l'embauche est soumise à un permis de travail.",
+        "zh": "简而言之：公司可在员工总数 5% 至 15% 的配额内雇用外籍员工，具体比例视公司规模而定。超出配额的雇用须取得工作许可。",
+        "ar": "باختصار: يجوز للشركة تعيين عمال أجانب ضمن حصة تتراوح بين 5% و15% من القوى العاملة، بحسب حجم الشركة. وما يتجاوز الحصة يتطلب تصريح عمل.",
+        "hi": "संक्षेप में: कंपनी के आकार के अनुसार, कंपनी कार्यबल के 5% से 15% तक के कोटा में विदेशी कर्मचारी नियुक्त कर सकती है। कोटा से अधिक नियुक्ति के लिए वर्क परमिट आवश्यक है।",
+        "sw": "Kwa ufupi: kampuni inaweza kuajiri wafanyakazi wa kigeni ndani ya kiwango cha kati ya 5% na 15% ya wafanyakazi, kutegemea ukubwa wa kampuni. Zaidi ya kiwango, ajira inahitaji kibali cha kazi.",
+        "af": "Kortliks: die maatskappy mag buitelandse werkers binne 'n kwota van 5% tot 15% van die arbeidsmag in diens neem, afhangend van die grootte van die maatskappy. Bo die kwota vereis indiensneming 'n werkpermit."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -271,17 +451,32 @@
       "title": {
         "pt": "Sistema de Segurança Social Obrigatória",
         "en": "Mandatory Social Security System",
-        "fr": "Régime obligatoire de sécurité sociale"
+        "fr": "Régime obligatoire de sécurité sociale",
+        "zh": "强制性社会保障制度",
+        "ar": "نظام الضمان الاجتماعي الإلزامي",
+        "hi": "अनिवार्य सामाजिक सुरक्षा प्रणाली",
+        "sw": "Mfumo wa Lazima wa Hifadhi ya Jamii",
+        "af": "Verpligte stelsel van maatskaplike sekerheid"
       },
       "summary": {
         "pt": "Regula a inscrição de empregadores e trabalhadores no Instituto Nacional de Segurança Social e o pagamento das contribuições mensais. Aplica-se desde a primeira contratação.",
         "en": "Governs the registration of employers and employees with the National Social Security Institute and the payment of monthly contributions. It applies from the first hire.",
-        "fr": "Régit l'immatriculation des employeurs et des salariés auprès de l'Institut national de sécurité sociale et le paiement des cotisations mensuelles. Il s'applique dès la première embauche."
+        "fr": "Régit l'immatriculation des employeurs et des salariés auprès de l'Institut national de sécurité sociale et le paiement des cotisations mensuelles. Il s'applique dès la première embauche.",
+        "zh": "规范雇主和雇员在国家社会保障局（INSS）的登记以及月度缴费。自雇用第一名员工起适用。",
+        "ar": "ينظّم تسجيل أصحاب العمل والموظفين لدى المعهد الوطني للضمان الاجتماعي (INSS) ودفع الاشتراكات الشهرية. وينطبق منذ أول تعيين.",
+        "hi": "राष्ट्रीय सामाजिक सुरक्षा संस्थान (INSS) में नियोक्ताओं और कर्मचारियों के पंजीकरण तथा मासिक अंशदान के भुगतान को नियंत्रित करती है। यह पहली नियुक्ति से लागू होती है।",
+        "sw": "Inasimamia usajili wa waajiri na wafanyakazi katika Taasisi ya Taifa ya Hifadhi ya Jamii (INSS) na ulipaji wa michango ya kila mwezi. Inatumika tangu ajira ya kwanza.",
+        "af": "Reël die registrasie van werkgewers en werknemers by die Nasionale Instituut vir Maatskaplike Sekerheid (INSS) en die betaling van maandelikse bydraes. Dit geld vanaf die eerste aanstelling."
       },
       "excerpt": {
         "pt": "Em síntese: o empregador inscreve-se a si e aos seus trabalhadores no INSS e entrega as contribuições até ao dia 10 de cada mês. As contribuições incidem sobre a remuneração dos trabalhadores abrangidos.",
         "en": "In short: the employer registers itself and its employees with the INSS and pays the contributions by the 10th of each month. Contributions are calculated on the pay of the employees covered.",
-        "fr": "En résumé : l'employeur s'immatricule et immatricule ses salariés auprès de l'INSS et verse les cotisations au plus tard le 10 de chaque mois. Les cotisations sont assises sur la rémunération des salariés couverts."
+        "fr": "En résumé : l'employeur s'immatricule et immatricule ses salariés auprès de l'INSS et verse les cotisations au plus tard le 10 de chaque mois. Les cotisations sont assises sur la rémunération des salariés couverts.",
+        "zh": "简而言之：雇主为自身及其员工在 INSS 办理登记，并在每月 10 日前缴费。缴费按参保员工的工资计算。",
+        "ar": "باختصار: يسجّل صاحب العمل نفسه وموظفيه لدى INSS ويدفع الاشتراكات بحلول اليوم 10 من كل شهر. وتُحتسب الاشتراكات على أجور الموظفين المشمولين.",
+        "hi": "संक्षेप में: नियोक्ता स्वयं को और अपने कर्मचारियों को INSS में पंजीकृत करता है और हर महीने की 10 तारीख तक अंशदान चुकाता है। अंशदान कवर किए गए कर्मचारियों के वेतन पर गणना किया जाता है।",
+        "sw": "Kwa ufupi: mwajiri hujisajili yeye na wafanyakazi wake katika INSS na hulipa michango kabla ya tarehe 10 ya kila mwezi. Michango hukokotolewa kwenye malipo ya wafanyakazi wanaohusika.",
+        "af": "Kortliks: die werkgewer registreer homself en sy werknemers by die INSS en betaal die bydraes teen die 10de van elke maand. Bydraes word bereken op die vergoeding van die gedekte werknemers."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -293,17 +488,32 @@
       "title": {
         "pt": "Regulamento da contratação de trabalhadores estrangeiros",
         "en": "Regulation on the employment of foreign workers",
-        "fr": "Règlement sur l'emploi de travailleurs étrangers"
+        "fr": "Règlement sur l'emploi de travailleurs étrangers",
+        "zh": "外籍员工雇用条例",
+        "ar": "لائحة تشغيل العمال الأجانب",
+        "hi": "विदेशी कर्मचारियों के रोज़गार पर विनियम",
+        "sw": "Kanuni za ajira ya wafanyakazi wa kigeni",
+        "af": "Regulasie oor die indiensneming van buitelandse werkers"
       },
       "summary": {
         "pt": "Define os procedimentos para a contratação de cidadãos estrangeiros, incluindo a comunicação dentro da quota e a autorização de trabalho. Articula-se com os vistos e o DIRE emitidos pelos serviços de migração.",
         "en": "Sets out the procedures for employing foreign nationals, including notification within the quota and the work permit. It operates alongside the visas and the DIRE residence permit issued by the migration services.",
-        "fr": "Définit les procédures d'embauche de ressortissants étrangers, y compris la communication dans le cadre du quota et le permis de travail. Il s'articule avec les visas et le titre de séjour DIRE délivrés par les services de migration."
+        "fr": "Définit les procédures d'embauche de ressortissants étrangers, y compris la communication dans le cadre du quota et le permis de travail. Il s'articule avec les visas et le titre de séjour DIRE délivrés par les services de migration.",
+        "zh": "规定雇用外国公民的程序，包括配额内备案和工作许可。它与移民部门签发的签证和 DIRE 居留证配合实施。",
+        "ar": "تحدد إجراءات تشغيل الرعايا الأجانب، بما في ذلك الإخطار ضمن الحصة وتصريح العمل. وتعمل إلى جانب التأشيرات وتصريح الإقامة DIRE الصادرة عن دوائر الهجرة.",
+        "hi": "विदेशी नागरिकों को रोज़गार देने की प्रक्रियाएँ निर्धारित करता है, जिसमें कोटा के भीतर सूचना और वर्क परमिट शामिल हैं। यह प्रवासन सेवाओं द्वारा जारी वीज़ा और DIRE निवास परमिट के साथ काम करता है।",
+        "sw": "Inaweka taratibu za kuajiri raia wa kigeni, ikiwemo taarifa ndani ya kiwango na kibali cha kazi. Inafanya kazi sambamba na viza na kibali cha ukaazi cha DIRE vinavyotolewa na huduma za uhamiaji.",
+        "af": "Stel die prosedures uiteen vir die indiensneming van buitelanders, insluitend kennisgewing binne die kwota en die werkpermit. Dit werk saam met die visums en die DIRE-verblyfpermit wat deur die migrasiedienste uitgereik word."
       },
       "excerpt": {
         "pt": "Em síntese: dentro da quota, a contratação de um estrangeiro é comunicada à entidade competente; fora da quota, exige autorização de trabalho prévia. A autorização de trabalho e o DIRE têm prazos de validade e devem ser renovados atempadamente.",
         "en": "In short: within the quota, hiring a foreign national is notified to the competent authority; outside the quota, a prior work permit is required. The work permit and the DIRE have validity periods and must be renewed in good time.",
-        "fr": "En résumé : dans le cadre du quota, l'embauche d'un étranger est communiquée à l'autorité compétente ; hors quota, un permis de travail préalable est exigé. Le permis de travail et le DIRE ont une durée de validité et doivent être renouvelés en temps utile."
+        "fr": "En résumé : dans le cadre du quota, l'embauche d'un étranger est communiquée à l'autorité compétente ; hors quota, un permis de travail préalable est exigé. Le permis de travail et le DIRE ont une durée de validité et doivent être renouvelés en temps utile.",
+        "zh": "简而言之：在配额内雇用外国公民须向主管机关备案；超出配额须事先取得工作许可。工作许可和 DIRE 均有有效期，须及时续期。",
+        "ar": "باختصار: ضمن الحصة، يُخطَر الجهة المختصة بتعيين الأجنبي؛ وخارج الحصة يلزم تصريح عمل مسبق. ولتصريح العمل وDIRE مدد صلاحية ويجب تجديدهما في الوقت المناسب.",
+        "hi": "संक्षेप में: कोटा के भीतर, किसी विदेशी नागरिक की नियुक्ति की सूचना सक्षम प्राधिकरण को दी जाती है; कोटा के बाहर, पूर्व वर्क परमिट आवश्यक है। वर्क परमिट और DIRE की वैधता अवधि होती है और इन्हें समय पर नवीनीकृत करना होता है।",
+        "sw": "Kwa ufupi: ndani ya kiwango, kuajiri raia wa kigeni huarifiwa kwa mamlaka husika; nje ya kiwango, kibali cha kazi cha awali kinahitajika. Kibali cha kazi na DIRE vina muda wa uhalali na lazima vihuishwe kwa wakati.",
+        "af": "Kortliks: binne die kwota word die indiensneming van 'n buitelander by die bevoegde owerheid aangemeld; buite die kwota is 'n vooraf werkpermit nodig. Die werkpermit en die DIRE het geldigheidstydperke en moet betyds hernu word."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -315,17 +525,32 @@
       "title": {
         "pt": "Lei Cambial",
         "en": "Foreign Exchange Law",
-        "fr": "Loi sur les changes"
+        "fr": "Loi sur les changes",
+        "zh": "外汇法（Lei Cambial）",
+        "ar": "قانون الصرف الأجنبي",
+        "hi": "विदेशी मुद्रा कानून (Lei Cambial)",
+        "sw": "Sheria ya Fedha za Kigeni",
+        "af": "Valutawet"
       },
       "summary": {
         "pt": "Regula as operações cambiais e os movimentos de capitais entre Moçambique e o exterior. Exige o registo do investimento directo estrangeiro e dos financiamentos externos no Banco de Moçambique.",
         "en": "Governs foreign exchange transactions and capital movements between Mozambique and other countries. It requires foreign direct investment and external financing to be registered with the Banco de Moçambique.",
-        "fr": "Régit les opérations de change et les mouvements de capitaux entre le Mozambique et l'étranger. Elle exige l'enregistrement des investissements directs étrangers et des financements extérieurs auprès de la Banco de Moçambique."
+        "fr": "Régit les opérations de change et les mouvements de capitaux entre le Mozambique et l'étranger. Elle exige l'enregistrement des investissements directs étrangers et des financements extérieurs auprès de la Banco de Moçambique.",
+        "zh": "规范莫桑比克与其他国家之间的外汇交易和资本流动。要求外国直接投资和境外融资在 Banco de Moçambique 登记。",
+        "ar": "ينظّم معاملات الصرف الأجنبي وحركة رؤوس الأموال بين موزمبيق والدول الأخرى. ويشترط تسجيل الاستثمار الأجنبي المباشر والتمويل الخارجي لدى Banco de Moçambique.",
+        "hi": "मोज़ाम्बिक और अन्य देशों के बीच विदेशी मुद्रा लेनदेन और पूंजी प्रवाह को नियंत्रित करता है। इसके तहत प्रत्यक्ष विदेशी निवेश और बाहरी वित्तपोषण का Banco de Moçambique में पंजीकरण आवश्यक है।",
+        "sw": "Inasimamia miamala ya fedha za kigeni na mtiririko wa mtaji kati ya Msumbiji na nchi nyingine. Inahitaji uwekezaji wa moja kwa moja kutoka nje na ufadhili kutoka nje kusajiliwa katika Banco de Moçambique.",
+        "af": "Reël valutatransaksies en kapitaalbewegings tussen Mosambiek en ander lande. Dit vereis dat buitelandse direkte belegging en buitelandse finansiering by die Banco de Moçambique geregistreer word."
       },
       "excerpt": {
         "pt": "Em síntese: o investimento directo estrangeiro é registado no Banco de Moçambique, através de um banco comercial. Sem esse registo, a repatriação de capital e de lucros fica comprometida.",
         "en": "In short: foreign direct investment is registered with the Banco de Moçambique through a commercial bank. Without that registration, the repatriation of capital and profits is put at risk.",
-        "fr": "En résumé : l'investissement direct étranger est enregistré auprès de la Banco de Moçambique par l'intermédiaire d'une banque commerciale. Sans cet enregistrement, le rapatriement du capital et des bénéfices est compromis."
+        "fr": "En résumé : l'investissement direct étranger est enregistré auprès de la Banco de Moçambique par l'intermédiaire d'une banque commerciale. Sans cet enregistrement, le rapatriement du capital et des bénéfices est compromis.",
+        "zh": "简而言之：外国直接投资须通过商业银行在 Banco de Moçambique 登记。未办理该登记，资本和利润的汇回将面临风险。",
+        "ar": "باختصار: يُسجَّل الاستثمار الأجنبي المباشر لدى Banco de Moçambique عبر بنك تجاري. ومن دون هذا التسجيل، تتعرض إعادة رأس المال والأرباح إلى الخارج للخطر.",
+        "hi": "संक्षेप में: प्रत्यक्ष विदेशी निवेश एक वाणिज्यिक बैंक के माध्यम से Banco de Moçambique में पंजीकृत किया जाता है। उस पंजीकरण के बिना, पूंजी और लाभ का प्रत्यावर्तन जोखिम में पड़ जाता है।",
+        "sw": "Kwa ufupi: uwekezaji wa moja kwa moja kutoka nje husajiliwa katika Banco de Moçambique kupitia benki ya biashara. Bila usajili huo, urejeshaji wa mtaji na faida unakuwa hatarini.",
+        "af": "Kortliks: buitelandse direkte belegging word deur 'n handelsbank by die Banco de Moçambique geregistreer. Sonder daardie registrasie word die repatriasie van kapitaal en winste in gevaar gestel."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -337,17 +562,32 @@
       "title": {
         "pt": "Normas cambiais sobre o registo do investimento directo estrangeiro",
         "en": "Foreign exchange rules on the registration of foreign direct investment",
-        "fr": "Règles de change relatives à l'enregistrement des investissements directs étrangers"
+        "fr": "Règles de change relatives à l'enregistrement des investissements directs étrangers",
+        "zh": "关于外国直接投资登记的外汇规则",
+        "ar": "قواعد الصرف بشأن تسجيل الاستثمار الأجنبي المباشر",
+        "hi": "प्रत्यक्ष विदेशी निवेश के पंजीकरण पर विदेशी मुद्रा नियम",
+        "sw": "Kanuni za fedha za kigeni kuhusu usajili wa uwekezaji wa moja kwa moja kutoka nje",
+        "af": "Valutareëls oor die registrasie van buitelandse direkte belegging"
       },
       "summary": {
         "pt": "Aviso do Banco de Moçambique que regulamenta o procedimento de registo do investimento directo estrangeiro através dos bancos comerciais. Define a documentação de suporte exigida.",
         "en": "Banco de Moçambique notice regulating the procedure for registering foreign direct investment through commercial banks. It sets out the supporting documents required.",
-        "fr": "Avis de la Banco de Moçambique réglementant la procédure d'enregistrement des investissements directs étrangers par l'intermédiaire des banques commerciales. Il précise les pièces justificatives exigées."
+        "fr": "Avis de la Banco de Moçambique réglementant la procédure d'enregistrement des investissements directs étrangers par l'intermédiaire des banques commerciales. Il précise les pièces justificatives exigées.",
+        "zh": "Banco de Moçambique 发布的通知，规范通过商业银行登记外国直接投资的程序，并列明所需的证明文件。",
+        "ar": "إشعار (Aviso) صادر عن Banco de Moçambique ينظّم إجراء تسجيل الاستثمار الأجنبي المباشر عبر البنوك التجارية. ويحدد المستندات الداعمة المطلوبة.",
+        "hi": "Banco de Moçambique की सूचना (Aviso), जो वाणिज्यिक बैंकों के माध्यम से प्रत्यक्ष विदेशी निवेश के पंजीकरण की प्रक्रिया को नियंत्रित करती है। इसमें आवश्यक सहायक दस्तावेज़ बताए गए हैं।",
+        "sw": "Notisi ya Banco de Moçambique inayosimamia utaratibu wa kusajili uwekezaji wa moja kwa moja kutoka nje kupitia benki za biashara. Inaweka nyaraka za kuthibitisha zinazohitajika.",
+        "af": "Kennisgewing (aviso) van die Banco de Moçambique wat die prosedure vir die registrasie van buitelandse direkte belegging deur handelsbanke reël. Dit stel die vereiste stawende dokumente uiteen."
       },
       "excerpt": {
         "pt": "Em síntese: o pedido de registo do IDE é apresentado através de um banco comercial, com a documentação do investimento e da entrada dos fundos. O procedimento junto do Banco de Moçambique pode levar até 90 dias.",
         "en": "In short: the FDI registration application is submitted through a commercial bank, with documentation of the investment and of the inflow of funds. The procedure with the Banco de Moçambique may take up to 90 days.",
-        "fr": "En résumé : la demande d'enregistrement de l'IDE est déposée par l'intermédiaire d'une banque commerciale, avec les justificatifs de l'investissement et de l'entrée des fonds. La procédure auprès de la Banco de Moçambique peut prendre jusqu'à 90 jours."
+        "fr": "En résumé : la demande d'enregistrement de l'IDE est déposée par l'intermédiaire d'une banque commerciale, avec les justificatifs de l'investissement et de l'entrée des fonds. La procédure auprès de la Banco de Moçambique peut prendre jusqu'à 90 jours.",
+        "zh": "简而言之：外国直接投资登记申请通过商业银行提交，并附投资及资金流入的证明文件。Banco de Moçambique 的审批程序最长可能需要 90 天。",
+        "ar": "باختصار: يُقدَّم طلب تسجيل الاستثمار الأجنبي المباشر عبر بنك تجاري، مع مستندات الاستثمار ودخول الأموال. وقد يستغرق الإجراء لدى Banco de Moçambique حتى 90 يوماً.",
+        "hi": "संक्षेप में: FDI पंजीकरण आवेदन किसी वाणिज्यिक बैंक के माध्यम से, निवेश और धन के आगमन के दस्तावेज़ों के साथ प्रस्तुत किया जाता है। Banco de Moçambique के साथ प्रक्रिया में 90 दिन तक लग सकते हैं।",
+        "sw": "Kwa ufupi: ombi la usajili wa FDI huwasilishwa kupitia benki ya biashara, pamoja na nyaraka za uwekezaji na za uingiaji wa fedha. Utaratibu katika Banco de Moçambique unaweza kuchukua hadi siku 90.",
+        "af": "Kortliks: die aansoek om BDB-registrasie word deur 'n handelsbank ingedien, met dokumentasie van die belegging en van die invloei van fondse. Die prosedure by die Banco de Moçambique kan tot 90 dae neem."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -359,17 +599,32 @@
       "title": {
         "pt": "Normas cambiais sobre financiamentos externos e transferências",
         "en": "Foreign exchange rules on external financing and transfers",
-        "fr": "Règles de change relatives aux financements extérieurs et aux transferts"
+        "fr": "Règles de change relatives aux financements extérieurs et aux transferts",
+        "zh": "关于境外融资和汇款的外汇规则",
+        "ar": "قواعد الصرف بشأن التمويل الخارجي والتحويلات",
+        "hi": "बाहरी वित्तपोषण और हस्तांतरण पर विदेशी मुद्रा नियम",
+        "sw": "Kanuni za fedha za kigeni kuhusu ufadhili kutoka nje na uhamisho",
+        "af": "Valutareëls oor buitelandse finansiering en oordragte"
       },
       "summary": {
         "pt": "Aviso do Banco de Moçambique que regula o registo de suprimentos de sócios e de financiamentos externos, bem como as transferências para o exterior. Relevante para estruturas de financiamento intra-grupo.",
         "en": "Banco de Moçambique notice governing the registration of shareholder loans and external financing, as well as transfers abroad. Relevant to intra-group financing structures.",
-        "fr": "Avis de la Banco de Moçambique régissant l'enregistrement des prêts d'associés et des financements extérieurs, ainsi que les transferts vers l'étranger. Pertinent pour les structures de financement intragroupe."
+        "fr": "Avis de la Banco de Moçambique régissant l'enregistrement des prêts d'associés et des financements extérieurs, ainsi que les transferts vers l'étranger. Pertinent pour les structures de financement intragroupe.",
+        "zh": "Banco de Moçambique 发布的通知，规范股东贷款和境外融资的登记以及向境外汇款。与集团内部融资结构相关。",
+        "ar": "إشعار (Aviso) صادر عن Banco de Moçambique ينظّم تسجيل قروض المساهمين والتمويل الخارجي، وكذلك التحويلات إلى الخارج. وهو ذو صلة بهياكل التمويل داخل المجموعة.",
+        "hi": "Banco de Moçambique की सूचना (Aviso), जो शेयरधारक ऋणों और बाहरी वित्तपोषण के पंजीकरण तथा विदेश में हस्तांतरण को नियंत्रित करती है। समूह के भीतर वित्तपोषण संरचनाओं के लिए प्रासंगिक।",
+        "sw": "Notisi ya Banco de Moçambique inayosimamia usajili wa mikopo ya wabia na ufadhili kutoka nje, pamoja na uhamisho wa fedha nje ya nchi. Ni muhimu kwa miundo ya ufadhili ndani ya kikundi cha kampuni.",
+        "af": "Kennisgewing (aviso) van die Banco de Moçambique wat die registrasie van aandeelhouerslenings en buitelandse finansiering, asook oordragte na die buiteland, reël. Relevant vir finansieringstrukture binne die groep."
       },
       "excerpt": {
         "pt": "Em síntese: os suprimentos de sócios e os financiamentos externos são registados no Banco de Moçambique, existindo limiares de USD 5 milhões e USD 10 milhões que determinam o procedimento junto do BdM. As transferências para o exterior são suportadas por documentação apresentada ao banco comercial.",
         "en": "In short: shareholder loans and external financing are registered with the Banco de Moçambique, with thresholds of USD 5 million and USD 10 million determining the procedure with the BdM. Transfers abroad are supported by documentation submitted to the commercial bank.",
-        "fr": "En résumé : les prêts d'associés et les financements extérieurs sont enregistrés auprès de la Banco de Moçambique, des seuils de 5 millions USD et de 10 millions USD déterminant la procédure auprès de la BdM. Les transferts vers l'étranger sont étayés par des justificatifs remis à la banque commerciale."
+        "fr": "En résumé : les prêts d'associés et les financements extérieurs sont enregistrés auprès de la Banco de Moçambique, des seuils de 5 millions USD et de 10 millions USD déterminant la procédure auprès de la BdM. Les transferts vers l'étranger sont étayés par des justificatifs remis à la banque commerciale.",
+        "zh": "简而言之：股东贷款和境外融资须在 Banco de Moçambique 登记，USD 500 万和 USD 1,000 万两个门槛决定适用的 BdM 程序。向境外汇款须向商业银行提交证明文件。",
+        "ar": "باختصار: تُسجَّل قروض المساهمين والتمويل الخارجي لدى Banco de Moçambique، وتحدد العتبتان USD 5 مليون وUSD 10 مليون الإجراء لدى BdM. وتُدعَم التحويلات إلى الخارج بمستندات تُقدَّم إلى البنك التجاري.",
+        "hi": "संक्षेप में: शेयरधारक ऋण और बाहरी वित्तपोषण Banco de Moçambique में पंजीकृत किए जाते हैं, जिसमें USD 5 मिलियन और USD 10 मिलियन की सीमाएँ BdM के साथ प्रक्रिया तय करती हैं। विदेश में हस्तांतरण वाणिज्यिक बैंक को प्रस्तुत दस्तावेज़ों पर आधारित होते हैं।",
+        "sw": "Kwa ufupi: mikopo ya wabia na ufadhili kutoka nje husajiliwa katika Banco de Moçambique, huku viwango vya USD milioni 5 na USD milioni 10 vikiamua utaratibu katika BdM. Uhamisho nje ya nchi huthibitishwa kwa nyaraka zinazowasilishwa kwa benki ya biashara.",
+        "af": "Kortliks: aandeelhouerslenings en buitelandse finansiering word by die Banco de Moçambique geregistreer, met drempels van USD 5 miljoen en USD 10 miljoen wat die prosedure by die BdM bepaal. Oordragte na die buiteland word gestaaf deur dokumentasie wat by die handelsbank ingedien word."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -381,17 +636,32 @@
       "title": {
         "pt": "Regime jurídico aduaneiro",
         "en": "Customs legal regime",
-        "fr": "Régime juridique douanier"
+        "fr": "Régime juridique douanier",
+        "zh": "海关法律制度",
+        "ar": "النظام القانوني للجمارك",
+        "hi": "सीमा शुल्क कानूनी व्यवस्था",
+        "sw": "Utaratibu wa kisheria wa forodha",
+        "af": "Doeaneregsregime"
       },
       "summary": {
         "pt": "Regula o despacho aduaneiro de mercadorias e os regimes aduaneiros especiais, incluindo a importação temporária. Relevante para a importação de equipamento e matérias-primas.",
         "en": "Governs the customs clearance of goods and special customs procedures, including temporary import. Relevant to the import of equipment and raw materials.",
-        "fr": "Régit le dédouanement des marchandises et les régimes douaniers particuliers, y compris l'admission temporaire. Pertinent pour l'importation d'équipements et de matières premières."
+        "fr": "Régit le dédouanement des marchandises et les régimes douaniers particuliers, y compris l'admission temporaire. Pertinent pour l'importation d'équipements et de matières premières.",
+        "zh": "规范货物的清关和特殊海关程序，包括临时进口。与设备和原材料进口相关。",
+        "ar": "ينظّم التخليص الجمركي للسلع والأنظمة الجمركية الخاصة، بما في ذلك الاستيراد المؤقت. وهو ذو صلة باستيراد المعدات والمواد الخام.",
+        "hi": "वस्तुओं की सीमा शुल्क निकासी और अस्थायी आयात सहित विशेष सीमा शुल्क प्रक्रियाओं को नियंत्रित करती है। उपकरणों और कच्चे माल के आयात के लिए प्रासंगिक।",
+        "sw": "Inasimamia uondoshaji wa bidhaa forodhani na taratibu maalum za forodha, ikiwemo uingizaji wa muda. Ni muhimu kwa uingizaji wa vifaa na malighafi.",
+        "af": "Reël die doeaneklaring van goedere en spesiale doeaneprosedures, insluitend tydelike invoer. Relevant vir die invoer van toerusting en grondstowwe."
       },
       "excerpt": {
         "pt": "Em síntese: o equipamento que entra no país para utilização por período limitado pode beneficiar de importação temporária. O regime exige o pagamento de uma taxa de utilização, a prestação de uma garantia e a reexportação dentro de um prazo fixado.",
         "en": "In short: equipment entering the country for use over a limited period may qualify for temporary import. The regime requires payment of a usage fee, the provision of a guarantee and re-export within a fixed period.",
-        "fr": "En résumé : l'équipement entrant dans le pays pour une utilisation de durée limitée peut bénéficier de l'admission temporaire. Le régime exige le paiement d'une redevance d'utilisation, la constitution d'une garantie et la réexportation dans un délai fixé."
+        "fr": "En résumé : l'équipement entrant dans le pays pour une utilisation de durée limitée peut bénéficier de l'admission temporaire. Le régime exige le paiement d'une redevance d'utilisation, la constitution d'une garantie et la réexportation dans un délai fixé.",
+        "zh": "简而言之：入境后在有限期限内使用的设备可适用临时进口。该制度要求缴纳使用费、提供担保，并在固定期限内复出口。",
+        "ar": "باختصار: قد تؤهَّل المعدات التي تدخل البلد للاستخدام لفترة محدودة لنظام الاستيراد المؤقت. ويتطلب النظام دفع رسم استخدام وتقديم ضمان وإعادة التصدير خلال مدة محددة.",
+        "hi": "संक्षेप में: सीमित अवधि के उपयोग के लिए देश में आने वाले उपकरण अस्थायी आयात के पात्र हो सकते हैं। इस व्यवस्था में उपयोग शुल्क का भुगतान, गारंटी देना और निश्चित अवधि के भीतर पुनर्निर्यात आवश्यक है।",
+        "sw": "Kwa ufupi: vifaa vinavyoingia nchini kwa matumizi ya kipindi maalum vinaweza kustahili uingizaji wa muda. Utaratibu huu unahitaji kulipa ada ya matumizi, kutoa dhamana na kusafirisha tena nje ndani ya muda maalum.",
+        "af": "Kortliks: toerusting wat die land binnekom vir gebruik oor 'n beperkte tydperk kan vir tydelike invoer kwalifiseer. Die regime vereis betaling van 'n gebruiksfooi, die verskaffing van 'n waarborg en heruitvoer binne 'n vaste tydperk."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -403,17 +673,32 @@
       "title": {
         "pt": "Pauta Aduaneira",
         "en": "Customs Tariff",
-        "fr": "Tarif douanier"
+        "fr": "Tarif douanier",
+        "zh": "海关税则（Pauta Aduaneira）",
+        "ar": "التعريفة الجمركية (Pauta Aduaneira)",
+        "hi": "सीमा शुल्क टैरिफ़ (Pauta Aduaneira)",
+        "sw": "Jedwali la Ushuru wa Forodha (Pauta Aduaneira)",
+        "af": "Doeanetarief (Pauta Aduaneira)"
       },
       "summary": {
         "pt": "Classifica as mercadorias e fixa os direitos aduaneiros aplicáveis à importação, incluindo a Classe K para bens de equipamento. A classificação correcta determina os direitos e benefícios aplicáveis.",
         "en": "Classifies goods and sets the customs duties applicable on import, including Class K for capital equipment. Correct classification determines the duties and incentives that apply.",
-        "fr": "Classe les marchandises et fixe les droits de douane applicables à l'importation, y compris la classe K pour les biens d'équipement. Un classement correct détermine les droits et avantages applicables."
+        "fr": "Classe les marchandises et fixe les droits de douane applicables à l'importation, y compris la classe K pour les biens d'équipement. Un classement correct détermine les droits et avantages applicables.",
+        "zh": "对货物进行归类并规定进口适用的关税，包括资本设备所属的 K 类。正确归类决定了适用的关税和优惠。",
+        "ar": "تصنّف السلع وتحدد الرسوم الجمركية المطبّقة على الاستيراد، بما في ذلك الفئة K للمعدات الرأسمالية. ويحدد التصنيف الصحيح الرسوم والحوافز المطبّقة.",
+        "hi": "वस्तुओं का वर्गीकरण करता है और आयात पर लागू सीमा शुल्क निर्धारित करता है, जिसमें पूंजीगत उपकरणों के लिए Class K शामिल है। सही वर्गीकरण से लागू शुल्क और प्रोत्साहन तय होते हैं।",
+        "sw": "Huainisha bidhaa na kuweka ushuru wa forodha unaotumika wakati wa uingizaji, ikiwemo Daraja K kwa vifaa vya mtaji. Uainishaji sahihi huamua ushuru na vivutio vinavyotumika.",
+        "af": "Klassifiseer goedere en stel die doeaneregte vas wat by invoer geld, insluitend Klas K vir kapitaaltoerusting. Korrekte klassifikasie bepaal die regte en aansporings wat van toepassing is."
       },
       "excerpt": {
         "pt": "Em síntese: cada mercadoria importada é classificada numa posição pautal, à qual corresponde uma taxa de direitos. Os bens de equipamento da Classe K podem beneficiar de isenção quando integrados num projecto aprovado.",
         "en": "In short: each imported good is classified under a tariff heading, which carries a duty rate. Class K capital equipment may be exempt when it forms part of an approved project.",
-        "fr": "En résumé : chaque marchandise importée est classée sous une position tarifaire, à laquelle correspond un taux de droits. Les biens d'équipement de la classe K peuvent être exonérés lorsqu'ils s'inscrivent dans un projet approuvé."
+        "fr": "En résumé : chaque marchandise importée est classée sous une position tarifaire, à laquelle correspond un taux de droits. Les biens d'équipement de la classe K peuvent être exonérés lorsqu'ils s'inscrivent dans un projet approuvé.",
+        "zh": "简而言之：每种进口货物都归入一个税则号列，对应一个关税税率。K 类资本设备如属于获批项目的一部分，可予以免税。",
+        "ar": "باختصار: تُصنَّف كل سلعة مستوردة تحت بند تعريفي يحمل معدل رسم. وقد تُعفى المعدات الرأسمالية من الفئة K عندما تكون جزءاً من مشروع معتمد.",
+        "hi": "संक्षेप में: प्रत्येक आयातित वस्तु एक टैरिफ़ शीर्षक के अंतर्गत वर्गीकृत होती है, जिसकी एक शुल्क दर होती है। Class K पूंजीगत उपकरण किसी स्वीकृत परियोजना का हिस्सा होने पर छूट प्राप्त कर सकते हैं।",
+        "sw": "Kwa ufupi: kila bidhaa inayoingizwa huainishwa chini ya kifungu cha jedwali, chenye kiwango cha ushuru. Vifaa vya mtaji vya Daraja K vinaweza kusamehewa pale vinapokuwa sehemu ya mradi ulioidhinishwa.",
+        "af": "Kortliks: elke ingevoerde item word onder 'n tariefpos geklassifiseer, wat 'n regskoers dra. Kapitaaltoerusting in Klas K kan vrygestel wees wanneer dit deel van 'n goedgekeurde projek vorm."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -425,17 +710,32 @@
       "title": {
         "pt": "Declaração de rendimentos do IRPC",
         "en": "Corporate income tax return",
-        "fr": "Déclaration de résultats à l'IRPC"
+        "fr": "Déclaration de résultats à l'IRPC",
+        "zh": "企业所得税申报表（Declaração de rendimentos do IRPC）",
+        "ar": "إقرار ضريبة دخل الشركات",
+        "hi": "कॉर्पोरेट आयकर रिटर्न",
+        "sw": "Ritani ya kodi ya mapato ya kampuni",
+        "af": "Opgawe vir maatskappy-inkomstebelasting"
       },
       "summary": {
         "pt": "Declaração anual em que a empresa apura o lucro tributável e o IRPC do exercício. Os pagamentos por conta efectuados ao longo do ano são deduzidos ao imposto apurado.",
         "en": "Annual return in which the company computes its taxable profit and corporate income tax for the year. Payments on account made during the year are credited against the tax assessed.",
-        "fr": "Déclaration annuelle par laquelle la société détermine son bénéfice imposable et l'IRPC de l'exercice. Les acomptes versés au cours de l'année sont imputés sur l'impôt dû."
+        "fr": "Déclaration annuelle par laquelle la société détermine son bénéfice imposable et l'IRPC de l'exercice. Les acomptes versés au cours de l'année sont imputés sur l'impôt dû.",
+        "zh": "公司计算年度应税利润和企业所得税的年度申报表。年内已缴纳的预缴税款可抵减核定税额。",
+        "ar": "إقرار سنوي تحتسب فيه الشركة ربحها الخاضع للضريبة وضريبة دخل الشركات عن السنة. وتُخصم الدفعات المسبقة المسددة خلال السنة من الضريبة المحتسبة.",
+        "hi": "वार्षिक रिटर्न जिसमें कंपनी वर्ष के लिए अपने कर-योग्य लाभ और कॉर्पोरेट आयकर (IRPC) की गणना करती है। वर्ष के दौरान किए गए अग्रिम भुगतान निर्धारित कर में समायोजित किए जाते हैं।",
+        "sw": "Ritani ya mwaka ambayo kampuni hukokotoa faida yake inayotozwa kodi na kodi ya mapato ya kampuni kwa mwaka. Malipo ya awali yaliyofanywa wakati wa mwaka hukatwa kutoka kodi iliyokadiriwa.",
+        "af": "Jaarlikse opgawe waarin die maatskappy sy belasbare wins en maatskappy-inkomstebelasting (IRPC) vir die jaar bereken. Voorlopige betalings wat gedurende die jaar gemaak is, word teen die bepaalde belasting verreken."
       },
       "excerpt": {
         "pt": "Em síntese: a Modelo 22 é entregue até ao último dia útil de Maio do ano seguinte ao exercício. Ao longo do ano, a empresa efectua pagamentos por conta em Maio, Julho e Setembro.",
         "en": "In short: the Modelo 22 is filed by the last working day of May of the year following the financial year. During the year, the company makes payments on account in May, July and September.",
-        "fr": "En résumé : le Modelo 22 est déposé au plus tard le dernier jour ouvrable de mai de l'année suivant l'exercice. En cours d'année, la société verse des acomptes en mai, juillet et septembre."
+        "fr": "En résumé : le Modelo 22 est déposé au plus tard le dernier jour ouvrable de mai de l'année suivant l'exercice. En cours d'année, la société verse des acomptes en mai, juillet et septembre.",
+        "zh": "简而言之：Modelo 22 须在财政年度次年 5 月的最后一个工作日前提交。年内，公司在 5 月、7 月和 9 月预缴税款。",
+        "ar": "باختصار: يُقدَّم Modelo 22 بحلول آخر يوم عمل من مايو من السنة التالية للسنة المالية. وخلال السنة، تسدد الشركة دفعات مسبقة في مايو ويوليو وسبتمبر.",
+        "hi": "संक्षेप में: Modelo 22 वित्तीय वर्ष के अगले वर्ष मई के अंतिम कार्य दिवस तक दाखिल किया जाता है। वर्ष के दौरान, कंपनी मई, जुलाई और सितंबर में अग्रिम भुगतान करती है।",
+        "sw": "Kwa ufupi: Modelo 22 huwasilishwa kabla ya siku ya mwisho ya kazi ya Mei ya mwaka unaofuata mwaka wa fedha. Wakati wa mwaka, kampuni hufanya malipo ya awali mwezi Mei, Julai na Septemba.",
+        "af": "Kortliks: die Modelo 22 word ingedien teen die laaste werksdag van Mei van die jaar ná die boekjaar. Gedurende die jaar maak die maatskappy voorlopige betalings in Mei, Julie en September."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -447,17 +747,32 @@
       "title": {
         "pt": "Declaração anual de informação contabilística e fiscal",
         "en": "Annual accounting and tax information return",
-        "fr": "Déclaration annuelle d'informations comptables et fiscales"
+        "fr": "Déclaration annuelle d'informations comptables et fiscales",
+        "zh": "年度会计和税务信息申报表",
+        "ar": "الإقرار السنوي للمعلومات المحاسبية والضريبية",
+        "hi": "वार्षिक लेखा और कर सूचना रिटर्न",
+        "sw": "Ritani ya mwaka ya taarifa za uhasibu na kodi",
+        "af": "Jaarlikse opgawe van rekeningkundige en belastinginligting"
       },
       "summary": {
         "pt": "Declaração anual que reúne a informação contabilística e fiscal da empresa, incluindo o anexo de preços de transferência quando existam entidades relacionadas. Relevante para filiais de grupos estrangeiros.",
         "en": "Annual return bringing together the company's accounting and tax information, including the transfer pricing annex where there are related parties. Relevant to subsidiaries of foreign groups.",
-        "fr": "Déclaration annuelle regroupant les informations comptables et fiscales de la société, y compris l'annexe sur les prix de transfert en présence de parties liées. Pertinente pour les filiales de groupes étrangers."
+        "fr": "Déclaration annuelle regroupant les informations comptables et fiscales de la société, y compris l'annexe sur les prix de transfert en présence de parties liées. Pertinente pour les filiales de groupes étrangers.",
+        "zh": "汇总公司会计和税务信息的年度申报表，存在关联方时须附转让定价附件。与外国集团的子公司相关。",
+        "ar": "إقرار سنوي يجمع المعلومات المحاسبية والضريبية للشركة، بما في ذلك ملحق أسعار التحويل عند وجود أطراف ذات علاقة. وهو ذو صلة بالشركات التابعة لمجموعات أجنبية.",
+        "hi": "वार्षिक रिटर्न जो कंपनी की लेखा और कर जानकारी को एक साथ लाता है, जिसमें संबंधित पक्षों के होने पर ट्रांसफ़र प्राइसिंग अनुलग्नक शामिल है। विदेशी समूहों की सहायक कंपनियों के लिए प्रासंगिक।",
+        "sw": "Ritani ya mwaka inayokusanya taarifa za uhasibu na kodi za kampuni, ikiwemo kiambatisho cha bei za uhamisho pale kuna wahusika wenye uhusiano. Ni muhimu kwa kampuni tanzu za vikundi vya kigeni.",
+        "af": "Jaarlikse opgawe wat die maatskappy se rekeningkundige en belastinginligting saambring, insluitend die bylae oor oordragpryse waar daar verwante partye is. Relevant vir filiale van buitelandse groepe."
       },
       "excerpt": {
         "pt": "Em síntese: a Modelo 20 é entregue até ao último dia útil de Junho. As empresas com operações com entidades relacionadas juntam o anexo de preços de transferência.",
         "en": "In short: the Modelo 20 is filed by the last working day of June. Companies with related-party transactions attach the transfer pricing annex.",
-        "fr": "En résumé : le Modelo 20 est déposé au plus tard le dernier jour ouvrable de juin. Les sociétés réalisant des opérations avec des parties liées y joignent l'annexe sur les prix de transfert."
+        "fr": "En résumé : le Modelo 20 est déposé au plus tard le dernier jour ouvrable de juin. Les sociétés réalisant des opérations avec des parties liées y joignent l'annexe sur les prix de transfert.",
+        "zh": "简而言之：Modelo 20 须在 6 月的最后一个工作日前提交。存在关联交易的公司须附上转让定价附件。",
+        "ar": "باختصار: يُقدَّم Modelo 20 بحلول آخر يوم عمل من يونيو. وترفق الشركات التي لديها معاملات مع أطراف ذات علاقة ملحق أسعار التحويل.",
+        "hi": "संक्षेप में: Modelo 20 जून के अंतिम कार्य दिवस तक दाखिल किया जाता है। संबंधित-पक्ष लेनदेन वाली कंपनियाँ ट्रांसफ़र प्राइसिंग अनुलग्नक संलग्न करती हैं।",
+        "sw": "Kwa ufupi: Modelo 20 huwasilishwa kabla ya siku ya mwisho ya kazi ya Juni. Kampuni zenye miamala na wahusika wenye uhusiano huambatisha kiambatisho cha bei za uhamisho.",
+        "af": "Kortliks: die Modelo 20 word ingedien teen die laaste werksdag van Junie. Maatskappye met transaksies met verwante partye heg die bylae oor oordragpryse aan."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -469,17 +784,32 @@
       "title": {
         "pt": "Lei de Terras",
         "en": "Land Law",
-        "fr": "Loi foncière"
+        "fr": "Loi foncière",
+        "zh": "土地法（Lei de Terras）",
+        "ar": "قانون الأراضي",
+        "hi": "भूमि कानून (Lei de Terras)",
+        "sw": "Sheria ya Ardhi",
+        "af": "Grondwet (Lei de Terras)"
       },
       "summary": {
         "pt": "Estabelece que a terra é propriedade do Estado e regula o direito de uso e aproveitamento da terra (DUAT). Qualquer projecto que necessite de terreno depende de um DUAT ou de um contrato com o seu titular.",
         "en": "Establishes that land is owned by the State and governs the land use and benefit right (DUAT). Any project that needs land depends on a DUAT or on an agreement with its holder.",
-        "fr": "Établit que la terre appartient à l'État et régit le droit d'usage et d'exploitation de la terre (DUAT). Tout projet nécessitant un terrain dépend d'un DUAT ou d'un accord avec son titulaire."
+        "fr": "Établit que la terre appartient à l'État et régit le droit d'usage et d'exploitation de la terre (DUAT). Tout projet nécessitant un terrain dépend d'un DUAT ou d'un accord avec son titulaire.",
+        "zh": "确立土地归国家所有，并规范土地使用和收益权（DUAT）。任何需要土地的项目都依赖于 DUAT 或与其持有人达成的协议。",
+        "ar": "يقرّ بأن الأرض ملك للدولة وينظّم حق الانتفاع واستغلال الأرض (DUAT). وأي مشروع يحتاج إلى أرض يتوقف على DUAT أو على اتفاق مع صاحبه.",
+        "hi": "स्थापित करता है कि भूमि राज्य के स्वामित्व में है और भूमि उपयोग एवं लाभ के अधिकार (DUAT) को नियंत्रित करता है। भूमि की आवश्यकता वाली हर परियोजना DUAT या उसके धारक के साथ समझौते पर निर्भर करती है।",
+        "sw": "Inaweka kwamba ardhi ni mali ya Serikali na inasimamia haki ya matumizi na manufaa ya ardhi (DUAT). Mradi wowote unaohitaji ardhi unategemea DUAT au makubaliano na mmiliki wake.",
+        "af": "Bepaal dat grond aan die Staat behoort en reël die reg op gebruik en genot van grond (DUAT). Enige projek wat grond nodig het, hang af van 'n DUAT of van 'n ooreenkoms met die houer daarvan."
       },
       "excerpt": {
         "pt": "Em síntese: a terra não pode ser vendida, mas o direito de uso e aproveitamento pode ser atribuído a pessoas singulares e colectivas, mediante consulta às comunidades locais. O procedimento para expansão pode levar até 24 meses.",
         "en": "In short: land cannot be sold, but the right of use and benefit may be granted to individuals and legal entities, subject to consultation with local communities. The procedure for expansion may take up to 24 months.",
-        "fr": "En résumé : la terre ne peut être vendue, mais le droit d'usage et d'exploitation peut être attribué à des personnes physiques et morales, après consultation des communautés locales. La procédure en cas d'extension peut prendre jusqu'à 24 mois."
+        "fr": "En résumé : la terre ne peut être vendue, mais le droit d'usage et d'exploitation peut être attribué à des personnes physiques et morales, après consultation des communautés locales. La procédure en cas d'extension peut prendre jusqu'à 24 mois.",
+        "zh": "简而言之：土地不得出售，但使用和收益权可在征询当地社区意见后授予自然人和法人。扩建程序最长可能需要 24 个月。",
+        "ar": "باختصار: لا يجوز بيع الأرض، لكن يجوز منح حق الانتفاع والاستغلال للأشخاص الطبيعيين والاعتباريين، رهناً بالتشاور مع المجتمعات المحلية. وقد يستغرق إجراء التوسعة حتى 24 شهراً.",
+        "hi": "संक्षेप में: भूमि बेची नहीं जा सकती, लेकिन उपयोग और लाभ का अधिकार स्थानीय समुदायों से परामर्श के अधीन व्यक्तियों और कानूनी संस्थाओं को दिया जा सकता है। विस्तार की प्रक्रिया में 24 महीने तक लग सकते हैं।",
+        "sw": "Kwa ufupi: ardhi haiwezi kuuzwa, lakini haki ya matumizi na manufaa inaweza kutolewa kwa watu binafsi na taasisi za kisheria, kwa sharti la kushauriana na jamii za wenyeji. Utaratibu wa upanuzi unaweza kuchukua hadi miezi 24.",
+        "af": "Kortliks: grond kan nie verkoop word nie, maar die reg op gebruik en genot kan aan individue en regspersone toegeken word, onderworpe aan konsultasie met plaaslike gemeenskappe. Die prosedure vir uitbreiding kan tot 24 maande neem."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -491,17 +821,32 @@
       "title": {
         "pt": "Regulamento sobre o Processo de Avaliação do Impacto Ambiental",
         "en": "Regulation on the Environmental Impact Assessment Process",
-        "fr": "Règlement relatif à la procédure d'évaluation de l'impact environnemental"
+        "fr": "Règlement relatif à la procédure d'évaluation de l'impact environnemental",
+        "zh": "环境影响评价程序条例",
+        "ar": "لائحة إجراءات تقييم الأثر البيئي",
+        "hi": "पर्यावरण प्रभाव आकलन प्रक्रिया पर विनियम",
+        "sw": "Kanuni za Mchakato wa Tathmini ya Athari kwa Mazingira",
+        "af": "Regulasie oor die proses van omgewingsimpakbepaling"
       },
       "summary": {
         "pt": "Classifica as actividades por categoria de impacto ambiental e define o procedimento para obter a licença ambiental. A categoria determina os estudos exigidos e o prazo do processo.",
         "en": "Classifies activities by environmental impact category and sets out the procedure for obtaining the environmental licence. The category determines the studies required and the duration of the process.",
-        "fr": "Classe les activités par catégorie d'impact environnemental et définit la procédure d'obtention de la licence environnementale. La catégorie détermine les études exigées et la durée de la procédure."
+        "fr": "Classe les activités par catégorie d'impact environnemental et définit la procédure d'obtention de la licence environnementale. La catégorie détermine les études exigées et la durée de la procédure.",
+        "zh": "按环境影响类别对活动进行分类，并规定取得环境许可证的程序。类别决定了所需的研究和程序的时长。",
+        "ar": "تصنّف الأنشطة بحسب فئة الأثر البيئي وتحدد إجراء الحصول على الترخيص البيئي. وتحدد الفئة الدراسات المطلوبة ومدة الإجراء.",
+        "hi": "गतिविधियों को पर्यावरण प्रभाव श्रेणी के अनुसार वर्गीकृत करता है और पर्यावरण लाइसेंस प्राप्त करने की प्रक्रिया निर्धारित करता है। श्रेणी से आवश्यक अध्ययन और प्रक्रिया की अवधि तय होती है।",
+        "sw": "Huainisha shughuli kwa daraja la athari kwa mazingira na kuweka utaratibu wa kupata leseni ya mazingira. Daraja huamua tafiti zinazohitajika na muda wa mchakato.",
+        "af": "Klassifiseer bedrywighede volgens omgewingsimpakkategorie en stel die prosedure vir die verkryging van die omgewingslisensie uiteen. Die kategorie bepaal die vereiste studies en die duur van die proses."
       },
       "excerpt": {
         "pt": "Em síntese: antes de iniciar a actividade, o projecto é submetido a uma pré-avaliação que determina a sua categoria. Para a categoria B, a obtenção da licença ambiental leva habitualmente 2 a 4 meses.",
         "en": "In short: before operations begin, the project undergoes a pre-assessment that determines its category. For category B, obtaining the environmental licence usually takes 2 to 4 months.",
-        "fr": "En résumé : avant le démarrage de l'activité, le projet fait l'objet d'une pré-évaluation qui détermine sa catégorie. Pour la catégorie B, l'obtention de la licence environnementale prend habituellement 2 à 4 mois."
+        "fr": "En résumé : avant le démarrage de l'activité, le projet fait l'objet d'une pré-évaluation qui détermine sa catégorie. Pour la catégorie B, l'obtention de la licence environnementale prend habituellement 2 à 4 mois.",
+        "zh": "简而言之：在开始运营前，项目须接受预评估以确定其类别。对于 B 类项目，取得环境许可证通常需要 2 至 4 个月。",
+        "ar": "باختصار: قبل بدء العمليات، يخضع المشروع لتقييم أولي يحدد فئته. وبالنسبة للفئة B، يستغرق الحصول على الترخيص البيئي عادة من 2 إلى 4 أشهر.",
+        "hi": "संक्षेप में: संचालन शुरू होने से पहले, परियोजना का प्रारंभिक मूल्यांकन होता है जो उसकी श्रेणी तय करता है। श्रेणी B के लिए पर्यावरण लाइसेंस प्राप्त करने में आमतौर पर 2 से 4 महीने लगते हैं।",
+        "sw": "Kwa ufupi: kabla ya shughuli kuanza, mradi hupitia tathmini ya awali inayoamua daraja lake. Kwa daraja B, kupata leseni ya mazingira kwa kawaida huchukua miezi 2 hadi 4.",
+        "af": "Kortliks: voordat bedrywighede begin, ondergaan die projek 'n voorafbeoordeling wat sy kategorie bepaal. Vir kategorie B neem die verkryging van die omgewingslisensie gewoonlik 2 tot 4 maande."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -513,17 +858,32 @@
       "title": {
         "pt": "Zonas Económicas Especiais e Zonas Francas Industriais",
         "en": "Special Economic Zones and Industrial Free Zones",
-        "fr": "Zones économiques spéciales et zones franches industrielles"
+        "fr": "Zones économiques spéciales et zones franches industrielles",
+        "zh": "经济特区与工业自由区",
+        "ar": "المناطق الاقتصادية الخاصة والمناطق الصناعية الحرة",
+        "hi": "विशेष आर्थिक क्षेत्र और औद्योगिक मुक्त क्षेत्र",
+        "sw": "Kanda Maalum za Kiuchumi na Kanda Huru za Viwanda",
+        "af": "Spesiale ekonomiese sones en industriële vrysones"
       },
       "summary": {
         "pt": "Regime aplicável aos projectos instalados em Zonas Económicas Especiais ou Zonas Francas Industriais, com condições próprias, sobretudo para actividades de exportação. A elegibilidade depende da localização e da natureza do projecto.",
         "en": "Regime applicable to projects located in Special Economic Zones or Industrial Free Zones, with specific conditions, mainly for export activities. Eligibility depends on the location and nature of the project.",
-        "fr": "Régime applicable aux projets implantés dans des zones économiques spéciales ou des zones franches industrielles, assorti de conditions propres, surtout pour les activités d'exportation. L'éligibilité dépend de la localisation et de la nature du projet."
+        "fr": "Régime applicable aux projets implantés dans des zones économiques spéciales ou des zones franches industrielles, assorti de conditions propres, surtout pour les activités d'exportation. L'éligibilité dépend de la localisation et de la nature du projet.",
+        "zh": "适用于位于经济特区或工业自由区内项目的制度，附有特定条件，主要针对出口活动。资格取决于项目的所在地和性质。",
+        "ar": "النظام المطبّق على المشاريع الواقعة في المناطق الاقتصادية الخاصة أو المناطق الصناعية الحرة، بشروط خاصة، ولا سيما لأنشطة التصدير. وتتوقف الأهلية على موقع المشروع وطبيعته.",
+        "hi": "विशेष आर्थिक क्षेत्रों (SEZ) या औद्योगिक मुक्त क्षेत्रों (IFZ) में स्थित परियोजनाओं पर लागू व्यवस्था, विशिष्ट शर्तों के साथ, मुख्य रूप से निर्यात गतिविधियों के लिए। पात्रता परियोजना के स्थान और प्रकृति पर निर्भर करती है।",
+        "sw": "Utaratibu unaotumika kwa miradi iliyo katika Kanda Maalum za Kiuchumi au Kanda Huru za Viwanda, yenye masharti maalum, hasa kwa shughuli za mauzo ya nje. Kustahili hutegemea mahali na aina ya mradi.",
+        "af": "Regime wat van toepassing is op projekte in spesiale ekonomiese sones (ZEE) of industriële vrysones (ZFI), met spesifieke voorwaardes, hoofsaaklik vir uitvoerbedrywighede. Kwalifikasie hang af van die ligging en aard van die projek."
       },
       "excerpt": {
         "pt": "Em síntese: os projectos aprovados numa ZEE ou ZFI ficam sujeitos a um regime específico de benefícios e obrigações, distinto do regime geral. O enquadramento deve ser avaliado antes de escolher a localização.",
         "en": "In short: projects approved in an SEZ or IFZ are subject to a specific regime of incentives and obligations, distinct from the general regime. Eligibility should be assessed before choosing the location.",
-        "fr": "En résumé : les projets approuvés dans une ZES ou une ZFI relèvent d'un régime spécifique d'avantages et d'obligations, distinct du régime général. L'éligibilité doit être évaluée avant de choisir l'implantation."
+        "fr": "En résumé : les projets approuvés dans une ZES ou une ZFI relèvent d'un régime spécifique d'avantages et d'obligations, distinct du régime général. L'éligibilité doit être évaluée avant de choisir l'implantation.",
+        "zh": "简而言之：在经济特区或工业自由区获批的项目适用有别于一般制度的特定优惠和义务制度。应在选址前评估是否符合资格。",
+        "ar": "باختصار: تخضع المشاريع المعتمدة في منطقة اقتصادية خاصة أو منطقة صناعية حرة لنظام خاص من الحوافز والالتزامات، يختلف عن النظام العام. وينبغي تقييم الأهلية قبل اختيار الموقع.",
+        "hi": "संक्षेप में: SEZ या IFZ में स्वीकृत परियोजनाएँ सामान्य व्यवस्था से अलग, प्रोत्साहनों और दायित्वों की एक विशिष्ट व्यवस्था के अधीन होती हैं। स्थान चुनने से पहले पात्रता का आकलन किया जाना चाहिए।",
+        "sw": "Kwa ufupi: miradi iliyoidhinishwa katika SEZ au IFZ iko chini ya utaratibu maalum wa vivutio na wajibu, tofauti na utaratibu wa jumla. Kustahili kunapaswa kutathminiwa kabla ya kuchagua mahali.",
+        "af": "Kortliks: projekte wat in 'n ZEE of ZFI goedgekeur is, is onderworpe aan 'n spesifieke regime van aansporings en verpligtinge, wat van die algemene regime verskil. Kwalifikasie moet beoordeel word voordat die ligging gekies word."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -535,17 +895,32 @@
       "title": {
         "pt": "Decreto n.º 9/2017 (âmbito a confirmar)",
         "en": "Decree No. 9/2017 (scope to be confirmed)",
-        "fr": "Décret n° 9/2017 (champ d'application à confirmer)"
+        "fr": "Décret n° 9/2017 (champ d'application à confirmer)",
+        "zh": "Decreto n.º 9/2017（适用范围待确认）",
+        "ar": "Decreto n.º 9/2017 (النطاق قيد التأكيد)",
+        "hi": "Decreto n.º 9/2017 (दायरे की पुष्टि होनी है)",
+        "sw": "Decreto n.º 9/2017 (wigo utathibitishwa)",
+        "af": "Decreto n.º 9/2017 (omvang moet bevestig word)"
       },
       "summary": {
         "pt": "Instrumento referido na base jurídica da Tax Advisory; âmbito a confirmar: {{SCOPE_DEC_9_2017}}.",
         "en": "Instrument cited in Tax Advisory's legal basis; scope to be confirmed: {{SCOPE_DEC_9_2017}}.",
-        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_9_2017}}."
+        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_9_2017}}.",
+        "zh": "Tax Advisory 法律依据中引用的法规；适用范围待确认：{{SCOPE_DEC_9_2017}}。",
+        "ar": "صكّ مستشهد به في الأساس القانوني لـ Tax Advisory؛ والنطاق قيد التأكيد: {{SCOPE_DEC_9_2017}}.",
+        "hi": "Tax Advisory के कानूनी आधार में उद्धृत दस्तावेज़; दायरे की पुष्टि होनी है: {{SCOPE_DEC_9_2017}}।",
+        "sw": "Chombo kinachotajwa katika msingi wa kisheria wa Tax Advisory; wigo utathibitishwa: {{SCOPE_DEC_9_2017}}.",
+        "af": "Instrument wat in die regsgrondslag van Tax Advisory aangehaal word; omvang moet bevestig word: {{SCOPE_DEC_9_2017}}."
       },
       "excerpt": {
         "pt": "Em síntese: {{SCOPE_DEC_9_2017}}. O conteúdo deste instrumento será descrito após confirmação pela Tax Advisory.",
         "en": "In short: {{SCOPE_DEC_9_2017}}. The content of this instrument will be described once confirmed by Tax Advisory.",
-        "fr": "En résumé : {{SCOPE_DEC_9_2017}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory."
+        "fr": "En résumé : {{SCOPE_DEC_9_2017}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory.",
+        "zh": "简而言之：{{SCOPE_DEC_9_2017}}。该法规的内容将在 Tax Advisory 确认后予以说明。",
+        "ar": "باختصار: {{SCOPE_DEC_9_2017}}. سيُوصف مضمون هذا الصكّ بعد أن يؤكده Tax Advisory.",
+        "hi": "संक्षेप में: {{SCOPE_DEC_9_2017}}। Tax Advisory द्वारा पुष्टि होने के बाद इस दस्तावेज़ की सामग्री का वर्णन किया जाएगा।",
+        "sw": "Kwa ufupi: {{SCOPE_DEC_9_2017}}. Maudhui ya chombo hiki yataelezwa baada ya kuthibitishwa na Tax Advisory.",
+        "af": "Kortliks: {{SCOPE_DEC_9_2017}}. Die inhoud van hierdie instrument sal beskryf word sodra Tax Advisory dit bevestig het."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -557,17 +932,32 @@
       "title": {
         "pt": "Decreto n.º 70/2017 (âmbito a confirmar)",
         "en": "Decree No. 70/2017 (scope to be confirmed)",
-        "fr": "Décret n° 70/2017 (champ d'application à confirmer)"
+        "fr": "Décret n° 70/2017 (champ d'application à confirmer)",
+        "zh": "Decreto n.º 70/2017（适用范围待确认）",
+        "ar": "Decreto n.º 70/2017 (النطاق قيد التأكيد)",
+        "hi": "Decreto n.º 70/2017 (दायरे की पुष्टि होनी है)",
+        "sw": "Decreto n.º 70/2017 (wigo utathibitishwa)",
+        "af": "Decreto n.º 70/2017 (omvang moet bevestig word)"
       },
       "summary": {
         "pt": "Instrumento referido na base jurídica da Tax Advisory; âmbito a confirmar: {{SCOPE_DEC_70_2017}}.",
         "en": "Instrument cited in Tax Advisory's legal basis; scope to be confirmed: {{SCOPE_DEC_70_2017}}.",
-        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_70_2017}}."
+        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_70_2017}}.",
+        "zh": "Tax Advisory 法律依据中引用的法规；适用范围待确认：{{SCOPE_DEC_70_2017}}。",
+        "ar": "صكّ مستشهد به في الأساس القانوني لـ Tax Advisory؛ والنطاق قيد التأكيد: {{SCOPE_DEC_70_2017}}.",
+        "hi": "Tax Advisory के कानूनी आधार में उद्धृत दस्तावेज़; दायरे की पुष्टि होनी है: {{SCOPE_DEC_70_2017}}।",
+        "sw": "Chombo kinachotajwa katika msingi wa kisheria wa Tax Advisory; wigo utathibitishwa: {{SCOPE_DEC_70_2017}}.",
+        "af": "Instrument wat in die regsgrondslag van Tax Advisory aangehaal word; omvang moet bevestig word: {{SCOPE_DEC_70_2017}}."
       },
       "excerpt": {
         "pt": "Em síntese: {{SCOPE_DEC_70_2017}}. O conteúdo deste instrumento será descrito após confirmação pela Tax Advisory.",
         "en": "In short: {{SCOPE_DEC_70_2017}}. The content of this instrument will be described once confirmed by Tax Advisory.",
-        "fr": "En résumé : {{SCOPE_DEC_70_2017}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory."
+        "fr": "En résumé : {{SCOPE_DEC_70_2017}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory.",
+        "zh": "简而言之：{{SCOPE_DEC_70_2017}}。该法规的内容将在 Tax Advisory 确认后予以说明。",
+        "ar": "باختصار: {{SCOPE_DEC_70_2017}}. سيُوصف مضمون هذا الصكّ بعد أن يؤكده Tax Advisory.",
+        "hi": "संक्षेप में: {{SCOPE_DEC_70_2017}}। Tax Advisory द्वारा पुष्टि होने के बाद इस दस्तावेज़ की सामग्री का वर्णन किया जाएगा।",
+        "sw": "Kwa ufupi: {{SCOPE_DEC_70_2017}}. Maudhui ya chombo hiki yataelezwa baada ya kuthibitishwa na Tax Advisory.",
+        "af": "Kortliks: {{SCOPE_DEC_70_2017}}. Die inhoud van hierdie instrument sal beskryf word sodra Tax Advisory dit bevestig het."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -579,17 +969,32 @@
       "title": {
         "pt": "Lei dos Petróleos",
         "en": "Petroleum Law",
-        "fr": "Loi sur le pétrole"
+        "fr": "Loi sur le pétrole",
+        "zh": "石油法（Lei dos Petróleos）",
+        "ar": "قانون البترول",
+        "hi": "पेट्रोलियम कानून (Lei dos Petróleos)",
+        "sw": "Sheria ya Petroli",
+        "af": "Petroleumwet (Lei dos Petróleos)"
       },
       "summary": {
         "pt": "Regula as operações petrolíferas em Moçambique, incluindo os projectos de gás natural liquefeito, e estabelece preferências em favor de empresas e trabalhadores moçambicanos. Relevante para fornecedores da cadeia de valor do LNG.",
         "en": "Governs petroleum operations in Mozambique, including liquefied natural gas projects, and establishes preferences in favour of Mozambican companies and workers. Relevant to suppliers in the LNG value chain.",
-        "fr": "Régit les opérations pétrolières au Mozambique, y compris les projets de gaz naturel liquéfié, et établit des préférences en faveur des entreprises et des travailleurs mozambicains. Pertinente pour les fournisseurs de la chaîne de valeur du GNL."
+        "fr": "Régit les opérations pétrolières au Mozambique, y compris les projets de gaz naturel liquéfié, et établit des préférences en faveur des entreprises et des travailleurs mozambicains. Pertinente pour les fournisseurs de la chaîne de valeur du GNL.",
+        "zh": "规范莫桑比克的石油作业，包括液化天然气项目，并确立对莫桑比克公司和员工的优先待遇。与液化天然气价值链中的供应商相关。",
+        "ar": "ينظّم العمليات البترولية في موزمبيق، بما في ذلك مشاريع الغاز الطبيعي المسال، ويقرّ أفضليات لصالح الشركات والعمال الموزمبيقيين. وهو ذو صلة بالمورّدين في سلسلة قيمة الغاز الطبيعي المسال.",
+        "hi": "तरलीकृत प्राकृतिक गैस (LNG) परियोजनाओं सहित मोज़ाम्बिक में पेट्रोलियम संचालन को नियंत्रित करता है, और मोज़ाम्बिकन कंपनियों तथा कर्मचारियों के पक्ष में वरीयताएँ स्थापित करता है। LNG मूल्य शृंखला के आपूर्तिकर्ताओं के लिए प्रासंगिक।",
+        "sw": "Inasimamia shughuli za petroli nchini Msumbiji, ikiwemo miradi ya gesi asilia iliyoyeyushwa, na inaweka upendeleo kwa kampuni na wafanyakazi wa Msumbiji. Ni muhimu kwa wasambazaji katika mnyororo wa thamani wa LNG.",
+        "af": "Reël petroleumbedrywighede in Mosambiek, insluitend projekte vir vloeibare aardgas, en stel voorkeure ten gunste van Mosambiekse maatskappye en werkers vas. Relevant vir verskaffers in die LNG-waardeketting."
       },
       "excerpt": {
         "pt": "Em síntese: os operadores petrolíferos e os seus subcontratados devem dar preferência à aquisição de bens e serviços a empresas moçambicanas e à contratação de trabalhadores moçambicanos, nas condições previstas na lei. Os fornecedores estrangeiros devem avaliar a parceria com empresas locais.",
         "en": "In short: petroleum operators and their subcontractors must give preference to procuring goods and services from Mozambican companies and to hiring Mozambican workers, on the terms set out in the law. Foreign suppliers should consider partnering with local companies.",
-        "fr": "En résumé : les opérateurs pétroliers et leurs sous-traitants doivent accorder la préférence à l'achat de biens et services auprès d'entreprises mozambicaines et à l'embauche de travailleurs mozambicains, dans les conditions prévues par la loi. Les fournisseurs étrangers ont intérêt à envisager un partenariat avec des entreprises locales."
+        "fr": "En résumé : les opérateurs pétroliers et leurs sous-traitants doivent accorder la préférence à l'achat de biens et services auprès d'entreprises mozambicaines et à l'embauche de travailleurs mozambicains, dans les conditions prévues par la loi. Les fournisseurs étrangers ont intérêt à envisager un partenariat avec des entreprises locales.",
+        "zh": "简而言之：石油运营商及其分包商须按法律规定的条件，优先向莫桑比克公司采购商品和服务，并优先雇用莫桑比克员工。外国供应商应考虑与本地公司合作。",
+        "ar": "باختصار: يجب على المشغّلين البتروليين ومقاوليهم من الباطن إعطاء الأفضلية لشراء السلع والخدمات من الشركات الموزمبيقية ولتوظيف العمال الموزمبيقيين، وفق الشروط المحددة في القانون. وينبغي للمورّدين الأجانب النظر في الشراكة مع شركات محلية.",
+        "hi": "संक्षेप में: पेट्रोलियम ऑपरेटरों और उनके उप-ठेकेदारों को कानून में निर्धारित शर्तों पर मोज़ाम्बिकन कंपनियों से वस्तुएँ और सेवाएँ खरीदने तथा मोज़ाम्बिकन कर्मचारियों को नियुक्त करने को वरीयता देनी होगी। विदेशी आपूर्तिकर्ताओं को स्थानीय कंपनियों के साथ साझेदारी पर विचार करना चाहिए।",
+        "sw": "Kwa ufupi: waendeshaji wa petroli na wakandarasi wao wadogo lazima watoe upendeleo katika ununuzi wa bidhaa na huduma kutoka kampuni za Msumbiji na katika kuajiri wafanyakazi wa Msumbiji, kwa masharti yaliyowekwa na sheria. Wasambazaji wa kigeni wanapaswa kufikiria kushirikiana na kampuni za ndani.",
+        "af": "Kortliks: petroleumoperateurs en hul subkontrakteurs moet voorkeur gee aan die verkryging van goedere en dienste van Mosambiekse maatskappye en aan die indiensneming van Mosambiekse werkers, op die voorwaardes wat in die wet uiteengesit word. Buitelandse verskaffers behoort vennootskappe met plaaslike maatskappye te oorweeg."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -601,17 +1006,32 @@
       "title": {
         "pt": "Padrões de Desempenho da IFC",
         "en": "IFC Performance Standards",
-        "fr": "Normes de performance de la SFI"
+        "fr": "Normes de performance de la SFI",
+        "zh": "IFC 绩效标准",
+        "ar": "معايير الأداء الصادرة عن IFC",
+        "hi": "IFC प्रदर्शन मानक",
+        "sw": "IFC Performance Standards",
+        "af": "IFC-prestasiestandaarde"
       },
       "summary": {
         "pt": "Padrões ambientais e sociais da International Finance Corporation, exigidos por muitos financiadores internacionais. Não são lei moçambicana, mas condicionam o acesso a financiamento de bancos de desenvolvimento.",
         "en": "Environmental and social standards of the International Finance Corporation, required by many international lenders. They are not Mozambican law, but they condition access to development bank financing.",
-        "fr": "Normes environnementales et sociales de la Société financière internationale, exigées par de nombreux bailleurs internationaux. Elles ne relèvent pas du droit mozambicain, mais conditionnent l'accès au financement des banques de développement."
+        "fr": "Normes environnementales et sociales de la Société financière internationale, exigées par de nombreux bailleurs internationaux. Elles ne relèvent pas du droit mozambicain, mais conditionnent l'accès au financement des banques de développement.",
+        "zh": "国际金融公司（IFC）的环境和社会标准，许多国际贷款机构都要求遵守。它们不是莫桑比克法律，但决定了能否获得开发银行融资。",
+        "ar": "المعايير البيئية والاجتماعية لمؤسسة التمويل الدولية، التي تشترطها كثير من جهات الإقراض الدولية. وهي ليست قانوناً موزمبيقياً، لكنها تشترط للوصول إلى تمويل بنوك التنمية.",
+        "hi": "अंतरराष्ट्रीय वित्त निगम (IFC) के पर्यावरणीय और सामाजिक मानक, जिनकी कई अंतरराष्ट्रीय ऋणदाता माँग करते हैं। ये मोज़ाम्बिकन कानून नहीं हैं, लेकिन विकास बैंकों से वित्तपोषण की पहुँच इन पर निर्भर करती है।",
+        "sw": "Viwango vya kimazingira na kijamii vya International Finance Corporation, vinavyotakiwa na wakopeshaji wengi wa kimataifa. Si sheria ya Msumbiji, lakini vinaathiri upatikanaji wa ufadhili wa benki za maendeleo.",
+        "af": "Omgewings- en maatskaplike standaarde van die International Finance Corporation, wat deur baie internasionale finansierders vereis word. Dit is nie Mosambiekse reg nie, maar dit bepaal toegang tot finansiering deur ontwikkelingsbanke."
       },
       "excerpt": {
         "pt": "Em síntese: o projecto financiado deve identificar e gerir os seus riscos ambientais e sociais, incluindo a aquisição de terra e o reassentamento involuntário. Os financiadores verificam a conformidade antes do desembolso e durante a vida do projecto.",
         "en": "In short: a financed project must identify and manage its environmental and social risks, including land acquisition and involuntary resettlement. Lenders check compliance before disbursement and throughout the life of the project.",
-        "fr": "En résumé : le projet financé doit identifier et gérer ses risques environnementaux et sociaux, y compris l'acquisition de terres et la réinstallation involontaire. Les bailleurs vérifient la conformité avant le décaissement et pendant toute la durée du projet."
+        "fr": "En résumé : le projet financé doit identifier et gérer ses risques environnementaux et sociaux, y compris l'acquisition de terres et la réinstallation involontaire. Les bailleurs vérifient la conformité avant le décaissement et pendant toute la durée du projet.",
+        "zh": "简而言之：获得融资的项目必须识别并管理其环境和社会风险，包括土地征用和非自愿移民安置。贷款机构在放款前及项目整个周期内核查合规情况。",
+        "ar": "باختصار: يجب على المشروع الممول تحديد مخاطره البيئية والاجتماعية وإدارتها، بما في ذلك الاستحواذ على الأراضي وإعادة التوطين القسري. وتتحقق جهات الإقراض من الامتثال قبل الصرف وطوال عمر المشروع.",
+        "hi": "संक्षेप में: वित्तपोषित परियोजना को भूमि अधिग्रहण और अनैच्छिक पुनर्वास सहित अपने पर्यावरणीय और सामाजिक जोखिमों की पहचान और प्रबंधन करना होगा। ऋणदाता संवितरण से पहले और परियोजना के पूरे जीवनकाल में अनुपालन की जाँच करते हैं।",
+        "sw": "Kwa ufupi: mradi unaofadhiliwa lazima utambue na kusimamia hatari zake za kimazingira na kijamii, ikiwemo upatikanaji wa ardhi na uhamishaji wa watu usio wa hiari. Wakopeshaji hukagua uzingatiaji kabla ya kutoa fedha na katika maisha yote ya mradi.",
+        "af": "Kortliks: 'n gefinansierde projek moet sy omgewings- en maatskaplike risiko's identifiseer en bestuur, insluitend grondverkryging en onvrywillige hervestiging. Finansierders kontroleer nakoming voor uitbetaling en gedurende die hele lewe van die projek."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -623,17 +1043,32 @@
       "title": {
         "pt": "Moçambique — Indicadores fiscais (Tax Advisory)",
         "en": "Mozambique — Tax indicators (Tax Advisory)",
-        "fr": "Mozambique — Indicateurs fiscaux (Tax Advisory)"
+        "fr": "Mozambique — Indicateurs fiscaux (Tax Advisory)",
+        "zh": "莫桑比克 — 税务指标（Tax Advisory）",
+        "ar": "موزمبيق — المؤشرات الضريبية (Tax Advisory)",
+        "hi": "मोज़ाम्बिक — कर संकेतक (Tax Advisory)",
+        "sw": "Msumbiji — Viashiria vya kodi (Tax Advisory)",
+        "af": "Mosambiek — Belastingaanwysers (Tax Advisory)"
       },
       "summary": {
         "pt": "Quadro-resumo da Tax Advisory com as principais taxas: IRPC de 32%, retenção definitiva de 20% (ou 10%) para não residentes, IVA de 16%, IRPS de 10% a 32%, retenção de 20% sobre dividendos, juros, royalties e honorários, subcapitalização 2:1 e preços de transferência pelo princípio de plena concorrência.",
         "en": "Tax Advisory's summary table of the main rates: 32% IRPC, 20% (or 10%) final withholding for non-residents, 16% VAT, 10% to 32% IRPS, 20% withholding on dividends, interest, royalties and fees, 2:1 thin capitalisation and arm's length transfer pricing.",
-        "fr": "Tableau de synthèse de Tax Advisory avec les principaux taux : IRPC de 32 %, retenue libératoire de 20 % (ou 10 %) pour les non-résidents, TVA de 16 %, IRPS de 10 % à 32 %, retenue de 20 % sur dividendes, intérêts, redevances et honoraires, sous-capitalisation 2:1 et prix de transfert selon le principe de pleine concurrence."
+        "fr": "Tableau de synthèse de Tax Advisory avec les principaux taux : IRPC de 32 %, retenue libératoire de 20 % (ou 10 %) pour les non-résidents, TVA de 16 %, IRPS de 10 % à 32 %, retenue de 20 % sur dividendes, intérêts, redevances et honoraires, sous-capitalisation 2:1 et prix de transfert selon le principe de pleine concurrence.",
+        "zh": "Tax Advisory 编制的主要税率汇总表：IRPC 32%，非居民最终预提税 20%（或 10%），增值税 16%，IRPS 10% 至 32%，股息、利息、特许权使用费和服务费预提税 20%，2:1 资本弱化规则以及按独立交易原则确定的转让定价。",
+        "ar": "الجدول الملخّص لـ Tax Advisory للمعدلات الرئيسية: IRPC بنسبة 32%، واقتطاع نهائي بنسبة 20% (أو 10%) لغير المقيمين، وIVA بنسبة 16%، وIRPS من 10% إلى 32%، واقتطاع بنسبة 20% على الأرباح الموزعة والفوائد والإتاوات والأتعاب، ورسملة ضعيفة بنسبة 2:1، وأسعار تحويل وفق مبدأ السعر المحايد.",
+        "hi": "मुख्य दरों की Tax Advisory सारांश तालिका: 32% IRPC, अनिवासियों के लिए 20% (या 10%) अंतिम विदहोल्डिंग, 16% IVA, 10% से 32% IRPS, लाभांश, ब्याज, रॉयल्टी और शुल्क पर 20% विदहोल्डिंग, 2:1 थिन कैपिटलाइज़ेशन और आर्म्स लेंथ ट्रांसफ़र प्राइसिंग।",
+        "sw": "Jedwali la muhtasari la Tax Advisory la viwango vikuu: IRPC 32%, kodi ya zuio ya mwisho ya 20% (au 10%) kwa wasio wakaazi, VAT 16%, IRPS 10% hadi 32%, kodi ya zuio ya 20% kwa gawio, riba, mirabaha na ada, mtaji mdogo wa 2:1 na bei za uhamisho kwa kanuni ya arm's length.",
+        "af": "Tax Advisory se opsommingstabel van die vernaamste koerse: 32% IRPC, 20% (of 10%) finale terughouding vir nie-inwoners, 16% BTW (IVA), 10% tot 32% IRPS, 20% terughouding op dividende, rente, tantieme en fooie, 2:1-onderkapitalisasie en oordragpryse op armlengte-grondslag."
       },
       "excerpt": {
         "pt": "Em síntese: os dividendos pagos entre sociedades residentes ficam isentos de retenção e de IRPC quando a participação é de pelo menos 20% e é detida há dois anos. A retenção de 10% para não residentes aplica-se, entre outros, a telecomunicações e transporte internacional, à electrificação rural e às obrigações cotadas na Bolsa de Valores de Moçambique.",
         "en": "In short: dividends paid between resident companies are exempt from withholding and IRPC where the holding is at least 20% and has been held for two years. The 10% non-resident rate applies, among others, to telecommunications and international transport, rural electrification and bonds listed on the Mozambique Stock Exchange.",
-        "fr": "En résumé : les dividendes versés entre sociétés résidentes sont exonérés de retenue et d'IRPC lorsque la participation est d'au moins 20 % et détenue depuis deux ans. Le taux de 10 % pour les non-résidents s'applique notamment aux télécommunications et au transport international, à l'électrification rurale et aux obligations cotées à la Bourse du Mozambique."
+        "fr": "En résumé : les dividendes versés entre sociétés résidentes sont exonérés de retenue et d'IRPC lorsque la participation est d'au moins 20 % et détenue depuis deux ans. Le taux de 10 % pour les non-résidents s'applique notamment aux télécommunications et au transport international, à l'électrification rurale et aux obligations cotées à la Bourse du Mozambique.",
+        "zh": "简而言之：居民公司之间支付的股息，在持股比例至少为 20% 且已持有两年的情况下，免征预提税和 IRPC。10% 的非居民税率适用于电信和国际运输、农村电气化以及在莫桑比克证券交易所上市的债券等情形。",
+        "ar": "باختصار: تُعفى الأرباح الموزعة بين الشركات المقيمة من الاقتطاع ومن IRPC عندما تبلغ المساهمة 20% على الأقل ويُحتفظ بها لمدة سنتين. وينطبق معدل 10% لغير المقيمين، ضمن حالات أخرى، على الاتصالات والنقل الدولي، والكهربة الريفية، والسندات المدرجة في بورصة موزمبيق.",
+        "hi": "संक्षेप में: निवासी कंपनियों के बीच भुगतान किए गए लाभांश विदहोल्डिंग और IRPC से मुक्त हैं, जहाँ हिस्सेदारी कम से कम 20% हो और दो वर्षों से रखी गई हो। अनिवासियों के लिए 10% दर अन्य के अलावा दूरसंचार और अंतरराष्ट्रीय परिवहन, ग्रामीण विद्युतीकरण और मोज़ाम्बिक स्टॉक एक्सचेंज पर सूचीबद्ध बॉन्ड पर लागू होती है।",
+        "sw": "Kwa ufupi: gawio linalolipwa kati ya kampuni wakaazi limesamehewa kodi ya zuio na IRPC pale umiliki ni angalau 20% na umeshikiliwa kwa miaka miwili. Kiwango cha 10% kwa wasio wakaazi kinatumika, miongoni mwa mengine, kwa mawasiliano ya simu na usafiri wa kimataifa, usambazaji wa umeme vijijini na hatifungani zilizoorodheshwa katika Soko la Hisa la Msumbiji.",
+        "af": "Kortliks: dividende wat tussen inwonende maatskappye betaal word, is vrygestel van terughouding en IRPC waar die belang minstens 20% is en vir twee jaar gehou is. Die koers van 10% vir nie-inwoners geld onder meer vir telekommunikasie en internasionale vervoer, landelike elektrifikasie en effekte wat op die Mosambiekse Effektebeurs genoteer is."
       },
       "lastReviewed": "2026-10-28",
       "status": "illustrative"
@@ -645,17 +1080,32 @@
       "title": {
         "pt": "Moçambique — Acordos de dupla tributação: taxas (Tax Advisory)",
         "en": "Mozambique — Double tax treaties: rates (Tax Advisory)",
-        "fr": "Mozambique — Conventions fiscales : taux (Tax Advisory)"
+        "fr": "Mozambique — Conventions fiscales : taux (Tax Advisory)",
+        "zh": "莫桑比克 — 避免双重征税协定税率（Tax Advisory）",
+        "ar": "موزمبيق — اتفاقيات تجنّب الازدواج الضريبي: المعدلات (Tax Advisory)",
+        "hi": "मोज़ाम्बिक — दोहरा कराधान परिहार समझौते: दरें (Tax Advisory)",
+        "sw": "Msumbiji — Mikataba ya kuepuka kutozwa kodi mara mbili: viwango (Tax Advisory)",
+        "af": "Mosambiek — Dubbelbelastingverdrae: koerse (Tax Advisory)"
       },
       "summary": {
         "pt": "Tabela da Tax Advisory com as taxas de retenção sobre dividendos, juros, royalties e honorários previstas nos nove acordos em vigor (Botswana, Índia, Itália, Macau, Maurícias, Portugal, África do Sul, Emirados Árabes Unidos e Vietname), face à taxa interna de 20%.",
         "en": "Tax Advisory's table of the withholding rates on dividends, interest, royalties and fees under the nine treaties in force (Botswana, India, Italy, Macau, Mauritius, Portugal, South Africa, United Arab Emirates and Vietnam), against the 20% domestic rate.",
-        "fr": "Tableau de Tax Advisory des taux de retenue sur dividendes, intérêts, redevances et honoraires prévus par les neuf conventions en vigueur (Botswana, Inde, Italie, Macao, Maurice, Portugal, Afrique du Sud, Émirats arabes unis et Viêt Nam), par rapport au taux interne de 20 %."
+        "fr": "Tableau de Tax Advisory des taux de retenue sur dividendes, intérêts, redevances et honoraires prévus par les neuf conventions en vigueur (Botswana, Inde, Italie, Macao, Maurice, Portugal, Afrique du Sud, Émirats arabes unis et Viêt Nam), par rapport au taux interne de 20 %.",
+        "zh": "Tax Advisory 编制的税率表，列示九项现行协定（博茨瓦纳、印度、意大利、中国澳门、毛里求斯、葡萄牙、南非、阿拉伯联合酋长国和越南）下股息、利息、特许权使用费和服务费的预提税率，并与 20% 的国内税率对比。",
+        "ar": "جدول Tax Advisory لمعدلات الاقتطاع على الأرباح الموزعة والفوائد والإتاوات والأتعاب بموجب الاتفاقيات التسع السارية (بوتسوانا والهند وإيطاليا وماكاو وموريشيوس والبرتغال وجنوب أفريقيا والإمارات العربية المتحدة وفيتنام)، مقارنة بالمعدل المحلي البالغ 20%.",
+        "hi": "लागू नौ समझौतों (बोत्सवाना, भारत, इटली, मकाऊ, मॉरीशस, पुर्तगाल, दक्षिण अफ्रीका, संयुक्त अरब अमीरात और वियतनाम) के तहत लाभांश, ब्याज, रॉयल्टी और शुल्क पर विदहोल्डिंग दरों की Tax Advisory तालिका, 20% घरेलू दर की तुलना में।",
+        "sw": "Jedwali la Tax Advisory la viwango vya kodi ya zuio kwa gawio, riba, mirabaha na ada chini ya mikataba tisa inayotumika (Botswana, India, Italia, Macau, Morisi, Ureno, Afrika Kusini, Falme za Kiarabu na Vietnam), ikilinganishwa na kiwango cha ndani cha 20%.",
+        "af": "Tax Advisory se tabel van die terughoudingskoerse op dividende, rente, tantieme en fooie kragtens die nege verdrae wat van krag is (Botswana, Indië, Italië, Macau, Mauritius, Portugal, Suid-Afrika, Verenigde Arabiese Emirate en Viëtnam), teenoor die binnelandse koers van 20%."
       },
       "excerpt": {
         "pt": "Em síntese: dividendos — Botswana 0% ou 12%, Índia 7,5%, Itália 15%, Macau 10%, Maurícias 8%, 10% ou 15%, Portugal 10%, África do Sul 8% ou 15%, EAU 0%, Vietname 10% (onde há duas taxas, depende da participação do beneficiário). Na prática, a Autoridade Tributária tende a tributar os honorários de gestão e consultoria como royalties.",
         "en": "In short: dividends — Botswana 0% or 12%, India 7.5%, Italy 15%, Macau 10%, Mauritius 8%, 10% or 15%, Portugal 10%, South Africa 8% or 15%, UAE 0%, Vietnam 10% (where two rates apply, it depends on the recipient's shareholding). In practice, the Tax Authority tends to tax management and consultancy fees as royalties.",
-        "fr": "En résumé : dividendes — Botswana 0 % ou 12 %, Inde 7,5 %, Italie 15 %, Macao 10 %, Maurice 8 %, 10 % ou 15 %, Portugal 10 %, Afrique du Sud 8 % ou 15 %, ÉAU 0 %, Viêt Nam 10 % (lorsque deux taux existent, cela dépend de la participation du bénéficiaire). En pratique, l'Autorité fiscale tend à imposer les honoraires de gestion et de conseil comme des redevances."
+        "fr": "En résumé : dividendes — Botswana 0 % ou 12 %, Inde 7,5 %, Italie 15 %, Macao 10 %, Maurice 8 %, 10 % ou 15 %, Portugal 10 %, Afrique du Sud 8 % ou 15 %, ÉAU 0 %, Viêt Nam 10 % (lorsque deux taux existent, cela dépend de la participation du bénéficiaire). En pratique, l'Autorité fiscale tend à imposer les honoraires de gestion et de conseil comme des redevances.",
+        "zh": "简而言之：股息——博茨瓦纳 0% 或 12%，印度 7.5%，意大利 15%，中国澳门 10%，毛里求斯 8%、10% 或 15%，葡萄牙 10%，南非 8% 或 15%，阿联酋 0%，越南 10%（适用两档税率时，取决于收款方的持股比例）。实践中，税务机关倾向于将管理费和咨询费按特许权使用费征税。",
+        "ar": "باختصار: الأرباح الموزعة — بوتسوانا 0% أو 12%، الهند 7.5%، إيطاليا 15%، ماكاو 10%، موريشيوس 8% أو 10% أو 15%، البرتغال 10%، جنوب أفريقيا 8% أو 15%، الإمارات 0%، فيتنام 10% (حيث ينطبق معدلان، يتوقف ذلك على مساهمة المستلم). وعملياً، تميل هيئة الضرائب إلى فرض الضريبة على أتعاب الإدارة والاستشارات باعتبارها إتاوات.",
+        "hi": "संक्षेप में: लाभांश — बोत्सवाना 0% या 12%, भारत 7.5%, इटली 15%, मकाऊ 10%, मॉरीशस 8%, 10% या 15%, पुर्तगाल 10%, दक्षिण अफ्रीका 8% या 15%, UAE 0%, वियतनाम 10% (जहाँ दो दरें लागू हैं, वहाँ यह प्राप्तकर्ता की शेयरधारिता पर निर्भर करता है)। व्यवहार में, कर प्राधिकरण प्रबंधन और परामर्श शुल्क पर रॉयल्टी की तरह कर लगाने की प्रवृत्ति रखता है।",
+        "sw": "Kwa ufupi: gawio — Botswana 0% au 12%, India 7.5%, Italia 15%, Macau 10%, Morisi 8%, 10% au 15%, Ureno 10%, Afrika Kusini 8% au 15%, Falme za Kiarabu 0%, Vietnam 10% (pale viwango viwili vinatumika, hutegemea umiliki wa hisa wa mpokeaji). Kwa vitendo, Mamlaka ya Kodi huelekea kutoza ada za usimamizi na ushauri kama mirabaha.",
+        "af": "Kortliks: dividende — Botswana 0% of 12%, Indië 7.5%, Italië 15%, Macau 10%, Mauritius 8%, 10% of 15%, Portugal 10%, Suid-Afrika 8% of 15%, VAE 0%, Viëtnam 10% (waar twee koerse geld, hang dit af van die ontvanger se aandeelhouding). In die praktyk is die Belastingowerheid geneig om bestuurs- en konsultasiefooie as tantieme te belas."
       },
       "lastReviewed": "2026-10-28",
       "status": "illustrative"
@@ -667,17 +1117,32 @@
       "title": {
         "pt": "Guia de Negócios 2025 — capítulo Moçambique (JLA Advogados / Lex Africa)",
         "en": "Business Guide 2025 — Mozambique chapter (JLA Advogados / Lex Africa)",
-        "fr": "Guide des affaires 2025 — chapitre Mozambique (JLA Advogados / Lex Africa)"
+        "fr": "Guide des affaires 2025 — chapitre Mozambique (JLA Advogados / Lex Africa)",
+        "zh": "《2025 年商业指南》— 莫桑比克章节（JLA Advogados / Lex Africa）",
+        "ar": "دليل الأعمال 2025 — فصل موزمبيق (JLA Advogados / Lex Africa)",
+        "hi": "Business Guide 2025 — मोज़ाम्बिक अध्याय (JLA Advogados / Lex Africa)",
+        "sw": "Mwongozo wa Biashara 2025 — sura ya Msumbiji (JLA Advogados / Lex Africa)",
+        "af": "Business Guide 2025 — Mosambiek-hoofstuk (JLA Advogados / Lex Africa)"
       },
       "summary": {
         "pt": "Síntese jurídica sobre o investimento em Moçambique: formas de sociedade, constituição de sociedades e sucursais, controlo cambial (Aviso 3/GBM/2024), tributação, concorrência, arbitragem, propriedade intelectual e contratação de trabalhadores estrangeiros.",
         "en": "Legal overview of investing in Mozambique: business forms, incorporation of companies and branches, exchange control (Notice 3/GBM/2024), taxation, competition, arbitration, intellectual property and the hiring of foreign workers.",
-        "fr": "Synthèse juridique sur l'investissement au Mozambique : formes de société, constitution de sociétés et de succursales, contrôle des changes (Avis 3/GBM/2024), fiscalité, concurrence, arbitrage, propriété intellectuelle et embauche de travailleurs étrangers."
+        "fr": "Synthèse juridique sur l'investissement au Mozambique : formes de société, constitution de sociétés et de succursales, contrôle des changes (Avis 3/GBM/2024), fiscalité, concurrence, arbitrage, propriété intellectuelle et embauche de travailleurs étrangers.",
+        "zh": "在莫桑比克投资的法律概览：企业形式、公司和分公司的设立、外汇管制（Aviso n.º 3/GBM/2024）、税收、竞争、仲裁、知识产权以及外籍员工的雇用。",
+        "ar": "نظرة قانونية عامة على الاستثمار في موزمبيق: أشكال الأعمال، وتأسيس الشركات والفروع، والرقابة على الصرف (Aviso n.º 3/GBM/2024)، والضرائب، والمنافسة، والتحكيم، والملكية الفكرية، وتعيين العمال الأجانب.",
+        "hi": "मोज़ाम्बिक में निवेश का कानूनी अवलोकन: व्यवसाय के रूप, कंपनियों और शाखाओं का निगमन, विदेशी मुद्रा नियंत्रण (Aviso n.º 3/GBM/2024), कराधान, प्रतिस्पर्धा, मध्यस्थता, बौद्धिक संपदा और विदेशी कर्मचारियों की नियुक्ति।",
+        "sw": "Muhtasari wa kisheria wa kuwekeza Msumbiji: aina za biashara, usajili wa kampuni na matawi, udhibiti wa fedha za kigeni (Aviso n.º 3/GBM/2024), kodi, ushindani, usuluhishi, miliki bunifu na kuajiri wafanyakazi wa kigeni.",
+        "af": "Regsoorsig van belegging in Mosambiek: sakevorme, inlywing van maatskappye en takke, valutabeheer (Aviso n.º 3/GBM/2024), belasting, mededinging, arbitrasie, intellektuele eiendom en die indiensneming van buitelandse werkers."
       },
       "excerpt": {
         "pt": "Em síntese: a detenção de sociedades por estrangeiros não tem limites, mas a terra não pode ser propriedade privada. A quota de trabalhadores estrangeiros é de 5% (mais de 100 trabalhadores), 8% (31 a 100), 10% (11 a 30) ou 15% (até 10); a autorização de trabalho vale 2 anos, renovável.",
         "en": "In short: foreign ownership of companies is not restricted, but land cannot be privately owned. The foreign worker quota is 5% (over 100 workers), 8% (31 to 100), 10% (11 to 30) or 15% (up to 10); a work permit is valid for 2 years and renewable.",
-        "fr": "En résumé : la détention de sociétés par des étrangers n'est pas limitée, mais la terre ne peut pas faire l'objet de propriété privée. Le quota de travailleurs étrangers est de 5 % (plus de 100 salariés), 8 % (31 à 100), 10 % (11 à 30) ou 15 % (jusqu'à 10) ; le permis de travail est valable 2 ans, renouvelable."
+        "fr": "En résumé : la détention de sociétés par des étrangers n'est pas limitée, mais la terre ne peut pas faire l'objet de propriété privée. Le quota de travailleurs étrangers est de 5 % (plus de 100 salariés), 8 % (31 à 100), 10 % (11 à 30) ou 15 % (jusqu'à 10) ; le permis de travail est valable 2 ans, renouvelable.",
+        "zh": "简而言之：外国人对公司的所有权不受限制，但土地不能私有。外籍员工配额为 5%（100 人以上）、8%（31 至 100 人）、10%（11 至 30 人）或 15%（10 人及以下）；工作许可有效期 2 年，可续期。",
+        "ar": "باختصار: ملكية الأجانب للشركات غير مقيّدة، لكن لا يجوز تملّك الأرض ملكية خاصة. وحصة العمال الأجانب 5% (أكثر من 100 عامل)، أو 8% (من 31 إلى 100)، أو 10% (من 11 إلى 30)، أو 15% (حتى 10)؛ وتصريح العمل صالح لمدة سنتين وقابل للتجديد.",
+        "hi": "संक्षेप में: कंपनियों के विदेशी स्वामित्व पर प्रतिबंध नहीं है, लेकिन भूमि का निजी स्वामित्व संभव नहीं है। विदेशी कर्मचारी कोटा 5% (100 से अधिक कर्मचारी), 8% (31 से 100), 10% (11 से 30) या 15% (10 तक) है; वर्क परमिट 2 वर्ष के लिए वैध और नवीकरणीय है।",
+        "sw": "Kwa ufupi: umiliki wa kampuni na wageni hauna vikwazo, lakini ardhi haiwezi kumilikiwa binafsi. Kiwango cha wafanyakazi wa kigeni ni 5% (zaidi ya wafanyakazi 100), 8% (31 hadi 100), 10% (11 hadi 30) au 15% (hadi 10); kibali cha kazi ni halali kwa miaka 2 na kinaweza kuhuishwa.",
+        "af": "Kortliks: buitelandse eienaarskap van maatskappye is nie beperk nie, maar grond kan nie privaat besit word nie. Die kwota vir buitelandse werkers is 5% (meer as 100 werkers), 8% (31 tot 100), 10% (11 tot 30) of 15% (tot 10); 'n werkpermit is 2 jaar geldig en hernubaar."
       },
       "lastReviewed": "2026-10-28",
       "status": "illustrative"

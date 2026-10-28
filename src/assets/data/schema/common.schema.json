@@ -5,11 +5,7 @@
     "localizedText": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "pt",
-        "en",
-        "fr"
-      ],
+      "required": ["pt", "en", "fr", "zh", "ar", "hi", "sw", "af"],
       "properties": {
         "pt": {
           "type": "string",
@@ -20,6 +16,26 @@
           "minLength": 1
         },
         "fr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hi": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "af": {
           "type": "string",
           "minLength": 1
         }
@@ -28,11 +44,7 @@
     "localizedKeywords": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "pt",
-        "en",
-        "fr"
-      ],
+      "required": ["pt", "en", "fr"],
       "properties": {
         "pt": {
           "type": "array",
@@ -47,6 +59,36 @@
           }
         },
         "fr": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "zh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ar": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hi": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sw": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "af": {
           "type": "array",
           "items": {
             "type": "string"
@@ -57,24 +99,14 @@
     "condition": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "field",
-        "op",
-        "value"
-      ],
+      "required": ["field", "op", "value"],
       "properties": {
         "field": {
           "type": "string",
           "minLength": 1
         },
         "op": {
-          "enum": [
-            "eq",
-            "in",
-            "gte",
-            "lt",
-            "between"
-          ]
+          "enum": ["eq", "in", "gte", "lt", "between"]
         },
         "value": {}
       }
@@ -111,12 +143,7 @@
       ]
     },
     "vehicle": {
-      "enum": [
-        "lda",
-        "sa",
-        "sas",
-        "branch"
-      ]
+      "enum": ["lda", "sa", "sas", "branch"]
     },
     "isoDate": {
       "type": "string",
@@ -125,12 +152,7 @@
     "note": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "id",
-        "title",
-        "text",
-        "refs"
-      ],
+      "required": ["id", "title", "text", "refs"],
       "properties": {
         "id": {
           "type": "string",
@@ -178,11 +200,7 @@
           "$ref": "common.schema.json#/definitions/province"
         },
         "capital": {
-          "enum": [
-            "foreign",
-            "mixed",
-            "mozambican"
-          ]
+          "enum": ["foreign", "mixed", "mozambican"]
         },
         "investorCountry": {
           "type": "string",

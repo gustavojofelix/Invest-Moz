@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Incentive estimator",
+  "title": "What could your project qualify for?",
+  "intro": "Indicative fiscal and customs benefits by sector, province and regime, each with its legal source.",
+  "form": "Your project",
+  "results": "Indicative benefits",
+  "fields": {
+    "sector": "Sector",
+    "province": "Province",
+    "amount": "Investment (USD)",
+    "jobs": "Local jobs",
+    "regime": "Regime",
+    "exports70": "The project will export at least 70% of its output"
+  },
+  "warning": {
+    "title": "Indicative only",
+    "text": "The Code of Fiscal Benefits (CBF) is under Government review, so these benefits may change. They depend on APIEX approval of the project."
+  },
+  "heading": "Benefits under the {{regime}} regime",
+  "status": {
+    "likely": "Likely",
+    "check": "Check"
+  },
+  "kind": {
+    "fiscal": "Tax",
+    "customs": "Customs",
+    "other": "Procedure"
+  },
+  "estimate": {
+    "label": "Illustrative value:",
+    "note": "over 5 years, depending on location"
+  },
+  "exportsNeeded": "Applies only if at least 70% of output is exported.",
+  "zones": {
+    "title": "Zones in {{province}}",
+    "none": "No zone of this type is listed in this province. Zones in other provinces may still suit the project.",
+    "map": "See zones on the map"
+  },
+  "sources": "Sources",
+  "upgrade": {
+    "eyebrow": "Need certainty?",
+    "title": "Get a lawyer-reviewed memo",
+    "text": "Tax Advisory can confirm which benefits apply to your project, the amounts and the filing steps, with a fee proposal before any work starts.",
+    "cta": "Get a lawyer-reviewed memo"
+  },
+  "roadmap": "Open my roadmap",
+  "pathfinder": "Build my roadmap",
+  "sectors": {
+    "agro_industry": "Agro-industry",
+    "energy": "Energy",
+    "logistics": "Logistics",
+    "tourism": "Tourism",
+    "oil_gas": "Oil and gas",
+    "mining": "Mining",
+    "services": "Services",
+    "general": "General commerce"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Aftercare",
+  "genericCompany": "[Company name], Lda",
+  "fromRoadmap": "deadlines from your roadmap",
+  "genericNote": "Example calendar for a company with staff, some of them foreign.",
+  "start": "Use my project",
+  "view": "View",
+  "tabs": {
+    "deadlines": "Deadlines",
+    "permits": "Permits",
+    "filings": "Filings"
+  },
+  "shiftRule": "When a due date falls on a weekend or public holiday, it moves to the previous working day. Tiva shows the date you must actually meet.",
+  "count": "Deadlines: {{count}}",
+  "period": {
+    "payroll": "{{month}} payroll",
+    "salaries": "{{month}} salaries and payments",
+    "vat": "{{month}} return"
+  },
+  "shiftedWeekend": "Due date {{nominal}} falls on a {{weekday}}: file early, on {{date}}.",
+  "shiftedHoliday": "Due date {{nominal}} is a public holiday ({{holiday}}): file early, on {{date}}.",
+  "noDeadlines": "No monthly deadlines for this company.",
+  "permitKinds": {
+    "dire": "DIRE renewal",
+    "work_permit": "Work permit renewal",
+    "licence": "Licence renewal"
+  },
+  "exampleHolder": "[Manager name]",
+  "expires": "Expires {{date}} · reminder on {{reminder}}",
+  "expiresExample": "Expires [date] · example: add your own below",
+  "removePermit": "Remove the reminder for {{holder}}",
+  "noPermits": "No renewal reminders yet.",
+  "addTitle": "Add a renewal reminder",
+  "kind": "Document",
+  "holder": "Holder",
+  "expiry": "Expiry date",
+  "lead": "Remind me",
+  "leadDays": "{{n}} days before",
+  "add": "Add reminder",
+  "filingsLead": "Annual returns, payments on account and reports, with the next due dates.",
+  "remindTitle": "Remind me by",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "push": "Push"
+  },
+  "remindOn": "Reminders three days before each deadline (demo: nothing is sent).",
+  "remindOff": "Reminders are off. Deadlines stay on this page.",
+  "sourcesTitle": "Legal basis",
+  "disclaimer": "Indicative calendar, not tax advice. Confirm deadlines with your accountant.",
+  "addToCalendar": "Add to calendar",
+  "help": "Get help filing",
+  "icsShifted": "Moved forward from {{date}} (weekend or public holiday).",
+  "icsRenew": "Start renewal: {{title}}",
+  "icsExpires": "Expires {{date}}."
+}

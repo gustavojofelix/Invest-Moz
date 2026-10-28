@@ -3,10 +3,7 @@
   "$id": "guide-chapter.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "id",
-    "sections"
-  ],
+  "required": ["id", "sections"],
   "properties": {
     "id": {
       "enum": [
@@ -29,10 +26,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "title"
-        ],
+        "required": ["id", "title"],
         "properties": {
           "id": {
             "type": "string",
@@ -49,10 +43,7 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": [
-                "value",
-                "label"
-              ],
+              "required": ["value", "label"],
               "properties": {
                 "value": {
                   "$ref": "common.schema.json#/definitions/localizedText"
@@ -69,10 +60,7 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": [
-                "title",
-                "text"
-              ],
+              "required": ["title", "text"],
               "properties": {
                 "title": {
                   "$ref": "common.schema.json#/definitions/localizedText"
@@ -93,11 +81,7 @@
           "table": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "caption",
-              "columns",
-              "rows"
-            ],
+            "required": ["caption", "columns", "rows"],
             "properties": {
               "caption": {
                 "$ref": "common.schema.json#/definitions/localizedText"

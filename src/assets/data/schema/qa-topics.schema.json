@@ -3,22 +3,14 @@
   "$id": "qa-topics.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "topics"
-  ],
+  "required": ["topics"],
   "properties": {
     "topics": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "label",
-          "refLabel",
-          "refId",
-          "intro"
-        ],
+        "required": ["id", "label", "refLabel", "refId", "intro"],
         "properties": {
           "id": {
             "$ref": "common.schema.json#/definitions/topic"

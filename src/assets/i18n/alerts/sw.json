@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Ufuatiliaji wa kanuni",
+  "title": "Mabadiliko yanayoathiri ramani yako",
+  "lead": "Sheria iliyo nyuma ya ramani yako ikibadilika, Tiva inakuambia inagusa hatua gani, kuanzia lini, na nini cha kufanya.",
+  "notifyBy": "Nijulishe kupitia",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "Barua pepe",
+    "push": "Arifa"
+  },
+  "channelsOn": "Tahadhari zitakufikia kupitia {{list}} (onyesho: hakuna kinachotumwa).",
+  "channelsOff": "Hakuna njia iliyochaguliwa: tahadhari zinabaki kwenye ukurasa huu.",
+  "listTitle": "Mabadiliko ya hivi karibuni",
+  "unread": "{{count}} mpya",
+  "markAll": "Weka zote kama zimesomwa",
+  "markReadLabel": "Weka kama imesomwa: {{title}}",
+  "affectsStep": "Inaathiri hatua {{n}}",
+  "affectsArea": {
+    "incentives": "Inaathiri vivutio"
+  },
+  "seeArea": {
+    "incentives": "Tazama vivutio"
+  },
+  "forInformation": "Kwa taarifa",
+  "new": "Mpya",
+  "inForceOn": "Inatumika {{date}}",
+  "inForce": "Inatumika",
+  "from": "Kuanzia {{date}}",
+  "pending": "Inasubiri",
+  "whatChanged": "Kilichobadilika:",
+  "forYou": "Kwako:",
+  "illustrative": "Mfano",
+  "seeStep": "Tazama hatua iliyosasishwa",
+  "ask": "Muulize Tiva",
+  "watching": "Inafuatilia",
+  "openRoadmap": "Fungua ramani yangu",
+  "guestText": "Tiva inafuatilia sheria zilizo nyuma ya kila hatua. Eleza mradi wako uone mabadiliko yanayokugusa.",
+  "start": "Anza Pathfinder",
+  "sourceTitle": "Kutoka mfululizo wa {{source}}",
+  "sourceText": "Kila tahadhari huandaliwa kutoka Boletim da República na hukaguliwa na wakili kabla haijakufikia.",
+  "demoNote": "Onyesho: tahadhari na tarehe ni mifano, na chaguo za njia huhifadhiwa kwenye kifaa hiki tu."
+}

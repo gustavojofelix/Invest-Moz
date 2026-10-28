@@ -1,0 +1,85 @@
+{
+  "back": "Back",
+  "eyebrow": "Talk to an expert",
+  "title": "Who should take this further?",
+  "intro": "One request to the right expert: Tax Advisory for paid, lawyer-reviewed work, or a public body whose services are free.",
+  "share": {
+    "title": "Summary Tiva will share",
+    "preview": "Preview what will be shared",
+    "contact": "Plus your name, company, email, phone (if given) and your note.",
+    "none": "No project in context: only your contact details and your note will be shared.",
+    "build": "Build my roadmap first"
+  },
+  "choose": "Choose who to contact",
+  "publicTitle": "Free public bodies",
+  "fee": {
+    "paid": "Paid engagement · fee proposal before any work",
+    "free": "Free public service"
+  },
+  "contact": {
+    "title": "Your details"
+  },
+  "fields": {
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone or WhatsApp (optional)",
+    "phoneHint": "Include the country code, e.g. +258 84 000 0000.",
+    "slot": "Preferred call time",
+    "day": "Day",
+    "time": "Time",
+    "slotHint": "Maputo time (UTC+2). The expert confirms or suggests another time.",
+    "note": "What would you like to discuss? (optional)"
+  },
+  "theExpert": "the selected expert",
+  "consent": "I agree to share this summary and my contact details with {{expert}}.",
+  "consentRequired": "Please tick the box to agree before we share anything.",
+  "submit": "Request a call",
+  "feeNote": "You receive a written fee proposal before any work starts.",
+  "referral": {
+    "text": "Tiva may receive a referral fee from paid experts. Public bodies are always listed free and never pay for referrals.",
+    "how": "How referrals work",
+    "detail": "Tiva is built by Law Technology Solutions with Tax Advisory as expert partner. When you choose a paid expert and go on to engage them, Tiva may receive a referral fee from that expert. It never changes the price you are quoted, and Tiva's answers stay the same whoever you choose. Nothing is shared without the consent you give on this page."
+  },
+  "mail": {
+    "subject": "Tiva — call request",
+    "areas": "Areas"
+  },
+  "sent": {
+    "title": "Your request is with {{expert}}",
+    "text": "They have your contact details and your note.",
+    "textProject": "They have your project summary and roadmap, so you won't need to explain it again.",
+    "ref": "Reference",
+    "call": "Call",
+    "timezone": "Maputo time (UTC+2)",
+    "language": "Language",
+    "shared": "Shared",
+    "sharedProject": "Summary · Roadmap · Contact",
+    "sharedContact": "Contact details · Note",
+    "whatShared": "See what was shared",
+    "next": "What happens next",
+    "paid": {
+      "step1": "An adviser confirms the call by email, and by WhatsApp if you gave a number.",
+      "step2": "On the call you agree the scope of work.",
+      "step3": "You receive a written fee proposal before any work starts."
+    },
+    "free": {
+      "step1": "The public body's investor desk confirms the call by email.",
+      "step2": "On the call they explain the procedure and the documents for your case.",
+      "step3": "Their services are free; any official filing fees are explained up front."
+    },
+    "feeNote": "No work starts and nothing is charged until you accept a written fee proposal.",
+    "freeNote": "Public bodies are listed free of charge and never pay Tiva for referrals.",
+    "calendar": "Add to calendar",
+    "icsTitle": "Call with {{expert}} (Tiva)",
+    "roadmap": "Back to roadmap",
+    "pathfinder": "Build my roadmap",
+    "chat": "Back to the chat",
+    "fallback": "If anything goes wrong, you can also copy the request or send it by email.",
+    "copy": "Copy the request",
+    "copied": "Copied",
+    "mail": "Send by email",
+    "missing": "We could not find this request.",
+    "again": "Make a new request"
+  }
+}

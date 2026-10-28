@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Huduma baada ya uwekezaji",
+  "genericCompany": "[Jina la kampuni], Lda",
+  "fromRoadmap": "tarehe za mwisho kutoka ramani yako",
+  "genericNote": "Kalenda ya mfano kwa kampuni yenye wafanyakazi, baadhi yao wageni.",
+  "start": "Tumia mradi wangu",
+  "view": "Tazama",
+  "tabs": {
+    "deadlines": "Tarehe za mwisho",
+    "permits": "Vibali",
+    "filings": "Mawasilisho"
+  },
+  "shiftRule": "Tarehe ya mwisho ikiangukia wikendi au sikukuu ya umma, inasogezwa kwenye siku ya kazi iliyotangulia. Tiva inaonyesha tarehe unayopaswa kuzingatia kwa hakika.",
+  "count": "Tarehe za mwisho: {{count}}",
+  "period": {
+    "payroll": "Mishahara ya {{month}}",
+    "salaries": "Mishahara na malipo ya {{month}}",
+    "vat": "Ritani ya {{month}}"
+  },
+  "shiftedWeekend": "Tarehe ya mwisho {{nominal}} ni {{weekday}}: wasilisha mapema, tarehe {{date}}.",
+  "shiftedHoliday": "Tarehe ya mwisho {{nominal}} ni sikukuu ya umma ({{holiday}}): wasilisha mapema, tarehe {{date}}.",
+  "noDeadlines": "Hakuna tarehe za mwisho za kila mwezi kwa kampuni hii.",
+  "permitKinds": {
+    "dire": "Kuhuisha DIRE",
+    "work_permit": "Kuhuisha kibali cha kazi",
+    "licence": "Kuhuisha leseni"
+  },
+  "exampleHolder": "[Jina la meneja]",
+  "expires": "Inaisha {{date}} · kikumbusho {{reminder}}",
+  "expiresExample": "Inaisha [tarehe] · mfano: ongeza chako hapa chini",
+  "removePermit": "Ondoa kikumbusho cha {{holder}}",
+  "noPermits": "Bado hakuna vikumbusho vya kuhuisha.",
+  "addTitle": "Ongeza kikumbusho cha kuhuisha",
+  "kind": "Hati",
+  "holder": "Mmiliki",
+  "expiry": "Tarehe ya kuisha",
+  "lead": "Nikumbushe",
+  "leadDays": "Siku {{n}} kabla",
+  "add": "Ongeza kikumbusho",
+  "filingsLead": "Ritani za mwaka, malipo ya awali na ripoti, pamoja na tarehe za mwisho zinazofuata.",
+  "remindTitle": "Nikumbushe kupitia",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "Barua pepe",
+    "push": "Arifa"
+  },
+  "remindOn": "Vikumbusho siku tatu kabla ya kila tarehe ya mwisho (onyesho: hakuna kinachotumwa).",
+  "remindOff": "Vikumbusho vimezimwa. Tarehe za mwisho zinabaki kwenye ukurasa huu.",
+  "sourcesTitle": "Msingi wa kisheria",
+  "disclaimer": "Kalenda elekezi, si ushauri wa kodi. Thibitisha tarehe za mwisho na mhasibu wako.",
+  "addToCalendar": "Ongeza kwenye kalenda",
+  "help": "Pata msaada wa kuwasilisha",
+  "icsShifted": "Imesogezwa mbele kutoka {{date}} (wikendi au sikukuu ya umma).",
+  "icsRenew": "Anza kuhuisha: {{title}}",
+  "icsExpires": "Inaisha {{date}}."
+}

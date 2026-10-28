@@ -35,7 +35,7 @@ export class SeoService {
 
   /** Lets a page override its title once its data is known (e.g. project name). */
   setTitle(text: string): void {
-    this.title.setTitle(`${text} · Invest Moz`);
+    this.title.setTitle(`${text} · Tiva`);
   }
 
   private apply(url: string): void {
@@ -49,7 +49,7 @@ export class SeoService {
 
     const pageTitle = data.title ? this.locale.t(data.title) : '';
     const brandTitle = this.locale.t('seo.siteTitle');
-    this.title.setTitle(pageTitle ? `${pageTitle} · Invest Moz` : brandTitle);
+    this.title.setTitle(pageTitle ? `${pageTitle} · Tiva` : brandTitle);
     this.meta.updateTag({
       name: 'description',
       content: this.locale.t(data.description ?? 'seo.siteDescription'),

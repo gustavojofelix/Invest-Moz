@@ -3,6 +3,7 @@ import holidaysJson from '../../../../assets/data/holidays.json';
 import projectsJson from '../../../../assets/data/projects.json';
 import type { EngineContext } from '../rules-engine';
 import type { Country, Holiday, Project, ProjectInput } from '../types';
+import { fillText } from '../text';
 
 export const TODAY = '2026-10-19';
 export const COUNTRIES = countriesJson.countries as Country[];
@@ -36,9 +37,9 @@ export function custom(overrides: Partial<ProjectInput>): Project {
   return {
     ref: 'TA-IM-P26-TEST',
     example: false,
-    title: { pt: 't', en: 't', fr: 't' },
-    sector: { pt: 's', en: 's', fr: 's' },
-    summary: { pt: 's', en: 's', fr: 's' },
+    title: fillText({ pt: 't', en: 't', fr: 't' }),
+    sector: fillText({ pt: 's', en: 's', fr: 's' }),
+    summary: fillText({ pt: 's', en: 's', fr: 's' }),
     input,
   };
 }

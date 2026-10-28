@@ -1,0 +1,47 @@
+{
+  "eyebrow": "Geleentheidskaart",
+  "title": "Verken Mosambiek",
+  "intro": "Provinsies, vervoerkorridors en ekonomiese sones. Kies 'n sektor om te sien waar dit pas, en dan 'n provinsie vir die besonderhede.",
+  "filter": "Filtreer volgens sektor",
+  "all": "Alle sektore",
+  "matches": "{{count}} provinsies uitgelig",
+  "mapLabel": "Kaart van Mosambiek met provinsies, korridors en ekonomiese sones",
+  "pick": "Provinsie",
+  "hint": "Kies 'n provinsie",
+  "note": "Posisies is aanduidend. Sone-geskiktheid en aansporings word deur APIEX bevestig.",
+  "legend": {
+    "ports": "Hawens",
+    "cities": "Stede",
+    "corridors": "Korridors",
+    "zones": "Ekonomiese sones",
+    "rovuma": "Rovuma-kom"
+  },
+  "card": {
+    "region": "Gekose provinsie",
+    "noCorridor": "Buite die hoofkorridors",
+    "highlights": "Waarom hier",
+    "sectors": "Sleutelsektore",
+    "zones": "Ekonomiese sones en parke",
+    "noZones": "Geen ekonomiese sone of park word nog in hierdie provinsie gelys nie.",
+    "incentives": "Sien aansporings hier",
+    "ask": "Vra Tiva",
+    "askQuestion": "Waarin kan ek in {{province}} belê?",
+    "profile": "Sektorprofiele",
+    "empty": "Kies 'n provinsie op die kaart of in die lys om sy korridor, sleutelsektore en sones te sien."
+  },
+  "kind": {
+    "sez": "SEZ",
+    "ifz": "IFZ",
+    "park": "Nywerheidspark",
+    "tourism": "Toerismesone"
+  },
+  "sectors": {
+    "agro_industry": "Agro-nywerheid",
+    "energy": "Energie",
+    "logistics": "Logistiek",
+    "tourism": "Toerisme",
+    "oil_gas": "Olie en gas",
+    "mining": "Mynbou",
+    "services": "Dienste"
+  }
+}

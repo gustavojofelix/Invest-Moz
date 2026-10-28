@@ -3,23 +3,14 @@
   "$id": "rules-vehicles.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "options",
-    "rules",
-    "comparisonWhen",
-    "comparison"
-  ],
+  "required": ["options", "rules", "comparisonWhen", "comparison"],
   "properties": {
     "options": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "vehicle",
-          "name",
-          "whenToChoose"
-        ],
+        "required": ["vehicle", "name", "whenToChoose"],
         "properties": {
           "vehicle": {
             "$ref": "common.schema.json#/definitions/vehicle"
@@ -38,11 +29,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -57,11 +44,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "recommended",
-              "alternatives",
-              "reasoning"
-            ],
+            "required": ["recommended", "alternatives", "reasoning"],
             "properties": {
               "recommended": {
                 "$ref": "common.schema.json#/definitions/vehicle"
@@ -91,13 +74,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "label",
-          "company",
-          "branch",
-          "refs"
-        ],
+        "required": ["id", "label", "company", "branch", "refs"],
         "properties": {
           "id": {
             "type": "string",

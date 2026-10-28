@@ -3,21 +3,14 @@
   "$id": "rules-roadmap.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "steps",
-    "timeToOperate"
-  ],
+  "required": ["steps", "timeToOperate"],
   "properties": {
     "steps": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -48,11 +41,7 @@
                 "minLength": 1
               },
               "phase": {
-                "enum": [
-                  "explore",
-                  "establish",
-                  "operate"
-                ]
+                "enum": ["explore", "establish", "operate"]
               },
               "title": {
                 "$ref": "common.schema.json#/definitions/localizedText"
@@ -86,11 +75,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -105,9 +90,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "text"
-            ],
+            "required": ["text"],
             "properties": {
               "text": {
                 "$ref": "common.schema.json#/definitions/localizedText"

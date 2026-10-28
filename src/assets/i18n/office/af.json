@@ -1,0 +1,407 @@
+{
+  "demoData": "Illustratiewe demodata",
+  "toConfirm": "moet bevestig word",
+  "channel": {
+    "web": "Web",
+    "app": "Toep",
+    "whatsapp": "WhatsApp"
+  },
+  "nav": {
+    "title": "Agterkantoor",
+    "home": "Agterkantoor-tuisblad",
+    "menu": "Agterkantoorkieslys",
+    "close": "Sluit die kieslys",
+    "queue": "Valideringsry",
+    "knowledgeBase": "Regskennisbasis",
+    "conversations": "Gesprekhersiening",
+    "leads": "Leidrade",
+    "intelligence": "Beleggersinligting",
+    "partners": "Vennote en gids",
+    "pending": "wag",
+    "builtBy": "Gebou deur",
+    "legalContent": "Regsinhoud",
+    "signedIn": "Aangemeld",
+    "signOut": "Meld af",
+    "language": "Taal",
+    "publicSite": "Terug na die openbare webwerf"
+  },
+  "login": {
+    "eyebrow": "Agterkantoor",
+    "title": "Meld aan by die Tiva-agterkantoor",
+    "intro": "Waar prokureurs goedkeur wat Tiva sê, en vennote die beleggers volg wat na hulle gevra het.",
+    "points": {
+      "validate": "Keur KI-konsepte goed voordat hulle beleggers bereik",
+      "leads": "Volg oorhandigings met toestemming tot by 'n mandaat",
+      "intelligence": "Lees geanonimiseerde vraagdata"
+    },
+    "demoTitle": "Demo-aanmeldbesonderhede",
+    "demoText": "Die velde is reeds ingevul. Meld net aan.",
+    "email": "E-pos",
+    "password": "Wagwoord",
+    "error": "Verkeerde e-pos of wagwoord.",
+    "submit": "Meld aan",
+    "notSecurity": "Slegs demonstrasie: hierdie aanmelding is nie werklike sekuriteit nie. Werklike verifikasie kom saam met die agterkant."
+  },
+  "queue": {
+    "title": "Valideringsry",
+    "intro": "KI-konsepte wag hier. Niks bereik beleggers voordat 'n prokureur dit goedkeur nie.",
+    "upload": "Laai wetgewing op",
+    "uploadName": "Wet",
+    "uploadPlaceholder": "bv. Decreto n.º [n]/2026",
+    "uploadHint": "Gesimuleer: Tiva stel 'n opsomming op en voeg dit by die ry.",
+    "uploadFile": "Boletim da República-PDF (opsioneel)",
+    "uploadSubmit": "Voeg by die ry",
+    "uploadedMeta": "Opgelaai deur 'n hersiener · KI-opsomming word voorberei",
+    "uploadedSummary": "Tiva berei die opsomming van hierdie teks voor (gesimuleer in die demo). Gebruik Wysig om dit self te skryf.",
+    "uploadedOfficial": "[Amptelike teks van die opgelaaide wet]",
+    "awaiting": "Wag op hersiening",
+    "reviewed": "Hersien",
+    "empty": "Niks wag nie. Elke konsep is hersien.",
+    "affects": "Nuwe wet · raak bestaande padkaarte",
+    "kind": {
+      "law_summary": "Opsomming",
+      "answer_template": "Antwoordsjabloon",
+      "roadmap_rule": "Padkaartreël",
+      "flagged_answer": "Gemerkte antwoord"
+    },
+    "decision": {
+      "approved": "Goedgekeur en gepubliseer",
+      "rejected": "Afgekeur"
+    },
+    "effective": "Van krag {{ date }}",
+    "draftAi": "Konsep · KI",
+    "draftEdited": "Konsep · gewysig deur 'n hersiener",
+    "aiSummary": "KI-opsomming ({{ lang }})",
+    "source": "Bron · Boletim da República",
+    "illustrativeExcerpt": "Illustratiewe uittreksel vir die demo; die hersiener kontroleer dit teen die amptelike publikasie.",
+    "openConversation": "Maak die gesprek in hersiening oop",
+    "editLabel": "Wysig die opsomming",
+    "saveEdit": "Stoor die wysiging",
+    "cancel": "Kanselleer",
+    "note": "Hersienersnota",
+    "notePlaceholder": "Opsioneel: wat jy verander het en hoekom",
+    "approve": "Keur goed en publiseer",
+    "edit": "Wysig",
+    "reject": "Keur af",
+    "logged": "Elke handeling word met hersiener, tyd en weergawe aangeteken",
+    "version": "huidige weergawe v{{ n }}",
+    "auditTitle": "Ouditlog",
+    "audit": {
+      "time": "Tyd",
+      "action": "Handeling",
+      "reviewer": "Hersiener",
+      "version": "Weergawe",
+      "note": "Nota"
+    },
+    "action": {
+      "drafted": "Deur KI opgestel",
+      "flagged": "Gemerk vir hersiening",
+      "commented": "Opmerking",
+      "edited": "Gewysig",
+      "approved": "Goedgekeur en gepubliseer",
+      "rejected": "Afgekeur",
+      "uploaded": "Wetgewing opgelaai"
+    },
+    "announce": {
+      "approved": "Konsep goedgekeur en gepubliseer.",
+      "rejected": "Konsep afgekeur.",
+      "edited": "Wysiging as nuwe weergawe gestoor.",
+      "uploaded": "Wetgewing by die ry gevoeg."
+    },
+    "stripTitle": "Beleggersinligting hierdie kwartaal",
+    "topSectors": "Mees gevraagde sektore",
+    "topOrigins": "Vernaamste beleggersoorspronge",
+    "unanswered": "Onbeantwoorde vrae",
+    "unansweredCount": "{{ n }} na die inhoudspan verwys"
+  },
+  "kb": {
+    "title": "Regskennisbasis",
+    "intro": "Elke antwoord en padkaartreël is gekoppel aan 'n regsteks met weergawe en datum van inwerkingtreding.",
+    "search": "Soek wette",
+    "add": "Voeg wetgewing by",
+    "filterTopic": "Filtreer volgens gebied",
+    "filterStatus": "Filtreer volgens status",
+    "all": "Alle",
+    "anyStatus": "Enige status",
+    "status": {
+      "active": "Van krag",
+      "amended": "Gewysig",
+      "under_review": "In hersiening",
+      "revoked": "Herroep"
+    },
+    "revokedBy": "deur {{ by }}",
+    "summaryInReview": "Opsomming in hersiening",
+    "tableCaption": "Wette in die kennisbasis",
+    "count": "{{ n }} wette",
+    "empty": "Geen wet pas by die filters nie.",
+    "col": {
+      "diploma": "Wet",
+      "subject": "Onderwerp",
+      "effective": "Van krag",
+      "version": "Weergawe",
+      "status": "Status",
+      "linked": "Gekoppelde reëls"
+    },
+    "kind": {
+      "step": "Padkaartstappe",
+      "rule": "Reëltabelle",
+      "answer": "Antwoorde"
+    },
+    "table": {
+      "apiex": "APIEX",
+      "incentives": "Aansporings",
+      "licences": "Lisensies",
+      "obligations": "Verpligtinge",
+      "quotas": "Kwotas",
+      "roadmap": "Padkaart",
+      "sectors": "Sektore",
+      "treaties": "Verdrae",
+      "triggers": "Snellers",
+      "vehicles": "Beleggingstrukture",
+      "zones": "Sones",
+      "qa": "Antwoord"
+    },
+    "scan": {
+      "title": "Weeklikse skandering van die Boletim da República",
+      "intro": "Tiva lees elke nuwe uitgawe en merk tekste wat antwoorde of padkaarte raak.",
+      "last": "Laaste skandering",
+      "next": "Volgende skandering",
+      "issues": "Uitgawes gelees",
+      "found": "Nuwe items gevind",
+      "outcome": {
+        "queued": "In die valideringsry",
+        "published": "Goedgekeur",
+        "no_impact": "Geen impak"
+      },
+      "footer": "Nuwe tekste word deur KI opgestel en eers ná 'n prokureur se goedkeuring gepubliseer."
+    }
+  },
+  "review": {
+    "title": "Gesprekhersiening",
+    "intro": "Antwoorde met lae vertroue en gemerkte antwoorde kom hierheen. Korreksies leer die kennisbasis.",
+    "chat": "Klets #{{ id }}",
+    "reason": {
+      "low_confidence": "Lae vertroue",
+      "user_flagged": "Deur die belegger gemerk",
+      "law_changed": "Wet het verander"
+    },
+    "confidence": "Vertroue",
+    "translation": "Vertaling ({{ lang }})",
+    "tivaAnswer": "Tiva se antwoord",
+    "sources": "Aangehaalde bronne",
+    "gapTag": "Nie in die kennisbasis nie",
+    "actionTitle": "Hersienershandeling",
+    "corrected": "Gekorrigeerde antwoord",
+    "correctedPlaceholder": "Skryf die gekorrigeerde antwoord en haal die wette aan waarop dit steun",
+    "gap": "Leemte in die kennisbasis",
+    "gapOther": "'n Ander leemte…",
+    "gapOtherPlaceholder": "Beskryf die ontbrekende reël of teks",
+    "gapNone": "Geen leemte",
+    "notify": "Stel die belegger in kennis as die antwoord verander",
+    "correct": "Korrigeer en leer",
+    "approve": "Keur goed soos dit is",
+    "escalate": "Verwys na 'n prokureur",
+    "notifyNote": "Die belegger word in kennis gestel as die antwoord wat hulle ontvang het, verander.",
+    "done": {
+      "corrected": "Gekorrigeer en geleer",
+      "approved": "Goedgekeur soos dit is",
+      "escalated": "Na 'n prokureur verwys"
+    },
+    "notified": "Die belegger sal van die verandering in kennis gestel word.",
+    "reopen": "Heropen",
+    "open": "Maak oop",
+    "queueTitle": "Hersieningsry",
+    "col": {
+      "chat": "Gesprek",
+      "language": "Taal",
+      "topic": "Onderwerp",
+      "reason": "Rede",
+      "received": "Ontvang",
+      "status": "Status"
+    },
+    "gapsTitle": "Leemtes aangeteken in die kennisbasis",
+    "gapsIntro": "Elke leemte word 'n inhoudstaak vir die regspan.",
+    "gapsEmpty": "Nog geen leemte aangeteken nie."
+  },
+  "leads": {
+    "title": "Leidrade",
+    "intro": "Beleggers wat na 'n kenner gevra het. Slegs met hul toestemming gedeel.",
+    "filterExpert": "Filtreer volgens kenner",
+    "filter": {
+      "all": "Alle kenners",
+      "tax-advisory": "Tax Advisory",
+      "public": "Openbare liggame"
+    },
+    "metrics": {
+      "month": "Oorhandigings hierdie maand",
+      "conversion": "Oorhandiging tot mandaat",
+      "reply": "Mediaan eerste antwoord",
+      "response": "Beantwoord",
+      "note": "Bereken uit die {{ n }} oorhandigings wat gewys word."
+    },
+    "hours": "{{ n }} h",
+    "stage": {
+      "new": "Nuut",
+      "in_review": "In hersiening",
+      "quoted": "Voorstel gestuur",
+      "won": "Mandaat gewen"
+    },
+    "new": "Nuut",
+    "fit": {
+      "high": "Hoë passing · {{ n }}",
+      "medium": "Medium · {{ n }}",
+      "low": "Laag · {{ n }}"
+    },
+    "local": "Plaaslik",
+    "needs": "Behoeftes",
+    "consent": "Toestemming",
+    "roadmapAttached": "Padkaart aangeheg",
+    "call": "Oproep {{ date }}",
+    "emptyStage": "Geen leidraad in hierdie fase nie.",
+    "fitNote": "Passingtelling: aanduidend, op grond van projekgrootte, sektor, oorsprong en hoe volledig die oorhandiging is."
+  },
+  "lead": {
+    "back": "Terug na leidrade",
+    "missing": "Leidraad nie gevind nie.",
+    "stage": "Fase",
+    "message": "Boodskap",
+    "project": "Projek en padkaart",
+    "province": "Provinsie",
+    "investment": "Belegging",
+    "workers": "Werkers (buitelands)",
+    "vehicle": "Beleggingstruktuur",
+    "sector": "Sektor",
+    "origin": "Oorsprong",
+    "openRoadmap": "Maak die padkaart oop",
+    "noProject": "Geen projek aangeheg nie.",
+    "notes": "Interne notas",
+    "noNotes": "Nog geen notas nie.",
+    "addNote": "Nuwe nota",
+    "saveNote": "Stoor nota",
+    "saved": "Veranderinge gestoor",
+    "fit": "Passingtelling",
+    "fitPart": {
+      "size": "Grootte",
+      "sector": "Sektor",
+      "origin": "Oorsprong",
+      "completeness": "Volledigheid"
+    },
+    "handoff": "Oorhandiging",
+    "expert": "Gevraagde kenner",
+    "consentLegacy": "Via die navraagvorm gestuur",
+    "callSlot": "Oproeptyd",
+    "channel": "Kanaal",
+    "contact": "Kontak"
+  },
+  "intel": {
+    "title": "Beleggersinligting",
+    "intro": "Geanonimiseerde vraagdata: die kwartaalverslag vir APIEX, CTA en borge.",
+    "period": "Tydperk",
+    "export": "Voer kwartaalverslag uit",
+    "print": "Druk",
+    "exported": "Verslag afgelaai.",
+    "demoBanner": "Demodata: illustratiewe syfers om die uitleg te wys. Die regstreekse verslag word uit geanonimiseerde gesprekke gevul.",
+    "kpi": {
+      "conversations": "Gesprekke",
+      "investors": "Beleggers",
+      "roadmaps": "Padkaarte gegenereer",
+      "origins": "Lande van oorsprong",
+      "citation": "Antwoorde met 'n verwysing"
+    },
+    "delta": "{{ d }} teenoor {{ prev }}",
+    "sectorTitle": "Padkaarte volgens sektor",
+    "sectorNote": "Vraag volgens sektor",
+    "col": {
+      "sector": "Sektor",
+      "bar": "Aandeel van die totaal (staaf)",
+      "roadmaps": "Padkaarte",
+      "share": "Aandeel",
+      "asked": "Keer gevra"
+    },
+    "originTitle": "Beleggersoorspronge",
+    "originNote": "Lande wat beleggers verklaar; nooit aan 'n persoon gekoppel nie.",
+    "unansweredTitle": "Vrae wat Tiva nie kon beantwoord nie",
+    "unansweredIntro": "Elkeen word 'n inhoudstaak vir die regspan.",
+    "asked": "{{ n }} keer gevra",
+    "createTask": "Skep inhoudstaak",
+    "taskCreated": "Inhoudstaak geskep"
+  },
+  "partners": {
+    "title": "Vennote en gids",
+    "intro": "Inskrywings, borgplasings en die vertalings wat beleggers sien.",
+    "add": "Voeg inskrywing by",
+    "addHint": "Nie in die demo beskikbaar nie: inskrywings kom uit die gidsdatalêer.",
+    "filterLabel": "Filtreer inskrywings",
+    "filter": {
+      "all": "Alle",
+      "public": "Openbare liggame",
+      "sponsored": "Geborg",
+      "providers": "Verskaffers",
+      "attention": "Vereis aandag"
+    },
+    "tableCaption": "Gidsinskrywings",
+    "count": "{{ n }} inskrywings",
+    "col": {
+      "name": "Naam",
+      "type": "Tipe",
+      "status": "Status",
+      "verified": "Geverifieer",
+      "languages": "Tale",
+      "renewal": "Hernuwing"
+    },
+    "type": {
+      "public": "Openbare liggaam",
+      "association": "Sakevereniging",
+      "law_firm": "Prokureursfirma",
+      "tax": "Belastingadviseur",
+      "bank": "Bank",
+      "accounting": "Rekeningkunde",
+      "logistics": "Logistiek",
+      "consulting": "Konsultasie"
+    },
+    "contract": {
+      "founding_sponsor": "Stigtersborg",
+      "sponsor": "Borg",
+      "expert_partner": "Kennervennoot",
+      "partner": "Vennoot",
+      "verified_listing": "Geverifieerde inskrywing"
+    },
+    "standing": {
+      "public": "Openbaar",
+      "sponsored": "Geborg",
+      "partner": "Vennoot",
+      "verified": "Geverifieer",
+      "pending": "Dokumente uitstaande",
+      "expired": "Lisensie verval"
+    },
+    "notVerified": "Nog nie geverifieer nie",
+    "ofEight": "{{ n }} van {{ total }}",
+    "translatedInto": "Tale waarin hierdie inskrywing vertaal is",
+    "yes": "vertaal",
+    "no": "nie vertaal nie",
+    "renewal": {
+      "free": "Gratis · geen hernuwing",
+      "ok": "Geldig",
+      "due": "Hernuwing verskuldig",
+      "expired": "Verval"
+    },
+    "placementTitle": "Borgplasing",
+    "shownOn": "Gewys op",
+    "placement": {
+      "landing_footer": "voetskrif van die tuisblad",
+      "directory": "gids",
+      "expert": "Praat met 'n kenner"
+    },
+    "rulesTitle": "Plasingsreëls",
+    "rule": {
+      "publicFree": "Openbare liggame word altyd gratis gelys",
+      "publicFirst": "Openbare liggame kom altyd eerste",
+      "maxPerCategory": "Hoogstens {{ n }} geborgde inskrywing per kategorie",
+      "labelVisible": "Altyd as “Geborg” gemerk",
+      "notInAnswers": "Nooit binne regsantwoorde geplaas nie"
+    },
+    "ruleOk": "reël nagekom",
+    "ruleBroken": "reël oortree",
+    "dataNote": "Inskrywings word uit die openbare gids gelees; kontrakte en plasings is illustratiewe demodata."
+  }
+}

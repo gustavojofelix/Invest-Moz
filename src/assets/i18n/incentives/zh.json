@@ -1,0 +1,58 @@
+{
+  "eyebrow": "激励政策估算",
+  "title": "您的项目可能享受哪些优惠？",
+  "intro": "按行业、省份和制度列出的参考性税收和关税优惠，每项均附法律依据。",
+  "form": "您的项目",
+  "results": "参考性优惠",
+  "fields": {
+    "sector": "行业",
+    "province": "省份",
+    "amount": "投资额（USD）",
+    "jobs": "本地就业岗位",
+    "regime": "制度",
+    "exports70": "项目至少 70% 的产出将用于出口"
+  },
+  "warning": {
+    "title": "仅供参考",
+    "text": "《税收优惠法典》（CBF）正由政府审议，这些优惠可能发生变化，并取决于 APIEX 对项目的批准。"
+  },
+  "heading": "{{regime}} 制度下的优惠",
+  "status": {
+    "likely": "可能适用",
+    "check": "需核实"
+  },
+  "kind": {
+    "fiscal": "税收",
+    "customs": "关税",
+    "other": "程序"
+  },
+  "estimate": {
+    "label": "示例金额：",
+    "note": "5 年合计，视地点而定"
+  },
+  "exportsNeeded": "仅在至少 70% 的产出用于出口时适用。",
+  "zones": {
+    "title": "{{province}} 的经济区",
+    "none": "该省目前没有列出此类经济区。其他省份的经济区仍可能适合该项目。",
+    "map": "在地图上查看经济区"
+  },
+  "sources": "依据",
+  "upgrade": {
+    "eyebrow": "需要确定的答案？",
+    "title": "获取经律师审核的备忘录",
+    "text": "Tax Advisory 可确认您的项目适用哪些优惠、具体金额和申报步骤，并在开始任何工作前提供费用报价。",
+    "cta": "获取经律师审核的备忘录"
+  },
+  "roadmap": "打开我的路线图",
+  "pathfinder": "生成我的路线图",
+  "sectors": {
+    "agro_industry": "农产品加工",
+    "energy": "能源",
+    "logistics": "物流",
+    "tourism": "旅游",
+    "oil_gas": "石油和天然气",
+    "mining": "矿业",
+    "services": "服务业",
+    "general": "一般贸易"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "back": "返回首页",
+  "status": "投资顾问 · 在线",
+  "new": "新对话",
+  "language": "语言",
+  "thread": "与 Tiva 的对话",
+  "hello": "您好，我是 Tiva。请告诉我您的投资构想，或就在莫桑比克投资提出问题。我的回答均基于经律师审核的内容，并附上每个回答背后的法律依据。",
+  "tryAsking": "试着问问",
+  "thinking": "Tiva 正在查阅已审核的资料",
+  "stopped": "回答已停止。",
+  "sources": "法律依据",
+  "reviewed": "经律师审核的内容 · 一般性信息",
+  "whenToTalk": "何时需要咨询专家",
+  "outline": {
+    "sector": "行业：{{sector}}",
+    "body": "这是一个值得关注的项目。概要如下：\n\n- **公司：**通常适合设立有限责任公司（Lda），外国股东可以持有。\n- **投资：**在 APIEX 登记项目，以获得相关保障和激励。\n- **许可：**通过 e-BAU 申请经营许可或工业许可。\n- **资金：**在 Banco de Moçambique 登记您的资本，以便日后汇回利润。\n\n您的路线图会根据您的行业、省份和规模，将其细化为九个有序步骤。"
+  },
+  "fallback": {
+    "text": "对于这个问题，我目前还没有经律师审核的答案，我不想随意猜测。您可以试试下面的问题，或咨询能够了解您具体情况的专家。",
+    "suggested": "推荐问题"
+  },
+  "roadmap": {
+    "ready": "您的路线图已准备就绪",
+    "steps": "{{count}} 个步骤 · 公司、APIEX、土地、环境、许可、资本、人员、税务",
+    "open": "打开路线图"
+  },
+  "build": {
+    "eyebrow": "下一步",
+    "title": "生成我的路线图",
+    "text": "回答六个简短问题，即可将您的构想转化为九个有序步骤，每一步都注明主管机构和法律依据。",
+    "cta": "生成我的路线图"
+  },
+  "quick": {
+    "label": "推荐的后续问题",
+    "incentives": "适用哪些激励政策？",
+    "permits": "管理人员的工作许可",
+    "expert": "咨询专家"
+  },
+  "topics": "主题",
+  "topicQuestions": "该主题下的问题",
+  "fieldLabel": "给 Tiva 发消息",
+  "placeholder": "关于投资，尽管问…",
+  "listening": "正在聆听… 请说话",
+  "voice": "录制语音消息",
+  "voiceStop": "停止录音",
+  "voiceUnavailable": "此浏览器不支持语音消息，请输入您的问题。",
+  "send": "发送",
+  "stop": "停止回答",
+  "sectors": {
+    "agro_industry": "农产品加工",
+    "energy": "能源",
+    "logistics": "物流",
+    "tourism": "旅游",
+    "oil_gas": "石油和天然气",
+    "mining": "矿业",
+    "services": "服务业",
+    "general": "一般贸易"
+  }
+}

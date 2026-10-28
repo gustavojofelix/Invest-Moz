@@ -1,0 +1,114 @@
+{
+  "eyebrow": "Beleggings-Pathfinder",
+  "progress": "Vraag {{n}} van {{total}}",
+  "progressLabel": "Pathfinder-vordering",
+  "why": "Waarom dit saak maak:",
+  "back": "Terug",
+  "continue": "Gaan voort",
+  "build": "Bou my padkaart",
+  "building": "U padkaart word voorberei…",
+  "startOver": "Begin oor",
+  "voice": "Spreek u idee uit",
+  "voiceStop": "Hou op luister",
+  "disclaimer": "Algemene inligting gebaseer op Mosambiekse wetgewing. Nie regsadvies nie.",
+  "askInstead": "Wil u eerder 'n vraag vra?",
+  "soFar": {
+    "title": "U antwoorde tot dusver",
+    "empty": "U antwoorde sal hier verskyn soos u vorder.",
+    "edit": "Verander: {{q}}",
+    "sector": "Sektor",
+    "province": "Provinsie",
+    "size": "Belegging",
+    "origin": "Belegger",
+    "jobs": "Werksgeleenthede",
+    "timing": "Begin"
+  },
+  "example": {
+    "load": "Laai 'n voorbeeld",
+    "loaded": "Voorbeeld gelaai. Kies wanneer u beplan om te begin en bou dan die padkaart — of verander enige antwoord."
+  },
+  "sectors": {
+    "agro_industry": "Landbounywerheid",
+    "energy": "Energie",
+    "tourism": "Toerisme",
+    "logistics": "Logistiek",
+    "mining": "Mynbou",
+    "oil_gas": "Olie en gas",
+    "services": "Dienste",
+    "general": "Iets anders"
+  },
+  "sector": {
+    "title": "Wat sal die besigheid doen?",
+    "why": "Die sektor bepaal watter lisensies, omgewingskategorie en aansporings van toepassing is.",
+    "ideaLabel": "U idee in een sin (opsioneel)",
+    "ideaPlaceholder": "bv. 'n Kasjoeneutverwerkingsaanleg wat na Indië uitvoer",
+    "ideaHint": "Tiva lei die sektor uit u idee af; kontroleer dit hieronder.",
+    "legend": "Sektor",
+    "required": "Kies die sektor wat die naaste aan u projek is.",
+    "next": "Volgende: waar die projek sal wees."
+  },
+  "province": {
+    "title": "Waar sal die projek wees?",
+    "why": "Die provinsie bepaal wie sekere lisensies goedkeur en watter korridor en aansporings van toepassing is.",
+    "unsure": "Nog nie seker nie",
+    "unsureHint": "Tiva sal intussen Maputo-stad gebruik. U kan dit later verander.",
+    "required": "Kies 'n provinsie, of “Nog nie seker nie”.",
+    "next": "Volgende: beleggingsgrootte, werksgeleenthede en wanneer u beplan om te begin."
+  },
+  "size": {
+    "title": "Hoeveel beplan u om te belê?",
+    "why": "Die grootte bepaal wie die projek by APIEX goedkeur en of die buitelandse belegging aan die minimum voldoen vir die waarborge oor die repatriasie van wins.",
+    "under": "Onder {{v}}",
+    "over": "Bo {{v}}",
+    "exact": "Of die presiese bedrag (USD)",
+    "exactHint": "'n Reeks is genoeg vir 'n eerste padkaart.",
+    "using": "Tiva sal {{v}} as 'n skatting gebruik.",
+    "required": "Kies 'n reeks of voer 'n bedrag van minstens USD 1 000 in.",
+    "next": "Volgende: waar die belegging vandaan kom."
+  },
+  "origin": {
+    "title": "Waar kom die belegging vandaan?",
+    "why": "U land bepaal of 'n dubbelbelastingooreenkoms die terughoubelasting verlaag, en buitelandse kapitaal moet by die Banco de Moçambique geregistreer word.",
+    "capitalLegend": "Kapitaal",
+    "foreign": "Buitelands",
+    "mixed": "Buitelands en Mosambieks",
+    "mozambican": "Mosambieks",
+    "country": "Belegger se land",
+    "countryPlaceholder": "Soek 'n land",
+    "countryHint": "Lande gemerk ADT het 'n dubbelbelastingooreenkoms met Mosambiek.",
+    "noCountry": "Geen land gevind nie",
+    "treaty": "ADT",
+    "required": "Kies die belegger se land.",
+    "next": "Volgende: hoeveel mense u gaan indiens neem."
+  },
+  "jobs": {
+    "title": "Hoeveel mense gaan u indiens neem?",
+    "why": "Die aantal werknemers bepaal u kwota vir buitelandse werkers kragtens Lei n.º 13/2023: daarbinne is 'n kennisgewing genoeg; daarbo benodig u werkpermitte.",
+    "workers": "Totale werkers",
+    "foreign": "Waarvan buitelands",
+    "hint": "'n Skatting vir die eerste jaar is goed genoeg.",
+    "summary": "{{n}} ({{f}} buitelands)",
+    "required": "Voer heelgetalle in; buitelandse werkers kan nie die totaal oorskry nie.",
+    "next": "Laastens: wanneer u beplan om te begin."
+  },
+  "timing": {
+    "title": "Wanneer beplan u om te begin?",
+    "why": "Die tydsberekening wys Tiva watter stappe nou begin moet word: die omgewingslisensie en grond kan maande neem, dus loop hulle dikwels parallel.",
+    "now": "Binne 3 maande",
+    "months3": "Oor 3 tot 12 maande",
+    "months12": "Oor meer as 'n jaar",
+    "exploring": "Verken net",
+    "required": "Kies wanneer u beplan om te begin.",
+    "next": "Dan bou Tiva u padkaart van nege stappe."
+  },
+  "facts": {
+    "legend": "Vertel ons ook (opsioneel)",
+    "hint": "Merk wat van toepassing is. Elkeen voeg 'n stap of 'n kontrole by u padkaart.",
+    "needsLand": "Ons benodig grond (DUAT) vir die projek",
+    "importsGoods": "Ons sal toerusting of goedere invoer",
+    "temporaryImport": "Sommige toerusting word tydelik ingevoer",
+    "exports": "Ons sal uitvoer",
+    "shareholderLoan": "'n Aandeelhouerslening of buitelandse finansiering",
+    "feesAbroad": "Ons sal dienste of tantieme in die buiteland betaal"
+  }
+}

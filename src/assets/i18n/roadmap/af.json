@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Beleggingspadkaart",
+  "backToChat": "Terug na die gesprek",
+  "stepsTitle": "Die nege stappe",
+  "progress": "{{done}} van {{total}} voltooi",
+  "progressLabel": "Padkaartvordering",
+  "jobs": "{{n}} werksgeleenthede",
+  "foreign": "{{n}} buitelands",
+  "capital": {
+    "foreign": "Buitelandse belegger",
+    "mixed": "Buitelandse en Mosambiekse kapitaal",
+    "mozambican": "Mosambiekse belegger"
+  },
+  "profile": {
+    "label": "Beleggersprofiel",
+    "investor": "Belegger",
+    "investment": "Belegging",
+    "jobs": "Werksgeleenthede",
+    "sector": "Sektor"
+  },
+  "markDone": "Merk stap {{n}} as voltooi: {{title}}",
+  "markUndone": "Merk stap {{n}} as nie voltooi nie: {{title}}",
+  "tick": "Merk as voltooi",
+  "undo": "Merk as nie voltooi nie",
+  "done": "Voltooi",
+  "current": "Nou",
+  "mayNotApply": "Is dalk nie van toepassing nie",
+  "who": "Wie",
+  "duration": "Aanduidende tyd",
+  "forYou": "Vir u projek",
+  "documents": "Dokumente",
+  "checklist": "Maak die kontrolelys oop",
+  "legalBasis": "Regsgrondslag",
+  "openRef": "{{ref}} — maak die regsverwysing oop",
+  "detail": {
+    "recommended": "Aanbeveel",
+    "decides": "Wie besluit",
+    "guarantee": "Repatriasiewaarborg",
+    "noLand": "U het gesê die projek benodig nie grond nie: die huur van bestaande perseel is gewoonlik genoeg. As dit verander, is hierdie stap van toepassing.",
+    "noForeignCapital": "Mosambiekse kapitaal: geen registrasie van buitelandse belegging is nodig nie, tensy buitelandse fondse later inkom.",
+    "noForeignWorkers": "Geen buitelandse werkers beplan nie: registreer die maatskappy en u personeel by INSS. Permitte is slegs ter sake as u later uit die buiteland aanstel."
+  },
+  "allDone": "Al nege stappe is voltooi. Hou van nou af die maandelikse sperdatums dop.",
+  "aftercare": "Maak die nasorgkalender oop",
+  "timeToOperate": "Tyd tot bedryf",
+  "legalDate": "Algemene inligting gebaseer op wetgewing van krag op {{date}}. Nie regsadvies nie.",
+  "actions": {
+    "label": "Padkaartaksies",
+    "pdf": "Laai PDF af",
+    "expert": "Praat met 'n kenner",
+    "incentives": "Skat u aansporings",
+    "chat": "Vra Tiva oor hierdie padkaart",
+    "edit": "Verander my antwoorde"
+  },
+  "loading": "U padkaart word voorberei…",
+  "error": "Iets het verkeerd geloop met die voorbereiding van die padkaart.",
+  "missing": {
+    "title": "Ons kon nie hierdie padkaart vind nie",
+    "text": "Projekte word slegs op hierdie toestel gestoor. Beantwoord die ses vrae weer om dit te herbou."
+  },
+  "empty": {
+    "title": "U padkaart begin met ses kort vrae",
+    "text": "Sektor, provinsie, grootte, oorsprong, werksgeleenthede en tydsberekening. Tiva verander die antwoorde in nege geordende stappe, elk met die owerheid, die dokumente en die wet daaragter.",
+    "pathfinder": "Begin die Pathfinder",
+    "examples": "Of maak 'n voorbeeldpadkaart oop"
+  },
+  "pdf": {
+    "back": "Terug na die padkaart",
+    "print": "Druk / Stoor as PDF",
+    "hint": "Kies “Stoor as PDF” in die drukdialoog.",
+    "ref": "Verw. {{ref}}",
+    "generated": "Gegenereer {{date}}",
+    "step": "Stap",
+    "incentives": "Aansporings om te verken",
+    "incentivesNote": "Slegs aanduidend: onderhewig aan APIEX-goedkeuring en aan die hangende hersiening van die Kode van Fiskale Voordele.",
+    "next": "U volgende drie aksies",
+    "contacts": "Sleutelkontakte",
+    "contactApiex": "APIEX · projekregistrasie",
+    "contactBau": "BAU {{province}} · lisensiëring",
+    "contactBdm": "Banco de Moçambique · kapitaalregistrasie",
+    "contactTa": "Tax Advisory · regs- en belastingondersteuning",
+    "disclaimer": "Algemene inligting gebaseer op wetgewing van krag op die datum van generering. Nie regsadvies nie. Stappe, owerhede en dokumente kan wissel na gelang van die feite van elke projek."
+  }
+}

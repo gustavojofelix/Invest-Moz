@@ -1,0 +1,56 @@
+{
+  "eyebrow": "后续服务",
+  "genericCompany": "[公司名称], Lda",
+  "fromRoadmap": "来自您路线图的截止日期",
+  "genericNote": "示例日历：一家有员工（部分为外籍）的公司。",
+  "start": "使用我的项目",
+  "view": "查看",
+  "tabs": {
+    "deadlines": "截止日期",
+    "permits": "许可",
+    "filings": "申报"
+  },
+  "shiftRule": "截止日期如遇周末或公共假日，则提前至前一个工作日。Tiva 显示您实际必须遵守的日期。",
+  "count": "截止日期：{{count}}",
+  "period": {
+    "payroll": "{{month}} 工资单",
+    "salaries": "{{month}} 工资与付款",
+    "vat": "{{month}} 申报"
+  },
+  "shiftedWeekend": "截止日期 {{nominal}} 是{{weekday}}：请提前于 {{date}} 提交。",
+  "shiftedHoliday": "截止日期 {{nominal}} 是公共假日（{{holiday}}）：请提前于 {{date}} 提交。",
+  "noDeadlines": "该公司没有每月截止日期。",
+  "permitKinds": {
+    "dire": "DIRE 续期",
+    "work_permit": "工作许可续期",
+    "licence": "许可证续期"
+  },
+  "exampleHolder": "[经理姓名]",
+  "expires": "{{date}} 到期 · {{reminder}} 提醒",
+  "expiresExample": "[日期] 到期 · 示例：请在下方添加您自己的提醒",
+  "removePermit": "删除 {{holder}} 的提醒",
+  "noPermits": "暂无续期提醒。",
+  "addTitle": "添加续期提醒",
+  "kind": "文件",
+  "holder": "持有人",
+  "expiry": "到期日",
+  "lead": "提前提醒",
+  "leadDays": "提前 {{n}} 天",
+  "add": "添加提醒",
+  "filingsLead": "年度申报、预缴税款和报告，以及下一个截止日期。",
+  "remindTitle": "提醒方式",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "电子邮件",
+    "push": "推送"
+  },
+  "remindOn": "每个截止日期前三天提醒（演示：不会实际发送）。",
+  "remindOff": "提醒已关闭。截止日期仍显示在本页。",
+  "sourcesTitle": "法律依据",
+  "disclaimer": "仅供参考的日历，不构成税务意见。请与您的会计师确认截止日期。",
+  "addToCalendar": "添加到日历",
+  "help": "获取申报帮助",
+  "icsShifted": "由 {{date}} 提前（周末或公共假日）。",
+  "icsRenew": "开始续期：{{title}}",
+  "icsExpires": "{{date}} 到期。"
+}

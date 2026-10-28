@@ -1,0 +1,47 @@
+{
+  "eyebrow": "机遇地图",
+  "title": "探索莫桑比克",
+  "intro": "省份、交通走廊和经济区。先选择一个行业查看适合的地区，再选择省份了解详情。",
+  "filter": "按行业筛选",
+  "all": "所有行业",
+  "matches": "已突出显示 {{count}} 个省份",
+  "mapLabel": "莫桑比克地图，显示省份、走廊和经济区",
+  "pick": "省份",
+  "hint": "选择一个省份",
+  "note": "位置仅供参考。经济区资格和激励政策以 APIEX 确认为准。",
+  "legend": {
+    "ports": "港口",
+    "cities": "城市",
+    "corridors": "走廊",
+    "zones": "经济区",
+    "rovuma": "Rovuma 盆地"
+  },
+  "card": {
+    "region": "所选省份",
+    "noCorridor": "位于主要走廊之外",
+    "highlights": "为何选择这里",
+    "sectors": "重点行业",
+    "zones": "经济区和园区",
+    "noZones": "该省目前尚无列出的经济区或园区。",
+    "incentives": "查看此处的激励政策",
+    "ask": "询问 Tiva",
+    "askQuestion": "在 {{province}} 可以投资什么？",
+    "profile": "行业概况",
+    "empty": "在地图或列表中选择一个省份，查看其走廊、重点行业和经济区。"
+  },
+  "kind": {
+    "sez": "经济特区",
+    "ifz": "工业自由区",
+    "park": "工业园区",
+    "tourism": "旅游区"
+  },
+  "sectors": {
+    "agro_industry": "农产品加工",
+    "energy": "能源",
+    "logistics": "物流",
+    "tourism": "旅游",
+    "oil_gas": "石油和天然气",
+    "mining": "矿业",
+    "services": "服务业"
+  }
+}

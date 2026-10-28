@@ -5,6 +5,7 @@ import { CitationService } from './citation.service';
 /**
  * Mono legal reference tag, e.g. `Lei n.º 11/2009`. With `refId` it is a
  * button that opens the citation sheet; with only `label` it is static.
+ * `variant="chip"` draws the rounded legal-source chip of the Tiva screens.
  */
 @Component({
   selector: 'im-ref-tag',
@@ -14,13 +15,14 @@ import { CitationService } from './citation.service';
       <button
         type="button"
         class="tag tag-btn"
+        [class.as-chip]="variant() === 'chip'"
         (click)="open($event)"
         [attr.aria-label]="ariaLabel()"
       >
         {{ text() }}
       </button>
     } @else {
-      <span class="tag">{{ text() }}</span>
+      <span class="tag" [class.as-chip]="variant() === 'chip'">{{ text() }}</span>
     }
   `,
   styles: `
@@ -59,11 +61,30 @@ import { CitationService } from './citation.service';
     .tag-btn:hover {
       background: var(--brand-tint);
     }
+    .tag.as-chip {
+      padding: 0.3125rem 0.5625rem;
+      border: 0;
+      border-radius: var(--radius-sm);
+      background: var(--brand-tint);
+      color: var(--ok-ink);
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 600;
+      line-height: 1.3;
+      vertical-align: baseline;
+    }
+    .tag-btn.as-chip::after {
+      inset: -6px -2px;
+    }
+    .tag-btn.as-chip:hover {
+      background: color-mix(in srgb, var(--brand) 18%, var(--brand-tint));
+    }
   `,
 })
 export class RefTag {
   readonly refId = input<string>();
   readonly label = input<string>();
+  readonly variant = input<'tag' | 'chip'>('tag');
   private readonly kb = inject(KnowledgeBase);
   private readonly citations = inject(CitationService);
 

@@ -1,0 +1,114 @@
+{
+  "eyebrow": "投资 Pathfinder",
+  "progress": "第 {{n}} 题，共 {{total}} 题",
+  "progressLabel": "Pathfinder 进度",
+  "why": "为何重要：",
+  "back": "返回",
+  "continue": "继续",
+  "build": "生成我的路线图",
+  "building": "正在准备您的路线图……",
+  "startOver": "重新开始",
+  "voice": "语音描述您的想法",
+  "voiceStop": "停止聆听",
+  "disclaimer": "基于莫桑比克法律的一般信息，不构成法律意见。",
+  "askInstead": "更想直接提问？",
+  "soFar": {
+    "title": "您目前的回答",
+    "empty": "您的回答将在此逐一显示。",
+    "edit": "修改：{{q}}",
+    "sector": "行业",
+    "province": "省份",
+    "size": "投资额",
+    "origin": "投资者",
+    "jobs": "岗位",
+    "timing": "启动时间"
+  },
+  "example": {
+    "load": "加载示例",
+    "loaded": "示例已加载。请选择计划启动时间，然后生成路线图——或修改任一回答。"
+  },
+  "sectors": {
+    "agro_industry": "农产品加工",
+    "energy": "能源",
+    "tourism": "旅游",
+    "logistics": "物流",
+    "mining": "矿业",
+    "oil_gas": "石油和天然气",
+    "services": "服务业",
+    "general": "其他"
+  },
+  "sector": {
+    "title": "企业将从事什么业务？",
+    "why": "行业决定适用哪些许可证、环境类别和优惠政策。",
+    "ideaLabel": "用一句话描述您的想法（可选）",
+    "ideaPlaceholder": "例如：一座出口印度的腰果加工厂",
+    "ideaHint": "Tiva 会根据您的想法识别行业，请在下方核对。",
+    "legend": "行业",
+    "required": "请选择与您的项目最接近的行业。",
+    "next": "下一步：项目所在地。"
+  },
+  "province": {
+    "title": "项目将位于何处？",
+    "why": "省份决定部分许可证由谁审批，以及适用哪条走廊和哪些优惠政策。",
+    "unsure": "尚未确定",
+    "unsureHint": "Tiva 暂时按马普托市处理，您之后可以更改。",
+    "required": "请选择省份，或选择“尚未确定”。",
+    "next": "下一步：投资规模、岗位数量和计划启动时间。"
+  },
+  "size": {
+    "title": "您计划投资多少？",
+    "why": "投资规模决定由 APIEX 的哪一级审批项目，以及外国投资是否达到利润汇回保障的最低要求。",
+    "under": "低于 {{v}}",
+    "over": "高于 {{v}}",
+    "exact": "或填写准确金额（美元）",
+    "exactHint": "首份路线图只需提供大致范围即可。",
+    "using": "Tiva 将以 {{v}} 作为估算值。",
+    "required": "请选择范围，或输入不低于 1,000 美元的金额。",
+    "next": "下一步：投资资金来源。"
+  },
+  "origin": {
+    "title": "投资资金来自哪里？",
+    "why": "您所在的国家决定是否可通过避免双重征税协定降低预提税；外国资本须在 Banco de Moçambique 登记。",
+    "capitalLegend": "资本",
+    "foreign": "外国",
+    "mixed": "外国和莫桑比克",
+    "mozambican": "莫桑比克",
+    "country": "投资者所在国家",
+    "countryPlaceholder": "搜索国家",
+    "countryHint": "标有 ADT 的国家与莫桑比克签有避免双重征税协定。",
+    "noCountry": "未找到国家",
+    "treaty": "ADT",
+    "required": "请选择投资者所在国家。",
+    "next": "下一步：您将雇用多少人。"
+  },
+  "jobs": {
+    "title": "您将雇用多少人？",
+    "why": "员工人数决定您依据 Lei n.º 13/2023 可享有的外籍员工配额：配额内只需通知；超出配额则需申请工作许可。",
+    "workers": "员工总数",
+    "foreign": "其中外籍员工",
+    "hint": "提供第一年的估计数即可。",
+    "summary": "{{n}} 人（外籍 {{f}} 人）",
+    "required": "请输入整数；外籍员工人数不得超过总数。",
+    "next": "最后一步：计划启动时间。"
+  },
+  "timing": {
+    "title": "您计划何时启动？",
+    "why": "启动时间帮助 Tiva 判断哪些步骤需要立即开始：环境许可和土地可能需要数月，因此通常同步进行。",
+    "now": "3 个月内",
+    "months3": "3 至 12 个月内",
+    "months12": "一年以后",
+    "exploring": "仅作了解",
+    "required": "请选择计划启动时间。",
+    "next": "随后 Tiva 将为您生成九步路线图。"
+  },
+  "facts": {
+    "legend": "补充信息（可选）",
+    "hint": "请勾选适用项，每一项都会为路线图增加一个步骤或核查项。",
+    "needsLand": "项目需要土地（DUAT）",
+    "importsGoods": "我们将进口设备或货物",
+    "temporaryImport": "部分设备为临时进口",
+    "exports": "我们将出口",
+    "shareholderLoan": "股东贷款或境外融资",
+    "feesAbroad": "我们将向境外支付服务费或特许权使用费"
+  }
+}

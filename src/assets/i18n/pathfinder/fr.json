@@ -1,0 +1,114 @@
+{
+  "eyebrow": "Pathfinder de l’investissement",
+  "progress": "Question {{n}} sur {{total}}",
+  "progressLabel": "Progression du Pathfinder",
+  "why": "Pourquoi c’est important :",
+  "back": "Retour",
+  "continue": "Continuer",
+  "build": "Créer ma feuille de route",
+  "building": "Préparation de votre feuille de route…",
+  "startOver": "Recommencer",
+  "voice": "Dicter votre idée",
+  "voiceStop": "Arrêter l’écoute",
+  "disclaimer": "Information générale fondée sur le droit mozambicain. Ne constitue pas un conseil juridique.",
+  "askInstead": "Vous préférez poser une question ?",
+  "soFar": {
+    "title": "Vos réponses jusqu’ici",
+    "empty": "Vos réponses s’affichent ici au fur et à mesure.",
+    "edit": "Modifier : {{q}}",
+    "sector": "Secteur",
+    "province": "Province",
+    "size": "Investissement",
+    "origin": "Investisseur",
+    "jobs": "Emplois",
+    "timing": "Démarrage"
+  },
+  "example": {
+    "load": "Charger un exemple",
+    "loaded": "Exemple chargé. Indiquez quand vous comptez démarrer, puis créez la feuille de route — ou modifiez une réponse."
+  },
+  "sectors": {
+    "agro_industry": "Agro-industrie",
+    "energy": "Énergie",
+    "tourism": "Tourisme",
+    "logistics": "Logistique",
+    "mining": "Mines",
+    "oil_gas": "Pétrole et gaz",
+    "services": "Services",
+    "general": "Autre activité"
+  },
+  "sector": {
+    "title": "Que fera l’entreprise ?",
+    "why": "Le secteur détermine les licences, la catégorie environnementale et les incitations applicables.",
+    "ideaLabel": "Votre idée en une phrase (facultatif)",
+    "ideaPlaceholder": "p. ex. Une usine de transformation de cajou qui exporte vers l’Inde",
+    "ideaHint": "Tiva déduit le secteur de votre idée ; vérifiez-le ci-dessous.",
+    "legend": "Secteur",
+    "required": "Choisissez le secteur le plus proche de votre projet.",
+    "next": "Ensuite : où se situera le projet."
+  },
+  "province": {
+    "title": "Où se situera le projet ?",
+    "why": "La province détermine qui délivre certaines licences et quels corridor et incitations s’appliquent.",
+    "unsure": "Je ne sais pas encore",
+    "unsureHint": "Tiva retient Maputo Ville pour l’instant. Vous pourrez la modifier plus tard.",
+    "required": "Choisissez une province ou « Je ne sais pas encore ».",
+    "next": "Ensuite : montant de l’investissement, emplois et date de démarrage."
+  },
+  "size": {
+    "title": "Combien comptez-vous investir ?",
+    "why": "La taille détermine qui approuve le projet à l’APIEX et si l’investissement étranger atteint le minimum ouvrant droit aux garanties de rapatriement des bénéfices.",
+    "under": "Moins de {{v}}",
+    "over": "Plus de {{v}}",
+    "exact": "Ou le montant exact (USD)",
+    "exactHint": "Une fourchette suffit pour une première feuille de route.",
+    "using": "Tiva retient {{v}} comme estimation.",
+    "required": "Choisissez une fourchette ou saisissez un montant d’au moins 1 000 USD.",
+    "next": "Ensuite : la provenance de l’investissement."
+  },
+  "origin": {
+    "title": "D’où vient l’investissement ?",
+    "why": "Votre pays détermine si une convention de non-double imposition réduit la retenue à la source, et les capitaux étrangers doivent être enregistrés auprès du Banco de Moçambique.",
+    "capitalLegend": "Capital",
+    "foreign": "Étranger",
+    "mixed": "Étranger et mozambicain",
+    "mozambican": "Mozambicain",
+    "country": "Pays de l’investisseur",
+    "countryPlaceholder": "Rechercher un pays",
+    "countryHint": "Les pays marqués ADT ont une convention de non-double imposition avec le Mozambique.",
+    "noCountry": "Aucun pays trouvé",
+    "treaty": "ADT",
+    "required": "Choisissez le pays de l’investisseur.",
+    "next": "Ensuite : le nombre de personnes que vous emploierez."
+  },
+  "jobs": {
+    "title": "Combien de personnes emploierez-vous ?",
+    "why": "L’effectif fixe votre quota de travailleurs étrangers au titre de la Lei n.º 13/2023 : dans le quota, une simple communication suffit ; au-delà, il faut des permis de travail.",
+    "workers": "Effectif total",
+    "foreign": "Dont étrangers",
+    "hint": "Une estimation pour la première année suffit.",
+    "summary": "{{n}} ({{f}} étrangers)",
+    "required": "Saisissez des nombres entiers ; les étrangers ne peuvent pas dépasser l’effectif total.",
+    "next": "Dernière question : quand comptez-vous démarrer."
+  },
+  "timing": {
+    "title": "Quand comptez-vous démarrer ?",
+    "why": "Le calendrier indique à Tiva quelles étapes lancer tout de suite : la licence environnementale et le foncier peuvent prendre des mois et se mènent souvent en parallèle.",
+    "now": "D’ici 3 mois",
+    "months3": "Dans 3 à 12 mois",
+    "months12": "Dans plus d’un an",
+    "exploring": "Je me renseigne",
+    "required": "Indiquez quand vous comptez démarrer.",
+    "next": "Ensuite, Tiva établit votre feuille de route en neuf étapes."
+  },
+  "facts": {
+    "legend": "Précisez aussi (facultatif)",
+    "hint": "Cochez ce qui s’applique. Chaque élément ajoute une étape ou une vérification à votre feuille de route.",
+    "needsLand": "Nous avons besoin d’un terrain (DUAT)",
+    "importsGoods": "Nous importerons des équipements ou des marchandises",
+    "temporaryImport": "Certains équipements entrent en admission temporaire",
+    "exports": "Nous exporterons",
+    "shareholderLoan": "Un prêt d’associé ou un financement étranger",
+    "feesAbroad": "Nous paierons des services ou des redevances à l’étranger"
+  }
+}

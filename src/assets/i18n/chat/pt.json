@@ -1,0 +1,59 @@
+{
+  "back": "Voltar à página inicial",
+  "status": "Concierge de investimento · online",
+  "new": "Nova conversa",
+  "language": "Idioma",
+  "thread": "Conversa com a Tiva",
+  "hello": "Olá, sou a Tiva. Fale-me da sua ideia de investimento ou faça uma pergunta sobre investir em Moçambique. Respondo com base em conteúdo revisto por advogados e mostro a fonte legal de cada resposta.",
+  "tryAsking": "Experimente perguntar",
+  "thinking": "A Tiva está a consultar as fontes revistas",
+  "stopped": "Resposta interrompida.",
+  "sources": "Fontes legais",
+  "reviewed": "Conteúdo revisto por advogados · informação geral",
+  "whenToTalk": "Quando falar com um especialista",
+  "outline": {
+    "sector": "Sector: {{sector}}",
+    "body": "Bom projecto para analisar. Em linhas gerais:\n\n- **Sociedade:** uma sociedade por quotas (Lda) costuma ser adequada, e pode ter sócios estrangeiros.\n- **Investimento:** registe o projecto na APIEX para aceder às garantias e aos benefícios.\n- **Licença:** licença de actividade ou industrial, pedida através do e-BAU.\n- **Dinheiro:** registe o capital no Banco de Moçambique para poder repatriar lucros mais tarde.\n\nO seu roteiro transforma isto em nove passos ordenados para o seu sector, província e dimensão."
+  },
+  "fallback": {
+    "text": "Ainda não tenho uma resposta revista por advogados para isso, e prefiro não adivinhar. Experimente uma destas perguntas ou fale com um especialista que possa analisar o seu caso.",
+    "suggested": "Perguntas sugeridas"
+  },
+  "roadmap": {
+    "ready": "O seu roteiro está pronto",
+    "steps": "{{count}} passos · sociedade, APIEX, terra, ambiente, licença, capital, pessoas, impostos",
+    "open": "Abrir roteiro"
+  },
+  "build": {
+    "eyebrow": "Próximo passo",
+    "title": "Criar o meu roteiro",
+    "text": "Seis perguntas curtas transformam a sua ideia em nove passos ordenados, cada um com a entidade competente e a lei aplicável.",
+    "cta": "Criar o meu roteiro"
+  },
+  "quick": {
+    "label": "Próximas perguntas sugeridas",
+    "incentives": "Que benefícios se aplicam?",
+    "permits": "Autorizações de trabalho para os meus gestores",
+    "expert": "Falar com um especialista"
+  },
+  "topics": "Temas",
+  "topicQuestions": "Perguntas sobre este tema",
+  "fieldLabel": "Mensagem para a Tiva",
+  "placeholder": "Pergunte o que quiser sobre investir…",
+  "listening": "A ouvir… fale agora",
+  "voice": "Gravar uma nota de voz",
+  "voiceStop": "Parar a gravação",
+  "voiceUnavailable": "As notas de voz não estão disponíveis neste navegador. Escreva a sua pergunta.",
+  "send": "Enviar",
+  "stop": "Parar a resposta",
+  "sectors": {
+    "agro_industry": "Agro-indústria",
+    "energy": "Energia",
+    "logistics": "Logística",
+    "tourism": "Turismo",
+    "oil_gas": "Petróleo e gás",
+    "mining": "Mineração",
+    "services": "Serviços",
+    "general": "Comércio geral"
+  }
+}

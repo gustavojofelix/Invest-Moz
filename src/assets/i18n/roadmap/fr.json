@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Feuille de route d’investissement",
+  "backToChat": "Retour à la conversation",
+  "stepsTitle": "Les neuf étapes",
+  "progress": "{{done}} sur {{total}} terminées",
+  "progressLabel": "Progression de la feuille de route",
+  "jobs": "{{n}} emplois",
+  "foreign": "{{n}} étrangers",
+  "capital": {
+    "foreign": "Investisseur étranger",
+    "mixed": "Capital étranger et mozambicain",
+    "mozambican": "Investisseur mozambicain"
+  },
+  "profile": {
+    "label": "Profil de l’investisseur",
+    "investor": "Investisseur",
+    "investment": "Investissement",
+    "jobs": "Emplois",
+    "sector": "Secteur"
+  },
+  "markDone": "Marquer l’étape {{n}} comme terminée : {{title}}",
+  "markUndone": "Marquer l’étape {{n}} comme non terminée : {{title}}",
+  "tick": "Marquer comme terminée",
+  "undo": "Marquer comme non terminée",
+  "done": "Terminée",
+  "current": "En cours",
+  "mayNotApply": "Peut ne pas s’appliquer",
+  "who": "Qui",
+  "duration": "Délai indicatif",
+  "forYou": "Pour votre projet",
+  "documents": "Documents",
+  "checklist": "Ouvrir la liste de contrôle",
+  "legalBasis": "Base juridique",
+  "openRef": "{{ref}} — ouvrir la référence juridique",
+  "detail": {
+    "recommended": "Recommandé",
+    "decides": "Qui décide",
+    "guarantee": "Garantie de rapatriement",
+    "noLand": "Vous avez indiqué que le projet n’a pas besoin de terrain : louer des locaux existants suffit en général. Si cela change, cette étape s’applique.",
+    "noForeignCapital": "Capital mozambicain : aucun enregistrement d’investissement étranger n’est nécessaire, sauf si des fonds étrangers arrivent plus tard.",
+    "noForeignWorkers": "Aucun travailleur étranger prévu : inscrivez l’entreprise et le personnel à l’INSS. Les permis ne comptent que si vous recrutez à l’étranger plus tard."
+  },
+  "allDone": "Les neuf étapes sont terminées. Suivez désormais les échéances mensuelles.",
+  "aftercare": "Ouvrir le calendrier des obligations",
+  "timeToOperate": "Délai avant exploitation",
+  "legalDate": "Information générale fondée sur la législation en vigueur au {{date}}. Ne constitue pas un conseil juridique.",
+  "actions": {
+    "label": "Actions de la feuille de route",
+    "pdf": "Télécharger le PDF",
+    "expert": "Parler à un expert",
+    "incentives": "Estimer vos incitations",
+    "chat": "Interroger Tiva sur cette feuille de route",
+    "edit": "Modifier mes réponses"
+  },
+  "loading": "Préparation de votre feuille de route…",
+  "error": "Une erreur s’est produite lors de la préparation de la feuille de route.",
+  "missing": {
+    "title": "Feuille de route introuvable",
+    "text": "Les projets sont conservés uniquement sur cet appareil. Répondez de nouveau aux six questions pour la recréer."
+  },
+  "empty": {
+    "title": "Votre feuille de route commence par six questions courtes",
+    "text": "Secteur, province, taille, origine, emplois et calendrier. Tiva transforme vos réponses en neuf étapes ordonnées, chacune avec l’autorité compétente, les documents et le texte de loi.",
+    "pathfinder": "Lancer le Pathfinder",
+    "examples": "Ou ouvrez une feuille de route d’exemple"
+  },
+  "pdf": {
+    "back": "Retour à la feuille de route",
+    "print": "Imprimer / Enregistrer en PDF",
+    "hint": "Choisissez « Enregistrer au format PDF » dans la fenêtre d’impression.",
+    "ref": "Réf. {{ref}}",
+    "generated": "Générée le {{date}}",
+    "step": "Étape",
+    "incentives": "Incitations à étudier",
+    "incentivesNote": "À titre indicatif : sous réserve de l’approbation de l’APIEX et de la révision en cours du Code des avantages fiscaux.",
+    "next": "Vos trois prochaines actions",
+    "contacts": "Contacts clés",
+    "contactApiex": "APIEX · enregistrement du projet",
+    "contactBau": "BAU {{province}} · licences",
+    "contactBdm": "Banco de Moçambique · enregistrement du capital",
+    "contactTa": "Tax Advisory · accompagnement juridique et fiscal",
+    "disclaimer": "Information générale fondée sur la législation en vigueur à la date d’émission. Ne constitue pas un conseil juridique. Les étapes, autorités et documents peuvent varier selon les faits propres à chaque projet."
+  }
+}

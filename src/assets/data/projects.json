@@ -6,13 +6,32 @@
       "title": {
         "pt": "Indústria agro-alimentar · processamento de amêndoas",
         "en": "Agro-food industry · kernel processing",
-        "fr": "Industrie agroalimentaire · transformation d'amandes"
+        "fr": "Industrie agroalimentaire · transformation d'amandes",
+        "zh": "农产品加工业 · 腰果仁加工",
+        "ar": "الصناعات الغذائية الزراعية · تصنيع حبوب الكاجو",
+        "hi": "कृषि-खाद्य उद्योग · गिरी प्रसंस्करण",
+        "sw": "Viwanda vya chakula · usindikaji wa korosho",
+        "af": "Agro-voedselbedryf · verwerking van kasjoeneute"
       },
-      "sector": { "pt": "Castanha de caju · Nampula", "en": "Cashew · Nampula", "fr": "Noix de cajou · Nampula" },
+      "sector": {
+        "pt": "Castanha de caju · Nampula",
+        "en": "Cashew · Nampula",
+        "fr": "Noix de cajou · Nampula",
+        "zh": "腰果 · 楠普拉省",
+        "ar": "الكاجو · Nampula",
+        "hi": "काजू · Nampula",
+        "sw": "Korosho · Nampula",
+        "af": "Kasjoe · Nampula"
+      },
       "summary": {
         "pt": "Unidade de processamento de castanha de caju em Nampula, com sócio indiano e exportação de cerca de 90% da amêndoa para a Índia e o Vietname.",
         "en": "Cashew processing plant in Nampula with an Indian shareholder, exporting about 90% of the kernels to India and Vietnam.",
-        "fr": "Unité de transformation de noix de cajou à Nampula, avec un associé indien, exportant environ 90 % des amandes vers l'Inde et le Vietnam."
+        "fr": "Unité de transformation de noix de cajou à Nampula, avec un associé indien, exportant environ 90 % des amandes vers l'Inde et le Vietnam.",
+        "zh": "位于楠普拉的腰果加工厂，由印度股东参股，约 90% 的腰果仁出口至印度和越南。",
+        "ar": "مصنع لتصنيع الكاجو في Nampula بمساهم هندي، يصدّر نحو 90% من حبوب الكاجو إلى الهند وفيتنام.",
+        "hi": "Nampula में एक भारतीय शेयरधारक वाला काजू प्रसंस्करण संयंत्र, जो लगभग 90% गिरी भारत और वियतनाम को निर्यात करता है।",
+        "sw": "Kiwanda cha kusindika korosho mjini Nampula chenye mbia kutoka India, kinachouza nje karibu 90% ya korosho zilizobanguliwa kwenda India na Vietnam.",
+        "af": "Kasjoeverwerkingsaanleg in Nampula met 'n Indiese aandeelhouer, wat sowat 90% van die neute na Indië en Viëtnam uitvoer."
       },
       "input": {
         "idea": "Unidade de processamento de castanha de caju em Nampula: descasque, secagem e embalagem da amêndoa, com exportação de cerca de 90% para a Índia e o Vietname. Sócio indiano com parceiro moçambicano.",
@@ -36,13 +55,32 @@
       "title": {
         "pt": "Energia solar · EPC e manutenção",
         "en": "Solar energy · EPC and maintenance",
-        "fr": "Énergie solaire · EPC et maintenance"
+        "fr": "Énergie solaire · EPC et maintenance",
+        "zh": "太阳能 · EPC 与运维",
+        "ar": "الطاقة الشمسية · الهندسة والتوريد والبناء (EPC) والصيانة",
+        "hi": "सौर ऊर्जा · EPC और रखरखाव",
+        "sw": "Nishati ya jua · EPC na matengenezo",
+        "af": "Sonenergie · EPC en instandhouding"
       },
-      "sector": { "pt": "Energia · Maputo Cidade", "en": "Energy · Maputo City", "fr": "Énergie · Ville de Maputo" },
+      "sector": {
+        "pt": "Energia · Maputo Cidade",
+        "en": "Energy · Maputo City",
+        "fr": "Énergie · Ville de Maputo",
+        "zh": "能源 · 马普托市",
+        "ar": "الطاقة · مدينة مابوتو",
+        "hi": "ऊर्जा · Maputo शहर",
+        "sw": "Nishati · Jiji la Maputo",
+        "af": "Energie · Maputo-stad"
+      },
       "summary": {
         "pt": "Empresa sul-africana com 100% de capital estrangeiro a executar projectos EPC fotovoltaicos para clientes comerciais e industriais em Maputo.",
         "en": "A 100% foreign-owned South African company delivering solar PV EPC projects for commercial and industrial clients in Maputo.",
-        "fr": "Société sud-africaine à capital 100 % étranger réalisant des projets EPC photovoltaïques pour des clients commerciaux et industriels à Maputo."
+        "fr": "Société sud-africaine à capital 100 % étranger réalisant des projets EPC photovoltaïques pour des clients commerciaux et industriels à Maputo.",
+        "zh": "一家 100% 外资的南非公司，为马普托的工商业客户承建太阳能光伏 EPC 项目。",
+        "ar": "شركة جنوب أفريقية مملوكة لأجانب بنسبة 100% تنفّذ مشاريع EPC للطاقة الشمسية الكهروضوئية لعملاء تجاريين وصناعيين في مابوتو.",
+        "hi": "100% विदेशी स्वामित्व वाली एक दक्षिण अफ़्रीकी कंपनी, जो Maputo में वाणिज्यिक और औद्योगिक ग्राहकों के लिए सोलर PV EPC परियोजनाएँ पूरी करती है।",
+        "sw": "Kampuni ya Afrika Kusini inayomilikiwa 100% na wageni inayotekeleza miradi ya EPC ya nishati ya jua (PV) kwa wateja wa kibiashara na wa viwanda mjini Maputo.",
+        "af": "'n Suid-Afrikaanse maatskappy in 100% buitelandse besit wat sonkrag-PV EPC-projekte vir kommersiële en industriële kliënte in Maputo lewer."
       },
       "input": {
         "idea": "Empresa sul-africana de engenharia solar: projectos EPC de sistemas fotovoltaicos para clientes comerciais e industriais em Maputo, e contratos de manutenção.",
@@ -66,13 +104,32 @@
       "title": {
         "pt": "Logística e armazenagem · corredor da Beira",
         "en": "Logistics and warehousing · Beira corridor",
-        "fr": "Logistique et entreposage · corridor de Beira"
+        "fr": "Logistique et entreposage · corridor de Beira",
+        "zh": "物流与仓储 · 贝拉走廊",
+        "ar": "اللوجستيات والتخزين · ممر Beira",
+        "hi": "लॉजिस्टिक्स और वेयरहाउसिंग · Beira कॉरिडोर",
+        "sw": "Usafirishaji na maghala · ushoroba wa Beira",
+        "af": "Logistiek en pakhuise · Beira-korridor"
       },
-      "sector": { "pt": "Logística · Sofala", "en": "Logistics · Sofala", "fr": "Logistique · Sofala" },
+      "sector": {
+        "pt": "Logística · Sofala",
+        "en": "Logistics · Sofala",
+        "fr": "Logistique · Sofala",
+        "zh": "物流 · 索法拉省",
+        "ar": "اللوجستيات · Sofala",
+        "hi": "लॉजिस्टिक्स · Sofala",
+        "sw": "Usafirishaji · Sofala",
+        "af": "Logistiek · Sofala"
+      },
       "summary": {
         "pt": "Investidor chinês instala centro de armazenagem e frota de camiões para trânsito regional, com equipamento em importação temporária.",
         "en": "A Chinese investor sets up a warehousing hub and truck fleet for regional transit, with equipment under temporary import.",
-        "fr": "Un investisseur chinois installe un centre d'entreposage et une flotte de camions pour le transit régional, avec des équipements en admission temporaire."
+        "fr": "Un investisseur chinois installe un centre d'entreposage et une flotte de camions pour le transit régional, avec des équipements en admission temporaire.",
+        "zh": "一名中国投资者设立仓储枢纽和卡车车队，服务区域过境运输，设备以临时进口方式入境。",
+        "ar": "مستثمر صيني ينشئ مركزاً للتخزين وأسطولاً من الشاحنات للعبور الإقليمي، مع معدات خاضعة لنظام الاستيراد المؤقت.",
+        "hi": "एक चीनी निवेशक क्षेत्रीय ट्रांज़िट के लिए वेयरहाउसिंग हब और ट्रक बेड़ा स्थापित करता है; उपकरण अस्थायी आयात (temporary import) के तहत लाए जाते हैं।",
+        "sw": "Mwekezaji wa China anaanzisha kituo cha maghala na kundi la malori kwa usafirishaji wa kikanda, akiwa na vifaa chini ya uingizaji wa muda.",
+        "af": "'n Chinese belegger rig 'n pakhuissentrum en vragmotorvloot vir streekstransito op, met toerusting onder tydelike invoer."
       },
       "input": {
         "idea": "Centro de logística e armazenagem no corredor da Beira, com frota de camiões para trânsito para o Zimbabwe e a Zâmbia. Equipamento de movimentação em importação temporária.",
@@ -96,13 +153,32 @@
       "title": {
         "pt": "Turismo · eco-lodge costeiro",
         "en": "Tourism · coastal eco-lodge",
-        "fr": "Tourisme · écolodge côtier"
+        "fr": "Tourisme · écolodge côtier",
+        "zh": "旅游 · 海滨生态旅舍",
+        "ar": "السياحة · نُزُل بيئي ساحلي",
+        "hi": "पर्यटन · तटीय इको-लॉज",
+        "sw": "Utalii · nyumba ya wageni ya kiikolojia pwani",
+        "af": "Toerisme · eko-lodge aan die kus"
       },
-      "sector": { "pt": "Turismo · Inhambane", "en": "Tourism · Inhambane", "fr": "Tourisme · Inhambane" },
+      "sector": {
+        "pt": "Turismo · Inhambane",
+        "en": "Tourism · Inhambane",
+        "fr": "Tourisme · Inhambane",
+        "zh": "旅游 · 伊尼扬巴内省",
+        "ar": "السياحة · Inhambane",
+        "hi": "पर्यटन · Inhambane",
+        "sw": "Utalii · Inhambane",
+        "af": "Toerisme · Inhambane"
+      },
       "summary": {
         "pt": "Investidor português desenvolve um eco-lodge de pequena dimensão na costa de Inhambane; terra e ambiente no centro do projecto.",
         "en": "A Portuguese investor develops a small eco-lodge on the Inhambane coast; land and environment are central.",
-        "fr": "Un investisseur portugais développe un petit écolodge sur la côte d'Inhambane ; foncier et environnement au cœur du projet."
+        "fr": "Un investisseur portugais développe un petit écolodge sur la côte d'Inhambane ; foncier et environnement au cœur du projet.",
+        "zh": "一名葡萄牙投资者在伊尼扬巴内海岸开发小型生态旅舍；土地与环境问题是核心。",
+        "ar": "مستثمر برتغالي يطوّر نُزُلاً بيئياً صغيراً على ساحل Inhambane؛ وتُعدّ الأرض والبيئة مسألتين محوريتين.",
+        "hi": "एक पुर्तगाली निवेशक Inhambane तट पर एक छोटा इको-लॉज विकसित करता है; भूमि और पर्यावरण इसके केंद्रीय मुद्दे हैं।",
+        "sw": "Mwekezaji wa Ureno anaendeleza nyumba ndogo ya wageni ya kiikolojia kwenye pwani ya Inhambane; ardhi na mazingira ndiyo masuala makuu.",
+        "af": "'n Portugese belegger ontwikkel 'n klein eko-lodge aan die Inhambane-kus; grond en omgewing staan sentraal."
       },
       "input": {
         "idea": "Eco-lodge de pequena dimensão na costa de Inhambane, com oito bungalows construídos com materiais locais e actividades de mergulho.",
@@ -126,13 +202,32 @@
       "title": {
         "pt": "Serviços ao sector de petróleo e gás · Pemba",
         "en": "Oil & gas supply services · Pemba",
-        "fr": "Services au secteur pétrolier et gazier · Pemba"
+        "fr": "Services au secteur pétrolier et gazier · Pemba",
+        "zh": "油气供应服务 · 彭巴",
+        "ar": "خدمات إمداد النفط والغاز · Pemba",
+        "hi": "तेल और गैस आपूर्ति सेवाएँ · Pemba",
+        "sw": "Huduma za ugavi wa mafuta na gesi · Pemba",
+        "af": "Olie en gas · verskaffingsdienste · Pemba"
       },
-      "sector": { "pt": "Petróleo e gás · Cabo Delgado", "en": "Oil & gas · Cabo Delgado", "fr": "Pétrole et gaz · Cabo Delgado" },
+      "sector": {
+        "pt": "Petróleo e gás · Cabo Delgado",
+        "en": "Oil & gas · Cabo Delgado",
+        "fr": "Pétrole et gaz · Cabo Delgado",
+        "zh": "油气 · 德尔加杜角省",
+        "ar": "النفط والغاز · Cabo Delgado",
+        "hi": "तेल और गैस · Cabo Delgado",
+        "sw": "Mafuta na gesi · Cabo Delgado",
+        "af": "Olie en gas · Cabo Delgado"
+      },
       "summary": {
         "pt": "Empresa francesa de serviços de apoio aos projectos de GNL em Pemba: manutenção, aluguer de equipamento e conteúdo local.",
         "en": "A French company providing support services to the LNG projects in Pemba: maintenance, equipment rental and local content.",
-        "fr": "Société française de services d'appui aux projets de GNL à Pemba : maintenance, location d'équipements et contenu local."
+        "fr": "Société française de services d'appui aux projets de GNL à Pemba : maintenance, location d'équipements et contenu local.",
+        "zh": "一家法国公司为彭巴的液化天然气项目提供配套服务：维护、设备租赁和本地成分。",
+        "ar": "شركة فرنسية تقدّم خدمات دعم لمشاريع الغاز الطبيعي المسال في Pemba: الصيانة وتأجير المعدات والمحتوى المحلي.",
+        "hi": "Pemba में LNG परियोजनाओं को सहायक सेवाएँ देने वाली एक फ़्रांसीसी कंपनी: रखरखाव, उपकरण किराया और स्थानीय सामग्री (local content)।",
+        "sw": "Kampuni ya Ufaransa inayotoa huduma za usaidizi kwa miradi ya LNG mjini Pemba: matengenezo, ukodishaji wa vifaa na ushiriki wa wazawa (local content).",
+        "af": "'n Franse maatskappy wat ondersteuningsdienste aan die LNG-projekte in Pemba lewer: instandhouding, toerustingverhuring en plaaslike inhoud."
       },
       "input": {
         "idea": "Serviços de apoio ao sector de petróleo e gás em Pemba: manutenção de equipamento, aluguer de geradores e fornecimento aos projectos de GNL.",

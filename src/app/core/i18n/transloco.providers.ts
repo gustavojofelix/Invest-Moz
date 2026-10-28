@@ -9,12 +9,13 @@ export function provideI18n() {
     config: {
       availableLangs: [...LOCALES],
       defaultLang: DEFAULT_LOCALE,
-      fallbackLang: DEFAULT_LOCALE,
+      // A key missing in one of the machine-translated locales shows in English.
+      fallbackLang: 'en',
       reRenderOnLangChange: true,
       prodMode: !isDevMode(),
       missingHandler: {
         logMissingKey: isDevMode(),
-        useFallbackTranslation: false,
+        useFallbackTranslation: true,
       },
     },
     loader: InlineTranslationLoader,

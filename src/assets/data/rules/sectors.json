@@ -3,57 +3,192 @@
   "sectors": [
     {
       "id": "oil_gas",
-      "label": { "pt": "Petróleo e gás · serviços de apoio", "en": "Oil & gas · supply services", "fr": "Pétrole et gaz · services d'appui" },
+      "label": {
+        "pt": "Petróleo e gás · serviços de apoio",
+        "en": "Oil & gas · supply services",
+        "fr": "Pétrole et gaz · services d'appui",
+        "zh": "油气 · 供应服务",
+        "ar": "النفط والغاز · خدمات الإمداد",
+        "hi": "तेल और गैस · आपूर्ति सेवाएँ",
+        "sw": "Mafuta na gesi · huduma za ugavi",
+        "af": "Olie en gas · verskaffingsdienste"
+      },
       "envCategory": "B",
       "keywords": {
-        "pt": ["petroleo", "petrolifer*", "gas natural", "gnl", "lng", "offshore", "conteudo local", "base logistica de pemba"],
+        "pt": [
+          "petroleo",
+          "petrolifer*",
+          "gas natural",
+          "gnl",
+          "lng",
+          "offshore",
+          "conteudo local",
+          "base logistica de pemba"
+        ],
         "en": ["oil and gas", "oil & gas", "oil", "lng", "offshore", "local content", "upstream"],
         "fr": ["petrole", "petrolier*", "gaz naturel", "gnl", "offshore", "contenu local"]
       }
     },
     {
       "id": "energy",
-      "label": { "pt": "Energia · solar e EPC", "en": "Energy · solar and EPC", "fr": "Énergie · solaire et EPC" },
+      "label": {
+        "pt": "Energia · solar e EPC",
+        "en": "Energy · solar and EPC",
+        "fr": "Énergie · solaire et EPC",
+        "zh": "能源 · 太阳能与 EPC",
+        "ar": "الطاقة · الطاقة الشمسية وEPC",
+        "hi": "ऊर्जा · सौर और EPC",
+        "sw": "Nishati · jua na EPC",
+        "af": "Energie · son en EPC"
+      },
       "envCategory": "C",
       "keywords": {
-        "pt": ["solar", "fotovoltaic*", "energia", "renovave*", "epc", "mini rede", "electrificacao"],
+        "pt": [
+          "solar",
+          "fotovoltaic*",
+          "energia",
+          "renovave*",
+          "epc",
+          "mini rede",
+          "electrificacao"
+        ],
         "en": ["solar", "photovoltaic", "pv", "energy", "renewable*", "epc", "mini grid", "power"],
         "fr": ["solaire", "photovoltaique*", "energie", "renouvelable*", "epc", "mini reseau"]
       }
     },
     {
       "id": "tourism",
-      "label": { "pt": "Turismo · alojamento", "en": "Tourism · hospitality", "fr": "Tourisme · hébergement" },
+      "label": {
+        "pt": "Turismo · alojamento",
+        "en": "Tourism · hospitality",
+        "fr": "Tourisme · hébergement",
+        "zh": "旅游 · 酒店餐饮",
+        "ar": "السياحة · الضيافة",
+        "hi": "पर्यटन · आतिथ्य",
+        "sw": "Utalii · ukarimu",
+        "af": "Toerisme · gasvryheid"
+      },
       "envCategory": "B",
       "keywords": {
-        "pt": ["turismo", "turistic*", "lodge", "ecoturismo", "eco lodge", "hotel*", "alojamento", "resort", "pousada"],
-        "en": ["tourism", "tourist", "lodge", "eco lodge", "ecotourism", "hotel*", "hospitality", "resort"],
+        "pt": [
+          "turismo",
+          "turistic*",
+          "lodge",
+          "ecoturismo",
+          "eco lodge",
+          "hotel*",
+          "alojamento",
+          "resort",
+          "pousada"
+        ],
+        "en": [
+          "tourism",
+          "tourist",
+          "lodge",
+          "eco lodge",
+          "ecotourism",
+          "hotel*",
+          "hospitality",
+          "resort"
+        ],
         "fr": ["tourisme", "touristique", "lodge", "ecotourisme", "hotel*", "hebergement", "resort"]
       }
     },
     {
       "id": "logistics",
-      "label": { "pt": "Logística e armazenagem", "en": "Logistics and warehousing", "fr": "Logistique et entreposage" },
+      "label": {
+        "pt": "Logística e armazenagem",
+        "en": "Logistics and warehousing",
+        "fr": "Logistique et entreposage",
+        "zh": "物流与仓储",
+        "ar": "اللوجستيات والتخزين",
+        "hi": "लॉजिस्टिक्स और भंडारण",
+        "sw": "Usafirishaji na maghala",
+        "af": "Logistiek en pakhuise"
+      },
       "envCategory": "B",
       "keywords": {
-        "pt": ["logistic*", "armazem", "armazens", "armazenagem", "transitario*", "frete", "camioes", "terminal"],
+        "pt": [
+          "logistic*",
+          "armazem",
+          "armazens",
+          "armazenagem",
+          "transitario*",
+          "frete",
+          "camioes",
+          "terminal"
+        ],
         "en": ["logistic*", "warehous*", "freight", "trucking", "haulage", "terminal", "storage"],
-        "fr": ["logistique", "entrepot*", "entreposage", "fret", "transitaire", "camions", "terminal"]
+        "fr": [
+          "logistique",
+          "entrepot*",
+          "entreposage",
+          "fret",
+          "transitaire",
+          "camions",
+          "terminal"
+        ]
       }
     },
     {
       "id": "agro_industry",
-      "label": { "pt": "Indústria agro-alimentar", "en": "Agro-food industry", "fr": "Industrie agroalimentaire" },
+      "label": {
+        "pt": "Indústria agro-alimentar",
+        "en": "Agro-food industry",
+        "fr": "Industrie agroalimentaire",
+        "zh": "农产品加工业",
+        "ar": "الصناعات الغذائية الزراعية",
+        "hi": "कृषि-खाद्य उद्योग",
+        "sw": "Viwanda vya chakula",
+        "af": "Agro-voedselbedryf"
+      },
       "envCategory": "B",
       "keywords": {
-        "pt": ["caju", "castanha", "amendoa*", "agro*", "agricol*", "agricultura", "alimentar*", "fruta", "moagem", "processamento agricola"],
-        "en": ["cashew*", "agro*", "agricultur*", "food processing", "farm*", "fruit", "milling", "kernel*"],
-        "fr": ["cajou", "noix de cajou", "agro*", "agricole", "agroalimentaire", "transformation alimentaire", "fruits"]
+        "pt": [
+          "caju",
+          "castanha",
+          "amendoa*",
+          "agro*",
+          "agricol*",
+          "agricultura",
+          "alimentar*",
+          "fruta",
+          "moagem",
+          "processamento agricola"
+        ],
+        "en": [
+          "cashew*",
+          "agro*",
+          "agricultur*",
+          "food processing",
+          "farm*",
+          "fruit",
+          "milling",
+          "kernel*"
+        ],
+        "fr": [
+          "cajou",
+          "noix de cajou",
+          "agro*",
+          "agricole",
+          "agroalimentaire",
+          "transformation alimentaire",
+          "fruits"
+        ]
       }
     },
     {
       "id": "mining",
-      "label": { "pt": "Mineração", "en": "Mining", "fr": "Mines" },
+      "label": {
+        "pt": "Mineração",
+        "en": "Mining",
+        "fr": "Mines",
+        "zh": "采矿",
+        "ar": "التعدين",
+        "hi": "खनन",
+        "sw": "Madini",
+        "af": "Mynbou"
+      },
       "envCategory": "A",
       "keywords": {
         "pt": ["mineracao", "mineir*", "carvao", "grafite", "ouro", "pedreira", "areias pesadas"],
@@ -63,19 +198,58 @@
     },
     {
       "id": "services",
-      "label": { "pt": "Serviços", "en": "Services", "fr": "Services" },
+      "label": {
+        "pt": "Serviços",
+        "en": "Services",
+        "fr": "Services",
+        "zh": "服务业",
+        "ar": "الخدمات",
+        "hi": "सेवाएँ",
+        "sw": "Huduma",
+        "af": "Dienste"
+      },
       "envCategory": "C",
       "keywords": {
-        "pt": ["consultoria", "servicos", "software", "tecnologia", "digital", "formacao", "escritorio"],
-        "en": ["consulting", "consultancy", "services", "software", "technology", "digital", "training", "office"],
+        "pt": [
+          "consultoria",
+          "servicos",
+          "software",
+          "tecnologia",
+          "digital",
+          "formacao",
+          "escritorio"
+        ],
+        "en": [
+          "consulting",
+          "consultancy",
+          "services",
+          "software",
+          "technology",
+          "digital",
+          "training",
+          "office"
+        ],
         "fr": ["conseil", "services", "logiciel", "technologie", "numerique", "formation", "bureau"]
       }
     },
     {
       "id": "general",
-      "label": { "pt": "Actividade comercial geral", "en": "General commercial activity", "fr": "Activité commerciale générale" },
+      "label": {
+        "pt": "Actividade comercial geral",
+        "en": "General commercial activity",
+        "fr": "Activité commerciale générale",
+        "zh": "一般商业活动",
+        "ar": "النشاط التجاري العام",
+        "hi": "सामान्य वाणिज्यिक गतिविधि",
+        "sw": "Shughuli za jumla za kibiashara",
+        "af": "Algemene kommersiële bedrywighede"
+      },
       "envCategory": "C",
-      "keywords": { "pt": [], "en": [], "fr": [] }
+      "keywords": {
+        "pt": [],
+        "en": [],
+        "fr": []
+      }
     }
   ]
 }

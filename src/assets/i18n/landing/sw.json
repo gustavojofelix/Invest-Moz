@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "eyebrow": "Msaidizi wa uwekezaji wa AI kwa Msumbiji",
+    "title": "Ramani yako ya uwekezaji nchini Msumbiji, kwa dakika chache.",
+    "lead": "Mweleze Tiva wazo lako. Pata muundo wa kampuni, leseni, vivutio, viza na hatua za kodi — kila moja ikirejelea sheria za Msumbiji — kisha kutana na watu watakaolifanikisha.",
+    "channels": "Saa 24, siku 7, kwenye wavuti, programu na WhatsApp",
+    "pathfinder": "Ungependa maswali sita mafupi? Anza Pathfinder",
+    "example": "Tazama mfano wa ramani",
+    "mapLabel": "Ramani ya Msumbiji inayoonyesha korido za Maputo, Beira na Nacala"
+  },
+  "idea": {
+    "formLabel": "Muulize Tiva kuhusu wazo lako la uwekezaji",
+    "label": "Eleza wazo lako la uwekezaji",
+    "placeholder": "k.m. Kiwanda cha kusindika korosho Nampula, takriban USD milioni 2",
+    "voice": "Sema wazo lako",
+    "voiceStop": "Acha kusikiliza",
+    "voiceUnavailable": "Uingizaji wa sauti haupatikani kwenye kivinjari hiki",
+    "listening": "Ninasikiliza… zungumza sasa.",
+    "ask": "Uliza",
+    "empty": "Andika wazo lako kwa maneno machache, au chagua mfano hapa chini.",
+    "examples": "Mifano ya mawazo"
+  },
+  "examples": {
+    "ecoLodge": "Hoteli ya kiikolojia Inhambane",
+    "solar": "Gridi ndogo za umeme wa jua Niassa",
+    "logistics": "Kituo cha usafirishaji kwenye korido ya Beira",
+    "bakery": "Duka la mikate Matola"
+  },
+  "moves": {
+    "title": "Kutoka wazo hadi biashara yenye leseni kwa hatua tatu",
+    "m1": {
+      "title": "Eleza wazo lako",
+      "text": "Kwa lugha yako, kwa maandishi au sauti. Tiva atauliza maswali machache: sekta, jimbo, ukubwa, na unakotoka."
+    },
+    "m2": {
+      "title": "Pata ramani yako",
+      "text": "Kila hatua kwa mpangilio — nani anaidhinisha, nini cha kuwasilisha — pamoja na sheria inayohusika. Ipakue kama PDF."
+    },
+    "m3": {
+      "title": "Kutana na watu sahihi",
+      "text": "Mguso mmoja kumfikia wakili, APIEX au kituo cha huduma za leseni mahali pamoja, ukiwa na muhtasari wako tayari umeambatishwa."
+    }
+  },
+  "covers": {
+    "title": "Tiva inashughulikia nini",
+    "lead": "Maswali ambayo wawekezaji huuliza kweli, yakijibiwa kutoka sheria za Msumbiji.",
+    "companies": {
+      "title": "Kuanzisha kampuni",
+      "text": "Lda, SA, Lda ya mwanahisa mmoja au tawi; usajili na NUIT"
+    },
+    "licensing": {
+      "title": "Leseni",
+      "text": "Taarifa ya awali, leseni iliyorahisishwa au leseni kamili, kupitia e-BAU"
+    },
+    "investment": {
+      "title": "Idhini ya uwekezaji",
+      "text": "Usajili wa mradi APIEX chini ya Lei n.º 8/2023"
+    },
+    "incentives": {
+      "title": "Vivutio",
+      "text": "Kanuni ya Manufaa ya Kodi, Kanda Maalum za Kiuchumi na Kanda Huru za Viwanda"
+    },
+    "land": {
+      "title": "Ardhi",
+      "text": "Haki za matumizi ya ardhi (DUAT) na ukodishaji"
+    },
+    "people": {
+      "title": "Watu",
+      "text": "Kuajiri, viwango vya wafanyakazi wa kigeni, vibali vya kazi, viza na DIRE"
+    },
+    "money": {
+      "title": "Fedha",
+      "text": "Udhibiti wa fedha za kigeni, usajili wa mtaji, urejeshaji wa faida"
+    },
+    "tax": {
+      "title": "Kodi na forodha",
+      "text": "IRPC, IVA, IRPS, INSS, taratibu za uagizaji"
+    }
+  },
+  "glance": {
+    "title": "Msumbiji kwa mtazamo mmoja",
+    "people": {
+      "value": "Milioni 36.9",
+      "label": "watu"
+    },
+    "age": {
+      "value": "16.6",
+      "label": "umri wa wastani"
+    },
+    "coast": {
+      "value": "km 2,500",
+      "label": "za pwani ya Bahari ya Hindi"
+    },
+    "sources": "Vyanzo: Worldometers (idadi ya watu, umri wa wastani); Banco de Moçambique kupitia AIM/Lusa (mitiririko ya uwekezaji). Takwimu ni kwa taarifa za jumla."
+  },
+  "why": {
+    "title": "Kwa nini sasa",
+    "fdi": {
+      "value": "USD bilioni 5.69",
+      "label": "uwekezaji wa moja kwa moja kutoka nje mwaka 2025"
+    },
+    "extractives": {
+      "value": "91.5%",
+      "label": "yake katika sekta za uchimbaji"
+    },
+    "forecast": {
+      "value": "USD bilioni 5.88",
+      "label": "makadirio ya mwaka 2026"
+    },
+    "districts": {
+      "value": "129",
+      "label": "wilaya zilizounganishwa na vituo vya huduma vya BAU"
+    }
+  },
+  "law": {
+    "title": "Imejengwa juu ya sheria, imehakikiwa na mawakili",
+    "text": "Kila jibu linaonyesha sheria linayotegemea na tarehe lilipopitiwa mara ya mwisho. Hakuna kinachochapishwa hadi wakili wa Msumbiji akiidhinishe. Tiva hutoa taarifa za jumla, si ushauri wa kisheria — kwa suala lako mahususi, zungumza na mtaalamu.",
+    "sourcesLabel": "Baadhi ya sheria ambazo Tiva hutumia",
+    "sources": {
+      "investmentLaw": "Lei n.º 8/2023 · Sheria ya Uwekezaji",
+      "licensing": "Decreto n.º 41/2026 · Leseni zilizorahisishwa",
+      "irpc": "Lei n.º 12/2025 · Marekebisho ya IRPC"
+    },
+    "library": "Vinjari maktaba ya maarifa",
+    "expert": "Zungumza na mtaalamu"
+  },
+  "office": "Ufikiaji wa ofisi ya ndani kwa wakaguzi na washirika"
+}

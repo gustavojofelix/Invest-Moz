@@ -2,19 +2,44 @@
   "incentives": [
     {
       "id": "class-k",
-      "when": [{ "field": "importsGoods", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "importsGoods",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "class-k",
-        "title": { "pt": "Isenção na importação de equipamento (Classe K)", "en": "Import exemption for equipment (Class K)", "fr": "Exonération à l'importation d'équipements (Classe K)" },
+        "title": {
+          "pt": "Isenção na importação de equipamento (Classe K)",
+          "en": "Import exemption for equipment (Class K)",
+          "fr": "Exonération à l'importation d'équipements (Classe K)",
+          "zh": "设备进口豁免（K 类）",
+          "ar": "إعفاء استيراد المعدات (الفئة K)",
+          "hi": "उपकरण आयात पर छूट (Classe K)",
+          "sw": "Msamaha wa ushuru wa uingizaji wa vifaa (Daraja K)",
+          "af": "Invoervrystelling vir toerusting (Klas K)"
+        },
         "detail": {
           "pt": "Isenção de direitos aduaneiros e de IVA na importação de bens de equipamento classificados na Classe K da Pauta.",
           "en": "Exemption from customs duties and VAT on imports of capital equipment classified in Class K of the tariff.",
-          "fr": "Exonération des droits de douane et de la TVA à l'importation de biens d'équipement classés en Classe K du tarif."
+          "fr": "Exonération des droits de douane et de la TVA à l'importation de biens d'équipement classés en Classe K du tarif.",
+          "zh": "进口列入税则 K 类的资本设备免征关税和增值税（IVA）。",
+          "ar": "إعفاء من الرسوم الجمركية وIVA على واردات المعدات الرأسمالية المصنّفة في الفئة K من التعريفة.",
+          "hi": "टैरिफ (Pauta) की Classe K में वर्गीकृत पूंजीगत उपकरणों के आयात पर सीमा शुल्क और IVA (मूल्य वर्धित कर) से छूट।",
+          "sw": "Msamaha wa ushuru wa forodha na VAT (IVA) kwa uingizaji wa vifaa vya mtaji vilivyoainishwa katika Daraja K la jedwali la ushuru.",
+          "af": "Vrystelling van doeaneregte en BTW (IVA) op die invoer van kapitaaltoerusting wat in Klas K van die tarief geklassifiseer is."
         },
         "conditions": {
           "pt": "Projecto com certificado de investimento; lista de equipamento aprovada ({{CLASS_K_SCOPE_DETAIL}}).",
           "en": "Project holding an investment certificate; approved equipment list ({{CLASS_K_SCOPE_DETAIL}}).",
-          "fr": "Projet titulaire d'un certificat d'investissement ; liste d'équipements approuvée ({{CLASS_K_SCOPE_DETAIL}})."
+          "fr": "Projet titulaire d'un certificat d'investissement ; liste d'équipements approuvée ({{CLASS_K_SCOPE_DETAIL}}).",
+          "zh": "项目持有投资证书；设备清单经批准（{{CLASS_K_SCOPE_DETAIL}}）。",
+          "ar": "مشروع حاصل على شهادة استثمار؛ قائمة معدات معتمدة ({{CLASS_K_SCOPE_DETAIL}}).",
+          "hi": "निवेश प्रमाणपत्र वाली परियोजना; अनुमोदित उपकरण सूची ({{CLASS_K_SCOPE_DETAIL}})।",
+          "sw": "Mradi wenye cheti cha uwekezaji; orodha ya vifaa iliyoidhinishwa ({{CLASS_K_SCOPE_DETAIL}}).",
+          "af": "Projek met 'n beleggingsertifikaat; goedgekeurde toerustinglys ({{CLASS_K_SCOPE_DETAIL}})."
         },
         "refs": ["lei-4-2009", "pauta"]
       }
@@ -24,16 +49,35 @@
       "when": [],
       "then": {
         "id": "itc",
-        "title": { "pt": "Crédito fiscal por investimento", "en": "Investment tax credit", "fr": "Crédit d'impôt à l'investissement" },
+        "title": {
+          "pt": "Crédito fiscal por investimento",
+          "en": "Investment tax credit",
+          "fr": "Crédit d'impôt à l'investissement",
+          "zh": "投资税收抵免",
+          "ar": "الائتمان الضريبي للاستثمار",
+          "hi": "निवेश कर क्रेडिट",
+          "sw": "Punguzo la kodi kwa uwekezaji",
+          "af": "Beleggingsbelastingkrediet"
+        },
         "detail": {
           "pt": "Dedução à colecta de IRPC de 5% a 10% do investimento total, consoante a localização, durante 5 anos.",
           "en": "Deduction from IRPC of 5% to 10% of the total investment, depending on location, for 5 years.",
-          "fr": "Déduction de l'IRPC de 5 % à 10 % de l'investissement total, selon la localisation, pendant 5 ans."
+          "fr": "Déduction de l'IRPC de 5 % à 10 % de l'investissement total, selon la localisation, pendant 5 ans.",
+          "zh": "根据项目所在地，可在 5 年内从 IRPC（企业所得税）中扣除投资总额的 5% 至 10%。",
+          "ar": "خصم من IRPC بنسبة 5% إلى 10% من إجمالي الاستثمار، بحسب الموقع، لمدة 5 سنوات.",
+          "hi": "स्थान के आधार पर कुल निवेश के 5% से 10% की IRPC (कॉरपोरेट आयकर) से कटौती, 5 वर्षों तक।",
+          "sw": "Makato kutoka IRPC ya 5% hadi 10% ya jumla ya uwekezaji, kutegemea mahali, kwa miaka 5.",
+          "af": "Aftrekking van 5% tot 10% van die totale belegging van IRPC, afhangend van die ligging, vir 5 jaar."
         },
         "conditions": {
           "pt": "Localização em {{fact.province}} ({{ITC_RATE_BY_LOCATION}}); certificado de investimento; contabilidade organizada.",
           "en": "Location in {{fact.province}} ({{ITC_RATE_BY_LOCATION}}); investment certificate; organised accounts.",
-          "fr": "Localisation à {{fact.province}} ({{ITC_RATE_BY_LOCATION}}) ; certificat d'investissement ; comptabilité régulière."
+          "fr": "Localisation à {{fact.province}} ({{ITC_RATE_BY_LOCATION}}) ; certificat d'investissement ; comptabilité régulière.",
+          "zh": "位于 {{fact.province}}（{{ITC_RATE_BY_LOCATION}}）；持有投资证书；账目规范。",
+          "ar": "الموقع في {{fact.province}} ({{ITC_RATE_BY_LOCATION}})؛ شهادة استثمار؛ حسابات منظّمة.",
+          "hi": "{{fact.province}} में स्थान ({{ITC_RATE_BY_LOCATION}}); निवेश प्रमाणपत्र; व्यवस्थित लेखा-बही।",
+          "sw": "Mahali ni {{fact.province}} ({{ITC_RATE_BY_LOCATION}}); cheti cha uwekezaji; hesabu zilizopangwa.",
+          "af": "Ligging in {{fact.province}} ({{ITC_RATE_BY_LOCATION}}); beleggingsertifikaat; georganiseerde rekeninge."
         },
         "refs": ["lei-4-2009", "cirpc"]
       }
@@ -43,35 +87,79 @@
       "when": [],
       "then": {
         "id": "accelerated-depreciation",
-        "title": { "pt": "Amortizações aceleradas", "en": "Accelerated depreciation", "fr": "Amortissements accélérés" },
+        "title": {
+          "pt": "Amortizações aceleradas",
+          "en": "Accelerated depreciation",
+          "fr": "Amortissements accélérés",
+          "zh": "加速折旧",
+          "ar": "الاستهلاك المعجّل",
+          "hi": "त्वरित मूल्यह्रास",
+          "sw": "Uchakavu wa kasi",
+          "af": "Versnelde waardevermindering"
+        },
         "detail": {
           "pt": "Amortização acelerada de imóveis e equipamento novo afectos ao projecto.",
           "en": "Accelerated depreciation of new buildings and equipment used in the project.",
-          "fr": "Amortissement accéléré des immeubles et équipements neufs affectés au projet."
+          "fr": "Amortissement accéléré des immeubles et équipements neufs affectés au projet.",
+          "zh": "项目使用的新建筑物和新设备可加速折旧。",
+          "ar": "استهلاك معجّل للمباني والمعدات الجديدة المستخدمة في المشروع.",
+          "hi": "परियोजना में उपयोग होने वाले नए भवनों और उपकरणों का त्वरित मूल्यह्रास।",
+          "sw": "Uchakavu wa kasi wa majengo mapya na vifaa vinavyotumika katika mradi.",
+          "af": "Versnelde waardevermindering van nuwe geboue en toerusting wat in die projek gebruik word."
         },
         "conditions": {
           "pt": "Activos novos afectos à actividade ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
           "en": "New assets used in the business ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
-          "fr": "Actifs neufs affectés à l'activité ({{ACCELERATED_DEPRECIATION_FACTOR}})."
+          "fr": "Actifs neufs affectés à l'activité ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+          "zh": "用于经营的新资产（{{ACCELERATED_DEPRECIATION_FACTOR}}）。",
+          "ar": "أصول جديدة مستخدمة في النشاط ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+          "hi": "व्यवसाय में उपयोग होने वाली नई परिसंपत्तियाँ ({{ACCELERATED_DEPRECIATION_FACTOR}})।",
+          "sw": "Mali mpya zinazotumika katika biashara ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+          "af": "Nuwe bates wat in die besigheid gebruik word ({{ACCELERATED_DEPRECIATION_FACTOR}})."
         },
         "refs": ["lei-4-2009"]
       }
     },
     {
       "id": "training",
-      "when": [{ "field": "workers", "op": "gte", "value": 1 }],
+      "when": [
+        {
+          "field": "workers",
+          "op": "gte",
+          "value": 1
+        }
+      ],
       "then": {
         "id": "training",
-        "title": { "pt": "Dedução de despesas de formação", "en": "Training expense deduction", "fr": "Déduction des dépenses de formation" },
+        "title": {
+          "pt": "Dedução de despesas de formação",
+          "en": "Training expense deduction",
+          "fr": "Déduction des dépenses de formation",
+          "zh": "培训费用扣除",
+          "ar": "خصم نفقات التدريب",
+          "hi": "प्रशिक्षण व्यय की कटौती",
+          "sw": "Makato ya gharama za mafunzo",
+          "af": "Aftrekking van opleidingsuitgawes"
+        },
         "detail": {
           "pt": "Despesas com a formação profissional de trabalhadores moçambicanos dedutíveis com majoração.",
           "en": "Vocational training expenses for Mozambican workers deductible with an uplift.",
-          "fr": "Dépenses de formation professionnelle des salariés mozambicains déductibles avec majoration."
+          "fr": "Dépenses de formation professionnelle des salariés mozambicains déductibles avec majoration.",
+          "zh": "莫桑比克员工的职业培训费用可加计扣除。",
+          "ar": "نفقات التدريب المهني للعمال الموزمبيقيين قابلة للخصم مع زيادة إضافية.",
+          "hi": "मोज़ाम्बिकी कर्मचारियों के व्यावसायिक प्रशिक्षण पर किया गया व्यय बढ़ी हुई दर (uplift) के साथ कटौती योग्य है।",
+          "sw": "Gharama za mafunzo ya ufundi kwa wafanyakazi wa Msumbiji zinakatwa kwa nyongeza.",
+          "af": "Uitgawes aan beroepsopleiding vir Mosambiekse werkers is met 'n verhoging aftrekbaar."
         },
         "conditions": {
           "pt": "Formação de trabalhadores moçambicanos; limite {{TRAINING_DEDUCTION_LIMIT}}.",
           "en": "Training of Mozambican workers; limit {{TRAINING_DEDUCTION_LIMIT}}.",
-          "fr": "Formation de salariés mozambicains ; plafond {{TRAINING_DEDUCTION_LIMIT}}."
+          "fr": "Formation de salariés mozambicains ; plafond {{TRAINING_DEDUCTION_LIMIT}}.",
+          "zh": "培训对象为莫桑比克员工；上限 {{TRAINING_DEDUCTION_LIMIT}}。",
+          "ar": "تدريب العمال الموزمبيقيين؛ الحد {{TRAINING_DEDUCTION_LIMIT}}.",
+          "hi": "मोज़ाम्बिकी कर्मचारियों का प्रशिक्षण; सीमा {{TRAINING_DEDUCTION_LIMIT}}।",
+          "sw": "Mafunzo kwa wafanyakazi wa Msumbiji; kikomo {{TRAINING_DEDUCTION_LIMIT}}.",
+          "af": "Opleiding van Mosambiekse werkers; limiet {{TRAINING_DEDUCTION_LIMIT}}."
         },
         "refs": ["lei-4-2009"]
       }

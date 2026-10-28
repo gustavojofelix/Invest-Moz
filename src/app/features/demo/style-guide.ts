@@ -21,8 +21,9 @@ import { Sheet, SheetService } from '@shared/ui/sheet';
 import { Skeleton } from '@shared/ui/skeleton';
 import { StatusPill } from '@shared/ui/status-pill';
 import { Stepper } from '@shared/ui/stepper';
+import { fillText } from '@core/domain/text';
 
-const lt = (pt: string, en = pt, fr = pt) => ({ pt, en, fr });
+const lt = (pt: string, en = pt, fr = pt) => fillText({ pt, en, fr });
 
 /** Sample content for the sheet demo. */
 @Component({
@@ -85,13 +86,21 @@ export class StyleGuide {
 
   protected readonly tokens = [
     'brand',
-    'accent',
+    'brand-deep',
+    'brand-deep-2',
+    'brand-tint',
     'highlight',
+    'accent',
     'ink',
+    'ink-soft',
     'muted',
     'surface',
+    'surface-alt',
     'panel',
+    'paper',
     'rule',
+    'warn-bg',
+    'bad-bg',
   ];
   protected readonly scale = [
     { size: 48, cls: 'text-4xl font-serif' },

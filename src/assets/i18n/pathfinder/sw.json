@@ -1,0 +1,114 @@
+{
+  "eyebrow": "Pathfinder ya Uwekezaji",
+  "progress": "Swali {{n}} kati ya {{total}}",
+  "progressLabel": "Maendeleo ya Pathfinder",
+  "why": "Kwa nini ni muhimu:",
+  "back": "Rudi",
+  "continue": "Endelea",
+  "build": "Unda ramani yangu",
+  "building": "Inaandaa ramani yako…",
+  "startOver": "Anza upya",
+  "voice": "Sema wazo lako",
+  "voiceStop": "Acha kusikiliza",
+  "disclaimer": "Taarifa za jumla kwa mujibu wa sheria za Msumbiji. Si ushauri wa kisheria.",
+  "askInstead": "Ungependa kuuliza swali badala yake?",
+  "soFar": {
+    "title": "Majibu yako hadi sasa",
+    "empty": "Majibu yako yataonekana hapa unapoendelea.",
+    "edit": "Badilisha: {{q}}",
+    "sector": "Sekta",
+    "province": "Jimbo",
+    "size": "Uwekezaji",
+    "origin": "Mwekezaji",
+    "jobs": "Ajira",
+    "timing": "Kuanza"
+  },
+  "example": {
+    "load": "Pakia mfano",
+    "loaded": "Mfano umepakiwa. Chagua lini unapanga kuanza, kisha unda ramani — au badilisha jibu lolote."
+  },
+  "sectors": {
+    "agro_industry": "Viwanda vya kilimo",
+    "energy": "Nishati",
+    "tourism": "Utalii",
+    "logistics": "Usafirishaji",
+    "mining": "Madini",
+    "oil_gas": "Mafuta na gesi",
+    "services": "Huduma",
+    "general": "Kitu kingine"
+  },
+  "sector": {
+    "title": "Biashara itafanya nini?",
+    "why": "Sekta huamua leseni, kundi la mazingira na vivutio vinavyohusika.",
+    "ideaLabel": "Wazo lako kwa sentensi moja (si lazima)",
+    "ideaPlaceholder": "k.m. Kiwanda cha kusindika korosho kinachouza India",
+    "ideaHint": "Tiva hutambua sekta kutoka kwa wazo lako; ihakiki hapa chini.",
+    "legend": "Sekta",
+    "required": "Chagua sekta inayokaribiana zaidi na mradi wako.",
+    "next": "Ifuatayo: mahali mradi utakapokuwa."
+  },
+  "province": {
+    "title": "Mradi utakuwa wapi?",
+    "why": "Jimbo huamua nani anaidhinisha baadhi ya leseni na korido na vivutio vipi vinahusika.",
+    "unsure": "Bado sina uhakika",
+    "unsureHint": "Tiva itatumia Jiji la Maputo kwa sasa. Unaweza kubadilisha baadaye.",
+    "required": "Chagua jimbo, au “Bado sina uhakika”.",
+    "next": "Ifuatayo: ukubwa wa uwekezaji, ajira na lini unapanga kuanza."
+  },
+  "size": {
+    "title": "Unapanga kuwekeza kiasi gani?",
+    "why": "Ukubwa huamua nani anaidhinisha mradi APIEX na kama uwekezaji wa kigeni unafikia kiwango cha chini kwa dhamana za kurejesha faida.",
+    "under": "Chini ya {{v}}",
+    "over": "Zaidi ya {{v}}",
+    "exact": "Au kiasi kamili (USD)",
+    "exactHint": "Kiwango cha makadirio kinatosha kwa ramani ya kwanza.",
+    "using": "Tiva itatumia {{v}} kama makadirio.",
+    "required": "Chagua kiwango au weka kiasi cha angalau USD 1,000.",
+    "next": "Ifuatayo: uwekezaji unatoka wapi."
+  },
+  "origin": {
+    "title": "Uwekezaji unatoka wapi?",
+    "why": "Nchi yako huamua kama mkataba wa kuepuka kodi mara mbili unapunguza kodi ya zuio, na mtaji wa kigeni lazima usajiliwe na Banco de Moçambique.",
+    "capitalLegend": "Mtaji",
+    "foreign": "Wa kigeni",
+    "mixed": "Wa kigeni na wa Msumbiji",
+    "mozambican": "Wa Msumbiji",
+    "country": "Nchi ya mwekezaji",
+    "countryPlaceholder": "Tafuta nchi",
+    "countryHint": "Nchi zilizowekwa alama ADT zina mkataba wa kuepuka kodi mara mbili na Msumbiji.",
+    "noCountry": "Hakuna nchi iliyopatikana",
+    "treaty": "ADT",
+    "required": "Chagua nchi ya mwekezaji.",
+    "next": "Ifuatayo: utaajiri watu wangapi."
+  },
+  "jobs": {
+    "title": "Utaajiri watu wangapi?",
+    "why": "Idadi ya wafanyakazi huweka kiwango chako cha wafanyakazi wa kigeni chini ya Lei n.º 13/2023: ndani ya kiwango, taarifa inatosha; zaidi ya hapo unahitaji vibali vya kazi.",
+    "workers": "Jumla ya wafanyakazi",
+    "foreign": "Kati yao wa kigeni",
+    "hint": "Makadirio ya mwaka wa kwanza yanatosha.",
+    "summary": "{{n}} ({{f}} wa kigeni)",
+    "required": "Weka namba kamili; wafanyakazi wa kigeni hawawezi kuzidi jumla.",
+    "next": "Mwisho: lini unapanga kuanza."
+  },
+  "timing": {
+    "title": "Unapanga kuanza lini?",
+    "why": "Muda humwonyesha Tiva hatua zipi zianze sasa: leseni ya mazingira na ardhi vinaweza kuchukua miezi, hivyo mara nyingi hufanyika sambamba.",
+    "now": "Ndani ya miezi 3",
+    "months3": "Baada ya miezi 3 hadi 12",
+    "months12": "Baada ya zaidi ya mwaka mmoja",
+    "exploring": "Ninachunguza tu",
+    "required": "Chagua lini unapanga kuanza.",
+    "next": "Kisha Tiva itaunda ramani yako ya hatua tisa."
+  },
+  "facts": {
+    "legend": "Tueleze pia (si lazima)",
+    "hint": "Weka alama kwenye yanayohusika. Kila moja huongeza hatua au ukaguzi kwenye ramani yako.",
+    "needsLand": "Tunahitaji ardhi (DUAT) kwa mradi",
+    "importsGoods": "Tutaagiza vifaa au bidhaa",
+    "temporaryImport": "Baadhi ya vifaa vinaingizwa kwa muda",
+    "exports": "Tutauza nje ya nchi",
+    "shareholderLoan": "Mkopo wa mwanahisa au ufadhili kutoka nje",
+    "feesAbroad": "Tutalipa huduma au mirabaha nje ya nchi"
+  }
+}

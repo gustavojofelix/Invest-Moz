@@ -3,24 +3,14 @@
   "$id": "qa-answers.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "answers"
-  ],
+  "required": ["answers"],
   "properties": {
     "answers": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "topic",
-          "question",
-          "keywords",
-          "body",
-          "refs",
-          "whenToTalk"
-        ],
+        "required": ["id", "topic", "question", "keywords", "body", "refs", "whenToTalk"],
         "properties": {
           "id": {
             "type": "string",

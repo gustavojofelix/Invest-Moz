@@ -2,134 +2,302 @@
   "topics": [
     {
       "id": "companies",
-      "label": { "pt": "Sociedades", "en": "Companies", "fr": "Sociétés" },
+      "label": {
+        "pt": "Sociedades",
+        "en": "Companies",
+        "fr": "Sociétés",
+        "zh": "公司",
+        "ar": "الشركات",
+        "hi": "कंपनियाँ",
+        "sw": "Kampuni",
+        "af": "Maatskappye"
+      },
       "refLabel": "DL 1/2022",
       "refId": "dl-1-2022",
       "intro": {
         "pt": "Escolha do veículo de investimento, constituição de sociedades e sucursais, e respectivos órgãos e registos.",
         "en": "Choice of investment vehicle, incorporation of companies and branches, and their governing bodies and registrations.",
-        "fr": "Choix du véhicule d'investissement, constitution de sociétés et de succursales, ainsi que leurs organes et immatriculations."
+        "fr": "Choix du véhicule d'investissement, constitution de sociétés et de succursales, ainsi que leurs organes et immatriculations.",
+        "zh": "投资载体的选择，公司与分公司的设立，及其治理机构和登记。",
+        "ar": "اختيار وعاء الاستثمار، وتأسيس الشركات والفروع، وهيئاتها الإدارية وتسجيلاتها.",
+        "hi": "निवेश माध्यम (vehicle) का चुनाव, कंपनियों और शाखाओं का गठन, तथा उनके शासी निकाय और पंजीकरण।",
+        "sw": "Uchaguzi wa chombo cha uwekezaji, usajili wa kampuni na matawi, pamoja na vyombo vyao vya uongozi na usajili.",
+        "af": "Keuse van beleggingsvoertuig, inlywing van maatskappye en takke, en hul bestuursliggame en registrasies."
       }
     },
     {
       "id": "licensing",
-      "label": { "pt": "Licenciamento", "en": "Licensing", "fr": "Autorisations" },
+      "label": {
+        "pt": "Licenciamento",
+        "en": "Licensing",
+        "fr": "Autorisations",
+        "zh": "许可",
+        "ar": "الترخيص",
+        "hi": "लाइसेंसिंग",
+        "sw": "Leseni",
+        "af": "Lisensiëring"
+      },
       "refLabel": "Dec. 41/2026",
       "refId": "dec-41-2026",
       "intro": {
         "pt": "Licenças e autorizações necessárias para iniciar e manter a actividade, incluindo o BAU e as licenças sectoriais.",
         "en": "Licences and authorisations needed to start and carry on operations, including the One-Stop Shop and sector licences.",
-        "fr": "Licences et autorisations nécessaires pour démarrer et poursuivre l'activité, y compris le guichet unique et les licences sectorielles."
+        "fr": "Licences et autorisations nécessaires pour démarrer et poursuivre l'activité, y compris le guichet unique et les licences sectorielles.",
+        "zh": "开展和持续经营所需的许可证和授权，包括一站式服务窗口（BAU）和行业许可证。",
+        "ar": "التراخيص والتصاريح اللازمة لبدء العمليات ومزاولتها، بما في ذلك الشباك الموحّد (BAU) والتراخيص القطاعية.",
+        "hi": "संचालन शुरू करने और जारी रखने के लिए आवश्यक लाइसेंस और प्राधिकरण, जिनमें वन-स्टॉप शॉप (BAU) और क्षेत्रीय लाइसेंस शामिल हैं।",
+        "sw": "Leseni na vibali vinavyohitajika kuanza na kuendesha shughuli, ikiwemo Kituo cha Huduma Moja (BAU) na leseni za kisekta.",
+        "af": "Lisensies en magtigings wat nodig is om bedrywighede te begin en voort te sit, insluitend die Eenstopwinkel (BAU) en sektorlisensies."
       }
     },
     {
       "id": "investment",
-      "label": { "pt": "Investimento", "en": "Investment", "fr": "Investissement" },
+      "label": {
+        "pt": "Investimento",
+        "en": "Investment",
+        "fr": "Investissement",
+        "zh": "投资",
+        "ar": "الاستثمار",
+        "hi": "निवेश",
+        "sw": "Uwekezaji",
+        "af": "Belegging"
+      },
       "refLabel": "Lei 8/2023",
       "refId": "lei-8-2023",
       "intro": {
         "pt": "Aprovação do projecto na APIEX, certificado de investimento e garantias concedidas ao investidor estrangeiro.",
         "en": "Project approval at APIEX, the investment certificate and the guarantees granted to foreign investors.",
-        "fr": "Approbation du projet auprès de l'APIEX, certificat d'investissement et garanties accordées à l'investisseur étranger."
+        "fr": "Approbation du projet auprès de l'APIEX, certificat d'investissement et garanties accordées à l'investisseur étranger.",
+        "zh": "在 APIEX（投资与出口促进局）的项目审批、投资证书以及给予外国投资者的保障。",
+        "ar": "اعتماد المشروع لدى APIEX، وشهادة الاستثمار، والضمانات الممنوحة للمستثمرين الأجانب.",
+        "hi": "APIEX में परियोजना की स्वीकृति, निवेश प्रमाणपत्र और विदेशी निवेशकों को दी जाने वाली गारंटियाँ।",
+        "sw": "Uidhinishaji wa mradi katika APIEX, cheti cha uwekezaji na dhamana zinazotolewa kwa wawekezaji wa kigeni.",
+        "af": "Projekgoedkeuring by APIEX, die beleggingsertifikaat en die waarborge wat aan buitelandse beleggers verleen word."
       }
     },
     {
       "id": "tax",
-      "label": { "pt": "Impostos", "en": "Tax", "fr": "Fiscalité" },
+      "label": {
+        "pt": "Impostos",
+        "en": "Tax",
+        "fr": "Fiscalité",
+        "zh": "税务",
+        "ar": "الضرائب",
+        "hi": "कर",
+        "sw": "Kodi",
+        "af": "Belasting"
+      },
       "refLabel": "IRPC · IVA",
       "refId": "cirpc",
       "intro": {
         "pt": "IRPC, IVA, imposto do selo, retenções na fonte sobre pagamentos ao exterior e acordos de dupla tributação.",
         "en": "Corporate income tax, VAT, stamp duty, withholding tax on payments abroad and double taxation agreements.",
-        "fr": "Impôt sur les sociétés, TVA, droit de timbre, retenue à la source sur les paiements à l'étranger et conventions fiscales."
+        "fr": "Impôt sur les sociétés, TVA, droit de timbre, retenue à la source sur les paiements à l'étranger et conventions fiscales.",
+        "zh": "企业所得税（IRPC）、增值税（IVA）、印花税、境外付款预提税以及避免双重征税协定。",
+        "ar": "ضريبة دخل الشركات (IRPC)، وضريبة القيمة المضافة (IVA)، ورسم الطابع، والضريبة المقتطعة على المدفوعات إلى الخارج، واتفاقيات تجنّب الازدواج الضريبي.",
+        "hi": "कॉर्पोरेट आयकर (IRPC), VAT (IVA), स्टाम्प शुल्क, विदेश भुगतानों पर विदहोल्डिंग टैक्स और दोहरा कराधान परिहार समझौते।",
+        "sw": "Kodi ya mapato ya kampuni, VAT (IVA), ushuru wa stempu, kodi ya zuio kwa malipo ya nje ya nchi na mikataba ya kuepuka kutozwa kodi mara mbili.",
+        "af": "Maatskappy-inkomstebelasting, BTW (IVA), seëlreg, terughoudingsbelasting op betalings na die buiteland en dubbelbelastingooreenkomste."
       }
     },
     {
       "id": "labour",
-      "label": { "pt": "Trabalho", "en": "Employment", "fr": "Travail" },
+      "label": {
+        "pt": "Trabalho",
+        "en": "Employment",
+        "fr": "Travail",
+        "zh": "劳动雇佣",
+        "ar": "العمل والتوظيف",
+        "hi": "रोज़गार",
+        "sw": "Ajira",
+        "af": "Indiensneming"
+      },
       "refLabel": "Lei 13/2023",
       "refId": "lei-13-2023",
       "intro": {
         "pt": "Contratos de trabalho, segurança social, quotas de trabalhadores estrangeiros e obrigações do empregador.",
         "en": "Employment contracts, social security, foreign-worker quotas and employer obligations.",
-        "fr": "Contrats de travail, sécurité sociale, quotas de travailleurs étrangers et obligations de l'employeur."
+        "fr": "Contrats de travail, sécurité sociale, quotas de travailleurs étrangers et obligations de l'employeur.",
+        "zh": "劳动合同、社会保障（INSS）、外籍员工配额和雇主义务。",
+        "ar": "عقود العمل، والضمان الاجتماعي، وحصص العمال الأجانب، والتزامات صاحب العمل.",
+        "hi": "रोज़गार अनुबंध, सामाजिक सुरक्षा (INSS), विदेशी कर्मचारियों का कोटा और नियोक्ता के दायित्व।",
+        "sw": "Mikataba ya ajira, hifadhi ya jamii, viwango vya wafanyakazi wa kigeni na wajibu wa mwajiri.",
+        "af": "Dienskontrakte, maatskaplike sekerheid, kwotas vir buitelandse werkers en werkgewersverpligtinge."
       }
     },
     {
       "id": "immigration",
-      "label": { "pt": "Imigração", "en": "Immigration", "fr": "Immigration" },
+      "label": {
+        "pt": "Imigração",
+        "en": "Immigration",
+        "fr": "Immigration",
+        "zh": "移民",
+        "ar": "الهجرة",
+        "hi": "आप्रवासन",
+        "sw": "Uhamiaji",
+        "af": "Immigrasie"
+      },
       "refLabel": "Dec. 88/2024",
       "refId": "dec-88-2024",
       "intro": {
         "pt": "Vistos, autorizações de trabalho e DIRE para quadros e técnicos estrangeiros, e respectivas renovações.",
         "en": "Visas, work permits and DIRE residence permits for foreign managers and specialists, and their renewal.",
-        "fr": "Visas, permis de travail et titres de séjour DIRE pour les cadres et techniciens étrangers, et leur renouvellement."
+        "fr": "Visas, permis de travail et titres de séjour DIRE pour les cadres et techniciens étrangers, et leur renouvellement.",
+        "zh": "外籍管理人员和专业人员的签证、工作许可和 DIRE 居留证及其续期。",
+        "ar": "التأشيرات وتصاريح العمل وتصاريح الإقامة DIRE للمديرين والمتخصصين الأجانب، وتجديدها.",
+        "hi": "विदेशी प्रबंधकों और विशेषज्ञों के लिए वीज़ा, वर्क परमिट और DIRE निवास परमिट, तथा उनका नवीनीकरण।",
+        "sw": "Viza, vibali vya kazi na vibali vya ukaazi vya DIRE kwa mameneja na wataalamu wa kigeni, pamoja na uhuishaji wake.",
+        "af": "Visums, werkpermitte en DIRE-verblyfpermitte vir buitelandse bestuurders en spesialiste, en die hernuwing daarvan."
       }
     },
     {
       "id": "exchange",
-      "label": { "pt": "Câmbios", "en": "Foreign exchange", "fr": "Change" },
+      "label": {
+        "pt": "Câmbios",
+        "en": "Foreign exchange",
+        "fr": "Change",
+        "zh": "外汇",
+        "ar": "الصرف الأجنبي",
+        "hi": "विदेशी मुद्रा",
+        "sw": "Fedha za kigeni",
+        "af": "Buitelandse valuta"
+      },
       "refLabel": "Aviso 4/GBM/2024",
       "refId": "aviso-4-gbm-2024",
       "intro": {
         "pt": "Registo do investimento e dos financiamentos externos no Banco de Moçambique e transferências para o exterior.",
         "en": "Registration of investment and external financing with the Banco de Moçambique, and transfers abroad.",
-        "fr": "Enregistrement des investissements et des financements extérieurs auprès de la Banco de Moçambique, et transferts vers l'étranger."
+        "fr": "Enregistrement des investissements et des financements extérieurs auprès de la Banco de Moçambique, et transferts vers l'étranger.",
+        "zh": "在 Banco de Moçambique（莫桑比克央行）登记投资和境外融资，以及向境外汇款。",
+        "ar": "تسجيل الاستثمار والتمويل الخارجي لدى Banco de Moçambique (البنك المركزي)، والتحويلات إلى الخارج.",
+        "hi": "Banco de Moçambique (केंद्रीय बैंक) में निवेश और विदेशी वित्तपोषण का पंजीकरण, तथा विदेश में धन-अंतरण।",
+        "sw": "Usajili wa uwekezaji na ufadhili kutoka nje katika Banco de Moçambique (benki kuu), na uhamisho wa fedha nje ya nchi.",
+        "af": "Registrasie van belegging en buitelandse finansiering by die Banco de Moçambique, en oordragte na die buiteland."
       }
     },
     {
       "id": "customs",
-      "label": { "pt": "Alfândegas", "en": "Customs", "fr": "Douanes" },
+      "label": {
+        "pt": "Alfândegas",
+        "en": "Customs",
+        "fr": "Douanes",
+        "zh": "海关",
+        "ar": "الجمارك",
+        "hi": "सीमा शुल्क",
+        "sw": "Forodha",
+        "af": "Doeane"
+      },
       "refLabel": "Pauta",
       "refId": "pauta",
       "intro": {
         "pt": "Importação de equipamento e mercadorias, classificação pautal, importação temporária e isenções aduaneiras.",
         "en": "Import of equipment and goods, tariff classification, temporary import and customs exemptions.",
-        "fr": "Importation d'équipements et de marchandises, classement tarifaire, admission temporaire et exonérations douanières."
+        "fr": "Importation d'équipements et de marchandises, classement tarifaire, admission temporaire et exonérations douanières.",
+        "zh": "设备和货物进口、税则归类、临时进口和海关豁免。",
+        "ar": "استيراد المعدات والسلع، والتصنيف الجمركي، والاستيراد المؤقت، والإعفاءات الجمركية.",
+        "hi": "उपकरण और माल का आयात, टैरिफ वर्गीकरण, अस्थायी आयात और सीमा शुल्क छूट।",
+        "sw": "Uingizaji wa vifaa na bidhaa, uainishaji wa ushuru, uingizaji wa muda na misamaha ya forodha.",
+        "af": "Invoer van toerusting en goedere, tariefklassifikasie, tydelike invoer en doeanevrystellings."
       }
     },
     {
       "id": "incentives",
-      "label": { "pt": "Benefícios fiscais", "en": "Tax incentives", "fr": "Avantages fiscaux" },
+      "label": {
+        "pt": "Benefícios fiscais",
+        "en": "Tax incentives",
+        "fr": "Avantages fiscaux",
+        "zh": "税收优惠",
+        "ar": "الحوافز الضريبية",
+        "hi": "कर प्रोत्साहन",
+        "sw": "Vivutio vya kodi",
+        "af": "Belastingaansporings"
+      },
       "refLabel": "Lei 4/2009",
       "refId": "lei-4-2009",
       "intro": {
         "pt": "Benefícios fiscais para projectos aprovados, incluindo isenções aduaneiras, crédito fiscal por investimento e amortizações aceleradas.",
         "en": "Tax incentives for approved projects, including customs exemptions, the investment tax credit and accelerated depreciation.",
-        "fr": "Avantages fiscaux pour les projets approuvés, notamment les exonérations douanières, le crédit d'impôt à l'investissement et l'amortissement accéléré."
+        "fr": "Avantages fiscaux pour les projets approuvés, notamment les exonérations douanières, le crédit d'impôt à l'investissement et l'amortissement accéléré.",
+        "zh": "获批项目的税收优惠，包括海关豁免、投资税收抵免和加速折旧。",
+        "ar": "الحوافز الضريبية للمشاريع المعتمدة، بما في ذلك الإعفاءات الجمركية والائتمان الضريبي للاستثمار والاستهلاك المعجّل.",
+        "hi": "स्वीकृत परियोजनाओं के लिए कर प्रोत्साहन, जिनमें सीमा शुल्क छूट, निवेश कर क्रेडिट और त्वरित मूल्यह्रास शामिल हैं।",
+        "sw": "Vivutio vya kodi kwa miradi iliyoidhinishwa, ikiwemo misamaha ya forodha, punguzo la kodi kwa uwekezaji na uchakavu wa kasi.",
+        "af": "Belastingaansporings vir goedgekeurde projekte, insluitend doeanevrystellings, die beleggingsbelastingkrediet en versnelde waardevermindering."
       }
     },
     {
       "id": "compliance",
-      "label": { "pt": "Obrigações e contabilidade", "en": "Compliance and accounting", "fr": "Obligations et comptabilité" },
+      "label": {
+        "pt": "Obrigações e contabilidade",
+        "en": "Compliance and accounting",
+        "fr": "Obligations et comptabilité",
+        "zh": "合规与会计",
+        "ar": "الامتثال والمحاسبة",
+        "hi": "अनुपालन और लेखांकन",
+        "sw": "Uzingatiaji na uhasibu",
+        "af": "Nakoming en rekeningkunde"
+      },
       "refLabel": "M/22 · M/20",
       "refId": "m22",
       "intro": {
         "pt": "Calendário de obrigações declarativas e de pagamento, contabilidade e relatórios periódicos à APIEX.",
         "en": "Calendar of filing and payment obligations, accounting and periodic reporting to APIEX.",
-        "fr": "Calendrier des obligations déclaratives et de paiement, comptabilité et rapports périodiques à l'APIEX."
+        "fr": "Calendrier des obligations déclaratives et de paiement, comptabilité et rapports périodiques à l'APIEX.",
+        "zh": "申报与缴款义务日历、会计以及向 APIEX 的定期报告。",
+        "ar": "تقويم التزامات الإقرار والسداد، والمحاسبة، والتقارير الدورية إلى APIEX.",
+        "hi": "रिटर्न दाखिल करने और भुगतान के दायित्वों का कैलेंडर, लेखांकन और APIEX को आवधिक रिपोर्टिंग।",
+        "sw": "Kalenda ya wajibu wa mawasilisho na malipo, uhasibu na taarifa za mara kwa mara kwa APIEX.",
+        "af": "Kalender van indienings- en betalingsverpligtinge, rekeningkunde en periodieke verslagdoening aan APIEX."
       }
     },
     {
       "id": "land",
-      "label": { "pt": "Terra, ambiente e zonas", "en": "Land, environment and zones", "fr": "Foncier, environnement et zones" },
+      "label": {
+        "pt": "Terra, ambiente e zonas",
+        "en": "Land, environment and zones",
+        "fr": "Foncier, environnement et zones",
+        "zh": "土地、环境与特区",
+        "ar": "الأراضي والبيئة والمناطق",
+        "hi": "भूमि, पर्यावरण और ज़ोन",
+        "sw": "Ardhi, mazingira na kanda",
+        "af": "Grond, omgewing en sones"
+      },
       "refLabel": "Lei 19/97",
       "refId": "lei-19-97",
       "intro": {
         "pt": "Direito de uso e aproveitamento da terra, licenciamento ambiental, zonas económicas especiais e padrões dos financiadores.",
         "en": "Land use rights, environmental licensing, special economic zones and lender standards.",
-        "fr": "Droit d'usage de la terre, autorisation environnementale, zones économiques spéciales et normes des bailleurs."
+        "fr": "Droit d'usage de la terre, autorisation environnementale, zones économiques spéciales et normes des bailleurs.",
+        "zh": "土地使用权（DUAT）、环境许可、经济特区和贷款机构标准。",
+        "ar": "حقوق الانتفاع بالأراضي، والترخيص البيئي، والمناطق الاقتصادية الخاصة، ومعايير جهات الإقراض.",
+        "hi": "भूमि उपयोग अधिकार (DUAT), पर्यावरण लाइसेंसिंग, विशेष आर्थिक क्षेत्र (SEZ) और ऋणदाताओं के मानक।",
+        "sw": "Haki za matumizi ya ardhi, leseni za mazingira, kanda maalum za kiuchumi na viwango vya wakopeshaji.",
+        "af": "Grondgebruiksregte, omgewingslisensiëring, spesiale ekonomiese sones en standaarde van finansierders."
       }
     },
     {
       "id": "local_content",
-      "label": { "pt": "Conteúdo local e LNG", "en": "Local content and LNG", "fr": "Contenu local et GNL" },
+      "label": {
+        "pt": "Conteúdo local e LNG",
+        "en": "Local content and LNG",
+        "fr": "Contenu local et GNL",
+        "zh": "本地成分与液化天然气",
+        "ar": "المحتوى المحلي والغاز الطبيعي المسال",
+        "hi": "स्थानीय सामग्री और LNG",
+        "sw": "Ushiriki wa wazawa na LNG",
+        "af": "Plaaslike inhoud en LNG"
+      },
       "refLabel": "Lei 21/2014",
       "refId": "lei-21-2014",
       "intro": {
         "pt": "Regras de conteúdo local e de preferência nacional aplicáveis aos fornecedores dos projectos de petróleo e gás.",
         "en": "Local content and national preference rules applicable to suppliers of oil and gas projects.",
-        "fr": "Règles de contenu local et de préférence nationale applicables aux fournisseurs des projets pétroliers et gaziers."
+        "fr": "Règles de contenu local et de préférence nationale applicables aux fournisseurs des projets pétroliers et gaziers.",
+        "zh": "适用于油气项目供应商的本地成分和国民优先规则。",
+        "ar": "قواعد المحتوى المحلي والأفضلية الوطنية المطبّقة على موردي مشاريع النفط والغاز.",
+        "hi": "तेल और गैस परियोजनाओं के आपूर्तिकर्ताओं पर लागू स्थानीय सामग्री (local content) और राष्ट्रीय वरीयता नियम।",
+        "sw": "Kanuni za ushiriki wa wazawa (local content) na upendeleo wa kitaifa zinazotumika kwa wasambazaji wa miradi ya mafuta na gesi.",
+        "af": "Reëls oor plaaslike inhoud en nasionale voorkeur wat op verskaffers aan olie- en gasprojekte van toepassing is."
       }
     }
   ]

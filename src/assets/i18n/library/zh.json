@@ -1,0 +1,99 @@
+{
+  "eyebrow": "知识库",
+  "title": "用通俗语言讲解法律",
+  "lead": "十个主题领域，从投资到争议解决。每篇文章都以通俗语言讲解，并注明所依据的法规。",
+  "searchLabel": "搜索知识库",
+  "searchPlaceholder": "搜索：DUAT、外籍员工配额、增值税…",
+  "resultsCount": "结果：{{count}}",
+  "resultsTitle": "“{{query}}”的搜索结果",
+  "clear": "清除搜索",
+  "noResults": "知识库中暂无相关内容",
+  "noResultsText": "换个词试试，或询问 Tiva：答案会附上法律依据。",
+  "askTiva": "询问 Tiva",
+  "banner": {
+    "tag": "新法",
+    "title": "低风险活动：以事先通知代替许可证",
+    "text": "Decretos n.º 40/2026 e 41/2026 通过 e-BAU 简化了许可程序。自 2026 年 10 月 25 日起生效。",
+    "cta": "查看变化"
+  },
+  "areasTitle": "主题领域",
+  "reviewed": "最近审核：{{date}}",
+  "articleOne": "1 篇文章",
+  "articleMany": "{{count}} 篇文章",
+  "areas": {
+    "start": {
+      "title": "从这里开始",
+      "tags": "国家概况"
+    },
+    "investment": {
+      "title": "投资与激励",
+      "tags": "APIEX · CBF · 经济特区"
+    },
+    "companies": {
+      "title": "公司设立",
+      "tags": "Lda · SA · 分支机构"
+    },
+    "licensing": {
+      "title": "许可证",
+      "tags": "e-BAU · 行业许可证"
+    },
+    "tax": {
+      "title": "税务",
+      "tags": "IRPC · IVA · IRPS"
+    },
+    "labour": {
+      "title": "劳动与外籍员工",
+      "tags": "配额 · 合同"
+    },
+    "immigration": {
+      "title": "移民",
+      "tags": "工作许可 · DIRE"
+    },
+    "land": {
+      "title": "土地与房产",
+      "tags": "DUAT · 环境"
+    },
+    "exchange": {
+      "title": "外汇管制",
+      "tags": "资本 · 汇回"
+    },
+    "sectors": {
+      "title": "行业制度",
+      "tags": "能源 · 矿业 · 旅游"
+    },
+    "disputes": {
+      "title": "争议与知识产权",
+      "tags": "法院 · 仲裁"
+    }
+  },
+  "startHere": "从这里开始",
+  "allArticles": "全部文章",
+  "trust": "每篇文章都注明法律依据和最近审核日期。仅为一般信息，不构成法律意见。",
+  "article": {
+    "breadcrumb": "导航路径",
+    "reviewedTag": "已审核 · {{date}}",
+    "versionLabel": "文章语言",
+    "version": "阅读语言",
+    "versionNote": "葡萄牙语是莫桑比克法律的语言：切换到 PT 可阅读最接近官方法规的文本。您的选择仅影响本文。",
+    "onThisPage": "本页内容",
+    "sourceTitle": "来源法规",
+    "diplomaReviewed": "参考资料审核于 {{date}}",
+    "basedOn": "依据：",
+    "ask": "就本文询问 Tiva",
+    "askShort": "询问 Tiva",
+    "askQuestion": "能否结合我的项目解释“{{topic}}”？",
+    "official": "官方文本",
+    "step": "步骤",
+    "where": "地点",
+    "time": "预计时间",
+    "nextSteps": "后续步骤",
+    "nextProject": "应用到我的项目",
+    "nextExpert": "咨询专家",
+    "pager": "文章导航",
+    "previous": "上一篇",
+    "next": "下一篇",
+    "missingTitle": "未找到文章",
+    "missingText": "该文章不存在或已移动。",
+    "missingBack": "返回知识库"
+  }
+}

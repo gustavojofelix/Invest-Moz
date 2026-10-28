@@ -1,54 +1,149 @@
 {
-  "noTreatyRate": { "pt": "20% (sem ADT)", "en": "20% (no treaty)", "fr": "20 % (sans convention)" },
+  "noTreatyRate": {
+    "pt": "20% (sem ADT)",
+    "en": "20% (no treaty)",
+    "fr": "20 % (sans convention)",
+    "zh": "20%（无协定）",
+    "ar": "20% (بلا اتفاقية)",
+    "hi": "20% (कोई संधि नहीं)",
+    "sw": "20% (hakuna mkataba)",
+    "af": "20% (geen verdrag)"
+  },
   "unknownTreatyRate": {
     "pt": "taxa do ADT a confirmar com a Tax Advisory (20% sem ADT)",
     "en": "treaty rate to be confirmed with Tax Advisory (20% without treaty)",
-    "fr": "taux conventionnel à confirmer avec Tax Advisory (20 % hors convention)"
+    "fr": "taux conventionnel à confirmer avec Tax Advisory (20 % hors convention)",
+    "zh": "协定税率待与 Tax Advisory 确认（无协定时为 20%）",
+    "ar": "معدل الاتفاقية قيد التأكيد مع Tax Advisory (20% بلا اتفاقية)",
+    "hi": "संधि दर की पुष्टि Tax Advisory से की जानी है (संधि के बिना 20%)",
+    "sw": "kiwango cha mkataba kitathibitishwa na Tax Advisory (20% bila mkataba)",
+    "af": "verdragskoers moet met Tax Advisory bevestig word (20% sonder verdrag)"
   },
   "entries": [
     {
       "country": "BW",
-      "dividends": { "pt": "0% ou 12% (consoante a participação; ADT Moçambique–Botswana)", "en": "0% or 12% (depending on the shareholding; Mozambique–Botswana treaty)", "fr": "0 % ou 12 % (selon la participation ; convention Mozambique–Botswana)" },
+      "dividends": {
+        "pt": "0% ou 12% (consoante a participação; ADT Moçambique–Botswana)",
+        "en": "0% or 12% (depending on the shareholding; Mozambique–Botswana treaty)",
+        "fr": "0 % ou 12 % (selon la participation ; convention Mozambique–Botswana)",
+        "zh": "0% 或 12%（视持股比例而定；莫桑比克–博茨瓦纳协定）",
+        "ar": "0% أو 12% (بحسب نسبة المساهمة؛ اتفاقية موزمبيق–بوتسوانا)",
+        "hi": "0% या 12% (शेयरधारिता के आधार पर; मोज़ाम्बिक–बोत्सवाना संधि)",
+        "sw": "0% au 12% (kutegemea umiliki wa hisa; mkataba wa Msumbiji–Botswana)",
+        "af": "0% of 12% (afhangend van die aandeelhouding; verdrag Mosambiek–Botswana)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "IN",
-      "dividends": { "pt": "7,5% (ADT Moçambique–Índia)", "en": "7.5% (Mozambique–India treaty)", "fr": "7,5 % (convention Mozambique–Inde)" },
+      "dividends": {
+        "pt": "7,5% (ADT Moçambique–Índia)",
+        "en": "7.5% (Mozambique–India treaty)",
+        "fr": "7,5 % (convention Mozambique–Inde)",
+        "zh": "7.5%（莫桑比克–印度协定）",
+        "ar": "7.5% (اتفاقية موزمبيق–الهند)",
+        "hi": "7.5% (मोज़ाम्बिक–भारत संधि)",
+        "sw": "7.5% (mkataba wa Msumbiji–India)",
+        "af": "7.5% (verdrag Mosambiek–Indië)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "IT",
-      "dividends": { "pt": "15% (ADT Moçambique–Itália)", "en": "15% (Mozambique–Italy treaty)", "fr": "15 % (convention Mozambique–Italie)" },
+      "dividends": {
+        "pt": "15% (ADT Moçambique–Itália)",
+        "en": "15% (Mozambique–Italy treaty)",
+        "fr": "15 % (convention Mozambique–Italie)",
+        "zh": "15%（莫桑比克–意大利协定）",
+        "ar": "15% (اتفاقية موزمبيق–إيطاليا)",
+        "hi": "15% (मोज़ाम्बिक–इटली संधि)",
+        "sw": "15% (mkataba wa Msumbiji–Italia)",
+        "af": "15% (verdrag Mosambiek–Italië)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "MO",
-      "dividends": { "pt": "10% (ADT Moçambique–Macau)", "en": "10% (Mozambique–Macau treaty)", "fr": "10 % (convention Mozambique–Macao)" },
+      "dividends": {
+        "pt": "10% (ADT Moçambique–Macau)",
+        "en": "10% (Mozambique–Macau treaty)",
+        "fr": "10 % (convention Mozambique–Macao)",
+        "zh": "10%（莫桑比克–澳门协定）",
+        "ar": "10% (اتفاقية موزمبيق–ماكاو)",
+        "hi": "10% (मोज़ाम्बिक–मकाऊ संधि)",
+        "sw": "10% (mkataba wa Msumbiji–Macau)",
+        "af": "10% (verdrag Mosambiek–Macau)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "MU",
-      "dividends": { "pt": "8%, 10% ou 15% (consoante a participação; ADT Moçambique–Maurícias)", "en": "8%, 10% or 15% (depending on the shareholding; Mozambique–Mauritius treaty)", "fr": "8 %, 10 % ou 15 % (selon la participation ; convention Mozambique–Maurice)" },
+      "dividends": {
+        "pt": "8%, 10% ou 15% (consoante a participação; ADT Moçambique–Maurícias)",
+        "en": "8%, 10% or 15% (depending on the shareholding; Mozambique–Mauritius treaty)",
+        "fr": "8 %, 10 % ou 15 % (selon la participation ; convention Mozambique–Maurice)",
+        "zh": "8%、10% 或 15%（视持股比例而定；莫桑比克–毛里求斯协定）",
+        "ar": "8% أو 10% أو 15% (بحسب نسبة المساهمة؛ اتفاقية موزمبيق–موريشيوس)",
+        "hi": "8%, 10% या 15% (शेयरधारिता के आधार पर; मोज़ाम्बिक–मॉरीशस संधि)",
+        "sw": "8%, 10% au 15% (kutegemea umiliki wa hisa; mkataba wa Msumbiji–Morisi)",
+        "af": "8%, 10% of 15% (afhangend van die aandeelhouding; verdrag Mosambiek–Mauritius)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "PT",
-      "dividends": { "pt": "10% (ADT Moçambique–Portugal)", "en": "10% (Mozambique–Portugal treaty)", "fr": "10 % (convention Mozambique–Portugal)" },
+      "dividends": {
+        "pt": "10% (ADT Moçambique–Portugal)",
+        "en": "10% (Mozambique–Portugal treaty)",
+        "fr": "10 % (convention Mozambique–Portugal)",
+        "zh": "10%（莫桑比克–葡萄牙协定）",
+        "ar": "10% (اتفاقية موزمبيق–البرتغال)",
+        "hi": "10% (मोज़ाम्बिक–पुर्तगाल संधि)",
+        "sw": "10% (mkataba wa Msumbiji–Ureno)",
+        "af": "10% (verdrag Mosambiek–Portugal)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "ZA",
-      "dividends": { "pt": "8% ou 15% (ADT Moçambique–África do Sul)", "en": "8% or 15% (Mozambique–South Africa treaty)", "fr": "8 % ou 15 % (convention Mozambique–Afrique du Sud)" },
-      "refs": ["ta-dta-rates",  "dta-za"]
+      "dividends": {
+        "pt": "8% ou 15% (ADT Moçambique–África do Sul)",
+        "en": "8% or 15% (Mozambique–South Africa treaty)",
+        "fr": "8 % ou 15 % (convention Mozambique–Afrique du Sud)",
+        "zh": "8% 或 15%（莫桑比克–南非协定）",
+        "ar": "8% أو 15% (اتفاقية موزمبيق–جنوب أفريقيا)",
+        "hi": "8% या 15% (मोज़ाम्बिक–दक्षिण अफ्रीका संधि)",
+        "sw": "8% au 15% (mkataba wa Msumbiji–Afrika Kusini)",
+        "af": "8% of 15% (verdrag Mosambiek–Suid-Afrika)"
+      },
+      "refs": ["ta-dta-rates", "dta-za"]
     },
     {
       "country": "AE",
-      "dividends": { "pt": "0% (ADT Moçambique–Emirados Árabes Unidos)", "en": "0% (Mozambique–UAE treaty)", "fr": "0 % (convention Mozambique–Émirats arabes unis)" },
+      "dividends": {
+        "pt": "0% (ADT Moçambique–Emirados Árabes Unidos)",
+        "en": "0% (Mozambique–UAE treaty)",
+        "fr": "0 % (convention Mozambique–Émirats arabes unis)",
+        "zh": "0%（莫桑比克–阿联酋协定）",
+        "ar": "0% (اتفاقية موزمبيق–الإمارات)",
+        "hi": "0% (मोज़ाम्बिक–संयुक्त अरब अमीरात संधि)",
+        "sw": "0% (mkataba wa Msumbiji–Falme za Kiarabu)",
+        "af": "0% (verdrag Mosambiek–VAE)"
+      },
       "refs": ["ta-dta-rates"]
     },
     {
       "country": "VN",
-      "dividends": { "pt": "10% (ADT Moçambique–Vietname)", "en": "10% (Mozambique–Vietnam treaty)", "fr": "10 % (convention Mozambique–Viêt Nam)" },
+      "dividends": {
+        "pt": "10% (ADT Moçambique–Vietname)",
+        "en": "10% (Mozambique–Vietnam treaty)",
+        "fr": "10 % (convention Mozambique–Viêt Nam)",
+        "zh": "10%（莫桑比克–越南协定）",
+        "ar": "10% (اتفاقية موزمبيق–فيتنام)",
+        "hi": "10% (मोज़ाम्बिक–वियतनाम संधि)",
+        "sw": "10% (mkataba wa Msumbiji–Vietnam)",
+        "af": "10% (verdrag Mosambiek–Viëtnam)"
+      },
       "refs": ["ta-dta-rates"]
     }
   ]

@@ -6,60 +6,110 @@
       "title": {
         "pt": "Plataformas industriais em números",
         "en": "Industrial platforms in numbers",
-        "fr": "Les plateformes industrielles en chiffres"
+        "fr": "Les plateformes industrielles en chiffres",
+        "zh": "产业平台数据一览",
+        "ar": "المنصات الصناعية بالأرقام",
+        "hi": "आँकड़ों में औद्योगिक प्लेटफ़ॉर्म",
+        "sw": "Majukwaa ya viwanda kwa takwimu",
+        "af": "Nywerheidsplatforms in syfers"
       },
       "body": {
         "pt": "As zonas estão posicionadas ao longo dos corredores de transporte, com acesso a portos, licenciamento simplificado e incentivos próprios. Dentro da zona, a **autoridade da zona substitui vários ministérios** como interlocutor de licenciamento e cumprimento [ref:zee-zfi]. Um novo quadro regulamentar das ZEE e ZFI foi aprovado pelo Conselho de Ministros em Fevereiro de 2026.",
         "en": "Zones sit along the transport corridors, with port access, streamlined licensing and dedicated incentives. Inside a zone, the **zone authority replaces several ministries** as your licensing and compliance interface [ref:zee-zfi]. A new SEZ/IFZ regulatory framework was approved by the Council of Ministers in February 2026.",
-        "fr": "Les zones longent les corridors de transport, avec accès portuaire, autorisations simplifiées et incitations propres. Dans une zone, **l'autorité de la zone remplace plusieurs ministères** comme interlocuteur pour les autorisations et la conformité [ref:zee-zfi]. Un nouveau cadre réglementaire des ZES et ZFI a été approuvé par le Conseil des ministres en février 2026."
+        "fr": "Les zones longent les corridors de transport, avec accès portuaire, autorisations simplifiées et incitations propres. Dans une zone, **l'autorité de la zone remplace plusieurs ministères** comme interlocuteur pour les autorisations et la conformité [ref:zee-zfi]. Un nouveau cadre réglementaire des ZES et ZFI a été approuvé par le Conseil des ministres en février 2026.",
+        "zh": "各经济区沿交通走廊分布，可直达港口，许可程序简化，并享有专门的优惠政策。在经济区内，**区管理机构取代多个部委**，成为您办理许可和合规事务的对接窗口 [ref:zee-zfi]。部长理事会于 2026 年 2 月批准了新的经济特区/工业自由区监管框架。",
+        "ar": "تقع المناطق على امتداد ممرات النقل، مع نفاذ إلى الموانئ وترخيص مبسّط وحوافز مخصصة. وداخل المنطقة، **تحل سلطة المنطقة محل عدة وزارات** بوصفها واجهتك للترخيص والامتثال [ref:zee-zfi]. وقد اعتمد مجلس الوزراء إطاراً تنظيمياً جديداً للمناطق الاقتصادية الخاصة والمناطق الصناعية الحرة في فبراير 2026.",
+        "hi": "ये ज़ोन परिवहन कॉरिडोर के साथ स्थित हैं, जिनमें बंदरगाह तक पहुँच, सरल लाइसेंसिंग और विशेष प्रोत्साहन उपलब्ध हैं। ज़ोन के भीतर, लाइसेंसिंग और अनुपालन के लिए **ज़ोन प्राधिकरण कई मंत्रालयों का स्थान लेता है** [ref:zee-zfi]। फ़रवरी 2026 में मंत्रिपरिषद (Conselho de Ministros) ने SEZ/IFZ के लिए एक नया नियामक ढाँचा अनुमोदित किया।",
+        "sw": "Kanda ziko kando ya shoroba za usafirishaji, zikiwa na ufikiaji wa bandari, leseni zilizorahisishwa na vivutio maalum. Ndani ya kanda, **mamlaka ya kanda huchukua nafasi ya wizara kadhaa** kama kiunganishi chako cha leseni na uzingatiaji [ref:zee-zfi]. Mfumo mpya wa udhibiti wa SEZ/IFZ uliidhinishwa na Baraza la Mawaziri Februari 2026.",
+        "af": "Sones lê langs die vervoerkorridors, met hawetoegang, vaartbelynde lisensiëring en toegewyde aansporings. Binne 'n sone **vervang die sone-owerheid verskeie ministeries** as u koppelvlak vir lisensiëring en nakoming [ref:zee-zfi]. 'n Nuwe regulatoriese raamwerk vir ZEE/ZFI is in Februarie 2026 deur die Ministerraad goedgekeur."
       },
       "facts": [
         {
           "value": {
             "pt": "7 + 6",
             "en": "7 + 6",
-            "fr": "7 + 6"
+            "fr": "7 + 6",
+            "zh": "7 + 6",
+            "ar": "7 + 6",
+            "hi": "7 + 6",
+            "sw": "7 + 6",
+            "af": "7 + 6"
           },
           "label": {
             "pt": "ZEE e ZFI aprovadas",
             "en": "SEZs and IFZs approved",
-            "fr": "ZES et ZFI approuvées"
+            "fr": "ZES et ZFI approuvées",
+            "zh": "已批准的经济特区和工业自由区",
+            "ar": "مناطق اقتصادية خاصة ومناطق صناعية حرة معتمدة",
+            "hi": "स्वीकृत SEZ और IFZ",
+            "sw": "SEZ na IFZ zilizoidhinishwa",
+            "af": "ZEE's en ZFI's goedgekeur"
           }
         },
         {
           "value": {
             "pt": "70+",
             "en": "70+",
-            "fr": "70+"
+            "fr": "70+",
+            "zh": "70+",
+            "ar": "70+",
+            "hi": "70+",
+            "sw": "70+",
+            "af": "70+"
           },
           "label": {
             "pt": "Empresas de 18 países no Parque de Beluluane",
             "en": "Companies from 18 countries at Beluluane",
-            "fr": "Entreprises de 18 pays à Beluluane"
+            "fr": "Entreprises de 18 pays à Beluluane",
+            "zh": "Beluluane 园区内来自 18 个国家的企业",
+            "ar": "شركة من 18 بلداً في Beluluane",
+            "hi": "Beluluane में 18 देशों की कंपनियाँ",
+            "sw": "Kampuni kutoka nchi 18 katika Beluluane",
+            "af": "Maatskappye uit 18 lande by Beluluane"
           }
         },
         {
           "value": {
             "pt": "USD 3 mil milhões+",
             "en": "USD 3B+",
-            "fr": "3 Md USD+"
+            "fr": "3 Md USD+",
+            "zh": "30 亿美元以上",
+            "ar": "USD 3B+",
+            "hi": "USD 3B+",
+            "sw": "USD bilioni 3+",
+            "af": "USD 3 mjd.+"
           },
           "label": {
             "pt": "Investimento total em Beluluane",
             "en": "Total investment at Beluluane",
-            "fr": "Investissement total à Beluluane"
+            "fr": "Investissement total à Beluluane",
+            "zh": "Beluluane 园区总投资",
+            "ar": "إجمالي الاستثمار في Beluluane",
+            "hi": "Beluluane में कुल निवेश",
+            "sw": "Jumla ya uwekezaji katika Beluluane",
+            "af": "Totale belegging by Beluluane"
           }
         },
         {
           "value": {
             "pt": "12 000+",
             "en": "12,000+",
-            "fr": "12 000+"
+            "fr": "12 000+",
+            "zh": "12,000+",
+            "ar": "12,000+",
+            "hi": "12,000+",
+            "sw": "12,000+",
+            "af": "12,000+"
           },
           "label": {
             "pt": "Empregos nos parques da MozParks",
             "en": "Jobs across MozParks locations",
-            "fr": "Emplois dans les parcs MozParks"
+            "fr": "Emplois dans les parcs MozParks",
+            "zh": "MozParks 各园区的就业岗位",
+            "ar": "وظيفة في مواقع MozParks",
+            "hi": "MozParks के सभी स्थानों पर रोज़गार",
+            "sw": "Ajira katika maeneo ya MozParks",
+            "af": "Werksgeleenthede oor MozParks-terreine"
           }
         }
       ]
@@ -69,34 +119,64 @@
       "title": {
         "pt": "ZEE ou ZFI?",
         "en": "SEZ or IFZ?",
-        "fr": "ZES ou ZFI ?"
+        "fr": "ZES ou ZFI ?",
+        "zh": "经济特区（SEZ）还是工业自由区（IFZ）？",
+        "ar": "منطقة اقتصادية خاصة أم منطقة صناعية حرة؟",
+        "hi": "SEZ या IFZ?",
+        "sw": "SEZ au IFZ?",
+        "af": "ZEE of ZFI?"
       },
       "body": {
         "pt": "A diferença principal é a exportação: a ZEE permite vender no mercado interno e exportar; a ZFI exige exportar **pelo menos 70%** da produção, mas compensa com uma isenção mais longa [ref:zee-zfi]. O acesso a ambas é coordenado pela APIEX.",
         "en": "The main difference is exports: an SEZ allows both domestic and export sales; an IFZ requires exporting **at least 70%** of output but rewards it with a longer exemption [ref:zee-zfi]. Access to both is coordinated by APIEX.",
-        "fr": "La différence principale tient à l'export : une ZES autorise ventes locales et exportations ; une ZFI exige d'exporter **au moins 70 %** de la production, mais offre une exonération plus longue [ref:zee-zfi]. L'accès aux deux est coordonné par l'APIEX."
+        "fr": "La différence principale tient à l'export : une ZES autorise ventes locales et exportations ; une ZFI exige d'exporter **au moins 70 %** de la production, mais offre une exonération plus longue [ref:zee-zfi]. L'accès aux deux est coordonné par l'APIEX.",
+        "zh": "主要区别在于出口：经济特区允许内销和出口；工业自由区要求**至少 70%** 的产品用于出口，但以更长的免税期作为回报 [ref:zee-zfi]。两者的准入均由 APIEX 协调。",
+        "ar": "الفرق الرئيسي هو التصدير: تسمح المنطقة الاقتصادية الخاصة بالمبيعات المحلية والتصديرية معاً؛ بينما تشترط المنطقة الصناعية الحرة تصدير **70% على الأقل** من الإنتاج، لكنها تكافئ ذلك بإعفاء أطول [ref:zee-zfi]. وتتولى APIEX تنسيق الوصول إلى كلتيهما.",
+        "hi": "मुख्य अंतर निर्यात का है: SEZ घरेलू और निर्यात दोनों तरह की बिक्री की अनुमति देता है; IFZ में उत्पादन का **कम से कम 70%** निर्यात करना आवश्यक है, लेकिन बदले में अधिक लंबी छूट मिलती है [ref:zee-zfi]। दोनों तक पहुँच का समन्वय APIEX करता है।",
+        "sw": "Tofauti kuu ni mauzo ya nje: SEZ inaruhusu mauzo ya ndani na ya nje; IFZ inahitaji kuuza nje **angalau 70%** ya uzalishaji lakini inatuza hilo kwa msamaha wa muda mrefu zaidi [ref:zee-zfi]. Ufikiaji wa zote mbili huratibiwa na APIEX.",
+        "af": "Die hoofverskil is uitvoere: 'n spesiale ekonomiese sone (ZEE) laat sowel binnelandse as uitvoerverkope toe; 'n industriële vrysone (ZFI) vereis dat **minstens 70%** van die produksie uitgevoer word, maar beloon dit met 'n langer vrystelling [ref:zee-zfi]. Toegang tot albei word deur APIEX gekoördineer."
       },
       "table": {
         "caption": {
           "pt": "Comparação dos regimes ZEE e ZFI",
           "en": "SEZ and IFZ regimes compared",
-          "fr": "Comparaison des régimes ZES et ZFI"
+          "fr": "Comparaison des régimes ZES et ZFI",
+          "zh": "经济特区与工业自由区制度比较",
+          "ar": "مقارنة بين نظامي المنطقة الاقتصادية الخاصة والمنطقة الصناعية الحرة",
+          "hi": "SEZ और IFZ व्यवस्थाओं की तुलना",
+          "sw": "Ulinganisho wa taratibu za SEZ na IFZ",
+          "af": "ZEE- en ZFI-stelsels vergelyk"
         },
         "columns": [
           {
             "pt": "Aspecto",
             "en": "Aspect",
-            "fr": "Aspect"
+            "fr": "Aspect",
+            "zh": "方面",
+            "ar": "الجانب",
+            "hi": "पहलू",
+            "sw": "Kipengele",
+            "af": "Aspek"
           },
           {
             "pt": "Zona Económica Especial (ZEE)",
             "en": "Special Economic Zone (SEZ)",
-            "fr": "Zone économique spéciale (ZES)"
+            "fr": "Zone économique spéciale (ZES)",
+            "zh": "经济特区（SEZ）",
+            "ar": "المنطقة الاقتصادية الخاصة (ZEE)",
+            "hi": "विशेष आर्थिक क्षेत्र (SEZ)",
+            "sw": "Kanda Maalum ya Kiuchumi (SEZ)",
+            "af": "Spesiale ekonomiese sone (ZEE)"
           },
           {
             "pt": "Zona Franca Industrial (ZFI)",
             "en": "Industrial Free Zone (IFZ)",
-            "fr": "Zone franche industrielle (ZFI)"
+            "fr": "Zone franche industrielle (ZFI)",
+            "zh": "工业自由区（IFZ）",
+            "ar": "المنطقة الصناعية الحرة (ZFI)",
+            "hi": "औद्योगिक मुक्त क्षेत्र (IFZ)",
+            "sw": "Kanda Huru ya Viwanda (IFZ)",
+            "af": "Industriële vrysone (ZFI)"
           }
         ],
         "rows": [
@@ -104,75 +184,140 @@
             {
               "pt": "Exportação",
               "en": "Export requirement",
-              "fr": "Exigence d'export"
+              "fr": "Exigence d'export",
+              "zh": "出口要求",
+              "ar": "شرط التصدير",
+              "hi": "निर्यात आवश्यकता",
+              "sw": "Sharti la mauzo ya nje",
+              "af": "Uitvoervereiste"
             },
             {
               "pt": "Sem mínimo; mercado interno e exportação",
               "en": "No minimum; domestic and export sales",
-              "fr": "Pas de minimum ; ventes locales et export"
+              "fr": "Pas de minimum ; ventes locales et export",
+              "zh": "无最低要求；可内销和出口",
+              "ar": "لا حد أدنى؛ مبيعات محلية وتصديرية",
+              "hi": "कोई न्यूनतम नहीं; घरेलू और निर्यात बिक्री",
+              "sw": "Hakuna kiwango cha chini; mauzo ya ndani na ya nje",
+              "af": "Geen minimum nie; binnelandse en uitvoerverkope"
             },
             {
               "pt": "Mínimo de 70% da produção",
               "en": "Minimum 70% of output",
-              "fr": "Minimum 70 % de la production"
+              "fr": "Minimum 70 % de la production",
+              "zh": "至少 70% 的产品",
+              "ar": "70% من الإنتاج كحد أدنى",
+              "hi": "उत्पादन का न्यूनतम 70%",
+              "sw": "Angalau 70% ya uzalishaji",
+              "af": "Minimum 70% van produksie"
             }
           ],
           [
             {
               "pt": "IRPC",
               "en": "Corporate income tax",
-              "fr": "Impôt sur les sociétés"
+              "fr": "Impôt sur les sociétés",
+              "zh": "企业所得税",
+              "ar": "ضريبة دخل الشركات",
+              "hi": "कॉर्पोरेट आयकर (IRPC)",
+              "sw": "Kodi ya mapato ya kampuni",
+              "af": "Maatskappy-inkomstebelasting"
             },
             {
               "pt": "Anos 1–3: isenção total; anos 4–10: redução de 50%; anos 11–15: redução de 25%",
               "en": "Years 1–3: full exemption; years 4–10: 50% reduction; years 11–15: 25% reduction",
-              "fr": "Années 1–3 : exonération totale ; années 4–10 : réduction de 50 % ; années 11–15 : réduction de 25 %"
+              "fr": "Années 1–3 : exonération totale ; années 4–10 : réduction de 50 % ; années 11–15 : réduction de 25 %",
+              "zh": "第 1–3 年：全额免税；第 4–10 年：减征 50%；第 11–15 年：减征 25%",
+              "ar": "السنوات 1–3: إعفاء كامل؛ السنوات 4–10: تخفيض 50%؛ السنوات 11–15: تخفيض 25%",
+              "hi": "वर्ष 1–3: पूर्ण छूट; वर्ष 4–10: 50% कटौती; वर्ष 11–15: 25% कटौती",
+              "sw": "Miaka 1–3: msamaha kamili; miaka 4–10: punguzo la 50%; miaka 11–15: punguzo la 25%",
+              "af": "Jare 1–3: volle vrystelling; jare 4–10: 50% vermindering; jare 11–15: 25% vermindering"
             },
             {
               "pt": "Até 10 anos de isenção total",
               "en": "Up to 10 years full exemption",
-              "fr": "Jusqu'à 10 ans d'exonération totale"
+              "fr": "Jusqu'à 10 ans d'exonération totale",
+              "zh": "最长 10 年全额免税",
+              "ar": "إعفاء كامل حتى 10 سنوات",
+              "hi": "10 वर्ष तक पूर्ण छूट",
+              "sw": "Hadi miaka 10 ya msamaha kamili",
+              "af": "Tot 10 jaar volle vrystelling"
             }
           ],
           [
             {
               "pt": "Alfândegas e IVA",
               "en": "Customs and VAT",
-              "fr": "Douane et TVA"
+              "fr": "Douane et TVA",
+              "zh": "海关与增值税",
+              "ar": "الجمارك وضريبة القيمة المضافة",
+              "hi": "सीमा शुल्क और IVA (VAT)",
+              "sw": "Forodha na VAT",
+              "af": "Doeane en BTW (IVA)"
             },
             {
               "pt": "Isenção de direitos sobre os insumos; isenção de IVA nas transmissões dentro da zona",
               "en": "Duty exemption on inputs; VAT exemption on intra-zone transfers",
-              "fr": "Exonération des droits sur les intrants ; exonération de TVA sur les transferts intra-zone"
+              "fr": "Exonération des droits sur les intrants ; exonération de TVA sur les transferts intra-zone",
+              "zh": "投入品免征关税；区内转让免征增值税",
+              "ar": "إعفاء من الرسوم على المدخلات؛ إعفاء من IVA على التحويلات داخل المنطقة",
+              "hi": "कच्चे माल (inputs) पर शुल्क छूट; ज़ोन के भीतर हस्तांतरण पर IVA छूट",
+              "sw": "Msamaha wa ushuru kwa malighafi; msamaha wa VAT kwa uhamisho ndani ya kanda",
+              "af": "Vrystelling van regte op insette; BTW-vrystelling op oordragte binne die sone"
             },
             {
               "pt": "Isenção de direitos sobre todos os insumos; isenção de IVA nas transmissões dentro da zona",
               "en": "Duty exemption on all inputs; VAT exemption on intra-zone transfers",
-              "fr": "Exonération des droits sur tous les intrants ; exonération de TVA sur les transferts intra-zone"
+              "fr": "Exonération des droits sur tous les intrants ; exonération de TVA sur les transferts intra-zone",
+              "zh": "所有投入品免征关税；区内转让免征增值税",
+              "ar": "إعفاء من الرسوم على جميع المدخلات؛ إعفاء من IVA على التحويلات داخل المنطقة",
+              "hi": "सभी कच्चे माल पर शुल्क छूट; ज़ोन के भीतर हस्तांतरण पर IVA छूट",
+              "sw": "Msamaha wa ushuru kwa malighafi zote; msamaha wa VAT kwa uhamisho ndani ya kanda",
+              "af": "Vrystelling van regte op alle insette; BTW-vrystelling op oordragte binne die sone"
             }
           ],
           [
             {
               "pt": "Licenciamento",
               "en": "Licensing",
-              "fr": "Autorisations"
+              "fr": "Autorisations",
+              "zh": "许可",
+              "ar": "الترخيص",
+              "hi": "लाइसेंसिंग",
+              "sw": "Leseni",
+              "af": "Lisensiëring"
             },
             {
               "pt": "Autoridade da zona; APIEX como interlocutor único",
               "en": "Zone authority; APIEX as single investor interface",
-              "fr": "Autorité de la zone ; APIEX comme interlocuteur unique"
+              "fr": "Autorité de la zone ; APIEX comme interlocuteur unique",
+              "zh": "区管理机构；APIEX 作为投资者的单一对接窗口",
+              "ar": "سلطة المنطقة؛ وAPIEX كواجهة موحّدة للمستثمر",
+              "hi": "ज़ोन प्राधिकरण; निवेशक के लिए एकल संपर्क बिंदु के रूप में APIEX",
+              "sw": "Mamlaka ya kanda; APIEX kama kiunganishi kimoja cha mwekezaji",
+              "af": "Sone-owerheid; APIEX as enkele koppelvlak vir beleggers"
             },
             {
               "pt": "Autoridade única em vez de vários ministérios",
               "en": "Single authority instead of several ministries",
-              "fr": "Autorité unique au lieu de plusieurs ministères"
+              "fr": "Autorité unique au lieu de plusieurs ministères",
+              "zh": "由单一机构取代多个部委",
+              "ar": "سلطة واحدة بدلاً من عدة وزارات",
+              "hi": "कई मंत्रालयों के बजाय एकल प्राधिकरण",
+              "sw": "Mamlaka moja badala ya wizara kadhaa",
+              "af": "Enkele owerheid in plaas van verskeie ministeries"
             }
           ]
         ],
         "note": {
           "pt": "Detalhe dos incentivos e procedimentos: APIEX, Decreto n.º 43/2009 e decretos de criação de cada zona.",
           "en": "Incentive schedules and procedures: APIEX, Decree No. 43/2009 and each zone's establishment decree.",
-          "fr": "Détail des incitations et procédures : APIEX, décret n° 43/2009 et décrets de création de chaque zone."
+          "fr": "Détail des incitations et procédures : APIEX, décret n° 43/2009 et décrets de création de chaque zone.",
+          "zh": "优惠时间表和程序：APIEX、Decreto n.º 43/2009 以及各区的设立法令。",
+          "ar": "جداول الحوافز والإجراءات: APIEX وDecreto n.º 43/2009 ومرسوم إنشاء كل منطقة.",
+          "hi": "प्रोत्साहन विवरण और प्रक्रियाएँ: APIEX, Decreto n.º 43/2009 और प्रत्येक ज़ोन की स्थापना का डिक्री।",
+          "sw": "Ratiba na taratibu za vivutio: APIEX, Decreto n.º 43/2009 na amri ya uanzishaji ya kila kanda.",
+          "af": "Aansporingskedules en prosedures: APIEX, Decreto n.º 43/2009 en die stigtingsdekreet van elke sone."
         }
       }
     },
@@ -181,29 +326,54 @@
       "title": {
         "pt": "Onde ficam as zonas",
         "en": "Where the zones are",
-        "fr": "Où se trouvent les zones"
+        "fr": "Où se trouvent les zones",
+        "zh": "经济区分布",
+        "ar": "أين تقع المناطق",
+        "hi": "ज़ोन कहाँ स्थित हैं",
+        "sw": "Mahali kanda zilipo",
+        "af": "Waar die sones is"
       },
       "table": {
         "caption": {
           "pt": "Principais zonas e parques",
           "en": "Main zones and parks",
-          "fr": "Principales zones et parcs"
+          "fr": "Principales zones et parcs",
+          "zh": "主要经济区和园区",
+          "ar": "المناطق والمجمّعات الرئيسية",
+          "hi": "मुख्य ज़ोन और पार्क",
+          "sw": "Kanda na hifadhi kuu",
+          "af": "Vernaamste sones en parke"
         },
         "columns": [
           {
             "pt": "Zona",
             "en": "Zone",
-            "fr": "Zone"
+            "fr": "Zone",
+            "zh": "经济区",
+            "ar": "المنطقة",
+            "hi": "ज़ोन",
+            "sw": "Kanda",
+            "af": "Sone"
           },
           {
             "pt": "Província",
             "en": "Province",
-            "fr": "Province"
+            "fr": "Province",
+            "zh": "省份",
+            "ar": "المقاطعة",
+            "hi": "प्रांत",
+            "sw": "Mkoa",
+            "af": "Provinsie"
           },
           {
             "pt": "Dimensão e destaque",
             "en": "Size and focus",
-            "fr": "Taille et spécificité"
+            "fr": "Taille et spécificité",
+            "zh": "规模与重点",
+            "ar": "الحجم والتركيز",
+            "hi": "आकार और फ़ोकस",
+            "sw": "Ukubwa na mwelekeo",
+            "af": "Grootte en fokus"
           }
         ],
         "rows": [
@@ -211,153 +381,288 @@
             {
               "pt": "ZEE de Nacala",
               "en": "Nacala SEZ",
-              "fr": "ZES de Nacala"
+              "fr": "ZES de Nacala",
+              "zh": "纳卡拉经济特区",
+              "ar": "المنطقة الاقتصادية الخاصة في Nacala",
+              "hi": "Nacala SEZ",
+              "sw": "SEZ ya Nacala",
+              "af": "Nacala ZEE"
             },
             {
               "pt": "Nampula",
               "en": "Nampula",
-              "fr": "Nampula"
+              "fr": "Nampula",
+              "zh": "楠普拉省",
+              "ar": "Nampula",
+              "hi": "Nampula",
+              "sw": "Nampula",
+              "af": "Nampula"
             },
             {
               "pt": "1 539 km²; corredor de Nacala; 194 projectos",
               "en": "1,539 km²; Nacala Corridor; 194 projects",
-              "fr": "1 539 km² ; corridor de Nacala ; 194 projets"
+              "fr": "1 539 km² ; corridor de Nacala ; 194 projets",
+              "zh": "1,539 km²；纳卡拉走廊；194 个项目",
+              "ar": "1,539 km²؛ ممر Nacala؛ 194 مشروعاً",
+              "hi": "1,539 km²; Nacala कॉरिडोर; 194 परियोजनाएँ",
+              "sw": "km² 1,539; Ushoroba wa Nacala; miradi 194",
+              "af": "1,539 km²; Nacala-korridor; 194 projekte"
             }
           ],
           [
             {
               "pt": "Parque Industrial de Beluluane (ZFI)",
               "en": "Beluluane Industrial Park (IFZ)",
-              "fr": "Parc industriel de Beluluane (ZFI)"
+              "fr": "Parc industriel de Beluluane (ZFI)",
+              "zh": "Beluluane 工业园（工业自由区）",
+              "ar": "مجمّع Beluluane الصناعي (منطقة صناعية حرة)",
+              "hi": "Beluluane औद्योगिक पार्क (IFZ)",
+              "sw": "Hifadhi ya Viwanda ya Beluluane (IFZ)",
+              "af": "Beluluane-nywerheidspark (ZFI)"
             },
             {
               "pt": "Maputo",
               "en": "Maputo Province",
-              "fr": "Province de Maputo"
+              "fr": "Province de Maputo",
+              "zh": "马普托省",
+              "ar": "مقاطعة Maputo",
+              "hi": "Maputo प्रांत",
+              "sw": "Mkoa wa Maputo",
+              "af": "Maputo-provinsie"
             },
             {
               "pt": "700 ha, 400 ha disponíveis; 20 km do porto; 80 MW dedicados",
               "en": "700 ha, 400 ha available; 20 km from the port; 80 MW dedicated power",
-              "fr": "700 ha, dont 400 ha disponibles ; à 20 km du port ; 80 MW dédiés"
+              "fr": "700 ha, dont 400 ha disponibles ; à 20 km du port ; 80 MW dédiés",
+              "zh": "700 公顷，其中 400 公顷可用；距港口 20 公里；80 MW 专用电力",
+              "ar": "700 هكتار، منها 400 هكتار متاحة؛ على بُعد 20 كم من الميناء؛ 80 MW من الطاقة المخصصة",
+              "hi": "700 हेक्टेयर, 400 हेक्टेयर उपलब्ध; बंदरगाह से 20 km; 80 MW समर्पित बिजली",
+              "sw": "hekta 700, hekta 400 zinapatikana; km 20 kutoka bandarini; MW 80 za umeme maalum",
+              "af": "700 ha, 400 ha beskikbaar; 20 km van die hawe; 80 MW toegewyde krag"
             }
           ],
           [
             {
               "pt": "ZEE de Manga-Mungassa",
               "en": "Manga-Mungassa SEZ",
-              "fr": "ZES de Manga-Mungassa"
+              "fr": "ZES de Manga-Mungassa",
+              "zh": "曼加-穆加萨经济特区",
+              "ar": "المنطقة الاقتصادية الخاصة Manga-Mungassa",
+              "hi": "Manga-Mungassa SEZ",
+              "sw": "SEZ ya Manga-Mungassa",
+              "af": "Manga-Mungassa ZEE"
             },
             {
               "pt": "Sofala",
               "en": "Sofala",
-              "fr": "Sofala"
+              "fr": "Sofala",
+              "zh": "索法拉省",
+              "ar": "Sofala",
+              "hi": "Sofala",
+              "sw": "Sofala",
+              "af": "Sofala"
             },
             {
               "pt": "217 ha; 12 km do porto da Beira",
               "en": "217 ha; 12 km from the Port of Beira",
-              "fr": "217 ha ; à 12 km du port de Beira"
+              "fr": "217 ha ; à 12 km du port de Beira",
+              "zh": "217 公顷；距贝拉港 12 公里",
+              "ar": "217 هكتاراً؛ على بُعد 12 كم من ميناء Beira",
+              "hi": "217 हेक्टेयर; Beira बंदरगाह से 12 km",
+              "sw": "hekta 217; km 12 kutoka Bandari ya Beira",
+              "af": "217 ha; 12 km van die Hawe van Beira"
             }
           ],
           [
             {
               "pt": "ZEE Agrícola do Vale do Limpopo",
               "en": "Limpopo Valley Agribusiness SEZ",
-              "fr": "ZES agricole de la vallée du Limpopo"
+              "fr": "ZES agricole de la vallée du Limpopo",
+              "zh": "林波波河谷农业综合经济特区",
+              "ar": "المنطقة الاقتصادية الخاصة للأعمال الزراعية في وادي Limpopo",
+              "hi": "Limpopo घाटी कृषि-व्यवसाय SEZ",
+              "sw": "SEZ ya Kilimo-biashara ya Bonde la Limpopo",
+              "af": "Limpopo-vallei ZEE vir landboubesigheid"
             },
             {
               "pt": "Gaza",
               "en": "Gaza",
-              "fr": "Gaza"
+              "fr": "Gaza",
+              "zh": "加扎省",
+              "ar": "Gaza",
+              "hi": "Gaza",
+              "sw": "Gaza",
+              "af": "Gaza"
             },
             {
               "pt": "7 297 km²; regadio existente; Decreto n.º 4/2021",
               "en": "7,297 km²; irrigation in place; Decree No. 4/2021",
-              "fr": "7 297 km² ; irrigation existante ; décret n° 4/2021"
+              "fr": "7 297 km² ; irrigation existante ; décret n° 4/2021",
+              "zh": "7,297 km²；已有灌溉设施；Decreto n.º 4/2021",
+              "ar": "7,297 km²؛ ري قائم؛ Decreto n.º 4/2021",
+              "hi": "7,297 km²; सिंचाई व्यवस्था मौजूद; Decreto n.º 4/2021",
+              "sw": "km² 7,297; umwagiliaji upo; Decreto n.º 4/2021",
+              "af": "7,297 km²; besproeiing in plek; Decreto n.º 4/2021"
             }
           ],
           [
             {
               "pt": "ZEE de Mocuba",
               "en": "Mocuba SEZ",
-              "fr": "ZES de Mocuba"
+              "fr": "ZES de Mocuba",
+              "zh": "莫库巴经济特区",
+              "ar": "المنطقة الاقتصادية الخاصة في Mocuba",
+              "hi": "Mocuba SEZ",
+              "sw": "SEZ ya Mocuba",
+              "af": "Mocuba ZEE"
             },
             {
               "pt": "Zambézia",
               "en": "Zambézia",
-              "fr": "Zambézia"
+              "fr": "Zambézia",
+              "zh": "赞比西亚省",
+              "ar": "Zambézia",
+              "hi": "Zambézia",
+              "sw": "Zambézia",
+              "af": "Zambézia"
             },
             {
               "pt": "10 727 km²; agro-processamento; Decreto n.º 28/2014",
               "en": "10,727 km²; agro-processing; Decree No. 28/2014",
-              "fr": "10 727 km² ; agro-transformation ; décret n° 28/2014"
+              "fr": "10 727 km² ; agro-transformation ; décret n° 28/2014",
+              "zh": "10,727 km²；农产品加工；Decreto n.º 28/2014",
+              "ar": "10,727 km²؛ التصنيع الزراعي؛ Decreto n.º 28/2014",
+              "hi": "10,727 km²; कृषि-प्रसंस्करण; Decreto n.º 28/2014",
+              "sw": "km² 10,727; usindikaji wa mazao; Decreto n.º 28/2014",
+              "af": "10,727 km²; landbouverwerking; Decreto n.º 28/2014"
             }
           ],
           [
             {
               "pt": "ZEE de Niassa (UTE)",
               "en": "Niassa UTE SEZ",
-              "fr": "ZES de Niassa (UTE)"
+              "fr": "ZES de Niassa (UTE)",
+              "zh": "尼亚萨 UTE 经济特区",
+              "ar": "المنطقة الاقتصادية الخاصة Niassa UTE",
+              "hi": "Niassa UTE SEZ",
+              "sw": "SEZ ya Niassa UTE",
+              "af": "Niassa UTE ZEE"
             },
             {
               "pt": "Niassa",
               "en": "Niassa",
-              "fr": "Niassa"
+              "fr": "Niassa",
+              "zh": "尼亚萨省",
+              "ar": "Niassa",
+              "hi": "Niassa",
+              "sw": "Niassa",
+              "af": "Niassa"
             },
             {
               "pt": "681 ha",
               "en": "681 ha",
-              "fr": "681 ha"
+              "fr": "681 ha",
+              "zh": "681 公顷",
+              "ar": "681 هكتاراً",
+              "hi": "681 हेक्टेयर",
+              "sw": "hekta 681",
+              "af": "681 ha"
             }
           ],
           [
             {
               "pt": "Parque Industrial de Topuito",
               "en": "Topuito Industrial Park",
-              "fr": "Parc industriel de Topuito"
+              "fr": "Parc industriel de Topuito",
+              "zh": "托普伊托工业园",
+              "ar": "مجمّع Topuito الصناعي",
+              "hi": "Topuito औद्योगिक पार्क",
+              "sw": "Hifadhi ya Viwanda ya Topuito",
+              "af": "Topuito-nywerheidspark"
             },
             {
               "pt": "Nampula",
               "en": "Nampula",
-              "fr": "Nampula"
+              "fr": "Nampula",
+              "zh": "楠普拉省",
+              "ar": "Nampula",
+              "hi": "Nampula",
+              "sw": "Nampula",
+              "af": "Nampula"
             },
             {
               "pt": "215 ha; âncora Kenmare (areias minerais)",
               "en": "215 ha; anchored by Kenmare (mineral sands)",
-              "fr": "215 ha ; ancré par Kenmare (sables minéralisés)"
+              "fr": "215 ha ; ancré par Kenmare (sables minéralisés)",
+              "zh": "215 公顷；以 Kenmare（矿砂）为龙头企业",
+              "ar": "215 هكتاراً؛ ترتكز عليه Kenmare (رمال المعادن)",
+              "hi": "215 हेक्टेयर; प्रमुख (anchor) निवेशक Kenmare (खनिज रेत)",
+              "sw": "hekta 215; mwekezaji nanga ni Kenmare (mchanga wenye madini)",
+              "af": "215 ha; geanker deur Kenmare (mineraalsand)"
             }
           ],
           [
             {
               "pt": "Zonas turísticas",
               "en": "Tourism zones",
-              "fr": "Zones touristiques"
+              "fr": "Zones touristiques",
+              "zh": "旅游区",
+              "ar": "المناطق السياحية",
+              "hi": "पर्यटन ज़ोन",
+              "sw": "Kanda za utalii",
+              "af": "Toerismesones"
             },
             {
               "pt": "Maputo · Nampula",
               "en": "Maputo · Nampula",
-              "fr": "Maputo · Nampula"
+              "fr": "Maputo · Nampula",
+              "zh": "马普托 · 楠普拉",
+              "ar": "Maputo · Nampula",
+              "hi": "Maputo · Nampula",
+              "sw": "Maputo · Nampula",
+              "af": "Maputo · Nampula"
             },
             {
               "pt": "ZEE turística da Baía de Macaneta; zona turística integrada de Crusse e Jamali",
               "en": "Macaneta Bay tourism SEZ; Crusse and Jamali integrated tourism zone",
-              "fr": "ZES touristique de la baie de Macaneta ; zone touristique intégrée de Crusse et Jamali"
+              "fr": "ZES touristique de la baie de Macaneta ; zone touristique intégrée de Crusse et Jamali",
+              "zh": "马卡内塔湾旅游经济特区；克鲁塞和贾马利综合旅游区",
+              "ar": "المنطقة الاقتصادية الخاصة السياحية في خليج Macaneta؛ المنطقة السياحية المتكاملة Crusse وJamali",
+              "hi": "Macaneta खाड़ी पर्यटन SEZ; Crusse और Jamali एकीकृत पर्यटन ज़ोन",
+              "sw": "SEZ ya utalii ya Ghuba ya Macaneta; kanda jumuishi ya utalii ya Crusse na Jamali",
+              "af": "Toerisme-ZEE van Macaneta-baai; geïntegreerde toerismesone Crusse en Jamali"
             }
           ],
           [
             {
               "pt": "ZFI de Lucone e Minhuene",
               "en": "Lucone and Minhuene IFZs",
-              "fr": "ZFI de Lucone et Minhuene"
+              "fr": "ZFI de Lucone et Minhuene",
+              "zh": "卢科内和米纽埃内工业自由区",
+              "ar": "المنطقتان الصناعيتان الحرتان Lucone وMinhuene",
+              "hi": "Lucone और Minhuene IFZ",
+              "sw": "IFZ za Lucone na Minhuene",
+              "af": "ZFI's Lucone en Minhuene"
             },
             {
               "pt": "—",
               "en": "—",
-              "fr": "—"
+              "fr": "—",
+              "zh": "—",
+              "ar": "—",
+              "hi": "—",
+              "sw": "—",
+              "af": "—"
             },
             {
               "pt": "Zonas francas industriais",
               "en": "Industrial free zones",
-              "fr": "Zones franches industrielles"
+              "fr": "Zones franches industrielles",
+              "zh": "工业自由区",
+              "ar": "مناطق صناعية حرة",
+              "hi": "औद्योगिक मुक्त क्षेत्र",
+              "sw": "Kanda huru za viwanda",
+              "af": "Industriële vrysones"
             }
           ]
         ]
@@ -368,12 +673,22 @@
       "title": {
         "pt": "MozParks",
         "en": "MozParks",
-        "fr": "MozParks"
+        "fr": "MozParks",
+        "zh": "MozParks",
+        "ar": "MozParks",
+        "hi": "MozParks",
+        "sw": "MozParks",
+        "af": "MozParks"
       },
       "body": {
         "pt": "A MozParks é o único operador integrado de parques industriais em Moçambique, uma parceria público-privada entre a APIEX e a ASEZA. O modelo assenta num investidor âncora cuja cadeia de fornecimento cria procura imediata para fornecedores instalados no parque, com estatuto de zona franca desde o primeiro dia.\n\n- **Beluluane** (Maputo) e **Topuito** (Nampula) em operação.\n- **Cabo Delgado**: quatro parques e duas bases logísticas ligados ao GNL e à indústria extractiva.\n- **Gaza**: nova iniciativa (2025) para agro-processamento.\n- Mandato do Governo para **20 parques até 2030**, quatro em construção. Contacto: mozparks.co.mz.",
         "en": "MozParks is Mozambique's only integrated industrial park operator, a public-private partnership between APIEX and ASEZA. Its model rests on an anchor investor whose supply chain creates immediate demand for co-located suppliers, with free-zone status from day one.\n\n- **Beluluane** (Maputo) and **Topuito** (Nampula) in operation.\n- **Cabo Delgado**: four parks and two logistics bases linked to LNG and extractives.\n- **Gaza**: a new initiative (2025) for agro-processing.\n- A government mandate for **20 parks by 2030**, four under construction. Contact: mozparks.co.mz.",
-        "fr": "MozParks est le seul opérateur intégré de parcs industriels au Mozambique, un partenariat public-privé entre l'APIEX et l'ASEZA. Son modèle repose sur un investisseur d'ancrage dont la chaîne d'approvisionnement crée une demande immédiate pour les fournisseurs installés sur place, avec le statut de zone franche dès le premier jour.\n\n- **Beluluane** (Maputo) et **Topuito** (Nampula) en exploitation.\n- **Cabo Delgado** : quatre parcs et deux bases logistiques liés au GNL et aux industries extractives.\n- **Gaza** : nouvelle initiative (2025) pour l'agro-transformation.\n- Mandat gouvernemental de **20 parcs d'ici 2030**, dont quatre en construction. Contact : mozparks.co.mz."
+        "fr": "MozParks est le seul opérateur intégré de parcs industriels au Mozambique, un partenariat public-privé entre l'APIEX et l'ASEZA. Son modèle repose sur un investisseur d'ancrage dont la chaîne d'approvisionnement crée une demande immédiate pour les fournisseurs installés sur place, avec le statut de zone franche dès le premier jour.\n\n- **Beluluane** (Maputo) et **Topuito** (Nampula) en exploitation.\n- **Cabo Delgado** : quatre parcs et deux bases logistiques liés au GNL et aux industries extractives.\n- **Gaza** : nouvelle initiative (2025) pour l'agro-transformation.\n- Mandat gouvernemental de **20 parcs d'ici 2030**, dont quatre en construction. Contact : mozparks.co.mz.",
+        "zh": "MozParks 是莫桑比克唯一的综合工业园运营商，是 APIEX 与 ASEZA 之间的公私合营机构。其模式以龙头投资者为核心，其供应链为同园区供应商创造即时需求，且自第一天起享有自由区地位。\n\n- **Beluluane**（马普托）和**托普伊托**（楠普拉）已投入运营。\n- **德尔加杜角省**：四个园区和两个物流基地，服务液化天然气和采掘业。\n- **加扎省**：一项新的农产品加工计划（2025 年）。\n- 政府要求**到 2030 年建成 20 个园区**，目前有四个在建。联系方式：mozparks.co.mz。",
+        "ar": "MozParks هي المشغّل الوحيد للمجمّعات الصناعية المتكاملة في موزمبيق، وهي شراكة بين القطاعين العام والخاص بين APIEX وASEZA. ويقوم نموذجها على مستثمر ارتكازي تخلق سلسلة إمداده طلباً فورياً على المورّدين المتواجدين في الموقع نفسه، مع صفة المنطقة الحرة منذ اليوم الأول.\n\n- **Beluluane** (Maputo) و**Topuito** (Nampula) قيد التشغيل.\n- **Cabo Delgado**: أربعة مجمّعات وقاعدتان لوجستيتان مرتبطة بالغاز الطبيعي المسال والصناعات الاستخراجية.\n- **Gaza**: مبادرة جديدة (2025) للتصنيع الزراعي.\n- تكليف حكومي بإنشاء **20 مجمّعاً بحلول 2030**، أربعة منها قيد الإنشاء. للتواصل: mozparks.co.mz.",
+        "hi": "MozParks मोज़ाम्बिक का एकमात्र एकीकृत औद्योगिक पार्क संचालक है, जो APIEX और ASEZA के बीच एक सार्वजनिक-निजी भागीदारी है। इसका मॉडल एक प्रमुख (anchor) निवेशक पर आधारित है, जिसकी आपूर्ति श्रृंखला पार्क में स्थित आपूर्तिकर्ताओं के लिए तत्काल माँग पैदा करती है, और पहले दिन से ही मुक्त क्षेत्र का दर्जा मिलता है।\n\n- **Beluluane** (Maputo) और **Topuito** (Nampula) संचालन में हैं।\n- **Cabo Delgado**: LNG और निष्कर्षण उद्योग से जुड़े चार पार्क और दो लॉजिस्टिक्स बेस।\n- **Gaza**: कृषि-प्रसंस्करण के लिए एक नई पहल (2025)।\n- **2030 तक 20 पार्कों** का सरकारी लक्ष्य, जिनमें से चार निर्माणाधीन हैं। संपर्क: mozparks.co.mz।",
+        "sw": "MozParks ndiye mwendeshaji pekee wa hifadhi jumuishi za viwanda nchini Msumbiji, ubia kati ya sekta ya umma na binafsi kati ya APIEX na ASEZA. Mfumo wake unategemea mwekezaji nanga ambaye mnyororo wake wa ugavi huzalisha mahitaji ya papo hapo kwa wasambazaji walio mahali pamoja, wakiwa na hadhi ya kanda huru tangu siku ya kwanza.\n\n- **Beluluane** (Maputo) na **Topuito** (Nampula) zinafanya kazi.\n- **Cabo Delgado**: hifadhi nne na vituo viwili vya usafirishaji vinavyohusishwa na LNG na uziduaji.\n- **Gaza**: mpango mpya (2025) wa usindikaji wa mazao.\n- Agizo la serikali la **hifadhi 20 ifikapo 2030**, nne zikiwa zinajengwa. Mawasiliano: mozparks.co.mz.",
+        "af": "MozParks is Mosambiek se enigste geïntegreerde operateur van nywerheidsparke, 'n publiek-private vennootskap tussen APIEX en ASEZA. Sy model berus op 'n ankerbelegger wie se voorsieningsketting onmiddellike vraag na verskaffers op dieselfde terrein skep, met vrysonestatus van die eerste dag af.\n\n- **Beluluane** (Maputo) en **Topuito** (Nampula) in bedryf.\n- **Cabo Delgado**: vier parke en twee logistieke basisse gekoppel aan LNG en ekstraktiewe bedrywe.\n- **Gaza**: 'n nuwe inisiatief (2025) vir landbouverwerking.\n- 'n Regeringsmandaat vir **20 parke teen 2030**, waarvan vier in aanbou is. Kontak: mozparks.co.mz."
       }
     },
     {
@@ -381,12 +696,22 @@
       "title": {
         "pt": "Os corredores",
         "en": "The corridors",
-        "fr": "Les corridors"
+        "fr": "Les corridors",
+        "zh": "交通走廊",
+        "ar": "الممرات",
+        "hi": "कॉरिडोर",
+        "sw": "Shoroba",
+        "af": "Die korridors"
       },
       "body": {
         "pt": "Três portos de águas profundas ligam o Índico aos países sem litoral da África Austral:\n\n- **Corredor de Maputo** — África do Sul e Essuatíni; o porto movimentou 32 milhões de toneladas em 2025, recorde absoluto.\n- **Corredor da Beira** — Zimbabwe, Zâmbia, RDC e Malawi; carvão e agro-negócio.\n- **Corredor de Nacala** — o porto natural mais profundo da África Austral, com ligação ferroviária ao Malawi e exportação para a Ásia.\n- **Corredor de Cabo Delgado / Mtwara** (emergente) — Pemba, GNL da Bacia do Rovuma e grafite, com ligações à Tanzânia.",
         "en": "Three deep-water ports link the Indian Ocean to southern Africa's landlocked economies:\n\n- **Maputo Corridor** — South Africa and Eswatini; the port handled 32 million tons in 2025, an all-time record.\n- **Beira Corridor** — Zimbabwe, Zambia, DRC and Malawi; coal and agribusiness.\n- **Nacala Corridor** — the deepest natural port in southern Africa, with rail to Malawi and exports to Asia.\n- **Cabo Delgado / Mtwara Corridor** (emerging) — Pemba, Rovuma Basin LNG and graphite, with links to Tanzania.",
-        "fr": "Trois ports en eau profonde relient l'océan Indien aux pays enclavés d'Afrique australe :\n\n- **Corridor de Maputo** — Afrique du Sud et Eswatini ; le port a traité 32 millions de tonnes en 2025, un record.\n- **Corridor de Beira** — Zimbabwe, Zambie, RDC et Malawi ; charbon et agro-industrie.\n- **Corridor de Nacala** — le port naturel le plus profond d'Afrique australe, relié par rail au Malawi, tourné vers l'Asie.\n- **Corridor de Cabo Delgado / Mtwara** (émergent) — Pemba, GNL du bassin du Rovuma et graphite, avec des liaisons vers la Tanzanie."
+        "fr": "Trois ports en eau profonde relient l'océan Indien aux pays enclavés d'Afrique australe :\n\n- **Corridor de Maputo** — Afrique du Sud et Eswatini ; le port a traité 32 millions de tonnes en 2025, un record.\n- **Corridor de Beira** — Zimbabwe, Zambie, RDC et Malawi ; charbon et agro-industrie.\n- **Corridor de Nacala** — le port naturel le plus profond d'Afrique australe, relié par rail au Malawi, tourné vers l'Asie.\n- **Corridor de Cabo Delgado / Mtwara** (émergent) — Pemba, GNL du bassin du Rovuma et graphite, avec des liaisons vers la Tanzanie.",
+        "zh": "三个深水港将印度洋与南部非洲的内陆经济体相连：\n\n- **马普托走廊**——连接南非和斯威士兰；该港 2025 年吞吐量达 3,200 万吨，创历史新高。\n- **贝拉走廊**——连接津巴布韦、赞比亚、刚果民主共和国和马拉维；以煤炭和农业综合企业为主。\n- **纳卡拉走廊**——南部非洲最深的天然港，铁路通往马拉维，面向亚洲出口。\n- **德尔加杜角 / 姆特瓦拉走廊**（新兴）——彭巴、鲁伍马盆地液化天然气和石墨，与坦桑尼亚相连。",
+        "ar": "تربط ثلاثة موانئ للمياه العميقة المحيط الهندي باقتصادات الجنوب الأفريقي غير الساحلية:\n\n- **ممر Maputo** — جنوب أفريقيا وإسواتيني؛ وقد تعامل الميناء مع 32 مليون طن في 2025، وهو رقم قياسي غير مسبوق.\n- **ممر Beira** — زيمبابوي وزامبيا وجمهورية الكونغو الديمقراطية وملاوي؛ الفحم والأعمال الزراعية.\n- **ممر Nacala** — أعمق ميناء طبيعي في الجنوب الأفريقي، بخط سكك حديدية إلى ملاوي وصادرات إلى آسيا.\n- **ممر Cabo Delgado / Mtwara** (ناشئ) — Pemba والغاز الطبيعي المسال والغرافيت في حوض Rovuma، مع روابط إلى تنزانيا.",
+        "hi": "तीन गहरे पानी वाले बंदरगाह हिंद महासागर को दक्षिणी अफ़्रीका की स्थल-रुद्ध (landlocked) अर्थव्यवस्थाओं से जोड़ते हैं:\n\n- **Maputo कॉरिडोर** — दक्षिण अफ़्रीका और एस्वातिनी; बंदरगाह ने 2025 में 32 मिलियन टन माल संभाला, जो अब तक का सर्वकालिक रिकॉर्ड है।\n- **Beira कॉरिडोर** — ज़िम्बाब्वे, ज़ाम्बिया, DRC और मलावी; कोयला और कृषि-व्यवसाय।\n- **Nacala कॉरिडोर** — दक्षिणी अफ़्रीका का सबसे गहरा प्राकृतिक बंदरगाह, मलावी तक रेल संपर्क और एशिया को निर्यात के साथ।\n- **Cabo Delgado / Mtwara कॉरिडोर** (उभरता हुआ) — Pemba, Rovuma बेसिन का LNG और ग्रेफ़ाइट, तंज़ानिया से संपर्कों के साथ।",
+        "sw": "Bandari tatu za kina kirefu zinaunganisha Bahari ya Hindi na uchumi wa nchi zisizo na bahari za kusini mwa Afrika:\n\n- **Ushoroba wa Maputo** — Afrika Kusini na Eswatini; bandari ilishughulikia tani milioni 32 mwaka 2025, rekodi ya wakati wote.\n- **Ushoroba wa Beira** — Zimbabwe, Zambia, DRC na Malawi; makaa ya mawe na kilimo-biashara.\n- **Ushoroba wa Nacala** — bandari asilia yenye kina kirefu zaidi kusini mwa Afrika, yenye reli kwenda Malawi na mauzo ya nje kwenda Asia.\n- **Ushoroba wa Cabo Delgado / Mtwara** (unaoibuka) — Pemba, LNG ya Bonde la Rovuma na grafiti, ukiwa na viungo kwenda Tanzania.",
+        "af": "Drie diepwaterhawens verbind die Indiese Oseaan met suidelike Afrika se ingeslote ekonomieë:\n\n- **Maputo-korridor** — Suid-Afrika en Eswatini; die hawe het in 2025 32 miljoen ton hanteer, 'n rekord van alle tye.\n- **Beira-korridor** — Zimbabwe, Zambië, DRK en Malawi; steenkool en landboubesigheid.\n- **Nacala-korridor** — die diepste natuurlike hawe in suidelike Afrika, met 'n spoorlyn na Malawi en uitvoere na Asië.\n- **Cabo Delgado / Mtwara-korridor** (opkomend) — Pemba, LNG en grafiet van die Rovuma-kom, met verbindings na Tanzanië."
       }
     }
   ]

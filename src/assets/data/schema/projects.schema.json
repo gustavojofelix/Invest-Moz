@@ -3,23 +3,14 @@
   "$id": "projects.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "projects"
-  ],
+  "required": ["projects"],
   "properties": {
     "projects": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "ref",
-          "example",
-          "title",
-          "sector",
-          "summary",
-          "input"
-        ],
+        "required": ["ref", "example", "title", "sector", "summary", "input"],
         "properties": {
           "ref": {
             "type": "string",

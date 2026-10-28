@@ -2,38 +2,94 @@
   "options": [
     {
       "vehicle": "lda",
-      "name": { "pt": "Sociedade por quotas (Lda)", "en": "Private limited company (Lda)", "fr": "Société à responsabilité limitée (Lda)" },
+      "name": {
+        "pt": "Sociedade por quotas (Lda)",
+        "en": "Private limited company (Lda)",
+        "fr": "Société à responsabilité limitée (Lda)",
+        "zh": "有限责任公司（Lda）",
+        "ar": "شركة ذات مسؤولية محدودة (Lda)",
+        "hi": "प्राइवेट लिमिटेड कंपनी (Lda)",
+        "sw": "Kampuni binafsi yenye dhima ndogo (Lda)",
+        "af": "Private maatskappy met beperkte aanspreeklikheid (Lda)"
+      },
       "whenToChoose": {
         "pt": "A estrutura mais comum para investimento estrangeiro de pequena e média dimensão: responsabilidade limitada, gestão flexível e possibilidade de sócio único.",
         "en": "The most common structure for small and mid-sized foreign investment: limited liability, flexible management and the option of a single shareholder.",
-        "fr": "La structure la plus courante pour l'investissement étranger de petite et moyenne taille : responsabilité limitée, gestion souple et possibilité d'associé unique."
+        "fr": "La structure la plus courante pour l'investissement étranger de petite et moyenne taille : responsabilité limitée, gestion souple et possibilité d'associé unique.",
+        "zh": "中小型外国投资最常用的结构：有限责任、管理灵活，并可由单一股东设立。",
+        "ar": "الهيكل الأكثر شيوعاً للاستثمار الأجنبي الصغير والمتوسط: مسؤولية محدودة وإدارة مرنة وإمكانية وجود مساهم واحد.",
+        "hi": "छोटे और मध्यम आकार के विदेशी निवेश के लिए सबसे आम संरचना: सीमित दायित्व, लचीला प्रबंधन और एकल शेयरधारक का विकल्प।",
+        "sw": "Muundo unaotumika zaidi kwa uwekezaji wa kigeni wa ukubwa mdogo na wa kati: dhima ndogo, uongozi unaonyumbulika na uwezekano wa kuwa na mbia mmoja tu.",
+        "af": "Die algemeenste struktuur vir klein en middelgroot buitelandse beleggings: beperkte aanspreeklikheid, buigsame bestuur en die moontlikheid van 'n enkele aandeelhouer."
       }
     },
     {
       "vehicle": "sa",
-      "name": { "pt": "Sociedade anónima (SA)", "en": "Public limited company (SA)", "fr": "Société anonyme (SA)" },
+      "name": {
+        "pt": "Sociedade anónima (SA)",
+        "en": "Public limited company (SA)",
+        "fr": "Société anonyme (SA)",
+        "zh": "股份有限公司（SA）",
+        "ar": "شركة مساهمة (SA)",
+        "hi": "पब्लिक लिमिटेड कंपनी (SA)",
+        "sw": "Kampuni ya umma yenye dhima ndogo (SA)",
+        "af": "Publieke maatskappy (SA)"
+      },
       "whenToChoose": {
         "pt": "Para projectos de maior dimensão, com vários accionistas, entrada de investidores financeiros ou acesso ao mercado de capitais. Exige uma estrutura de governação mais pesada.",
         "en": "For larger projects with several shareholders, financial investors or access to capital markets. Requires a heavier governance structure.",
-        "fr": "Pour les projets de plus grande envergure, avec plusieurs actionnaires, l'entrée d'investisseurs financiers ou l'accès au marché des capitaux. Gouvernance plus lourde."
+        "fr": "Pour les projets de plus grande envergure, avec plusieurs actionnaires, l'entrée d'investisseurs financiers ou l'accès au marché des capitaux. Gouvernance plus lourde.",
+        "zh": "适用于有多名股东、财务投资者或需要进入资本市场的大型项目。治理结构要求较高。",
+        "ar": "للمشاريع الأكبر ذات المساهمين المتعددين أو المستثمرين الماليين أو النفاذ إلى أسواق رأس المال. يتطلب هيكل حوكمة أثقل.",
+        "hi": "कई शेयरधारकों, वित्तीय निवेशकों या पूंजी बाज़ार तक पहुँच वाली बड़ी परियोजनाओं के लिए। इसमें अधिक भारी गवर्नेंस संरचना की आवश्यकता होती है।",
+        "sw": "Kwa miradi mikubwa yenye wabia kadhaa, wawekezaji wa kifedha au wanaotaka kufikia masoko ya mitaji. Inahitaji muundo mzito zaidi wa utawala.",
+        "af": "Vir groter projekte met verskeie aandeelhouers, finansiële beleggers of toegang tot kapitaalmarkte. Vereis 'n swaarder bestuurstruktuur."
       }
     },
     {
       "vehicle": "sas",
-      "name": { "pt": "Sociedade simplificada (SAS)", "en": "Simplified company (SAS)", "fr": "Société simplifiée (SAS)" },
+      "name": {
+        "pt": "Sociedade simplificada (SAS)",
+        "en": "Simplified company (SAS)",
+        "fr": "Société simplifiée (SAS)",
+        "zh": "简易公司（SAS）",
+        "ar": "شركة مبسّطة (SAS)",
+        "hi": "सरलीकृत कंपनी (SAS)",
+        "sw": "Kampuni rahisi (SAS)",
+        "af": "Vereenvoudigde maatskappy (SAS)"
+      },
       "whenToChoose": {
         "pt": "Modelo simplificado introduzido pela reforma do direito societário, útil para estruturas leves de accionistas. Requisitos: {{SAS_REQUIREMENTS}}.",
         "en": "Simplified form introduced by the company law reform, useful for light shareholder structures. Requirements: {{SAS_REQUIREMENTS}}.",
-        "fr": "Forme simplifiée introduite par la réforme du droit des sociétés, utile pour des structures d'actionnariat légères. Conditions : {{SAS_REQUIREMENTS}}."
+        "fr": "Forme simplifiée introduite par la réforme du droit des sociétés, utile pour des structures d'actionnariat légères. Conditions : {{SAS_REQUIREMENTS}}.",
+        "zh": "公司法改革引入的简化形式，适合股权结构简单的情形。要求：{{SAS_REQUIREMENTS}}。",
+        "ar": "شكل مبسّط استحدثه إصلاح قانون الشركات، مفيد لهياكل المساهمين الخفيفة. المتطلبات: {{SAS_REQUIREMENTS}}.",
+        "hi": "कंपनी कानून सुधार द्वारा शुरू किया गया सरलीकृत रूप, हल्की शेयरधारक संरचनाओं के लिए उपयोगी। आवश्यकताएँ: {{SAS_REQUIREMENTS}}।",
+        "sw": "Aina rahisi iliyoletwa na marekebisho ya sheria ya kampuni, inayofaa kwa miundo myepesi ya wabia. Masharti: {{SAS_REQUIREMENTS}}.",
+        "af": "Vereenvoudigde vorm wat deur die hervorming van die maatskappyereg ingestel is, nuttig vir ligte aandeelhouerstrukture. Vereistes: {{SAS_REQUIREMENTS}}."
       }
     },
     {
       "vehicle": "branch",
-      "name": { "pt": "Sucursal de sociedade estrangeira", "en": "Branch of a foreign company", "fr": "Succursale de société étrangère" },
+      "name": {
+        "pt": "Sucursal de sociedade estrangeira",
+        "en": "Branch of a foreign company",
+        "fr": "Succursale de société étrangère",
+        "zh": "外国公司分公司",
+        "ar": "فرع لشركة أجنبية",
+        "hi": "विदेशी कंपनी की शाखा",
+        "sw": "Tawi la kampuni ya kigeni",
+        "af": "Tak van 'n buitelandse maatskappy"
+      },
       "whenToChoose": {
         "pt": "Para contratos ou projectos de duração definida, quando a sociedade-mãe pretende operar directamente. A sociedade-mãe responde pelas obrigações da sucursal.",
         "en": "For contracts or projects of defined duration, when the parent company wants to operate directly. The parent is liable for the branch's obligations.",
-        "fr": "Pour des contrats ou projets de durée déterminée, lorsque la société mère souhaite opérer directement. La société mère répond des obligations de la succursale."
+        "fr": "Pour des contrats ou projets de durée déterminée, lorsque la société mère souhaite opérer directement. La société mère répond des obligations de la succursale.",
+        "zh": "适用于期限明确的合同或项目，母公司希望直接经营的情形。母公司对分公司的债务承担责任。",
+        "ar": "للعقود أو المشاريع محددة المدة، عندما ترغب الشركة الأم في العمل مباشرة. تتحمل الشركة الأم المسؤولية عن التزامات الفرع.",
+        "hi": "निश्चित अवधि के अनुबंधों या परियोजनाओं के लिए, जब मूल कंपनी सीधे संचालन करना चाहती हो। शाखा के दायित्वों के लिए मूल कंपनी उत्तरदायी होती है।",
+        "sw": "Kwa mikataba au miradi ya muda maalum, pale kampuni mama inapotaka kufanya kazi moja kwa moja. Kampuni mama inawajibika kwa wajibu wa tawi.",
+        "af": "Vir kontrakte of projekte van bepaalde duur, wanneer die moedermaatskappy direk wil bedryf. Die moedermaatskappy is aanspreeklik vir die tak se verpligtinge."
       }
     }
   ],
@@ -41,8 +97,16 @@
     {
       "id": "oil-gas-foreign",
       "when": [
-        { "field": "sector", "op": "eq", "value": "oil_gas" },
-        { "field": "foreignOwned", "op": "eq", "value": true }
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "oil_gas"
+        },
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        }
       ],
       "then": {
         "recommended": "lda",
@@ -50,15 +114,28 @@
         "reasoning": {
           "pt": "No sector petrolífero, as regras de conteúdo local favorecem fornecedores constituídos em Moçambique e parcerias com empresas moçambicanas. Uma Lda local permite acolher um sócio moçambicano e registar-se como fornecedor junto dos operadores de GNL.",
           "en": "In the petroleum sector, local content rules favour suppliers incorporated in Mozambique and partnerships with Mozambican companies. A local Lda can take in a Mozambican partner and register as a supplier with LNG operators.",
-          "fr": "Dans le secteur pétrolier, les règles de contenu local favorisent les fournisseurs constitués au Mozambique et les partenariats avec des entreprises mozambicaines. Une Lda locale peut accueillir un associé mozambicain et s'enregistrer comme fournisseur auprès des opérateurs de GNL."
+          "fr": "Dans le secteur pétrolier, les règles de contenu local favorisent les fournisseurs constitués au Mozambique et les partenariats avec des entreprises mozambicaines. Une Lda locale peut accueillir un associé mozambicain et s'enregistrer comme fournisseur auprès des opérateurs de GNL.",
+          "zh": "在石油行业，本地成分规则优先考虑在莫桑比克注册的供应商以及与莫桑比克公司的合作。本地 Lda 可以吸收莫桑比克合伙人，并在液化天然气运营商处登记为供应商。",
+          "ar": "في قطاع البترول، تُفضّل قواعد المحتوى المحلي المورّدين المؤسَّسين في موزمبيق والشراكات مع الشركات الموزمبيقية. يمكن لشركة Lda محلية ضمّ شريك موزمبيقي والتسجيل كمورّد لدى مشغّلي الغاز الطبيعي المسال.",
+          "hi": "पेट्रोलियम क्षेत्र में स्थानीय सामग्री (local content) नियम मोज़ाम्बिक में निगमित आपूर्तिकर्ताओं और मोज़ाम्बिकी कंपनियों के साथ साझेदारी को वरीयता देते हैं। एक स्थानीय Lda किसी मोज़ाम्बिकी साझेदार को शामिल कर सकती है और LNG ऑपरेटरों के पास आपूर्तिकर्ता के रूप में पंजीकरण करा सकती है।",
+          "sw": "Katika sekta ya petroli, kanuni za ushiriki wa wazawa (local content) hupendelea wasambazaji waliosajiliwa Msumbiji na ubia na kampuni za Msumbiji. Lda ya ndani inaweza kumpokea mbia wa Msumbiji na kujisajili kama msambazaji kwa waendeshaji wa LNG.",
+          "af": "In die petroleumsektor bevoordeel die reëls oor plaaslike inhoud verskaffers wat in Mosambiek ingelyf is en vennootskappe met Mosambiekse maatskappye. 'n Plaaslike Lda kan 'n Mosambiekse vennoot opneem en as verskaffer by LNG-operateurs registreer."
         }
       }
     },
     {
       "id": "energy-foreign-epc",
       "when": [
-        { "field": "sector", "op": "eq", "value": "energy" },
-        { "field": "capital", "op": "eq", "value": "foreign" }
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "energy"
+        },
+        {
+          "field": "capital",
+          "op": "eq",
+          "value": "foreign"
+        }
       ],
       "then": {
         "recommended": "branch",
@@ -66,33 +143,60 @@
         "reasoning": {
           "pt": "Para contratos EPC com prazo definido, uma sucursal da empresa-mãe ({{fact.country}}) permite operar rapidamente, usar o balanço e as referências da sociedade-mãe e remeter lucros sem retenção na fonte (interpretação actual). Se o plano incluir serviços de operação e manutenção de longo prazo, uma Lda passa a ser preferível. Esta é a decisão central do projecto.",
           "en": "For fixed-term EPC contracts, a branch of the parent company ({{fact.country}}) can start quickly, rely on the parent's balance sheet and track record, and remit profits without withholding (current interpretation). If the plan includes long-term operation and maintenance services, an Lda becomes preferable. This is the project's central decision.",
-          "fr": "Pour des contrats EPC à durée déterminée, une succursale de la société mère ({{fact.country}}) permet de démarrer rapidement, de s'appuyer sur le bilan et les références de la société mère et de rapatrier les bénéfices sans retenue à la source (interprétation actuelle). Si le projet inclut des services d'exploitation et de maintenance à long terme, une Lda devient préférable. C'est la décision centrale du projet."
+          "fr": "Pour des contrats EPC à durée déterminée, une succursale de la société mère ({{fact.country}}) permet de démarrer rapidement, de s'appuyer sur le bilan et les références de la société mère et de rapatrier les bénéfices sans retenue à la source (interprétation actuelle). Si le projet inclut des services d'exploitation et de maintenance à long terme, une Lda devient préférable. C'est la décision centrale du projet.",
+          "zh": "对于固定期限的 EPC 合同，母公司（{{fact.country}}）的分公司可以快速启动，依托母公司的资产负债表和业绩记录，并可在不缴纳预提税的情况下汇出利润（现行解释）。如果计划包括长期运维服务，则 Lda 更为合适。这是该项目的核心决策。",
+          "ar": "بالنسبة لعقود EPC محددة المدة، يمكن لفرع الشركة الأم ({{fact.country}}) أن يبدأ بسرعة، وأن يستند إلى ميزانية الشركة الأم وسجلّها، وأن يحوّل الأرباح دون ضريبة مقتطعة (وفق التفسير الحالي). وإذا تضمنت الخطة خدمات تشغيل وصيانة طويلة الأجل، تصبح شركة Lda هي الأفضل. هذا هو القرار المحوري للمشروع.",
+          "hi": "निश्चित अवधि के EPC अनुबंधों के लिए मूल कंपनी ({{fact.country}}) की शाखा जल्दी काम शुरू कर सकती है, मूल कंपनी की बैलेंस शीट और अनुभव का लाभ उठा सकती है, और बिना रोक कर के लाभ भेज सकती है (वर्तमान व्याख्या)। यदि योजना में दीर्घकालिक संचालन और रखरखाव सेवाएँ शामिल हैं, तो Lda बेहतर विकल्प बन जाती है। यह परियोजना का केंद्रीय निर्णय है।",
+          "sw": "Kwa mikataba ya EPC ya muda maalum, tawi la kampuni mama ({{fact.country}}) linaweza kuanza haraka, kutegemea mizania na rekodi ya kampuni mama, na kuhamisha faida bila kodi ya zuio (tafsiri ya sasa). Ikiwa mpango unajumuisha huduma za muda mrefu za uendeshaji na matengenezo, Lda inakuwa bora zaidi. Huu ndio uamuzi mkuu wa mradi.",
+          "af": "Vir EPC-kontrakte van vaste duur kan 'n tak van die moedermaatskappy ({{fact.country}}) vinnig begin, op die moedermaatskappy se balansstaat en rekord steun, en winste sonder terughouding oormaak (huidige interpretasie). As die plan langtermyn-bedryfs- en instandhoudingsdienste insluit, word 'n Lda verkieslik. Dit is die projek se kernbesluit."
         }
       }
     },
     {
       "id": "mixed-capital",
-      "when": [{ "field": "capital", "op": "eq", "value": "mixed" }],
+      "when": [
+        {
+          "field": "capital",
+          "op": "eq",
+          "value": "mixed"
+        }
+      ],
       "then": {
         "recommended": "lda",
         "alternatives": ["sa", "sas"],
         "reasoning": {
           "pt": "Com capital misto, a Lda acomoda bem o investidor ({{fact.country}}) e o sócio moçambicano: responsabilidade limitada, pacto social que regula a gestão e a cessão de quotas, e base clara para registar o IDE no Banco de Moçambique. A SA justifica-se se estiver prevista a entrada de novos investidores.",
           "en": "With mixed capital, an Lda suits both the investor ({{fact.country}}) and the Mozambican partner: limited liability, articles that govern management and share transfers, and a clear basis for registering the FDI with the Banco de Moçambique. An SA is justified if new investors are expected to join.",
-          "fr": "Avec un capital mixte, la Lda convient à l'investisseur ({{fact.country}}) comme à l'associé mozambicain : responsabilité limitée, statuts encadrant la gestion et la cession des parts, et base claire pour enregistrer l'IDE auprès de la Banco de Moçambique. La SA se justifie si l'entrée de nouveaux investisseurs est prévue."
+          "fr": "Avec un capital mixte, la Lda convient à l'investisseur ({{fact.country}}) comme à l'associé mozambicain : responsabilité limitée, statuts encadrant la gestion et la cession des parts, et base claire pour enregistrer l'IDE auprès de la Banco de Moçambique. La SA se justifie si l'entrée de nouveaux investisseurs est prévue.",
+          "zh": "在混合资本情况下，Lda 同时适合投资者（{{fact.country}}）和莫桑比克合伙人：有限责任、公司章程规范管理和股权转让，并为在 Banco de Moçambique 登记外国直接投资提供清晰依据。如预计有新投资者加入，则可考虑 SA。",
+          "ar": "مع رأس مال مختلط، تناسب شركة Lda كلاً من المستثمر ({{fact.country}}) والشريك الموزمبيقي: مسؤولية محدودة، ونظام أساسي ينظّم الإدارة ونقل الحصص، وأساس واضح لتسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique. وتُبرَّر شركة SA إذا كان من المتوقع انضمام مستثمرين جدد.",
+          "hi": "मिश्रित पूंजी के साथ Lda निवेशक ({{fact.country}}) और मोज़ाम्बिकी साझेदार दोनों के लिए उपयुक्त है: सीमित दायित्व, प्रबंधन और शेयर हस्तांतरण को नियंत्रित करने वाले संस्था के नियम (articles), और Banco de Moçambique में FDI पंजीकरण के लिए स्पष्ट आधार। यदि नए निवेशकों के जुड़ने की संभावना हो, तो SA उचित है।",
+          "sw": "Kwa mtaji mchanganyiko, Lda inamfaa mwekezaji ({{fact.country}}) na mbia wa Msumbiji: dhima ndogo, katiba inayosimamia uongozi na uhamisho wa hisa, na msingi ulio wazi wa kusajili FDI katika Banco de Moçambique. SA inahalalishwa ikiwa wawekezaji wapya wanatarajiwa kujiunga.",
+          "af": "Met gemengde kapitaal pas 'n Lda sowel die belegger ({{fact.country}}) as die Mosambiekse vennoot: beperkte aanspreeklikheid, statute wat bestuur en aandeeloordragte reël, en 'n duidelike grondslag om die BBB (direkte buitelandse belegging) by die Banco de Moçambique te registreer. 'n SA is geregverdig as nuwe beleggers verwag word om aan te sluit."
         }
       }
     },
     {
       "id": "foreign-default",
-      "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "recommended": "lda",
         "alternatives": ["branch", "sa", "sas"],
         "reasoning": {
           "pt": "Uma Lda moçambicana detida pelo investidor ({{fact.country}}) separa o risco do projecto da sociedade-mãe, permite sócio único e é a estrutura mais conhecida pelos bancos, pela APIEX e pela Autoridade Tributária.",
           "en": "A Mozambican Lda held by the investor ({{fact.country}}) ring-fences the project's risk from the parent, allows a single shareholder and is the structure best known to banks, APIEX and the Tax Authority.",
-          "fr": "Une Lda mozambicaine détenue par l'investisseur ({{fact.country}}) isole le risque du projet de la société mère, admet un associé unique et constitue la structure la mieux connue des banques, de l'APIEX et de l'administration fiscale."
+          "fr": "Une Lda mozambicaine détenue par l'investisseur ({{fact.country}}) isole le risque du projet de la société mère, admet un associé unique et constitue la structure la mieux connue des banques, de l'APIEX et de l'administration fiscale.",
+          "zh": "由投资者（{{fact.country}}）持有的莫桑比克 Lda 可将项目风险与母公司隔离，允许单一股东，也是银行、APIEX 和税务机关最熟悉的结构。",
+          "ar": "شركة Lda موزمبيقية يملكها المستثمر ({{fact.country}}) تعزل مخاطر المشروع عن الشركة الأم، وتسمح بمساهم واحد، وهي الهيكل الأكثر معرفة لدى البنوك وAPIEX وهيئة الضرائب.",
+          "hi": "निवेशक ({{fact.country}}) के स्वामित्व वाली मोज़ाम्बिकी Lda परियोजना के जोखिम को मूल कंपनी से अलग रखती है, एकल शेयरधारक की अनुमति देती है, और बैंकों, APIEX तथा कर प्राधिकरण (Autoridade Tributária) के लिए सबसे परिचित संरचना है।",
+          "sw": "Lda ya Msumbiji inayomilikiwa na mwekezaji ({{fact.country}}) hutenganisha hatari ya mradi na kampuni mama, huruhusu mbia mmoja na ndio muundo unaojulikana zaidi na benki, APIEX na Mamlaka ya Kodi.",
+          "af": "'n Mosambiekse Lda in besit van die belegger ({{fact.country}}) skerm die projek se risiko van die moedermaatskappy af, laat 'n enkele aandeelhouer toe en is die struktuur wat die beste bekend is by banke, APIEX en die Belastingowerheid."
         }
       }
     },
@@ -105,67 +209,294 @@
         "reasoning": {
           "pt": "Para capital moçambicano, a Lda oferece responsabilidade limitada com custos e formalidades reduzidos. A SA só se justifica com vários accionistas ou entrada de investidores.",
           "en": "For Mozambican capital, an Lda offers limited liability with lower costs and formalities. An SA is only justified with several shareholders or incoming investors.",
-          "fr": "Pour un capital mozambicain, la Lda offre la responsabilité limitée avec des coûts et formalités réduits. La SA ne se justifie qu'avec plusieurs actionnaires ou l'entrée d'investisseurs."
+          "fr": "Pour un capital mozambicain, la Lda offre la responsabilité limitée avec des coûts et formalités réduits. La SA ne se justifie qu'avec plusieurs actionnaires ou l'entrée d'investisseurs.",
+          "zh": "对于莫桑比克本国资本，Lda 以较低的成本和较少的手续提供有限责任。只有在有多名股东或有新投资者加入时才需要采用 SA。",
+          "ar": "بالنسبة لرأس المال الموزمبيقي، توفّر شركة Lda مسؤولية محدودة بتكاليف وإجراءات أقل. ولا تُبرَّر شركة SA إلا مع تعدد المساهمين أو دخول مستثمرين جدد.",
+          "hi": "मोज़ाम्बिकी पूंजी के लिए Lda कम लागत और कम औपचारिकताओं के साथ सीमित दायित्व प्रदान करती है। SA केवल कई शेयरधारकों या नए निवेशकों के आने पर ही उचित है।",
+          "sw": "Kwa mtaji wa Msumbiji, Lda inatoa dhima ndogo kwa gharama na taratibu chache. SA inahalalishwa tu pale kuna wabia kadhaa au wawekezaji wanaoingia.",
+          "af": "Vir Mosambiekse kapitaal bied 'n Lda beperkte aanspreeklikheid met laer koste en minder formaliteite. 'n SA is slegs geregverdig met verskeie aandeelhouers of nuwe beleggers."
         }
       }
     }
   ],
-  "comparisonWhen": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+  "comparisonWhen": [
+    {
+      "field": "foreignOwned",
+      "op": "eq",
+      "value": true
+    }
+  ],
   "comparison": [
     {
       "id": "legal-personality",
-      "label": { "pt": "Personalidade jurídica", "en": "Legal personality", "fr": "Personnalité juridique" },
-      "company": { "pt": "Pessoa colectiva moçambicana, distinta dos sócios", "en": "Mozambican legal entity, separate from its shareholders", "fr": "Personne morale mozambicaine, distincte des associés" },
-      "branch": { "pt": "Sem personalidade própria; extensão da sociedade-mãe", "en": "No separate personality; an extension of the parent", "fr": "Pas de personnalité propre ; prolongement de la société mère" },
+      "label": {
+        "pt": "Personalidade jurídica",
+        "en": "Legal personality",
+        "fr": "Personnalité juridique",
+        "zh": "法人资格",
+        "ar": "الشخصية القانونية",
+        "hi": "कानूनी व्यक्तित्व",
+        "sw": "Nafsi ya kisheria",
+        "af": "Regspersoonlikheid"
+      },
+      "company": {
+        "pt": "Pessoa colectiva moçambicana, distinta dos sócios",
+        "en": "Mozambican legal entity, separate from its shareholders",
+        "fr": "Personne morale mozambicaine, distincte des associés",
+        "zh": "莫桑比克法人，独立于其股东",
+        "ar": "كيان قانوني موزمبيقي مستقل عن مساهميه",
+        "hi": "मोज़ाम्बिकी कानूनी इकाई, अपने शेयरधारकों से अलग",
+        "sw": "Taasisi ya kisheria ya Msumbiji, tofauti na wabia wake",
+        "af": "Mosambiekse regspersoon, apart van sy aandeelhouers"
+      },
+      "branch": {
+        "pt": "Sem personalidade própria; extensão da sociedade-mãe",
+        "en": "No separate personality; an extension of the parent",
+        "fr": "Pas de personnalité propre ; prolongement de la société mère",
+        "zh": "无独立法人资格；为母公司的延伸",
+        "ar": "بلا شخصية مستقلة؛ امتداد للشركة الأم",
+        "hi": "कोई अलग व्यक्तित्व नहीं; मूल कंपनी का विस्तार",
+        "sw": "Haina nafsi tofauti; ni sehemu ya kampuni mama",
+        "af": "Geen aparte persoonlikheid nie; 'n verlengstuk van die moedermaatskappy"
+      },
       "refs": ["dl-1-2022"]
     },
     {
       "id": "liability",
-      "label": { "pt": "Responsabilidade", "en": "Liability", "fr": "Responsabilité" },
-      "company": { "pt": "Limitada ao capital social", "en": "Limited to share capital", "fr": "Limitée au capital social" },
-      "branch": { "pt": "A sociedade-mãe responde por todas as obrigações", "en": "The parent answers for all obligations", "fr": "La société mère répond de toutes les obligations" },
+      "label": {
+        "pt": "Responsabilidade",
+        "en": "Liability",
+        "fr": "Responsabilité",
+        "zh": "责任",
+        "ar": "المسؤولية",
+        "hi": "दायित्व",
+        "sw": "Dhima",
+        "af": "Aanspreeklikheid"
+      },
+      "company": {
+        "pt": "Limitada ao capital social",
+        "en": "Limited to share capital",
+        "fr": "Limitée au capital social",
+        "zh": "以注册资本为限",
+        "ar": "محدودة برأس المال",
+        "hi": "शेयर पूंजी तक सीमित",
+        "sw": "Ina kikomo cha mtaji wa hisa",
+        "af": "Beperk tot die aandelekapitaal"
+      },
+      "branch": {
+        "pt": "A sociedade-mãe responde por todas as obrigações",
+        "en": "The parent answers for all obligations",
+        "fr": "La société mère répond de toutes les obligations",
+        "zh": "母公司对全部债务承担责任",
+        "ar": "تتحمل الشركة الأم جميع الالتزامات",
+        "hi": "सभी दायित्वों के लिए मूल कंपनी उत्तरदायी है",
+        "sw": "Kampuni mama inawajibika kwa wajibu wote",
+        "af": "Die moedermaatskappy is vir alle verpligtinge aanspreeklik"
+      },
       "refs": ["dl-1-2022"]
     },
     {
       "id": "management",
-      "label": { "pt": "Sócios e gestão", "en": "Shareholders and management", "fr": "Associés et gestion" },
-      "company": { "pt": "Sócios e gerência ou conselho de administração; admite sócio único", "en": "Shareholders and managers or a board; a single shareholder is allowed", "fr": "Associés et gérance ou conseil d'administration ; associé unique admis" },
-      "branch": { "pt": "Representante nomeado pela sociedade-mãe, que decide", "en": "A representative appointed by the parent, which decides", "fr": "Représentant nommé par la société mère, qui décide" },
+      "label": {
+        "pt": "Sócios e gestão",
+        "en": "Shareholders and management",
+        "fr": "Associés et gestion",
+        "zh": "股东与管理",
+        "ar": "المساهمون والإدارة",
+        "hi": "शेयरधारक और प्रबंधन",
+        "sw": "Wabia na uongozi",
+        "af": "Aandeelhouers en bestuur"
+      },
+      "company": {
+        "pt": "Sócios e gerência ou conselho de administração; admite sócio único",
+        "en": "Shareholders and managers or a board; a single shareholder is allowed",
+        "fr": "Associés et gérance ou conseil d'administration ; associé unique admis",
+        "zh": "股东及经理或董事会；允许单一股东",
+        "ar": "مساهمون ومديرون أو مجلس إدارة؛ ويُسمح بمساهم واحد",
+        "hi": "शेयरधारक और प्रबंधक या निदेशक मंडल; एकल शेयरधारक की अनुमति है",
+        "sw": "Wabia na mameneja au bodi; mbia mmoja anaruhusiwa",
+        "af": "Aandeelhouers en bestuurders of 'n raad; 'n enkele aandeelhouer word toegelaat"
+      },
+      "branch": {
+        "pt": "Representante nomeado pela sociedade-mãe, que decide",
+        "en": "A representative appointed by the parent, which decides",
+        "fr": "Représentant nommé par la société mère, qui décide",
+        "zh": "由母公司任命代表，决策由母公司作出",
+        "ar": "ممثل تعيّنه الشركة الأم التي تتخذ القرار",
+        "hi": "मूल कंपनी द्वारा नियुक्त प्रतिनिधि; निर्णय मूल कंपनी लेती है",
+        "sw": "Mwakilishi aliyeteuliwa na kampuni mama, ambayo ndiyo hufanya maamuzi",
+        "af": "'n Verteenwoordiger aangestel deur die moedermaatskappy, wat besluit"
+      },
       "refs": ["dl-1-2022"]
     },
     {
       "id": "duration",
-      "label": { "pt": "Duração", "en": "Duration", "fr": "Durée" },
-      "company": { "pt": "Indeterminada", "en": "Indefinite", "fr": "Indéterminée" },
-      "branch": { "pt": "Indeterminada ou ligada a um contrato ou projecto", "en": "Indefinite, or tied to a contract or project", "fr": "Indéterminée ou liée à un contrat ou projet" },
+      "label": {
+        "pt": "Duração",
+        "en": "Duration",
+        "fr": "Durée",
+        "zh": "存续期限",
+        "ar": "المدة",
+        "hi": "अवधि",
+        "sw": "Muda",
+        "af": "Duur"
+      },
+      "company": {
+        "pt": "Indeterminada",
+        "en": "Indefinite",
+        "fr": "Indéterminée",
+        "zh": "无限期",
+        "ar": "غير محددة",
+        "hi": "अनिश्चित",
+        "sw": "Usio na kikomo",
+        "af": "Onbepaald"
+      },
+      "branch": {
+        "pt": "Indeterminada ou ligada a um contrato ou projecto",
+        "en": "Indefinite, or tied to a contract or project",
+        "fr": "Indéterminée ou liée à un contrat ou projet",
+        "zh": "无限期，或与某一合同或项目挂钩",
+        "ar": "غير محددة، أو مرتبطة بعقد أو مشروع",
+        "hi": "अनिश्चित, या किसी अनुबंध अथवा परियोजना से जुड़ी",
+        "sw": "Usio na kikomo, au unaofungamana na mkataba au mradi",
+        "af": "Onbepaald, of gekoppel aan 'n kontrak of projek"
+      },
       "refs": ["dl-1-2022"]
     },
     {
       "id": "audit",
-      "label": { "pt": "Auditoria", "en": "Audit", "fr": "Audit" },
-      "company": { "pt": "Conforme a dimensão e o regime aplicável ({{AUDIT_REQUIREMENT_THRESHOLD}})", "en": "Depending on size and the applicable regime ({{AUDIT_REQUIREMENT_THRESHOLD}})", "fr": "Selon la taille et le régime applicable ({{AUDIT_REQUIREMENT_THRESHOLD}})" },
-      "branch": { "pt": "Contas próprias da sucursal; auditoria conforme o regime ({{AUDIT_REQUIREMENT_THRESHOLD}})", "en": "Separate branch accounts; audit per the regime ({{AUDIT_REQUIREMENT_THRESHOLD}})", "fr": "Comptes propres à la succursale ; audit selon le régime ({{AUDIT_REQUIREMENT_THRESHOLD}})" },
+      "label": {
+        "pt": "Auditoria",
+        "en": "Audit",
+        "fr": "Audit",
+        "zh": "审计",
+        "ar": "التدقيق",
+        "hi": "ऑडिट",
+        "sw": "Ukaguzi wa hesabu",
+        "af": "Ouditering"
+      },
+      "company": {
+        "pt": "Conforme a dimensão e o regime aplicável ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "en": "Depending on size and the applicable regime ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "fr": "Selon la taille et le régime applicable ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "zh": "视规模及适用制度而定（{{AUDIT_REQUIREMENT_THRESHOLD}}）",
+        "ar": "بحسب الحجم والنظام المطبّق ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "hi": "आकार और लागू व्यवस्था के अनुसार ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "sw": "Kutegemea ukubwa na utaratibu unaotumika ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "af": "Afhangend van grootte en die toepaslike stelsel ({{AUDIT_REQUIREMENT_THRESHOLD}})"
+      },
+      "branch": {
+        "pt": "Contas próprias da sucursal; auditoria conforme o regime ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "en": "Separate branch accounts; audit per the regime ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "fr": "Comptes propres à la succursale ; audit selon le régime ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "zh": "分公司单独建账；按适用制度审计（{{AUDIT_REQUIREMENT_THRESHOLD}}）",
+        "ar": "حسابات منفصلة للفرع؛ تدقيق بحسب النظام ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "hi": "शाखा के अलग खाते; व्यवस्था के अनुसार ऑडिट ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "sw": "Hesabu tofauti za tawi; ukaguzi kulingana na utaratibu ({{AUDIT_REQUIREMENT_THRESHOLD}})",
+        "af": "Aparte rekeninge vir die tak; ouditering volgens die stelsel ({{AUDIT_REQUIREMENT_THRESHOLD}})"
+      },
       "refs": ["cirpc"]
     },
     {
       "id": "profits-abroad",
-      "label": { "pt": "Lucros para o exterior", "en": "Profits abroad", "fr": "Bénéfices vers l'étranger" },
-      "company": { "pt": "Dividendos com retenção de 20% ou taxa do ADT", "en": "Dividends with 20% withholding or the treaty rate", "fr": "Dividendes avec retenue de 20 % ou taux conventionnel" },
-      "branch": { "pt": "Remessa de lucros sem retenção (interpretação actual)", "en": "Profit remittance without withholding (current interpretation)", "fr": "Rapatriement des bénéfices sans retenue (interprétation actuelle)" },
+      "label": {
+        "pt": "Lucros para o exterior",
+        "en": "Profits abroad",
+        "fr": "Bénéfices vers l'étranger",
+        "zh": "境外利润",
+        "ar": "الأرباح المحوّلة إلى الخارج",
+        "hi": "विदेश में लाभ",
+        "sw": "Faida nje ya nchi",
+        "af": "Winste na die buiteland"
+      },
+      "company": {
+        "pt": "Dividendos com retenção de 20% ou taxa do ADT",
+        "en": "Dividends with 20% withholding or the treaty rate",
+        "fr": "Dividendes avec retenue de 20 % ou taux conventionnel",
+        "zh": "股息按 20% 或协定税率缴纳预提税",
+        "ar": "أرباح موزعة بضريبة مقتطعة 20% أو بمعدل الاتفاقية",
+        "hi": "20% रोक कर या संधि दर के साथ लाभांश",
+        "sw": "Gawio lenye kodi ya zuio ya 20% au kiwango cha mkataba",
+        "af": "Dividende met 20% terughouding of die verdragskoers"
+      },
+      "branch": {
+        "pt": "Remessa de lucros sem retenção (interpretação actual)",
+        "en": "Profit remittance without withholding (current interpretation)",
+        "fr": "Rapatriement des bénéfices sans retenue (interprétation actuelle)",
+        "zh": "利润汇出无需缴纳预提税（现行解释）",
+        "ar": "تحويل الأرباح دون ضريبة مقتطعة (وفق التفسير الحالي)",
+        "hi": "बिना रोक कर के लाभ प्रेषण (वर्तमान व्याख्या)",
+        "sw": "Uhamisho wa faida bila kodi ya zuio (tafsiri ya sasa)",
+        "af": "Oormaak van winste sonder terughouding (huidige interpretasie)"
+      },
       "refs": ["cirpc", "dta-network"]
     },
     {
       "id": "exchange",
-      "label": { "pt": "Câmbios", "en": "Exchange control", "fr": "Contrôle des changes" },
-      "company": { "pt": "IDE registado no BdM; dividendos transferíveis com o registo", "en": "FDI registered with the BdM; dividends transferable with registration", "fr": "IDE enregistré auprès de la BdM ; dividendes transférables avec l'enregistrement" },
-      "branch": { "pt": "Capital afecto registado no BdM; remessas segundo as regras cambiais", "en": "Allocated capital registered with the BdM; remittances under exchange rules", "fr": "Capital affecté enregistré auprès de la BdM ; transferts selon les règles de change" },
+      "label": {
+        "pt": "Câmbios",
+        "en": "Exchange control",
+        "fr": "Contrôle des changes",
+        "zh": "外汇管制",
+        "ar": "الرقابة على الصرف",
+        "hi": "विनिमय नियंत्रण",
+        "sw": "Udhibiti wa fedha za kigeni",
+        "af": "Valutabeheer"
+      },
+      "company": {
+        "pt": "IDE registado no BdM; dividendos transferíveis com o registo",
+        "en": "FDI registered with the BdM; dividends transferable with registration",
+        "fr": "IDE enregistré auprès de la BdM ; dividendes transférables avec l'enregistrement",
+        "zh": "外国直接投资在 BdM 登记；登记后股息可汇出",
+        "ar": "استثمار أجنبي مباشر مسجّل لدى BdM؛ والأرباح الموزعة قابلة للتحويل مع التسجيل",
+        "hi": "BdM में पंजीकृत FDI; पंजीकरण के साथ लाभांश विदेश भेजे जा सकते हैं",
+        "sw": "FDI imesajiliwa katika BdM; gawio linaweza kuhamishwa kwa usajili",
+        "af": "BBB by die BdM geregistreer; dividende oordraagbaar met registrasie"
+      },
+      "branch": {
+        "pt": "Capital afecto registado no BdM; remessas segundo as regras cambiais",
+        "en": "Allocated capital registered with the BdM; remittances under exchange rules",
+        "fr": "Capital affecté enregistré auprès de la BdM ; transferts selon les règles de change",
+        "zh": "拨付资本在 BdM 登记；汇款须遵守外汇规定",
+        "ar": "رأس مال مخصص مسجّل لدى BdM؛ والتحويلات وفق قواعد الصرف",
+        "hi": "आवंटित पूंजी BdM में पंजीकृत; प्रेषण विनिमय नियमों के अनुसार",
+        "sw": "Mtaji uliotengwa umesajiliwa katika BdM; uhamisho chini ya kanuni za fedha za kigeni",
+        "af": "Toegekende kapitaal by die BdM geregistreer; oormakings volgens die valutareëls"
+      },
       "refs": ["lei-11-2009", "aviso-3-gbm-2024"]
     },
     {
       "id": "closure",
-      "label": { "pt": "Encerramento", "en": "Closure", "fr": "Fermeture" },
-      "company": { "pt": "Dissolução e liquidação da sociedade", "en": "Dissolution and liquidation of the company", "fr": "Dissolution et liquidation de la société" },
-      "branch": { "pt": "Cancelamento do registo da sucursal, em regra mais simples", "en": "Deregistration of the branch, usually simpler", "fr": "Radiation de la succursale, en règle plus simple" },
+      "label": {
+        "pt": "Encerramento",
+        "en": "Closure",
+        "fr": "Fermeture",
+        "zh": "关闭",
+        "ar": "الإغلاق",
+        "hi": "समापन",
+        "sw": "Kufunga",
+        "af": "Sluiting"
+      },
+      "company": {
+        "pt": "Dissolução e liquidação da sociedade",
+        "en": "Dissolution and liquidation of the company",
+        "fr": "Dissolution et liquidation de la société",
+        "zh": "公司解散和清算",
+        "ar": "حل الشركة وتصفيتها",
+        "hi": "कंपनी का विघटन और परिसमापन",
+        "sw": "Kuvunjwa na kufilisiwa kwa kampuni",
+        "af": "Ontbinding en likwidasie van die maatskappy"
+      },
+      "branch": {
+        "pt": "Cancelamento do registo da sucursal, em regra mais simples",
+        "en": "Deregistration of the branch, usually simpler",
+        "fr": "Radiation de la succursale, en règle plus simple",
+        "zh": "注销分公司，通常较为简单",
+        "ar": "شطب تسجيل الفرع، وهو عادة أبسط",
+        "hi": "शाखा का पंजीकरण रद्द करना, आमतौर पर सरल",
+        "sw": "Kufuta usajili wa tawi, kwa kawaida ni rahisi zaidi",
+        "af": "Deregistrasie van die tak, gewoonlik eenvoudiger"
+      },
       "refs": ["dl-1-2022"]
     }
   ]

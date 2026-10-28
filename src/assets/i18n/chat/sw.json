@@ -1,0 +1,59 @@
+{
+  "back": "Rudi kwenye ukurasa wa mwanzo",
+  "status": "Msaidizi wa uwekezaji · yupo mtandaoni",
+  "new": "Mazungumzo mapya",
+  "language": "Lugha",
+  "thread": "Mazungumzo na Tiva",
+  "hello": "Habari, mimi ni Tiva. Niambie kuhusu wazo lako la uwekezaji au uliza swali kuhusu kuwekeza nchini Msumbiji. Ninajibu kutokana na maudhui yaliyopitiwa na wanasheria na ninaonyesha chanzo cha kisheria cha kila jibu.",
+  "tryAsking": "Jaribu kuuliza",
+  "thinking": "Tiva anakagua vyanzo vilivyopitiwa",
+  "stopped": "Jibu limesimamishwa.",
+  "sources": "Vyanzo vya kisheria",
+  "reviewed": "Maudhui yaliyopitiwa na wanasheria · taarifa za jumla",
+  "whenToTalk": "Wakati wa kuzungumza na mtaalamu",
+  "outline": {
+    "sector": "Sekta: {{sector}}",
+    "body": "Ni mradi mzuri wa kuangalia. Kwa ufupi:\n\n- **Kampuni:** limitada (Lda) kwa kawaida inafaa, na wanahisa wa kigeni wanaweza kuimiliki.\n- **Uwekezaji:** sajili mradi kwa APIEX ili upate dhamana na vivutio.\n- **Leseni:** leseni ya shughuli au ya viwanda, inayowasilishwa kupitia e-BAU.\n- **Fedha:** sajili mtaji wako kwa Banco de Moçambique ili baadaye uweze kurejesha faida nje ya nchi.\n\nRamani yako ya hatua inageuza haya kuwa hatua tisa zilizopangwa kwa sekta, jimbo na ukubwa wako."
+  },
+  "fallback": {
+    "text": "Bado sina jibu lililopitiwa na wanasheria kuhusu hilo, na sipendi kubahatisha. Jaribu mojawapo ya maswali haya, au zungumza na mtaalamu anayeweza kuangalia suala lako.",
+    "suggested": "Maswali yanayopendekezwa"
+  },
+  "roadmap": {
+    "ready": "Ramani yako ya hatua iko tayari",
+    "steps": "Hatua {{count}} · kampuni, APIEX, ardhi, mazingira, leseni, mtaji, wafanyakazi, kodi",
+    "open": "Fungua ramani ya hatua"
+  },
+  "build": {
+    "eyebrow": "Hatua inayofuata",
+    "title": "Tengeneza ramani yangu ya hatua",
+    "text": "Maswali sita mafupi yanageuza wazo lako kuwa hatua tisa zilizopangwa, kila moja ikiwa na mamlaka husika na sheria inayoiongoza.",
+    "cta": "Tengeneza ramani yangu ya hatua"
+  },
+  "quick": {
+    "label": "Maswali yanayopendekezwa yanayofuata",
+    "incentives": "Ni vivutio gani vinavyotumika?",
+    "permits": "Vibali vya kazi kwa mameneja wangu",
+    "expert": "Zungumza na mtaalamu"
+  },
+  "topics": "Mada",
+  "topicQuestions": "Maswali kuhusu mada hii",
+  "fieldLabel": "Mtumie Tiva ujumbe",
+  "placeholder": "Uliza chochote kuhusu uwekezaji…",
+  "listening": "Ninasikiliza… zungumza sasa",
+  "voice": "Rekodi ujumbe wa sauti",
+  "voiceStop": "Simamisha kurekodi",
+  "voiceUnavailable": "Ujumbe wa sauti haupatikani kwenye kivinjari hiki. Tafadhali andika swali lako.",
+  "send": "Tuma",
+  "stop": "Simamisha jibu",
+  "sectors": {
+    "agro_industry": "Viwanda vya kilimo",
+    "energy": "Nishati",
+    "logistics": "Usafirishaji",
+    "tourism": "Utalii",
+    "oil_gas": "Mafuta na gesi",
+    "mining": "Madini",
+    "services": "Huduma",
+    "general": "Biashara ya jumla"
+  }
+}

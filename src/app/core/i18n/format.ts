@@ -1,6 +1,6 @@
 import { Pipe, type PipeTransform } from '@angular/core';
 import type { Locale, LocalizedText } from '../domain/types';
-import { INTL_LOCALE } from './locales';
+import { INTL_LOCALE, pickText } from './locales';
 
 export type DateStyle = 'long' | 'medium' | 'short' | 'weekday' | 'datetime' | 'day' | 'monthYear';
 
@@ -54,8 +54,7 @@ export function formatDate(iso: string, lang: Locale, style: DateStyle = 'medium
 @Pipe({ name: 'loc' })
 export class LocPipe implements PipeTransform {
   transform(value: LocalizedText | null | undefined, lang: Locale): string {
-    if (!value) return '';
-    return value[lang] ?? value.pt ?? '';
+    return pickText(value, lang);
   }
 }
 

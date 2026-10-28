@@ -3,20 +3,14 @@
   "$id": "rules-obligations.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "obligations"
-  ],
+  "required": ["obligations"],
   "properties": {
     "obligations": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -31,13 +25,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "id",
-              "title",
-              "frequency",
-              "schedule",
-              "refs"
-            ],
+            "required": ["id", "title", "frequency", "schedule", "refs"],
             "properties": {
               "id": {
                 "type": "string",
@@ -54,10 +42,7 @@
                   {
                     "type": "object",
                     "additionalProperties": false,
-                    "required": [
-                      "kind",
-                      "day"
-                    ],
+                    "required": ["kind", "day"],
                     "properties": {
                       "kind": {
                         "const": "monthly"
@@ -79,11 +64,7 @@
                   {
                     "type": "object",
                     "additionalProperties": false,
-                    "required": [
-                      "kind",
-                      "months",
-                      "day"
-                    ],
+                    "required": ["kind", "months", "day"],
                     "properties": {
                       "kind": {
                         "const": "annual"
@@ -114,9 +95,7 @@
                   {
                     "type": "object",
                     "additionalProperties": false,
-                    "required": [
-                      "kind"
-                    ],
+                    "required": ["kind"],
                     "properties": {
                       "kind": {
                         "const": "text"

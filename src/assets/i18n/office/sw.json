@@ -1,0 +1,407 @@
+{
+  "demoData": "Data ya mfano ya maonyesho",
+  "toConfirm": "inasubiri uthibitisho",
+  "channel": {
+    "web": "Wavuti",
+    "app": "Programu",
+    "whatsapp": "WhatsApp"
+  },
+  "nav": {
+    "title": "Ofisi ya nyuma",
+    "home": "Mwanzo wa ofisi ya nyuma",
+    "menu": "Menyu ya ofisi ya nyuma",
+    "close": "Funga menyu",
+    "queue": "Foleni ya uthibitishaji",
+    "knowledgeBase": "Hazina ya maarifa ya kisheria",
+    "conversations": "Ukaguzi wa mazungumzo",
+    "leads": "Wateja watarajiwa",
+    "intelligence": "Taarifa za wawekezaji",
+    "partners": "Washirika na saraka",
+    "pending": "yanasubiri",
+    "builtBy": "Imetengenezwa na",
+    "legalContent": "Maudhui ya kisheria",
+    "signedIn": "Umeingia",
+    "signOut": "Toka",
+    "language": "Lugha",
+    "publicSite": "Rudi kwenye tovuti ya umma"
+  },
+  "login": {
+    "eyebrow": "Ofisi ya nyuma",
+    "title": "Ingia kwenye ofisi ya nyuma ya Tiva",
+    "intro": "Hapa mawakili huidhinisha anachosema Tiva, na washirika hufuatilia wawekezaji walioomba huduma yao.",
+    "points": {
+      "validate": "Idhinisha rasimu za AI kabla hazijawafikia wawekezaji",
+      "leads": "Fuatilia makabidhiano yenye ridhaa hadi kupata mamlaka",
+      "intelligence": "Soma data ya mahitaji isiyo na majina"
+    },
+    "demoTitle": "Vitambulisho vya maonyesho",
+    "demoText": "Sehemu tayari zimejazwa. Ingia tu.",
+    "email": "Barua pepe",
+    "password": "Nenosiri",
+    "error": "Barua pepe au nenosiri si sahihi.",
+    "submit": "Ingia",
+    "notSecurity": "Kwa maonyesho tu: kuingia huku si usalama halisi. Uthibitishaji halisi utakuja na mfumo wa nyuma."
+  },
+  "queue": {
+    "title": "Foleni ya uthibitishaji",
+    "intro": "Rasimu za AI husubiri hapa. Hakuna kinachowafikia wawekezaji hadi wakili akiidhinishe.",
+    "upload": "Pakia sheria",
+    "uploadName": "Sheria",
+    "uploadPlaceholder": "mf. Decreto n.º [n]/2026",
+    "uploadHint": "Kuigwa: Tiva huandaa rasimu ya muhtasari na kuiongeza kwenye foleni.",
+    "uploadFile": "PDF ya Boletim da República (si lazima)",
+    "uploadSubmit": "Ongeza kwenye foleni",
+    "uploadedMeta": "Imepakiwa na mkaguzi · Muhtasari wa AI unaandaliwa",
+    "uploadedSummary": "Tiva inaandaa muhtasari wa maandishi haya (kuigwa katika maonyesho). Tumia Hariri kuuandika mwenyewe.",
+    "uploadedOfficial": "[Maandishi rasmi ya sheria iliyopakiwa]",
+    "awaiting": "Inasubiri ukaguzi",
+    "reviewed": "Imekaguliwa",
+    "empty": "Hakuna kinachosubiri. Kila rasimu imekaguliwa.",
+    "affects": "Sheria mpya · inaathiri ramani zilizopo",
+    "kind": {
+      "law_summary": "Muhtasari",
+      "answer_template": "Kiolezo cha jibu",
+      "roadmap_rule": "Kanuni ya ramani",
+      "flagged_answer": "Jibu lililoalamishwa"
+    },
+    "decision": {
+      "approved": "Imeidhinishwa na kuchapishwa",
+      "rejected": "Imekataliwa"
+    },
+    "effective": "Inaanza kutumika {{ date }}",
+    "draftAi": "Rasimu · AI",
+    "draftEdited": "Rasimu · imehaririwa na mkaguzi",
+    "aiSummary": "Muhtasari wa AI ({{ lang }})",
+    "source": "Chanzo · Boletim da República",
+    "illustrativeExcerpt": "Dondoo la mfano kwa maonyesho; mkaguzi hulilinganisha na chapisho rasmi.",
+    "openConversation": "Fungua mazungumzo katika ukaguzi",
+    "editLabel": "Hariri muhtasari",
+    "saveEdit": "Hifadhi uhariri",
+    "cancel": "Ghairi",
+    "note": "Dokezo la mkaguzi",
+    "notePlaceholder": "Si lazima: ulichobadilisha na kwa nini",
+    "approve": "Idhinisha na uchapishe",
+    "edit": "Hariri",
+    "reject": "Kataa",
+    "logged": "Kila kitendo hurekodiwa pamoja na mkaguzi, muda na toleo",
+    "version": "toleo la sasa v{{ n }}",
+    "auditTitle": "Kumbukumbu ya ukaguzi",
+    "audit": {
+      "time": "Muda",
+      "action": "Kitendo",
+      "reviewer": "Mkaguzi",
+      "version": "Toleo",
+      "note": "Dokezo"
+    },
+    "action": {
+      "drafted": "Imeandaliwa na AI",
+      "flagged": "Imealamishwa kwa ukaguzi",
+      "commented": "Maoni",
+      "edited": "Imehaririwa",
+      "approved": "Imeidhinishwa na kuchapishwa",
+      "rejected": "Imekataliwa",
+      "uploaded": "Sheria imepakiwa"
+    },
+    "announce": {
+      "approved": "Rasimu imeidhinishwa na kuchapishwa.",
+      "rejected": "Rasimu imekataliwa.",
+      "edited": "Uhariri umehifadhiwa kama toleo jipya.",
+      "uploaded": "Sheria imeongezwa kwenye foleni."
+    },
+    "stripTitle": "Taarifa za wawekezaji robo hii",
+    "topSectors": "Sekta zilizoulizwa zaidi",
+    "topOrigins": "Asili kuu za wawekezaji",
+    "unanswered": "Maswali yasiyojibiwa",
+    "unansweredCount": "{{ n }} yamepelekwa kwa timu ya maudhui"
+  },
+  "kb": {
+    "title": "Hazina ya maarifa ya kisheria",
+    "intro": "Kila jibu na kanuni ya ramani imeunganishwa na maandishi ya kisheria yenye toleo na tarehe ya kuanza kutumika.",
+    "search": "Tafuta sheria",
+    "add": "Ongeza sheria",
+    "filterTopic": "Chuja kwa eneo",
+    "filterStatus": "Chuja kwa hali",
+    "all": "Zote",
+    "anyStatus": "Hali yoyote",
+    "status": {
+      "active": "Inatumika",
+      "amended": "Imerekebishwa",
+      "under_review": "Inakaguliwa",
+      "revoked": "Imefutwa"
+    },
+    "revokedBy": "na {{ by }}",
+    "summaryInReview": "Muhtasari unakaguliwa",
+    "tableCaption": "Sheria katika hazina ya maarifa",
+    "count": "Sheria {{ n }}",
+    "empty": "Hakuna sheria inayolingana na vichujio.",
+    "col": {
+      "diploma": "Sheria",
+      "subject": "Mada",
+      "effective": "Inatumika tangu",
+      "version": "Toleo",
+      "status": "Hali",
+      "linked": "Kanuni zilizounganishwa"
+    },
+    "kind": {
+      "step": "Hatua za ramani",
+      "rule": "Majedwali ya kanuni",
+      "answer": "Majibu"
+    },
+    "table": {
+      "apiex": "APIEX",
+      "incentives": "Vivutio",
+      "licences": "Leseni",
+      "obligations": "Wajibu",
+      "quotas": "Viwango",
+      "roadmap": "Ramani",
+      "sectors": "Sekta",
+      "treaties": "Mikataba",
+      "triggers": "Vichochezi",
+      "vehicles": "Miundo ya uwekezaji",
+      "zones": "Kanda",
+      "qa": "Jibu"
+    },
+    "scan": {
+      "title": "Uchunguzi wa kila wiki wa Boletim da República",
+      "intro": "Tiva husoma kila toleo jipya na kualamisha maandishi yanayogusa majibu au ramani.",
+      "last": "Uchunguzi uliopita",
+      "next": "Uchunguzi ujao",
+      "issues": "Matoleo yaliyosomwa",
+      "found": "Vipengee vipya vilivyopatikana",
+      "outcome": {
+        "queued": "Katika foleni ya uthibitishaji",
+        "published": "Imeidhinishwa",
+        "no_impact": "Hakuna athari"
+      },
+      "footer": "Maandishi mapya huandaliwa na AI na huchapishwa tu baada ya idhini ya wakili."
+    }
+  },
+  "review": {
+    "title": "Ukaguzi wa mazungumzo",
+    "intro": "Majibu yenye uhakika mdogo na yaliyoalamishwa huja hapa. Masahihisho hufundisha hazina ya maarifa.",
+    "chat": "Gumzo #{{ id }}",
+    "reason": {
+      "low_confidence": "Uhakika mdogo",
+      "user_flagged": "Limealamishwa na mwekezaji",
+      "law_changed": "Sheria imebadilika"
+    },
+    "confidence": "Uhakika",
+    "translation": "Tafsiri ({{ lang }})",
+    "tivaAnswer": "Jibu la Tiva",
+    "sources": "Vyanzo vilivyotajwa",
+    "gapTag": "Haipo katika hazina ya maarifa",
+    "actionTitle": "Kitendo cha mkaguzi",
+    "corrected": "Jibu lililosahihishwa",
+    "correctedPlaceholder": "Andika jibu lililosahihishwa, ukitaja sheria linazotegemea",
+    "gap": "Pengo katika hazina ya maarifa",
+    "gapOther": "Pengo jingine…",
+    "gapOtherPlaceholder": "Eleza kanuni au maandishi yanayokosekana",
+    "gapNone": "Hakuna pengo",
+    "notify": "Mjulishe mwekezaji jibu likibadilika",
+    "correct": "Sahihisha na ufundishe",
+    "approve": "Idhinisha kama lilivyo",
+    "escalate": "Peleka kwa wakili",
+    "notifyNote": "Mwekezaji hujulishwa iwapo jibu alilopokea litabadilika.",
+    "done": {
+      "corrected": "Limesahihishwa na kufundishwa",
+      "approved": "Limeidhinishwa kama lilivyo",
+      "escalated": "Limepelekwa kwa wakili"
+    },
+    "notified": "Mwekezaji atajulishwa kuhusu mabadiliko.",
+    "reopen": "Fungua tena",
+    "open": "Fungua",
+    "queueTitle": "Foleni ya ukaguzi",
+    "col": {
+      "chat": "Mazungumzo",
+      "language": "Lugha",
+      "topic": "Mada",
+      "reason": "Sababu",
+      "received": "Ilipokelewa",
+      "status": "Hali"
+    },
+    "gapsTitle": "Mapengo yaliyorekodiwa katika hazina ya maarifa",
+    "gapsIntro": "Kila pengo linakuwa kazi ya maudhui kwa timu ya kisheria.",
+    "gapsEmpty": "Bado hakuna pengo lililorekodiwa."
+  },
+  "leads": {
+    "title": "Wateja watarajiwa",
+    "intro": "Wawekezaji walioomba mtaalamu. Hushirikiwa kwa ridhaa yao tu.",
+    "filterExpert": "Chuja kwa mtaalamu",
+    "filter": {
+      "all": "Wataalamu wote",
+      "tax-advisory": "Tax Advisory",
+      "public": "Taasisi za umma"
+    },
+    "metrics": {
+      "month": "Makabidhiano mwezi huu",
+      "conversion": "Makabidhiano hadi mamlaka",
+      "reply": "Wastani wa jibu la kwanza",
+      "response": "Yamejibiwa",
+      "note": "Imekokotolewa kutoka kwa makabidhiano {{ n }} yanayoonyeshwa."
+    },
+    "hours": "saa {{ n }}",
+    "stage": {
+      "new": "Mpya",
+      "in_review": "Inakaguliwa",
+      "quoted": "Pendekezo limetumwa",
+      "won": "Mamlaka yamepatikana"
+    },
+    "new": "Mpya",
+    "fit": {
+      "high": "Ufaafu wa juu · {{ n }}",
+      "medium": "Wastani · {{ n }}",
+      "low": "Chini · {{ n }}"
+    },
+    "local": "Wa ndani",
+    "needs": "Mahitaji",
+    "consent": "Ridhaa",
+    "roadmapAttached": "Ramani imeambatishwa",
+    "call": "Simu {{ date }}",
+    "emptyStage": "Hakuna mteja mtarajiwa katika hatua hii.",
+    "fitNote": "Alama ya ufaafu: ya kukadiria, kutokana na ukubwa wa mradi, sekta, asili na ukamilifu wa makabidhiano."
+  },
+  "lead": {
+    "back": "Rudi kwa wateja watarajiwa",
+    "missing": "Mteja mtarajiwa hakupatikana.",
+    "stage": "Hatua",
+    "message": "Ujumbe",
+    "project": "Mradi na ramani",
+    "province": "Mkoa",
+    "investment": "Uwekezaji",
+    "workers": "Wafanyakazi (wageni)",
+    "vehicle": "Muundo wa uwekezaji",
+    "sector": "Sekta",
+    "origin": "Asili",
+    "openRoadmap": "Fungua ramani",
+    "noProject": "Hakuna mradi ulioambatishwa.",
+    "notes": "Madokezo ya ndani",
+    "noNotes": "Bado hakuna madokezo.",
+    "addNote": "Dokezo jipya",
+    "saveNote": "Hifadhi dokezo",
+    "saved": "Mabadiliko yamehifadhiwa",
+    "fit": "Alama ya ufaafu",
+    "fitPart": {
+      "size": "Ukubwa",
+      "sector": "Sekta",
+      "origin": "Asili",
+      "completeness": "Ukamilifu"
+    },
+    "handoff": "Makabidhiano",
+    "expert": "Mtaalamu aliyeombwa",
+    "consentLegacy": "Imetumwa kupitia fomu ya maulizo",
+    "callSlot": "Muda wa simu",
+    "channel": "Njia",
+    "contact": "Mawasiliano"
+  },
+  "intel": {
+    "title": "Taarifa za wawekezaji",
+    "intro": "Data ya mahitaji isiyo na majina: ripoti ya robo mwaka kwa APIEX, CTA na wafadhili.",
+    "period": "Kipindi",
+    "export": "Hamisha ripoti ya robo mwaka",
+    "print": "Chapisha",
+    "exported": "Ripoti imepakuliwa.",
+    "demoBanner": "Data ya maonyesho: takwimu za mfano kuonyesha mpangilio. Ripoti halisi hujazwa kutoka kwa mazungumzo yasiyo na majina.",
+    "kpi": {
+      "conversations": "Mazungumzo",
+      "investors": "Wawekezaji",
+      "roadmaps": "Ramani zilizotengenezwa",
+      "origins": "Nchi za asili",
+      "citation": "Majibu yenye marejeo"
+    },
+    "delta": "{{ d }} dhidi ya {{ prev }}",
+    "sectorTitle": "Ramani kwa sekta",
+    "sectorNote": "Mahitaji kwa sekta",
+    "col": {
+      "sector": "Sekta",
+      "bar": "Sehemu ya jumla (upau)",
+      "roadmaps": "Ramani",
+      "share": "Sehemu",
+      "asked": "Mara zilizoulizwa"
+    },
+    "originTitle": "Asili za wawekezaji",
+    "originNote": "Nchi zilizotajwa na wawekezaji; kamwe hazihusishwi na mtu.",
+    "unansweredTitle": "Maswali ambayo Tiva haikuweza kujibu",
+    "unansweredIntro": "Kila moja linakuwa kazi ya maudhui kwa timu ya kisheria.",
+    "asked": "limeulizwa mara {{ n }}",
+    "createTask": "Unda kazi ya maudhui",
+    "taskCreated": "Kazi ya maudhui imeundwa"
+  },
+  "partners": {
+    "title": "Washirika na saraka",
+    "intro": "Orodha, nafasi za wafadhili na tafsiri wanazoona wawekezaji.",
+    "add": "Ongeza orodha",
+    "addHint": "Haipatikani katika maonyesho: orodha hutoka kwenye faili ya data ya saraka.",
+    "filterLabel": "Chuja orodha",
+    "filter": {
+      "all": "Zote",
+      "public": "Taasisi za umma",
+      "sponsored": "Zilizofadhiliwa",
+      "providers": "Watoa huduma",
+      "attention": "Zinahitaji uangalizi"
+    },
+    "tableCaption": "Orodha za saraka",
+    "count": "Orodha {{ n }}",
+    "col": {
+      "name": "Jina",
+      "type": "Aina",
+      "status": "Hali",
+      "verified": "Imethibitishwa",
+      "languages": "Lugha",
+      "renewal": "Usasishaji"
+    },
+    "type": {
+      "public": "Taasisi ya umma",
+      "association": "Chama cha biashara",
+      "law_firm": "Kampuni ya uwakili",
+      "tax": "Mshauri wa kodi",
+      "bank": "Benki",
+      "accounting": "Uhasibu",
+      "logistics": "Usafirishaji",
+      "consulting": "Ushauri"
+    },
+    "contract": {
+      "founding_sponsor": "Mfadhili mwanzilishi",
+      "sponsor": "Mfadhili",
+      "expert_partner": "Mshirika mtaalamu",
+      "partner": "Mshirika",
+      "verified_listing": "Orodha iliyothibitishwa"
+    },
+    "standing": {
+      "public": "Umma",
+      "sponsored": "Imefadhiliwa",
+      "partner": "Mshirika",
+      "verified": "Imethibitishwa",
+      "pending": "Nyaraka zinasubiriwa",
+      "expired": "Leseni imeisha muda"
+    },
+    "notVerified": "Bado haijathibitishwa",
+    "ofEight": "{{ n }} kati ya {{ total }}",
+    "translatedInto": "Lugha ambazo orodha hii imetafsiriwa",
+    "yes": "imetafsiriwa",
+    "no": "haijatafsiriwa",
+    "renewal": {
+      "free": "Bure · hakuna usasishaji",
+      "ok": "Halali",
+      "due": "Usasishaji unahitajika",
+      "expired": "Imeisha muda"
+    },
+    "placementTitle": "Nafasi ya mfadhili",
+    "shownOn": "Inaonyeshwa kwenye",
+    "placement": {
+      "landing_footer": "sehemu ya chini ya ukurasa mkuu",
+      "directory": "saraka",
+      "expert": "Ongea na mtaalamu"
+    },
+    "rulesTitle": "Kanuni za nafasi",
+    "rule": {
+      "publicFree": "Taasisi za umma huorodheshwa kila mara, bure",
+      "publicFirst": "Taasisi za umma huja kwanza kila mara",
+      "maxPerCategory": "Orodha {{ n }} iliyofadhiliwa kwa juu zaidi kwa kila kundi",
+      "labelVisible": "Huwekwa lebo “Imefadhiliwa” kila mara",
+      "notInAnswers": "Kamwe haiwekwi ndani ya majibu ya kisheria"
+    },
+    "ruleOk": "kanuni imetimizwa",
+    "ruleBroken": "kanuni imevunjwa",
+    "dataNote": "Orodha husomwa kutoka kwenye saraka ya umma; mikataba na nafasi ni data ya mfano ya maonyesho."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "eyebrow": "投资路线图",
+  "backToChat": "返回对话",
+  "stepsTitle": "九个步骤",
+  "progress": "已完成 {{done}}/{{total}}",
+  "progressLabel": "路线图进度",
+  "jobs": "{{n}} 个岗位",
+  "foreign": "外籍 {{n}} 人",
+  "capital": {
+    "foreign": "外国投资者",
+    "mixed": "外国和莫桑比克资本",
+    "mozambican": "莫桑比克投资者"
+  },
+  "profile": {
+    "label": "投资者概况",
+    "investor": "投资者",
+    "investment": "投资额",
+    "jobs": "岗位",
+    "sector": "行业"
+  },
+  "markDone": "将第 {{n}} 步标记为已完成：{{title}}",
+  "markUndone": "将第 {{n}} 步标记为未完成：{{title}}",
+  "tick": "标记为已完成",
+  "undo": "标记为未完成",
+  "done": "已完成",
+  "current": "当前",
+  "mayNotApply": "可能不适用",
+  "who": "负责机构",
+  "duration": "预计时间",
+  "forYou": "针对您的项目",
+  "documents": "所需文件",
+  "checklist": "打开清单",
+  "legalBasis": "法律依据",
+  "openRef": "{{ref}}——打开法律参考",
+  "detail": {
+    "recommended": "推荐",
+    "decides": "审批方",
+    "guarantee": "汇回保障",
+    "noLand": "您表示项目不需要土地：通常租用现有场所即可。如情况有变，则适用此步骤。",
+    "noForeignCapital": "莫桑比克资本：无需进行外国投资登记，除非日后有外国资金进入。",
+    "noForeignWorkers": "未计划雇用外籍员工：请为公司和员工办理 INSS 登记。仅当日后从境外招聘时才需要许可。"
+  },
+  "allDone": "九个步骤已全部完成。接下来请留意每月的申报期限。",
+  "aftercare": "打开后续服务日历",
+  "timeToOperate": "投入运营所需时间",
+  "legalDate": "基于 {{date}} 现行法律的一般信息，不构成法律意见。",
+  "actions": {
+    "label": "路线图操作",
+    "pdf": "下载 PDF",
+    "expert": "咨询专家",
+    "incentives": "估算您的优惠政策",
+    "chat": "就此路线图咨询 Tiva",
+    "edit": "修改我的回答"
+  },
+  "loading": "正在准备您的路线图……",
+  "error": "准备路线图时出错。",
+  "missing": {
+    "title": "未找到此路线图",
+    "text": "项目仅保存在本设备上。请重新回答六个问题以重新生成。"
+  },
+  "empty": {
+    "title": "只需回答六个简短问题，即可开始您的路线图",
+    "text": "行业、省份、规模、资金来源、岗位和启动时间。Tiva 将您的回答转化为九个有序步骤，每一步都列明主管机构、所需文件和法律依据。",
+    "pathfinder": "开始使用 Pathfinder",
+    "examples": "或打开路线图示例"
+  },
+  "pdf": {
+    "back": "返回路线图",
+    "print": "打印 / 另存为 PDF",
+    "hint": "请在打印对话框中选择“另存为 PDF”。",
+    "ref": "编号 {{ref}}",
+    "generated": "生成于 {{date}}",
+    "step": "步骤",
+    "incentives": "可考虑的优惠政策",
+    "incentivesNote": "仅供参考：须经 APIEX 批准，并以税收优惠法典正在进行的修订为准。",
+    "next": "您接下来的三项行动",
+    "contacts": "主要联系方",
+    "contactApiex": "APIEX · 项目登记",
+    "contactBau": "BAU {{province}} · 许可",
+    "contactBdm": "Banco de Moçambique · 资本登记",
+    "contactTa": "Tax Advisory · 法律和税务支持",
+    "disclaimer": "基于生成日期现行法律的一般信息，不构成法律意见。步骤、主管机构和文件可能因各项目的具体情况而有所不同。"
+  }
+}

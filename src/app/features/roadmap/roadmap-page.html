@@ -1,0 +1,347 @@
+<ng-container *transloco="let t">
+  @switch (state().status) {
+    @case ('ready') {
+      @if (ready(); as r) {
+        <div class="bg-surface pb-16">
+          <!-- Header card: profile and progress -->
+          <header class="border-b border-rule bg-paper">
+            <div class="container-page flex flex-col gap-3 pt-4 pb-4 sm:pt-6">
+              <div class="flex items-center gap-1">
+                <a
+                  [routerLink]="['/', lang(), 'chat']"
+                  class="-ms-2.5 grid size-11 place-items-center rounded text-ink"
+                  [attr.aria-label]="t('roadmap.backToChat')"
+                >
+                  <svg imIcon="chevron-left" [size]="22" class="flip" aria-hidden="true"></svg>
+                </a>
+                <p class="eyebrow">{{ t('roadmap.eyebrow') }}</p>
+                <span class="ms-auto font-mono text-xs text-muted">{{ r.project.ref }}</span>
+              </div>
+              <h1 class="font-serif text-[1.625rem] leading-tight font-semibold sm:text-4xl">
+                {{ r.project.title | loc: lang() }}
+              </h1>
+              <ul class="flex flex-wrap gap-1.5" [attr.aria-label]="t('roadmap.profile.label')">
+                <li class="rounded-sm bg-panel px-2.5 py-1.5 text-xs text-ink-soft">
+                  {{ t('roadmap.capital.' + r.project.input.capital) }}
+                  @if (r.project.input.capital !== 'mozambican') {
+                    · {{ countryName() }}
+                  }
+                </li>
+                <li class="rounded-sm bg-panel px-2.5 py-1.5 text-xs text-ink-soft">
+                  {{ r.project.input.investmentUsd | money: 'USD' : lang() }}
+                </li>
+                <li class="rounded-sm bg-panel px-2.5 py-1.5 text-xs text-ink-soft">
+                  {{ t('roadmap.jobs', { n: r.project.input.workers }) }}
+                  @if (r.project.input.foreignWorkers) {
+                    · {{ t('roadmap.foreign', { n: r.project.input.foreignWorkers }) }}
+                  }
+                </li>
+                <li class="rounded-sm bg-panel px-2.5 py-1.5 text-xs text-ink-soft">
+                  {{ r.project.sector | loc: lang() }}
+                </li>
+              </ul>
+              <div class="flex items-center gap-3">
+                <div
+                  class="bar flex-1"
+                  role="progressbar"
+                  [attr.aria-label]="t('roadmap.progressLabel')"
+                  [attr.aria-valuenow]="progress.count()"
+                  aria-valuemin="0"
+                  [attr.aria-valuemax]="total"
+                  [attr.aria-valuetext]="t('roadmap.progress', { done: progress.count(), total })"
+                >
+                  <span [style.width.%]="percent()"></span>
+                </div>
+                <span class="text-sm font-semibold text-muted" aria-live="polite">{{
+                  t('roadmap.progress', { done: progress.count(), total })
+                }}</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="container-page grid gap-8 pt-4 lg:grid-cols-12 lg:pt-8">
+            <!-- The nine steps -->
+            <section class="lg:col-span-8" aria-labelledby="steps-title">
+              <h2 id="steps-title" class="sr-only">{{ t('roadmap.stepsTitle') }}</h2>
+              <ol class="flex flex-col" role="list">
+                @for (s of r.steps; track s.id) {
+                  @let done = isDone(s.id);
+                  @let open = openId() === s.id;
+                  <li
+                    class="step"
+                    [id]="'step-' + s.id"
+                    [class.is-open]="open"
+                    [class.is-done]="done"
+                    [class.is-current]="current() === s.id"
+                  >
+                    <button
+                      type="button"
+                      class="tick"
+                      role="checkbox"
+                      [attr.aria-checked]="done"
+                      [attr.aria-label]="
+                        t(done ? 'roadmap.markUndone' : 'roadmap.markDone', {
+                          n: s.n,
+                          title: s.title | loc: lang(),
+                        })
+                      "
+                      (click)="toggleDone(s)"
+                    >
+                      <span>
+                        @if (done) {
+                          <svg
+                            imIcon="check"
+                            [size]="15"
+                            [strokeWidth]="3"
+                            aria-hidden="true"
+                          ></svg>
+                        } @else {
+                          {{ s.n }}
+                        }
+                      </span>
+                    </button>
+
+                    <div class="min-w-0 flex-1">
+                      <button
+                        type="button"
+                        class="step-toggle"
+                        [attr.aria-expanded]="open"
+                        [attr.aria-controls]="'step-body-' + s.id"
+                        (click)="toggleOpen(s.id)"
+                      >
+                        <span class="flex items-start justify-between gap-2">
+                          <span class="flex flex-col gap-0.5">
+                            <strong class="step-title text-[0.9375rem] leading-snug">{{
+                              s.title | loc: lang()
+                            }}</strong>
+                            @if (!open) {
+                              <span class="text-[0.8125rem] text-muted">{{
+                                s.who | loc: lang()
+                              }}</span>
+                            }
+                          </span>
+                          <span class="flex shrink-0 items-center gap-1.5 pt-0.5">
+                            @if (done) {
+                              <span class="tag tag-ok">{{ t('roadmap.done') }}</span>
+                            } @else if (current() === s.id) {
+                              <span class="tag tag-warn">{{ t('roadmap.current') }}</span>
+                            } @else if (!s.applies) {
+                              <span class="tag tag-neutral">{{ t('roadmap.mayNotApply') }}</span>
+                            }
+                            <svg
+                              [imIcon]="open ? 'chevron-up' : 'chevron-down'"
+                              [size]="18"
+                              class="text-muted"
+                              aria-hidden="true"
+                            ></svg>
+                          </span>
+                        </span>
+                      </button>
+
+                      @if (open) {
+                        <div [id]="'step-body-' + s.id" class="mt-1 flex flex-col gap-3 text-sm">
+                          <p class="leading-relaxed text-ink-soft">{{ s.summary | loc: lang() }}</p>
+
+                          <dl class="grid gap-x-4 gap-y-1 text-[0.8125rem] sm:grid-cols-[auto_1fr]">
+                            <dt class="font-bold text-muted">{{ t('roadmap.who') }}</dt>
+                            <dd>{{ s.who | loc: lang() }}</dd>
+                            @if (s.duration) {
+                              <dt class="font-bold text-muted">{{ t('roadmap.duration') }}</dt>
+                              <dd><im-confirm-text [text]="s.duration | loc: lang()" /></dd>
+                            }
+                          </dl>
+
+                          @if (s.details.length) {
+                            <div class="rounded-md bg-brand-tint/60 px-3 py-2.5">
+                              <p class="label-caps text-brand">{{ t('roadmap.forYou') }}</p>
+                              @for (d of s.details; track $index) {
+                                <p class="detail mt-1.5 leading-relaxed">
+                                  @if (d.key) {
+                                    {{ t('roadmap.detail.' + d.key) }}
+                                  } @else {
+                                    @if (d.label) {
+                                      <strong>{{ t('roadmap.detail.' + d.label) }}:</strong>
+                                    }
+                                    @if (d.title) {
+                                      <strong
+                                        ><im-confirm-text [text]="d.title | loc: lang()" />.</strong
+                                      >
+                                    }
+                                    <im-confirm-text [text]="d.text | loc: lang()" />
+                                  }
+                                </p>
+                              }
+                            </div>
+                          }
+
+                          <div>
+                            <p class="font-bold">{{ t('roadmap.documents') }}</p>
+                            <ul class="mt-1 list-disc ps-5 text-ink-soft" role="list">
+                              @for (doc of s.documents; track $index) {
+                                <li>{{ doc | loc: lang() }}</li>
+                              }
+                            </ul>
+                            <a
+                              class="link mt-1.5 inline-flex min-h-11 items-center gap-1.5 font-semibold"
+                              [routerLink]="['/', lang(), 'documents']"
+                              [queryParams]="{ step: s.id }"
+                            >
+                              <svg imIcon="list-checks" [size]="16" aria-hidden="true"></svg>
+                              {{ t('roadmap.checklist') }}
+                            </a>
+                          </div>
+
+                          <div>
+                            <p class="font-bold">{{ t('roadmap.legalBasis') }}</p>
+                            <ul class="mt-1.5 flex flex-wrap gap-1.5" role="list">
+                              @for (id of s.refs; track id) {
+                                <li>
+                                  <button
+                                    type="button"
+                                    class="chip cite"
+                                    [attr.aria-label]="
+                                      t('roadmap.openRef', { ref: instrument(id) })
+                                    "
+                                    (click)="cite(id)"
+                                  >
+                                    {{ instrument(id) }}
+                                  </button>
+                                </li>
+                              }
+                            </ul>
+                          </div>
+
+                          <div class="flex flex-wrap gap-2">
+                            <button
+                              type="button"
+                              class="btn btn-sm"
+                              [class.btn-primary]="!done"
+                              [class.btn-secondary]="done"
+                              (click)="toggleDone(s)"
+                            >
+                              <svg imIcon="check" [size]="16" aria-hidden="true"></svg>
+                              {{ t(done ? 'roadmap.undo' : 'roadmap.tick') }}
+                            </button>
+                          </div>
+                        </div>
+                      }
+                    </div>
+                  </li>
+                }
+              </ol>
+
+              @if (progress.count() === total) {
+                <p class="mt-6 rounded-md bg-ok-bg px-4 py-3 text-sm text-ok-ink" role="status">
+                  {{ t('roadmap.allDone') }}
+                  <a class="link font-semibold" [routerLink]="['/', lang(), 'aftercare']">{{
+                    t('roadmap.aftercare')
+                  }}</a>
+                </p>
+              }
+            </section>
+
+            <!-- Actions -->
+            <aside class="lg:col-span-4" [attr.aria-label]="t('roadmap.actions.label')">
+              <div class="card flex flex-col gap-3 p-4 lg:sticky lg:top-24">
+                <div class="flex flex-wrap gap-2">
+                  <a
+                    class="btn btn-outline flex-1"
+                    [routerLink]="['/', lang(), 'roadmap', r.project.ref, 'pdf']"
+                  >
+                    <svg imIcon="download" [size]="18" aria-hidden="true"></svg>
+                    {{ t('roadmap.actions.pdf') }}
+                  </a>
+                  <a
+                    class="btn btn-primary flex-1"
+                    [routerLink]="['/', lang(), 'expert']"
+                    [queryParams]="{ from: 'roadmap' }"
+                  >
+                    {{ t('roadmap.actions.expert') }}
+                  </a>
+                </div>
+                <a
+                  class="btn btn-secondary"
+                  [routerLink]="['/', lang(), 'incentives']"
+                  [queryParams]="{
+                    sector: r.assessment.sector,
+                    province: r.project.input.province,
+                  }"
+                >
+                  <svg imIcon="calculator" [size]="18" aria-hidden="true"></svg>
+                  {{ t('roadmap.actions.incentives') }}
+                </a>
+                <a class="btn btn-ghost" [routerLink]="['/', lang(), 'chat']">
+                  <svg imIcon="message-circle" [size]="18" aria-hidden="true"></svg>
+                  {{ t('roadmap.actions.chat') }}
+                </a>
+                @if (r.assessment.timeToOperate.en) {
+                  <div class="border-t border-rule pt-3 text-sm">
+                    <p class="label-caps text-muted">{{ t('roadmap.timeToOperate') }}</p>
+                    <p class="mt-1">
+                      <im-confirm-text [text]="r.assessment.timeToOperate | loc: lang()" />
+                    </p>
+                  </div>
+                }
+                <p class="border-t border-rule pt-3 text-xs leading-relaxed text-muted">
+                  {{ t('roadmap.legalDate', { date: today | imDate: lang() : 'medium' }) }}
+                </p>
+                <a class="link text-sm" [routerLink]="['/', lang(), 'pathfinder']">{{
+                  t('roadmap.actions.edit')
+                }}</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      }
+    }
+    @case ('loading') {
+      <div class="container-page py-10" role="status" [attr.aria-label]="t('roadmap.loading')">
+        <im-skeleton [lines]="8" />
+      </div>
+    }
+    @case ('missing') {
+      <section class="container-page max-w-2xl py-16 text-center">
+        <h1 class="font-serif text-2xl">{{ t('roadmap.missing.title') }}</h1>
+        <p class="mt-3 text-muted">{{ t('roadmap.missing.text') }}</p>
+        <a class="btn btn-primary mt-6" [routerLink]="['/', lang(), 'pathfinder']">{{
+          t('roadmap.empty.pathfinder')
+        }}</a>
+      </section>
+    }
+    @case ('error') {
+      <section class="container-page max-w-2xl py-16 text-center" role="alert">
+        <h1 class="font-serif text-2xl">{{ t('roadmap.error') }}</h1>
+        <a class="btn btn-primary mt-6" [routerLink]="['/', lang(), 'pathfinder']">{{
+          t('roadmap.empty.pathfinder')
+        }}</a>
+      </section>
+    }
+    @default {
+      <!-- No project in context -->
+      <section class="container-page max-w-3xl py-12 sm:py-16">
+        <p class="eyebrow">{{ t('roadmap.eyebrow') }}</p>
+        <h1 class="mt-2 font-serif text-3xl sm:text-4xl">{{ t('roadmap.empty.title') }}</h1>
+        <p class="mt-3 text-lg text-muted">{{ t('roadmap.empty.text') }}</p>
+        <a class="btn btn-primary btn-lg mt-6" [routerLink]="['/', lang(), 'pathfinder']">
+          {{ t('roadmap.empty.pathfinder') }}
+          <svg imIcon="arrow-right" [size]="18" class="flip" aria-hidden="true"></svg>
+        </a>
+        <h2 class="mt-12 text-xl font-bold">{{ t('roadmap.empty.examples') }}</h2>
+        <ul class="mt-4 grid gap-3 sm:grid-cols-2" role="list">
+          @for (p of examples.value() ?? []; track p.ref) {
+            <li>
+              <button
+                type="button"
+                class="card flex w-full flex-col gap-1 p-4 text-start hover:border-brand"
+                (click)="openExample(p)"
+              >
+                <strong>{{ p.title | loc: lang() }}</strong>
+                <span class="text-sm text-muted">{{ p.summary | loc: lang() }}</span>
+              </button>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+  }
+</ng-container>

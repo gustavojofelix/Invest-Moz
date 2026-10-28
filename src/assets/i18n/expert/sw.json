@@ -1,0 +1,85 @@
+{
+  "back": "Rudi",
+  "eyebrow": "Zungumza na mtaalamu",
+  "title": "Nani aendeleze suala hili?",
+  "intro": "Ombi moja kwa mtaalamu sahihi: Tax Advisory kwa kazi ya kulipia iliyopitiwa na wanasheria, au taasisi ya umma ambayo huduma zake ni bure.",
+  "share": {
+    "title": "Muhtasari ambao Tiva itashiriki",
+    "preview": "Hakiki kile kitakachoshirikiwa",
+    "contact": "Pamoja na jina lako, kampuni, barua pepe, simu (ukiitoa) na ujumbe wako.",
+    "none": "Hakuna mradi uliopo: ni maelezo yako ya mawasiliano na ujumbe wako pekee yatakayoshirikiwa.",
+    "build": "Tengeneza ramani yangu ya hatua kwanza"
+  },
+  "choose": "Chagua wa kuwasiliana naye",
+  "publicTitle": "Taasisi za umma za bure",
+  "fee": {
+    "paid": "Huduma ya kulipia · pendekezo la ada kabla ya kazi yoyote",
+    "free": "Huduma ya umma ya bure"
+  },
+  "contact": {
+    "title": "Maelezo yako"
+  },
+  "fields": {
+    "name": "Jina",
+    "company": "Kampuni",
+    "email": "Barua pepe",
+    "phone": "Simu au WhatsApp (si lazima)",
+    "phoneHint": "Weka msimbo wa nchi, mf. +258 84 000 0000.",
+    "slot": "Muda unaopendelea wa simu",
+    "day": "Siku",
+    "time": "Saa",
+    "slotHint": "Saa za Maputo (UTC+2). Mtaalamu atathibitisha au kupendekeza muda mwingine.",
+    "note": "Ungependa kujadili nini? (si lazima)"
+  },
+  "theExpert": "mtaalamu aliyechaguliwa",
+  "consent": "Ninakubali kushiriki muhtasari huu na maelezo yangu ya mawasiliano na {{expert}}.",
+  "consentRequired": "Tafadhali weka alama kwenye kisanduku kukubali kabla hatujashiriki chochote.",
+  "submit": "Omba simu",
+  "feeNote": "Utapokea pendekezo la ada kwa maandishi kabla ya kazi yoyote kuanza.",
+  "referral": {
+    "text": "Tiva inaweza kupokea ada ya rufaa kutoka kwa wataalamu wa kulipia. Taasisi za umma huorodheshwa bure kila wakati na kamwe hazilipii rufaa.",
+    "how": "Jinsi rufaa zinavyofanya kazi",
+    "detail": "Tiva imetengenezwa na Law Technology Solutions pamoja na Tax Advisory kama mshirika mtaalamu. Ukichagua mtaalamu wa kulipia na ukaendelea kumtumia, Tiva inaweza kupokea ada ya rufaa kutoka kwa mtaalamu huyo. Haibadilishi kamwe bei unayotajiwa, na majibu ya Tiva hubaki yale yale yeyote utakayemchagua. Hakuna kinachoshirikiwa bila idhini unayotoa kwenye ukurasa huu."
+  },
+  "mail": {
+    "subject": "Tiva — ombi la simu",
+    "areas": "Maeneo"
+  },
+  "sent": {
+    "title": "Ombi lako limefika kwa {{expert}}",
+    "text": "Wana maelezo yako ya mawasiliano na ujumbe wako.",
+    "textProject": "Wana muhtasari wa mradi wako na ramani ya hatua, kwa hiyo hutahitaji kuueleza tena.",
+    "ref": "Kumbukumbu",
+    "call": "Simu",
+    "timezone": "Saa za Maputo (UTC+2)",
+    "language": "Lugha",
+    "shared": "Kilichoshirikiwa",
+    "sharedProject": "Muhtasari · Ramani ya hatua · Mawasiliano",
+    "sharedContact": "Maelezo ya mawasiliano · Ujumbe",
+    "whatShared": "Tazama kilichoshirikiwa",
+    "next": "Kinachofuata",
+    "paid": {
+      "step1": "Mshauri atathibitisha simu kwa barua pepe, na kwa WhatsApp ikiwa ulitoa namba.",
+      "step2": "Katika simu mtakubaliana wigo wa kazi.",
+      "step3": "Utapokea pendekezo la ada kwa maandishi kabla ya kazi yoyote kuanza."
+    },
+    "free": {
+      "step1": "Dawati la wawekezaji la taasisi ya umma litathibitisha simu kwa barua pepe.",
+      "step2": "Katika simu watakueleza utaratibu na nyaraka zinazohitajika kwa suala lako.",
+      "step3": "Huduma zao ni bure; ada zozote rasmi za uwasilishaji zinaelezwa mapema."
+    },
+    "feeNote": "Hakuna kazi inayoanza wala malipo yoyote hadi ukubali pendekezo la ada kwa maandishi.",
+    "freeNote": "Taasisi za umma huorodheshwa bila malipo na kamwe hazilipi Tiva kwa rufaa.",
+    "calendar": "Ongeza kwenye kalenda",
+    "icsTitle": "Simu na {{expert}} (Tiva)",
+    "roadmap": "Rudi kwenye ramani ya hatua",
+    "pathfinder": "Tengeneza ramani yangu ya hatua",
+    "chat": "Rudi kwenye mazungumzo",
+    "fallback": "Kukitokea tatizo lolote, unaweza pia kunakili ombi au kulituma kwa barua pepe.",
+    "copy": "Nakili ombi",
+    "copied": "Imenakiliwa",
+    "mail": "Tuma kwa barua pepe",
+    "missing": "Hatukuweza kupata ombi hili.",
+    "again": "Tuma ombi jipya"
+  }
+}

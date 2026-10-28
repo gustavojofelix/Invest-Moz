@@ -1,0 +1,421 @@
+<ng-container *transloco="let t">
+  @let a = answers();
+  @let q = question();
+  @let missing = attempted() && !answered()[q];
+
+  <header class="border-b border-rule bg-paper">
+    <div class="container-page flex flex-col gap-2 py-4">
+      <div class="flex items-center justify-between gap-3">
+        <p class="eyebrow">{{ t('pathfinder.eyebrow') }}</p>
+        <p class="text-sm font-semibold text-muted">
+          {{ t('pathfinder.progress', { n: step() + 1, total: questions.length }) }}
+        </p>
+      </div>
+      <div
+        class="bar"
+        role="progressbar"
+        [attr.aria-label]="t('pathfinder.progressLabel')"
+        [attr.aria-valuenow]="step() + 1"
+        aria-valuemin="0"
+        [attr.aria-valuemax]="questions.length"
+        [attr.aria-valuetext]="t('pathfinder.progress', { n: step() + 1, total: questions.length })"
+      >
+        <span [style.width.%]="((step() + 1) / questions.length) * 100"></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-page grid gap-6 py-5 sm:py-8 lg:grid-cols-12 lg:gap-10">
+    <!-- Answers so far: above the question on mobile, beside it on desktop -->
+    <aside class="lg:order-2 lg:col-span-4" aria-labelledby="so-far-title">
+      <div class="so-far flex flex-col gap-1 px-4 py-3 lg:sticky lg:top-24">
+        <h2 id="so-far-title" class="text-[0.8125rem] font-bold text-ink-soft">
+          {{ t('pathfinder.soFar.title') }}
+        </h2>
+        @if (a.idea) {
+          <p class="line-clamp-2 text-sm text-ink-soft italic">“{{ a.idea }}”</p>
+        }
+        <dl class="flex flex-col text-sm">
+          @for (k of questions; track k; let i = $index) {
+            @if (answered()[k] && i !== step()) {
+              <div class="flex items-center justify-between gap-3">
+                <dt class="text-muted">{{ t('pathfinder.soFar.' + k) }}</dt>
+                <dd class="flex items-center gap-1 text-end font-bold">
+                  <span>
+                    @switch (k) {
+                      @case ('sector') {
+                        {{ t('pathfinder.sectors.' + a.sector) }}
+                      }
+                      @case ('province') {
+                        @if (a.province === 'unsure') {
+                          {{ t('pathfinder.province.unsure') }}
+                        } @else if (a.province) {
+                          {{ provinceNames[a.province] | loc: lang() }}
+                        }
+                      }
+                      @case ('size') {
+                        {{ money(investment() ?? 0) }}
+                      }
+                      @case ('origin') {
+                        {{ t('pathfinder.origin.' + a.capital) }}
+                        @if (a.capital !== 'mozambican') {
+                          · {{ countryName() }}
+                        }
+                      }
+                      @case ('jobs') {
+                        {{
+                          t('pathfinder.jobs.summary', { n: a.workers, f: a.foreignWorkers ?? 0 })
+                        }}
+                      }
+                      @case ('timing') {
+                        {{ t('pathfinder.timing.' + a.timing) }}
+                      }
+                    }
+                  </span>
+                  <button
+                    type="button"
+                    class="btn btn-ghost btn-sm -me-2 px-2"
+                    [attr.aria-label]="
+                      t('pathfinder.soFar.edit', { q: t('pathfinder.soFar.' + k) })
+                    "
+                    (click)="go(i)"
+                  >
+                    <svg imIcon="pencil" [size]="14" aria-hidden="true"></svg>
+                  </button>
+                </dd>
+              </div>
+            }
+          }
+        </dl>
+        @if (step() === 0 && !a.idea && !answered().sector) {
+          <p class="text-sm text-muted">{{ t('pathfinder.soFar.empty') }}</p>
+        }
+      </div>
+
+      <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+        <button
+          type="button"
+          class="link min-h-11"
+          [attr.aria-expanded]="examplesOpen()"
+          aria-controls="pf-examples"
+          (click)="examplesOpen.set(!examplesOpen())"
+        >
+          {{ t('pathfinder.example.load') }}
+        </button>
+        <button type="button" class="link min-h-11 text-muted" (click)="startOver()">
+          {{ t('pathfinder.startOver') }}
+        </button>
+      </div>
+      @if (examplesOpen()) {
+        <ul id="pf-examples" class="mt-1 flex flex-col gap-2" role="list">
+          @for (p of examples.value() ?? []; track p.ref) {
+            <li>
+              <button
+                type="button"
+                class="card flex w-full flex-col gap-0.5 px-3 py-2.5 text-start hover:border-brand"
+                (click)="loadExample(p)"
+              >
+                <strong class="text-sm">{{ p.title | loc: lang() }}</strong>
+                <span class="text-xs text-muted">{{ p.summary | loc: lang() }}</span>
+              </button>
+            </li>
+          }
+        </ul>
+      }
+    </aside>
+
+    <!-- The question -->
+    <section class="lg:order-1 lg:col-span-8" aria-labelledby="pf-q">
+      <h1
+        id="pf-q"
+        #heading
+        tabindex="-1"
+        class="font-serif text-2xl leading-tight font-semibold outline-none sm:text-3xl"
+      >
+        {{ t('pathfinder.' + q + '.title') }}
+      </h1>
+      <p class="mt-2 flex gap-2 text-sm leading-relaxed text-muted">
+        <svg imIcon="info" [size]="16" class="mt-0.5 shrink-0" aria-hidden="true"></svg>
+        <span
+          ><strong class="text-ink-soft">{{ t('pathfinder.why') }}</strong>
+          {{ t('pathfinder.' + q + '.why') }}</span
+        >
+      </p>
+
+      <div class="mt-5">
+        @switch (q) {
+          @case ('sector') {
+            <label for="pf-idea" class="field-label">{{ t('pathfinder.sector.ideaLabel') }}</label>
+            <div class="flex gap-2">
+              <input
+                id="pf-idea"
+                type="text"
+                class="input"
+                maxlength="600"
+                [placeholder]="t('pathfinder.sector.ideaPlaceholder')"
+                [value]="a.idea"
+                (input)="patch({ idea: $any($event.target).value })"
+                (blur)="ideaDone()"
+              />
+              @if (speech.supported()) {
+                <button
+                  type="button"
+                  class="btn btn-secondary size-11 shrink-0 p-0"
+                  [attr.aria-pressed]="speech.listening()"
+                  [attr.aria-label]="
+                    t(speech.listening() ? 'pathfinder.voiceStop' : 'pathfinder.voice')
+                  "
+                  (click)="voice()"
+                >
+                  <svg
+                    [imIcon]="speech.listening() ? 'mic-off' : 'mic'"
+                    [size]="20"
+                    aria-hidden="true"
+                  ></svg>
+                </button>
+              }
+            </div>
+            <p class="field-hint">{{ t('pathfinder.sector.ideaHint') }}</p>
+
+            <fieldset class="mt-5">
+              <legend class="field-label">{{ t('pathfinder.sector.legend') }}</legend>
+              <div class="grid grid-cols-2 gap-2">
+                @for (s of sectors; track s) {
+                  <button
+                    type="button"
+                    class="pill opt"
+                    [attr.aria-pressed]="a.sector === s"
+                    (click)="patch({ sector: s })"
+                  >
+                    {{ t('pathfinder.sectors.' + s) }}
+                  </button>
+                }
+              </div>
+            </fieldset>
+          }
+          @case ('province') {
+            <fieldset>
+              <legend class="sr-only">{{ t('pathfinder.soFar.province') }}</legend>
+              <div class="grid grid-cols-2 gap-2">
+                @for (p of provinces; track p) {
+                  <button
+                    type="button"
+                    class="pill opt"
+                    [attr.aria-pressed]="a.province === p"
+                    (click)="patch({ province: p })"
+                  >
+                    {{ provinceNames[p] | loc: lang() }}
+                  </button>
+                }
+                <button
+                  type="button"
+                  class="pill opt"
+                  [attr.aria-pressed]="a.province === 'unsure'"
+                  (click)="patch({ province: 'unsure' })"
+                >
+                  {{ t('pathfinder.province.unsure') }}
+                </button>
+              </div>
+            </fieldset>
+            @if (a.province === 'unsure') {
+              <p class="field-hint mt-3">{{ t('pathfinder.province.unsureHint') }}</p>
+            }
+          }
+          @case ('size') {
+            <fieldset>
+              <legend class="sr-only">{{ t('pathfinder.soFar.size') }}</legend>
+              <div class="grid gap-2 sm:grid-cols-2">
+                @for (b of bands; track b.id) {
+                  <button
+                    type="button"
+                    class="pill opt opt-wide"
+                    [attr.aria-pressed]="a.band === b.id && !a.amount"
+                    (click)="patch({ band: b.id, amount: null })"
+                  >
+                    {{ bandLabel(b.id) }}
+                  </button>
+                }
+              </div>
+            </fieldset>
+            <div class="mt-5 max-w-xs">
+              <label for="pf-amount" class="field-label">{{ t('pathfinder.size.exact') }}</label>
+              <input
+                id="pf-amount"
+                type="number"
+                inputmode="numeric"
+                min="1000"
+                step="1000"
+                class="input"
+                [value]="a.amount ?? ''"
+                (input)="patch({ amount: numberValue($any($event.target).value) })"
+                aria-describedby="pf-amount-hint"
+              />
+              <p id="pf-amount-hint" class="field-hint">
+                @if (investment(); as v) {
+                  {{ t('pathfinder.size.using', { v: money(v) }) }}
+                } @else {
+                  {{ t('pathfinder.size.exactHint') }}
+                }
+              </p>
+            </div>
+          }
+          @case ('origin') {
+            <fieldset>
+              <legend class="field-label">{{ t('pathfinder.origin.capitalLegend') }}</legend>
+              <div class="flex flex-wrap gap-2">
+                @for (c of capitals; track c) {
+                  <button
+                    type="button"
+                    class="pill opt px-4"
+                    [attr.aria-pressed]="a.capital === c"
+                    (click)="setCapital(c)"
+                  >
+                    {{ t('pathfinder.origin.' + c) }}
+                  </button>
+                }
+              </div>
+            </fieldset>
+            @if (a.capital !== 'mozambican') {
+              <div class="mt-5 max-w-md">
+                <label for="pf-country" class="field-label">{{
+                  t('pathfinder.origin.country')
+                }}</label>
+                <im-country-combobox
+                  inputId="pf-country"
+                  [formControl]="country"
+                  [countries]="countries.value() ?? []"
+                  [lang]="lang()"
+                  [placeholder]="t('pathfinder.origin.countryPlaceholder')"
+                  [emptyLabel]="t('pathfinder.origin.noCountry')"
+                  [treatyLabel]="t('pathfinder.origin.treaty')"
+                  [invalid]="missing"
+                  describedBy="pf-country-hint"
+                />
+                <p id="pf-country-hint" class="field-hint">
+                  {{ t('pathfinder.origin.countryHint') }}
+                </p>
+              </div>
+            }
+          }
+          @case ('jobs') {
+            <div class="grid max-w-md gap-4 sm:grid-cols-2">
+              <div>
+                <label for="pf-workers" class="field-label">{{
+                  t('pathfinder.jobs.workers')
+                }}</label>
+                <input
+                  id="pf-workers"
+                  type="number"
+                  inputmode="numeric"
+                  min="0"
+                  step="1"
+                  class="input"
+                  [value]="a.workers ?? ''"
+                  [attr.aria-invalid]="missing ? 'true' : null"
+                  (input)="patch({ workers: numberValue($any($event.target).value) })"
+                />
+              </div>
+              <div>
+                <label for="pf-foreign" class="field-label">{{
+                  t('pathfinder.jobs.foreign')
+                }}</label>
+                <input
+                  id="pf-foreign"
+                  type="number"
+                  inputmode="numeric"
+                  min="0"
+                  step="1"
+                  class="input"
+                  [value]="a.foreignWorkers ?? ''"
+                  [attr.aria-invalid]="missing ? 'true' : null"
+                  (input)="patch({ foreignWorkers: numberValue($any($event.target).value) })"
+                />
+              </div>
+            </div>
+            <p class="field-hint mt-2">{{ t('pathfinder.jobs.hint') }}</p>
+          }
+          @case ('timing') {
+            <fieldset>
+              <legend class="sr-only">{{ t('pathfinder.soFar.timing') }}</legend>
+              <div class="grid gap-2 sm:grid-cols-2">
+                @for (tm of timings; track tm) {
+                  <button
+                    type="button"
+                    class="pill opt opt-wide"
+                    [attr.aria-pressed]="a.timing === tm"
+                    (click)="patch({ timing: tm })"
+                  >
+                    {{ t('pathfinder.timing.' + tm) }}
+                  </button>
+                }
+              </div>
+            </fieldset>
+            <fieldset class="mt-6">
+              <legend class="field-label">{{ t('pathfinder.facts.legend') }}</legend>
+              <p class="field-hint -mt-1 mb-2">{{ t('pathfinder.facts.hint') }}</p>
+              <div class="flex flex-col gap-1">
+                @for (f of facts; track f) {
+                  <label class="flex min-h-11 cursor-pointer items-center gap-3 text-sm">
+                    <input
+                      type="checkbox"
+                      class="size-5 accent-[var(--brand)]"
+                      [checked]="a.facts[f]"
+                      (change)="setFact(f, $any($event.target).checked)"
+                    />
+                    {{ t('pathfinder.facts.' + f) }}
+                  </label>
+                }
+              </div>
+            </fieldset>
+          }
+        }
+      </div>
+
+      @if (missing) {
+        <p class="field-error" role="alert">
+          <svg imIcon="circle-alert" [size]="16" aria-hidden="true"></svg>
+          {{ t('pathfinder.' + q + '.required') }}
+        </p>
+      }
+      @if (a.exampleRef && q === 'timing') {
+        <p class="mt-4 rounded-md bg-brand-tint px-3 py-2 text-sm text-ok-ink" role="status">
+          {{ t('pathfinder.example.loaded') }}
+        </p>
+      }
+      <p class="mt-5 text-[0.8125rem] text-muted">{{ t('pathfinder.' + q + '.next') }}</p>
+
+      <!-- Back / Continue -->
+      <div
+        class="sticky bottom-0 z-10 -mx-4 mt-6 flex gap-2 border-t border-rule bg-paper px-4 pt-3 pb-5 sm:static sm:mx-0 sm:border-0 sm:bg-transparent sm:px-0"
+      >
+        <button
+          type="button"
+          class="btn btn-outline basis-28"
+          [disabled]="step() === 0"
+          (click)="back()"
+        >
+          {{ t('pathfinder.back') }}
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary flex-1 sm:flex-none"
+          [disabled]="building()"
+          (click)="next()"
+        >
+          @if (building()) {
+            {{ t('pathfinder.building') }}
+          } @else if (isLast()) {
+            {{ t('pathfinder.build') }}
+            <svg imIcon="arrow-right" [size]="18" class="flip" aria-hidden="true"></svg>
+          } @else {
+            {{ t('pathfinder.continue') }}
+          }
+        </button>
+      </div>
+      <p class="mt-2 text-xs text-muted">
+        {{ t('pathfinder.disclaimer') }}
+        <a class="link" [routerLink]="['/', lang(), 'chat']">{{ t('pathfinder.askInstead') }}</a>
+      </p>
+    </section>
+  </div>
+</ng-container>

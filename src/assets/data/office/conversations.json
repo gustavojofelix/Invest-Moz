@@ -1,0 +1,177 @@
+{
+  "illustrative": true,
+  "conversations": [
+    {
+      "id": "c-fr-duat",
+      "chat": "4821",
+      "locale": "fr",
+      "channel": "web",
+      "topic": "land",
+      "reason": "low_confidence",
+      "confidence": 0.42,
+      "receivedAt": "2026-10-28T07:40:00+02:00",
+      "refs": ["lei-19-97"],
+      "question": "Puis-je obtenir un DUAT pour un lodge touristique à Inhambane ?",
+      "answer": "Oui. Une société constituée au Mozambique peut demander un DUAT pour un projet touristique…",
+      "questionTranslation": {
+        "pt": "Posso obter um DUAT para um lodge turístico em Inhambane?",
+        "en": "Can I get a DUAT for a tourist lodge in Inhambane?",
+        "fr": "Puis-je obtenir un DUAT pour un lodge touristique à Inhambane ?",
+        "zh": "我能为伊尼扬巴内的旅游度假屋取得 DUAT 吗？",
+        "ar": "هل يمكنني الحصول على DUAT لنُزُل سياحي في إنهامباني؟",
+        "hi": "क्या मुझे इनहम्बाने में एक पर्यटक लॉज के लिए DUAT मिल सकता है?",
+        "sw": "Je, naweza kupata DUAT kwa nyumba ya kitalii Inhambane?",
+        "af": "Kan ek 'n DUAT vir 'n toeriste-lodge in Inhambane kry?"
+      },
+      "answerTranslation": {
+        "pt": "Sim. Uma sociedade constituída em Moçambique pode pedir um DUAT para um projecto turístico…",
+        "en": "Yes. A company incorporated in Mozambique can apply for a DUAT for a tourism project…",
+        "fr": "Oui. Une société constituée au Mozambique peut demander un DUAT pour un projet touristique…",
+        "zh": "可以。在莫桑比克注册成立的公司可为旅游项目申请 DUAT……",
+        "ar": "نعم. يمكن لشركة مؤسسة في موزمبيق أن تطلب DUAT لمشروع سياحي…",
+        "hi": "हाँ। मोज़ाम्बिक में निगमित कंपनी किसी पर्यटन परियोजना के लिए DUAT का आवेदन कर सकती है…",
+        "sw": "Ndiyo. Kampuni iliyoanzishwa Msumbiji inaweza kuomba DUAT kwa mradi wa utalii…",
+        "af": "Ja. 'n Maatskappy wat in Mosambiek ingelyf is, kan vir 'n DUAT vir 'n toerismeprojek aansoek doen…"
+      },
+      "gap": {
+        "pt": "Acrescentar as regras das zonas de interesse turístico",
+        "en": "Add tourism-interest zone rules",
+        "fr": "Ajouter les règles des zones d'intérêt touristique",
+        "zh": "补充旅游利益区规则",
+        "ar": "إضافة قواعد مناطق الاهتمام السياحي",
+        "hi": "पर्यटन-हित क्षेत्र के नियम जोड़ें",
+        "sw": "Ongeza kanuni za maeneo ya maslahi ya utalii",
+        "af": "Voeg reëls vir toerisme-belangsones by"
+      }
+    },
+    {
+      "id": "c-zh-fx",
+      "chat": "4817",
+      "locale": "zh",
+      "channel": "app",
+      "topic": "exchange",
+      "reason": "user_flagged",
+      "confidence": 0.61,
+      "receivedAt": "2026-10-27T16:20:00+02:00",
+      "refs": ["lei-11-2009", "aviso-3-gbm-2024"],
+      "question": "我的公司有中国股东，利润可以汇回中国吗？",
+      "answer": "可以。外国直接投资须在 Banco de Moçambique 登记，登记后经批准的利润可以汇出……",
+      "questionTranslation": {
+        "pt": "A minha empresa tem um sócio chinês. Os lucros podem ser transferidos para a China?",
+        "en": "My company has a Chinese shareholder. Can profits be sent back to China?",
+        "fr": "Ma société a un associé chinois. Les bénéfices peuvent-ils être rapatriés en Chine ?",
+        "zh": "我的公司有中国股东，利润可以汇回中国吗？",
+        "ar": "لشركتي مساهم صيني. هل يمكن تحويل الأرباح إلى الصين؟",
+        "hi": "मेरी कंपनी में एक चीनी शेयरधारक है। क्या मुनाफ़ा चीन वापस भेजा जा सकता है?",
+        "sw": "Kampuni yangu ina mbia wa Kichina. Je, faida inaweza kurudishwa China?",
+        "af": "My maatskappy het 'n Chinese aandeelhouer. Kan wins na China teruggestuur word?"
+      },
+      "answerTranslation": {
+        "pt": "Sim. O investimento directo estrangeiro tem de ser registado no Banco de Moçambique; depois do registo, os lucros aprovados podem ser transferidos…",
+        "en": "Yes. Foreign direct investment must be registered with the Banco de Moçambique; once registered, approved profits can be transferred…",
+        "fr": "Oui. L'investissement direct étranger doit être enregistré auprès du Banco de Moçambique ; une fois enregistré, les bénéfices approuvés peuvent être transférés…",
+        "zh": "可以。外国直接投资须在 Banco de Moçambique 登记，登记后经批准的利润可以汇出……",
+        "ar": "نعم. يجب تسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique؛ وبعد التسجيل يمكن تحويل الأرباح المعتمدة…",
+        "hi": "हाँ। प्रत्यक्ष विदेशी निवेश को Banco de Moçambique में पंजीकृत कराना होता है; पंजीकरण के बाद स्वीकृत मुनाफ़ा भेजा जा सकता है…",
+        "sw": "Ndiyo. Uwekezaji wa moja kwa moja wa kigeni lazima usajiliwe na Banco de Moçambique; ukishasajiliwa, faida iliyoidhinishwa inaweza kuhamishwa…",
+        "af": "Ja. Direkte buitelandse belegging moet by die Banco de Moçambique geregistreer word; sodra dit geregistreer is, kan goedgekeurde wins oorgedra word…"
+      },
+      "gap": {
+        "pt": "Confirmar a taxa de retenção sobre dividendos para a China",
+        "en": "Confirm the dividend withholding rate for China",
+        "fr": "Confirmer le taux de retenue sur les dividendes pour la Chine",
+        "zh": "确认对中国股息的预提税率",
+        "ar": "تأكيد معدل الاقتطاع على أرباح الأسهم بالنسبة إلى الصين",
+        "hi": "चीन के लिए लाभांश पर रोक कर दर की पुष्टि करें",
+        "sw": "Thibitisha kiwango cha kodi ya zuio kwa gawio kwa China",
+        "af": "Bevestig die dividendterughoudingskoers vir China"
+      }
+    },
+    {
+      "id": "c-pt-lic",
+      "chat": "4809",
+      "locale": "pt",
+      "channel": "whatsapp",
+      "topic": "licensing",
+      "reason": "law_changed",
+      "confidence": 0.55,
+      "receivedAt": "2026-10-26T11:05:00+02:00",
+      "refs": ["dec-41-2026"],
+      "question": "Preciso de alvará para abrir uma padaria na Matola?",
+      "answer": "Sim. A padaria precisa de licença simplificada, pedida no BAU nos termos do Decreto n.º 39/2017…",
+      "questionTranslation": {
+        "pt": "Preciso de alvará para abrir uma padaria na Matola?",
+        "en": "Do I need a licence to open a bakery in Matola?",
+        "fr": "Ai-je besoin d'une licence pour ouvrir une boulangerie à Matola ?",
+        "zh": "在马托拉开一家面包店需要许可证吗？",
+        "ar": "هل أحتاج إلى ترخيص لفتح مخبز في ماتولا؟",
+        "hi": "क्या मटोला में बेकरी खोलने के लिए मुझे लाइसेंस चाहिए?",
+        "sw": "Je, nahitaji leseni kufungua duka la mikate Matola?",
+        "af": "Het ek 'n lisensie nodig om 'n bakkery in Matola oop te maak?"
+      },
+      "answerTranslation": {
+        "pt": "Sim. A padaria precisa de licença simplificada, pedida no BAU nos termos do Decreto n.º 39/2017…",
+        "en": "Yes. The bakery needs a simplified licence, requested at the BAU under Decreto n.º 39/2017…",
+        "fr": "Oui. La boulangerie a besoin d'une licence simplifiée, demandée au BAU en vertu du Decreto n.º 39/2017…",
+        "zh": "需要。面包店须根据 Decreto n.º 39/2017 向 BAU 申请简化许可证……",
+        "ar": "نعم. يحتاج المخبز إلى ترخيص مبسّط يُطلب من BAU بموجب Decreto n.º 39/2017…",
+        "hi": "हाँ। बेकरी को सरलीकृत लाइसेंस चाहिए, जो Decreto n.º 39/2017 के तहत BAU में माँगा जाता है…",
+        "sw": "Ndiyo. Duka la mikate linahitaji leseni iliyorahisishwa, inayoombwa BAU chini ya Decreto n.º 39/2017…",
+        "af": "Ja. Die bakkery het 'n vereenvoudigde lisensie nodig, wat by die BAU kragtens Decreto n.º 39/2017 aangevra word…"
+      },
+      "gap": {
+        "pt": "Actualizar as respostas que ainda citam o Decreto n.º 39/2017",
+        "en": "Update answers that still cite Decreto n.º 39/2017",
+        "fr": "Mettre à jour les réponses qui citent encore le Decreto n.º 39/2017",
+        "zh": "更新仍引用 Decreto n.º 39/2017 的回答",
+        "ar": "تحديث الإجابات التي لا تزال تستشهد بـ Decreto n.º 39/2017",
+        "hi": "उन उत्तरों को अपडेट करें जो अब भी Decreto n.º 39/2017 का हवाला देते हैं",
+        "sw": "Sasisha majibu ambayo bado yanarejelea Decreto n.º 39/2017",
+        "af": "Werk antwoorde by wat steeds na Decreto n.º 39/2017 verwys"
+      }
+    },
+    {
+      "id": "c-ar-branch",
+      "chat": "4802",
+      "locale": "ar",
+      "channel": "web",
+      "topic": "companies",
+      "reason": "low_confidence",
+      "confidence": 0.48,
+      "receivedAt": "2026-10-25T09:30:00+02:00",
+      "refs": ["dl-1-2022"],
+      "question": "هل يمكن لشركة أجنبية فتح فرع في موزمبيق بدلاً من تأسيس شركة تابعة، وكيف تُحوَّل أرباح الفرع؟",
+      "answer": "نعم، يمكن تسجيل فرع لشركة أجنبية. أما تحويل أرباح الفرع فيخضع لقواعد الصرف…",
+      "questionTranslation": {
+        "pt": "Uma empresa estrangeira pode abrir uma sucursal em Moçambique em vez de uma subsidiária, e como são transferidos os lucros da sucursal?",
+        "en": "Can a foreign company open a branch in Mozambique instead of a subsidiary, and how are the branch's profits transferred?",
+        "fr": "Une société étrangère peut-elle ouvrir une succursale au Mozambique plutôt qu'une filiale, et comment les bénéfices de la succursale sont-ils transférés ?",
+        "zh": "外国公司能否在莫桑比克开设分公司而非子公司？分公司的利润如何汇出？",
+        "ar": "هل يمكن لشركة أجنبية فتح فرع في موزمبيق بدلاً من تأسيس شركة تابعة، وكيف تُحوَّل أرباح الفرع؟",
+        "hi": "क्या कोई विदेशी कंपनी सहायक कंपनी के बजाय मोज़ाम्बिक में शाखा खोल सकती है, और शाखा का मुनाफ़ा कैसे भेजा जाता है?",
+        "sw": "Je, kampuni ya kigeni inaweza kufungua tawi Msumbiji badala ya kampuni tanzu, na faida ya tawi huhamishwaje?",
+        "af": "Kan 'n buitelandse maatskappy 'n tak in Mosambiek oopmaak eerder as 'n filiaal, en hoe word die tak se wins oorgedra?"
+      },
+      "answerTranslation": {
+        "pt": "Sim, é possível registar uma sucursal de uma sociedade estrangeira. A transferência dos lucros da sucursal segue as regras cambiais…",
+        "en": "Yes, a branch of a foreign company can be registered. Transferring the branch's profits follows the exchange rules…",
+        "fr": "Oui, une succursale de société étrangère peut être enregistrée. Le transfert des bénéfices de la succursale suit les règles de change…",
+        "zh": "可以，外国公司可以登记分公司。分公司利润的汇出须遵守外汇规则……",
+        "ar": "نعم، يمكن تسجيل فرع لشركة أجنبية. أما تحويل أرباح الفرع فيخضع لقواعد الصرف…",
+        "hi": "हाँ, विदेशी कंपनी की शाखा पंजीकृत की जा सकती है। शाखा के मुनाफ़े का हस्तांतरण विनिमय नियमों के अनुसार होता है…",
+        "sw": "Ndiyo, tawi la kampuni ya kigeni linaweza kusajiliwa. Kuhamisha faida ya tawi kunafuata kanuni za fedha za kigeni…",
+        "af": "Ja, 'n tak van 'n buitelandse maatskappy kan geregistreer word. Die oordrag van die tak se wins volg die valutareëls…"
+      },
+      "gap": {
+        "pt": "Acrescentar as regras de repatriamento de lucros de sucursais",
+        "en": "Add profit repatriation rules for branches",
+        "fr": "Ajouter les règles de rapatriement des bénéfices des succursales",
+        "zh": "补充分公司利润汇回规则",
+        "ar": "إضافة قواعد إعادة أرباح الفروع إلى الخارج",
+        "hi": "शाखाओं के मुनाफ़े के प्रत्यावर्तन के नियम जोड़ें",
+        "sw": "Ongeza kanuni za kurudisha faida ya matawi",
+        "af": "Voeg reëls vir die repatriasie van takwins by"
+      }
+    }
+  ]
+}

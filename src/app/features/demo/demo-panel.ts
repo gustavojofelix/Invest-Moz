@@ -51,25 +51,29 @@ import { Icon } from '@shared/ui/icon';
 
       <section>
         <h3 class="label-caps text-muted">{{ t('demo.screens') }}</h3>
-        <ul class="mt-2 grid grid-cols-2 gap-2" role="list">
-          @for (s of screens(); track s.key) {
-            <li>
-              <button
-                type="button"
-                class="btn btn-secondary btn-sm w-full justify-start"
-                (click)="go(s.path)"
-              >
-                {{ t('demo.screen.' + s.key) }}
-              </button>
-            </li>
-          }
-        </ul>
+        @for (g of screenGroups(); track g.key) {
+          <h4 class="mt-4 text-sm font-bold">{{ t('demo.surface.' + g.key) }}</h4>
+          <ol class="mt-2 grid grid-cols-1 gap-1.5 sm:grid-cols-2" role="list">
+            @for (s of g.screens; track s.key) {
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm w-full justify-start text-start"
+                  (click)="go(s.path)"
+                >
+                  <span class="w-5 shrink-0 text-xs text-muted tabular-nums">{{ s.n }}</span>
+                  <span class="truncate">{{ t('demo.screen.' + s.key) }}</span>
+                </button>
+              </li>
+            }
+          </ol>
+        }
       </section>
 
       <section class="grid gap-6 sm:grid-cols-2">
         <div>
           <h3 class="label-caps text-muted">{{ t('demo.language') }}</h3>
-          <div class="mt-2 flex gap-2">
+          <div class="mt-2 flex flex-wrap gap-2">
             @for (l of locales; track l) {
               <button
                 type="button"
@@ -167,17 +171,60 @@ export class DemoPanel {
   protected readonly resetDone = signal(false);
   protected readonly examples = resource({ loader: () => this.projects.examples() });
 
-  protected readonly screens = computed(() => {
-    const current = this.projects.currentRef() ?? 'TA-IM-EX01';
+  /** The 23 screens of the Tiva screen pack, by surface. */
+  protected readonly screenGroups = computed(() => {
+    const ref = this.projects.currentRef() ?? 'TA-IM-EX01';
     return [
-      { key: 'landing', path: '' },
-      { key: 'intake', path: 'project' },
-      { key: 'assessment', path: `assessment/${current}` },
-      { key: 'questions', path: 'questions' },
-      { key: 'contact', path: 'contact' },
-      { key: 'login', path: 'login' },
-      { key: 'inbox', path: 'inbox' },
-      { key: 'styleGuide', path: 'demo/ui' },
+      {
+        key: 'web',
+        screens: [
+          { n: 1, key: 'landing', path: '' },
+          { n: 2, key: 'roadmapPdf', path: `roadmap/${ref}/pdf` },
+        ],
+      },
+      {
+        key: 'journey',
+        screens: [
+          { n: 3, key: 'welcome', path: 'welcome' },
+          { n: 4, key: 'pathfinder', path: 'pathfinder' },
+          { n: 5, key: 'chat', path: 'chat' },
+          { n: 6, key: 'roadmap', path: `roadmap/${ref}` },
+          { n: 7, key: 'map', path: 'map' },
+          { n: 8, key: 'incentives', path: 'incentives' },
+          { n: 9, key: 'expert', path: 'expert' },
+          { n: 10, key: 'expertSent', path: 'expert/sent/TA-IM-2026-0142' },
+        ],
+      },
+      {
+        key: 'tools',
+        screens: [
+          { n: 11, key: 'library', path: 'library' },
+          { n: 12, key: 'article', path: 'library/investment-law' },
+          { n: 13, key: 'documents', path: 'documents?step=apiex' },
+          { n: 14, key: 'directory', path: 'directory' },
+          { n: 15, key: 'aftercare', path: 'aftercare' },
+          { n: 16, key: 'alerts', path: 'alerts' },
+          { n: 17, key: 'whatsapp', path: 'whatsapp' },
+        ],
+      },
+      {
+        key: 'office',
+        screens: [
+          { n: 18, key: 'queue', path: 'office/queue' },
+          { n: 19, key: 'knowledgeBase', path: 'office/knowledge-base' },
+          { n: 20, key: 'conversations', path: 'office/conversations' },
+          { n: 21, key: 'leads', path: 'office/leads' },
+          { n: 22, key: 'intelligence', path: 'office/intelligence' },
+          { n: 23, key: 'partners', path: 'office/partners' },
+        ],
+      },
+      {
+        key: 'more',
+        screens: [
+          { n: '·', key: 'login', path: 'login' },
+          { n: '·', key: 'styleGuide', path: 'demo/ui' },
+        ],
+      },
     ];
   });
 
@@ -188,7 +235,7 @@ export class DemoPanel {
 
   protected openExample(ref: string): void {
     this.projects.setCurrent(ref);
-    this.go(`assessment/${ref}`);
+    this.go(`roadmap/${ref}`);
   }
 
   protected go(path: string): void {
@@ -206,7 +253,7 @@ export class DemoPanel {
     this.auth.logout();
     this.confirming.set(false);
     this.resetDone.set(true);
-    if (this.url().includes('/inbox')) this.go('');
+    if (this.url().includes('/office')) this.go('');
   }
 }
 

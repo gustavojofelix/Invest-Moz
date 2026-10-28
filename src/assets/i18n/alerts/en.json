@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Regulatory watch",
+  "title": "Changes that affect your roadmap",
+  "lead": "When a law behind your roadmap changes, Tiva tells you which step it touches, from when, and what to do.",
+  "notifyBy": "Notify me by",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "push": "Push"
+  },
+  "channelsOn": "Alerts will reach you by {{list}} (demo: nothing is sent).",
+  "channelsOff": "No channel selected: alerts stay on this page.",
+  "listTitle": "Latest changes",
+  "unread": "{{count}} new",
+  "markAll": "Mark all as read",
+  "markReadLabel": "Mark as read: {{title}}",
+  "affectsStep": "Affects step {{n}}",
+  "affectsArea": {
+    "incentives": "Affects incentives"
+  },
+  "seeArea": {
+    "incentives": "See incentives"
+  },
+  "forInformation": "For information",
+  "new": "New",
+  "inForceOn": "In force {{date}}",
+  "inForce": "In force",
+  "from": "From {{date}}",
+  "pending": "Pending",
+  "whatChanged": "What changed:",
+  "forYou": "For you:",
+  "illustrative": "Illustrative",
+  "seeStep": "See updated step",
+  "ask": "Ask Tiva",
+  "watching": "Watching for",
+  "openRoadmap": "Open my roadmap",
+  "guestText": "Tiva watches the laws behind every step. Describe your project to see which changes touch yours.",
+  "start": "Start the Pathfinder",
+  "sourceTitle": "Fed by the {{source}} series",
+  "sourceText": "Each alert is drafted from the Boletim da República and checked by a lawyer before it reaches you.",
+  "demoNote": "Demo: the alerts and dates are illustrative, and the channel choices are only saved on this device."
+}

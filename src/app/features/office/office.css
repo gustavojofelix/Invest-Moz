@@ -1,0 +1,96 @@
+/* Shared back-office page styles (screens 18–23). */
+.office-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 90rem;
+  padding: 1.5rem 1rem 3rem;
+}
+
+@media (min-width: 640px) {
+  .office-page {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .office-page {
+    padding: 2rem;
+  }
+}
+
+/* Wide tables scroll inside their container, never the page. */
+.table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-wrap:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.office-table {
+  width: 100%;
+  min-width: 36rem;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.office-table caption {
+  padding: 0 0 0.5rem;
+  caption-side: top;
+}
+
+.office-table th {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.office-table tbody th {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.875rem;
+  color: var(--ink);
+  white-space: normal;
+}
+
+.office-table td {
+  padding: 0.8125rem 1rem;
+  border-bottom: 1px solid var(--rule-soft);
+  vertical-align: top;
+}
+
+.office-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.panel-table caption {
+  padding: 1rem 1rem 0.25rem;
+}
+
+.stat-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.125rem;
+}
+
+.stat-value {
+  font-family: var(--font-serif);
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+:host-context([dir='rtl']) .flip-rtl {
+  transform: scaleX(-1);
+}

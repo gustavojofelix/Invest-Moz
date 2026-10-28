@@ -1,0 +1,357 @@
+{
+  "status": "illustrative",
+  "source": "Alertas Legais",
+  "alerts": [
+    {
+      "id": "dec-41-2026",
+      "instruments": ["Decreto n.º 41/2026"],
+      "refIds": ["dec-41-2026"],
+      "step": "licence",
+      "severity": "action",
+      "status": "in_force",
+      "effective": "2026-10-25",
+      "published": "2026-10-20",
+      "title": {
+        "pt": "Novo regulamento de licenciamento simplificado",
+        "en": "New simplified licensing regulation",
+        "fr": "Nouveau règlement d'autorisation simplifiée",
+        "zh": "新的简化许可条例",
+        "ar": "لائحة جديدة للترخيص المبسط",
+        "hi": "सरलीकृत लाइसेंसिंग का नया विनियम",
+        "sw": "Kanuni mpya ya utoaji leseni uliorahisishwa",
+        "af": "Nuwe regulasie oor vereenvoudigde lisensiëring"
+      },
+      "summary": {
+        "pt": "Mais actividades passam a ter licenciamento simplificado e os pedidos passam para o e-BAU, sem reenviar documentos que o Estado já tem.",
+        "en": "More activities qualify for simplified licensing, and filings move to e-BAU without resubmitting documents the State already holds.",
+        "fr": "Davantage d'activités relèvent de l'autorisation simplifiée et les demandes passent par l'e-BAU, sans renvoyer les documents que l'État détient déjà.",
+        "zh": "更多经营活动可适用简化许可，申请改为通过 e-BAU 提交，无需重复提交国家已存有的文件。",
+        "ar": "أصبحت أنشطة أكثر مؤهلة للترخيص المبسط، وتنتقل الطلبات إلى e-BAU دون إعادة تقديم الوثائق الموجودة لدى الدولة.",
+        "hi": "अधिक गतिविधियाँ सरलीकृत लाइसेंसिंग के योग्य हो गई हैं, और आवेदन e-BAU पर होते हैं, जिनमें राज्य के पास पहले से मौजूद दस्तावेज़ दोबारा जमा नहीं करने पड़ते।",
+        "sw": "Shughuli zaidi zinastahili utoaji leseni uliorahisishwa, na maombi yanahamia e-BAU bila kuwasilisha tena nyaraka ambazo Serikali tayari inazo.",
+        "af": "Meer aktiwiteite kwalifiseer vir vereenvoudigde lisensiëring, en aansoeke skuif na e-BAU sonder om dokumente wat die Staat reeds het, weer in te dien."
+      },
+      "impact": {
+        "pt": "O passo da licença da actividade passa a ser feito no e-BAU. Confirme se a sua actividade entra no regime simplificado.",
+        "en": "Your activity licence step now runs on e-BAU. Check whether your activity falls under the simplified regime.",
+        "fr": "L'étape de la licence d'activité se fait désormais sur l'e-BAU. Vérifiez si votre activité relève du régime simplifié.",
+        "zh": "您的经营许可步骤现已通过 e-BAU 办理。请确认您的经营活动是否适用简化制度。",
+        "ar": "تتم خطوة ترخيص نشاطك الآن عبر e-BAU. تحقق مما إذا كان نشاطك يندرج ضمن النظام المبسط.",
+        "hi": "आपकी गतिविधि के लाइसेंस का चरण अब e-BAU पर होता है। जाँचें कि क्या आपकी गतिविधि सरलीकृत व्यवस्था में आती है।",
+        "sw": "Hatua ya leseni ya shughuli yako sasa inafanyika kwenye e-BAU. Hakikisha kama shughuli yako iko chini ya utaratibu uliorahisishwa.",
+        "af": "U aktiwiteitslisensie-stap loop nou op e-BAU. Kyk of u aktiwiteit onder die vereenvoudigde stelsel val."
+      },
+      "question": {
+        "pt": "O que muda no licenciamento da minha actividade com o Decreto n.º 41/2026?",
+        "en": "What does Decreto n.º 41/2026 change for licensing my activity?",
+        "fr": "Qu'est-ce que le Decreto n.º 41/2026 change pour la licence de mon activité ?",
+        "zh": "Decreto n.º 41/2026 对我的经营活动许可有哪些改变？",
+        "ar": "ما الذي يغيّره Decreto n.º 41/2026 في ترخيص نشاطي؟",
+        "hi": "Decreto n.º 41/2026 मेरी गतिविधि के लाइसेंस में क्या बदलाव लाता है?",
+        "sw": "Decreto n.º 41/2026 inabadilisha nini katika utoaji leseni wa shughuli yangu?",
+        "af": "Wat verander Decreto n.º 41/2026 aan die lisensiëring van my aktiwiteit?"
+      }
+    },
+    {
+      "id": "dec-40-2026",
+      "instruments": ["Decreto n.º 40/2026"],
+      "refIds": [],
+      "step": "licence",
+      "severity": "action",
+      "status": "in_force",
+      "effective": "2026-10-25",
+      "published": "2026-10-20",
+      "title": {
+        "pt": "Actividades de baixo risco: comunicação prévia em duas horas",
+        "en": "Low-risk activities: prior notice in two hours",
+        "fr": "Activités à faible risque : déclaration préalable en deux heures",
+        "zh": "低风险活动：两小时内完成事先通知",
+        "ar": "الأنشطة منخفضة المخاطر: إخطار مسبق خلال ساعتين",
+        "hi": "कम जोखिम वाली गतिविधियाँ: दो घंटे में पूर्व सूचना",
+        "sw": "Shughuli zenye hatari ndogo: taarifa ya awali ndani ya saa mbili",
+        "af": "Laerisiko-aktiwiteite: vooraf kennisgewing binne twee uur"
+      },
+      "summary": {
+        "pt": "Nas actividades de baixo risco, comunica-se ao Estado em vez de esperar por uma licença; a certidão é emitida em até duas horas, com assinatura digital, e a fiscalização vem depois. Há quiosques digitais e atendimento assistido nos BAU.",
+        "en": "For low-risk activities you notify the State instead of waiting for a licence; the certificate is issued within up to two hours, digitally signed, and supervision comes afterwards. Digital kiosks and assisted filing are available at the BAU.",
+        "fr": "Pour les activités à faible risque, on informe l'État au lieu d'attendre une licence ; le certificat est délivré en deux heures au plus, avec signature numérique, et le contrôle intervient ensuite. Des bornes numériques et un dépôt assisté sont disponibles au BAU.",
+        "zh": "对于低风险活动，您只需通知国家，无需等待许可证；证明最迟在两小时内签发，带有数字签名，监管在事后进行。BAU 设有数字自助终端并提供协助申报。",
+        "ar": "في الأنشطة منخفضة المخاطر، تُخطر الدولة بدلاً من انتظار الترخيص؛ وتصدر الشهادة خلال ساعتين كحد أقصى بتوقيع رقمي، وتأتي الرقابة لاحقاً. تتوفر أكشاك رقمية ومساعدة في تقديم الطلبات في مكاتب BAU.",
+        "hi": "कम जोखिम वाली गतिविधियों के लिए आप लाइसेंस की प्रतीक्षा करने के बजाय राज्य को सूचित करते हैं; प्रमाणपत्र अधिकतम दो घंटे में डिजिटल हस्ताक्षर के साथ जारी होता है, और निरीक्षण बाद में होता है। BAU में डिजिटल कियोस्क और सहायता प्राप्त आवेदन की सुविधा उपलब्ध है।",
+        "sw": "Kwa shughuli zenye hatari ndogo unaiarifu Serikali badala ya kusubiri leseni; cheti hutolewa ndani ya hadi saa mbili, kikiwa na sahihi ya kidijitali, na ukaguzi hufanyika baadaye. Vibanda vya kidijitali na usaidizi wa kujaza maombi vinapatikana katika BAU.",
+        "af": "Vir laerisiko-aktiwiteite stel u die Staat in kennis in plaas daarvan om vir 'n lisensie te wag; die sertifikaat word binne hoogstens twee uur uitgereik, digitaal onderteken, en toesig volg daarna. Digitale kiosks en bygestane indiening is by die BAU beskikbaar."
+      },
+      "impact": {
+        "pt": "Se a sua actividade for de baixo risco, o passo da licença pode encurtar de semanas para horas.",
+        "en": "If your activity is low risk, the licence step can shrink from weeks to hours.",
+        "fr": "Si votre activité est à faible risque, l'étape de la licence peut passer de plusieurs semaines à quelques heures.",
+        "zh": "如果您的经营活动属于低风险，许可步骤可从数周缩短至数小时。",
+        "ar": "إذا كان نشاطك منخفض المخاطر، فقد تتقلص خطوة الترخيص من أسابيع إلى ساعات.",
+        "hi": "यदि आपकी गतिविधि कम जोखिम वाली है, तो लाइसेंस का चरण हफ़्तों से घटकर कुछ घंटों का हो सकता है।",
+        "sw": "Ikiwa shughuli yako ina hatari ndogo, hatua ya leseni inaweza kupungua kutoka wiki hadi saa.",
+        "af": "As u aktiwiteit laerisiko is, kan die lisensiestap van weke tot ure verkort."
+      },
+      "question": {
+        "pt": "A minha actividade é de baixo risco e pode usar a comunicação prévia?",
+        "en": "Is my activity low risk, and can I use the prior notice?",
+        "fr": "Mon activité est-elle à faible risque et puis-je utiliser la déclaration préalable ?",
+        "zh": "我的经营活动是否属于低风险？我能否使用事先通知？",
+        "ar": "هل نشاطي منخفض المخاطر، وهل يمكنني استخدام الإخطار المسبق؟",
+        "hi": "क्या मेरी गतिविधि कम जोखिम वाली है, और क्या मैं पूर्व सूचना का उपयोग कर सकता हूँ?",
+        "sw": "Je, shughuli yangu ina hatari ndogo, na naweza kutumia taarifa ya awali?",
+        "af": "Is my aktiwiteit laerisiko, en kan ek die vooraf kennisgewing gebruik?"
+      }
+    },
+    {
+      "id": "industrial-tacit-approval",
+      "instruments": [],
+      "refIds": [],
+      "step": "licence",
+      "severity": "watch",
+      "status": "upcoming",
+      "effective": "2026-11-08",
+      "published": "2026-10-20",
+      "title": {
+        "pt": "Licenças industriais: deferimento tácito",
+        "en": "Industrial licences: tacit approval",
+        "fr": "Licences industrielles : approbation tacite",
+        "zh": "工业许可证：默示批准",
+        "ar": "التراخيص الصناعية: الموافقة الضمنية",
+        "hi": "औद्योगिक लाइसेंस: मौन स्वीकृति",
+        "sw": "Leseni za viwanda: idhini ya kimya",
+        "af": "Nywerheidslisensies: stilswyende goedkeuring"
+      },
+      "summary": {
+        "pt": "Se o Estado não responder dentro do prazo legal, o pedido considera-se aprovado. As licenças passam a ser digitais, com código QR.",
+        "en": "If the State does not reply within the legal deadline, the request is approved. Licences become digital, with a QR code.",
+        "fr": "Si l'État ne répond pas dans le délai légal, la demande est approuvée. Les licences deviennent numériques, avec un code QR.",
+        "zh": "如果国家未在法定期限内答复，申请即视为批准。许可证改为电子版，附带二维码。",
+        "ar": "إذا لم ترد الدولة خلال المهلة القانونية، يُعتبر الطلب موافقاً عليه. وتصبح التراخيص رقمية برمز QR.",
+        "hi": "यदि राज्य कानूनी समय-सीमा के भीतर उत्तर नहीं देता, तो आवेदन स्वीकृत माना जाता है। लाइसेंस अब QR कोड के साथ डिजिटल होंगे।",
+        "sw": "Ikiwa Serikali haitajibu ndani ya muda wa kisheria, ombi linahesabiwa kuwa limeidhinishwa. Leseni zinakuwa za kidijitali, zenye msimbo wa QR.",
+        "af": "As die Staat nie binne die wetlike sperdatum antwoord nie, word die aansoek as goedgekeur beskou. Lisensies word digitaal, met 'n QR-kode."
+      },
+      "impact": {
+        "pt": "Para projectos industriais, guarde o comprovativo da data do pedido: conta para o prazo.",
+        "en": "For industrial projects, keep proof of the filing date: it starts the clock.",
+        "fr": "Pour les projets industriels, conservez la preuve de la date de dépôt : elle fait courir le délai.",
+        "zh": "对于工业项目，请保留申请日期证明：期限从该日起算。",
+        "ar": "في المشاريع الصناعية، احتفظ بإثبات تاريخ تقديم الطلب: فمنه يبدأ احتساب المهلة.",
+        "hi": "औद्योगिक परियोजनाओं के लिए आवेदन की तारीख का प्रमाण संभालकर रखें: समय-सीमा उसी से शुरू होती है।",
+        "sw": "Kwa miradi ya viwanda, hifadhi uthibitisho wa tarehe ya kuwasilisha ombi: muda huanza kuhesabiwa kuanzia hapo.",
+        "af": "Hou vir nywerheidsprojekte bewys van die indieningsdatum: die tydperk begin daarvandaan."
+      },
+      "question": {
+        "pt": "Como funciona o deferimento tácito das licenças industriais?",
+        "en": "How does tacit approval of industrial licences work?",
+        "fr": "Comment fonctionne l'approbation tacite des licences industrielles ?",
+        "zh": "工业许可证的默示批准如何运作？",
+        "ar": "كيف تعمل الموافقة الضمنية على التراخيص الصناعية؟",
+        "hi": "औद्योगिक लाइसेंसों की मौन स्वीकृति कैसे काम करती है?",
+        "sw": "Idhini ya kimya ya leseni za viwanda inafanyaje kazi?",
+        "af": "Hoe werk stilswyende goedkeuring van nywerheidslisensies?"
+      }
+    },
+    {
+      "id": "cbf-review",
+      "instruments": ["Lei n.º 4/2009"],
+      "refIds": ["lei-4-2009"],
+      "step": null,
+      "area": "incentives",
+      "severity": "watch",
+      "status": "pending",
+      "effective": null,
+      "published": "2026-09-30",
+      "title": {
+        "pt": "Código dos Benefícios Fiscais em revisão",
+        "en": "Code of Fiscal Benefits under review",
+        "fr": "Code des avantages fiscaux en cours de révision",
+        "zh": "《税收优惠法典》正在修订",
+        "ar": "مدونة المزايا الضريبية قيد المراجعة",
+        "hi": "कर लाभ संहिता की समीक्षा जारी",
+        "sw": "Kanuni za Manufaa ya Kodi zinapitiwa upya",
+        "af": "Kode van Belastingvoordele word hersien"
+      },
+      "summary": {
+        "pt": "As estimativas de incentivos podem mudar quando o novo código for publicado.",
+        "en": "Incentive estimates may change when the new code is published.",
+        "fr": "Les estimations d'incitations peuvent changer à la publication du nouveau code.",
+        "zh": "新法典公布后，激励估算可能会发生变化。",
+        "ar": "قد تتغير تقديرات الحوافز عند نشر المدونة الجديدة.",
+        "hi": "नई संहिता प्रकाशित होने पर प्रोत्साहनों के अनुमान बदल सकते हैं।",
+        "sw": "Makadirio ya vivutio yanaweza kubadilika kanuni mpya zitakapochapishwa.",
+        "af": "Aansporingsberamings kan verander wanneer die nuwe kode gepubliseer word."
+      },
+      "impact": {
+        "pt": "Trate as estimativas de incentivos como indicativas até à publicação no Boletim da República.",
+        "en": "Treat incentive estimates as indicative until the new code appears in the Boletim da República.",
+        "fr": "Considérez les estimations d'incitations comme indicatives jusqu'à la publication au Boletim da República.",
+        "zh": "在新法典刊登于 Boletim da República 之前，激励估算仅供参考。",
+        "ar": "اعتبر تقديرات الحوافز استرشادية إلى أن تُنشر المدونة الجديدة في Boletim da República.",
+        "hi": "जब तक नई संहिता Boletim da República में प्रकाशित न हो, प्रोत्साहनों के अनुमानों को केवल सांकेतिक मानें।",
+        "sw": "Chukulia makadirio ya vivutio kama ya kuelekeza tu hadi kanuni mpya zitakapochapishwa katika Boletim da República.",
+        "af": "Beskou aansporingsberamings as aanduidend totdat die nuwe kode in die Boletim da República verskyn."
+      },
+      "question": {
+        "pt": "Como me afecta a revisão do Código dos Benefícios Fiscais?",
+        "en": "How does the review of the Code of Fiscal Benefits affect me?",
+        "fr": "En quoi la révision du Code des avantages fiscaux me concerne-t-elle ?",
+        "zh": "《税收优惠法典》的修订对我有何影响？",
+        "ar": "كيف تؤثر مراجعة مدونة المزايا الضريبية عليّ؟",
+        "hi": "कर लाभ संहिता की समीक्षा का मुझ पर क्या असर होगा?",
+        "sw": "Mapitio ya Kanuni za Manufaa ya Kodi yananiathiri vipi?",
+        "af": "Hoe raak die hersiening van die Kode van Belastingvoordele my?"
+      }
+    },
+    {
+      "id": "tax-package-2026",
+      "instruments": ["Lei n.º 10/2025", "Lei n.º 11/2025", "Lei n.º 12/2025"],
+      "refIds": [],
+      "step": "tax",
+      "severity": "info",
+      "status": "in_force",
+      "effective": "2026-01-01",
+      "published": "2025-12-30",
+      "title": {
+        "pt": "Pacote fiscal de 2026: IVA, IRPS e IRPC",
+        "en": "2026 tax package: IVA, IRPS and IRPC",
+        "fr": "Paquet fiscal 2026 : IVA, IRPS et IRPC",
+        "zh": "2026 年税收方案：IVA、IRPS 和 IRPC",
+        "ar": "الحزمة الضريبية لعام 2026: IVA وIRPS وIRPC",
+        "hi": "2026 का कर पैकेज: IVA, IRPS और IRPC",
+        "sw": "Kifurushi cha kodi cha 2026: IVA, IRPS na IRPC",
+        "af": "2026-belastingpakket: IVA, IRPS en IRPC"
+      },
+      "summary": {
+        "pt": "Alterações aos códigos do IVA, do IRPS e do IRPC; a Lei n.º 12/2025 altera o Código do IRPC.",
+        "en": "Amendments to the IVA, IRPS and IRPC codes; Lei n.º 12/2025 amends the IRPC Code.",
+        "fr": "Modifications des codes de l'IVA, de l'IRPS et de l'IRPC ; la Lei n.º 12/2025 modifie le Code de l'IRPC.",
+        "zh": "对 IVA、IRPS 和 IRPC 法典的修订；Lei n.º 12/2025 修订了 IRPC 法典。",
+        "ar": "تعديلات على مدونات IVA وIRPS وIRPC؛ ويعدّل Lei n.º 12/2025 مدونة IRPC.",
+        "hi": "IVA, IRPS और IRPC संहिताओं में संशोधन; Lei n.º 12/2025 IRPC संहिता में संशोधन करता है।",
+        "sw": "Marekebisho ya kanuni za IVA, IRPS na IRPC; Lei n.º 12/2025 inarekebisha Kanuni ya IRPC.",
+        "af": "Wysigings aan die IVA-, IRPS- en IRPC-kodes; Lei n.º 12/2025 wysig die IRPC-kode."
+      },
+      "impact": {
+        "pt": "Confirme com o seu contabilista as taxas e prazos aplicáveis no passo dos registos fiscais.",
+        "en": "Check the applicable rates and deadlines with your accountant at the tax set-up step.",
+        "fr": "Vérifiez avec votre comptable les taux et délais applicables à l'étape des inscriptions fiscales.",
+        "zh": "在税务登记步骤中，请与您的会计师确认适用的税率和期限。",
+        "ar": "تحقق من المعدلات والمواعيد النهائية المطبقة مع محاسبك في خطوة التسجيل الضريبي.",
+        "hi": "कर पंजीकरण वाले चरण में अपने लेखाकार से लागू दरें और समय-सीमाएँ पक्की करें।",
+        "sw": "Hakikisha viwango na tarehe za mwisho zinazotumika pamoja na mhasibu wako katika hatua ya usajili wa kodi.",
+        "af": "Bevestig die toepaslike koerse en sperdatums met u rekenmeester by die belastingregistrasie-stap."
+      },
+      "question": {
+        "pt": "O que mudou no IRPC com a Lei n.º 12/2025?",
+        "en": "What changed in IRPC with Lei n.º 12/2025?",
+        "fr": "Qu'est-ce qui a changé pour l'IRPC avec la Lei n.º 12/2025 ?",
+        "zh": "Lei n.º 12/2025 对 IRPC 作了哪些改变？",
+        "ar": "ما الذي تغيّر في IRPC بموجب Lei n.º 12/2025؟",
+        "hi": "Lei n.º 12/2025 से IRPC में क्या बदला?",
+        "sw": "Nini kimebadilika katika IRPC kwa Lei n.º 12/2025?",
+        "af": "Wat het in IRPC verander met Lei n.º 12/2025?"
+      }
+    },
+    {
+      "id": "aviso-3-gbm-2024",
+      "instruments": ["Aviso n.º 3/GBM/2024"],
+      "refIds": ["aviso-3-gbm-2024"],
+      "step": "capital",
+      "severity": "info",
+      "status": "in_force",
+      "effective": null,
+      "published": "2024-06-01",
+      "title": {
+        "pt": "Regras cambiais para o investimento directo estrangeiro",
+        "en": "Exchange rules for foreign direct investment",
+        "fr": "Règles de change pour l'investissement direct étranger",
+        "zh": "外国直接投资外汇规则",
+        "ar": "قواعد الصرف للاستثمار الأجنبي المباشر",
+        "hi": "प्रत्यक्ष विदेशी निवेश के लिए विनिमय नियम",
+        "sw": "Kanuni za fedha za kigeni kwa uwekezaji wa moja kwa moja kutoka nje",
+        "af": "Valutareëls vir direkte buitelandse belegging"
+      },
+      "summary": {
+        "pt": "Procedimentos do Banco de Moçambique para registar o investimento directo estrangeiro e os empréstimos do exterior.",
+        "en": "Banco de Moçambique procedures for registering foreign direct investment and loans from abroad.",
+        "fr": "Procédures du Banco de Moçambique pour enregistrer l'investissement direct étranger et les prêts de l'étranger.",
+        "zh": "Banco de Moçambique 关于登记外国直接投资和境外贷款的程序。",
+        "ar": "إجراءات Banco de Moçambique لتسجيل الاستثمار الأجنبي المباشر والقروض من الخارج.",
+        "hi": "प्रत्यक्ष विदेशी निवेश और विदेश से ऋणों के पंजीकरण के लिए Banco de Moçambique की प्रक्रियाएँ।",
+        "sw": "Taratibu za Banco de Moçambique za kusajili uwekezaji wa moja kwa moja kutoka nje na mikopo kutoka nje ya nchi.",
+        "af": "Banco de Moçambique se prosedures vir die registrasie van direkte buitelandse belegging en lenings uit die buiteland."
+      },
+      "impact": {
+        "pt": "Registe a entrada do capital para poder repatriar lucros mais tarde.",
+        "en": "Register the capital as it comes in, so you can repatriate profits later.",
+        "fr": "Enregistrez l'entrée du capital pour pouvoir rapatrier les bénéfices plus tard.",
+        "zh": "资金入境时即进行资本登记，以便日后汇回利润。",
+        "ar": "سجّل رأس المال عند دخوله، لتتمكن من تحويل الأرباح إلى الخارج لاحقاً.",
+        "hi": "पूंजी आते ही उसका पंजीकरण कराएँ, ताकि बाद में आप लाभ स्वदेश भेज सकें।",
+        "sw": "Sajili mtaji unapoingia, ili uweze kurejesha faida nje baadaye.",
+        "af": "Registreer die kapitaal soos dit inkom, sodat u later winste kan repatrieer."
+      },
+      "question": {
+        "pt": "Como registo o capital estrangeiro no Banco de Moçambique?",
+        "en": "How do I register foreign capital with Banco de Moçambique?",
+        "fr": "Comment enregistrer le capital étranger auprès du Banco de Moçambique ?",
+        "zh": "如何在 Banco de Moçambique 登记外国资本？",
+        "ar": "كيف أسجّل رأس المال الأجنبي لدى Banco de Moçambique؟",
+        "hi": "मैं Banco de Moçambique में विदेशी पूंजी कैसे पंजीकृत करूँ?",
+        "sw": "Ninasajilije mtaji wa kigeni kwa Banco de Moçambique?",
+        "af": "Hoe registreer ek buitelandse kapitaal by Banco de Moçambique?"
+      }
+    },
+    {
+      "id": "lei-13-2023",
+      "instruments": ["Lei n.º 13/2023"],
+      "refIds": ["lei-13-2023"],
+      "step": "people",
+      "severity": "info",
+      "status": "in_force",
+      "effective": null,
+      "published": "2023-08-25",
+      "title": {
+        "pt": "Nova Lei do Trabalho e quotas de estrangeiros",
+        "en": "New Labour Law and foreign-worker quotas",
+        "fr": "Nouvelle loi du travail et quotas d'étrangers",
+        "zh": "新《劳动法》与外籍员工配额",
+        "ar": "قانون العمل الجديد وحصص العمال الأجانب",
+        "hi": "नया श्रम कानून और विदेशी कर्मचारी कोटा",
+        "sw": "Sheria mpya ya Kazi na viwango vya wafanyakazi wa kigeni",
+        "af": "Nuwe Arbeidswet en kwotas vir buitelandse werkers"
+      },
+      "summary": {
+        "pt": "A Lei do Trabalho define os contratos, as quotas de trabalhadores estrangeiros e quando é precisa autorização de trabalho.",
+        "en": "The Labour Law sets the contracts, the foreign-worker quotas and when a work permit is needed.",
+        "fr": "La loi du travail fixe les contrats, les quotas de travailleurs étrangers et les cas où un permis de travail est requis.",
+        "zh": "《劳动法》规定了劳动合同、外籍员工配额以及何时需要工作许可。",
+        "ar": "يحدد قانون العمل العقود وحصص العمال الأجانب ومتى يلزم تصريح العمل.",
+        "hi": "श्रम कानून अनुबंधों, विदेशी कर्मचारी कोटा और कार्य परमिट कब ज़रूरी है, यह तय करता है।",
+        "sw": "Sheria ya Kazi inaweka mikataba, viwango vya wafanyakazi wa kigeni na wakati kibali cha kazi kinahitajika.",
+        "af": "Die Arbeidswet bepaal die kontrakte, die kwotas vir buitelandse werkers en wanneer 'n werkpermit nodig is."
+      },
+      "impact": {
+        "pt": "Calcule a quota antes de contratar estrangeiros; acima dela é precisa autorização.",
+        "en": "Work out the quota before hiring foreign staff; above it you need a permit.",
+        "fr": "Calculez le quota avant de recruter des étrangers ; au-delà, un permis est nécessaire.",
+        "zh": "招聘外籍员工前请先计算配额；超出配额需申请许可。",
+        "ar": "احسب الحصة قبل توظيف عاملين أجانب؛ وما يتجاوزها يتطلب تصريحاً.",
+        "hi": "विदेशी कर्मचारियों को रखने से पहले कोटा की गणना करें; उससे अधिक होने पर परमिट चाहिए।",
+        "sw": "Hesabu kiwango kabla ya kuajiri wafanyakazi wa kigeni; ukizidi kiwango unahitaji kibali.",
+        "af": "Bereken die kwota voordat u buitelandse personeel aanstel; daarbo het u 'n permit nodig."
+      },
+      "question": {
+        "pt": "Quantos trabalhadores estrangeiros posso contratar dentro da quota?",
+        "en": "How many foreign workers can I hire within the quota?",
+        "fr": "Combien de travailleurs étrangers puis-je recruter dans le quota ?",
+        "zh": "在配额内我可以雇用多少名外籍员工？",
+        "ar": "كم عدد العمال الأجانب الذين يمكنني توظيفهم ضمن الحصة؟",
+        "hi": "कोटा के भीतर मैं कितने विदेशी कर्मचारी रख सकता हूँ?",
+        "sw": "Ninaweza kuajiri wafanyakazi wangapi wa kigeni ndani ya kiwango?",
+        "af": "Hoeveel buitelandse werkers kan ek binne die kwota aanstel?"
+      }
+    }
+  ]
+}

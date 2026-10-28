@@ -1,0 +1,157 @@
+:host {
+  display: block;
+}
+
+.icon-btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--radius);
+}
+.icon-btn:disabled {
+  opacity: 0.45;
+}
+header .icon-btn:hover:not(:disabled) {
+  background: var(--brand-deep-2);
+}
+
+.online {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-inline-end: 0.375rem;
+  border-radius: 999px;
+  background: var(--highlight);
+  vertical-align: 0.05em;
+}
+
+.bubble {
+  max-width: 92%;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+.bubble-user {
+  align-self: flex-end;
+  max-width: 84%;
+  padding: 0.75rem 0.875rem;
+  border-radius: 1rem 1rem 0.25rem 1rem;
+  background: var(--brand);
+  color: var(--brand-ink);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.bubble-tiva {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.875rem;
+  border: 1px solid var(--rule);
+  border-radius: 1rem 1rem 1rem 0.25rem;
+  background: var(--paper);
+}
+:host-context([dir='rtl']) .bubble-user {
+  border-radius: 1rem 1rem 1rem 0.25rem;
+}
+:host-context([dir='rtl']) .bubble-tiva {
+  border-radius: 1rem 1rem 0.25rem 1rem;
+}
+:host-context([dir='rtl']) .flip {
+  transform: scaleX(-1);
+}
+
+.reply {
+  font-size: 0.9375rem;
+}
+.streaming ::ng-deep im-rich-text > :last-child::after {
+  content: '';
+  display: inline-block;
+  width: 0.5rem;
+  height: 1em;
+  margin-inline-start: 2px;
+  vertical-align: -0.12em;
+  background: var(--brand);
+  animation: blink 900ms steps(2, start) infinite;
+}
+.thinking::after {
+  content: '…';
+  animation: blink 900ms steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .streaming ::ng-deep im-rich-text > :last-child::after,
+  .thinking::after {
+    animation: none;
+  }
+}
+
+.talk {
+  padding: 0.5rem 0.75rem;
+  border-inline-start: 3px solid var(--accent);
+  background: var(--panel);
+}
+.talk summary {
+  display: flex;
+  align-items: center;
+  min-height: 2.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.roadmap-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 1rem;
+  border: 2px solid var(--brand);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+}
+a.roadmap-card:hover {
+  background: var(--brand-tint);
+}
+
+.pill-expert {
+  border-color: var(--brand);
+  background: var(--brand-tint);
+  color: var(--ok-ink);
+  font-weight: 600;
+}
+.pill:disabled {
+  opacity: 0.55;
+}
+
+.topics {
+  scrollbar-width: none;
+}
+.topics::-webkit-scrollbar {
+  display: none;
+}
+
+.composer-btn {
+  width: 2.875rem;
+  height: 2.875rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  color: var(--ink);
+}
+.composer-btn.recording {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+  color: var(--accent);
+}
+.composer-btn.send {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: var(--brand-ink);
+}

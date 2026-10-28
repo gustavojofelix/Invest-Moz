@@ -1,0 +1,47 @@
+{
+  "eyebrow": "Mapa de oportunidades",
+  "title": "Explore Moçambique",
+  "intro": "Províncias, corredores de transporte e zonas económicas. Escolha um sector para ver onde se encaixa e depois uma província para os detalhes.",
+  "filter": "Filtrar por sector",
+  "all": "Todos os sectores",
+  "matches": "{{count}} províncias em destaque",
+  "mapLabel": "Mapa de Moçambique com províncias, corredores e zonas económicas",
+  "pick": "Província",
+  "hint": "Seleccione uma província",
+  "note": "As posições são indicativas. A elegibilidade das zonas e os benefícios são confirmados pela APIEX.",
+  "legend": {
+    "ports": "Portos",
+    "cities": "Cidades",
+    "corridors": "Corredores",
+    "zones": "Zonas económicas",
+    "rovuma": "Bacia do Rovuma"
+  },
+  "card": {
+    "region": "Província seleccionada",
+    "noCorridor": "Fora dos corredores principais",
+    "highlights": "Porquê aqui",
+    "sectors": "Sectores-chave",
+    "zones": "Zonas económicas e parques",
+    "noZones": "Ainda não há zona económica nem parque registado nesta província.",
+    "incentives": "Ver benefícios aqui",
+    "ask": "Perguntar à Tiva",
+    "askQuestion": "Em que posso investir em {{province}}?",
+    "profile": "Perfis sectoriais",
+    "empty": "Seleccione uma província no mapa ou na lista para ver o seu corredor, os sectores-chave e as zonas."
+  },
+  "kind": {
+    "sez": "ZEE",
+    "ifz": "ZFI",
+    "park": "Parque industrial",
+    "tourism": "Zona turística"
+  },
+  "sectors": {
+    "agro_industry": "Agro-indústria",
+    "energy": "Energia",
+    "logistics": "Logística",
+    "tourism": "Turismo",
+    "oil_gas": "Petróleo e gás",
+    "mining": "Mineração",
+    "services": "Serviços"
+  }
+}

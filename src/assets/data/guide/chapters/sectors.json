@@ -6,65 +6,120 @@
       "title": {
         "pt": "Agronegócio",
         "en": "Agribusiness",
-        "fr": "Agro-industrie"
+        "fr": "Agro-industrie",
+        "zh": "农业综合企业",
+        "ar": "الأعمال الزراعية",
+        "hi": "कृषि-व्यवसाय",
+        "sw": "Kilimo-biashara",
+        "af": "Landboubesigheid"
       },
       "facts": [
         {
           "value": {
             "pt": "≈ 25% do PIB",
             "en": "≈ 25% of GDP",
-            "fr": "≈ 25 % du PIB"
+            "fr": "≈ 25 % du PIB",
+            "zh": "≈ 占 GDP 的 25%",
+            "ar": "≈ 25% من الناتج المحلي",
+            "hi": "GDP का ≈ 25%",
+            "sw": "≈ 25% ya Pato la Taifa",
+            "af": "≈ 25% van BBP"
           },
           "label": {
             "pt": "contributo da agricultura, que emprega mais de 70% da força de trabalho",
             "en": "agriculture's share, employing over 70% of the workforce",
-            "fr": "part de l'agriculture, qui emploie plus de 70 % de la main-d'œuvre"
+            "fr": "part de l'agriculture, qui emploie plus de 70 % de la main-d'œuvre",
+            "zh": "农业所占比重，吸纳超过 70% 的劳动力",
+            "ar": "حصة الزراعة، التي توظّف أكثر من 70% من القوى العاملة",
+            "hi": "कृषि का हिस्सा, जो 70% से अधिक कार्यबल को रोज़गार देती है",
+            "sw": "mchango wa kilimo, kikiajiri zaidi ya 70% ya nguvu kazi",
+            "af": "landbou se aandeel, met meer as 70% van die arbeidsmag in diens"
           }
         },
         {
           "value": {
             "pt": "3,6 milhões ha",
             "en": "3.6 million ha",
-            "fr": "3,6 millions ha"
+            "fr": "3,6 millions ha",
+            "zh": "360 万公顷",
+            "ar": "3.6 مليون هكتار",
+            "hi": "3.6 मिलियन ha",
+            "sw": "hekta milioni 3.6",
+            "af": "3.6 miljoen ha"
           },
           "label": {
             "pt": "de potencial de irrigação identificado, menos de 5% irrigado",
             "en": "of identified irrigation potential, under 5% irrigated",
-            "fr": "de potentiel d'irrigation identifié, moins de 5 % irrigués"
+            "fr": "de potentiel d'irrigation identifié, moins de 5 % irrigués",
+            "zh": "已确认的灌溉潜力，灌溉面积不足 5%",
+            "ar": "من إمكانات الري المحددة، أقل من 5% منها مروية",
+            "hi": "चिह्नित सिंचाई क्षमता, जिसमें से 5% से कम सिंचित",
+            "sw": "za uwezo wa umwagiliaji uliotambuliwa, chini ya 5% unamwagiliwa",
+            "af": "geïdentifiseerde besproeiingspotensiaal, minder as 5% besproei"
           }
         }
       ],
       "body": {
         "pt": "Investidores estrangeiros já produzem fruta tropical para supermercados sul-africanos, tilápia em Cahora Bassa e amido de mandioca com 4 000 pequenos produtores. Quatro subsectores definem a oportunidade:\n\n- **Fruta tropical, frutos secos e horticultura** — papaia, macadâmia, abacate, lichia, ananás e caju, com cadeia de frio até Joanesburgo.\n- **Aquacultura de água doce** e economia azul.\n- **Agro-processamento** — mandioca, coco, gergelim, açúcar, feijão-boer, amendoim e soja ainda saem com pouco valor acrescentado.\n- **Irrigação** — infra-estrutura financiável, com subsídio do FUNPI e garantias da GAPI.\n\nO registo na APIEX dá isenção de direitos na importação de bens de equipamento elegíveis [ref:lei-4-2009]. Interlocutores: APIEX, MAAP (direcções provinciais), CTA, IIAM e ICM.",
         "en": "Foreign investors already grow tropical fruit for South African supermarkets, farm tilapia on Lake Cahora Bassa and make cassava starch with 4,000 smallholders. Four sub-sectors define the opportunity:\n\n- **Tropical fruit, nuts and horticulture** — papaya, macadamia, avocado, lychee, pineapple and cashew, with a cold chain to Johannesburg.\n- **Freshwater aquaculture** and the blue economy.\n- **Agro-processing** — cassava, coconut, sesame, sugar, pigeon peas, groundnuts and soya still leave with little value added.\n- **Irrigation** — financeable infrastructure, with FUNPI subsidies and GAPI guarantees.\n\nAPIEX registration brings duty-free import of qualifying capital equipment [ref:lei-4-2009]. Contacts: APIEX, MAAP (provincial directorates), CTA, IIAM and ICM.",
-        "fr": "Des investisseurs étrangers produisent déjà des fruits tropicaux pour les supermarchés sud-africains, du tilapia sur le lac Cahora Bassa et de l'amidon de manioc avec 4 000 petits producteurs. Quatre sous-secteurs définissent l'opportunité :\n\n- **Fruits tropicaux, fruits à coque et maraîchage** — papaye, macadamia, avocat, litchi, ananas et cajou, avec une chaîne du froid jusqu'à Johannesburg.\n- **Aquaculture d'eau douce** et économie bleue.\n- **Agro-transformation** — manioc, coco, sésame, sucre, pois d'Angole, arachide et soja sortent encore avec peu de valeur ajoutée.\n- **Irrigation** — infrastructure finançable, avec subventions du FUNPI et garanties de la GAPI.\n\nL'enregistrement APIEX ouvre l'importation en franchise des biens d'équipement éligibles [ref:lei-4-2009]. Interlocuteurs : APIEX, MAAP (directions provinciales), CTA, IIAM et ICM."
+        "fr": "Des investisseurs étrangers produisent déjà des fruits tropicaux pour les supermarchés sud-africains, du tilapia sur le lac Cahora Bassa et de l'amidon de manioc avec 4 000 petits producteurs. Quatre sous-secteurs définissent l'opportunité :\n\n- **Fruits tropicaux, fruits à coque et maraîchage** — papaye, macadamia, avocat, litchi, ananas et cajou, avec une chaîne du froid jusqu'à Johannesburg.\n- **Aquaculture d'eau douce** et économie bleue.\n- **Agro-transformation** — manioc, coco, sésame, sucre, pois d'Angole, arachide et soja sortent encore avec peu de valeur ajoutée.\n- **Irrigation** — infrastructure finançable, avec subventions du FUNPI et garanties de la GAPI.\n\nL'enregistrement APIEX ouvre l'importation en franchise des biens d'équipement éligibles [ref:lei-4-2009]. Interlocuteurs : APIEX, MAAP (directions provinciales), CTA, IIAM et ICM.",
+        "zh": "外国投资者已在莫桑比克为南非超市种植热带水果、在卡奥拉巴萨湖养殖罗非鱼，并与 4,000 名小农户合作生产木薯淀粉。四个子行业构成了主要机遇：\n\n- **热带水果、坚果和园艺作物**——木瓜、澳洲坚果、牛油果、荔枝、菠萝和腰果，配有通往约翰内斯堡的冷链。\n- **淡水养殖**与蓝色经济。\n- **农产品加工**——木薯、椰子、芝麻、糖、木豆、花生和大豆在出口时附加值仍然很低。\n- **灌溉**——可融资的基础设施，可获得 FUNPI 补贴和 GAPI 担保。\n\n在 APIEX 登记后，符合条件的资本设备可免税进口 [ref:lei-4-2009]。联系机构：APIEX、MAAP（各省局）、CTA、IIAM 和 ICM。",
+        "ar": "يزرع المستثمرون الأجانب بالفعل الفواكه الاستوائية لمتاجر جنوب أفريقيا الكبرى، ويربّون أسماك البلطي في بحيرة Cahora Bassa، وينتجون نشا الكسافا مع 4,000 من صغار المزارعين. وتحدد أربعة قطاعات فرعية الفرصة:\n\n- **الفواكه الاستوائية والمكسرات والبستنة** — البابايا والمكاديميا والأفوكادو والليتشي والأناناس والكاجو، مع سلسلة تبريد إلى جوهانسبرغ.\n- **الاستزراع المائي في المياه العذبة** والاقتصاد الأزرق.\n- **التصنيع الزراعي** — لا تزال الكسافا وجوز الهند والسمسم والسكر والبازلاء الهندية والفول السوداني وفول الصويا تُصدَّر بقيمة مضافة ضئيلة.\n- **الري** — بنية تحتية قابلة للتمويل، مع دعم FUNPI وضمانات GAPI.\n\nيتيح التسجيل لدى APIEX استيراد المعدات الرأسمالية المؤهلة معفاة من الرسوم [ref:lei-4-2009]. جهات الاتصال: APIEX وMAAP (المديريات الإقليمية) وCTA وIIAM وICM.",
+        "hi": "विदेशी निवेशक पहले से ही दक्षिण अफ्रीकी सुपरमार्केट के लिए उष्णकटिबंधीय फल उगा रहे हैं, Cahora Bassa झील में तिलापिया मछली पाल रहे हैं और 4,000 छोटे किसानों के साथ कसावा स्टार्च बना रहे हैं। चार उप-क्षेत्र इस अवसर को परिभाषित करते हैं:\n\n- **उष्णकटिबंधीय फल, मेवे और बागवानी** — पपीता, मैकाडामिया, एवोकाडो, लीची, अनानास और काजू, Johannesburg तक कोल्ड चेन के साथ।\n- **मीठे पानी की जलीय कृषि** और ब्लू इकॉनमी।\n- **कृषि-प्रसंस्करण** — कसावा, नारियल, तिल, चीनी, अरहर, मूँगफली और सोयाबीन अभी भी बहुत कम मूल्यवर्धन के साथ निर्यात होते हैं।\n- **सिंचाई** — वित्त-योग्य बुनियादी ढांचा, FUNPI सब्सिडी और GAPI गारंटी के साथ।\n\nAPIEX पंजीकरण से योग्य पूंजीगत उपकरणों का शुल्क-मुक्त आयात मिलता है [ref:lei-4-2009]। संपर्क: APIEX, MAAP (प्रांतीय निदेशालय), CTA, IIAM और ICM।",
+        "sw": "Wawekezaji wa kigeni tayari wanalima matunda ya kitropiki kwa maduka makubwa ya Afrika Kusini, wanafuga samaki aina ya sato (tilapia) katika Ziwa Cahora Bassa na wanatengeneza wanga wa muhogo pamoja na wakulima wadogo 4,000. Sekta ndogo nne zinaeleza fursa:\n\n- **Matunda ya kitropiki, karanga na mbogamboga** — papai, makadamia, parachichi, lichi, nanasi na korosho, pamoja na mnyororo wa ubaridi hadi Johannesburg.\n- **Ufugaji wa samaki wa maji baridi** na uchumi wa buluu.\n- **Usindikaji wa mazao** — muhogo, nazi, ufuta, sukari, mbaazi, karanga na soya bado yanauzwa nje yakiwa na thamani ndogo iliyoongezwa.\n- **Umwagiliaji** — miundombinu inayoweza kufadhiliwa, yenye ruzuku za FUNPI na dhamana za GAPI.\n\nUsajili wa APIEX huleta uingizaji bila ushuru wa vifaa vya mtaji vinavyostahili [ref:lei-4-2009]. Mawasiliano: APIEX, MAAP (kurugenzi za mikoa), CTA, IIAM na ICM.",
+        "af": "Buitelandse beleggers kweek reeds tropiese vrugte vir Suid-Afrikaanse supermarkte, boer met tilapia in die Cahora Bassa-meer en maak kassawestysel saam met 4,000 kleinboere. Vier subsektore bepaal die geleentheid:\n\n- **Tropiese vrugte, neute en tuinbou** — papaja, makadamia, avokado, lietsjie, pynappel en kasjoe, met 'n koueketting na Johannesburg.\n- **Varswater-akwakultuur** en die blou ekonomie.\n- **Landbouverwerking** — kassawe, klapper, sesam, suiker, duiwe-ertjies, grondbone en soja word steeds met min toegevoegde waarde uitgevoer.\n- **Besproeiing** — finansierbare infrastruktuur, met FUNPI-subsidies en GAPI-waarborge.\n\nAPIEX-registrasie bring regsvrye invoer van kwalifiserende kapitaaltoerusting mee [ref:lei-4-2009]. Kontakte: APIEX, MAAP (provinsiale direktorate), CTA, IIAM en ICM."
       },
       "table": {
         "caption": {
           "pt": "Três zonas agro-ecológicas",
           "en": "Three agro-ecological zones",
-          "fr": "Trois zones agro-écologiques"
+          "fr": "Trois zones agro-écologiques",
+          "zh": "三大农业生态区",
+          "ar": "ثلاث مناطق زراعية بيئية",
+          "hi": "तीन कृषि-पारिस्थितिक क्षेत्र",
+          "sw": "Kanda tatu za mazingira ya kilimo",
+          "af": "Drie agro-ekologiese sones"
         },
         "columns": [
           {
             "pt": "Zona",
             "en": "Zone",
-            "fr": "Zone"
+            "fr": "Zone",
+            "zh": "区域",
+            "ar": "المنطقة",
+            "hi": "क्षेत्र",
+            "sw": "Kanda",
+            "af": "Sone"
           },
           {
             "pt": "Províncias",
             "en": "Provinces",
-            "fr": "Provinces"
+            "fr": "Provinces",
+            "zh": "省份",
+            "ar": "المقاطعات",
+            "hi": "प्रांत",
+            "sw": "Mikoa",
+            "af": "Provinsies"
           },
           {
             "pt": "Culturas e cadeias de valor",
             "en": "Crops and value chains",
-            "fr": "Cultures et chaînes de valeur"
+            "fr": "Cultures et chaînes de valeur",
+            "zh": "作物与价值链",
+            "ar": "المحاصيل وسلاسل القيمة",
+            "hi": "फ़सलें और मूल्य शृंखलाएँ",
+            "sw": "Mazao na minyororo ya thamani",
+            "af": "Gewasse en waardekettings"
           },
           {
             "pt": "Logística",
             "en": "Logistics",
-            "fr": "Logistique"
+            "fr": "Logistique",
+            "zh": "物流",
+            "ar": "اللوجستيات",
+            "hi": "लॉजिस्टिक्स",
+            "sw": "Usafirishaji",
+            "af": "Logistiek"
           }
         ],
         "rows": [
@@ -72,66 +127,126 @@
             {
               "pt": "Norte",
               "en": "North",
-              "fr": "Nord"
+              "fr": "Nord",
+              "zh": "北部",
+              "ar": "الشمال",
+              "hi": "उत्तर",
+              "sw": "Kaskazini",
+              "af": "Noord"
             },
             {
               "pt": "Niassa, Cabo Delgado, Nampula",
               "en": "Niassa, Cabo Delgado, Nampula",
-              "fr": "Niassa, Cabo Delgado, Nampula"
+              "fr": "Niassa, Cabo Delgado, Nampula",
+              "zh": "尼亚萨省、德尔加杜角省、楠普拉省",
+              "ar": "Niassa وCabo Delgado وNampula",
+              "hi": "Niassa, Cabo Delgado, Nampula",
+              "sw": "Niassa, Cabo Delgado, Nampula",
+              "af": "Niassa, Cabo Delgado, Nampula"
             },
             {
               "pt": "Caju, gergelim, algodão, soja, tabaco, macadâmia, aquacultura (lago Niassa)",
               "en": "Cashew, sesame, cotton, soya, tobacco, macadamia, aquaculture (Lake Niassa)",
-              "fr": "Cajou, sésame, coton, soja, tabac, macadamia, aquaculture (lac Niassa)"
+              "fr": "Cajou, sésame, coton, soja, tabac, macadamia, aquaculture (lac Niassa)",
+              "zh": "腰果、芝麻、棉花、大豆、烟草、澳洲坚果、水产养殖（尼亚萨湖）",
+              "ar": "الكاجو والسمسم والقطن وفول الصويا والتبغ والمكاديميا والاستزراع المائي (بحيرة Niassa)",
+              "hi": "काजू, तिल, कपास, सोयाबीन, तंबाकू, मैकाडामिया, जलीय कृषि (Niassa झील)",
+              "sw": "Korosho, ufuta, pamba, soya, tumbaku, makadamia, ufugaji wa samaki (Ziwa Niassa)",
+              "af": "Kasjoe, sesam, katoen, soja, tabak, makadamia, akwakultuur (Niassa-meer)"
             },
             {
               "pt": "Corredor de Nacala para a Ásia · ZEE de Nacala",
               "en": "Nacala corridor to Asia · Nacala SEZ",
-              "fr": "Corridor de Nacala vers l'Asie · ZES de Nacala"
+              "fr": "Corridor de Nacala vers l'Asie · ZES de Nacala",
+              "zh": "纳卡拉走廊通往亚洲 · 纳卡拉经济特区",
+              "ar": "ممر Nacala نحو آسيا · المنطقة الاقتصادية الخاصة في Nacala",
+              "hi": "एशिया के लिए Nacala कॉरिडोर · Nacala SEZ",
+              "sw": "Ushoroba wa Nacala kwenda Asia · SEZ ya Nacala",
+              "af": "Nacala-korridor na Asië · Nacala ZEE"
             }
           ],
           [
             {
               "pt": "Centro",
               "en": "Centre",
-              "fr": "Centre"
+              "fr": "Centre",
+              "zh": "中部",
+              "ar": "الوسط",
+              "hi": "मध्य",
+              "sw": "Kati",
+              "af": "Sentraal"
             },
             {
               "pt": "Zambézia, Tete, Manica, Sofala",
               "en": "Zambézia, Tete, Manica, Sofala",
-              "fr": "Zambézia, Tete, Manica, Sofala"
+              "fr": "Zambézia, Tete, Manica, Sofala",
+              "zh": "赞比西亚省、太特省、马尼卡省、索法拉省",
+              "ar": "Zambézia وTete وManica وSofala",
+              "hi": "Zambézia, Tete, Manica, Sofala",
+              "sw": "Zambézia, Tete, Manica, Sofala",
+              "af": "Zambézia, Tete, Manica, Sofala"
             },
             {
               "pt": "Chá, milho, açúcar, banana, citrinos, soja, gergelim, mandioca",
               "en": "Tea, maize, sugar, banana, citrus, soya, sesame, cassava",
-              "fr": "Thé, maïs, sucre, banane, agrumes, soja, sésame, manioc"
+              "fr": "Thé, maïs, sucre, banane, agrumes, soja, sésame, manioc",
+              "zh": "茶叶、玉米、糖、香蕉、柑橘、大豆、芝麻、木薯",
+              "ar": "الشاي والذرة والسكر والموز والحمضيات وفول الصويا والسمسم والكسافا",
+              "hi": "चाय, मक्का, चीनी, केला, खट्टे फल, सोयाबीन, तिल, कसावा",
+              "sw": "Chai, mahindi, sukari, ndizi, machungwa, soya, ufuta, muhogo",
+              "af": "Tee, mielies, suiker, piesang, sitrus, soja, sesam, kassawe"
             },
             {
               "pt": "Corredor da Beira para o Zimbabwe, a Zâmbia e a RDC · ZEE de Mocuba",
               "en": "Beira corridor to Zimbabwe, Zambia and the DRC · Mocuba SEZ",
-              "fr": "Corridor de Beira vers le Zimbabwe, la Zambie et la RDC · ZES de Mocuba"
+              "fr": "Corridor de Beira vers le Zimbabwe, la Zambie et la RDC · ZES de Mocuba",
+              "zh": "贝拉走廊通往津巴布韦、赞比亚和刚果民主共和国 · 莫库巴经济特区",
+              "ar": "ممر Beira نحو زيمبابوي وزامبيا وجمهورية الكونغو الديمقراطية · المنطقة الاقتصادية الخاصة في Mocuba",
+              "hi": "ज़िम्बाब्वे, ज़ाम्बिया और DRC के लिए Beira कॉरिडोर · Mocuba SEZ",
+              "sw": "Ushoroba wa Beira kwenda Zimbabwe, Zambia na DRC · SEZ ya Mocuba",
+              "af": "Beira-korridor na Zimbabwe, Zambië en die DRK · Mocuba ZEE"
             }
           ],
           [
             {
               "pt": "Sul",
               "en": "South",
-              "fr": "Sud"
+              "fr": "Sud",
+              "zh": "南部",
+              "ar": "الجنوب",
+              "hi": "दक्षिण",
+              "sw": "Kusini",
+              "af": "Suid"
             },
             {
               "pt": "Gaza, Inhambane, Maputo",
               "en": "Gaza, Inhambane, Maputo",
-              "fr": "Gaza, Inhambane, Maputo"
+              "fr": "Gaza, Inhambane, Maputo",
+              "zh": "加扎省、伊尼扬巴内省、马普托省",
+              "ar": "Gaza وInhambane وMaputo",
+              "hi": "Gaza, Inhambane, Maputo",
+              "sw": "Gaza, Inhambane, Maputo",
+              "af": "Gaza, Inhambane, Maputo"
             },
             {
               "pt": "Citrinos, caju, horticultura, abacate, papaia, pecuária, aquacultura marinha",
               "en": "Citrus, cashew, horticulture, avocado, papaya, livestock, marine aquaculture",
-              "fr": "Agrumes, cajou, maraîchage, avocat, papaye, élevage, aquaculture marine"
+              "fr": "Agrumes, cajou, maraîchage, avocat, papaye, élevage, aquaculture marine",
+              "zh": "柑橘、腰果、园艺作物、牛油果、木瓜、畜牧、海水养殖",
+              "ar": "الحمضيات والكاجو والبستنة والأفوكادو والبابايا والثروة الحيوانية والاستزراع البحري",
+              "hi": "खट्टे फल, काजू, बागवानी, एवोकाडो, पपीता, पशुधन, समुद्री जलीय कृषि",
+              "sw": "Machungwa, korosho, mbogamboga, parachichi, papai, mifugo, ufugaji wa viumbe wa baharini",
+              "af": "Sitrus, kasjoe, tuinbou, avokado, papaja, vee, mariene akwakultuur"
             },
             {
               "pt": "Acesso directo ao mercado sul-africano · ZEE do Vale do Limpopo",
               "en": "Direct access to the South African market · Limpopo Valley SEZ",
-              "fr": "Accès direct au marché sud-africain · ZES de la vallée du Limpopo"
+              "fr": "Accès direct au marché sud-africain · ZES de la vallée du Limpopo",
+              "zh": "直通南非市场 · 林波波河谷经济特区",
+              "ar": "نفاذ مباشر إلى سوق جنوب أفريقيا · المنطقة الاقتصادية الخاصة في وادي Limpopo",
+              "hi": "दक्षिण अफ्रीकी बाज़ार तक सीधी पहुँच · Limpopo Valley SEZ",
+              "sw": "Ufikiaji wa moja kwa moja wa soko la Afrika Kusini · SEZ ya Bonde la Limpopo",
+              "af": "Direkte toegang tot die Suid-Afrikaanse mark · Limpopo-vallei ZEE"
             }
           ]
         ]
@@ -142,50 +257,90 @@
       "title": {
         "pt": "Energias renováveis",
         "en": "Renewable energy",
-        "fr": "Énergies renouvelables"
+        "fr": "Énergies renouvelables",
+        "zh": "可再生能源",
+        "ar": "الطاقة المتجددة",
+        "hi": "नवीकरणीय ऊर्जा",
+        "sw": "Nishati jadidifu",
+        "af": "Hernubare energie"
       },
       "facts": [
         {
           "value": {
             "pt": "≈ 4 000 MW",
             "en": "≈ 4,000 MW",
-            "fr": "≈ 4 000 MW"
+            "fr": "≈ 4 000 MW",
+            "zh": "≈ 4,000 MW",
+            "ar": "≈ 4,000 MW",
+            "hi": "≈ 4,000 MW",
+            "sw": "≈ MW 4,000",
+            "af": "≈ 4,000 MW"
           },
           "label": {
             "pt": "de capacidade instalada, 81% hídrica",
             "en": "of installed capacity, 81% hydro",
-            "fr": "de capacité installée, 81 % hydraulique"
+            "fr": "de capacité installée, 81 % hydraulique",
+            "zh": "装机容量，其中 81% 为水电",
+            "ar": "من القدرة المركّبة، 81% منها كهرمائية",
+            "hi": "स्थापित क्षमता, जिसमें 81% जलविद्युत",
+            "sw": "za uwezo uliosimikwa, 81% umeme wa maji",
+            "af": "geïnstalleerde kapasiteit, 81% hidro"
           }
         },
         {
           "value": {
             "pt": "64%",
             "en": "64%",
-            "fr": "64 %"
+            "fr": "64 %",
+            "zh": "64%",
+            "ar": "64%",
+            "hi": "64%",
+            "sw": "64%",
+            "af": "64%"
           },
           "label": {
             "pt": "taxa de electrificação (31% em 2018)",
             "en": "electrification rate (31% in 2018)",
-            "fr": "taux d'électrification (31 % en 2018)"
+            "fr": "taux d'électrification (31 % en 2018)",
+            "zh": "通电率（2018 年为 31%）",
+            "ar": "معدل الكهربة (31% في 2018)",
+            "hi": "विद्युतीकरण दर (2018 में 31%)",
+            "sw": "kiwango cha usambazaji wa umeme (31% mwaka 2018)",
+            "af": "elektrifiseringskoers (31% in 2018)"
           }
         },
         {
           "value": {
             "pt": "≈ 45%",
             "en": "≈ 45%",
-            "fr": "≈ 45 %"
+            "fr": "≈ 45 %",
+            "zh": "≈ 45%",
+            "ar": "≈ 45%",
+            "hi": "≈ 45%",
+            "sw": "≈ 45%",
+            "af": "≈ 45%"
           },
           "label": {
             "pt": "da energia transaccionada no mercado diário da SAPP",
             "en": "of energy traded on the SAPP day-ahead market",
-            "fr": "de l'énergie échangée sur le marché journalier du SAPP"
+            "fr": "de l'énergie échangée sur le marché journalier du SAPP",
+            "zh": "在南部非洲电力池（SAPP）日前市场交易的电量",
+            "ar": "من الطاقة المتداولة في سوق اليوم التالي لـ SAPP",
+            "hi": "ऊर्जा का व्यापार SAPP डे-अहेड बाज़ार में",
+            "sw": "ya nishati inayouzwa katika soko la siku-inayofuata la SAPP",
+            "af": "van energie verhandel op die SAPP-dag-vooruit-mark"
           }
         }
       ],
       "body": {
         "pt": "Duas centrais solares de escala comercial já operam (Mocuba, 40 MWp; Cuamba com baterias, 18 MWp), a central a gás de Temane (450 MW) está em construção e Mphanda Nkuwa (1 500 MW) avança para o fecho financeiro. Três factores sustentam o sector:\n\n- **Procura interna estrutural** — a EDM liga mais de 300 000 novos clientes por ano, e o programa «Energia para Todos» visa o acesso universal até 2030.\n- **Mercados regionais** — a África do Sul fecha centrais a carvão e a cintura do cobre enfrenta défices.\n- **Abertura regulatória** — a Lei da Electricidade de 2022 permite vender a compradores que não a EDM, em condições definidas; a regulamentação está a ser concluída.\n\nO desenvolvimento leva tipicamente 36 a 72 meses até à operação comercial. Interlocutores: MIREME, EDM, ARENE, FUNAE e APIEX.",
         "en": "Two utility-scale solar plants already operate (Mocuba, 40 MWp; Cuamba with battery storage, 18 MWp), the Temane gas plant (450 MW) is under construction and Mphanda Nkuwa (1,500 MW) is moving towards financial close. Three drivers support the sector:\n\n- **Structural domestic demand** — EDM connects over 300,000 new customers a year, and the Energy for All programme targets universal access by 2030.\n- **Regional markets** — South Africa is retiring coal plants and the copper belt faces shortages.\n- **Regulatory opening** — the 2022 Electricity Law allows sales to offtakers other than EDM under defined conditions; secondary legislation is being finalised.\n\nDevelopment typically takes 36 to 72 months to commercial operation. Contacts: MIREME, EDM, ARENE, FUNAE and APIEX.",
-        "fr": "Deux centrales solaires à l'échelle industrielle fonctionnent déjà (Mocuba, 40 MWc ; Cuamba avec stockage, 18 MWc), la centrale à gaz de Temane (450 MW) est en construction et Mphanda Nkuwa (1 500 MW) avance vers le bouclage financier. Trois moteurs soutiennent le secteur :\n\n- **Demande intérieure structurelle** — EDM raccorde plus de 300 000 nouveaux clients par an, et le programme « Énergie pour tous » vise l'accès universel d'ici 2030.\n- **Marchés régionaux** — l'Afrique du Sud ferme ses centrales à charbon et la ceinture du cuivre manque d'électricité.\n- **Ouverture réglementaire** — la loi sur l'électricité de 2022 permet de vendre à d'autres acheteurs qu'EDM, sous conditions ; les textes d'application sont en cours.\n\nLe développement prend généralement 36 à 72 mois jusqu'à l'exploitation commerciale. Interlocuteurs : MIREME, EDM, ARENE, FUNAE et APIEX."
+        "fr": "Deux centrales solaires à l'échelle industrielle fonctionnent déjà (Mocuba, 40 MWc ; Cuamba avec stockage, 18 MWc), la centrale à gaz de Temane (450 MW) est en construction et Mphanda Nkuwa (1 500 MW) avance vers le bouclage financier. Trois moteurs soutiennent le secteur :\n\n- **Demande intérieure structurelle** — EDM raccorde plus de 300 000 nouveaux clients par an, et le programme « Énergie pour tous » vise l'accès universel d'ici 2030.\n- **Marchés régionaux** — l'Afrique du Sud ferme ses centrales à charbon et la ceinture du cuivre manque d'électricité.\n- **Ouverture réglementaire** — la loi sur l'électricité de 2022 permet de vendre à d'autres acheteurs qu'EDM, sous conditions ; les textes d'application sont en cours.\n\nLe développement prend généralement 36 à 72 mois jusqu'à l'exploitation commerciale. Interlocuteurs : MIREME, EDM, ARENE, FUNAE et APIEX.",
+        "zh": "两座公用事业规模的太阳能电站已投入运营（莫库巴，40 MWp；配有储能电池的昆巴，18 MWp），特马内燃气电厂（450 MW）正在建设中，Mphanda Nkuwa 水电站（1,500 MW）正推进融资关闭。三大驱动因素支撑该行业：\n\n- **结构性国内需求**——EDM（莫桑比克电力公司）每年新增接入用户超过 300,000 户，“全民能源”计划的目标是到 2030 年实现普遍供电。\n- **区域市场**——南非正在关停燃煤电厂，铜矿带面临电力短缺。\n- **监管开放**——2022 年《电力法》允许在规定条件下向 EDM 以外的购电方售电；配套法规正在最终确定。\n\n项目从开发到商业运营通常需要 36 至 72 个月。联系机构：MIREME、EDM、ARENE、FUNAE 和 APIEX。",
+        "ar": "تعمل بالفعل محطتان للطاقة الشمسية على نطاق المرافق (Mocuba بقدرة 40 MWp؛ وCuamba مع تخزين بالبطاريات بقدرة 18 MWp)، ومحطة Temane للغاز (450 MW) قيد الإنشاء، ويتقدم مشروع Mphanda Nkuwa (1,500 MW) نحو الإغلاق المالي. وتدعم القطاعَ ثلاثةُ محركات:\n\n- **طلب محلي هيكلي** — توصل EDM أكثر من 300,000 عميل جديد سنوياً، ويستهدف برنامج الطاقة للجميع الوصول الشامل بحلول 2030.\n- **الأسواق الإقليمية** — تُخرج جنوب أفريقيا محطات الفحم من الخدمة، ويواجه حزام النحاس نقصاً في الإمدادات.\n- **الانفتاح التنظيمي** — يسمح قانون الكهرباء لعام 2022 بالبيع لمشترين غير EDM وفق شروط محددة؛ ويجري استكمال التشريعات الثانوية.\n\nيستغرق التطوير عادة من 36 إلى 72 شهراً حتى التشغيل التجاري. جهات الاتصال: MIREME وEDM وARENE وFUNAE وAPIEX.",
+        "hi": "दो यूटिलिटी-स्केल सौर संयंत्र पहले से चालू हैं (Mocuba, 40 MWp; बैटरी भंडारण के साथ Cuamba, 18 MWp), Temane गैस संयंत्र (450 MW) निर्माणाधीन है और Mphanda Nkuwa (1,500 MW) वित्तीय समापन की ओर बढ़ रहा है। तीन कारक इस क्षेत्र को सहारा देते हैं:\n\n- **संरचनात्मक घरेलू माँग** — EDM हर वर्ष 300,000 से अधिक नए ग्राहक जोड़ती है, और Energy for All कार्यक्रम का लक्ष्य 2030 तक सार्वभौमिक पहुँच है।\n- **क्षेत्रीय बाज़ार** — दक्षिण अफ्रीका कोयला संयंत्र बंद कर रहा है और कॉपर बेल्ट बिजली की कमी झेल रहा है।\n- **नियामक खुलापन** — 2022 का विद्युत कानून निर्धारित शर्तों के तहत EDM के अलावा अन्य खरीदारों को बिक्री की अनुमति देता है; सहायक नियम अंतिम रूप ले रहे हैं।\n\nविकास से वाणिज्यिक संचालन तक आमतौर पर 36 से 72 महीने लगते हैं। संपर्क: MIREME, EDM, ARENE, FUNAE और APIEX।",
+        "sw": "Vituo viwili vikubwa vya nishati ya jua tayari vinafanya kazi (Mocuba, MWp 40; Cuamba yenye hifadhi ya betri, MWp 18), kituo cha gesi cha Temane (MW 450) kinajengwa na Mphanda Nkuwa (MW 1,500) kinaelekea kukamilisha ufadhili. Vichocheo vitatu vinasaidia sekta:\n\n- **Mahitaji ya ndani ya kimuundo** — EDM huunganisha wateja wapya zaidi ya 300,000 kwa mwaka, na mpango wa Nishati kwa Wote unalenga upatikanaji kwa wote ifikapo 2030.\n- **Masoko ya kikanda** — Afrika Kusini inastaafisha vituo vya makaa ya mawe na ukanda wa shaba unakabiliwa na upungufu.\n- **Kufunguliwa kwa udhibiti** — Sheria ya Umeme ya 2022 inaruhusu mauzo kwa wanunuzi wengine zaidi ya EDM chini ya masharti maalum; sheria ndogo zinakamilishwa.\n\nUendelezaji kwa kawaida huchukua miezi 36 hadi 72 hadi kuanza uendeshaji wa kibiashara. Mawasiliano: MIREME, EDM, ARENE, FUNAE na APIEX.",
+        "af": "Twee sonkragaanlegte op nutskaal is reeds in bedryf (Mocuba, 40 MWp; Cuamba met batterybering, 18 MWp), die Temane-gasaanleg (450 MW) word gebou en Mphanda Nkuwa (1,500 MW) beweeg na finansiële afsluiting. Drie dryfvere ondersteun die sektor:\n\n- **Strukturele binnelandse vraag** — EDM koppel jaarliks meer as 300,000 nuwe kliënte aan, en die program Energie vir Almal mik na universele toegang teen 2030.\n- **Streeksmarkte** — Suid-Afrika onttrek steenkoolaanlegte en die kopergordel ervaar tekorte.\n- **Regulatoriese opening** — die Elektrisiteitswet van 2022 laat verkope aan ander afnemers as EDM onder bepaalde voorwaardes toe; sekondêre wetgewing word gefinaliseer.\n\nOntwikkeling neem gewoonlik 36 tot 72 maande tot kommersiële bedryf. Kontakte: MIREME, EDM, ARENE, FUNAE en APIEX."
       }
     },
     {
@@ -193,38 +348,68 @@
       "title": {
         "pt": "Turismo",
         "en": "Tourism",
-        "fr": "Tourisme"
+        "fr": "Tourisme",
+        "zh": "旅游",
+        "ar": "السياحة",
+        "hi": "पर्यटन",
+        "sw": "Utalii",
+        "af": "Toerisme"
       },
       "facts": [
         {
           "value": {
             "pt": "1,27 milhões",
             "en": "1.27 million",
-            "fr": "1,27 million"
+            "fr": "1,27 million",
+            "zh": "127 万人次",
+            "ar": "1.27 مليون",
+            "hi": "1.27 मिलियन",
+            "sw": "milioni 1.27",
+            "af": "1.27 miljoen"
           },
           "label": {
             "pt": "de chegadas de turistas em 2025, +16% face a 2024",
             "en": "tourist arrivals in 2025, up 16% on 2024",
-            "fr": "arrivées de touristes en 2025, +16 % par rapport à 2024"
+            "fr": "arrivées de touristes en 2025, +16 % par rapport à 2024",
+            "zh": "2025 年入境游客，比 2024 年增长 16%",
+            "ar": "وافد سياحي في 2025، بزيادة 16% عن 2024",
+            "hi": "2025 में पर्यटक आगमन, 2024 की तुलना में 16% अधिक",
+            "sw": "watalii waliowasili mwaka 2025, ongezeko la 16% ikilinganishwa na 2024",
+            "af": "toeriste-aankomste in 2025, 16% meer as in 2024"
           }
         },
         {
           "value": {
             "pt": "USD 1,1 mil milhões+",
             "en": "USD 1.1B+",
-            "fr": "1,1+ milliard USD"
+            "fr": "1,1+ milliard USD",
+            "zh": "11 亿美元以上",
+            "ar": "USD 1.1B+",
+            "hi": "USD 1.1B+",
+            "sw": "USD bilioni 1.1+",
+            "af": "USD 1.1 mjd.+"
           },
           "label": {
             "pt": "investidos no turismo entre 2018 e 2022 — terceiro sector de IDE",
             "en": "invested in tourism in 2018–2022 — the third-largest FDI sector",
-            "fr": "investis dans le tourisme en 2018–2022 — troisième secteur d'IDE"
+            "fr": "investis dans le tourisme en 2018–2022 — troisième secteur d'IDE",
+            "zh": "2018–2022 年旅游业投资——外国直接投资第三大行业",
+            "ar": "استُثمرت في السياحة في 2018–2022 — ثالث أكبر قطاع للاستثمار الأجنبي المباشر",
+            "hi": "2018–2022 में पर्यटन में निवेश — FDI का तीसरा सबसे बड़ा क्षेत्र",
+            "sw": "ziliwekezwa katika utalii 2018–2022 — sekta ya tatu kwa ukubwa wa FDI",
+            "af": "in toerisme belê in 2018–2022 — die derde grootste DBB-sektor"
           }
         }
       ],
       "body": {
         "pt": "Mais de 2 500 km de costa pouco desenvolvida, dois sítios do Património Mundial da UNESCO e os arquipélagos das Quirimbas e do Bazaruto. O Governo quer duplicar as receitas do turismo até 2029.\n\n- **Turismo de natureza e conservação** — 10% do território destinado à gestão da fauna; concessões até 25 anos, renováveis.\n- **Turismo costeiro e de lazer** — Vilankulos, Inhambane, Tofo e Ponta do Ouro consolidados; Pemba e as Quirimbas por desenvolver.\n- **Turismo de negócios (MICE)** — Maputo como pólo regional, com procura estrutural ligada ao GNL.\n\nA ANDITUR (ex-INATUR), criada pelo Decreto n.º 19/2026, promove projectos estratégicos e parcerias público-privadas. Interlocutores: ANDITUR, ANAC, Ministério da Economia e APIEX.",
         "en": "Over 2,500 km of largely undeveloped coastline, two UNESCO World Heritage Sites and the Quirimbas and Bazaruto archipelagos. The government aims to double tourism revenue by 2029.\n\n- **Nature and conservation tourism** — 10% of the land is set aside for wildlife management; concessions of up to 25 years, renewable.\n- **Coastal and leisure tourism** — Vilankulos, Inhambane, Tofo and Ponta do Ouro are established; Pemba and the Quirimbas are largely undeveloped.\n- **Business tourism (MICE)** — Maputo as a regional hub, with structural demand from the LNG sector.\n\nANDITUR (formerly INATUR), created by Decree No. 19/2026, promotes strategic projects and public-private partnerships. Contacts: ANDITUR, ANAC, the Ministry of Economy and APIEX.",
-        "fr": "Plus de 2 500 km de côtes peu aménagées, deux sites du patrimoine mondial de l'UNESCO et les archipels des Quirimbas et de Bazaruto. Le gouvernement veut doubler les recettes touristiques d'ici 2029.\n\n- **Tourisme de nature et de conservation** — 10 % du territoire consacré à la gestion de la faune ; concessions jusqu'à 25 ans, renouvelables.\n- **Tourisme côtier et de loisirs** — Vilankulos, Inhambane, Tofo et Ponta do Ouro sont établis ; Pemba et les Quirimbas restent à développer.\n- **Tourisme d'affaires (MICE)** — Maputo comme pôle régional, avec une demande structurelle liée au GNL.\n\nL'ANDITUR (ex-INATUR), créée par le décret n° 19/2026, promeut les projets stratégiques et les partenariats public-privé. Interlocuteurs : ANDITUR, ANAC, ministère de l'Économie et APIEX."
+        "fr": "Plus de 2 500 km de côtes peu aménagées, deux sites du patrimoine mondial de l'UNESCO et les archipels des Quirimbas et de Bazaruto. Le gouvernement veut doubler les recettes touristiques d'ici 2029.\n\n- **Tourisme de nature et de conservation** — 10 % du territoire consacré à la gestion de la faune ; concessions jusqu'à 25 ans, renouvelables.\n- **Tourisme côtier et de loisirs** — Vilankulos, Inhambane, Tofo et Ponta do Ouro sont établis ; Pemba et les Quirimbas restent à développer.\n- **Tourisme d'affaires (MICE)** — Maputo comme pôle régional, avec une demande structurelle liée au GNL.\n\nL'ANDITUR (ex-INATUR), créée par le décret n° 19/2026, promeut les projets stratégiques et les partenariats public-privé. Interlocuteurs : ANDITUR, ANAC, ministère de l'Économie et APIEX.",
+        "zh": "超过 2,500 公里大部分未开发的海岸线、两处联合国教科文组织世界遗产，以及基林巴斯群岛和巴扎鲁托群岛。政府的目标是到 2029 年使旅游收入翻一番。\n\n- **自然与生态保护旅游**——10% 的土地划为野生动物管理区；特许经营期最长 25 年，可续期。\n- **滨海休闲旅游**——维兰库洛斯、伊尼扬巴内、托福和黄金角（Ponta do Ouro）已较成熟；彭巴和基林巴斯群岛大部分尚未开发。\n- **商务旅游（MICE）**——马普托作为区域枢纽，液化天然气行业带来结构性需求。\n\n根据 Decreto n.º 19/2026 设立的 ANDITUR（原 INATUR）负责推动战略项目和公私合作。联系机构：ANDITUR、ANAC、经济部和 APIEX。",
+        "ar": "أكثر من 2,500 كم من السواحل غير المطوّرة إلى حد كبير، وموقعان للتراث العالمي لليونسكو، وأرخبيلا Quirimbas وBazaruto. وتهدف الحكومة إلى مضاعفة إيرادات السياحة بحلول 2029.\n\n- **سياحة الطبيعة والحفظ** — خُصّص 10% من الأراضي لإدارة الحياة البرية؛ وامتيازات تصل إلى 25 سنة، قابلة للتجديد.\n- **السياحة الساحلية والترفيهية** — Vilankulos وInhambane وTofo وPonta do Ouro وجهات راسخة؛ بينما لا تزال Pemba وQuirimbas غير مطوّرة إلى حد كبير.\n- **سياحة الأعمال (MICE)** — Maputo كمركز إقليمي، مع طلب هيكلي من قطاع الغاز الطبيعي المسال.\n\nتتولى ANDITUR (سابقاً INATUR)، المنشأة بموجب Decreto n.º 19/2026، الترويج للمشاريع الاستراتيجية والشراكات بين القطاعين العام والخاص. جهات الاتصال: ANDITUR وANAC ووزارة الاقتصاد وAPIEX.",
+        "hi": "2,500 km से अधिक का काफ़ी हद तक अविकसित समुद्र तट, दो UNESCO विश्व धरोहर स्थल और Quirimbas तथा Bazaruto द्वीपसमूह। सरकार का लक्ष्य 2029 तक पर्यटन राजस्व को दोगुना करना है।\n\n- **प्रकृति और संरक्षण पर्यटन** — 10% भूमि वन्यजीव प्रबंधन के लिए आरक्षित है; 25 वर्ष तक की नवीकरणीय रियायतें।\n- **तटीय और अवकाश पर्यटन** — Vilankulos, Inhambane, Tofo और Ponta do Ouro स्थापित गंतव्य हैं; Pemba और Quirimbas काफ़ी हद तक अविकसित हैं।\n- **व्यावसायिक पर्यटन (MICE)** — क्षेत्रीय हब के रूप में Maputo, LNG क्षेत्र से संरचनात्मक माँग के साथ।\n\nANDITUR (पूर्व में INATUR), जिसे Decreto n.º 19/2026 द्वारा बनाया गया, रणनीतिक परियोजनाओं और सार्वजनिक-निजी भागीदारी को बढ़ावा देती है। संपर्क: ANDITUR, ANAC, अर्थव्यवस्था मंत्रालय और APIEX।",
+        "sw": "Zaidi ya km 2,500 za ufukwe ambao kwa kiasi kikubwa haujaendelezwa, Maeneo mawili ya Urithi wa Dunia ya UNESCO na visiwa vya Quirimbas na Bazaruto. Serikali inalenga kuongeza mara mbili mapato ya utalii ifikapo 2029.\n\n- **Utalii wa mazingira asilia na uhifadhi** — 10% ya ardhi imetengwa kwa usimamizi wa wanyamapori; makubaliano ya upangishaji ya hadi miaka 25, yanayohuishwa.\n- **Utalii wa pwani na wa burudani** — Vilankulos, Inhambane, Tofo na Ponta do Ouro vimejiimarisha; Pemba na Quirimbas kwa kiasi kikubwa havijaendelezwa.\n- **Utalii wa kibiashara (MICE)** — Maputo kama kitovu cha kikanda, yenye mahitaji ya kimuundo kutoka sekta ya LNG.\n\nANDITUR (zamani INATUR), iliyoanzishwa na Decreto n.º 19/2026, hukuza miradi ya kimkakati na ubia kati ya sekta ya umma na binafsi. Mawasiliano: ANDITUR, ANAC, Wizara ya Uchumi na APIEX.",
+        "af": "Meer as 2,500 km grotendeels onontwikkelde kuslyn, twee UNESCO-wêrelderfenisgebiede en die Quirimbas- en Bazaruto-argipels. Die regering mik daarna om toerisme-inkomste teen 2029 te verdubbel.\n\n- **Natuur- en bewaringstoerisme** — 10% van die grond is vir wildbestuur opsy gesit; konsessies van tot 25 jaar, hernubaar.\n- **Kus- en ontspanningstoerisme** — Vilankulos, Inhambane, Tofo en Ponta do Ouro is gevestig; Pemba en die Quirimbas is grotendeels onontwikkeld.\n- **Saketoerisme (MICE)** — Maputo as streekspilpunt, met strukturele vraag uit die LNG-sektor.\n\nANDITUR (voorheen INATUR), geskep deur Decreto n.º 19/2026, bevorder strategiese projekte en publiek-private vennootskappe. Kontakte: ANDITUR, ANAC, die Ministerie van Ekonomie en APIEX."
       }
     },
     {
@@ -232,38 +417,68 @@
       "title": {
         "pt": "Economia digital",
         "en": "Digital economy",
-        "fr": "Économie numérique"
+        "fr": "Économie numérique",
+        "zh": "数字经济",
+        "ar": "الاقتصاد الرقمي",
+        "hi": "डिजिटल अर्थव्यवस्था",
+        "sw": "Uchumi wa kidijitali",
+        "af": "Digitale ekonomie"
       },
       "facts": [
         {
           "value": {
             "pt": "24 milhões",
             "en": "24 million",
-            "fr": "24 millions"
+            "fr": "24 millions",
+            "zh": "2,400 万",
+            "ar": "24 مليون",
+            "hi": "24 मिलियन",
+            "sw": "milioni 24",
+            "af": "24 miljoen"
           },
           "label": {
             "pt": "cartões SIM activos (≈ 71% de penetração) e outras tantas contas de dinheiro móvel",
             "en": "active SIM cards (≈ 71% penetration) and as many mobile-money accounts",
-            "fr": "cartes SIM actives (≈ 71 % de pénétration) et autant de comptes de monnaie mobile"
+            "fr": "cartes SIM actives (≈ 71 % de pénétration) et autant de comptes de monnaie mobile",
+            "zh": "活跃 SIM 卡（普及率 ≈ 71%），移动支付账户数量相当",
+            "ar": "شريحة SIM نشطة (انتشار ≈ 71%) وعدد مماثل من حسابات الأموال المتنقلة",
+            "hi": "सक्रिय SIM कार्ड (≈ 71% पैठ) और उतने ही मोबाइल-मनी खाते",
+            "sw": "kadi za SIM zinazotumika (≈ 71% ya upenyaji) na idadi kama hiyo ya akaunti za pesa kwa simu",
+            "af": "aktiewe SIM-kaarte (≈ 71% penetrasie) en net soveel mobielegeldrekeninge"
           }
         },
         {
           "value": {
             "pt": "EUR 245 milhões",
             "en": "EUR 245 million",
-            "fr": "245 millions EUR"
+            "fr": "245 millions EUR",
+            "zh": "2.45 亿欧元",
+            "ar": "EUR 245 مليون",
+            "hi": "EUR 245 मिलियन",
+            "sw": "EUR milioni 245",
+            "af": "EUR 245 miljoen"
           },
           "label": {
             "pt": "de oportunidades identificadas pela ATDI para o sector privado",
             "en": "of opportunities identified by ATDI for private investors",
-            "fr": "d'opportunités identifiées par l'ATDI pour le secteur privé"
+            "fr": "d'opportunités identifiées par l'ATDI pour le secteur privé",
+            "zh": "ATDI 为私人投资者确定的投资机会",
+            "ar": "من الفرص التي حددتها ATDI للمستثمرين من القطاع الخاص",
+            "hi": "निजी निवेशकों के लिए ATDI द्वारा चिह्नित अवसर",
+            "sw": "za fursa zilizotambuliwa na ATDI kwa wawekezaji binafsi",
+            "af": "aan geleenthede wat ATDI vir private beleggers geïdentifiseer het"
           }
         }
       ],
       "body": {
         "pt": "O Governo escolheu posicionar o país como nação digital: um Ministério das Comunicações e Transformação Digital, a agência ATDI (ex-INAGE) e reformas sobre computação em nuvem, centros de dados, partilha de infra-estruturas e roaming nacional. Um programa de USD 350 milhões, apoiado pelo Banco Mundial e pela UE, cobre identidade digital, pagamentos electrónicos e a rede do Governo.\n\nDois centros de dados Tier III abriram em 2024 (Raxio, no Parque de Beluluane, e Vodacom) e três cabos submarinos chegam perto de Maputo.\n\nSectores abertos: centros de dados, conectividade, fintech, montagem de dispositivos, EdTech, HealthTech, AgriTech e BPO. Interlocutores: MCTD, ATDI, INCM, INTIC e APIEX.",
         "en": "The government has chosen to position the country as a digital nation: a Ministry of Communications and Digital Transformation, the ATDI agency (formerly INAGE) and reforms on cloud computing, data centres, infrastructure sharing and national roaming. A USD 350 million programme backed by the World Bank and the EU covers digital ID, e-payments and the government network.\n\nTwo Tier III data centres opened in 2024 (Raxio, at Beluluane Industrial Park, and Vodacom) and three submarine cables land near Maputo.\n\nOpen sectors: data centres, connectivity, fintech, device assembly, EdTech, HealthTech, AgriTech and BPO. Contacts: MCTD, ATDI, INCM, INTIC and APIEX.",
-        "fr": "Le gouvernement a choisi de faire du pays une nation numérique : un ministère des Communications et de la Transformation numérique, l'agence ATDI (ex-INAGE) et des réformes sur l'informatique en nuage, les centres de données, le partage d'infrastructures et l'itinérance nationale. Un programme de 350 millions USD, soutenu par la Banque mondiale et l'UE, couvre l'identité numérique, les paiements électroniques et le réseau de l'État.\n\nDeux centres de données Tier III ont ouvert en 2024 (Raxio, au parc de Beluluane, et Vodacom) et trois câbles sous-marins atterrissent près de Maputo.\n\nSecteurs ouverts : centres de données, connectivité, fintech, assemblage d'appareils, EdTech, HealthTech, AgriTech et BPO. Interlocuteurs : MCTD, ATDI, INCM, INTIC et APIEX."
+        "fr": "Le gouvernement a choisi de faire du pays une nation numérique : un ministère des Communications et de la Transformation numérique, l'agence ATDI (ex-INAGE) et des réformes sur l'informatique en nuage, les centres de données, le partage d'infrastructures et l'itinérance nationale. Un programme de 350 millions USD, soutenu par la Banque mondiale et l'UE, couvre l'identité numérique, les paiements électroniques et le réseau de l'État.\n\nDeux centres de données Tier III ont ouvert en 2024 (Raxio, au parc de Beluluane, et Vodacom) et trois câbles sous-marins atterrissent près de Maputo.\n\nSecteurs ouverts : centres de données, connectivité, fintech, assemblage d'appareils, EdTech, HealthTech, AgriTech et BPO. Interlocuteurs : MCTD, ATDI, INCM, INTIC et APIEX.",
+        "zh": "政府已决定将国家定位为数字国家：设立通信与数字化转型部、ATDI 机构（原 INAGE），并在云计算、数据中心、基础设施共享和国内漫游方面推进改革。由世界银行和欧盟支持的 3.5 亿美元计划涵盖数字身份、电子支付和政府网络。\n\n2024 年有两座 Tier III 数据中心投入使用（位于 Beluluane 工业园的 Raxio，以及 Vodacom），另有三条海底光缆在马普托附近登陆。\n\n开放领域：数据中心、网络连接、金融科技、设备组装、教育科技、医疗科技、农业科技和业务流程外包（BPO）。联系机构：MCTD、ATDI、INCM、INTIC 和 APIEX。",
+        "ar": "اختارت الحكومة تموضع البلد كدولة رقمية: وزارة للاتصالات والتحول الرقمي، ووكالة ATDI (سابقاً INAGE)، وإصلاحات تتعلق بالحوسبة السحابية ومراكز البيانات وتقاسم البنية التحتية والتجوال الوطني. ويغطي برنامج بقيمة USD 350 مليون، بدعم من البنك الدولي والاتحاد الأوروبي، الهوية الرقمية والمدفوعات الإلكترونية والشبكة الحكومية.\n\nافتُتح مركزا بيانات من المستوى Tier III في 2024 (Raxio في مجمّع Beluluane الصناعي، وVodacom)، وتصل ثلاثة كابلات بحرية إلى اليابسة قرب Maputo.\n\nالقطاعات المفتوحة: مراكز البيانات والاتصال والتقنية المالية وتجميع الأجهزة وتقنيات التعليم وتقنيات الصحة وتقنيات الزراعة والاستعانة بمصادر خارجية لإدارة الأعمال (BPO). جهات الاتصال: MCTD وATDI وINCM وINTIC وAPIEX.",
+        "hi": "सरकार ने देश को एक डिजिटल राष्ट्र के रूप में स्थापित करने का निर्णय लिया है: संचार और डिजिटल परिवर्तन मंत्रालय, ATDI एजेंसी (पूर्व में INAGE) और क्लाउड कंप्यूटिंग, डेटा सेंटर, बुनियादी ढांचा साझाकरण और राष्ट्रीय रोमिंग पर सुधार। विश्व बैंक और EU समर्थित USD 350 मिलियन का कार्यक्रम डिजिटल पहचान, ई-भुगतान और सरकारी नेटवर्क को कवर करता है।\n\n2024 में दो Tier III डेटा सेंटर खुले (Beluluane Industrial Park में Raxio, और Vodacom) और तीन समुद्री केबल Maputo के पास उतरती हैं।\n\nखुले क्षेत्र: डेटा सेंटर, कनेक्टिविटी, फ़िनटेक, डिवाइस असेंबली, EdTech, HealthTech, AgriTech और BPO। संपर्क: MCTD, ATDI, INCM, INTIC और APIEX।",
+        "sw": "Serikali imeamua kuiweka nchi kama taifa la kidijitali: Wizara ya Mawasiliano na Mageuzi ya Kidijitali, wakala wa ATDI (zamani INAGE) na mageuzi kuhusu kompyuta ya wingu, vituo vya data, ugawanaji wa miundombinu na uzururaji wa kitaifa (national roaming). Mpango wa USD milioni 350 unaoungwa mkono na Benki ya Dunia na EU unashughulikia vitambulisho vya kidijitali, malipo ya kielektroniki na mtandao wa serikali.\n\nVituo viwili vya data vya Tier III vilifunguliwa mwaka 2024 (Raxio, katika Hifadhi ya Viwanda ya Beluluane, na Vodacom) na nyaya tatu za chini ya bahari zinatua karibu na Maputo.\n\nSekta zilizo wazi: vituo vya data, muunganisho, fintech, uunganishaji wa vifaa, EdTech, HealthTech, AgriTech na BPO. Mawasiliano: MCTD, ATDI, INCM, INTIC na APIEX.",
+        "af": "Die regering het gekies om die land as 'n digitale nasie te posisioneer: 'n Ministerie van Kommunikasie en Digitale Transformasie, die agentskap ATDI (voorheen INAGE) en hervormings oor wolkrekenaarkunde, datasentrums, infrastruktuurdeling en nasionale swerwing. 'n Program van USD 350 miljoen, gesteun deur die Wêreldbank en die EU, dek digitale identiteit, e-betalings en die regeringsnetwerk.\n\nTwee Tier III-datasentrums het in 2024 geopen (Raxio, by die Beluluane-nywerheidspark, en Vodacom) en drie duikbootkabels land naby Maputo.\n\nOop sektore: datasentrums, konnektiwiteit, fintech, toestelmontering, EdTech, HealthTech, AgriTech en BPO. Kontakte: MCTD, ATDI, INCM, INTIC en APIEX."
       }
     },
     {
@@ -271,38 +486,68 @@
       "title": {
         "pt": "Logística",
         "en": "Logistics",
-        "fr": "Logistique"
+        "fr": "Logistique",
+        "zh": "物流",
+        "ar": "اللوجستيات",
+        "hi": "लॉजिस्टिक्स",
+        "sw": "Usafirishaji",
+        "af": "Logistiek"
       },
       "facts": [
         {
           "value": {
             "pt": "11,7 milhões t",
             "en": "11.7 million t",
-            "fr": "11,7 millions t"
+            "fr": "11,7 millions t",
+            "zh": "1,170 万吨",
+            "ar": "11.7 مليون طن",
+            "hi": "11.7 मिलियन t",
+            "sw": "tani milioni 11.7",
+            "af": "11.7 miljoen t"
           },
           "label": {
             "pt": "por ferrovia no corredor de Maputo em 2025 (+17%)",
             "en": "by rail on the Maputo corridor in 2025 (+17%)",
-            "fr": "par rail sur le corridor de Maputo en 2025 (+17 %)"
+            "fr": "par rail sur le corridor de Maputo en 2025 (+17 %)",
+            "zh": "2025 年马普托走廊铁路运量（+17%）",
+            "ar": "بالسكك الحديدية على ممر Maputo في 2025 (+17%)",
+            "hi": "2025 में Maputo कॉरिडोर पर रेल द्वारा (+17%)",
+            "sw": "kwa reli katika ushoroba wa Maputo mwaka 2025 (+17%)",
+            "af": "per spoor op die Maputo-korridor in 2025 (+17%)"
           }
         },
         {
           "value": {
             "pt": "530 000 TEU",
             "en": "530,000 TEU",
-            "fr": "530 000 EVP"
+            "fr": "530 000 EVP",
+            "zh": "530,000 TEU",
+            "ar": "530,000 TEU",
+            "hi": "530,000 TEU",
+            "sw": "TEU 530,000",
+            "af": "530,000 TEU"
           },
           "label": {
             "pt": "capacidade-alvo do terminal de contentores de Maputo (DP World)",
             "en": "target capacity of the Maputo container terminal (DP World)",
-            "fr": "capacité visée du terminal à conteneurs de Maputo (DP World)"
+            "fr": "capacité visée du terminal à conteneurs de Maputo (DP World)",
+            "zh": "马普托集装箱码头（DP World）的目标吞吐能力",
+            "ar": "القدرة المستهدفة لمحطة حاويات Maputo (DP World)",
+            "hi": "Maputo कंटेनर टर्मिनल (DP World) की लक्षित क्षमता",
+            "sw": "uwezo unaolengwa wa kituo cha makontena cha Maputo (DP World)",
+            "af": "teikenkapasiteit van die Maputo-houerterminaal (DP World)"
           }
         }
       ],
       "body": {
         "pt": "A posição de Moçambique não depende do gás nem do carvão: é geografia. O Zimbabwe, a Zâmbia, o Malawi, o Eswatini e a RDC importam e exportam pelos seus corredores.\n\n- **Portos e terminais** — PPP para expansão de terminais e portos secos (Beira, Nacala, Moatize).\n- **Ferrovia** — extensões de concessões e financiamento de material circulante nos corredores de Nacala e da Beira.\n- **Cadeia de frio e armazenagem** — muito aquém da procura, tanto para a distribuição alimentar como para o GNL no norte.\n- **Transporte rodoviário** refrigerado e de carga pesada.\n\nInterlocutores: MPDC, CFM, Ministério dos Transportes e Logística, MozParks e APIEX.",
         "en": "Mozambique's position does not depend on gas or coal: it is geography. Zimbabwe, Zambia, Malawi, Eswatini and the DRC import and export through its corridors.\n\n- **Ports and terminals** — PPPs for terminal expansion and dry ports (Beira, Nacala, Moatize).\n- **Rail** — concession extensions and rolling-stock finance on the Nacala and Beira corridors.\n- **Cold chain and warehousing** — far short of demand, for food distribution and for LNG in the north.\n- Refrigerated and heavy-load **road transport**.\n\nContacts: MPDC, CFM, the Ministry of Transport and Logistics, MozParks and APIEX.",
-        "fr": "La position du Mozambique ne dépend ni du gaz ni du charbon : c'est la géographie. Le Zimbabwe, la Zambie, le Malawi, l'Eswatini et la RDC importent et exportent par ses corridors.\n\n- **Ports et terminaux** — PPP pour l'extension des terminaux et des ports secs (Beira, Nacala, Moatize).\n- **Rail** — prolongation de concessions et financement du matériel roulant sur les corridors de Nacala et de Beira.\n- **Chaîne du froid et entreposage** — très en deçà de la demande, pour la distribution alimentaire comme pour le GNL au nord.\n- **Transport routier** frigorifique et lourd.\n\nInterlocuteurs : MPDC, CFM, ministère des Transports et de la Logistique, MozParks et APIEX."
+        "fr": "La position du Mozambique ne dépend ni du gaz ni du charbon : c'est la géographie. Le Zimbabwe, la Zambie, le Malawi, l'Eswatini et la RDC importent et exportent par ses corridors.\n\n- **Ports et terminaux** — PPP pour l'extension des terminaux et des ports secs (Beira, Nacala, Moatize).\n- **Rail** — prolongation de concessions et financement du matériel roulant sur les corridors de Nacala et de Beira.\n- **Chaîne du froid et entreposage** — très en deçà de la demande, pour la distribution alimentaire comme pour le GNL au nord.\n- **Transport routier** frigorifique et lourd.\n\nInterlocuteurs : MPDC, CFM, ministère des Transports et de la Logistique, MozParks et APIEX.",
+        "zh": "莫桑比克的地位并不依赖天然气或煤炭，而是取决于地理位置。津巴布韦、赞比亚、马拉维、斯威士兰和刚果民主共和国都经由其走廊进出口。\n\n- **港口与码头**——码头扩建和内陆港（贝拉、纳卡拉、莫阿蒂泽）的公私合营项目。\n- **铁路**——纳卡拉和贝拉走廊的特许经营延期及机车车辆融资。\n- **冷链与仓储**——远不能满足食品分销以及北部液化天然气项目的需求。\n- 冷藏和重型**公路运输**。\n\n联系机构：MPDC、CFM、交通与物流部、MozParks 和 APIEX。",
+        "ar": "لا يعتمد موقع موزمبيق على الغاز أو الفحم: إنه الجغرافيا. فزيمبابوي وزامبيا وملاوي وإسواتيني وجمهورية الكونغو الديمقراطية تستورد وتصدّر عبر ممراتها.\n\n- **الموانئ والمحطات** — شراكات بين القطاعين العام والخاص لتوسعة المحطات والموانئ الجافة (Beira وNacala وMoatize).\n- **السكك الحديدية** — تمديد الامتيازات وتمويل عربات السكك على ممري Nacala وBeira.\n- **سلسلة التبريد والتخزين** — أقل بكثير من الطلب، لتوزيع الأغذية وللغاز الطبيعي المسال في الشمال.\n- **النقل البري** المبرّد وللأحمال الثقيلة.\n\nجهات الاتصال: MPDC وCFM ووزارة النقل واللوجستيات وMozParks وAPIEX.",
+        "hi": "मोज़ाम्बिक की स्थिति गैस या कोयले पर निर्भर नहीं है: यह भूगोल है। ज़िम्बाब्वे, ज़ाम्बिया, मलावी, एस्वातिनी और DRC इसके कॉरिडोर से आयात और निर्यात करते हैं।\n\n- **बंदरगाह और टर्मिनल** — टर्मिनल विस्तार और ड्राई पोर्ट (Beira, Nacala, Moatize) के लिए PPP।\n- **रेल** — Nacala और Beira कॉरिडोर पर रियायत विस्तार और रोलिंग-स्टॉक वित्तपोषण।\n- **कोल्ड चेन और वेयरहाउसिंग** — खाद्य वितरण और उत्तर में LNG के लिए माँग से बहुत कम।\n- रेफ़्रिजरेटेड और भारी माल **सड़क परिवहन**।\n\nसंपर्क: MPDC, CFM, परिवहन और लॉजिस्टिक्स मंत्रालय, MozParks और APIEX।",
+        "sw": "Nafasi ya Msumbiji haitegemei gesi wala makaa ya mawe: ni jiografia. Zimbabwe, Zambia, Malawi, Eswatini na DRC huagiza na kuuza nje kupitia shoroba zake.\n\n- **Bandari na vituo** — PPP kwa upanuzi wa vituo na bandari kavu (Beira, Nacala, Moatize).\n- **Reli** — uongezaji wa muda wa makubaliano ya upangishaji na ufadhili wa mabehewa na injini katika shoroba za Nacala na Beira.\n- **Mnyororo wa ubaridi na maghala** — mbali sana na mahitaji, kwa usambazaji wa chakula na kwa LNG kaskazini.\n- **Usafiri wa barabara** wa mizigo ya ubaridi na mizito.\n\nMawasiliano: MPDC, CFM, Wizara ya Uchukuzi na Usafirishaji, MozParks na APIEX.",
+        "af": "Mosambiek se posisie hang nie van gas of steenkool af nie: dit is geografie. Zimbabwe, Zambië, Malawi, Eswatini en die DRK voer deur sy korridors in en uit.\n\n- **Hawens en terminale** — PPV's vir terminaaluitbreiding en droë hawens (Beira, Nacala, Moatize).\n- **Spoor** — konsessieverlengings en finansiering van rollende materieel op die Nacala- en Beira-korridors.\n- **Koueketting en pakhuise** — ver onder die vraag, vir voedselverspreiding en vir LNG in die noorde.\n- Verkoelde en swaarvrag-**padvervoer**.\n\nKontakte: MPDC, CFM, die Ministerie van Vervoer en Logistiek, MozParks en APIEX."
       }
     },
     {
@@ -310,38 +555,68 @@
       "title": {
         "pt": "Recursos naturais e conteúdo local",
         "en": "Natural resources and local content",
-        "fr": "Ressources naturelles et contenu local"
+        "fr": "Ressources naturelles et contenu local",
+        "zh": "自然资源与本地成分",
+        "ar": "الموارد الطبيعية والمحتوى المحلي",
+        "hi": "प्राकृतिक संसाधन और स्थानीय सामग्री",
+        "sw": "Maliasili na ushiriki wa wazawa",
+        "af": "Natuurlike hulpbronne en plaaslike inhoud"
       },
       "facts": [
         {
           "value": {
             "pt": "USD 10 mil milhões+",
             "en": "USD 10B+",
-            "fr": "10+ milliards USD"
+            "fr": "10+ milliards USD",
+            "zh": "100 亿美元以上",
+            "ar": "USD 10B+",
+            "hi": "USD 10B+",
+            "sw": "USD bilioni 10+",
+            "af": "USD 10 mjd.+"
           },
           "label": {
             "pt": "esperados na economia nacional nos próximos cinco anos, só do gás",
             "en": "expected to reach the domestic economy in the next five years from gas alone",
-            "fr": "attendus dans l'économie nationale en cinq ans, du seul gaz"
+            "fr": "attendus dans l'économie nationale en cinq ans, du seul gaz",
+            "zh": "预计未来五年仅天然气一项流入国内经济的金额",
+            "ar": "يُتوقع أن تصل إلى الاقتصاد المحلي خلال السنوات الخمس المقبلة من الغاز وحده",
+            "hi": "अगले पाँच वर्षों में केवल गैस से घरेलू अर्थव्यवस्था तक पहुँचने की अपेक्षा",
+            "sw": "zinatarajiwa kufikia uchumi wa ndani katika miaka mitano ijayo kutoka gesi pekee",
+            "af": "wat na verwagting in die volgende vyf jaar uit gas alleen die binnelandse ekonomie sal bereik"
           }
         },
         {
           "value": {
             "pt": "17 000",
             "en": "17,000",
-            "fr": "17 000"
+            "fr": "17 000",
+            "zh": "17,000 个",
+            "ar": "17,000",
+            "hi": "17,000",
+            "sw": "17,000",
+            "af": "17,000"
           },
           "label": {
             "pt": "empregos directos no pico da construção do Mozambique LNG",
             "en": "direct jobs at the Mozambique LNG construction peak",
-            "fr": "emplois directs au pic de construction de Mozambique LNG"
+            "fr": "emplois directs au pic de construction de Mozambique LNG",
+            "zh": "Mozambique LNG 建设高峰期的直接就业岗位",
+            "ar": "وظيفة مباشرة في ذروة إنشاء مشروع Mozambique LNG",
+            "hi": "Mozambique LNG निर्माण के चरम पर प्रत्यक्ष नौकरियाँ",
+            "sw": "ajira za moja kwa moja wakati wa kilele cha ujenzi wa Mozambique LNG",
+            "af": "direkte werksgeleenthede op die konstruksiepiek van Mozambique LNG"
           }
         }
       ],
       "body": {
         "pt": "A questão não é se a procura do GNL chega, mas quanto dela será satisfeito por empresas locais. Na construção, os operadores precisam já de segurança, catering, aluguer de viaturas, habitação, TIC, limpeza e logística; na fase de operação (15 a 25 anos), de serviços especializados e de fornecimento integrado.\n\nNão existe ainda uma lei única de conteúdo local: as obrigações resultam da Lei dos Petróleos (Lei n.º 21/2014), da Lei de Minas (Lei n.º 20/2014), do Regulamento das Operações Petrolíferas e dos contratos de concessão [ref:lei-21-2014]. O Bureau de Conteúdo Local da CTA (bcl.org.mz) faz a ponte entre fornecedores e operadores.\n\nNa mineração, as licenças de prospecção valem 2 a 5 anos e as concessões até 25 anos, prorrogáveis por mais 25 [ref:business-guide-2025].",
         "en": "The question is not whether LNG demand will arrive but how much of it local businesses will supply. During construction operators already need security, catering, vehicle rental, housing, ICT, cleaning and logistics; in the operating phase (15 to 25 years), specialised services and integrated supply.\n\nThere is no single local content law yet: obligations come from the Petroleum Law (Law No. 21/2014), the Mining Law (Law No. 20/2014), the Petroleum Operations Regulation and concession contracts [ref:lei-21-2014]. CTA's Local Content Bureau (bcl.org.mz) connects suppliers and operators.\n\nIn mining, exploration licences run for 2 to 5 years and mining concessions for up to 25 years, extendable by another 25 [ref:business-guide-2025].",
-        "fr": "La question n'est pas de savoir si la demande du GNL arrivera, mais quelle part en sera servie par les entreprises locales. Pendant la construction, les opérateurs ont déjà besoin de sécurité, restauration, location de véhicules, logement, TIC, nettoyage et logistique ; en phase d'exploitation (15 à 25 ans), de services spécialisés et d'approvisionnement intégré.\n\nIl n'existe pas encore de loi unique sur le contenu local : les obligations découlent de la loi pétrolière (loi n° 21/2014), de la loi minière (loi n° 20/2014), du règlement des opérations pétrolières et des contrats de concession [ref:lei-21-2014]. Le Bureau du contenu local de la CTA (bcl.org.mz) met en relation fournisseurs et opérateurs.\n\nDans les mines, les licences d'exploration valent 2 à 5 ans et les concessions jusqu'à 25 ans, prorogeables de 25 ans [ref:business-guide-2025]."
+        "fr": "La question n'est pas de savoir si la demande du GNL arrivera, mais quelle part en sera servie par les entreprises locales. Pendant la construction, les opérateurs ont déjà besoin de sécurité, restauration, location de véhicules, logement, TIC, nettoyage et logistique ; en phase d'exploitation (15 à 25 ans), de services spécialisés et d'approvisionnement intégré.\n\nIl n'existe pas encore de loi unique sur le contenu local : les obligations découlent de la loi pétrolière (loi n° 21/2014), de la loi minière (loi n° 20/2014), du règlement des opérations pétrolières et des contrats de concession [ref:lei-21-2014]. Le Bureau du contenu local de la CTA (bcl.org.mz) met en relation fournisseurs et opérateurs.\n\nDans les mines, les licences d'exploration valent 2 à 5 ans et les concessions jusqu'à 25 ans, prorogeables de 25 ans [ref:business-guide-2025].",
+        "zh": "问题不在于液化天然气需求是否会到来，而在于本地企业能供应其中多少。在建设期，运营商已需要安保、餐饮、车辆租赁、住房、信息通信技术、保洁和物流服务；在运营期（15 至 25 年），则需要专业化服务和一体化供应。\n\n目前尚无统一的本地成分法：相关义务来自《石油法》（Lei n.º 21/2014）、《矿业法》（Lei n.º 20/2014）、《石油作业条例》以及特许经营合同 [ref:lei-21-2014]。CTA 的本地成分办公室（bcl.org.mz）负责对接供应商和运营商。\n\n在采矿领域，勘探许可证有效期为 2 至 5 年，采矿特许权最长 25 年，可再延长 25 年 [ref:business-guide-2025]。",
+        "ar": "ليس السؤال ما إذا كان طلب الغاز الطبيعي المسال سيأتي، بل كم منه ستورّده الشركات المحلية. فخلال الإنشاء يحتاج المشغّلون بالفعل إلى الأمن والتموين وتأجير المركبات والسكن وتقنية المعلومات والاتصالات والتنظيف واللوجستيات؛ وفي مرحلة التشغيل (من 15 إلى 25 سنة)، إلى خدمات متخصصة وإمداد متكامل.\n\nلا يوجد بعد قانون موحّد للمحتوى المحلي: فالالتزامات مصدرها قانون البترول (Lei n.º 21/2014) وقانون المعادن (Lei n.º 20/2014) ولائحة العمليات البترولية وعقود الامتياز [ref:lei-21-2014]. ويربط مكتب المحتوى المحلي التابع لـ CTA (bcl.org.mz) بين المورّدين والمشغّلين.\n\nوفي التعدين، تمتد تراخيص الاستكشاف من 2 إلى 5 سنوات، وامتيازات التعدين حتى 25 سنة، قابلة للتمديد 25 سنة أخرى [ref:business-guide-2025].",
+        "hi": "सवाल यह नहीं है कि LNG की माँग आएगी या नहीं, बल्कि यह है कि उसका कितना हिस्सा स्थानीय व्यवसाय पूरा करेंगे। निर्माण के दौरान ऑपरेटरों को पहले से ही सुरक्षा, कैटरिंग, वाहन किराया, आवास, ICT, सफ़ाई और लॉजिस्टिक्स चाहिए; संचालन चरण (15 से 25 वर्ष) में विशेष सेवाएँ और एकीकृत आपूर्ति।\n\nअभी तक कोई एकल स्थानीय सामग्री (local content) कानून नहीं है: दायित्व पेट्रोलियम कानून (Lei n.º 21/2014), खनन कानून (Lei n.º 20/2014), पेट्रोलियम संचालन विनियम और रियायत अनुबंधों से आते हैं [ref:lei-21-2014]। CTA का Local Content Bureau (bcl.org.mz) आपूर्तिकर्ताओं और ऑपरेटरों को जोड़ता है।\n\nखनन में, अन्वेषण लाइसेंस 2 से 5 वर्ष के लिए और खनन रियायतें 25 वर्ष तक के लिए होती हैं, जिन्हें 25 वर्ष और बढ़ाया जा सकता है [ref:business-guide-2025]।",
+        "sw": "Swali si kama mahitaji ya LNG yatafika bali ni kiasi gani biashara za ndani zitasambaza. Wakati wa ujenzi waendeshaji tayari wanahitaji ulinzi, huduma za chakula, ukodishaji wa magari, makazi, TEHAMA, usafi na usafirishaji; katika awamu ya uendeshaji (miaka 15 hadi 25), huduma maalum na ugavi jumuishi.\n\nBado hakuna sheria moja ya ushiriki wa wazawa (local content): wajibu unatokana na Sheria ya Petroli (Lei n.º 21/2014), Sheria ya Madini (Lei n.º 20/2014), Kanuni za Shughuli za Petroli na mikataba ya makubaliano [ref:lei-21-2014]. Ofisi ya Ushiriki wa Wazawa ya CTA (bcl.org.mz) huunganisha wasambazaji na waendeshaji.\n\nKatika madini, leseni za utafutaji ni za miaka 2 hadi 5 na makubaliano ya uchimbaji ni ya hadi miaka 25, yanayoweza kuongezwa kwa miaka mingine 25 [ref:business-guide-2025].",
+        "af": "Die vraag is nie of LNG-vraag sal kom nie, maar hoeveel daarvan plaaslike besighede sal voorsien. Tydens konstruksie benodig operateurs reeds sekuriteit, spysenieering, voertuighuur, behuising, IKT, skoonmaak en logistiek; in die bedryfsfase (15 tot 25 jaar), gespesialiseerde dienste en geïntegreerde verskaffing.\n\nDaar is nog geen enkele wet op plaaslike inhoud nie: verpligtinge spruit uit die Petroleumwet (Lei n.º 21/2014), die Mynwet (Lei n.º 20/2014), die Regulasie op Petroleumbedrywighede en konsessiekontrakte [ref:lei-21-2014]. CTA se Buro vir Plaaslike Inhoud (bcl.org.mz) verbind verskaffers en operateurs.\n\nIn mynbou geld eksplorasielisensies vir 2 tot 5 jaar en mynkonsessies vir tot 25 jaar, verlengbaar met nog 25 [ref:business-guide-2025]."
       }
     }
   ]

@@ -1,79 +1,107 @@
 {
   "hero": {
-    "eyebrow": "Tax Advisory × Law Technology Solutions",
-    "subtitle": "O guia para investir em Moçambique",
-    "lead": "Do primeiro contacto com a APIEX ao início da actividade. Leia o guia por capítulos — o país, os sectores, a Lei de Investimento, a empresa, impostos, trabalho e câmbios — ou descreva o seu projecto e receba um enquadramento à medida, sempre com a referência legal.",
-    "guide": "Ler o guia do investidor",
-    "primary": "Descrever o meu projecto",
-    "secondary": "Ver um exemplo"
+    "eyebrow": "Concierge de investimento com IA para Moçambique",
+    "title": "O seu roteiro de investimento em Moçambique, em minutos.",
+    "lead": "Conte a sua ideia à Tiva. Receba a estrutura da sociedade, as licenças, os incentivos, os vistos e os passos fiscais — cada um com a lei moçambicana citada — e depois conheça quem o ajuda a concretizá-la.",
+    "channels": "24 horas por dia, na web, na app e no WhatsApp",
+    "pathfinder": "Prefere seis perguntas rápidas? Comece o Pathfinder",
+    "example": "Ver um roteiro de exemplo",
+    "mapLabel": "Mapa de Moçambique com os corredores de Maputo, da Beira e de Nacala"
   },
-  "guide": {
-    "eyebrow": "O guia",
-    "title": "Doze capítulos, do país à protecção do investimento",
-    "text": "Baseado no Guia do Investidor APIEX 2026, nas fichas fiscais e no guia de constituição de empresas da Tax Advisory e no Business Guide 2025. Cada capítulo termina com os próximos passos.",
-    "all": "Ver o guia completo"
+  "idea": {
+    "formLabel": "Pergunte à Tiva sobre a sua ideia de investimento",
+    "label": "Descreva a sua ideia de investimento",
+    "placeholder": "p. ex. Uma fábrica de processamento de caju em Nampula, cerca de USD 2 milhões",
+    "voice": "Diga a sua ideia em voz alta",
+    "voiceStop": "Parar de ouvir",
+    "voiceUnavailable": "A entrada por voz não está disponível neste navegador",
+    "listening": "A ouvir… fale agora.",
+    "ask": "Perguntar",
+    "empty": "Escreva a sua ideia em poucas palavras ou escolha um exemplo abaixo.",
+    "examples": "Exemplos de ideias"
   },
-  "map": {
-    "label": "Mapa de Moçambique com as províncias, principais cidades, portos e corredores",
-    "hint": "Passe o cursor ou toque numa província",
-    "ports": "Portos",
-    "cities": "Cidades",
-    "corridors": "Corredores"
+  "examples": {
+    "ecoLodge": "Eco-lodge em Inhambane",
+    "solar": "Mini-redes solares no Niassa",
+    "logistics": "Centro logístico no corredor da Beira",
+    "bakery": "Padaria na Matola"
   },
-  "problem": {
-    "eyebrow": "O problema",
-    "title": "Oito regimes jurídicos antes do primeiro dia",
-    "text": "Um investidor estrangeiro em Moçambique cruza-se com direito societário, licenciamento, investimento, fiscalidade, trabalho, imigração, câmbios e alfândegas — cada um com o seu diploma e a sua entidade.",
-    "regimes": {
-      "companies": { "title": "Direito societário", "covers": "Lda, SA, SAS ou sucursal" },
-      "licensing": { "title": "Licenciamento", "covers": "BAU, licenças sectoriais e ambientais" },
-      "investment": { "title": "Investimento", "covers": "Registo na APIEX e incentivos" },
-      "tax": { "title": "Fiscalidade", "covers": "IRPC, IVA, retenções e acordos de dupla tributação" },
-      "labour": { "title": "Trabalho", "covers": "Contratos, quotas de estrangeiros e INSS" },
-      "immigration": { "title": "Imigração", "covers": "Autorizações de trabalho e DIRE" },
-      "exchange": { "title": "Câmbios", "covers": "Registo do IDE, dividendos e empréstimos" },
-      "customs": { "title": "Alfândegas", "covers": "Importação, Classe K e importação temporária" }
+  "moves": {
+    "title": "Da ideia ao negócio licenciado em três passos",
+    "m1": {
+      "title": "Descreva a sua ideia",
+      "text": "Na sua língua, por texto ou por voz. A Tiva faz algumas perguntas: sector, província, dimensão, de onde vem."
+    },
+    "m2": {
+      "title": "Receba o seu roteiro",
+      "text": "Cada passo pela ordem certa — quem aprova, o que apresentar — com a lei que o fundamenta. Descarregue-o em PDF."
+    },
+    "m3": {
+      "title": "Fale com as pessoas certas",
+      "text": "Um toque para um advogado, a APIEX ou o balcão único de licenciamento, com o seu resumo já anexado."
     }
   },
-  "how": {
-    "eyebrow": "Como funciona",
-    "title": "Do primeiro mapa ao primeiro dia, em três passos",
-    "step1": { "title": "Leia o guia", "text": "O país, os sectores e o caminho até operar: Lei de Investimento, constituição da empresa, impostos, trabalho e câmbios." },
-    "step2": { "title": "Descreva o projecto e receba o enquadramento", "text": "Actividade, província, origem do capital, investimento e trabalhadores. Recebe o veículo societário, o roteiro com prazos, licenças, incentivos e obrigações, com as referências legais." },
-    "step3": { "title": "Fale com a Tax Advisory", "text": "O pedido segue para a firma com o resumo do projecto anexado. Um profissional valida e propõe os próximos passos." },
-    "pricing": "Informação geral gratuita e imediata. Aconselhamento detalhado, redacção e submissões são serviços pagos da Tax Advisory."
+  "covers": {
+    "title": "O que a Tiva cobre",
+    "lead": "As perguntas que os investidores fazem de facto, respondidas a partir da legislação moçambicana.",
+    "companies": {
+      "title": "Constituição de sociedades",
+      "text": "Lda, SA, sociedade unipessoal ou sucursal; registo e NUIT"
+    },
+    "licensing": {
+      "title": "Licenciamento",
+      "text": "Comunicação prévia, licenciamento simplificado ou licença, através do e-BAU"
+    },
+    "investment": {
+      "title": "Aprovação do investimento",
+      "text": "Registo do projecto na APIEX ao abrigo da Lei n.º 8/2023"
+    },
+    "incentives": {
+      "title": "Incentivos",
+      "text": "Código dos Benefícios Fiscais, Zonas Económicas Especiais e Zonas Francas Industriais"
+    },
+    "land": {
+      "title": "Terra",
+      "text": "Direito de uso e aproveitamento da terra (DUAT) e arrendamentos"
+    },
+    "people": {
+      "title": "Pessoas",
+      "text": "Contratação, quotas de estrangeiros, autorizações de trabalho, vistos e DIRE"
+    },
+    "money": {
+      "title": "Dinheiro",
+      "text": "Controlo cambial, registo do capital, repatriamento de lucros"
+    },
+    "tax": {
+      "title": "Impostos e alfândegas",
+      "text": "IRPC, IVA, IRPS, INSS, procedimentos de importação"
+    }
   },
-  "trust": {
-    "eyebrow": "Confiança",
-    "title": "Construído como um parecer, não como um palpite",
-    "reviewed": { "title": "Respostas apenas a partir de uma base jurídica revista", "text": "Cada resposta cita o diploma de onde vem. Sem fonte, não há resposta." },
-    "noInvented": { "title": "Sem números inventados", "text": "Quando um valor ainda não está confirmado, aparece assinalado como «a confirmar»." },
-    "sources": { "title": "Fontes", "text": "Base jurídica da Tax Advisory, Guia do Investidor APIEX 2026 e Business Guide 2025 (Lex Africa)." },
-    "language": { "title": "Português profissional (pré-AO90)", "text": "Escrito em português de Moçambique, com a ortografia da prática jurídica, e disponível em inglês e francês." }
+  "glance": {
+    "title": "Moçambique em números",
+    "people": { "value": "36,9 M", "label": "habitantes" },
+    "age": { "value": "16,6", "label": "idade mediana" },
+    "coast": { "value": "2500 km", "label": "de costa no Oceano Índico" },
+    "sources": "Fontes: Worldometers (população, idade mediana); Banco de Moçambique via AIM/Lusa (fluxos de investimento). Valores para informação geral."
   },
-  "partners": {
-    "eyebrow": "Parceria",
-    "title": "Tax Advisory × Law Technology Solutions",
-    "ta": "Sociedade de consultoria fiscal e jurídica em Maputo. Fornece e revê todo o conteúdo jurídico e fiscal.",
-    "lts": "Desenvolve a tecnologia: o motor de regras, o assistente e a plataforma.",
-    "principle": "O assistente dá o primeiro mapa; um profissional valida sempre o aconselhamento detalhado.",
-    "principleBy": "Princípio partilhado"
+  "why": {
+    "title": "Porquê agora",
+    "fdi": { "value": "USD 5,69 mil M", "label": "de investimento directo estrangeiro em 2025" },
+    "extractives": { "value": "91,5%", "label": "dos quais nas indústrias extractivas" },
+    "forecast": { "value": "USD 5,88 mil M", "label": "previstos para 2026" },
+    "districts": { "value": "129", "label": "distritos ligados aos balcões únicos (BAU)" }
   },
-  "demo": {
-    "eyebrow": "Acesso de demonstração",
-    "title": "Caixa de entrada da Tax Advisory",
-    "text": "Veja os pedidos do lado da firma: estado, notas internas e o resumo do projecto anexado.",
-    "email": "Email",
-    "password": "Palavra-passe",
-    "cta": "Entrar como Tax Advisory",
-    "note": "Ambiente de demonstração com dados fictícios. Não é um acesso seguro."
+  "law": {
+    "title": "Assente na lei, verificado por advogados",
+    "text": "Cada resposta mostra a legislação em que se baseia e a data da última revisão. Nada é publicado sem a aprovação de um advogado moçambicano. A Tiva presta informação geral, não aconselhamento jurídico — para o seu caso concreto, fale com um especialista.",
+    "sourcesLabel": "Alguma da legislação em que a Tiva se baseia",
+    "sources": {
+      "investmentLaw": "Lei n.º 8/2023 · Lei de Investimento",
+      "licensing": "Decreto n.º 41/2026 · Licenciamento simplificado",
+      "irpc": "Lei n.º 12/2025 · Alterações ao IRPC"
+    },
+    "library": "Consultar a biblioteca de conhecimento",
+    "expert": "Falar com um especialista"
   },
-  "phases": {
-    "eyebrow": "Próximas fases",
-    "title": "Depois da aprovação",
-    "phase": "Fase",
-    "p1": { "title": "Versão pública", "text": "Publicação em taxadvisorymoz.com, com a base jurídica revista e respostas a partir dos textos legais." },
-    "p2": { "title": "Alcance", "text": "Canal WhatsApp, mais idiomas e pacotes sectoriais." },
-    "p3": { "title": "Institucional", "text": "Câmaras de comércio, versões para a APIEX ou municípios e revisão jurídica trimestral." }
-  }
+  "office": "Acesso ao back office para revisores e parceiros"
 }

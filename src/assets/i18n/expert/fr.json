@@ -1,0 +1,85 @@
+{
+  "back": "Retour",
+  "eyebrow": "Parler à un expert",
+  "title": "Qui doit donner suite ?",
+  "intro": "Une seule demande au bon expert : Tax Advisory pour un travail payant revu par des avocats, ou un organisme public dont les services sont gratuits.",
+  "share": {
+    "title": "Résumé que Tiva partagera",
+    "preview": "Voir ce qui sera partagé",
+    "contact": "Ainsi que vos nom, société, e-mail, téléphone (si indiqué) et votre note.",
+    "none": "Aucun projet en contexte : seuls vos coordonnées et votre note seront partagés.",
+    "build": "Créer d'abord ma feuille de route"
+  },
+  "choose": "Choisissez qui contacter",
+  "publicTitle": "Organismes publics gratuits",
+  "fee": {
+    "paid": "Prestation payante · proposition d'honoraires avant tout travail",
+    "free": "Service public gratuit"
+  },
+  "contact": {
+    "title": "Vos coordonnées"
+  },
+  "fields": {
+    "name": "Nom",
+    "company": "Société",
+    "email": "E-mail",
+    "phone": "Téléphone ou WhatsApp (facultatif)",
+    "phoneHint": "Indiquez l'indicatif du pays, par exemple +258 84 000 0000.",
+    "slot": "Heure d'appel souhaitée",
+    "day": "Jour",
+    "time": "Heure",
+    "slotHint": "Heure de Maputo (UTC+2). L'expert confirme ou propose une autre heure.",
+    "note": "De quoi souhaitez-vous parler ? (facultatif)"
+  },
+  "theExpert": "l'expert choisi",
+  "consent": "J'accepte de partager ce résumé et mes coordonnées avec {{expert}}.",
+  "consentRequired": "Cochez la case pour donner votre accord avant tout partage.",
+  "submit": "Demander un appel",
+  "feeNote": "Vous recevez une proposition d'honoraires écrite avant tout travail.",
+  "referral": {
+    "text": "Tiva peut percevoir une commission d'apport des experts payants. Les organismes publics sont toujours référencés gratuitement et ne paient jamais d'apport.",
+    "how": "Comment fonctionnent les apports",
+    "detail": "Tiva est développé par Law Technology Solutions, avec Tax Advisory comme partenaire expert. Si vous choisissez un expert payant et le mandatez, Tiva peut percevoir une commission d'apport de cet expert. Cela ne modifie jamais le prix qui vous est proposé, et les réponses de Tiva restent les mêmes quel que soit votre choix. Rien n'est partagé sans le consentement que vous donnez sur cette page."
+  },
+  "mail": {
+    "subject": "Tiva — demande d'appel",
+    "areas": "Domaines"
+  },
+  "sent": {
+    "title": "Votre demande est entre les mains de {{expert}}",
+    "text": "Ils disposent de vos coordonnées et de votre note.",
+    "textProject": "Ils disposent du résumé de votre projet et de votre feuille de route : vous n'aurez pas à tout réexpliquer.",
+    "ref": "Référence",
+    "call": "Appel",
+    "timezone": "Heure de Maputo (UTC+2)",
+    "language": "Langue",
+    "shared": "Partagé",
+    "sharedProject": "Résumé · Feuille de route · Coordonnées",
+    "sharedContact": "Coordonnées · Note",
+    "whatShared": "Voir ce qui a été partagé",
+    "next": "La suite",
+    "paid": {
+      "step1": "Un conseiller confirme l'appel par e-mail et, si vous avez indiqué un numéro, par WhatsApp.",
+      "step2": "Pendant l'appel, vous convenez du périmètre de la mission.",
+      "step3": "Vous recevez une proposition d'honoraires écrite avant tout travail."
+    },
+    "free": {
+      "step1": "Le guichet investisseurs de l'organisme public confirme l'appel par e-mail.",
+      "step2": "Pendant l'appel, ils expliquent la procédure et les documents pour votre cas.",
+      "step3": "Leurs services sont gratuits ; les éventuels frais officiels sont expliqués d'emblée."
+    },
+    "feeNote": "Aucun travail ne commence et rien n'est facturé avant que vous n'acceptiez une proposition d'honoraires écrite.",
+    "freeNote": "Les organismes publics sont référencés gratuitement et ne paient jamais Tiva pour un apport.",
+    "calendar": "Ajouter au calendrier",
+    "icsTitle": "Appel avec {{expert}} (Tiva)",
+    "roadmap": "Retour à la feuille de route",
+    "pathfinder": "Créer ma feuille de route",
+    "chat": "Retour à la conversation",
+    "fallback": "En cas de problème, vous pouvez aussi copier la demande ou l'envoyer par e-mail.",
+    "copy": "Copier la demande",
+    "copied": "Copié",
+    "mail": "Envoyer par e-mail",
+    "missing": "Nous n'avons pas trouvé cette demande.",
+    "again": "Faire une nouvelle demande"
+  }
+}

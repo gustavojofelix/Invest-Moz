@@ -6,34 +6,64 @@
       "title": {
         "pt": "Indicadores fiscais",
         "en": "Tax indicators",
-        "fr": "Indicateurs fiscaux"
+        "fr": "Indicateurs fiscaux",
+        "zh": "税务指标",
+        "ar": "المؤشرات الضريبية",
+        "hi": "कर संकेतक",
+        "sw": "Viashiria vya kodi",
+        "af": "Belastingaanwysers"
       },
       "body": {
         "pt": "Uma sociedade é residente quando tem sede ou direcção efectiva em Moçambique e é tributada pelo rendimento global à taxa geral do IRPC [ref:cirpc]. Os não residentes são tributados apenas pelo rendimento obtido em Moçambique, em regra por retenção na fonte definitiva [ref:ta-tax-indicators]. O IVA incide sobre bens e serviços vendidos em Moçambique e sobre importações; as exportações estão isentas [ref:civa].",
         "en": "A company is resident when its head office or effective management is in Mozambique, and it is taxed on worldwide income at the general CIT rate [ref:cirpc]. Non-residents are taxed only on Mozambican-source income, usually through a final withholding tax [ref:ta-tax-indicators]. VAT applies to goods and services sold in Mozambique and to imports; exports are exempt [ref:civa].",
-        "fr": "Une société est résidente lorsque son siège ou sa direction effective se trouve au Mozambique ; elle est imposée sur son revenu mondial au taux général de l'IRPC [ref:cirpc]. Les non-résidents ne sont imposés que sur leurs revenus de source mozambicaine, en règle générale par une retenue à la source libératoire [ref:ta-tax-indicators]. La TVA s'applique aux biens et services vendus au Mozambique et aux importations ; les exportations sont exonérées [ref:civa]."
+        "fr": "Une société est résidente lorsque son siège ou sa direction effective se trouve au Mozambique ; elle est imposée sur son revenu mondial au taux général de l'IRPC [ref:cirpc]. Les non-résidents ne sont imposés que sur leurs revenus de source mozambicaine, en règle générale par une retenue à la source libératoire [ref:ta-tax-indicators]. La TVA s'applique aux biens et services vendus au Mozambique et aux importations ; les exportations sont exonérées [ref:civa].",
+        "zh": "总部或实际管理机构位于莫桑比克的公司为居民企业，须就其全球所得按一般企业所得税税率纳税 [ref:cirpc]。非居民仅就来源于莫桑比克的所得纳税，通常以最终预提税的方式缴纳 [ref:ta-tax-indicators]。增值税（IVA）适用于在莫桑比克销售的商品和服务以及进口；出口免税 [ref:civa]。",
+        "ar": "تُعدّ الشركة مقيمة عندما يكون مقرها الرئيسي أو إدارتها الفعلية في موزمبيق، وتُفرض عليها الضريبة على دخلها العالمي بالمعدل العام لضريبة دخل الشركات [ref:cirpc]. ولا تُفرض الضريبة على غير المقيمين إلا على الدخل ذي المصدر الموزمبيقي، عادة عبر ضريبة مقتطعة نهائية [ref:ta-tax-indicators]. وتنطبق ضريبة القيمة المضافة (IVA) على السلع والخدمات المبيعة في موزمبيق وعلى الواردات؛ والصادرات معفاة [ref:civa].",
+        "hi": "कोई कंपनी तब निवासी मानी जाती है जब उसका मुख्यालय या प्रभावी प्रबंधन मोज़ाम्बिक में हो, और उस पर सामान्य कॉर्पोरेट आयकर (IRPC) दर से विश्वव्यापी आय पर कर लगता है [ref:cirpc]। अनिवासियों पर केवल मोज़ाम्बिक-स्रोत आय पर कर लगता है, आमतौर पर अंतिम विदहोल्डिंग टैक्स के माध्यम से [ref:ta-tax-indicators]। IVA (मूल्य वर्धित कर) मोज़ाम्बिक में बेची गई वस्तुओं और सेवाओं तथा आयात पर लागू होता है; निर्यात मुक्त है [ref:civa]।",
+        "sw": "Kampuni ni mkaazi pale ofisi yake kuu au uongozi wake halisi uko Msumbiji, na hutozwa kodi kwa mapato yake ya duniani kote kwa kiwango cha jumla cha kodi ya mapato ya kampuni (IRPC) [ref:cirpc]. Wasio wakaazi hutozwa kodi tu kwa mapato yanayotoka Msumbiji, kwa kawaida kupitia kodi ya zuio ya mwisho [ref:ta-tax-indicators]. VAT (IVA) inatumika kwa bidhaa na huduma zinazouzwa Msumbiji na kwa uagizaji; mauzo ya nje yamesamehewa [ref:civa].",
+        "af": "'n Maatskappy is inwoner wanneer sy hoofkantoor of effektiewe bestuur in Mosambiek is, en dit word op wêreldwye inkomste teen die algemene koers van maatskappy-inkomstebelasting (IRPC) belas [ref:cirpc]. Nie-inwoners word slegs op inkomste uit 'n Mosambiekse bron belas, gewoonlik deur 'n finale terughoudingsbelasting [ref:ta-tax-indicators]. BTW (IVA) is van toepassing op goedere en dienste wat in Mosambiek verkoop word en op invoere; uitvoere is vrygestel [ref:civa]."
       },
       "table": {
         "caption": {
           "pt": "Indicadores fiscais de Moçambique",
           "en": "Mozambique tax indicators",
-          "fr": "Indicateurs fiscaux du Mozambique"
+          "fr": "Indicateurs fiscaux du Mozambique",
+          "zh": "莫桑比克税务指标",
+          "ar": "المؤشرات الضريبية في موزمبيق",
+          "hi": "मोज़ाम्बिक के कर संकेतक",
+          "sw": "Viashiria vya kodi vya Msumbiji",
+          "af": "Belastingaanwysers van Mosambiek"
         },
         "columns": [
           {
             "pt": "Imposto",
             "en": "Tax",
-            "fr": "Impôt"
+            "fr": "Impôt",
+            "zh": "税种",
+            "ar": "الضريبة",
+            "hi": "कर",
+            "sw": "Kodi",
+            "af": "Belasting"
           },
           {
             "pt": "Residentes",
             "en": "Residents",
-            "fr": "Résidents"
+            "fr": "Résidents",
+            "zh": "居民",
+            "ar": "المقيمون",
+            "hi": "निवासी",
+            "sw": "Wakaazi",
+            "af": "Inwoners"
           },
           {
             "pt": "Não residentes",
             "en": "Non-residents",
-            "fr": "Non-résidents"
+            "fr": "Non-résidents",
+            "zh": "非居民",
+            "ar": "غير المقيمين",
+            "hi": "अनिवासी",
+            "sw": "Wasio wakaazi",
+            "af": "Nie-inwoners"
           }
         ],
         "rows": [
@@ -41,109 +71,204 @@
             {
               "pt": "Imposto sobre o rendimento (IRPC)",
               "en": "Corporate income tax (IRPC)",
-              "fr": "Impôt sur les sociétés (IRPC)"
+              "fr": "Impôt sur les sociétés (IRPC)",
+              "zh": "企业所得税（IRPC）",
+              "ar": "ضريبة دخل الشركات (IRPC)",
+              "hi": "कॉर्पोरेट आयकर (IRPC)",
+              "sw": "Kodi ya mapato ya kampuni (IRPC)",
+              "af": "Maatskappy-inkomstebelasting (IRPC)"
             },
             {
               "pt": "32%",
               "en": "32%",
-              "fr": "32 %"
+              "fr": "32 %",
+              "zh": "32%",
+              "ar": "32%",
+              "hi": "32%",
+              "sw": "32%",
+              "af": "32%"
             },
             {
               "pt": "20% ou 10% (retenção definitiva)",
               "en": "20% or 10% (final withholding)",
-              "fr": "20 % ou 10 % (retenue libératoire)"
+              "fr": "20 % ou 10 % (retenue libératoire)",
+              "zh": "20% 或 10%（最终预提）",
+              "ar": "20% أو 10% (اقتطاع نهائي)",
+              "hi": "20% या 10% (अंतिम विदहोल्डिंग)",
+              "sw": "20% au 10% (kodi ya zuio ya mwisho)",
+              "af": "20% of 10% (finale terughouding)"
             }
           ],
           [
             {
               "pt": "Mais-valias",
               "en": "Capital gains",
-              "fr": "Plus-values"
+              "fr": "Plus-values",
+              "zh": "资本利得",
+              "ar": "الأرباح الرأسمالية",
+              "hi": "पूंजीगत लाभ",
+              "sw": "Faida ya mtaji",
+              "af": "Kapitaalwinste"
             },
             {
               "pt": "32% (integradas no rendimento)",
               "en": "32% (part of business income)",
-              "fr": "32 % (intégrées au résultat)"
+              "fr": "32 % (intégrées au résultat)",
+              "zh": "32%（计入经营所得）",
+              "ar": "32% (جزء من دخل النشاط)",
+              "hi": "32% (व्यावसायिक आय का हिस्सा)",
+              "sw": "32% (sehemu ya mapato ya biashara)",
+              "af": "32% (deel van besigheidsinkomste)"
             },
             {
               "pt": "32% (taxa final)",
               "en": "32% (final tax)",
-              "fr": "32 % (impôt final)"
+              "fr": "32 % (impôt final)",
+              "zh": "32%（最终税）",
+              "ar": "32% (ضريبة نهائية)",
+              "hi": "32% (अंतिम कर)",
+              "sw": "32% (kodi ya mwisho)",
+              "af": "32% (finale belasting)"
             }
           ],
           [
             {
               "pt": "IVA",
               "en": "VAT",
-              "fr": "TVA"
+              "fr": "TVA",
+              "zh": "增值税（IVA）",
+              "ar": "ضريبة القيمة المضافة (IVA)",
+              "hi": "IVA (मूल्य वर्धित कर)",
+              "sw": "VAT",
+              "af": "BTW (IVA)"
             },
             {
               "pt": "16% (exportações isentas)",
               "en": "16% (exports exempt)",
-              "fr": "16 % (exportations exonérées)"
+              "fr": "16 % (exportations exonérées)",
+              "zh": "16%（出口免税）",
+              "ar": "16% (الصادرات معفاة)",
+              "hi": "16% (निर्यात मुक्त)",
+              "sw": "16% (mauzo ya nje yamesamehewa)",
+              "af": "16% (uitvoere vrygestel)"
             },
             {
               "pt": "16%",
               "en": "16%",
-              "fr": "16 %"
+              "fr": "16 %",
+              "zh": "16%",
+              "ar": "16%",
+              "hi": "16%",
+              "sw": "16%",
+              "af": "16%"
             }
           ],
           [
             {
               "pt": "Rendimento das pessoas singulares (IRPS)",
               "en": "Personal income tax (IRPS)",
-              "fr": "Impôt sur le revenu des personnes physiques (IRPS)"
+              "fr": "Impôt sur le revenu des personnes physiques (IRPS)",
+              "zh": "个人所得税（IRPS）",
+              "ar": "ضريبة دخل الأفراد (IRPS)",
+              "hi": "व्यक्तिगत आयकर (IRPS)",
+              "sw": "Kodi ya mapato ya mtu binafsi (IRPS)",
+              "af": "Persoonlike inkomstebelasting (IRPS)"
             },
             {
               "pt": "10% a 32%",
               "en": "10% to 32%",
-              "fr": "10 % à 32 %"
+              "fr": "10 % à 32 %",
+              "zh": "10% 至 32%",
+              "ar": "من 10% إلى 32%",
+              "hi": "10% से 32%",
+              "sw": "10% hadi 32%",
+              "af": "10% tot 32%"
             },
             {
               "pt": "20%",
               "en": "20%",
-              "fr": "20 %"
+              "fr": "20 %",
+              "zh": "20%",
+              "ar": "20%",
+              "hi": "20%",
+              "sw": "20%",
+              "af": "20%"
             }
           ],
           [
             {
               "pt": "Retenção: dividendos, juros, royalties, serviços técnicos e de gestão",
               "en": "Withholding: dividends, interest, royalties, technical and management fees",
-              "fr": "Retenue : dividendes, intérêts, redevances, honoraires techniques et de gestion"
+              "fr": "Retenue : dividendes, intérêts, redevances, honoraires techniques et de gestion",
+              "zh": "预提税：股息、利息、特许权使用费、技术服务费和管理费",
+              "ar": "الاقتطاع: الأرباح الموزعة والفوائد والإتاوات وأتعاب الخدمات الفنية والإدارية",
+              "hi": "विदहोल्डिंग: लाभांश, ब्याज, रॉयल्टी, तकनीकी और प्रबंधन शुल्क",
+              "sw": "Kodi ya zuio: gawio, riba, mirabaha, ada za kiufundi na za usimamizi",
+              "af": "Terughouding: dividende, rente, tantième, tegniese en bestuursfooie"
             },
             {
               "pt": "20%",
               "en": "20%",
-              "fr": "20 %"
+              "fr": "20 %",
+              "zh": "20%",
+              "ar": "20%",
+              "hi": "20%",
+              "sw": "20%",
+              "af": "20%"
             },
             {
               "pt": "20% (10% nos casos previstos)",
               "en": "20% (10% in specified cases)",
-              "fr": "20 % (10 % dans les cas prévus)"
+              "fr": "20 % (10 % dans les cas prévus)",
+              "zh": "20%（特定情况下为 10%）",
+              "ar": "20% (10% في حالات محددة)",
+              "hi": "20% (निर्दिष्ट मामलों में 10%)",
+              "sw": "20% (10% katika hali zilizobainishwa)",
+              "af": "20% (10% in bepaalde gevalle)"
             }
           ],
           [
             {
               "pt": "Exercício fiscal",
               "en": "Fiscal year",
-              "fr": "Exercice fiscal"
+              "fr": "Exercice fiscal",
+              "zh": "财政年度",
+              "ar": "السنة المالية",
+              "hi": "वित्तीय वर्ष",
+              "sw": "Mwaka wa fedha",
+              "af": "Belastingjaar"
             },
             {
               "pt": "Ano civil; outro período mediante pedido",
               "en": "Calendar year; a different year on request",
-              "fr": "Année civile ; autre exercice sur demande"
+              "fr": "Année civile ; autre exercice sur demande",
+              "zh": "公历年度；可申请采用不同的年度",
+              "ar": "السنة الميلادية؛ ويمكن طلب سنة مختلفة",
+              "hi": "कैलेंडर वर्ष; अनुरोध पर अलग वर्ष",
+              "sw": "Mwaka wa kalenda; mwaka tofauti kwa ombi",
+              "af": "Kalenderjaar; 'n ander jaar op versoek"
             },
             {
               "pt": "Ano civil; as sucursais podem pedir outro período",
               "en": "Calendar year; branches may request a different year",
-              "fr": "Année civile ; les succursales peuvent demander un autre exercice"
+              "fr": "Année civile ; les succursales peuvent demander un autre exercice",
+              "zh": "公历年度；分公司可申请采用不同的年度",
+              "ar": "السنة الميلادية؛ ويجوز للفروع طلب سنة مختلفة",
+              "hi": "कैलेंडर वर्ष; शाखाएँ अलग वर्ष का अनुरोध कर सकती हैं",
+              "sw": "Mwaka wa kalenda; matawi yanaweza kuomba mwaka tofauti",
+              "af": "Kalenderjaar; takke kan 'n ander jaar aanvra"
             }
           ]
         ],
         "note": {
           "pt": "Fonte: fichas fiscais da Tax Advisory. Os valores devem ser confirmados à luz da reforma fiscal de 2025–2026 (Leis n.º 9 a 12/2025) antes de qualquer decisão.",
           "en": "Source: Tax Advisory tax sheets. Confirm the figures against the 2025–2026 tax reform (Laws 9 to 12/2025) before making any decision.",
-          "fr": "Source : fiches fiscales de Tax Advisory. Les chiffres doivent être confirmés au regard de la réforme fiscale 2025–2026 (lois n° 9 à 12/2025) avant toute décision."
+          "fr": "Source : fiches fiscales de Tax Advisory. Les chiffres doivent être confirmés au regard de la réforme fiscale 2025–2026 (lois n° 9 à 12/2025) avant toute décision.",
+          "zh": "来源：Tax Advisory 税务简报。作出任何决定前，请对照 2025–2026 年税制改革（Leis n.º 9 a 12/2025）核实上述数据。",
+          "ar": "المصدر: الجداول الضريبية لـ Tax Advisory. تحقّق من الأرقام في ضوء الإصلاح الضريبي 2025–2026 (Leis n.º 9 a 12/2025) قبل اتخاذ أي قرار.",
+          "hi": "स्रोत: Tax Advisory की कर तालिकाएँ। कोई भी निर्णय लेने से पहले 2025–2026 के कर सुधार (Leis n.º 9 a 12/2025) के अनुसार आँकड़ों की पुष्टि करें।",
+          "sw": "Chanzo: karatasi za kodi za Tax Advisory. Thibitisha takwimu dhidi ya mageuzi ya kodi ya 2025–2026 (Leis n.º 9 hadi 12/2025) kabla ya kufanya uamuzi wowote.",
+          "af": "Bron: belastingblaaie van Tax Advisory. Bevestig die syfers teen die belastinghervorming van 2025–2026 (Wette 9 tot 12/2025) voordat enige besluit geneem word."
         }
       }
     },
@@ -152,12 +277,22 @@
       "title": {
         "pt": "Retenções e regras anti-abuso",
         "en": "Withholding and anti-avoidance rules",
-        "fr": "Retenues et règles anti-abus"
+        "fr": "Retenues et règles anti-abus",
+        "zh": "预提税与反避税规则",
+        "ar": "الاقتطاع وقواعد مكافحة التهرب",
+        "hi": "विदहोल्डिंग और कर-परिहार विरोधी नियम",
+        "sw": "Kodi ya zuio na kanuni za kuzuia ukwepaji",
+        "af": "Terughouding en teen-ontwykingsreëls"
       },
       "body": {
         "pt": "A retenção sobre não residentes desce para **10%** em quatro casos [ref:ta-tax-indicators]:\n- telecomunicações e transporte internacional, incluindo montagem de equipamento associado e manutenção e aluguer de aeronaves;\n- construção e reabilitação de infra-estruturas de electricidade em projectos públicos de electrificação rural;\n- afretamento de embarcações para pesca e cabotagem;\n- obrigações cotadas na Bolsa de Valores de Moçambique.\n\nOs dividendos entre sociedades residentes ficam isentos de retenção e de IRPC quando a participação é de pelo menos **20%** e é detida há pelo menos **dois anos**. Aplica-se uma regra de subcapitalização de **2:1** (dívida/capital) e o princípio de plena concorrência nos preços de transferência.",
         "en": "Non-resident withholding falls to **10%** in four cases [ref:ta-tax-indicators]:\n- telecommunications and international transport, including related equipment assembly and aircraft maintenance and hire;\n- building and rehabilitating electricity infrastructure in public rural electrification projects;\n- chartering vessels for fishing and coastal shipping;\n- bonds listed on the Mozambique Stock Exchange.\n\nDividends between resident companies are exempt from withholding and CIT when the holding is at least **20%** and has been held for at least **two years**. A **2:1** debt-to-equity thin capitalisation rule applies, and transfer pricing follows the arm's length principle.",
-        "fr": "La retenue sur les non-résidents est ramenée à **10 %** dans quatre cas [ref:ta-tax-indicators] :\n- télécommunications et transport international, y compris le montage des équipements associés et l'entretien et la location d'aéronefs ;\n- construction et réhabilitation d'infrastructures électriques dans les projets publics d'électrification rurale ;\n- affrètement de navires de pêche et de cabotage ;\n- obligations cotées à la Bourse des valeurs du Mozambique.\n\nLes dividendes entre sociétés résidentes sont exonérés de retenue et d'IRPC lorsque la participation atteint au moins **20 %** et est détenue depuis au moins **deux ans**. Une règle de sous-capitalisation de **2:1** (dette/fonds propres) s'applique, et les prix de transfert suivent le principe de pleine concurrence."
+        "fr": "La retenue sur les non-résidents est ramenée à **10 %** dans quatre cas [ref:ta-tax-indicators] :\n- télécommunications et transport international, y compris le montage des équipements associés et l'entretien et la location d'aéronefs ;\n- construction et réhabilitation d'infrastructures électriques dans les projets publics d'électrification rurale ;\n- affrètement de navires de pêche et de cabotage ;\n- obligations cotées à la Bourse des valeurs du Mozambique.\n\nLes dividendes entre sociétés résidentes sont exonérés de retenue et d'IRPC lorsque la participation atteint au moins **20 %** et est détenue depuis au moins **deux ans**. Une règle de sous-capitalisation de **2:1** (dette/fonds propres) s'applique, et les prix de transfert suivent le principe de pleine concurrence.",
+        "zh": "在以下四种情况下，非居民预提税降至 **10%** [ref:ta-tax-indicators]：\n- 电信和国际运输，包括相关设备安装以及飞机维修和租赁；\n- 公共农村电气化项目中电力基础设施的建设和修复；\n- 用于捕鱼和沿海航运的船舶租赁；\n- 在莫桑比克证券交易所上市的债券。\n\n居民公司之间的股息，在持股比例至少为 **20%** 且持有期至少 **两年** 的情况下，免征预提税和企业所得税。适用 **2:1** 的债务与权益资本弱化规则，转让定价遵循独立交易原则。",
+        "ar": "ينخفض الاقتطاع على غير المقيمين إلى **10%** في أربع حالات [ref:ta-tax-indicators]:\n- الاتصالات والنقل الدولي، بما في ذلك تركيب المعدات ذات الصلة وصيانة الطائرات وتأجيرها؛\n- إنشاء البنية التحتية للكهرباء وإعادة تأهيلها في مشاريع الكهربة الريفية العامة؛\n- استئجار السفن لصيد الأسماك والملاحة الساحلية؛\n- السندات المدرجة في بورصة موزمبيق.\n\nتُعفى الأرباح الموزعة بين الشركات المقيمة من الاقتطاع ومن ضريبة دخل الشركات عندما تبلغ المساهمة **20%** على الأقل وتُحتفظ بها **سنتين** على الأقل. وتنطبق قاعدة الرسملة الضعيفة بنسبة **2:1** بين الدين وحقوق الملكية، وتتبع أسعار التحويل مبدأ السعر المحايد.",
+        "hi": "अनिवासियों के लिए विदहोल्डिंग चार मामलों में घटकर **10%** हो जाती है [ref:ta-tax-indicators]:\n- दूरसंचार और अंतरराष्ट्रीय परिवहन, जिसमें संबंधित उपकरणों की असेंबली और विमानों का रखरखाव तथा किराया शामिल है;\n- सार्वजनिक ग्रामीण विद्युतीकरण परियोजनाओं में बिजली के बुनियादी ढांचे का निर्माण और पुनर्वास;\n- मत्स्य पालन और तटीय नौवहन के लिए जहाज़ों का चार्टर;\n- मोज़ाम्बिक स्टॉक एक्सचेंज (Bolsa de Valores de Moçambique) पर सूचीबद्ध बॉन्ड।\n\nनिवासी कंपनियों के बीच लाभांश विदहोल्डिंग और IRPC से मुक्त होते हैं, जब हिस्सेदारी कम से कम **20%** हो और कम से कम **दो वर्ष** से रखी गई हो। **2:1** ऋण-इक्विटी थिन कैपिटलाइज़ेशन नियम लागू होता है, और ट्रांसफ़र प्राइसिंग आर्म्स लेंथ सिद्धांत का पालन करती है।",
+        "sw": "Kodi ya zuio kwa wasio wakaazi hushuka hadi **10%** katika hali nne [ref:ta-tax-indicators]:\n- mawasiliano ya simu na usafiri wa kimataifa, ikiwemo uunganishaji wa vifaa vinavyohusiana na matengenezo na ukodishaji wa ndege;\n- ujenzi na ukarabati wa miundombinu ya umeme katika miradi ya umma ya usambazaji wa umeme vijijini;\n- ukodishaji wa meli kwa uvuvi na usafiri wa pwani;\n- hatifungani zilizoorodheshwa katika Soko la Hisa la Msumbiji.\n\nGawio kati ya kampuni wakaazi limesamehewa kodi ya zuio na IRPC pale umiliki ni angalau **20%** na umeshikiliwa kwa angalau **miaka miwili**. Kanuni ya mtaji mdogo (thin capitalisation) ya uwiano wa deni kwa mtaji wa **2:1** inatumika, na bei za uhamisho hufuata kanuni ya bei ya soko huria (arm's length).",
+        "af": "Terughouding vir nie-inwoners daal tot **10%** in vier gevalle [ref:ta-tax-indicators]:\n- telekommunikasie en internasionale vervoer, insluitend verwante toerustingmontering en vliegtuiginstandhouding en -huur;\n- bou en rehabilitasie van elektrisiteitsinfrastruktuur in openbare landelike elektrifiseringsprojekte;\n- huur van vaartuie vir vissery en kusvaart;\n- effekte genoteer op die Mosambiekse Effektebeurs.\n\nDividende tussen inwonermaatskappye is vrygestel van terughouding en IRPC wanneer die belang minstens **20%** is en vir minstens **twee jaar** gehou is. 'n Reël vir onderkapitalisasie met 'n skuld-tot-ekwiteit-verhouding van **2:1** geld, en verrekeningspryse volg die armlengtebeginsel."
       }
     },
     {
@@ -165,44 +300,84 @@
       "title": {
         "pt": "Acordos de dupla tributação",
         "en": "Double tax treaties",
-        "fr": "Conventions de double imposition"
+        "fr": "Conventions de double imposition",
+        "zh": "避免双重征税协定",
+        "ar": "اتفاقيات تجنّب الازدواج الضريبي",
+        "hi": "दोहरा कराधान परिहार समझौते (DTAA)",
+        "sw": "Mikataba ya kuepuka kutozwa kodi mara mbili",
+        "af": "Dubbelbelastingooreenkomste"
       },
       "body": {
         "pt": "Moçambique tem acordos para evitar a dupla tributação com nove jurisdições [ref:dta-network]. Quando aplicáveis, reduzem a retenção de 20% sobre rendimentos pagos ao exterior [ref:ta-dta-rates].",
         "en": "Mozambique has double tax treaties with nine jurisdictions [ref:dta-network]. Where they apply, they reduce the 20% withholding on income paid abroad [ref:ta-dta-rates].",
-        "fr": "Le Mozambique a conclu des conventions de non double imposition avec neuf juridictions [ref:dta-network]. Lorsqu'elles s'appliquent, elles réduisent la retenue de 20 % sur les revenus versés à l'étranger [ref:ta-dta-rates]."
+        "fr": "Le Mozambique a conclu des conventions de non double imposition avec neuf juridictions [ref:dta-network]. Lorsqu'elles s'appliquent, elles réduisent la retenue de 20 % sur les revenus versés à l'étranger [ref:ta-dta-rates].",
+        "zh": "莫桑比克与九个法域签订了避免双重征税协定 [ref:dta-network]。在适用时，协定可降低向境外支付所得的 20% 预提税 [ref:ta-dta-rates]。",
+        "ar": "لدى موزمبيق اتفاقيات لتجنّب الازدواج الضريبي مع تسع ولايات قضائية [ref:dta-network]. وحيثما تنطبق، تخفّض الاقتطاع البالغ 20% على الدخل المدفوع إلى الخارج [ref:ta-dta-rates].",
+        "hi": "मोज़ाम्बिक के नौ क्षेत्राधिकारों के साथ दोहरा कराधान परिहार समझौते हैं [ref:dta-network]। जहाँ ये लागू होते हैं, वहाँ विदेश में भुगतान की गई आय पर 20% विदहोल्डिंग घट जाती है [ref:ta-dta-rates]।",
+        "sw": "Msumbiji ina mikataba ya kuepuka kutozwa kodi mara mbili na mamlaka tisa [ref:dta-network]. Inapotumika, hupunguza kodi ya zuio ya 20% kwa mapato yanayolipwa nje ya nchi [ref:ta-dta-rates].",
+        "af": "Mosambiek het dubbelbelastingooreenkomste met nege jurisdiksies [ref:dta-network]. Waar dit van toepassing is, verminder dit die terughouding van 20% op inkomste wat na die buiteland betaal word [ref:ta-dta-rates]."
       },
       "table": {
         "caption": {
           "pt": "Taxas de retenção nos acordos de dupla tributação",
           "en": "Withholding rates under the double tax treaties",
-          "fr": "Taux de retenue prévus par les conventions fiscales"
+          "fr": "Taux de retenue prévus par les conventions fiscales",
+          "zh": "避免双重征税协定下的预提税率",
+          "ar": "معدلات الاقتطاع بموجب اتفاقيات تجنّب الازدواج الضريبي",
+          "hi": "दोहरा कराधान समझौतों के तहत विदहोल्डिंग दरें",
+          "sw": "Viwango vya kodi ya zuio chini ya mikataba ya kuepuka kutozwa kodi mara mbili",
+          "af": "Terughoudingskoerse ingevolge die dubbelbelastingooreenkomste"
         },
         "columns": [
           {
             "pt": "Beneficiário",
             "en": "Recipient",
-            "fr": "Bénéficiaire"
+            "fr": "Bénéficiaire",
+            "zh": "收款方",
+            "ar": "المستفيد",
+            "hi": "प्राप्तकर्ता",
+            "sw": "Mpokeaji",
+            "af": "Ontvanger"
           },
           {
             "pt": "Dividendos",
             "en": "Dividends",
-            "fr": "Dividendes"
+            "fr": "Dividendes",
+            "zh": "股息",
+            "ar": "الأرباح الموزعة",
+            "hi": "लाभांश",
+            "sw": "Gawio",
+            "af": "Dividende"
           },
           {
             "pt": "Juros",
             "en": "Interest",
-            "fr": "Intérêts"
+            "fr": "Intérêts",
+            "zh": "利息",
+            "ar": "الفوائد",
+            "hi": "ब्याज",
+            "sw": "Riba",
+            "af": "Rente"
           },
           {
             "pt": "Royalties",
             "en": "Royalties",
-            "fr": "Redevances"
+            "fr": "Redevances",
+            "zh": "特许权使用费",
+            "ar": "الإتاوات",
+            "hi": "रॉयल्टी",
+            "sw": "Mirabaha",
+            "af": "Tantième"
           },
           {
             "pt": "Serviços de gestão e consultoria",
             "en": "Management and consultancy fees",
-            "fr": "Honoraires de gestion et de conseil"
+            "fr": "Honoraires de gestion et de conseil",
+            "zh": "管理费和咨询费",
+            "ar": "أتعاب الإدارة والاستشارات",
+            "hi": "प्रबंधन और परामर्श शुल्क",
+            "sw": "Ada za usimamizi na ushauri",
+            "af": "Bestuurs- en konsultasiefooie"
           }
         ],
         "rows": [
@@ -210,277 +385,532 @@
             {
               "pt": "Taxa interna (sem acordo)",
               "en": "Domestic rate (no treaty)",
-              "fr": "Taux interne (sans convention)"
+              "fr": "Taux interne (sans convention)",
+              "zh": "国内税率（无协定）",
+              "ar": "المعدل المحلي (بلا اتفاقية)",
+              "hi": "घरेलू दर (कोई समझौता नहीं)",
+              "sw": "Kiwango cha ndani (bila mkataba)",
+              "af": "Binnelandse koers (geen verdrag)"
             },
             {
               "pt": "20%",
               "en": "20%",
-              "fr": "20 %"
+              "fr": "20 %",
+              "zh": "20%",
+              "ar": "20%",
+              "hi": "20%",
+              "sw": "20%",
+              "af": "20%"
             },
             {
               "pt": "20%",
               "en": "20%",
-              "fr": "20 %"
+              "fr": "20 %",
+              "zh": "20%",
+              "ar": "20%",
+              "hi": "20%",
+              "sw": "20%",
+              "af": "20%"
             },
             {
               "pt": "20%",
               "en": "20%",
-              "fr": "20 %"
+              "fr": "20 %",
+              "zh": "20%",
+              "ar": "20%",
+              "hi": "20%",
+              "sw": "20%",
+              "af": "20%"
             },
             {
               "pt": "20%",
               "en": "20%",
-              "fr": "20 %"
+              "fr": "20 %",
+              "zh": "20%",
+              "ar": "20%",
+              "hi": "20%",
+              "sw": "20%",
+              "af": "20%"
             }
           ],
           [
             {
               "pt": "Botswana",
               "en": "Botswana",
-              "fr": "Botswana"
+              "fr": "Botswana",
+              "zh": "博茨瓦纳",
+              "ar": "بوتسوانا",
+              "hi": "बोत्सवाना",
+              "sw": "Botswana",
+              "af": "Botswana"
             },
             {
               "pt": "0% ou 12%*",
               "en": "0% or 12%*",
-              "fr": "0 % ou 12 %*"
+              "fr": "0 % ou 12 %*",
+              "zh": "0% 或 12%*",
+              "ar": "0% أو 12%*",
+              "hi": "0% या 12%*",
+              "sw": "0% au 12%*",
+              "af": "0% of 12%*"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "Índia",
               "en": "India",
-              "fr": "Inde"
+              "fr": "Inde",
+              "zh": "印度",
+              "ar": "الهند",
+              "hi": "भारत",
+              "sw": "India",
+              "af": "Indië"
             },
             {
               "pt": "7,5%",
               "en": "7.5%",
-              "fr": "7,5 %"
+              "fr": "7,5 %",
+              "zh": "7.5%",
+              "ar": "7.5%",
+              "hi": "7.5%",
+              "sw": "7.5%",
+              "af": "7.5%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "Itália",
               "en": "Italy",
-              "fr": "Italie"
+              "fr": "Italie",
+              "zh": "意大利",
+              "ar": "إيطاليا",
+              "hi": "इटली",
+              "sw": "Italia",
+              "af": "Italië"
             },
             {
               "pt": "15%",
               "en": "15%",
-              "fr": "15 %"
+              "fr": "15 %",
+              "zh": "15%",
+              "ar": "15%",
+              "hi": "15%",
+              "sw": "15%",
+              "af": "15%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "Macau",
               "en": "Macau",
-              "fr": "Macao"
+              "fr": "Macao",
+              "zh": "中国澳门",
+              "ar": "ماكاو",
+              "hi": "मकाऊ",
+              "sw": "Macau",
+              "af": "Macau"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             }
           ],
           [
             {
               "pt": "Maurícias",
               "en": "Mauritius",
-              "fr": "Maurice"
+              "fr": "Maurice",
+              "zh": "毛里求斯",
+              "ar": "موريشيوس",
+              "hi": "मॉरीशस",
+              "sw": "Morisi",
+              "af": "Mauritius"
             },
             {
               "pt": "8%, 10% ou 15%*",
               "en": "8%, 10% or 15%*",
-              "fr": "8 %, 10 % ou 15 %*"
+              "fr": "8 %, 10 % ou 15 %*",
+              "zh": "8%、10% 或 15%*",
+              "ar": "8% أو 10% أو 15%*",
+              "hi": "8%, 10% या 15%*",
+              "sw": "8%, 10% au 15%*",
+              "af": "8%, 10% of 15%*"
             },
             {
               "pt": "8%",
               "en": "8%",
-              "fr": "8 %"
+              "fr": "8 %",
+              "zh": "8%",
+              "ar": "8%",
+              "hi": "8%",
+              "sw": "8%",
+              "af": "8%"
             },
             {
               "pt": "5%",
               "en": "5%",
-              "fr": "5 %"
+              "fr": "5 %",
+              "zh": "5%",
+              "ar": "5%",
+              "hi": "5%",
+              "sw": "5%",
+              "af": "5%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "Portugal",
               "en": "Portugal",
-              "fr": "Portugal"
+              "fr": "Portugal",
+              "zh": "葡萄牙",
+              "ar": "البرتغال",
+              "hi": "पुर्तगाल",
+              "sw": "Ureno",
+              "af": "Portugal"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "África do Sul",
               "en": "South Africa",
-              "fr": "Afrique du Sud"
+              "fr": "Afrique du Sud",
+              "zh": "南非",
+              "ar": "جنوب أفريقيا",
+              "hi": "दक्षिण अफ्रीका",
+              "sw": "Afrika Kusini",
+              "af": "Suid-Afrika"
             },
             {
               "pt": "8% ou 15%*",
               "en": "8% or 15%*",
-              "fr": "8 % ou 15 %*"
+              "fr": "8 % ou 15 %*",
+              "zh": "8% 或 15%*",
+              "ar": "8% أو 15%*",
+              "hi": "8% या 15%*",
+              "sw": "8% au 15%*",
+              "af": "8% of 15%*"
             },
             {
               "pt": "8%",
               "en": "8%",
-              "fr": "8 %"
+              "fr": "8 %",
+              "zh": "8%",
+              "ar": "8%",
+              "hi": "8%",
+              "sw": "8%",
+              "af": "8%"
             },
             {
               "pt": "5%",
               "en": "5%",
-              "fr": "5 %"
+              "fr": "5 %",
+              "zh": "5%",
+              "ar": "5%",
+              "hi": "5%",
+              "sw": "5%",
+              "af": "5%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "Emirados Árabes Unidos",
               "en": "United Arab Emirates",
-              "fr": "Émirats arabes unis"
+              "fr": "Émirats arabes unis",
+              "zh": "阿拉伯联合酋长国",
+              "ar": "الإمارات العربية المتحدة",
+              "hi": "संयुक्त अरब अमीरात",
+              "sw": "Falme za Kiarabu",
+              "af": "Verenigde Arabiese Emirate"
             },
             {
               "pt": "0%",
               "en": "0%",
-              "fr": "0 %"
+              "fr": "0 %",
+              "zh": "0%",
+              "ar": "0%",
+              "hi": "0%",
+              "sw": "0%",
+              "af": "0%"
             },
             {
               "pt": "0%**",
               "en": "0%**",
-              "fr": "0 %**"
+              "fr": "0 %**",
+              "zh": "0%**",
+              "ar": "0%**",
+              "hi": "0%**",
+              "sw": "0%**",
+              "af": "0%**"
             },
             {
               "pt": "5%",
               "en": "5%",
-              "fr": "5 %"
+              "fr": "5 %",
+              "zh": "5%",
+              "ar": "5%",
+              "hi": "5%",
+              "sw": "5%",
+              "af": "5%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ],
           [
             {
               "pt": "Vietname",
               "en": "Vietnam",
-              "fr": "Viêt Nam"
+              "fr": "Viêt Nam",
+              "zh": "越南",
+              "ar": "فيتنام",
+              "hi": "वियतनाम",
+              "sw": "Vietnam",
+              "af": "Viëtnam"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             },
             {
               "pt": "0%***",
               "en": "0%***",
-              "fr": "0 %***"
+              "fr": "0 %***",
+              "zh": "0%***",
+              "ar": "0%***",
+              "hi": "0%***",
+              "sw": "0%***",
+              "af": "0%***"
             }
           ]
         ],
         "note": {
           "pt": "* A taxa depende da participação efectiva do beneficiário. ** O Estado de residência do beneficiário tem o direito de tributar, embora em alguns casos o Estado da fonte também possa tributar. *** Na prática, a Autoridade Tributária tende a tributar os serviços de gestão e consultoria como royalties.",
           "en": "* The rate depends on the recipient's beneficial shareholding. ** The recipient's state of residence has the taxing right, although in some cases the source state may also tax. *** In practice, the Tax Authority tends to tax management and consultancy fees as royalties.",
-          "fr": "* Le taux dépend de la participation effective du bénéficiaire. ** L'État de résidence du bénéficiaire a le droit d'imposer, mais dans certains cas l'État de la source peut aussi imposer. *** En pratique, l'Autorité fiscale tend à imposer les honoraires de gestion et de conseil comme des redevances."
+          "fr": "* Le taux dépend de la participation effective du bénéficiaire. ** L'État de résidence du bénéficiaire a le droit d'imposer, mais dans certains cas l'État de la source peut aussi imposer. *** En pratique, l'Autorité fiscale tend à imposer les honoraires de gestion et de conseil comme des redevances.",
+          "zh": "* 税率取决于收款方的实益持股比例。** 由收款方居民国享有征税权，但在某些情况下来源国也可征税。*** 实践中，税务机关倾向于将管理费和咨询费按特许权使用费征税。",
+          "ar": "* يتوقف المعدل على المساهمة المستفيدة للمستلم. ** لدولة إقامة المستلم حق فرض الضريبة، وإن كان يجوز لدولة المصدر أيضاً فرضها في بعض الحالات. *** عملياً، تميل هيئة الضرائب إلى فرض الضريبة على أتعاب الإدارة والاستشارات باعتبارها إتاوات.",
+          "hi": "* दर प्राप्तकर्ता की लाभकारी शेयरधारिता पर निर्भर करती है। ** कर लगाने का अधिकार प्राप्तकर्ता के निवास वाले देश को है, हालांकि कुछ मामलों में स्रोत देश भी कर लगा सकता है। *** व्यवहार में, कर प्राधिकरण प्रबंधन और परामर्श शुल्क पर रॉयल्टी की तरह कर लगाने की प्रवृत्ति रखता है।",
+          "sw": "* Kiwango hutegemea umiliki halisi wa hisa wa mpokeaji. ** Nchi ya ukaazi ya mpokeaji ina haki ya kutoza kodi, ingawa katika baadhi ya hali nchi chanzo inaweza pia kutoza. *** Kwa vitendo, Mamlaka ya Kodi huelekea kutoza ada za usimamizi na ushauri kama mirabaha.",
+          "af": "* Die koers hang af van die ontvanger se voordelige aandeelhouding. ** Die ontvanger se woonstaat het die heffingsreg, hoewel die bronstaat in sommige gevalle ook kan belas. *** In die praktyk is die Belastingowerheid geneig om bestuurs- en konsultasiefooie as tantième te belas."
         }
       }
     },
@@ -489,12 +919,22 @@
       "title": {
         "pt": "Como aplicar um acordo",
         "en": "How to claim treaty relief",
-        "fr": "Comment bénéficier d'une convention"
+        "fr": "Comment bénéficier d'une convention",
+        "zh": "如何申请协定优惠",
+        "ar": "كيفية المطالبة بمزايا الاتفاقية",
+        "hi": "समझौते के तहत राहत का दावा कैसे करें",
+        "sw": "Jinsi ya kudai nafuu ya mkataba",
+        "af": "Hoe om verdragsverligting te eis"
       },
       "body": {
         "pt": "Os acordos **não se aplicam automaticamente** [ref:business-guide-2025]. Antes do pagamento, o beneficiário deve:\n- obter um certificado de residência fiscal emitido pela administração fiscal do seu país;\n- apresentá-lo para confirmação pela Autoridade Tributária de Moçambique;\n- preencher os formulários aprovados pelo Ministério das Finanças.\n\nSem esta documentação, quem paga retém à taxa interna de 20%.",
         "en": "Treaties **do not apply automatically** [ref:business-guide-2025]. Before payment, the recipient must:\n- obtain a certificate of tax residence from its own country's tax administration;\n- submit it for confirmation by the Mozambican Tax Authority;\n- complete the forms approved by the Ministry of Finance.\n\nWithout these documents, the payer withholds at the domestic 20% rate.",
-        "fr": "Les conventions **ne s'appliquent pas automatiquement** [ref:business-guide-2025]. Avant le paiement, le bénéficiaire doit :\n- obtenir un certificat de résidence fiscale délivré par l'administration fiscale de son pays ;\n- le soumettre à la confirmation de l'Autorité fiscale du Mozambique ;\n- remplir les formulaires approuvés par le ministère des Finances.\n\nSans ces documents, le débiteur retient au taux interne de 20 %."
+        "fr": "Les conventions **ne s'appliquent pas automatiquement** [ref:business-guide-2025]. Avant le paiement, le bénéficiaire doit :\n- obtenir un certificat de résidence fiscale délivré par l'administration fiscale de son pays ;\n- le soumettre à la confirmation de l'Autorité fiscale du Mozambique ;\n- remplir les formulaires approuvés par le ministère des Finances.\n\nSans ces documents, le débiteur retient au taux interne de 20 %.",
+        "zh": "协定**不会自动适用** [ref:business-guide-2025]。付款前，收款方须：\n- 向本国税务机关取得税务居民身份证明；\n- 提交莫桑比克税务机关确认；\n- 填写财政部批准的表格。\n\n未提供上述文件的，付款方按国内 20% 的税率代扣税款。",
+        "ar": "الاتفاقيات **لا تنطبق تلقائياً** [ref:business-guide-2025]. وقبل الدفع، يجب على المستلم:\n- الحصول على شهادة إقامة ضريبية من الإدارة الضريبية في بلده؛\n- تقديمها لتأكيدها من هيئة الضرائب الموزمبيقية؛\n- استيفاء النماذج المعتمدة من وزارة المالية.\n\nومن دون هذه المستندات، يقتطع الدافع الضريبة بالمعدل المحلي البالغ 20%.",
+        "hi": "समझौते **स्वतः लागू नहीं होते** [ref:business-guide-2025]। भुगतान से पहले, प्राप्तकर्ता को:\n- अपने देश के कर प्रशासन से कर निवास प्रमाणपत्र (TRC) प्राप्त करना होगा;\n- इसे मोज़ाम्बिक कर प्राधिकरण (Autoridade Tributária) से पुष्टि के लिए जमा करना होगा;\n- वित्त मंत्रालय द्वारा अनुमोदित फ़ॉर्म भरने होंगे।\n\nइन दस्तावेज़ों के बिना, भुगतानकर्ता 20% की घरेलू दर से विदहोल्डिंग करता है।",
+        "sw": "Mikataba **haitumiki moja kwa moja** [ref:business-guide-2025]. Kabla ya malipo, mpokeaji lazima:\n- apate cheti cha ukaazi wa kikodi kutoka kwa mamlaka ya kodi ya nchi yake;\n- akiwasilishe kwa uthibitisho na Mamlaka ya Kodi ya Msumbiji;\n- ajaze fomu zilizoidhinishwa na Wizara ya Fedha.\n\nBila nyaraka hizi, mlipaji hukata kodi ya zuio kwa kiwango cha ndani cha 20%.",
+        "af": "Verdrae is **nie outomaties van toepassing nie** [ref:business-guide-2025]. Voor betaling moet die ontvanger:\n- 'n sertifikaat van belastingverblyf by sy eie land se belastingadministrasie verkry;\n- dit vir bevestiging aan die Mosambiekse Belastingowerheid voorlê;\n- die vorms voltooi wat deur die Ministerie van Finansies goedgekeur is.\n\nSonder hierdie dokumente hou die betaler belasting terug teen die binnelandse koers van 20%."
       }
     },
     {
@@ -502,12 +942,22 @@
       "title": {
         "pt": "Benefícios fiscais",
         "en": "Tax incentives",
-        "fr": "Incitations fiscales"
+        "fr": "Incitations fiscales",
+        "zh": "税收优惠",
+        "ar": "الحوافز الضريبية",
+        "hi": "कर प्रोत्साहन",
+        "sw": "Vivutio vya kodi",
+        "af": "Belastingaansporings"
       },
       "body": {
         "pt": "O Código dos Benefícios Fiscais aplica-se aos projectos com certificado de investimento da APIEX [ref:lei-4-2009] [ref:lei-8-2023]. Os benefícios genéricos incluem:\n- isenção de direitos aduaneiros e IVA na importação de bens de equipamento da **Classe K** da Pauta [ref:pauta];\n- crédito fiscal por investimento;\n- amortizações e reintegrações aceleradas;\n- deduções por investimento em modernização e novas tecnologias e em formação profissional.\n\nHá benefícios específicos para infra-estruturas básicas, comércio e indústria em zonas rurais, indústria transformadora e de montagem, agricultura e pescas, hotelaria e turismo, parques de ciência e tecnologia, grandes projectos (acima de MZN 12,5 mil milhões) e projectos em ZEE e ZFI [ref:zee-zfi].",
         "en": "The Fiscal Benefits Code applies to projects holding an APIEX investment certificate [ref:lei-4-2009] [ref:lei-8-2023]. Generic incentives include:\n- customs duty and VAT exemption on imports of **Class K** capital goods under the tariff [ref:pauta];\n- an investment tax credit;\n- accelerated depreciation and amortisation;\n- deductions for investment in modernisation and new technology and in vocational training.\n\nSpecific incentives apply to basic infrastructure, rural commerce and industry, manufacturing and assembly, agriculture and fisheries, hotels and tourism, science and technology parks, large projects (above MZN 12.5 billion) and projects in SEZs and IFZs [ref:zee-zfi].",
-        "fr": "Le Code des avantages fiscaux s'applique aux projets titulaires d'un certificat d'investissement de l'APIEX [ref:lei-4-2009] [ref:lei-8-2023]. Les avantages génériques comprennent :\n- l'exonération des droits de douane et de la TVA à l'importation des biens d'équipement de la **classe K** du tarif [ref:pauta] ;\n- un crédit d'impôt à l'investissement ;\n- des amortissements accélérés ;\n- des déductions pour l'investissement dans la modernisation, les nouvelles technologies et la formation professionnelle.\n\nDes avantages spécifiques visent les infrastructures de base, le commerce et l'industrie en zone rurale, l'industrie manufacturière et d'assemblage, l'agriculture et la pêche, l'hôtellerie et le tourisme, les parcs scientifiques et technologiques, les grands projets (plus de 12,5 milliards de MZN) et les projets en ZES et ZFI [ref:zee-zfi]."
+        "fr": "Le Code des avantages fiscaux s'applique aux projets titulaires d'un certificat d'investissement de l'APIEX [ref:lei-4-2009] [ref:lei-8-2023]. Les avantages génériques comprennent :\n- l'exonération des droits de douane et de la TVA à l'importation des biens d'équipement de la **classe K** du tarif [ref:pauta] ;\n- un crédit d'impôt à l'investissement ;\n- des amortissements accélérés ;\n- des déductions pour l'investissement dans la modernisation, les nouvelles technologies et la formation professionnelle.\n\nDes avantages spécifiques visent les infrastructures de base, le commerce et l'industrie en zone rurale, l'industrie manufacturière et d'assemblage, l'agriculture et la pêche, l'hôtellerie et le tourisme, les parcs scientifiques et technologiques, les grands projets (plus de 12,5 milliards de MZN) et les projets en ZES et ZFI [ref:zee-zfi].",
+        "zh": "《税收优惠法典》适用于持有 APIEX 投资证书的项目 [ref:lei-4-2009] [ref:lei-8-2023]。一般性优惠包括：\n- 进口税则 **K 类**资本货物免征关税和增值税 [ref:pauta]；\n- 投资税收抵免；\n- 加速折旧和摊销；\n- 现代化和新技术投资以及职业培训的费用扣除。\n\n特定优惠适用于基础设施、农村商业和工业、制造和组装、农业和渔业、酒店和旅游、科技园区、大型项目（超过 MZN 125 亿）以及经济特区和工业自由区内的项目 [ref:zee-zfi]。",
+        "ar": "ينطبق قانون المزايا الضريبية على المشاريع الحاصلة على شهادة استثمار من APIEX [ref:lei-4-2009] [ref:lei-8-2023]. وتشمل الحوافز العامة:\n- إعفاء من الرسوم الجمركية وIVA على واردات السلع الرأسمالية من **الفئة K** في التعريفة [ref:pauta]؛\n- ائتماناً ضريبياً للاستثمار؛\n- استهلاكاً وإطفاءً معجّلين؛\n- خصومات للاستثمار في التحديث والتقنيات الجديدة وفي التدريب المهني.\n\nوتنطبق حوافز خاصة على البنية التحتية الأساسية، والتجارة والصناعة الريفيتين، والتصنيع والتجميع، والزراعة ومصايد الأسماك، والفنادق والسياحة، ومجمّعات العلوم والتكنولوجيا، والمشاريع الكبرى (أكثر من MZN 12.5 مليار)، والمشاريع في المناطق الاقتصادية الخاصة والمناطق الصناعية الحرة [ref:zee-zfi].",
+        "hi": "राजकोषीय लाभ संहिता (Código dos Benefícios Fiscais) उन परियोजनाओं पर लागू होती है जिनके पास APIEX निवेश प्रमाणपत्र है [ref:lei-4-2009] [ref:lei-8-2023]। सामान्य प्रोत्साहनों में शामिल हैं:\n- सीमा शुल्क टैरिफ़ के तहत **Class K** पूंजीगत वस्तुओं के आयात पर सीमा शुल्क और IVA से छूट [ref:pauta];\n- निवेश कर क्रेडिट;\n- त्वरित मूल्यह्रास और परिशोधन;\n- आधुनिकीकरण और नई तकनीक तथा व्यावसायिक प्रशिक्षण में निवेश के लिए कटौती।\n\nविशिष्ट प्रोत्साहन बुनियादी ढांचे, ग्रामीण वाणिज्य और उद्योग, विनिर्माण और असेंबली, कृषि और मत्स्य पालन, होटल और पर्यटन, विज्ञान और प्रौद्योगिकी पार्क, बड़ी परियोजनाओं (MZN 12.5 बिलियन से अधिक) और SEZ तथा IFZ की परियोजनाओं पर लागू होते हैं [ref:zee-zfi]।",
+        "sw": "Kanuni za Manufaa ya Kodi (Código dos Benefícios Fiscais) zinatumika kwa miradi yenye cheti cha uwekezaji cha APIEX [ref:lei-4-2009] [ref:lei-8-2023]. Vivutio vya jumla vinajumuisha:\n- msamaha wa ushuru wa forodha na VAT kwa uingizaji wa bidhaa za mtaji za **Daraja K** chini ya jedwali la ushuru [ref:pauta];\n- punguzo la kodi kwa uwekezaji;\n- uchakavu na upunguzaji thamani wa kasi;\n- makato kwa uwekezaji katika uboreshaji na teknolojia mpya na katika mafunzo ya ufundi.\n\nVivutio maalum vinatumika kwa miundombinu ya msingi, biashara na viwanda vijijini, uzalishaji viwandani na uunganishaji, kilimo na uvuvi, hoteli na utalii, hifadhi za sayansi na teknolojia, miradi mikubwa (zaidi ya MZN bilioni 12.5) na miradi katika SEZ na IFZ [ref:zee-zfi].",
+        "af": "Die Kode van Fiskale Voordele (CBF) is van toepassing op projekte met 'n APIEX-beleggingsertifikaat [ref:lei-4-2009] [ref:lei-8-2023]. Generiese aansporings sluit in:\n- vrystelling van doeaneregte en BTW (IVA) op die invoer van kapitaalgoedere in **Klas K** van die tarief [ref:pauta];\n- 'n beleggingsbelastingkrediet;\n- versnelde waardevermindering en amortisasie;\n- aftrekkings vir belegging in modernisering en nuwe tegnologie en in beroepsopleiding.\n\nSpesifieke aansporings geld vir basiese infrastruktuur, landelike handel en nywerheid, vervaardiging en montering, landbou en visserye, hotelle en toerisme, wetenskap- en tegnologieparke, groot projekte (bo MZN 12.5 miljard) en projekte in spesiale ekonomiese sones (ZEE) en industriële vrysones (ZFI) [ref:zee-zfi]."
       }
     },
     {
@@ -515,12 +965,22 @@
       "title": {
         "pt": "Mineração, petróleo e gás",
         "en": "Mining, oil and gas",
-        "fr": "Mines, pétrole et gaz"
+        "fr": "Mines, pétrole et gaz",
+        "zh": "采矿与油气",
+        "ar": "التعدين والنفط والغاز",
+        "hi": "खनन, तेल और गैस",
+        "sw": "Madini, mafuta na gesi",
+        "af": "Mynbou, olie en gas"
       },
       "body": {
         "pt": "Estes sectores têm regimes fiscais próprios [ref:business-guide-2025]:\n- mais-valias de **32%** na transmissão de direitos mineiros ou petrolíferos, por residentes ou não residentes, incluindo transmissões indirectas;\n- retenção de **10%** sobre serviços prestados por não residentes a empresas mineiras e petrolíferas;\n- estabilidade fiscal até **10 anos**, prorrogável mediante pagamento adicional de 2% do imposto de produção;\n- IRPC apurado separadamente por contrato de concessão (ring-fencing);\n- isenção de direitos aduaneiros por cinco anos sobre equipamento não disponível no mercado local, sem isenção de IVA;\n- auditoria obrigatória das contas por auditores independentes autorizados.",
         "en": "These sectors have their own tax regimes [ref:business-guide-2025]:\n- **32%** capital gains tax on transfers of mining or petroleum interests by residents or non-residents, including indirect transfers;\n- **10%** withholding on services supplied by non-residents to mining and oil companies;\n- tax stability for up to **10 years**, extendable against an additional 2% of production tax;\n- CIT calculated separately for each concession contract (ring-fencing);\n- a five-year customs duty exemption on equipment not available locally, with no VAT exemption;\n- mandatory audit of the accounts by authorised independent auditors.",
-        "fr": "Ces secteurs disposent de régimes fiscaux propres [ref:business-guide-2025] :\n- impôt de **32 %** sur les plus-values de cession de droits miniers ou pétroliers, par des résidents ou des non-résidents, y compris les cessions indirectes ;\n- retenue de **10 %** sur les services fournis par des non-résidents aux sociétés minières et pétrolières ;\n- stabilité fiscale jusqu'à **10 ans**, prorogeable moyennant 2 % supplémentaires de l'impôt sur la production ;\n- IRPC calculé séparément par contrat de concession (ring-fencing) ;\n- exonération des droits de douane pendant cinq ans sur les équipements indisponibles localement, sans exonération de TVA ;\n- audit obligatoire des comptes par des auditeurs indépendants agréés."
+        "fr": "Ces secteurs disposent de régimes fiscaux propres [ref:business-guide-2025] :\n- impôt de **32 %** sur les plus-values de cession de droits miniers ou pétroliers, par des résidents ou des non-résidents, y compris les cessions indirectes ;\n- retenue de **10 %** sur les services fournis par des non-résidents aux sociétés minières et pétrolières ;\n- stabilité fiscale jusqu'à **10 ans**, prorogeable moyennant 2 % supplémentaires de l'impôt sur la production ;\n- IRPC calculé séparément par contrat de concession (ring-fencing) ;\n- exonération des droits de douane pendant cinq ans sur les équipements indisponibles localement, sans exonération de TVA ;\n- audit obligatoire des comptes par des auditeurs indépendants agréés.",
+        "zh": "这些行业适用专门的税收制度 [ref:business-guide-2025]：\n- 居民或非居民转让采矿或石油权益（包括间接转让）须缴纳 **32%** 的资本利得税；\n- 非居民向矿业和石油公司提供服务，适用 **10%** 的预提税；\n- 最长 **10 年**的税收稳定期，额外缴纳 2% 的产量税可延长；\n- 按每份特许经营合同分别计算企业所得税（围栏规则）；\n- 本地无法提供的设备可享受五年关税豁免，但不免征增值税；\n- 账目须由经授权的独立审计师强制审计。",
+        "ar": "لهذه القطاعات أنظمتها الضريبية الخاصة [ref:business-guide-2025]:\n- ضريبة أرباح رأسمالية بنسبة **32%** على نقل الحقوق التعدينية أو البترولية من المقيمين أو غير المقيمين، بما في ذلك النقل غير المباشر؛\n- اقتطاع بنسبة **10%** على الخدمات التي يقدّمها غير المقيمين لشركات التعدين والنفط؛\n- استقرار ضريبي لمدة تصل إلى **10 سنوات**، قابل للتمديد مقابل 2% إضافية من ضريبة الإنتاج؛\n- احتساب ضريبة دخل الشركات بشكل منفصل لكل عقد امتياز (العزل الضريبي)؛\n- إعفاء من الرسوم الجمركية لمدة خمس سنوات على المعدات غير المتوفرة محلياً، دون إعفاء من IVA؛\n- تدقيق إلزامي للحسابات من قبل مدققين مستقلين مرخّصين.",
+        "hi": "इन क्षेत्रों की अपनी कर व्यवस्थाएँ हैं [ref:business-guide-2025]:\n- निवासियों या अनिवासियों द्वारा खनन या पेट्रोलियम हितों के हस्तांतरण पर, अप्रत्यक्ष हस्तांतरण सहित, **32%** पूंजीगत लाभ कर;\n- अनिवासियों द्वारा खनन और तेल कंपनियों को दी गई सेवाओं पर **10%** विदहोल्डिंग;\n- **10 वर्ष** तक कर स्थिरता, जिसे अतिरिक्त 2% उत्पादन कर के बदले बढ़ाया जा सकता है;\n- प्रत्येक रियायत अनुबंध के लिए IRPC की अलग गणना (रिंग-फ़ेंसिंग);\n- स्थानीय रूप से अनुपलब्ध उपकरणों पर पाँच वर्ष की सीमा शुल्क छूट, IVA छूट के बिना;\n- अधिकृत स्वतंत्र लेखा परीक्षकों द्वारा खातों का अनिवार्य ऑडिट।",
+        "sw": "Sekta hizi zina taratibu zake za kodi [ref:business-guide-2025]:\n- kodi ya faida ya mtaji ya **32%** kwa uhamisho wa maslahi ya madini au petroli na wakaazi au wasio wakaazi, ikiwemo uhamisho usio wa moja kwa moja;\n- kodi ya zuio ya **10%** kwa huduma zinazotolewa na wasio wakaazi kwa kampuni za madini na mafuta;\n- uthabiti wa kodi kwa hadi **miaka 10**, unaoweza kuongezwa kwa malipo ya ziada ya 2% ya kodi ya uzalishaji;\n- IRPC hukokotolewa kando kwa kila mkataba wa makubaliano (ring-fencing);\n- msamaha wa ushuru wa forodha wa miaka mitano kwa vifaa visivyopatikana nchini, bila msamaha wa VAT;\n- ukaguzi wa lazima wa hesabu na wakaguzi huru walioidhinishwa.",
+        "af": "Hierdie sektore het hul eie belastingstelsels [ref:business-guide-2025]:\n- **32%** kapitaalwinsbelasting op oordragte van mynbou- of petroleumbelange deur inwoners of nie-inwoners, insluitend indirekte oordragte;\n- **10%** terughouding op dienste wat nie-inwoners aan myn- en oliemaatskappye lewer;\n- belastingstabiliteit vir tot **10 jaar**, verlengbaar teen 'n bykomende 2% produksiebelasting;\n- IRPC word afsonderlik vir elke konsessiekontrak bereken (omheining);\n- 'n vyfjaar-vrystelling van doeaneregte op toerusting wat nie plaaslik beskikbaar is nie, sonder BTW-vrystelling;\n- verpligte oudit van die rekeninge deur gemagtigde onafhanklike ouditeure."
       }
     }
   ]

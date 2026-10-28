@@ -1,0 +1,376 @@
+{
+  "regimes": [
+    {
+      "id": "general",
+      "label": {
+        "pt": "Geral",
+        "en": "General",
+        "fr": "Général",
+        "zh": "一般制度",
+        "ar": "عام",
+        "hi": "सामान्य",
+        "sw": "Jumla",
+        "af": "Algemeen"
+      },
+      "hint": {
+        "pt": "Benefícios do Código dos Benefícios Fiscais para projectos com certificado de investimento da APIEX.",
+        "en": "Fiscal Benefits Code incentives for projects holding an APIEX investment certificate.",
+        "fr": "Avantages du Code des avantages fiscaux pour les projets titulaires d'un certificat d'investissement de l'APIEX.",
+        "zh": "适用于持有 APIEX 投资证书项目的《税收优惠法典》激励政策。",
+        "ar": "حوافز مدونة المزايا الضريبية للمشاريع الحاصلة على شهادة استثمار من APIEX.",
+        "hi": "APIEX निवेश प्रमाणपत्र रखने वाली परियोजनाओं के लिए राजकोषीय लाभ संहिता के प्रोत्साहन।",
+        "sw": "Vivutio vya Kanuni ya Manufaa ya Kodi kwa miradi yenye cheti cha uwekezaji cha APIEX.",
+        "af": "Aansporings van die Kode van Belastingvoordele vir projekte met 'n APIEX-beleggingsertifikaat."
+      }
+    },
+    {
+      "id": "sez",
+      "label": {
+        "pt": "ZEE",
+        "en": "SEZ",
+        "fr": "ZES",
+        "zh": "经济特区",
+        "ar": "منطقة اقتصادية خاصة",
+        "hi": "SEZ",
+        "sw": "SEZ",
+        "af": "SEZ"
+      },
+      "hint": {
+        "pt": "Zona Económica Especial: área geográfica com regime próprio; permite vender no mercado interno e exportar.",
+        "en": "Special Economic Zone: a geographic area with its own regime; domestic and export sales allowed.",
+        "fr": "Zone économique spéciale : zone géographique à régime propre ; ventes locales et export autorisées.",
+        "zh": "经济特区：拥有独立制度的地理区域；允许内销和出口。",
+        "ar": "المنطقة الاقتصادية الخاصة: نطاق جغرافي له نظامه الخاص؛ ويُسمح فيه بالبيع محليًا وللتصدير.",
+        "hi": "विशेष आर्थिक क्षेत्र: अपनी अलग व्यवस्था वाला भौगोलिक क्षेत्र; घरेलू और निर्यात दोनों तरह की बिक्री की अनुमति।",
+        "sw": "Kanda Maalum ya Kiuchumi: eneo la kijiografia lenye utaratibu wake; mauzo ya ndani na ya nje yanaruhusiwa.",
+        "af": "Spesiale Ekonomiese Sone: 'n geografiese gebied met sy eie regime; binnelandse en uitvoerverkope toegelaat."
+      }
+    },
+    {
+      "id": "ifz",
+      "label": {
+        "pt": "Zona franca",
+        "en": "Free zone",
+        "fr": "Zone franche",
+        "zh": "自由区",
+        "ar": "منطقة حرة",
+        "hi": "फ़्री ज़ोन",
+        "sw": "Kanda huru",
+        "af": "Vrysone"
+      },
+      "hint": {
+        "pt": "Zona Franca Industrial: estatuto da empresa, que exige exportar pelo menos 70% da produção.",
+        "en": "Industrial Free Zone: a company status that requires exporting at least 70% of output.",
+        "fr": "Zone franche industrielle : statut de l'entreprise, qui impose d'exporter au moins 70 % de la production.",
+        "zh": "工业自由区：一种企业身份，要求至少 70% 的产出用于出口。",
+        "ar": "المنطقة الصناعية الحرة: وضع خاص بالشركة يشترط تصدير 70% على الأقل من الإنتاج.",
+        "hi": "औद्योगिक मुक्त क्षेत्र: कंपनी का एक दर्जा, जिसके लिए उत्पादन का कम से कम 70% निर्यात करना आवश्यक है।",
+        "sw": "Kanda Huru ya Viwanda: hadhi ya kampuni inayohitaji kuuza nje angalau 70% ya uzalishaji.",
+        "af": "Nywerheidsvrysone: 'n maatskappystatus wat vereis dat minstens 70% van die produksie uitgevoer word."
+      }
+    }
+  ],
+  "benefits": [
+    {
+      "id": "class-k",
+      "regime": "general",
+      "kind": "customs",
+      "status": "likely",
+      "title": {
+        "pt": "Alfândegas no equipamento (Classe K)",
+        "en": "Customs on equipment (Class K)",
+        "fr": "Douane sur les équipements (classe K)",
+        "zh": "设备关税（K 类）",
+        "ar": "الرسوم الجمركية على المعدات (الفئة K)",
+        "hi": "उपकरणों पर सीमा-शुल्क (Class K)",
+        "sw": "Forodha kwa vifaa (Daraja K)",
+        "af": "Doeane op toerusting (Klas K)"
+      },
+      "detail": {
+        "pt": "Isenção de direitos aduaneiros e de IVA na importação de bens de equipamento classificados na Classe K da Pauta.",
+        "en": "Exemption from customs duties and VAT on imports of capital goods classified in Class K of the tariff.",
+        "fr": "Exonération des droits de douane et de la TVA à l'importation des biens d'équipement classés en classe K du tarif.",
+        "zh": "进口税则 K 类所列资本货物免征关税和 IVA（增值税）。",
+        "ar": "إعفاء من الرسوم الجمركية وضريبة القيمة المضافة (IVA) على واردات السلع الرأسمالية المصنفة في الفئة K من التعرفة.",
+        "hi": "टैरिफ़ की Class K में वर्गीकृत पूँजीगत वस्तुओं के आयात पर सीमा-शुल्क और वैट से छूट।",
+        "sw": "Msamaha wa ushuru wa forodha na IVA kwa uagizaji wa bidhaa za mtaji zilizoainishwa katika Daraja K la jedwali la ushuru.",
+        "af": "Vrystelling van doeanereg en BTW op invoere van kapitaalgoedere wat in Klas K van die tarief geklassifiseer is."
+      },
+      "refs": ["lei-4-2009", "pauta"]
+    },
+    {
+      "id": "itc",
+      "regime": "general",
+      "kind": "fiscal",
+      "status": "likely",
+      "estimate": "itc",
+      "estimateRange": [5, 10],
+      "title": {
+        "pt": "Crédito fiscal por investimento",
+        "en": "Investment tax credit",
+        "fr": "Crédit d'impôt à l'investissement",
+        "zh": "投资税收抵免",
+        "ar": "ائتمان ضريبي على الاستثمار",
+        "hi": "निवेश कर क्रेडिट",
+        "sw": "Punguzo la kodi la uwekezaji",
+        "af": "Beleggingsbelastingkrediet"
+      },
+      "detail": {
+        "pt": "Dedução à colecta de IRPC de 5% a 10% do investimento total, consoante a localização, durante 5 anos.",
+        "en": "Deduction from IRPC of 5% to 10% of the total investment, depending on location, for 5 years.",
+        "fr": "Déduction de l'IRPC de 5 % à 10 % de l'investissement total, selon la localisation, pendant 5 ans.",
+        "zh": "视地点而定，可从 IRPC 中抵扣总投资额的 5% 至 10%，为期 5 年。",
+        "ar": "خصم من IRPC يتراوح بين 5% و10% من إجمالي الاستثمار، بحسب الموقع، لمدة 5 سنوات.",
+        "hi": "स्थान के अनुसार कुल निवेश के 5% से 10% की IRPC से कटौती, 5 वर्षों तक।",
+        "sw": "Makato kutoka IRPC ya 5% hadi 10% ya jumla ya uwekezaji, kutegemea eneo, kwa miaka 5.",
+        "af": "Aftrekking van IRPC van 5% tot 10% van die totale belegging, afhangende van ligging, vir 5 jaar."
+      },
+      "refs": ["lei-4-2009", "cirpc"]
+    },
+    {
+      "id": "accelerated-depreciation",
+      "regime": "general",
+      "kind": "fiscal",
+      "status": "check",
+      "title": {
+        "pt": "Amortizações aceleradas",
+        "en": "Accelerated depreciation",
+        "fr": "Amortissements accélérés",
+        "zh": "加速折旧",
+        "ar": "الإهلاك المعجّل",
+        "hi": "त्वरित मूल्यह्रास",
+        "sw": "Uchakavu ulioharakishwa",
+        "af": "Versnelde waardevermindering"
+      },
+      "detail": {
+        "pt": "Amortização mais rápida de imóveis e equipamento novos afectos ao projecto ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+        "en": "Faster write-off of new buildings and equipment used in the project ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+        "fr": "Amortissement plus rapide des immeubles et équipements neufs affectés au projet ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+        "zh": "项目所用新建筑和设备可加速折旧（{{ACCELERATED_DEPRECIATION_FACTOR}}）。",
+        "ar": "إهلاك أسرع للمباني والمعدات الجديدة المستخدمة في المشروع ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+        "hi": "परियोजना में उपयोग होने वाले नए भवनों और उपकरणों का तेज़ी से मूल्यह्रास ({{ACCELERATED_DEPRECIATION_FACTOR}})।",
+        "sw": "Kufuta thamani kwa haraka zaidi kwa majengo mapya na vifaa vinavyotumika katika mradi ({{ACCELERATED_DEPRECIATION_FACTOR}}).",
+        "af": "Vinniger afskrywing van nuwe geboue en toerusting wat in die projek gebruik word ({{ACCELERATED_DEPRECIATION_FACTOR}})."
+      },
+      "refs": ["lei-4-2009"]
+    },
+    {
+      "id": "training",
+      "regime": "general",
+      "kind": "fiscal",
+      "status": "jobs",
+      "title": {
+        "pt": "Dedução de despesas de formação",
+        "en": "Training expense deduction",
+        "fr": "Déduction des dépenses de formation",
+        "zh": "培训费用扣除",
+        "ar": "خصم نفقات التدريب",
+        "hi": "प्रशिक्षण व्यय कटौती",
+        "sw": "Makato ya gharama za mafunzo",
+        "af": "Aftrekking van opleidingsuitgawes"
+      },
+      "detail": {
+        "pt": "Despesas com a formação profissional de trabalhadores moçambicanos dedutíveis com majoração ({{TRAINING_DEDUCTION_LIMIT}}).",
+        "en": "Vocational training costs for Mozambican workers deductible with an uplift ({{TRAINING_DEDUCTION_LIMIT}}).",
+        "fr": "Dépenses de formation professionnelle des salariés mozambicains déductibles avec majoration ({{TRAINING_DEDUCTION_LIMIT}}).",
+        "zh": "莫桑比克员工的职业培训费用可加计扣除（{{TRAINING_DEDUCTION_LIMIT}}）。",
+        "ar": "تُخصم تكاليف التدريب المهني للعمال الموزمبيقيين مع زيادة إضافية ({{TRAINING_DEDUCTION_LIMIT}}).",
+        "hi": "मोज़ाम्बिक के कर्मचारियों के व्यावसायिक प्रशिक्षण की लागत बढ़ी हुई दर पर कटौती योग्य ({{TRAINING_DEDUCTION_LIMIT}})।",
+        "sw": "Gharama za mafunzo ya ufundi kwa wafanyakazi wa Msumbiji zinakatwa kwa nyongeza ({{TRAINING_DEDUCTION_LIMIT}}).",
+        "af": "Beroepsopleidingskoste vir Mosambiekse werkers is met 'n verhoging aftrekbaar ({{TRAINING_DEDUCTION_LIMIT}})."
+      },
+      "refs": ["lei-4-2009"]
+    },
+    {
+      "id": "sector-specific",
+      "regime": "general",
+      "kind": "fiscal",
+      "status": "check",
+      "sectors": ["agro_industry", "tourism", "energy", "logistics"],
+      "title": {
+        "pt": "Benefícios específicos do sector",
+        "en": "Sector-specific incentives",
+        "fr": "Avantages propres au secteur",
+        "zh": "行业专项激励",
+        "ar": "حوافز قطاعية",
+        "hi": "सेक्टर-विशिष्ट प्रोत्साहन",
+        "sw": "Vivutio vya sekta mahususi",
+        "af": "Sektorspesifieke aansporings"
+      },
+      "detail": {
+        "pt": "O Código prevê benefícios próprios para infra-estruturas básicas, agricultura e pescas, indústria transformadora e hotelaria e turismo.",
+        "en": "The Code provides specific incentives for basic infrastructure, agriculture and fisheries, manufacturing, and hotels and tourism.",
+        "fr": "Le Code prévoit des avantages propres aux infrastructures de base, à l'agriculture et à la pêche, à l'industrie manufacturière ainsi qu'à l'hôtellerie et au tourisme.",
+        "zh": "该法典为基础设施、农业和渔业、制造业以及酒店和旅游业规定了专项激励政策。",
+        "ar": "تنص المدونة على حوافز خاصة للبنية التحتية الأساسية، والزراعة وصيد الأسماك، والصناعة التحويلية، والفنادق والسياحة.",
+        "hi": "संहिता बुनियादी ढाँचे, कृषि और मत्स्य पालन, विनिर्माण, तथा होटल और पर्यटन के लिए विशिष्ट प्रोत्साहन देती है।",
+        "sw": "Kanuni inatoa vivutio mahususi kwa miundombinu ya msingi, kilimo na uvuvi, viwanda vya uzalishaji, na hoteli na utalii.",
+        "af": "Die Kode bied spesifieke aansporings vir basiese infrastruktuur, landbou en visserye, vervaardiging, en hotelle en toerisme."
+      },
+      "refs": ["lei-4-2009"]
+    },
+    {
+      "id": "large-project",
+      "regime": "general",
+      "kind": "fiscal",
+      "status": "check",
+      "minInvestmentMzn": 12500000000,
+      "title": {
+        "pt": "Grandes projectos",
+        "en": "Large projects",
+        "fr": "Grands projets",
+        "zh": "大型项目",
+        "ar": "المشاريع الكبرى",
+        "hi": "बड़ी परियोजनाएँ",
+        "sw": "Miradi mikubwa",
+        "af": "Groot projekte"
+      },
+      "detail": {
+        "pt": "Projectos acima de MZN 12,5 mil milhões têm um regime de benefícios próprio, negociado caso a caso.",
+        "en": "Projects above MZN 12.5 billion have their own incentive regime, negotiated case by case.",
+        "fr": "Les projets de plus de 12,5 milliards de MZN relèvent d'un régime d'avantages propre, négocié au cas par cas.",
+        "zh": "超过 MZN 125 亿的项目适用单独的激励制度，逐案协商确定。",
+        "ar": "للمشاريع التي تتجاوز 12.5 مليار MZN نظام حوافز خاص بها، يُتفاوض عليه لكل حالة على حدة.",
+        "hi": "MZN 12.5 बिलियन से अधिक की परियोजनाओं की अपनी प्रोत्साहन व्यवस्था है, जो हर मामले में अलग से तय होती है।",
+        "sw": "Miradi inayozidi MZN bilioni 12.5 ina utaratibu wake wa vivutio, unaojadiliwa kwa kila mradi.",
+        "af": "Projekte bo MZN 12.5 miljard het hul eie aansporingsregime, wat per geval onderhandel word."
+      },
+      "refs": ["lei-4-2009"]
+    },
+    {
+      "id": "sez-cit",
+      "regime": "sez",
+      "kind": "fiscal",
+      "status": "likely",
+      "title": {
+        "pt": "IRPC reduzido durante 15 anos",
+        "en": "Reduced IRPC for 15 years",
+        "fr": "IRPC réduit pendant 15 ans",
+        "zh": "15 年 IRPC 减免",
+        "ar": "تخفيض IRPC لمدة 15 عامًا",
+        "hi": "15 वर्षों के लिए घटा हुआ IRPC",
+        "sw": "IRPC iliyopunguzwa kwa miaka 15",
+        "af": "Verlaagde IRPC vir 15 jaar"
+      },
+      "detail": {
+        "pt": "Isenção total nos anos 1 a 3, redução de 50% nos anos 4 a 10 e de 25% nos anos 11 a 15.",
+        "en": "Full exemption in years 1 to 3, a 50% reduction in years 4 to 10 and 25% in years 11 to 15.",
+        "fr": "Exonération totale les années 1 à 3, réduction de 50 % les années 4 à 10 et de 25 % les années 11 à 15.",
+        "zh": "第 1 至 3 年全额免征，第 4 至 10 年减征 50%，第 11 至 15 年减征 25%。",
+        "ar": "إعفاء كامل في السنوات من 1 إلى 3، وتخفيض بنسبة 50% في السنوات من 4 إلى 10، و25% في السنوات من 11 إلى 15.",
+        "hi": "वर्ष 1 से 3 में पूरी छूट, वर्ष 4 से 10 में 50% की कमी और वर्ष 11 से 15 में 25% की कमी।",
+        "sw": "Msamaha kamili katika mwaka wa 1 hadi 3, punguzo la 50% katika mwaka wa 4 hadi 10 na 25% katika mwaka wa 11 hadi 15.",
+        "af": "Volle vrystelling in jaar 1 tot 3, 'n vermindering van 50% in jaar 4 tot 10 en 25% in jaar 11 tot 15."
+      },
+      "refs": ["zee-zfi", "apiex-guide-2026"]
+    },
+    {
+      "id": "sez-customs",
+      "regime": "sez",
+      "kind": "customs",
+      "status": "likely",
+      "title": {
+        "pt": "Alfândegas e IVA na zona",
+        "en": "Customs and VAT in the zone",
+        "fr": "Douane et TVA dans la zone",
+        "zh": "区内关税和 IVA",
+        "ar": "الرسوم الجمركية وIVA في المنطقة",
+        "hi": "क्षेत्र में सीमा-शुल्क और वैट",
+        "sw": "Forodha na IVA ndani ya kanda",
+        "af": "Doeane en BTW in die sone"
+      },
+      "detail": {
+        "pt": "Isenção de direitos sobre os insumos; isenção de IVA nas transmissões dentro da zona.",
+        "en": "Duty exemption on inputs; VAT exemption on transfers within the zone.",
+        "fr": "Exonération des droits sur les intrants ; exonération de TVA sur les transferts dans la zone.",
+        "zh": "投入品免征关税；区内转让免征 IVA。",
+        "ar": "إعفاء من الرسوم على المدخلات؛ وإعفاء من IVA على عمليات النقل داخل المنطقة.",
+        "hi": "इनपुट पर शुल्क छूट; क्षेत्र के भीतर हस्तांतरण पर वैट छूट।",
+        "sw": "Msamaha wa ushuru kwa malighafi; msamaha wa IVA kwa uhamisho ndani ya kanda.",
+        "af": "Vrystelling van doeanereg op insette; BTW-vrystelling op oordragte binne die sone."
+      },
+      "refs": ["zee-zfi"]
+    },
+    {
+      "id": "ifz-cit",
+      "regime": "ifz",
+      "kind": "fiscal",
+      "status": "exports",
+      "title": {
+        "pt": "Até 10 anos sem IRPC",
+        "en": "Up to 10 years without IRPC",
+        "fr": "Jusqu'à 10 ans sans IRPC",
+        "zh": "最长 10 年免征 IRPC",
+        "ar": "حتى 10 سنوات دون IRPC",
+        "hi": "10 वर्षों तक IRPC नहीं",
+        "sw": "Hadi miaka 10 bila IRPC",
+        "af": "Tot 10 jaar sonder IRPC"
+      },
+      "detail": {
+        "pt": "Isenção total de IRPC até 10 anos, para empresas que exportem pelo menos 70% da produção.",
+        "en": "Full IRPC exemption for up to 10 years, for companies exporting at least 70% of output.",
+        "fr": "Exonération totale d'IRPC jusqu'à 10 ans, pour les entreprises exportant au moins 70 % de leur production.",
+        "zh": "至少 70% 产出用于出口的企业，最长 10 年全额免征 IRPC。",
+        "ar": "إعفاء كامل من IRPC لمدة تصل إلى 10 سنوات، للشركات التي تصدّر 70% على الأقل من إنتاجها.",
+        "hi": "उत्पादन का कम से कम 70% निर्यात करने वाली कंपनियों के लिए 10 वर्षों तक IRPC से पूरी छूट।",
+        "sw": "Msamaha kamili wa IRPC kwa hadi miaka 10, kwa kampuni zinazouza nje angalau 70% ya uzalishaji.",
+        "af": "Volle IRPC-vrystelling vir tot 10 jaar, vir maatskappye wat minstens 70% van hul produksie uitvoer."
+      },
+      "refs": ["zee-zfi", "apiex-guide-2026"]
+    },
+    {
+      "id": "ifz-customs",
+      "regime": "ifz",
+      "kind": "customs",
+      "status": "exports",
+      "title": {
+        "pt": "Alfândegas e IVA em todos os insumos",
+        "en": "Customs and VAT on all inputs",
+        "fr": "Douane et TVA sur tous les intrants",
+        "zh": "所有投入品的关税和 IVA",
+        "ar": "الرسوم الجمركية وIVA على جميع المدخلات",
+        "hi": "सभी इनपुट पर सीमा-शुल्क और वैट",
+        "sw": "Forodha na IVA kwa malighafi zote",
+        "af": "Doeane en BTW op alle insette"
+      },
+      "detail": {
+        "pt": "Isenção de direitos sobre todos os insumos; isenção de IVA nas transmissões dentro da zona.",
+        "en": "Duty exemption on all inputs; VAT exemption on transfers within the zone.",
+        "fr": "Exonération des droits sur tous les intrants ; exonération de TVA sur les transferts dans la zone.",
+        "zh": "所有投入品免征关税；区内转让免征 IVA。",
+        "ar": "إعفاء من الرسوم على جميع المدخلات؛ وإعفاء من IVA على عمليات النقل داخل المنطقة.",
+        "hi": "सभी इनपुट पर शुल्क छूट; क्षेत्र के भीतर हस्तांतरण पर वैट छूट।",
+        "sw": "Msamaha wa ushuru kwa malighafi zote; msamaha wa IVA kwa uhamisho ndani ya kanda.",
+        "af": "Vrystelling van doeanereg op alle insette; BTW-vrystelling op oordragte binne die sone."
+      },
+      "refs": ["zee-zfi"]
+    },
+    {
+      "id": "zone-authority",
+      "regime": "zones",
+      "kind": "other",
+      "status": "likely",
+      "title": {
+        "pt": "Um só interlocutor",
+        "en": "One licensing interface",
+        "fr": "Un seul interlocuteur",
+        "zh": "统一许可窗口",
+        "ar": "واجهة ترخيص واحدة",
+        "hi": "एक ही लाइसेंसिंग इंटरफ़ेस",
+        "sw": "Mlango mmoja wa leseni",
+        "af": "Een lisensiëringskoppelvlak"
+      },
+      "detail": {
+        "pt": "Dentro da zona, a autoridade da zona substitui vários ministérios no licenciamento e no cumprimento; o acesso é coordenado pela APIEX.",
+        "en": "Inside a zone, the zone authority replaces several ministries for licensing and compliance; access is coordinated by APIEX.",
+        "fr": "Dans la zone, l'autorité de la zone remplace plusieurs ministères pour les autorisations et la conformité ; l'accès est coordonné par l'APIEX.",
+        "zh": "在区内，由经济区管理机构代替多个部委办理许可和合规事务；准入由 APIEX 协调。",
+        "ar": "داخل المنطقة، تحل سلطة المنطقة محل عدة وزارات في الترخيص والامتثال؛ وتتولى APIEX تنسيق الوصول.",
+        "hi": "क्षेत्र के भीतर, लाइसेंसिंग और अनुपालन के लिए कई मंत्रालयों की जगह क्षेत्र प्राधिकरण काम करता है; पहुँच का समन्वय APIEX करता है।",
+        "sw": "Ndani ya kanda, mamlaka ya kanda inachukua nafasi ya wizara kadhaa kwa leseni na uzingatiaji wa sheria; upatikanaji unaratibiwa na APIEX.",
+        "af": "Binne 'n sone vervang die sone-owerheid verskeie ministeries vir lisensiëring en nakoming; toegang word deur APIEX gekoördineer."
+      },
+      "refs": ["zee-zfi"]
+    }
+  ]
+}

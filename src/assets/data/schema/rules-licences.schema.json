@@ -3,20 +3,14 @@
   "$id": "rules-licences.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "licences"
-  ],
+  "required": ["licences"],
   "properties": {
     "licences": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -31,27 +25,14 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "id",
-              "kind",
-              "title",
-              "detail",
-              "authority",
-              "refs"
-            ],
+            "required": ["id", "kind", "title", "detail", "authority", "refs"],
             "properties": {
               "id": {
                 "type": "string",
                 "minLength": 1
               },
               "kind": {
-                "enum": [
-                  "bau",
-                  "sector",
-                  "environmental",
-                  "duat",
-                  "other"
-                ]
+                "enum": ["bau", "sector", "environmental", "duat", "other"]
               },
               "title": {
                 "$ref": "common.schema.json#/definitions/localizedText"

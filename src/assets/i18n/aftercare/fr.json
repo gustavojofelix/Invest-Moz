@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Suivi",
+  "genericCompany": "[Nom de la société], Lda",
+  "fromRoadmap": "échéances issues de votre feuille de route",
+  "genericNote": "Calendrier d'exemple pour une société avec des salariés, dont certains étrangers.",
+  "start": "Utiliser mon projet",
+  "view": "Vue",
+  "tabs": {
+    "deadlines": "Échéances",
+    "permits": "Permis",
+    "filings": "Déclarations"
+  },
+  "shiftRule": "Quand une échéance tombe un week-end ou un jour férié, elle est avancée au jour ouvrable précédent. Tiva affiche la date à respecter réellement.",
+  "count": "Échéances : {{count}}",
+  "period": {
+    "payroll": "Paie de {{month}}",
+    "salaries": "Salaires et paiements de {{month}}",
+    "vat": "Déclaration de {{month}}"
+  },
+  "shiftedWeekend": "L'échéance du {{nominal}} tombe un {{weekday}} : déposez en avance, le {{date}}.",
+  "shiftedHoliday": "L'échéance du {{nominal}} est un jour férié ({{holiday}}) : déposez en avance, le {{date}}.",
+  "noDeadlines": "Aucune échéance mensuelle pour cette société.",
+  "permitKinds": {
+    "dire": "Renouvellement du DIRE",
+    "work_permit": "Renouvellement du permis de travail",
+    "licence": "Renouvellement de licence"
+  },
+  "exampleHolder": "[Nom du directeur]",
+  "expires": "Expire le {{date}} · rappel le {{reminder}}",
+  "expiresExample": "Expire le [date] · exemple : ajoutez les vôtres ci-dessous",
+  "removePermit": "Supprimer le rappel de {{holder}}",
+  "noPermits": "Aucun rappel de renouvellement pour l'instant.",
+  "addTitle": "Ajouter un rappel de renouvellement",
+  "kind": "Document",
+  "holder": "Titulaire",
+  "expiry": "Date d'expiration",
+  "lead": "Me prévenir",
+  "leadDays": "{{n}} jours avant",
+  "add": "Ajouter le rappel",
+  "filingsLead": "Déclarations annuelles, acomptes et rapports, avec les prochaines échéances.",
+  "remindTitle": "Me rappeler par",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "push": "Notification"
+  },
+  "remindOn": "Rappels trois jours avant chaque échéance (démo : rien n'est envoyé).",
+  "remindOff": "Rappels désactivés. Les échéances restent sur cette page.",
+  "sourcesTitle": "Base légale",
+  "disclaimer": "Calendrier indicatif, pas un conseil fiscal. Confirmez les échéances avec votre comptable.",
+  "addToCalendar": "Ajouter au calendrier",
+  "help": "Aide pour déclarer",
+  "icsShifted": "Avancée du {{date}} (week-end ou jour férié).",
+  "icsRenew": "Lancer le renouvellement : {{title}}",
+  "icsExpires": "Expire le {{date}}."
+}

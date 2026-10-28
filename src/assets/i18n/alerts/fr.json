@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Veille réglementaire",
+  "title": "Les changements qui touchent votre feuille de route",
+  "lead": "Quand une loi derrière votre feuille de route change, Tiva vous indique l'étape concernée, à partir de quand et quoi faire.",
+  "notifyBy": "Me prévenir par",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "push": "Notification"
+  },
+  "channelsOn": "Les alertes vous parviendront par {{list}} (démo : rien n'est envoyé).",
+  "channelsOff": "Aucun canal choisi : les alertes restent sur cette page.",
+  "listTitle": "Derniers changements",
+  "unread": "{{count}} nouvelles",
+  "markAll": "Tout marquer comme lu",
+  "markReadLabel": "Marquer comme lu : {{title}}",
+  "affectsStep": "Concerne l'étape {{n}}",
+  "affectsArea": {
+    "incentives": "Concerne les incitations"
+  },
+  "seeArea": {
+    "incentives": "Voir les incitations"
+  },
+  "forInformation": "Pour information",
+  "new": "Nouveau",
+  "inForceOn": "En vigueur depuis le {{date}}",
+  "inForce": "En vigueur",
+  "from": "À partir du {{date}}",
+  "pending": "En attente",
+  "whatChanged": "Ce qui change :",
+  "forYou": "Pour vous :",
+  "illustrative": "Illustratif",
+  "seeStep": "Voir l'étape mise à jour",
+  "ask": "Demander à Tiva",
+  "watching": "Sous surveillance",
+  "openRoadmap": "Ouvrir ma feuille de route",
+  "guestText": "Tiva suit les lois derrière chaque étape. Décrivez votre projet pour voir quels changements le concernent.",
+  "start": "Lancer le Pathfinder",
+  "sourceTitle": "Alimenté par la série {{source}}",
+  "sourceText": "Chaque alerte est rédigée à partir du Boletim da República et vérifiée par un juriste avant de vous parvenir.",
+  "demoNote": "Démo : les alertes et les dates sont illustratives, et les choix de canal ne sont enregistrés que sur cet appareil."
+}

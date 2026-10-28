@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Ramani ya uwekezaji",
+  "backToChat": "Rudi kwenye mazungumzo",
+  "stepsTitle": "Hatua tisa",
+  "progress": "{{done}} kati ya {{total}} zimekamilika",
+  "progressLabel": "Maendeleo ya ramani",
+  "jobs": "Ajira {{n}}",
+  "foreign": "{{n}} wa kigeni",
+  "capital": {
+    "foreign": "Mwekezaji wa kigeni",
+    "mixed": "Mtaji wa kigeni na wa Msumbiji",
+    "mozambican": "Mwekezaji wa Msumbiji"
+  },
+  "profile": {
+    "label": "Wasifu wa mwekezaji",
+    "investor": "Mwekezaji",
+    "investment": "Uwekezaji",
+    "jobs": "Ajira",
+    "sector": "Sekta"
+  },
+  "markDone": "Weka hatua {{n}} kuwa imekamilika: {{title}}",
+  "markUndone": "Weka hatua {{n}} kuwa haijakamilika: {{title}}",
+  "tick": "Weka kuwa imekamilika",
+  "undo": "Weka kuwa haijakamilika",
+  "done": "Imekamilika",
+  "current": "Sasa",
+  "mayNotApply": "Huenda isihusike",
+  "who": "Nani",
+  "duration": "Muda wa makadirio",
+  "forYou": "Kwa mradi wako",
+  "documents": "Nyaraka",
+  "checklist": "Fungua orodha ya ukaguzi",
+  "legalBasis": "Msingi wa kisheria",
+  "openRef": "{{ref}} — fungua rejea ya kisheria",
+  "detail": {
+    "recommended": "Inapendekezwa",
+    "decides": "Nani anaamua",
+    "guarantee": "Dhamana ya kurejesha faida",
+    "noLand": "Ulisema mradi hauhitaji ardhi: kukodisha majengo yaliyopo kwa kawaida kunatosha. Hali ikibadilika, hatua hii inahusika.",
+    "noForeignCapital": "Mtaji wa Msumbiji: hakuna haja ya kusajili uwekezaji wa kigeni isipokuwa fedha za kigeni ziingie baadaye.",
+    "noForeignWorkers": "Hakuna wafanyakazi wa kigeni waliopangwa: sajili kampuni na wafanyakazi wako INSS. Vibali vinahitajika tu ukiajiri kutoka nje baadaye."
+  },
+  "allDone": "Hatua zote tisa zimekamilika. Kuanzia sasa, fuatilia tarehe za mwisho za kila mwezi.",
+  "aftercare": "Fungua kalenda ya huduma baada ya uwekezaji",
+  "timeToOperate": "Muda hadi kuanza kazi",
+  "legalDate": "Taarifa za jumla kwa mujibu wa sheria zilizokuwa zikitumika tarehe {{date}}. Si ushauri wa kisheria.",
+  "actions": {
+    "label": "Vitendo vya ramani",
+    "pdf": "Pakua PDF",
+    "expert": "Zungumza na mtaalamu",
+    "incentives": "Kadiria vivutio vyako",
+    "chat": "Muulize Tiva kuhusu ramani hii",
+    "edit": "Badilisha majibu yangu"
+  },
+  "loading": "Inaandaa ramani yako…",
+  "error": "Hitilafu imetokea wakati wa kuandaa ramani.",
+  "missing": {
+    "title": "Hatukuweza kupata ramani hii",
+    "text": "Miradi huhifadhiwa kwenye kifaa hiki pekee. Jibu maswali sita tena ili kuiunda upya."
+  },
+  "empty": {
+    "title": "Ramani yako inaanza na maswali sita mafupi",
+    "text": "Sekta, jimbo, ukubwa, chanzo, ajira na muda. Tiva hugeuza majibu kuwa hatua tisa zilizopangwa, kila moja ikiwa na mamlaka, nyaraka na sheria inayohusika.",
+    "pathfinder": "Anza Pathfinder",
+    "examples": "Au fungua mfano wa ramani"
+  },
+  "pdf": {
+    "back": "Rudi kwenye ramani",
+    "print": "Chapisha / Hifadhi kama PDF",
+    "hint": "Chagua “Hifadhi kama PDF” kwenye dirisha la kuchapisha.",
+    "ref": "Kumb. {{ref}}",
+    "generated": "Imetolewa {{date}}",
+    "step": "Hatua",
+    "incentives": "Vivutio vya kuchunguza",
+    "incentivesNote": "Ni makadirio tu: inategemea idhini ya APIEX na mapitio yanayosubiriwa ya Kanuni ya Manufaa ya Kodi.",
+    "next": "Vitendo vyako vitatu vijavyo",
+    "contacts": "Mawasiliano muhimu",
+    "contactApiex": "APIEX · usajili wa mradi",
+    "contactBau": "BAU {{province}} · leseni",
+    "contactBdm": "Banco de Moçambique · usajili wa mtaji",
+    "contactTa": "Tax Advisory · msaada wa kisheria na kodi",
+    "disclaimer": "Taarifa za jumla kwa mujibu wa sheria zilizokuwa zikitumika tarehe ya kutolewa. Si ushauri wa kisheria. Hatua, mamlaka na nyaraka zinaweza kutofautiana kulingana na hali ya kila mradi."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "back": "Retour à l'accueil",
+  "status": "Concierge de l'investissement · en ligne",
+  "new": "Nouvelle conversation",
+  "language": "Langue",
+  "thread": "Conversation avec Tiva",
+  "hello": "Bonjour, je suis Tiva. Parlez-moi de votre idée d'investissement ou posez une question sur l'investissement au Mozambique. Je réponds à partir de contenus revus par des avocats et j'indique la source juridique de chaque réponse.",
+  "tryAsking": "Essayez de demander",
+  "thinking": "Tiva consulte les sources revues",
+  "stopped": "Réponse interrompue.",
+  "sources": "Sources juridiques",
+  "reviewed": "Contenu revu par des avocats · information générale",
+  "whenToTalk": "Quand consulter un expert",
+  "outline": {
+    "sector": "Secteur : {{sector}}",
+    "body": "Un bon projet à étudier. Dans les grandes lignes :\n\n- **Société :** une société à responsabilité limitée (Lda) convient généralement, et des associés étrangers peuvent la détenir.\n- **Investissement :** enregistrez le projet auprès de l'APIEX pour accéder aux garanties et aux avantages.\n- **Licence :** licence d'activité ou industrielle, déposée via l'e-BAU.\n- **Argent :** enregistrez votre capital auprès de la Banco de Moçambique pour pouvoir rapatrier les bénéfices plus tard.\n\nVotre feuille de route en fait neuf étapes ordonnées pour votre secteur, votre province et votre taille."
+  },
+  "fallback": {
+    "text": "Je n'ai pas encore de réponse revue par des avocats sur ce point, et je préfère ne pas deviner. Essayez l'une de ces questions ou parlez à un expert qui pourra examiner votre cas.",
+    "suggested": "Questions suggérées"
+  },
+  "roadmap": {
+    "ready": "Votre feuille de route est prête",
+    "steps": "{{count}} étapes · société, APIEX, terrain, environnement, licence, capital, personnel, fiscalité",
+    "open": "Ouvrir la feuille de route"
+  },
+  "build": {
+    "eyebrow": "Étape suivante",
+    "title": "Créer ma feuille de route",
+    "text": "Six questions courtes transforment votre idée en neuf étapes ordonnées, chacune avec l'autorité compétente et la loi applicable.",
+    "cta": "Créer ma feuille de route"
+  },
+  "quick": {
+    "label": "Questions suivantes suggérées",
+    "incentives": "Quels avantages s'appliquent ?",
+    "permits": "Permis de travail pour mes cadres",
+    "expert": "Parler à un expert"
+  },
+  "topics": "Thèmes",
+  "topicQuestions": "Questions sur ce thème",
+  "fieldLabel": "Message à Tiva",
+  "placeholder": "Posez toute question sur l'investissement…",
+  "listening": "J'écoute… parlez maintenant",
+  "voice": "Enregistrer une note vocale",
+  "voiceStop": "Arrêter l'enregistrement",
+  "voiceUnavailable": "Les notes vocales ne sont pas disponibles dans ce navigateur. Veuillez écrire votre question.",
+  "send": "Envoyer",
+  "stop": "Arrêter la réponse",
+  "sectors": {
+    "agro_industry": "Agro-industrie",
+    "energy": "Énergie",
+    "logistics": "Logistique",
+    "tourism": "Tourisme",
+    "oil_gas": "Pétrole et gaz",
+    "mining": "Mines",
+    "services": "Services",
+    "general": "Commerce général"
+  }
+}

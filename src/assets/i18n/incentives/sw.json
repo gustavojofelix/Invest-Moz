@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Kikadiriaji cha vivutio",
+  "title": "Mradi wako unaweza kustahili nini?",
+  "intro": "Manufaa ya makadirio ya kodi na forodha kwa sekta, jimbo na utaratibu, kila moja ikiwa na chanzo chake cha kisheria.",
+  "form": "Mradi wako",
+  "results": "Manufaa ya makadirio",
+  "fields": {
+    "sector": "Sekta",
+    "province": "Jimbo",
+    "amount": "Uwekezaji (USD)",
+    "jobs": "Ajira za ndani",
+    "regime": "Utaratibu",
+    "exports70": "Mradi utauza nje angalau 70% ya uzalishaji wake"
+  },
+  "warning": {
+    "title": "Ni makadirio tu",
+    "text": "Kanuni ya Manufaa ya Kodi (CBF) inapitiwa upya na Serikali, kwa hiyo manufaa haya yanaweza kubadilika. Yanategemea idhini ya APIEX kwa mradi."
+  },
+  "heading": "Manufaa chini ya utaratibu wa {{regime}}",
+  "status": {
+    "likely": "Inawezekana",
+    "check": "Hakiki"
+  },
+  "kind": {
+    "fiscal": "Kodi",
+    "customs": "Forodha",
+    "other": "Utaratibu"
+  },
+  "estimate": {
+    "label": "Thamani ya mfano:",
+    "note": "kwa miaka 5, kutegemea eneo"
+  },
+  "exportsNeeded": "Inatumika tu ikiwa angalau 70% ya uzalishaji inauzwa nje.",
+  "zones": {
+    "title": "Kanda katika {{province}}",
+    "none": "Hakuna kanda ya aina hii iliyoorodheshwa katika jimbo hili. Kanda za majimbo mengine bado zinaweza kufaa mradi.",
+    "map": "Tazama kanda kwenye ramani"
+  },
+  "sources": "Vyanzo",
+  "upgrade": {
+    "eyebrow": "Unahitaji uhakika?",
+    "title": "Pata waraka uliopitiwa na mwanasheria",
+    "text": "Tax Advisory inaweza kuthibitisha ni manufaa gani yanayotumika kwa mradi wako, kiasi chake na hatua za kuwasilisha, pamoja na pendekezo la ada kabla ya kazi yoyote kuanza.",
+    "cta": "Pata waraka uliopitiwa na mwanasheria"
+  },
+  "roadmap": "Fungua ramani yangu ya hatua",
+  "pathfinder": "Tengeneza ramani yangu ya hatua",
+  "sectors": {
+    "agro_industry": "Viwanda vya kilimo",
+    "energy": "Nishati",
+    "logistics": "Usafirishaji",
+    "tourism": "Utalii",
+    "oil_gas": "Mafuta na gesi",
+    "mining": "Madini",
+    "services": "Huduma",
+    "general": "Biashara ya jumla"
+  }
+}

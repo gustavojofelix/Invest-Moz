@@ -1,0 +1,642 @@
+{
+  "corridors": [
+    {
+      "id": "maputo",
+      "name": {
+        "pt": "Corredor de Maputo",
+        "en": "Maputo corridor",
+        "fr": "Corridor de Maputo",
+        "zh": "Maputo 走廊",
+        "ar": "ممر مابوتو",
+        "hi": "मापुटो गलियारा",
+        "sw": "Korido ya Maputo",
+        "af": "Maputo-korridor"
+      },
+      "rule": "corridor-maputo"
+    },
+    {
+      "id": "beira",
+      "name": {
+        "pt": "Corredor da Beira",
+        "en": "Beira corridor",
+        "fr": "Corridor de Beira",
+        "zh": "Beira 走廊",
+        "ar": "ممر بيرا",
+        "hi": "बेइरा गलियारा",
+        "sw": "Korido ya Beira",
+        "af": "Beira-korridor"
+      },
+      "rule": "corridor-beira"
+    },
+    {
+      "id": "nacala",
+      "name": {
+        "pt": "Corredor de Nacala",
+        "en": "Nacala corridor",
+        "fr": "Corridor de Nacala",
+        "zh": "Nacala 走廊",
+        "ar": "ممر ناكالا",
+        "hi": "नकाला गलियारा",
+        "sw": "Korido ya Nacala",
+        "af": "Nacala-korridor"
+      },
+      "rule": "corridor-nacala"
+    },
+    {
+      "id": "rovuma",
+      "name": {
+        "pt": "Bacia do Rovuma",
+        "en": "Rovuma basin",
+        "fr": "Bassin du Rovuma",
+        "zh": "Rovuma 盆地",
+        "ar": "حوض روفوما",
+        "hi": "रोवुमा बेसिन",
+        "sw": "Bonde la Rovuma",
+        "af": "Rovuma-kom"
+      },
+      "rule": "pemba"
+    }
+  ],
+  "zones": [
+    {
+      "id": "nacala-sez",
+      "kind": "sez",
+      "province": "nampula",
+      "x": 506,
+      "y": 214,
+      "name": {
+        "pt": "ZEE de Nacala",
+        "en": "Nacala SEZ",
+        "fr": "ZES de Nacala",
+        "zh": "Nacala 经济特区",
+        "ar": "المنطقة الاقتصادية الخاصة في ناكالا",
+        "hi": "नकाला SEZ",
+        "sw": "SEZ ya Nacala",
+        "af": "Nacala SEZ"
+      },
+      "detail": {
+        "pt": "1 539 km²; corredor de Nacala; 194 projectos",
+        "en": "1,539 km²; Nacala corridor; 194 projects",
+        "fr": "1 539 km² ; corridor de Nacala ; 194 projets",
+        "zh": "1,539 km²；Nacala 走廊；194 个项目",
+        "ar": "1,539 km²؛ ممر ناكالا؛ 194 مشروعًا",
+        "hi": "1,539 km²; नकाला गलियारा; 194 परियोजनाएँ",
+        "sw": "1,539 km²; korido ya Nacala; miradi 194",
+        "af": "1,539 km²; Nacala-korridor; 194 projekte"
+      }
+    },
+    {
+      "id": "topuito",
+      "kind": "park",
+      "province": "nampula",
+      "x": 474,
+      "y": 309,
+      "name": {
+        "pt": "Parque Industrial de Topuito",
+        "en": "Topuito Industrial Park",
+        "fr": "Parc industriel de Topuito",
+        "zh": "Topuito 工业园",
+        "ar": "مجمّع توبويتو الصناعي",
+        "hi": "टोपुइटो औद्योगिक पार्क",
+        "sw": "Hifadhi ya Viwanda ya Topuito",
+        "af": "Topuito-nywerheidspark"
+      },
+      "detail": {
+        "pt": "215 ha; âncora: Kenmare (areias pesadas)",
+        "en": "215 ha; anchored by Kenmare (mineral sands)",
+        "fr": "215 ha ; ancré par Kenmare (sables minéraux)",
+        "zh": "215 ha；以 Kenmare（矿砂）为核心企业",
+        "ar": "215 ha؛ ترتكز على Kenmare (الرمال المعدنية)",
+        "hi": "215 ha; Kenmare (खनिज रेत) इसका प्रमुख निवेशक",
+        "sw": "215 ha; inaongozwa na Kenmare (mchanga wa madini)",
+        "af": "215 ha; geanker deur Kenmare (mineraalsand)"
+      }
+    },
+    {
+      "id": "crusse-jamali",
+      "kind": "tourism",
+      "province": "nampula",
+      "x": 524,
+      "y": 246,
+      "name": {
+        "pt": "Zona turística de Crusse e Jamali",
+        "en": "Crusse and Jamali tourism zone",
+        "fr": "Zone touristique de Crusse et Jamali",
+        "zh": "Crusse 和 Jamali 旅游区",
+        "ar": "المنطقة السياحية في كروسي وجامالي",
+        "hi": "क्रूसे और जमाली पर्यटन क्षेत्र",
+        "sw": "Kanda ya utalii ya Crusse na Jamali",
+        "af": "Crusse- en Jamali-toerismesone"
+      },
+      "detail": {
+        "pt": "Zona de turismo integrado",
+        "en": "Integrated tourism zone",
+        "fr": "Zone touristique intégrée",
+        "zh": "综合旅游区",
+        "ar": "منطقة سياحية متكاملة",
+        "hi": "एकीकृत पर्यटन क्षेत्र",
+        "sw": "Kanda jumuishi ya utalii",
+        "af": "Geïntegreerde toerismesone"
+      }
+    },
+    {
+      "id": "beluluane",
+      "kind": "ifz",
+      "province": "maputo_provincia",
+      "x": 110,
+      "y": 806,
+      "name": {
+        "pt": "Parque Industrial de Beluluane (ZFI)",
+        "en": "Beluluane Industrial Park (IFZ)",
+        "fr": "Parc industriel de Beluluane (ZFI)",
+        "zh": "Beluluane 工业园（工业自由区）",
+        "ar": "مجمّع بيلولواني الصناعي (منطقة صناعية حرة)",
+        "hi": "बेलुलुआने औद्योगिक पार्क (IFZ)",
+        "sw": "Hifadhi ya Viwanda ya Beluluane (IFZ)",
+        "af": "Beluluane-nywerheidspark (IFZ)"
+      },
+      "detail": {
+        "pt": "700 ha, 400 ha disponíveis; 20 km do porto; 80 MW dedicados",
+        "en": "700 ha, 400 ha available; 20 km from the port; 80 MW dedicated power",
+        "fr": "700 ha, dont 400 ha disponibles ; à 20 km du port ; 80 MW dédiés",
+        "zh": "700 ha，其中 400 ha 可用；距港口 20 km；专用电力 80 MW",
+        "ar": "700 ha، منها 400 ha متاحة؛ على بُعد 20 km من الميناء؛ 80 MW من الطاقة المخصصة",
+        "hi": "700 ha, 400 ha उपलब्ध; बंदरगाह से 20 km; 80 MW समर्पित बिजली",
+        "sw": "700 ha, 400 ha zinapatikana; km 20 kutoka bandarini; 80 MW za umeme maalum",
+        "af": "700 ha, 400 ha beskikbaar; 20 km van die hawe; 80 MW toegewyde krag"
+      }
+    },
+    {
+      "id": "macaneta",
+      "kind": "tourism",
+      "province": "maputo_provincia",
+      "x": 131,
+      "y": 798,
+      "name": {
+        "pt": "ZEE turística da Baía de Macaneta",
+        "en": "Macaneta Bay tourism SEZ",
+        "fr": "ZES touristique de la baie de Macaneta",
+        "zh": "Macaneta 湾旅游经济特区",
+        "ar": "المنطقة الاقتصادية الخاصة السياحية في خليج ماكانيتا",
+        "hi": "मकानेटा खाड़ी पर्यटन SEZ",
+        "sw": "SEZ ya utalii ya Ghuba ya Macaneta",
+        "af": "Macaneta-baai toerisme-SEZ"
+      },
+      "detail": {
+        "pt": "Zona económica especial de turismo",
+        "en": "Tourism special economic zone",
+        "fr": "Zone économique spéciale touristique",
+        "zh": "旅游经济特区",
+        "ar": "منطقة اقتصادية خاصة للسياحة",
+        "hi": "पर्यटन विशेष आर्थिक क्षेत्र",
+        "sw": "Kanda maalum ya kiuchumi ya utalii",
+        "af": "Spesiale ekonomiese sone vir toerisme"
+      }
+    },
+    {
+      "id": "manga-mungassa",
+      "kind": "sez",
+      "province": "sofala",
+      "x": 225,
+      "y": 487,
+      "name": {
+        "pt": "ZEE de Manga-Mungassa",
+        "en": "Manga-Mungassa SEZ",
+        "fr": "ZES de Manga-Mungassa",
+        "zh": "Manga-Mungassa 经济特区",
+        "ar": "المنطقة الاقتصادية الخاصة في مانغا-مونغاسا",
+        "hi": "मांगा-मुंगास्सा SEZ",
+        "sw": "SEZ ya Manga-Mungassa",
+        "af": "Manga-Mungassa SEZ"
+      },
+      "detail": {
+        "pt": "217 ha; 12 km do porto da Beira",
+        "en": "217 ha; 12 km from the Port of Beira",
+        "fr": "217 ha ; à 12 km du port de Beira",
+        "zh": "217 ha；距 Beira 港 12 km",
+        "ar": "217 ha؛ على بُعد 12 km من ميناء بيرا",
+        "hi": "217 ha; बेइरा बंदरगाह से 12 km",
+        "sw": "217 ha; km 12 kutoka Bandari ya Beira",
+        "af": "217 ha; 12 km van die Beira-hawe"
+      }
+    },
+    {
+      "id": "limpopo",
+      "kind": "sez",
+      "province": "gaza",
+      "x": 165,
+      "y": 745,
+      "name": {
+        "pt": "ZEE Agrícola do Vale do Limpopo",
+        "en": "Limpopo Valley Agribusiness SEZ",
+        "fr": "ZES agricole de la vallée du Limpopo",
+        "zh": "Limpopo 河谷农业经济特区",
+        "ar": "المنطقة الاقتصادية الخاصة للأعمال الزراعية في وادي ليمبوبو",
+        "hi": "लिम्पोपो घाटी कृषि-व्यवसाय SEZ",
+        "sw": "SEZ ya Biashara ya Kilimo ya Bonde la Limpopo",
+        "af": "Limpopovallei Landbou-onderneming-SEZ"
+      },
+      "detail": {
+        "pt": "7 297 km²; regadio existente",
+        "en": "7,297 km²; irrigation in place",
+        "fr": "7 297 km² ; irrigation existante",
+        "zh": "7,297 km²；灌溉设施已到位",
+        "ar": "7,297 km²؛ بنية ري قائمة",
+        "hi": "7,297 km²; सिंचाई व्यवस्था मौजूद",
+        "sw": "7,297 km²; miundombinu ya umwagiliaji ipo",
+        "af": "7,297 km²; besproeiing in plek"
+      }
+    },
+    {
+      "id": "mocuba",
+      "kind": "sez",
+      "province": "zambezia",
+      "x": 347,
+      "y": 331,
+      "name": {
+        "pt": "ZEE de Mocuba",
+        "en": "Mocuba SEZ",
+        "fr": "ZES de Mocuba",
+        "zh": "Mocuba 经济特区",
+        "ar": "المنطقة الاقتصادية الخاصة في موكوبا",
+        "hi": "मोकुबा SEZ",
+        "sw": "SEZ ya Mocuba",
+        "af": "Mocuba SEZ"
+      },
+      "detail": {
+        "pt": "10 727 km²; agro-processamento",
+        "en": "10,727 km²; agro-processing",
+        "fr": "10 727 km² ; agro-transformation",
+        "zh": "10,727 km²；农产品加工",
+        "ar": "10,727 km²؛ تصنيع المنتجات الزراعية",
+        "hi": "10,727 km²; कृषि-प्रसंस्करण",
+        "sw": "10,727 km²; usindikaji wa mazao ya kilimo",
+        "af": "10,727 km²; agro-verwerking"
+      }
+    },
+    {
+      "id": "niassa-ute",
+      "kind": "sez",
+      "province": "niassa",
+      "name": {
+        "pt": "ZEE UTE do Niassa",
+        "en": "Niassa UTE SEZ",
+        "fr": "ZES UTE du Niassa",
+        "zh": "Niassa UTE 经济特区",
+        "ar": "المنطقة الاقتصادية الخاصة UTE في نياسا",
+        "hi": "नियासा UTE SEZ",
+        "sw": "SEZ ya Niassa UTE",
+        "af": "Niassa UTE SEZ"
+      },
+      "detail": {
+        "pt": "681 ha",
+        "en": "681 ha",
+        "fr": "681 ha",
+        "zh": "681 ha",
+        "ar": "681 ha",
+        "hi": "681 ha",
+        "sw": "681 ha",
+        "af": "681 ha"
+      }
+    }
+  ],
+  "provinces": [
+    {
+      "code": "niassa",
+      "corridor": "nacala",
+      "sectors": ["agro_industry", "energy", "logistics"],
+      "highlights": [
+        {
+          "pt": "Linha férrea do corredor de Nacala até ao Malawi, via Cuamba",
+          "en": "Nacala corridor railway to Malawi through Cuamba",
+          "fr": "Voie ferrée du corridor de Nacala vers le Malawi, via Cuamba",
+          "zh": "Nacala 走廊铁路经 Cuamba 通往马拉维",
+          "ar": "سكة حديد ممر ناكالا إلى ملاوي عبر كوامبا",
+          "hi": "कुआम्बा होते हुए मलावी तक नकाला गलियारा रेलमार्ग",
+          "sw": "Reli ya korido ya Nacala kwenda Malawi kupitia Cuamba",
+          "af": "Nacala-korridor-spoorlyn na Malawi deur Cuamba"
+        },
+        {
+          "pt": "Central solar de Cuamba com armazenamento em baterias (18 MWp)",
+          "en": "Cuamba solar plant with battery storage (18 MWp)",
+          "fr": "Centrale solaire de Cuamba avec stockage par batteries (18 MWc)",
+          "zh": "Cuamba 配套储能的太阳能电站（18 MWp）",
+          "ar": "محطة كوامبا للطاقة الشمسية مع تخزين بالبطاريات (18 MWp)",
+          "hi": "बैटरी भंडारण के साथ कुआम्बा सौर संयंत्र (18 MWp)",
+          "sw": "Kituo cha umeme wa jua cha Cuamba chenye hifadhi ya betri (18 MWp)",
+          "af": "Cuamba-sonkragaanleg met batterybergingsvermoë (18 MWp)"
+        }
+      ]
+    },
+    {
+      "code": "cabo_delgado",
+      "corridor": "rovuma",
+      "sectors": ["oil_gas", "mining", "logistics", "tourism"],
+      "highlights": [
+        {
+          "pt": "Projectos de GNL da bacia do Rovuma e base logística de Pemba",
+          "en": "Rovuma basin LNG projects and the Pemba logistics base",
+          "fr": "Projets de GNL du bassin du Rovuma et base logistique de Pemba",
+          "zh": "Rovuma 盆地液化天然气项目及 Pemba 物流基地",
+          "ar": "مشاريع الغاز الطبيعي المسال في حوض روفوما وقاعدة بيمبا اللوجستية",
+          "hi": "रोवुमा बेसिन की LNG परियोजनाएँ और पेम्बा लॉजिस्टिक्स बेस",
+          "sw": "Miradi ya LNG ya bonde la Rovuma na kituo cha usafirishaji cha Pemba",
+          "af": "LNG-projekte in die Rovuma-kom en die Pemba-logistieke basis"
+        },
+        {
+          "pt": "Grafite e fornecimento local ao sector extractivo",
+          "en": "Graphite and local supply to the extractive sector",
+          "fr": "Graphite et approvisionnement local du secteur extractif",
+          "zh": "石墨及面向采掘业的本地供应",
+          "ar": "الغرافيت والتوريد المحلي لقطاع الصناعات الاستخراجية",
+          "hi": "ग्रेफ़ाइट और निष्कर्षण क्षेत्र को स्थानीय आपूर्ति",
+          "sw": "Grafiti na usambazaji wa ndani kwa sekta ya uziduaji",
+          "af": "Grafiet en plaaslike voorsiening aan die ontginningsektor"
+        },
+        {
+          "pt": "Pemba e as Quirimbas: turismo costeiro ainda pouco desenvolvido",
+          "en": "Pemba and the Quirimbas: coastal tourism still largely undeveloped",
+          "fr": "Pemba et les Quirimbas : tourisme côtier encore peu développé",
+          "zh": "Pemba 和 Quirimbas：滨海旅游仍有很大开发空间",
+          "ar": "بيمبا وأرخبيل كيريمباس: سياحة ساحلية لا تزال غير مطوّرة إلى حد كبير",
+          "hi": "पेम्बा और क्विरिम्बास: तटीय पर्यटन जो अभी काफ़ी हद तक अविकसित है",
+          "sw": "Pemba na Quirimbas: utalii wa pwani ambao bado haujaendelezwa kwa kiasi kikubwa",
+          "af": "Pemba en die Quirimbas: kustoerisme wat nog grootliks onontwikkel is"
+        }
+      ]
+    },
+    {
+      "code": "nampula",
+      "corridor": "nacala",
+      "sectors": ["agro_industry", "logistics", "mining", "tourism"],
+      "highlights": [
+        {
+          "pt": "Zona Económica Especial e porto de águas profundas de Nacala",
+          "en": "Nacala Special Economic Zone and deep-water port",
+          "fr": "Zone économique spéciale et port en eau profonde de Nacala",
+          "zh": "Nacala 经济特区及深水港",
+          "ar": "المنطقة الاقتصادية الخاصة في ناكالا وميناء المياه العميقة",
+          "hi": "नकाला विशेष आर्थिक क्षेत्र और गहरे पानी का बंदरगाह",
+          "sw": "Kanda Maalum ya Kiuchumi ya Nacala na bandari ya kina kirefu",
+          "af": "Nacala Spesiale Ekonomiese Sone en diepwaterhawe"
+        },
+        {
+          "pt": "Ligação ferroviária ao Malawi e exportação para a Ásia",
+          "en": "Rail link to Malawi and exports to Asia",
+          "fr": "Liaison ferroviaire vers le Malawi et exportations vers l'Asie",
+          "zh": "通往马拉维的铁路及对亚洲出口",
+          "ar": "ربط بالسكك الحديدية مع ملاوي وصادرات إلى آسيا",
+          "hi": "मलावी तक रेल संपर्क और एशिया को निर्यात",
+          "sw": "Muunganiko wa reli na Malawi na mauzo ya nje kwenda Asia",
+          "af": "Spoorverbinding met Malawi en uitvoere na Asië"
+        },
+        {
+          "pt": "Zona de produção de caju, com espaço para o agro-processamento",
+          "en": "Cashew-growing area with room for agro-processing",
+          "fr": "Zone de production de cajou, avec de la place pour l'agro-transformation",
+          "zh": "腰果产区，农产品加工潜力大",
+          "ar": "منطقة لزراعة الكاجو مع مجال لتصنيع المنتجات الزراعية",
+          "hi": "काजू उत्पादक क्षेत्र, जहाँ कृषि-प्रसंस्करण की गुंजाइश है",
+          "sw": "Eneo la kilimo cha korosho lenye nafasi ya usindikaji wa mazao",
+          "af": "Kasjoeverbouingsgebied met ruimte vir agro-verwerking"
+        }
+      ]
+    },
+    {
+      "code": "zambezia",
+      "corridor": "nacala",
+      "sectors": ["agro_industry", "energy"],
+      "highlights": [
+        {
+          "pt": "ZEE de Mocuba, orientada para o agro-processamento",
+          "en": "Mocuba SEZ, focused on agro-processing",
+          "fr": "ZES de Mocuba, tournée vers l'agro-transformation",
+          "zh": "Mocuba 经济特区，专注农产品加工",
+          "ar": "المنطقة الاقتصادية الخاصة في موكوبا، المركّزة على تصنيع المنتجات الزراعية",
+          "hi": "मोकुबा SEZ, कृषि-प्रसंस्करण पर केंद्रित",
+          "sw": "SEZ ya Mocuba, inayolenga usindikaji wa mazao ya kilimo",
+          "af": "Mocuba SEZ, gefokus op agro-verwerking"
+        },
+        {
+          "pt": "Central solar de Mocuba (40 MWp) em operação",
+          "en": "Mocuba solar plant (40 MWp) in operation",
+          "fr": "Centrale solaire de Mocuba (40 MWc) en service",
+          "zh": "Mocuba 太阳能电站（40 MWp）已投入运营",
+          "ar": "محطة موكوبا للطاقة الشمسية (40 MWp) قيد التشغيل",
+          "hi": "मोकुबा सौर संयंत्र (40 MWp) चालू",
+          "sw": "Kituo cha umeme wa jua cha Mocuba (40 MWp) kinafanya kazi",
+          "af": "Mocuba-sonkragaanleg (40 MWp) in bedryf"
+        }
+      ]
+    },
+    {
+      "code": "tete",
+      "corridor": "beira",
+      "sectors": ["mining", "energy", "agro_industry", "logistics"],
+      "highlights": [
+        {
+          "pt": "Carvão no corredor da Beira e porto seco de Moatize",
+          "en": "Coal on the Beira corridor and the Moatize dry port",
+          "fr": "Charbon sur le corridor de Beira et port sec de Moatize",
+          "zh": "Beira 走廊沿线的煤炭及 Moatize 内陆港",
+          "ar": "الفحم على ممر بيرا والميناء الجاف في مواتيزي",
+          "hi": "बेइरा गलियारे पर कोयला और मोआटिज़े ड्राई पोर्ट",
+          "sw": "Makaa ya mawe kwenye korido ya Beira na bandari kavu ya Moatize",
+          "af": "Steenkool op die Beira-korridor en die Moatize-droëhawe"
+        },
+        {
+          "pt": "Hidroeléctrica de Mphanda Nkuwa (1 500 MW) a caminho do fecho financeiro",
+          "en": "Mphanda Nkuwa hydropower (1,500 MW) moving towards financial close",
+          "fr": "Hydroélectricité de Mphanda Nkuwa (1 500 MW) en route vers le bouclage financier",
+          "zh": "Mphanda Nkuwa 水电站（1,500 MW）正推进融资关闭",
+          "ar": "محطة مفاندا نكوا الكهرومائية (1,500 MW) تقترب من الإغلاق المالي",
+          "hi": "म्फांडा न्कुवा जलविद्युत परियोजना (1,500 MW) वित्तीय समापन की ओर",
+          "sw": "Mradi wa umeme wa maji wa Mphanda Nkuwa (1,500 MW) unaelekea kukamilisha ufadhili",
+          "af": "Mphanda Nkuwa-hidrokrag (1,500 MW) op pad na finansiële afsluiting"
+        },
+        {
+          "pt": "Aquacultura de tilápia no lago de Cahora Bassa",
+          "en": "Tilapia farming on Lake Cahora Bassa",
+          "fr": "Élevage de tilapia sur le lac de Cahora Bassa",
+          "zh": "Cahora Bassa 湖罗非鱼养殖",
+          "ar": "استزراع البلطي في بحيرة كاهورا باسا",
+          "hi": "काहोरा बासा झील में तिलापिया मछली पालन",
+          "sw": "Ufugaji wa samaki aina ya tilapia katika Ziwa Cahora Bassa",
+          "af": "Tilapia-boerdery op die Cahora Bassa-meer"
+        }
+      ]
+    },
+    {
+      "code": "manica",
+      "corridor": "beira",
+      "sectors": ["agro_industry", "logistics"],
+      "highlights": [
+        {
+          "pt": "No corredor da Beira, a caminho do Zimbabwe",
+          "en": "On the Beira corridor towards Zimbabwe",
+          "fr": "Sur le corridor de Beira, en direction du Zimbabwe",
+          "zh": "位于通往津巴布韦的 Beira 走廊上",
+          "ar": "على ممر بيرا باتجاه زيمبابوي",
+          "hi": "ज़िम्बाब्वे की ओर बेइरा गलियारे पर",
+          "sw": "Kwenye korido ya Beira kuelekea Zimbabwe",
+          "af": "Op die Beira-korridor na Zimbabwe"
+        },
+        {
+          "pt": "Agronegócio servido pelo porto da Beira",
+          "en": "Agribusiness served by the Port of Beira",
+          "fr": "Agro-industrie desservie par le port de Beira",
+          "zh": "依托 Beira 港的农业综合产业",
+          "ar": "أعمال زراعية يخدمها ميناء بيرا",
+          "hi": "बेइरा बंदरगाह से जुड़ा कृषि-व्यवसाय",
+          "sw": "Biashara ya kilimo inayohudumiwa na Bandari ya Beira",
+          "af": "Landbou-ondernemings bedien deur die Beira-hawe"
+        }
+      ]
+    },
+    {
+      "code": "sofala",
+      "corridor": "beira",
+      "sectors": ["logistics", "agro_industry"],
+      "highlights": [
+        {
+          "pt": "Porto da Beira, ligado ao Zimbabwe, Zâmbia, RDC e Malawi",
+          "en": "Port of Beira, linked to Zimbabwe, Zambia, the DRC and Malawi",
+          "fr": "Port de Beira, relié au Zimbabwe, à la Zambie, à la RDC et au Malawi",
+          "zh": "Beira 港，连接津巴布韦、赞比亚、刚果（金）和马拉维",
+          "ar": "ميناء بيرا، المرتبط بزيمبابوي وزامبيا وجمهورية الكونغو الديمقراطية وملاوي",
+          "hi": "बेइरा बंदरगाह, ज़िम्बाब्वे, ज़ाम्बिया, DRC और मलावी से जुड़ा",
+          "sw": "Bandari ya Beira, inayounganishwa na Zimbabwe, Zambia, DRC na Malawi",
+          "af": "Beira-hawe, verbind met Zimbabwe, Zambië, die DRK en Malawi"
+        },
+        {
+          "pt": "ZEE de Manga-Mungassa, a 12 km do porto",
+          "en": "Manga-Mungassa SEZ, 12 km from the port",
+          "fr": "ZES de Manga-Mungassa, à 12 km du port",
+          "zh": "Manga-Mungassa 经济特区，距港口 12 km",
+          "ar": "المنطقة الاقتصادية الخاصة في مانغا-مونغاسا، على بُعد 12 km من الميناء",
+          "hi": "मांगा-मुंगास्सा SEZ, बंदरगाह से 12 km",
+          "sw": "SEZ ya Manga-Mungassa, km 12 kutoka bandarini",
+          "af": "Manga-Mungassa SEZ, 12 km van die hawe"
+        }
+      ]
+    },
+    {
+      "code": "inhambane",
+      "corridor": null,
+      "sectors": ["tourism", "energy", "oil_gas"],
+      "highlights": [
+        {
+          "pt": "Turismo costeiro consolidado: Vilankulos, Inhambane, Tofo e o arquipélago do Bazaruto",
+          "en": "Established coastal tourism: Vilankulos, Inhambane, Tofo and the Bazaruto archipelago",
+          "fr": "Tourisme côtier établi : Vilankulos, Inhambane, Tofo et l'archipel de Bazaruto",
+          "zh": "成熟的滨海旅游：Vilankulos、Inhambane、Tofo 及 Bazaruto 群岛",
+          "ar": "سياحة ساحلية راسخة: فيلانكولوس وإنهامباني وتوفو وأرخبيل بازاروتو",
+          "hi": "स्थापित तटीय पर्यटन: विलानकुलोस, इन्हाम्बाने, टोफ़ो और बाज़ारुतो द्वीपसमूह",
+          "sw": "Utalii wa pwani uliokomaa: Vilankulos, Inhambane, Tofo na funguvisiwa la Bazaruto",
+          "af": "Gevestigde kustoerisme: Vilankulos, Inhambane, Tofo en die Bazaruto-argipel"
+        },
+        {
+          "pt": "Central a gás de Temane (450 MW) em construção",
+          "en": "Temane gas power plant (450 MW) under construction",
+          "fr": "Centrale à gaz de Temane (450 MW) en construction",
+          "zh": "Temane 燃气电站（450 MW）在建",
+          "ar": "محطة تيماني لتوليد الكهرباء بالغاز (450 MW) قيد الإنشاء",
+          "hi": "तेमाने गैस बिजली संयंत्र (450 MW) निर्माणाधीन",
+          "sw": "Kituo cha umeme wa gesi cha Temane (450 MW) kinajengwa",
+          "af": "Temane-gaskragsentrale (450 MW) in aanbou"
+        }
+      ]
+    },
+    {
+      "code": "gaza",
+      "corridor": "maputo",
+      "sectors": ["agro_industry"],
+      "highlights": [
+        {
+          "pt": "ZEE Agrícola do Vale do Limpopo, com regadio existente",
+          "en": "Limpopo Valley Agribusiness SEZ, with irrigation in place",
+          "fr": "ZES agricole de la vallée du Limpopo, avec irrigation existante",
+          "zh": "Limpopo 河谷农业经济特区，灌溉设施已到位",
+          "ar": "المنطقة الاقتصادية الخاصة للأعمال الزراعية في وادي ليمبوبو، مع بنية ري قائمة",
+          "hi": "लिम्पोपो घाटी कृषि-व्यवसाय SEZ, सिंचाई व्यवस्था के साथ",
+          "sw": "SEZ ya Biashara ya Kilimo ya Bonde la Limpopo, yenye miundombinu ya umwagiliaji",
+          "af": "Limpopovallei Landbou-onderneming-SEZ, met besproeiing in plek"
+        },
+        {
+          "pt": "Nova iniciativa da MozParks (2025) para agro-processamento",
+          "en": "New MozParks initiative (2025) for agro-processing",
+          "fr": "Nouvelle initiative MozParks (2025) pour l'agro-transformation",
+          "zh": "MozParks 新计划（2025）面向农产品加工",
+          "ar": "مبادرة MozParks الجديدة (2025) لتصنيع المنتجات الزراعية",
+          "hi": "कृषि-प्रसंस्करण के लिए नई MozParks पहल (2025)",
+          "sw": "Mpango mpya wa MozParks (2025) kwa usindikaji wa mazao ya kilimo",
+          "af": "Nuwe MozParks-inisiatief (2025) vir agro-verwerking"
+        }
+      ]
+    },
+    {
+      "code": "maputo_provincia",
+      "corridor": "maputo",
+      "sectors": ["logistics", "services", "tourism", "agro_industry"],
+      "highlights": [
+        {
+          "pt": "Parque Industrial de Beluluane (ZFI): mais de 70 empresas de 18 países",
+          "en": "Beluluane Industrial Park (IFZ): 70+ companies from 18 countries",
+          "fr": "Parc industriel de Beluluane (ZFI) : plus de 70 entreprises de 18 pays",
+          "zh": "Beluluane 工业园（工业自由区）：来自 18 个国家的 70 多家企业",
+          "ar": "مجمّع بيلولواني الصناعي (منطقة صناعية حرة): أكثر من 70 شركة من 18 دولة",
+          "hi": "बेलुलुआने औद्योगिक पार्क (IFZ): 18 देशों की 70+ कंपनियाँ",
+          "sw": "Hifadhi ya Viwanda ya Beluluane (IFZ): kampuni 70+ kutoka nchi 18",
+          "af": "Beluluane-nywerheidspark (IFZ): 70+ maatskappye uit 18 lande"
+        },
+        {
+          "pt": "Centro de dados Tier III da Raxio em Beluluane",
+          "en": "Raxio Tier III data centre at Beluluane",
+          "fr": "Centre de données Tier III de Raxio à Beluluane",
+          "zh": "位于 Beluluane 的 Raxio Tier III 数据中心",
+          "ar": "مركز بيانات Raxio من الفئة Tier III في بيلولواني",
+          "hi": "बेलुलुआने में Raxio टियर III डेटा सेंटर",
+          "sw": "Kituo cha data cha Raxio cha Tier III huko Beluluane",
+          "af": "Raxio Tier III-datasentrum by Beluluane"
+        },
+        {
+          "pt": "Turismo em Ponta do Ouro e na Baía de Macaneta",
+          "en": "Tourism at Ponta do Ouro and Macaneta Bay",
+          "fr": "Tourisme à Ponta do Ouro et dans la baie de Macaneta",
+          "zh": "Ponta do Ouro 和 Macaneta 湾旅游",
+          "ar": "السياحة في بونتا دو أورو وخليج ماكانيتا",
+          "hi": "पोंटा दो ओरो और मकानेटा खाड़ी में पर्यटन",
+          "sw": "Utalii huko Ponta do Ouro na Ghuba ya Macaneta",
+          "af": "Toerisme by Ponta do Ouro en Macaneta-baai"
+        }
+      ]
+    },
+    {
+      "code": "maputo_cidade",
+      "corridor": "maputo",
+      "sectors": ["services", "logistics", "tourism"],
+      "highlights": [
+        {
+          "pt": "Porto de Maputo: recorde de 32 milhões de toneladas em 2025",
+          "en": "Port of Maputo: a record 32 million tons in 2025",
+          "fr": "Port de Maputo : record de 32 millions de tonnes en 2025",
+          "zh": "Maputo 港：2025 年吞吐量创纪录，达 3,200 万吨",
+          "ar": "ميناء مابوتو: رقم قياسي بلغ 32 مليون طن في 2025",
+          "hi": "मापुटो बंदरगाह: 2025 में रिकॉर्ड 32 मिलियन टन",
+          "sw": "Bandari ya Maputo: rekodi ya tani milioni 32 mwaka 2025",
+          "af": "Maputo-hawe: 'n rekord van 32 miljoen ton in 2025"
+        },
+        {
+          "pt": "Pólo de serviços, turismo de negócios e economia digital; cabos submarinos chegam perto de Maputo",
+          "en": "Hub for services, business tourism and the digital economy; submarine cables land nearby",
+          "fr": "Pôle de services, de tourisme d'affaires et d'économie numérique ; des câbles sous-marins atterrissent à proximité",
+          "zh": "服务业、商务旅游和数字经济中心；海底光缆在附近登陆",
+          "ar": "مركز للخدمات وسياحة الأعمال والاقتصاد الرقمي؛ وتصل الكابلات البحرية إلى مقربة منه",
+          "hi": "सेवाओं, व्यावसायिक पर्यटन और डिजिटल अर्थव्यवस्था का केंद्र; पास में समुद्री केबल पहुँचती हैं",
+          "sw": "Kitovu cha huduma, utalii wa kibiashara na uchumi wa kidijitali; nyaya za chini ya bahari hutua karibu",
+          "af": "Spilpunt vir dienste, sakesetoerisme en die digitale ekonomie; duikkabels land naby"
+        }
+      ]
+    }
+  ]
+}

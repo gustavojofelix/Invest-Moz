@@ -6,62 +6,112 @@
       "title": {
         "pt": "Sete vantagens estruturais",
         "en": "Seven structural advantages",
-        "fr": "Sept avantages structurels"
+        "fr": "Sept avantages structurels",
+        "zh": "七大结构性优势",
+        "ar": "سبع مزايا هيكلية",
+        "hi": "सात संरचनात्मक लाभ",
+        "sw": "Faida saba za kimuundo",
+        "af": "Sewe strukturele voordele"
       },
       "facts": [
         {
           "value": {
             "pt": "3 portos",
             "en": "3 ports",
-            "fr": "3 ports"
+            "fr": "3 ports",
+            "zh": "3 个港口",
+            "ar": "3 موانئ",
+            "hi": "3 बंदरगाह",
+            "sw": "Bandari 3",
+            "af": "3 hawens"
           },
           "label": {
             "pt": "de águas profundas — Maputo, Beira e Nacala",
             "en": "deep-water ports — Maputo, Beira and Nacala",
-            "fr": "en eau profonde — Maputo, Beira et Nacala"
+            "fr": "en eau profonde — Maputo, Beira et Nacala",
+            "zh": "深水港——马普托、贝拉和纳卡拉",
+            "ar": "موانئ مياه عميقة — Maputo وBeira وNacala",
+            "hi": "गहरे पानी के बंदरगाह — Maputo, Beira और Nacala",
+            "sw": "bandari za kina kirefu — Maputo, Beira na Nacala",
+            "af": "diepwaterhawens — Maputo, Beira en Nacala"
           }
         },
         {
           "value": {
             "pt": "USD 0,08/kWh",
             "en": "USD 0.08/kWh",
-            "fr": "0,08 USD/kWh"
+            "fr": "0,08 USD/kWh",
+            "zh": "0.08 美元/千瓦时",
+            "ar": "USD 0.08/kWh",
+            "hi": "USD 0.08/kWh",
+            "sw": "USD 0.08/kWh",
+            "af": "USD 0.08/kWh"
           },
           "label": {
             "pt": "tarifa eléctrica industrial, 44% abaixo da África do Sul",
             "en": "industrial power tariff, 44% below South Africa",
-            "fr": "tarif électrique industriel, 44 % sous l'Afrique du Sud"
+            "fr": "tarif électrique industriel, 44 % sous l'Afrique du Sud",
+            "zh": "工业电价，比南非低 44%",
+            "ar": "تعريفة الكهرباء الصناعية، أقل بنسبة 44% من جنوب أفريقيا",
+            "hi": "औद्योगिक बिजली शुल्क, दक्षिण अफ्रीका से 44% कम",
+            "sw": "bei ya umeme kwa viwanda, 44% chini ya Afrika Kusini",
+            "af": "industriële kragtarief, 44% laer as Suid-Afrika"
           }
         },
         {
           "value": {
             "pt": "50 anos",
             "en": "50 years",
-            "fr": "50 ans"
+            "fr": "50 ans",
+            "zh": "50 年",
+            "ar": "50 سنة",
+            "hi": "50 वर्ष",
+            "sw": "Miaka 50",
+            "af": "50 jaar"
           },
           "label": {
             "pt": "direito de uso da terra (DUAT) renovável, sem compra",
             "en": "renewable land-use right (DUAT), no purchase",
-            "fr": "droit d'usage de la terre (DUAT) renouvelable, sans achat"
+            "fr": "droit d'usage de la terre (DUAT) renouvelable, sans achat",
+            "zh": "可续期的土地使用权（DUAT），无需购买",
+            "ar": "حق انتفاع بالأرض (DUAT) قابل للتجديد، دون شراء",
+            "hi": "नवीकरणीय भूमि-उपयोग अधिकार (DUAT), खरीद की आवश्यकता नहीं",
+            "sw": "haki ya matumizi ya ardhi (DUAT) inayohuishwa, bila kununua",
+            "af": "hernubare grondgebruiksreg (DUAT), geen aankoop nie"
           }
         },
         {
           "value": {
             "pt": "3 dias úteis",
             "en": "3 working days",
-            "fr": "3 jours ouvrables"
+            "fr": "3 jours ouvrables",
+            "zh": "3 个工作日",
+            "ar": "3 أيام عمل",
+            "hi": "3 कार्य दिवस",
+            "sw": "Siku 3 za kazi",
+            "af": "3 werksdae"
           },
           "label": {
             "pt": "prazo mínimo legal da via de registo na APIEX",
             "en": "statutory minimum for the APIEX registration track",
-            "fr": "délai légal minimal de la voie d'enregistrement APIEX"
+            "fr": "délai légal minimal de la voie d'enregistrement APIEX",
+            "zh": "APIEX 登记程序的法定最短时限",
+            "ar": "الحد الأدنى القانوني لمسار التسجيل لدى APIEX",
+            "hi": "APIEX पंजीकरण प्रक्रिया के लिए वैधानिक न्यूनतम समय",
+            "sw": "kiwango cha chini cha kisheria kwa njia ya usajili ya APIEX",
+            "af": "statutêre minimum vir die APIEX-registrasieroete"
           }
         }
       ],
       "body": {
         "pt": "- **Porta de entrada multicorredor** para a África Austral e Central.\n- **Plataforma energética regional:** gás e renováveis a custo competitivo.\n- **Terra produtiva** em escala e disponível.\n- **Plataformas industriais** ligadas aos corredores: zonas económicas especiais, parques e ecossistemas âncora.\n- Uma **base de custos operacionais** competitiva.\n- **Reformas** e um quadro de investimento moderno [ref:lei-8-2023].\n- **Qualidade de vida** que atrai e retém talento.\n\nO Guia APIEX sublinha que as vantagens se reforçam: a energia hídrica barata sustenta a indústria, os corredores abrem os mercados do interior e as zonas concentram as cadeias de fornecimento [ref:apiex-guide-2026].",
         "en": "- **Multi-corridor gateway** to Southern and Central Africa.\n- **Regional energy platform:** gas and renewables at competitive cost.\n- **Productive land** at scale and available.\n- **Industrial platforms** linked to the corridors: special economic zones, parks and anchor ecosystems.\n- A competitive **operating cost base**.\n- **Reforms** and a modern investment framework [ref:lei-8-2023].\n- A **quality of life** that attracts and retains talent.\n\nThe APIEX guide stresses that these advantages reinforce each other: cheap hydropower supports industry, the corridors open inland markets and the zones co-locate supply chains [ref:apiex-guide-2026].",
-        "fr": "- **Porte d'entrée multicorridor** vers l'Afrique australe et centrale.\n- **Plateforme énergétique régionale :** gaz et renouvelables à coût compétitif.\n- **Terres productives** disponibles à grande échelle.\n- **Plateformes industrielles** reliées aux corridors : zones économiques spéciales, parcs et écosystèmes d'ancrage.\n- Une **base de coûts d'exploitation** compétitive.\n- **Réformes** et cadre d'investissement moderne [ref:lei-8-2023].\n- Une **qualité de vie** qui attire et retient les talents.\n\nLe guide APIEX souligne que ces avantages se renforcent : l'hydroélectricité bon marché soutient l'industrie, les corridors ouvrent les marchés intérieurs et les zones regroupent les chaînes d'approvisionnement [ref:apiex-guide-2026]."
+        "fr": "- **Porte d'entrée multicorridor** vers l'Afrique australe et centrale.\n- **Plateforme énergétique régionale :** gaz et renouvelables à coût compétitif.\n- **Terres productives** disponibles à grande échelle.\n- **Plateformes industrielles** reliées aux corridors : zones économiques spéciales, parcs et écosystèmes d'ancrage.\n- Une **base de coûts d'exploitation** compétitive.\n- **Réformes** et cadre d'investissement moderne [ref:lei-8-2023].\n- Une **qualité de vie** qui attire et retient les talents.\n\nLe guide APIEX souligne que ces avantages se renforcent : l'hydroélectricité bon marché soutient l'industrie, les corridors ouvrent les marchés intérieurs et les zones regroupent les chaînes d'approvisionnement [ref:apiex-guide-2026].",
+        "zh": "- 通往南部和中部非洲的**多走廊门户**。\n- **区域能源平台：**具有成本竞争力的天然气和可再生能源。\n- 大规模且可供使用的**生产性土地**。\n- 与交通走廊相连的**产业平台**：经济特区、工业园区和龙头产业生态系统。\n- 具有竞争力的**运营成本**。\n- **改革**与现代化的投资框架 [ref:lei-8-2023]。\n- 吸引并留住人才的**生活质量**。\n\nAPIEX 指南强调，这些优势相互促进：廉价的水电支撑工业，交通走廊打开内陆市场，经济区则使供应链集聚发展 [ref:apiex-guide-2026]。",
+        "ar": "- **بوابة متعددة الممرات** إلى الجنوب والوسط الأفريقيين.\n- **منصة طاقة إقليمية:** الغاز والطاقة المتجددة بتكلفة تنافسية.\n- **أراضٍ منتجة** واسعة ومتاحة.\n- **منصات صناعية** مرتبطة بالممرات: مناطق اقتصادية خاصة ومجمّعات ومنظومات ارتكازية.\n- **قاعدة تكاليف تشغيل** تنافسية.\n- **إصلاحات** وإطار استثماري حديث [ref:lei-8-2023].\n- **جودة حياة** تجذب المواهب وتحتفظ بها.\n\nيؤكد دليل APIEX أن هذه المزايا يعزّز بعضها بعضاً: فالطاقة الكهرمائية الرخيصة تدعم الصناعة، والممرات تفتح الأسواق الداخلية، والمناطق تجمع سلاسل الإمداد في مكان واحد [ref:apiex-guide-2026].",
+        "hi": "- दक्षिणी और मध्य अफ्रीका का **बहु-कॉरिडोर प्रवेश द्वार**।\n- **क्षेत्रीय ऊर्जा प्लेटफ़ॉर्म:** प्रतिस्पर्धी लागत पर गैस और नवीकरणीय ऊर्जा।\n- बड़े पैमाने पर उपलब्ध **उत्पादक भूमि**।\n- कॉरिडोर से जुड़े **औद्योगिक प्लेटफ़ॉर्म:** विशेष आर्थिक क्षेत्र (SEZ), औद्योगिक पार्क और एंकर इकोसिस्टम।\n- प्रतिस्पर्धी **परिचालन लागत आधार**।\n- **सुधार** और आधुनिक निवेश ढांचा [ref:lei-8-2023]।\n- ऐसी **जीवन गुणवत्ता** जो प्रतिभा को आकर्षित करती है और बनाए रखती है।\n\nAPIEX गाइड ज़ोर देती है कि ये लाभ एक-दूसरे को मज़बूत करते हैं: सस्ती जलविद्युत उद्योग को सहारा देती है, कॉरिडोर अंतर्देशीय बाज़ार खोलते हैं और ये ज़ोन आपूर्ति शृंखलाओं को एक ही स्थान पर लाते हैं [ref:apiex-guide-2026]।",
+        "sw": "- **Lango la shoroba nyingi** kuelekea Kusini na Kati mwa Afrika.\n- **Jukwaa la nishati la kikanda:** gesi na nishati jadidifu kwa gharama shindani.\n- **Ardhi yenye tija** kwa wingi na inapatikana.\n- **Majukwaa ya viwanda** yanayounganishwa na shoroba: kanda maalum za kiuchumi, hifadhi za viwanda na mifumo ya wawekezaji nanga.\n- **Gharama za uendeshaji** shindani.\n- **Mageuzi** na mfumo wa kisasa wa uwekezaji [ref:lei-8-2023].\n- **Ubora wa maisha** unaovutia na kubakiza vipaji.\n\nMwongozo wa APIEX unasisitiza kwamba faida hizi zinaimarishana: umeme nafuu wa maji unasaidia viwanda, shoroba hufungua masoko ya ndani ya bara na kanda huweka minyororo ya ugavi mahali pamoja [ref:apiex-guide-2026].",
+        "af": "- **Poort met veelvuldige korridors** na Suider- en Sentraal-Afrika.\n- **Streeksenergieplatform:** gas en hernubare energie teen mededingende koste.\n- **Produktiewe grond** op skaal en beskikbaar.\n- **Nywerheidsplatforms** gekoppel aan die korridors: spesiale ekonomiese sones, parke en ankerekosisteme.\n- 'n Mededingende **bedryfskostebasis**.\n- **Hervormings** en 'n moderne beleggingsraamwerk [ref:lei-8-2023].\n- 'n **Lewensgehalte** wat talent lok en behou.\n\nDie APIEX-gids beklemtoon dat hierdie voordele mekaar versterk: goedkoop hidrokrag ondersteun nywerheid, die korridors maak binnelandse markte oop en die sones bring voorsieningskettings saam [ref:apiex-guide-2026]."
       }
     },
     {
@@ -69,12 +119,22 @@
       "title": {
         "pt": "Uma porta de entrada multicorredor",
         "en": "A multi-corridor gateway",
-        "fr": "Une porte d'entrée multicorridor"
+        "fr": "Une porte d'entrée multicorridor",
+        "zh": "多走廊门户",
+        "ar": "بوابة متعددة الممرات",
+        "hi": "बहु-कॉरिडोर प्रवेश द्वार",
+        "sw": "Lango la shoroba nyingi",
+        "af": "'n Poort met veelvuldige korridors"
       },
       "body": {
         "pt": "Três portos de águas profundas, cada um com o seu corredor rodoferroviário, servem a África do Sul industrial, o Zimbabwe, a Zâmbia, o Malawi, o Botswana, o Eswatini e a RDC. O Porto de Maputo movimentou 32 milhões de toneladas em 2025, um recorde (+52% desde 2019), e prevê USD 2 mil milhões de investimento para chegar a 54 milhões de toneladas.\n\nUm quarto corredor emerge a norte, em Cabo Delgado (Pemba–Mtwara), ligado ao GNL do Rovuma e à grafite de Balama.\n\n- **Exportadores industriais:** acesso portuário directo em três corredores a partir de uma só base.\n- **Agronegócio:** Nacala para a Ásia; Maputo para a Europa e o Golfo.\n- **Logística mineira:** manuseamento de granéis e contentores nos três corredores.",
         "en": "Three deep-water ports, each with its own road and rail corridor, serve South Africa's industrial heartland, Zimbabwe, Zambia, Malawi, Botswana, Eswatini and the DRC. The Port of Maputo handled 32 million tons in 2025, a record (+52% since 2019), and plans USD 2 billion of investment to reach 54 million tons.\n\nA fourth corridor is emerging in the north, in Cabo Delgado (Pemba–Mtwara), linked to Rovuma LNG and Balama graphite.\n\n- **Export manufacturers:** direct port access across three corridors from a single base.\n- **Agribusiness:** Nacala for Asia; Maputo for Europe and the Gulf.\n- **Mining logistics:** bulk and container handling on all three corridors.",
-        "fr": "Trois ports en eau profonde, chacun avec son corridor routier et ferroviaire, desservent le cœur industriel sud-africain, le Zimbabwe, la Zambie, le Malawi, le Botswana, l'Eswatini et la RDC. Le port de Maputo a traité 32 millions de tonnes en 2025, un record (+52 % depuis 2019), et prévoit 2 milliards USD d'investissement pour atteindre 54 millions de tonnes.\n\nUn quatrième corridor émerge au nord, au Cabo Delgado (Pemba–Mtwara), lié au GNL du Rovuma et au graphite de Balama.\n\n- **Industriels exportateurs :** accès portuaire direct sur trois corridors depuis une seule base.\n- **Agro-industrie :** Nacala pour l'Asie ; Maputo pour l'Europe et le Golfe.\n- **Logistique minière :** vrac et conteneurs sur les trois corridors."
+        "fr": "Trois ports en eau profonde, chacun avec son corridor routier et ferroviaire, desservent le cœur industriel sud-africain, le Zimbabwe, la Zambie, le Malawi, le Botswana, l'Eswatini et la RDC. Le port de Maputo a traité 32 millions de tonnes en 2025, un record (+52 % depuis 2019), et prévoit 2 milliards USD d'investissement pour atteindre 54 millions de tonnes.\n\nUn quatrième corridor émerge au nord, au Cabo Delgado (Pemba–Mtwara), lié au GNL du Rovuma et au graphite de Balama.\n\n- **Industriels exportateurs :** accès portuaire direct sur trois corridors depuis une seule base.\n- **Agro-industrie :** Nacala pour l'Asie ; Maputo pour l'Europe et le Golfe.\n- **Logistique minière :** vrac et conteneurs sur les trois corridors.",
+        "zh": "三个深水港各有配套的公路和铁路走廊，服务南非工业腹地、津巴布韦、赞比亚、马拉维、博茨瓦纳、斯威士兰和刚果民主共和国。马普托港 2025 年吞吐量达 3,200 万吨，创历史新高（较 2019 年增长 52%），并计划投资 20 亿美元，将吞吐能力提升至 5,400 万吨。\n\n北部的德尔加杜角省正在形成第四条走廊（彭巴–姆特瓦拉），与鲁伍马液化天然气项目和巴拉马石墨相连。\n\n- **出口制造商：**从单一基地即可通过三条走廊直达港口。\n- **农业综合企业：**经纳卡拉出口亚洲；经马普托出口欧洲和海湾地区。\n- **矿业物流：**三条走廊均具备散货和集装箱装卸能力。",
+        "ar": "ثلاثة موانئ للمياه العميقة، لكل منها ممر بري وسككي خاص به، تخدم القلب الصناعي لجنوب أفريقيا وزيمبابوي وزامبيا وملاوي وبوتسوانا وإسواتيني وجمهورية الكونغو الديمقراطية. وقد تعامل ميناء Maputo مع 32 مليون طن في 2025، وهو رقم قياسي (+52% منذ 2019)، ويخطط لاستثمارات بقيمة USD 2 مليار للوصول إلى 54 مليون طن.\n\nويبرز ممر رابع في الشمال، في Cabo Delgado (Pemba–Mtwara)، مرتبط بالغاز الطبيعي المسال في Rovuma والغرافيت في Balama.\n\n- **المصنّعون المصدّرون:** نفاذ مباشر إلى الموانئ عبر ثلاثة ممرات من قاعدة واحدة.\n- **الأعمال الزراعية:** Nacala نحو آسيا؛ وMaputo نحو أوروبا والخليج.\n- **لوجستيات التعدين:** مناولة البضائع السائبة والحاويات في الممرات الثلاثة.",
+        "hi": "गहरे पानी के तीन बंदरगाह, जिनमें से प्रत्येक का अपना सड़क और रेल कॉरिडोर है, दक्षिण अफ्रीका के औद्योगिक केंद्र, ज़िम्बाब्वे, ज़ाम्बिया, मलावी, बोत्सवाना, एस्वातिनी और DRC को सेवा देते हैं। Port of Maputo ने 2025 में रिकॉर्ड 32 मिलियन टन माल संभाला (2019 से +52%), और 54 मिलियन टन तक पहुँचने के लिए USD 2 बिलियन के निवेश की योजना है।\n\nउत्तर में, Cabo Delgado (Pemba–Mtwara) में एक चौथा कॉरिडोर उभर रहा है, जो Rovuma LNG और Balama ग्रेफ़ाइट से जुड़ा है।\n\n- **निर्यातक निर्माता:** एक ही आधार से तीनों कॉरिडोर पर सीधी बंदरगाह पहुँच।\n- **कृषि-व्यवसाय:** एशिया के लिए Nacala; यूरोप और खाड़ी देशों के लिए Maputo।\n- **खनन लॉजिस्टिक्स:** तीनों कॉरिडोर पर बल्क और कंटेनर हैंडलिंग।",
+        "sw": "Bandari tatu za kina kirefu, kila moja ikiwa na ushoroba wake wa barabara na reli, zinahudumia kitovu cha viwanda cha Afrika Kusini, Zimbabwe, Zambia, Malawi, Botswana, Eswatini na DRC. Bandari ya Maputo ilishughulikia tani milioni 32 mwaka 2025, rekodi (+52% tangu 2019), na inapanga uwekezaji wa USD bilioni 2 kufikia tani milioni 54.\n\nUshoroba wa nne unaibuka kaskazini, katika Cabo Delgado (Pemba–Mtwara), unaohusishwa na LNG ya Rovuma na grafiti ya Balama.\n\n- **Wazalishaji wanaouza nje:** ufikiaji wa moja kwa moja wa bandari kupitia shoroba tatu kutoka kituo kimoja.\n- **Kilimo-biashara:** Nacala kwa Asia; Maputo kwa Ulaya na Ghuba.\n- **Usafirishaji wa madini:** ushughulikiaji wa shehena za jumla na makontena katika shoroba zote tatu.",
+        "af": "Drie diepwaterhawens, elk met sy eie pad- en spoorkorridor, bedien Suid-Afrika se industriële kerngebied, Zimbabwe, Zambië, Malawi, Botswana, Eswatini en die DRK. Die Hawe van Maputo het in 2025 'n rekord van 32 miljoen ton hanteer (+52% sedert 2019) en beplan USD 2 miljard se belegging om 54 miljoen ton te bereik.\n\n'n Vierde korridor ontstaan in die noorde, in Cabo Delgado (Pemba–Mtwara), gekoppel aan Rovuma LNG en Balama-grafiet.\n\n- **Uitvoervervaardigers:** direkte hawetoegang oor drie korridors vanuit een basis.\n- **Landboubesigheid:** Nacala vir Asië; Maputo vir Europa en die Golf.\n- **Mynboulogistiek:** hantering van grootmaat en houers op al drie korridors."
       }
     },
     {
@@ -82,38 +142,68 @@
       "title": {
         "pt": "Uma plataforma energética regional",
         "en": "A regional energy platform",
-        "fr": "Une plateforme énergétique régionale"
+        "fr": "Une plateforme énergétique régionale",
+        "zh": "区域能源平台",
+        "ar": "منصة طاقة إقليمية",
+        "hi": "क्षेत्रीय ऊर्जा प्लेटफ़ॉर्म",
+        "sw": "Jukwaa la nishati la kikanda",
+        "af": "'n Streeksenergieplatform"
       },
       "facts": [
         {
           "value": {
             "pt": "USD 55 mil milhões+",
             "en": "USD 55B+",
-            "fr": "55+ milliards USD"
+            "fr": "55+ milliards USD",
+            "zh": "550 亿美元以上",
+            "ar": "USD 55B+",
+            "hi": "USD 55B+",
+            "sw": "USD bilioni 55+",
+            "af": "USD 55 mjd.+"
           },
           "label": {
             "pt": "de investimento activo e comprometido em três projectos de GNL do Rovuma",
             "en": "of active and committed investment in three Rovuma LNG projects",
-            "fr": "d'investissement actif et engagé dans trois projets de GNL du Rovuma"
+            "fr": "d'investissement actif et engagé dans trois projets de GNL du Rovuma",
+            "zh": "三个鲁伍马液化天然气项目的在建和已承诺投资",
+            "ar": "من الاستثمارات الجارية والملتزم بها في ثلاثة مشاريع للغاز الطبيعي المسال في Rovuma",
+            "hi": "तीन Rovuma LNG परियोजनाओं में सक्रिय और प्रतिबद्ध निवेश",
+            "sw": "za uwekezaji unaoendelea na ulioahidiwa katika miradi mitatu ya LNG ya Rovuma",
+            "af": "aktiewe en toegesegde belegging in drie Rovuma LNG-projekte"
           }
         },
         {
           "value": {
             "pt": "USD 7 mil milhões+",
             "en": "USD 7B+",
-            "fr": "7+ milliards USD"
+            "fr": "7+ milliards USD",
+            "zh": "70 亿美元以上",
+            "ar": "USD 7B+",
+            "hi": "USD 7B+",
+            "sw": "USD bilioni 7+",
+            "af": "USD 7 mjd.+"
           },
           "label": {
             "pt": "já contratados a empresas moçambicanas",
             "en": "already contracted to Mozambican companies",
-            "fr": "déjà contractés auprès d'entreprises mozambicaines"
+            "fr": "déjà contractés auprès d'entreprises mozambicaines",
+            "zh": "已与莫桑比克公司签约的金额",
+            "ar": "متعاقد عليها بالفعل مع شركات موزمبيقية",
+            "hi": "पहले ही मोज़ाम्बिकन कंपनियों को अनुबंधित",
+            "sw": "tayari zimepewa kandarasi kampuni za Msumbiji",
+            "af": "reeds aan Mosambiekse maatskappye gekontrakteer"
           }
         }
       ],
       "body": {
         "pt": "Três decisões em 2025–2026 desbloquearam o gás do Rovuma: a TotalEnergies retomou o Mozambique LNG (primeiro GNL previsto para 2029), a Eni tomou a decisão final de investimento no Coral Norte FLNG (primeiro GNL em 2028) e a ExxonMobil levantou a força maior no Rovuma LNG, com decisão prevista para o segundo semestre de 2026. O Coral Sul FLNG exporta desde 2022.\n\nNa electricidade, a matriz é mais de 80% hídrica: a tarifa industrial de USD 0,08/kWh fica 44% abaixo da África do Sul e 58% abaixo do Quénia, e o país já é exportador líquido. Mphanda Nkuwa (1 500 MW) e o eólico de Namaacha (120 MW) vão reforçar essa vantagem.",
         "en": "Three decisions in 2025–2026 unlocked Rovuma gas: TotalEnergies restarted Mozambique LNG (first LNG expected in 2029), Eni took the final investment decision on Coral North FLNG (first LNG in 2028) and ExxonMobil lifted force majeure on Rovuma LNG, with a decision expected in the second half of 2026. Coral South FLNG has been exporting since 2022.\n\nIn power, the generation mix is over 80% hydro: the industrial tariff of USD 0.08/kWh is 44% below South Africa and 58% below Kenya, and the country is already a net exporter. Mphanda Nkuwa (1,500 MW) and the Namaacha wind farm (120 MW) will deepen that advantage.",
-        "fr": "Trois décisions en 2025–2026 ont débloqué le gaz du Rovuma : TotalEnergies a relancé Mozambique LNG (premier GNL prévu en 2029), Eni a pris la décision finale d'investissement sur Coral Nord FLNG (premier GNL en 2028) et ExxonMobil a levé la force majeure sur Rovuma LNG, avec une décision attendue au second semestre 2026. Coral Sud FLNG exporte depuis 2022.\n\nEn électricité, le mix est à plus de 80 % hydraulique : le tarif industriel de 0,08 USD/kWh est 44 % inférieur à l'Afrique du Sud et 58 % au Kenya, et le pays est déjà exportateur net. Mphanda Nkuwa (1 500 MW) et l'éolien de Namaacha (120 MW) renforceront cet avantage."
+        "fr": "Trois décisions en 2025–2026 ont débloqué le gaz du Rovuma : TotalEnergies a relancé Mozambique LNG (premier GNL prévu en 2029), Eni a pris la décision finale d'investissement sur Coral Nord FLNG (premier GNL en 2028) et ExxonMobil a levé la force majeure sur Rovuma LNG, avec une décision attendue au second semestre 2026. Coral Sud FLNG exporte depuis 2022.\n\nEn électricité, le mix est à plus de 80 % hydraulique : le tarif industriel de 0,08 USD/kWh est 44 % inférieur à l'Afrique du Sud et 58 % au Kenya, et le pays est déjà exportateur net. Mphanda Nkuwa (1 500 MW) et l'éolien de Namaacha (120 MW) renforceront cet avantage.",
+        "zh": "2025–2026 年的三项决定释放了鲁伍马天然气的潜力：TotalEnergies 重启 Mozambique LNG 项目（预计 2029 年首次产出液化天然气），Eni 就 Coral North 浮式液化天然气项目作出最终投资决定（2028 年首次产出），ExxonMobil 解除了 Rovuma LNG 项目的不可抗力状态，预计将于 2026 年下半年作出决定。Coral South 浮式液化天然气项目自 2022 年起已开始出口。\n\n电力方面，发电结构中水电占比超过 80%：工业电价为 0.08 美元/千瓦时，比南非低 44%，比肯尼亚低 58%，且莫桑比克已是电力净出口国。Mphanda Nkuwa 水电站（1,500 MW）和纳马阿查风电场（120 MW）将进一步扩大这一优势。",
+        "ar": "أطلقت ثلاثة قرارات في 2025–2026 غاز Rovuma: فقد استأنفت TotalEnergies مشروع Mozambique LNG (أول شحنة غاز مسال متوقعة في 2029)، واتخذت Eni قرار الاستثمار النهائي بشأن Coral North FLNG (أول شحنة في 2028)، ورفعت ExxonMobil حالة القوة القاهرة عن Rovuma LNG، مع قرار متوقع في النصف الثاني من 2026. ويصدّر Coral South FLNG منذ 2022.\n\nوفي الكهرباء، يتجاوز نصيب الطاقة الكهرمائية 80% من مزيج التوليد: فالتعريفة الصناعية البالغة USD 0.08/kWh أقل بنسبة 44% من جنوب أفريقيا و58% من كينيا، والبلد مصدّر صافٍ بالفعل. وسيعزّز مشروعا Mphanda Nkuwa (1,500 MW) ومزرعة رياح Namaacha (120 MW) هذه الميزة.",
+        "hi": "2025–2026 के तीन निर्णयों ने Rovuma गैस का रास्ता खोला: TotalEnergies ने Mozambique LNG को फिर से शुरू किया (पहली LNG 2029 में अपेक्षित), Eni ने Coral North FLNG पर अंतिम निवेश निर्णय लिया (पहली LNG 2028 में) और ExxonMobil ने Rovuma LNG पर फ़ोर्स मेज्योर हटा लिया, जिस पर निर्णय 2026 की दूसरी छमाही में अपेक्षित है। Coral South FLNG 2022 से निर्यात कर रहा है।\n\nबिजली के क्षेत्र में, उत्पादन मिश्रण में 80% से अधिक जलविद्युत है: USD 0.08/kWh का औद्योगिक शुल्क दक्षिण अफ्रीका से 44% और केन्या से 58% कम है, और देश पहले से ही शुद्ध निर्यातक है। Mphanda Nkuwa (1,500 MW) और Namaacha पवन फ़ार्म (120 MW) इस लाभ को और गहरा करेंगे।",
+        "sw": "Maamuzi matatu ya 2025–2026 yalifungua gesi ya Rovuma: TotalEnergies ilianzisha upya Mozambique LNG (LNG ya kwanza inatarajiwa mwaka 2029), Eni ilifanya uamuzi wa mwisho wa uwekezaji kuhusu Coral North FLNG (LNG ya kwanza mwaka 2028) na ExxonMobil iliondoa hali ya force majeure kwenye Rovuma LNG, huku uamuzi ukitarajiwa nusu ya pili ya 2026. Coral South FLNG imekuwa ikiuza nje tangu 2022.\n\nKatika umeme, mchanganyiko wa uzalishaji ni zaidi ya 80% umeme wa maji: bei ya viwanda ya USD 0.08/kWh ni 44% chini ya Afrika Kusini na 58% chini ya Kenya, na nchi tayari ni muuzaji nje halisi. Mphanda Nkuwa (MW 1,500) na shamba la upepo la Namaacha (MW 120) zitaongeza faida hiyo.",
+        "af": "Drie besluite in 2025–2026 het Rovuma-gas ontsluit: TotalEnergies het Mozambique LNG hervat (eerste LNG verwag in 2029), Eni het die finale beleggingsbesluit oor Coral North FLNG geneem (eerste LNG in 2028) en ExxonMobil het oormag op Rovuma LNG opgehef, met 'n besluit wat in die tweede helfte van 2026 verwag word. Coral South FLNG voer sedert 2022 uit.\n\nWat krag betref, is die opwekkingsmengsel meer as 80% hidro: die industriële tarief van USD 0.08/kWh is 44% laer as Suid-Afrika en 58% laer as Kenia, en die land is reeds 'n netto uitvoerder. Mphanda Nkuwa (1,500 MW) en die Namaacha-windplaas (120 MW) sal daardie voordeel verdiep."
       }
     },
     {
@@ -121,12 +211,22 @@
       "title": {
         "pt": "Terra produtiva em escala",
         "en": "Productive land at scale",
-        "fr": "Des terres productives à grande échelle"
+        "fr": "Des terres productives à grande échelle",
+        "zh": "大规模的生产性土地",
+        "ar": "أراضٍ منتجة على نطاق واسع",
+        "hi": "बड़े पैमाने पर उत्पादक भूमि",
+        "sw": "Ardhi yenye tija kwa wingi",
+        "af": "Produktiewe grond op skaal"
       },
       "body": {
         "pt": "Com 36 milhões de hectares aráveis e menos de 15% cultivados, a diferença entre o potencial e a produção actual é uma das maiores oportunidades agrícolas do continente. Só 3–5% da terra é irrigada — a infra-estrutura é a oportunidade.\n\nA terra não se compra: o **DUAT** dá um direito de uso até 50 anos, renovável, sem investimento inicial na aquisição [ref:lei-19-97]. A diversidade agro-ecológica permite escolher culturas e mercados: horticultura, açúcar e citrinos no sul; soja, gergelim, algodão e tabaco no centro (corredor da Beira); macadâmia, caju e chá no norte (corredor de Nacala).",
         "en": "With 36 million arable hectares and under 15% cultivated, the gap between potential and current output is one of the continent's largest agricultural opportunities. Only 3–5% of land is irrigated — the infrastructure is the opportunity.\n\nLand is not bought: the **DUAT** grants a use right of up to 50 years, renewable, with no upfront purchase [ref:lei-19-97]. The agro-ecological range lets investors match crops to markets: horticulture, sugar and citrus in the south; soya, sesame, cotton and tobacco in the centre (Beira corridor); macadamia, cashew and tea in the north (Nacala corridor).",
-        "fr": "Avec 36 millions d'hectares arables et moins de 15 % cultivés, l'écart entre potentiel et production est l'une des plus grandes opportunités agricoles du continent. Seuls 3–5 % des terres sont irrigués — l'infrastructure est l'opportunité.\n\nLa terre ne s'achète pas : le **DUAT** confère un droit d'usage jusqu'à 50 ans, renouvelable, sans achat initial [ref:lei-19-97]. La diversité agro-écologique permet d'adapter cultures et marchés : maraîchage, sucre et agrumes au sud ; soja, sésame, coton et tabac au centre (corridor de Beira) ; macadamia, cajou et thé au nord (corridor de Nacala)."
+        "fr": "Avec 36 millions d'hectares arables et moins de 15 % cultivés, l'écart entre potentiel et production est l'une des plus grandes opportunités agricoles du continent. Seuls 3–5 % des terres sont irrigués — l'infrastructure est l'opportunité.\n\nLa terre ne s'achète pas : le **DUAT** confère un droit d'usage jusqu'à 50 ans, renouvelable, sans achat initial [ref:lei-19-97]. La diversité agro-écologique permet d'adapter cultures et marchés : maraîchage, sucre et agrumes au sud ; soja, sésame, coton et tabac au centre (corridor de Beira) ; macadamia, cajou et thé au nord (corridor de Nacala).",
+        "zh": "莫桑比克拥有 3,600 万公顷可耕地，耕种面积不足 15%，潜力与现有产出之间的差距是非洲大陆最大的农业机遇之一。仅有 3–5% 的土地得到灌溉——基础设施本身就是机遇。\n\n土地无需购买：**DUAT** 授予最长 50 年、可续期的使用权，无需预先支付购地款 [ref:lei-19-97]。多样的农业生态条件使投资者能够根据市场选择作物：南部适合园艺作物、甘蔗和柑橘；中部（贝拉走廊）适合大豆、芝麻、棉花和烟草；北部（纳卡拉走廊）适合澳洲坚果、腰果和茶叶。",
+        "ar": "مع 36 مليون هكتار صالحة للزراعة، وأقل من 15% منها مزروعة، تُعدّ الفجوة بين الإمكانات والإنتاج الحالي من أكبر الفرص الزراعية في القارة. ولا يُروى سوى 3–5% من الأراضي — فالبنية التحتية هي الفرصة.\n\nلا تُشترى الأرض: إذ يمنح **DUAT** حق انتفاع يصل إلى 50 سنة، قابلاً للتجديد، دون شراء مسبق [ref:lei-19-97]. ويتيح التنوع الزراعي البيئي للمستثمرين مواءمة المحاصيل مع الأسواق: البستنة والسكر والحمضيات في الجنوب؛ وفول الصويا والسمسم والقطن والتبغ في الوسط (ممر Beira)؛ والمكاديميا والكاجو والشاي في الشمال (ممر Nacala).",
+        "hi": "36 मिलियन हेक्टेयर कृषि योग्य भूमि में से 15% से कम पर खेती होती है, इसलिए संभावना और वर्तमान उत्पादन के बीच का अंतर महाद्वीप के सबसे बड़े कृषि अवसरों में से एक है। केवल 3–5% भूमि सिंचित है — बुनियादी ढांचा ही अवसर है।\n\nभूमि खरीदी नहीं जाती: **DUAT** (भूमि-उपयोग अधिकार) 50 वर्ष तक का नवीकरणीय उपयोग अधिकार देता है, बिना किसी अग्रिम खरीद के [ref:lei-19-97]। विविध कृषि-पारिस्थितिक क्षेत्र निवेशकों को फ़सलों को बाज़ारों से मिलाने देते हैं: दक्षिण में बागवानी, गन्ना और खट्टे फल; मध्य क्षेत्र (Beira कॉरिडोर) में सोयाबीन, तिल, कपास और तंबाकू; उत्तर (Nacala कॉरिडोर) में मैकाडामिया, काजू और चाय।",
+        "sw": "Kwa hekta milioni 36 za ardhi ya kilimo na chini ya 15% ikilimwa, pengo kati ya uwezo na uzalishaji wa sasa ni mojawapo ya fursa kubwa zaidi za kilimo barani. Ni 3–5% tu ya ardhi inayomwagiliwa — miundombinu ndiyo fursa.\n\nArdhi hainunuliwi: **DUAT** inatoa haki ya matumizi ya hadi miaka 50, inayohuishwa, bila malipo ya ununuzi wa awali [ref:lei-19-97]. Aina mbalimbali za mazingira ya kilimo huwawezesha wawekezaji kulinganisha mazao na masoko: mbogamboga, sukari na machungwa kusini; soya, ufuta, pamba na tumbaku katikati (ushoroba wa Beira); makadamia, korosho na chai kaskazini (ushoroba wa Nacala).",
+        "af": "Met 36 miljoen hektaar bewerkbare grond en minder as 15% bewerk, is die gaping tussen potensiaal en huidige produksie een van die vasteland se grootste landbougeleenthede. Slegs 3–5% van die grond word besproei — die infrastruktuur is die geleentheid.\n\nGrond word nie gekoop nie: die **DUAT** (grondgebruiksreg) verleen 'n gebruiksreg van tot 50 jaar, hernubaar, sonder voorafaankoop [ref:lei-19-97]. Die agro-ekologiese verskeidenheid laat beleggers gewasse by markte pas: tuinbou, suiker en sitrus in die suide; soja, sesam, katoen en tabak in die middel (Beira-korridor); makadamia, kasjoe en tee in die noorde (Nacala-korridor)."
       }
     },
     {
@@ -134,39 +234,74 @@
       "title": {
         "pt": "Uma base de custos competitiva",
         "en": "A competitive cost base",
-        "fr": "Une base de coûts compétitive"
+        "fr": "Une base de coûts compétitive",
+        "zh": "具有竞争力的成本",
+        "ar": "قاعدة تكاليف تنافسية",
+        "hi": "प्रतिस्पर्धी लागत आधार",
+        "sw": "Gharama shindani",
+        "af": "'n Mededingende kostebasis"
       },
       "body": {
         "pt": "A vantagem de custos assenta em três factores: energia, trabalho e terra. É mais forte e mais fiável dentro dos parques industriais e dos corredores estabelecidos, onde a qualidade das infra-estruturas reforça a vantagem tarifária.",
         "en": "The cost advantage rests on three inputs: energy, labour and land. It is strongest, and most reliably delivered, inside industrial parks and established corridors, where infrastructure quality reinforces the tariff advantage.",
-        "fr": "L'avantage de coûts repose sur trois facteurs : énergie, travail et terre. Il est le plus marqué, et le plus fiable, dans les parcs industriels et les corridors établis, où la qualité des infrastructures renforce l'avantage tarifaire."
+        "fr": "L'avantage de coûts repose sur trois facteurs : énergie, travail et terre. Il est le plus marqué, et le plus fiable, dans les parcs industriels et les corridors établis, où la qualité des infrastructures renforce l'avantage tarifaire.",
+        "zh": "成本优势建立在三项投入要素之上：能源、劳动力和土地。在工业园区和成熟的交通走廊内，基础设施质量进一步强化了电价优势，因此成本优势最为明显，也最有保障。",
+        "ar": "تقوم ميزة التكلفة على ثلاثة مدخلات: الطاقة والعمالة والأرض. وتكون أقوى وأكثر موثوقية داخل المجمّعات الصناعية والممرات القائمة، حيث تعزّز جودةُ البنية التحتية ميزةَ التعريفة.",
+        "hi": "लागत लाभ तीन इनपुट पर टिका है: ऊर्जा, श्रम और भूमि। यह औद्योगिक पार्कों और स्थापित कॉरिडोर के भीतर सबसे मज़बूत और सबसे भरोसेमंद है, जहाँ बुनियादी ढांचे की गुणवत्ता शुल्क लाभ को और बढ़ाती है।",
+        "sw": "Faida ya gharama inategemea vipengele vitatu: nishati, nguvu kazi na ardhi. Ni kubwa zaidi, na hupatikana kwa uhakika zaidi, ndani ya hifadhi za viwanda na shoroba zilizoimarika, ambapo ubora wa miundombinu huimarisha faida ya bei.",
+        "af": "Die kostevoordeel berus op drie insette: energie, arbeid en grond. Dit is die sterkste, en word die betroubaarste gelewer, binne nywerheidsparke en gevestigde korridors, waar die gehalte van infrastruktuur die tariefvoordeel versterk."
       },
       "table": {
         "caption": {
           "pt": "Custos comparados",
           "en": "Costs compared",
-          "fr": "Coûts comparés"
+          "fr": "Coûts comparés",
+          "zh": "成本比较",
+          "ar": "مقارنة التكاليف",
+          "hi": "लागत की तुलना",
+          "sw": "Ulinganisho wa gharama",
+          "af": "Koste vergelyk"
         },
         "columns": [
           {
             "pt": "Factor",
             "en": "Input",
-            "fr": "Facteur"
+            "fr": "Facteur",
+            "zh": "投入要素",
+            "ar": "المُدخل",
+            "hi": "इनपुट",
+            "sw": "Kipengele",
+            "af": "Inset"
           },
           {
             "pt": "Moçambique",
             "en": "Mozambique",
-            "fr": "Mozambique"
+            "fr": "Mozambique",
+            "zh": "莫桑比克",
+            "ar": "موزمبيق",
+            "hi": "मोज़ाम्बिक",
+            "sw": "Msumbiji",
+            "af": "Mosambiek"
           },
           {
             "pt": "África do Sul",
             "en": "South Africa",
-            "fr": "Afrique du Sud"
+            "fr": "Afrique du Sud",
+            "zh": "南非",
+            "ar": "جنوب أفريقيا",
+            "hi": "दक्षिण अफ्रीका",
+            "sw": "Afrika Kusini",
+            "af": "Suid-Afrika"
           },
           {
             "pt": "Quénia",
             "en": "Kenya",
-            "fr": "Kenya"
+            "fr": "Kenya",
+            "zh": "肯尼亚",
+            "ar": "كينيا",
+            "hi": "केन्या",
+            "sw": "Kenya",
+            "af": "Kenia"
           }
         ],
         "rows": [
@@ -174,73 +309,138 @@
             {
               "pt": "Energia industrial",
               "en": "Industrial power",
-              "fr": "Électricité industrielle"
+              "fr": "Électricité industrielle",
+              "zh": "工业用电",
+              "ar": "الكهرباء الصناعية",
+              "hi": "औद्योगिक बिजली",
+              "sw": "Umeme wa viwanda",
+              "af": "Industriële krag"
             },
             {
               "pt": "USD 0,08/kWh",
               "en": "USD 0.08/kWh",
-              "fr": "0,08 USD/kWh"
+              "fr": "0,08 USD/kWh",
+              "zh": "0.08 美元/千瓦时",
+              "ar": "USD 0.08/kWh",
+              "hi": "USD 0.08/kWh",
+              "sw": "USD 0.08/kWh",
+              "af": "USD 0.08/kWh"
             },
             {
               "pt": "USD 0,143/kWh",
               "en": "USD 0.143/kWh",
-              "fr": "0,143 USD/kWh"
+              "fr": "0,143 USD/kWh",
+              "zh": "0.143 美元/千瓦时",
+              "ar": "USD 0.143/kWh",
+              "hi": "USD 0.143/kWh",
+              "sw": "USD 0.143/kWh",
+              "af": "USD 0.143/kWh"
             },
             {
               "pt": "≈ USD 0,19/kWh",
               "en": "≈ USD 0.19/kWh",
-              "fr": "≈ 0,19 USD/kWh"
+              "fr": "≈ 0,19 USD/kWh",
+              "zh": "≈ 0.19 美元/千瓦时",
+              "ar": "≈ USD 0.19/kWh",
+              "hi": "≈ USD 0.19/kWh",
+              "sw": "≈ USD 0.19/kWh",
+              "af": "≈ USD 0.19/kWh"
             }
           ],
           [
             {
               "pt": "Salário mínimo (indústria)",
               "en": "Minimum wage (manufacturing)",
-              "fr": "Salaire minimum (industrie)"
+              "fr": "Salaire minimum (industrie)",
+              "zh": "最低工资（制造业）",
+              "ar": "الحد الأدنى للأجور (الصناعة التحويلية)",
+              "hi": "न्यूनतम वेतन (विनिर्माण)",
+              "sw": "Kima cha chini cha mshahara (viwanda)",
+              "af": "Minimumloon (vervaardiging)"
             },
             {
               "pt": "≈ USD 170/mês",
               "en": "≈ USD 170/month",
-              "fr": "≈ 170 USD/mois"
+              "fr": "≈ 170 USD/mois",
+              "zh": "≈ 170 美元/月",
+              "ar": "≈ USD 170/شهرياً",
+              "hi": "≈ USD 170/माह",
+              "sw": "≈ USD 170/mwezi",
+              "af": "≈ USD 170/maand"
             },
             {
               "pt": "≈ USD 248/mês",
               "en": "≈ USD 248/month",
-              "fr": "≈ 248 USD/mois"
+              "fr": "≈ 248 USD/mois",
+              "zh": "≈ 248 美元/月",
+              "ar": "≈ USD 248/شهرياً",
+              "hi": "≈ USD 248/माह",
+              "sw": "≈ USD 248/mwezi",
+              "af": "≈ USD 248/maand"
             },
             {
               "pt": "≈ USD 230/mês",
               "en": "≈ USD 230/month",
-              "fr": "≈ 230 USD/mois"
+              "fr": "≈ 230 USD/mois",
+              "zh": "≈ 230 美元/月",
+              "ar": "≈ USD 230/شهرياً",
+              "hi": "≈ USD 230/माह",
+              "sw": "≈ USD 230/mwezi",
+              "af": "≈ USD 230/maand"
             }
           ],
           [
             {
               "pt": "Acesso à terra",
               "en": "Land access",
-              "fr": "Accès à la terre"
+              "fr": "Accès à la terre",
+              "zh": "土地获取",
+              "ar": "الوصول إلى الأرض",
+              "hi": "भूमि तक पहुँच",
+              "sw": "Upatikanaji wa ardhi",
+              "af": "Toegang tot grond"
             },
             {
               "pt": "DUAT — sem compra",
               "en": "DUAT — no purchase",
-              "fr": "DUAT — sans achat"
+              "fr": "DUAT — sans achat",
+              "zh": "DUAT——无需购买",
+              "ar": "DUAT — دون شراء",
+              "hi": "DUAT — खरीद नहीं",
+              "sw": "DUAT — bila kununua",
+              "af": "DUAT — geen aankoop nie"
             },
             {
               "pt": "Compra em propriedade plena",
               "en": "Freehold purchase",
-              "fr": "Achat en pleine propriété"
+              "fr": "Achat en pleine propriété",
+              "zh": "购买永久产权",
+              "ar": "شراء ملكية مطلقة",
+              "hi": "फ़्रीहोल्ड खरीद",
+              "sw": "Ununuzi wa umiliki wa kudumu",
+              "af": "Aankoop van eiendomsreg"
             },
             {
               "pt": "Compra de arrendamento",
               "en": "Leasehold purchase",
-              "fr": "Achat de bail"
+              "fr": "Achat de bail",
+              "zh": "购买租赁产权",
+              "ar": "شراء حق إيجار طويل الأجل",
+              "hi": "लीज़होल्ड खरीद",
+              "sw": "Ununuzi wa upangaji wa muda mrefu",
+              "af": "Aankoop van huurpag"
             }
           ]
         ],
         "note": {
           "pt": "Fontes citadas pelo Guia APIEX 2026: EDM, GlobalPetrolPrices.com (Junho de 2025), Diploma Ministerial n.º 87/2025.",
           "en": "Sources cited by the APIEX Guide 2026: EDM, GlobalPetrolPrices.com (June 2025), Ministerial Decree No. 87/2025.",
-          "fr": "Sources citées par le guide APIEX 2026 : EDM, GlobalPetrolPrices.com (juin 2025), arrêté ministériel n° 87/2025."
+          "fr": "Sources citées par le guide APIEX 2026 : EDM, GlobalPetrolPrices.com (juin 2025), arrêté ministériel n° 87/2025.",
+          "zh": "《APIEX 2026 年投资指南》引用的来源：EDM、GlobalPetrolPrices.com（2025 年 6 月）、Diploma Ministerial n.º 87/2025。",
+          "ar": "المصادر التي استشهد بها دليل APIEX لعام 2026: EDM، وGlobalPetrolPrices.com (يونيو 2025)، وDiploma Ministerial n.º 87/2025.",
+          "hi": "APIEX Guide 2026 द्वारा उद्धृत स्रोत: EDM, GlobalPetrolPrices.com (जून 2025), मंत्रिस्तरीय डिक्री (Diploma Ministerial n.º 87/2025)।",
+          "sw": "Vyanzo vilivyotajwa na Mwongozo wa APIEX 2026: EDM, GlobalPetrolPrices.com (Juni 2025), Diploma Ministerial n.º 87/2025.",
+          "af": "Bronne aangehaal deur die APIEX-gids 2026: EDM, GlobalPetrolPrices.com (Junie 2025), Ministeriële Decreto n.º 87/2025."
         }
       }
     },
@@ -249,12 +449,22 @@
       "title": {
         "pt": "Reformas e um quadro de investimento moderno",
         "en": "Reforms and a modern investment framework",
-        "fr": "Réformes et cadre d'investissement moderne"
+        "fr": "Réformes et cadre d'investissement moderne",
+        "zh": "改革与现代化的投资框架",
+        "ar": "إصلاحات وإطار استثماري حديث",
+        "hi": "सुधार और आधुनिक निवेश ढांचा",
+        "sw": "Mageuzi na mfumo wa kisasa wa uwekezaji",
+        "af": "Hervormings en 'n moderne beleggingsraamwerk"
       },
       "body": {
         "pt": "Desde 2023, Moçambique fez a maior revisão do seu quadro de investimento em 30 anos, com prazos vinculativos, menos barreiras administrativas e protecções do investidor publicadas no Boletim da República:\n\n- **Lei de Investimento n.º 8/2023**, em vigor desde Setembro de 2023, regulamentada pelo **Decreto n.º 8/2024** (Março de 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Nova regulamentação cambial — **Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- Nova **Lei do Trabalho** (Lei n.º 13/2023) e reforma da contratação de estrangeiros (**Decreto n.º 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Lei das MPME (Lei n.º 7/2024), Lei do Fundo Soberano (Lei n.º 1/2024) e pacote fiscal de 2025 (Leis n.º 9 a 12/2025).\n- Novo regime das ZEE e ZFI, aprovado em Fevereiro de 2026 [ref:zee-zfi].\n\nA arbitragem ICSID/ICC é um direito legal do investidor, não uma concessão negociada.",
         "en": "Since 2023 Mozambique has carried out the largest overhaul of its investment framework in 30 years, with binding timelines, fewer administrative barriers and investor protections published in the official gazette:\n\n- **Investment Law No. 8/2023**, in force since September 2023, implemented by **Decree No. 8/2024** (March 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- New exchange control rules — **Notice No. 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- A new **Labour Law** (Law No. 13/2023) and reform of foreign hiring (**Decree No. 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- The MSME Law (Law No. 7/2024), the Sovereign Fund Law (Law No. 1/2024) and the 2025 tax package (Laws Nos. 9 to 12/2025).\n- A new SEZ and IFZ framework, approved in February 2026 [ref:zee-zfi].\n\nICSID/ICC arbitration is a statutory investor right, not a negotiated concession.",
-        "fr": "Depuis 2023, le Mozambique a mené la plus importante refonte de son cadre d'investissement en 30 ans, avec des délais contraignants, moins de barrières administratives et des protections publiées au journal officiel :\n\n- **Loi sur l'investissement n° 8/2023**, en vigueur depuis septembre 2023, mise en œuvre par le **décret n° 8/2024** (mars 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Nouvelle réglementation des changes — **Avis n° 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- Nouvelle **loi sur le travail** (loi n° 13/2023) et réforme de l'emploi d'étrangers (**décret n° 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Loi sur les MPME (loi n° 7/2024), loi sur le fonds souverain (loi n° 1/2024) et paquet fiscal 2025 (lois n° 9 à 12/2025).\n- Nouveau régime des ZES et ZFI, approuvé en février 2026 [ref:zee-zfi].\n\nL'arbitrage CIRDI/CCI est un droit légal de l'investisseur, et non une concession négociée."
+        "fr": "Depuis 2023, le Mozambique a mené la plus importante refonte de son cadre d'investissement en 30 ans, avec des délais contraignants, moins de barrières administratives et des protections publiées au journal officiel :\n\n- **Loi sur l'investissement n° 8/2023**, en vigueur depuis septembre 2023, mise en œuvre par le **décret n° 8/2024** (mars 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Nouvelle réglementation des changes — **Avis n° 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- Nouvelle **loi sur le travail** (loi n° 13/2023) et réforme de l'emploi d'étrangers (**décret n° 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Loi sur les MPME (loi n° 7/2024), loi sur le fonds souverain (loi n° 1/2024) et paquet fiscal 2025 (lois n° 9 à 12/2025).\n- Nouveau régime des ZES et ZFI, approuvé en février 2026 [ref:zee-zfi].\n\nL'arbitrage CIRDI/CCI est un droit légal de l'investisseur, et non une concession négociée.",
+        "zh": "自 2023 年以来，莫桑比克对其投资框架进行了 30 年来规模最大的改革，确立了具约束力的时限，减少了行政障碍，并在官方公报上公布了投资者保护措施：\n\n- **投资法 Lei n.º 8/2023**，自 2023 年 9 月起生效，由 **Decreto n.º 8/2024**（2024 年 3 月）实施 [ref:lei-8-2023] [ref:dec-8-2024]。\n- 新的外汇管制规则——**Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024]。\n- 新的**劳动法**（Lei n.º 13/2023）以及外籍人员雇用改革（**Decreto n.º 88/2024**）[ref:lei-13-2023] [ref:dec-88-2024]。\n- 中小微企业法（Lei n.º 7/2024）、主权基金法（Lei n.º 1/2024）以及 2025 年税收一揽子法案（Leis n.º 9 a 12/2025）。\n- 2026 年 2 月批准的新经济特区和工业自由区框架 [ref:zee-zfi]。\n\nICSID/ICC 仲裁是投资者的法定权利，而非协商取得的让步。",
+        "ar": "منذ 2023 أجرت موزمبيق أكبر إصلاح لإطارها الاستثماري منذ 30 عاماً، بمواعيد ملزمة وحواجز إدارية أقل وحمايات للمستثمرين منشورة في الجريدة الرسمية:\n\n- **قانون الاستثمار Lei n.º 8/2023**، النافذ منذ سبتمبر 2023، والمنفَّذ بموجب **Decreto n.º 8/2024** (مارس 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- قواعد جديدة للرقابة على الصرف — **Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- **قانون عمل** جديد (Lei n.º 13/2023) وإصلاح توظيف الأجانب (**Decreto n.º 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- قانون المؤسسات متناهية الصغر والصغيرة والمتوسطة (Lei n.º 7/2024)، وقانون الصندوق السيادي (Lei n.º 1/2024)، والحزمة الضريبية لعام 2025 (Leis n.º 9 a 12/2025).\n- إطار جديد للمناطق الاقتصادية الخاصة والمناطق الصناعية الحرة، اعتُمد في فبراير 2026 [ref:zee-zfi].\n\nتحكيم ICSID/ICC حق قانوني للمستثمر، لا امتياز تفاوضي.",
+        "hi": "2023 से मोज़ाम्बिक ने 30 वर्षों में अपने निवेश ढांचे का सबसे बड़ा पुनर्गठन किया है, जिसमें बाध्यकारी समय-सीमाएँ, कम प्रशासनिक बाधाएँ और आधिकारिक राजपत्र में प्रकाशित निवेशक संरक्षण शामिल हैं:\n\n- **निवेश कानून — Lei n.º 8/2023**, सितंबर 2023 से लागू, जिसे **Decreto n.º 8/2024** (मार्च 2024) द्वारा लागू किया गया [ref:lei-8-2023] [ref:dec-8-2024]।\n- नए विदेशी मुद्रा नियंत्रण नियम — **Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024]।\n- नया **श्रम कानून** (Lei n.º 13/2023) और विदेशी कर्मचारियों की भर्ती में सुधार (**Decreto n.º 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024]।\n- MSME कानून (Lei n.º 7/2024), सॉवरेन फ़ंड कानून (Lei n.º 1/2024) और 2025 का कर पैकेज (Leis n.º 9 a 12/2025)।\n- फ़रवरी 2026 में स्वीकृत SEZ और IFZ (औद्योगिक मुक्त क्षेत्र) का नया ढांचा [ref:zee-zfi]।\n\nICSID/ICC मध्यस्थता निवेशक का वैधानिक अधिकार है, कोई बातचीत से मिली रियायत नहीं।",
+        "sw": "Tangu 2023 Msumbiji imefanya marekebisho makubwa zaidi ya mfumo wake wa uwekezaji katika miaka 30, yenye muda unaofunga, vikwazo vichache vya kiutawala na ulinzi wa wawekezaji uliochapishwa katika gazeti rasmi:\n\n- **Lei n.º 8/2023 (Sheria ya Uwekezaji)**, inatumika tangu Septemba 2023, inatekelezwa na **Decreto n.º 8/2024** (Machi 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Kanuni mpya za udhibiti wa fedha za kigeni — **Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- **Sheria mpya ya Kazi** (Lei n.º 13/2023) na mageuzi ya kuajiri wageni (**Decreto n.º 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Sheria ya MSME (Lei n.º 7/2024), Sheria ya Mfuko wa Taifa wa Utajiri (Lei n.º 1/2024) na kifurushi cha kodi cha 2025 (Leis n.º 9 hadi 12/2025).\n- Mfumo mpya wa SEZ na IFZ, ulioidhinishwa Februari 2026 [ref:zee-zfi].\n\nUsuluhishi wa ICSID/ICC ni haki ya kisheria ya mwekezaji, si makubaliano ya kujadiliwa.",
+        "af": "Sedert 2023 het Mosambiek die grootste hersiening van sy beleggingsraamwerk in 30 jaar uitgevoer, met bindende tydlyne, minder administratiewe hindernisse en beleggersbeskerming wat in die staatskoerant gepubliseer is:\n\n- **Beleggingswet nr. 8/2023** (Lei n.º 8/2023), van krag sedert September 2023, geïmplementeer deur **Decreto n.º 8/2024** (Maart 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Nuwe valutabeheerreëls — **Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- 'n Nuwe **Arbeidswet** (Lei n.º 13/2023) en hervorming van die aanstelling van buitelanders (**Decreto n.º 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Die KMMO-wet (Lei n.º 7/2024), die Wet op die Soewereine Fonds (Lei n.º 1/2024) en die belastingpakket van 2025 (Wette nrs. 9 tot 12/2025).\n- 'n Nuwe raamwerk vir spesiale ekonomiese sones (ZEE) en industriële vrysones (ZFI), goedgekeur in Februarie 2026 [ref:zee-zfi].\n\nICSID/ICC-arbitrasie is 'n statutêre beleggersreg, nie 'n onderhandelde toegewing nie."
       }
     },
     {
@@ -262,12 +472,22 @@
       "title": {
         "pt": "Um lugar onde as pessoas escolhem ficar",
         "en": "A place where people choose to stay",
-        "fr": "Un endroit où l'on choisit de rester"
+        "fr": "Un endroit où l'on choisit de rester",
+        "zh": "一个让人愿意留下的地方",
+        "ar": "مكان يختار الناس البقاء فيه",
+        "hi": "ऐसा स्थान जहाँ लोग रहना चुनते हैं",
+        "sw": "Mahali watu huchagua kubaki",
+        "af": "'n Plek waar mense kies om te bly"
       },
       "body": {
         "pt": "Para operações que precisam de continuidade de gestão, a qualidade de vida conta na contratação e na retenção de quadros.\n\n- **Educação:** currículos americano, britânico, francês e IB em Maputo (International School of Mozambique, escolas francesa, portuguesa e italiana), até ao secundário.\n- **Saúde:** modelo híbrido — cuidados privados locais e retaguarda em Joanesburgo, com seguro de saúde internacional e protocolo de evacuação.\n- **Custo de vida:** orçamento mensal de uma família expatriada de USD 1 600–1 900 (sem habitação de topo); Polana Cimento e Sommerschield a USD 2 000–3 000 por mês.\n- **Estilo de vida:** 2 700 km de costa, mergulho de classe mundial e uma cena gastronómica com influências portuguesas, africanas e do Índico.",
         "en": "For operations that need management continuity, quality of life matters for recruitment and retention.\n\n- **Education:** US, UK, French and IB curricula in Maputo (International School of Mozambique, French, Portuguese and Italian schools), through secondary.\n- **Healthcare:** a hybrid model — local private care with Johannesburg backup, international health insurance and an evacuation protocol.\n- **Cost of living:** an expatriate family budget of USD 1,600–1,900 a month (excluding premium housing); Polana Cimento and Sommerschield at USD 2,000–3,000 a month.\n- **Lifestyle:** 2,700 km of coastline, world-class diving and a food scene shaped by Portuguese, African and Indian Ocean influences.",
-        "fr": "Pour les opérations qui exigent une continuité de direction, la qualité de vie compte dans le recrutement et la fidélisation.\n\n- **Éducation :** programmes américain, britannique, français et IB à Maputo (International School of Mozambique, écoles française, portugaise et italienne), jusqu'au secondaire.\n- **Santé :** modèle hybride — soins privés locaux et relais à Johannesburg, assurance santé internationale et protocole d'évacuation.\n- **Coût de la vie :** budget mensuel d'une famille expatriée de 1 600–1 900 USD (hors logement haut de gamme) ; Polana Cimento et Sommerschield à 2 000–3 000 USD par mois.\n- **Art de vivre :** 2 700 km de côtes, plongée de classe mondiale et une gastronomie aux influences portugaises, africaines et de l'océan Indien."
+        "fr": "Pour les opérations qui exigent une continuité de direction, la qualité de vie compte dans le recrutement et la fidélisation.\n\n- **Éducation :** programmes américain, britannique, français et IB à Maputo (International School of Mozambique, écoles française, portugaise et italienne), jusqu'au secondaire.\n- **Santé :** modèle hybride — soins privés locaux et relais à Johannesburg, assurance santé internationale et protocole d'évacuation.\n- **Coût de la vie :** budget mensuel d'une famille expatriée de 1 600–1 900 USD (hors logement haut de gamme) ; Polana Cimento et Sommerschield à 2 000–3 000 USD par mois.\n- **Art de vivre :** 2 700 km de côtes, plongée de classe mondiale et une gastronomie aux influences portugaises, africaines et de l'océan Indien.",
+        "zh": "对于需要管理层保持稳定的业务而言，生活质量对招聘和留住人才至关重要。\n\n- **教育：**马普托提供美国、英国、法国和 IB 课程（莫桑比克国际学校，以及法国、葡萄牙和意大利学校），涵盖至中学阶段。\n- **医疗：**混合模式——当地私立医疗，以约翰内斯堡作为后援，配合国际医疗保险和医疗后送方案。\n- **生活成本：**外派家庭每月预算约 1,600–1,900 美元（不含高端住房）；Polana Cimento 和 Sommerschield 街区的住房为每月 2,000–3,000 美元。\n- **生活方式：**2,700 公里海岸线、世界级潜水胜地，以及融合葡萄牙、非洲和印度洋风味的美食。",
+        "ar": "بالنسبة للعمليات التي تحتاج إلى استمرارية في الإدارة، تهمّ جودة الحياة في التوظيف والاحتفاظ بالكفاءات.\n\n- **التعليم:** مناهج أمريكية وبريطانية وفرنسية وIB في Maputo (International School of Mozambique، ومدارس فرنسية وبرتغالية وإيطالية)، حتى المرحلة الثانوية.\n- **الرعاية الصحية:** نموذج هجين — رعاية خاصة محلية مع دعم من جوهانسبرغ، وتأمين صحي دولي، وبروتوكول للإخلاء.\n- **تكلفة المعيشة:** ميزانية أسرة وافدة بين USD 1,600 و1,900 شهرياً (باستثناء السكن الفاخر)؛ وفي Polana Cimento وSommerschield بين USD 2,000 و3,000 شهرياً.\n- **نمط الحياة:** 2,700 كم من السواحل، وغوص عالمي المستوى، ومطبخ متأثر بالتقاليد البرتغالية والأفريقية وتقاليد المحيط الهندي.",
+        "hi": "जिन परिचालनों को प्रबंधन में निरंतरता चाहिए, उनके लिए भर्ती और कर्मचारियों को बनाए रखने में जीवन की गुणवत्ता मायने रखती है।\n\n- **शिक्षा:** Maputo में US, UK, फ़्रेंच और IB पाठ्यक्रम (International School of Mozambique, फ़्रेंच, पुर्तगाली और इतालवी स्कूल), माध्यमिक स्तर तक।\n- **स्वास्थ्य सेवा:** एक हाइब्रिड मॉडल — स्थानीय निजी चिकित्सा, Johannesburg का बैकअप, अंतरराष्ट्रीय स्वास्थ्य बीमा और आपातकालीन निकासी प्रोटोकॉल।\n- **रहन-सहन की लागत:** एक प्रवासी परिवार का बजट USD 1,600–1,900 प्रति माह (प्रीमियम आवास को छोड़कर); Polana Cimento और Sommerschield में USD 2,000–3,000 प्रति माह।\n- **जीवनशैली:** 2,700 km समुद्र तट, विश्वस्तरीय डाइविंग और पुर्तगाली, अफ्रीकी तथा हिंद महासागर प्रभावों से बना खान-पान।",
+        "sw": "Kwa shughuli zinazohitaji uongozi endelevu, ubora wa maisha ni muhimu kwa kuajiri na kubakiza wafanyakazi.\n\n- **Elimu:** mitaala ya Marekani, Uingereza, Ufaransa na IB mjini Maputo (International School of Mozambique, shule za Kifaransa, Kireno na Kiitaliano), hadi sekondari.\n- **Afya:** mfumo mseto — huduma binafsi za ndani zikisaidiwa na Johannesburg, bima ya afya ya kimataifa na utaratibu wa kuhamisha wagonjwa.\n- **Gharama za maisha:** bajeti ya familia ya mfanyakazi wa kigeni ya USD 1,600–1,900 kwa mwezi (bila nyumba za hadhi ya juu); Polana Cimento na Sommerschield kwa USD 2,000–3,000 kwa mwezi.\n- **Mtindo wa maisha:** km 2,700 za ufukwe, upigaji mbizi wa kiwango cha dunia na vyakula vilivyoathiriwa na tamaduni za Kireno, Kiafrika na za Bahari ya Hindi.",
+        "af": "Vir bedrywighede wat bestuurskontinuïteit benodig, is lewensgehalte belangrik vir werwing en behoud.\n\n- **Onderwys:** Amerikaanse, Britse, Franse en IB-kurrikulums in Maputo (International School of Mozambique, Franse, Portugese en Italiaanse skole), tot hoërskool.\n- **Gesondheidsorg:** 'n hibriede model — plaaslike private sorg met rugsteun in Johannesburg, internasionale gesondheidsversekering en 'n ontruimingsprotokol.\n- **Lewenskoste:** 'n gesinsbegroting vir uitgewekenes van USD 1,600–1,900 per maand (behalwe premiumbehuising); Polana Cimento en Sommerschield teen USD 2,000–3,000 per maand.\n- **Leefstyl:** 2,700 km kuslyn, wêreldklas-duikwerk en 'n kosomgewing gevorm deur Portugese, Afrika- en Indiese Oseaan-invloede."
       }
     }
   ]

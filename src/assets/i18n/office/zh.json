@@ -1,0 +1,407 @@
+{
+  "demoData": "示例演示数据",
+  "toConfirm": "待确认",
+  "channel": {
+    "web": "网页",
+    "app": "应用",
+    "whatsapp": "WhatsApp"
+  },
+  "nav": {
+    "title": "后台",
+    "home": "后台首页",
+    "menu": "后台菜单",
+    "close": "关闭菜单",
+    "queue": "审核队列",
+    "knowledgeBase": "法律知识库",
+    "conversations": "对话审核",
+    "leads": "潜在客户",
+    "intelligence": "投资者洞察",
+    "partners": "合作伙伴与名录",
+    "pending": "待处理",
+    "builtBy": "开发方",
+    "legalContent": "法律内容",
+    "signedIn": "已登录",
+    "signOut": "退出登录",
+    "language": "语言",
+    "publicSite": "返回公共网站"
+  },
+  "login": {
+    "eyebrow": "后台",
+    "title": "登录 Tiva 后台",
+    "intro": "律师在此审批 Tiva 的回答，合作伙伴在此跟进向其求助的投资者。",
+    "points": {
+      "validate": "在 AI 草稿送达投资者之前进行审批",
+      "leads": "跟进经同意的转介，直至获得委托",
+      "intelligence": "查看匿名化的需求数据"
+    },
+    "demoTitle": "演示账户",
+    "demoText": "字段已预先填写，直接登录即可。",
+    "email": "电子邮箱",
+    "password": "密码",
+    "error": "电子邮箱或密码错误。",
+    "submit": "登录",
+    "notSecurity": "仅供演示：此登录并非真正的安全机制。真正的身份验证将随后端一同上线。"
+  },
+  "queue": {
+    "title": "审核队列",
+    "intro": "AI 草稿在此等待。未经律师批准，任何内容都不会送达投资者。",
+    "upload": "上传法规",
+    "uploadName": "法规文件",
+    "uploadPlaceholder": "例如 Decreto n.º [n]/2026",
+    "uploadHint": "模拟：Tiva 起草摘要并将其加入队列。",
+    "uploadFile": "Boletim da República PDF（可选）",
+    "uploadSubmit": "加入队列",
+    "uploadedMeta": "由审核人上传 · AI 摘要准备中",
+    "uploadedSummary": "Tiva 正在准备该文本的摘要（演示中为模拟）。可使用“编辑”自行撰写。",
+    "uploadedOfficial": "[所上传法规的官方文本]",
+    "awaiting": "待审核",
+    "reviewed": "已审核",
+    "empty": "没有待处理项，所有草稿均已审核。",
+    "affects": "新法规 · 影响现有路线图",
+    "kind": {
+      "law_summary": "摘要",
+      "answer_template": "回答模板",
+      "roadmap_rule": "路线图规则",
+      "flagged_answer": "被标记的回答"
+    },
+    "decision": {
+      "approved": "已批准并发布",
+      "rejected": "已拒绝"
+    },
+    "effective": "生效日期 {{ date }}",
+    "draftAi": "草稿 · AI",
+    "draftEdited": "草稿 · 经审核人编辑",
+    "aiSummary": "AI 摘要（{{ lang }}）",
+    "source": "来源 · Boletim da República",
+    "illustrativeExcerpt": "演示用示例摘录；审核人会对照官方公报进行核实。",
+    "openConversation": "在审核中打开对话",
+    "editLabel": "编辑摘要",
+    "saveEdit": "保存编辑",
+    "cancel": "取消",
+    "note": "审核备注",
+    "notePlaceholder": "可选：修改了什么以及原因",
+    "approve": "批准并发布",
+    "edit": "编辑",
+    "reject": "拒绝",
+    "logged": "每项操作均记录审核人、时间和版本",
+    "version": "当前版本 v{{ n }}",
+    "auditTitle": "审计日志",
+    "audit": {
+      "time": "时间",
+      "action": "操作",
+      "reviewer": "审核人",
+      "version": "版本",
+      "note": "备注"
+    },
+    "action": {
+      "drafted": "由 AI 起草",
+      "flagged": "已标记待审核",
+      "commented": "评论",
+      "edited": "已编辑",
+      "approved": "已批准并发布",
+      "rejected": "已拒绝",
+      "uploaded": "已上传法规"
+    },
+    "announce": {
+      "approved": "草稿已批准并发布。",
+      "rejected": "草稿已拒绝。",
+      "edited": "编辑已保存为新版本。",
+      "uploaded": "法规已加入队列。"
+    },
+    "stripTitle": "本季度投资者洞察",
+    "topSectors": "热门咨询行业",
+    "topOrigins": "主要投资者来源地",
+    "unanswered": "未解答的问题",
+    "unansweredCount": "{{ n }} 个已转交内容团队"
+  },
+  "kb": {
+    "title": "法律知识库",
+    "intro": "每条回答和路线图规则都关联到带有生效日期的版本化法律文本。",
+    "search": "搜索法规",
+    "add": "添加法规",
+    "filterTopic": "按领域筛选",
+    "filterStatus": "按状态筛选",
+    "all": "全部",
+    "anyStatus": "任意状态",
+    "status": {
+      "active": "现行有效",
+      "amended": "已修订",
+      "under_review": "审核中",
+      "revoked": "已废止"
+    },
+    "revokedBy": "由 {{ by }} 废止",
+    "summaryInReview": "摘要审核中",
+    "tableCaption": "知识库中的法规",
+    "count": "{{ n }} 部法规",
+    "empty": "没有符合筛选条件的法规。",
+    "col": {
+      "diploma": "法规",
+      "subject": "主题",
+      "effective": "生效日期",
+      "version": "版本",
+      "status": "状态",
+      "linked": "关联规则"
+    },
+    "kind": {
+      "step": "路线图步骤",
+      "rule": "规则表",
+      "answer": "回答"
+    },
+    "table": {
+      "apiex": "APIEX",
+      "incentives": "激励措施",
+      "licences": "许可证",
+      "obligations": "义务",
+      "quotas": "配额",
+      "roadmap": "路线图",
+      "sectors": "行业",
+      "treaties": "条约",
+      "triggers": "触发条件",
+      "vehicles": "投资载体",
+      "zones": "区域",
+      "qa": "回答"
+    },
+    "scan": {
+      "title": "Boletim da República 每周扫描",
+      "intro": "Tiva 阅读每一期新公报，并标记涉及回答或路线图的文本。",
+      "last": "上次扫描",
+      "next": "下次扫描",
+      "issues": "已阅读期数",
+      "found": "发现的新条目",
+      "outcome": {
+        "queued": "在审核队列中",
+        "published": "已批准",
+        "no_impact": "无影响"
+      },
+      "footer": "新文本由 AI 起草，仅在律师批准后发布。"
+    }
+  },
+  "review": {
+    "title": "对话审核",
+    "intro": "低置信度和被标记的回答会汇集到这里。修正内容将用于完善知识库。",
+    "chat": "对话 #{{ id }}",
+    "reason": {
+      "low_confidence": "低置信度",
+      "user_flagged": "投资者标记",
+      "law_changed": "法规变更"
+    },
+    "confidence": "置信度",
+    "translation": "翻译（{{ lang }}）",
+    "tivaAnswer": "Tiva 的回答",
+    "sources": "引用来源",
+    "gapTag": "知识库中没有",
+    "actionTitle": "审核操作",
+    "corrected": "修正后的回答",
+    "correctedPlaceholder": "撰写修正后的回答，并引用其所依据的法规",
+    "gap": "知识库缺口",
+    "gapOther": "其他缺口…",
+    "gapOtherPlaceholder": "描述缺失的规则或文本",
+    "gapNone": "无缺口",
+    "notify": "若回答变更，通知投资者",
+    "correct": "修正并学习",
+    "approve": "按原样批准",
+    "escalate": "上报律师",
+    "notifyNote": "若投资者收到的回答发生变更，将通知该投资者。",
+    "done": {
+      "corrected": "已修正并学习",
+      "approved": "已按原样批准",
+      "escalated": "已上报律师"
+    },
+    "notified": "投资者将收到变更通知。",
+    "reopen": "重新打开",
+    "open": "待处理",
+    "queueTitle": "审核队列",
+    "col": {
+      "chat": "对话",
+      "language": "语言",
+      "topic": "话题",
+      "reason": "原因",
+      "received": "接收时间",
+      "status": "状态"
+    },
+    "gapsTitle": "知识库中记录的缺口",
+    "gapsIntro": "每个缺口都会成为法律团队的内容任务。",
+    "gapsEmpty": "尚未记录任何缺口。"
+  },
+  "leads": {
+    "title": "潜在客户",
+    "intro": "请求专家协助的投资者。仅在其同意后共享。",
+    "filterExpert": "按专家筛选",
+    "filter": {
+      "all": "所有专家",
+      "tax-advisory": "Tax Advisory",
+      "public": "公共机构"
+    },
+    "metrics": {
+      "month": "本月转介",
+      "conversion": "转介至委托",
+      "reply": "首次回复中位时间",
+      "response": "已回复",
+      "note": "根据所显示的 {{ n }} 个转介计算。"
+    },
+    "hours": "{{ n }} 小时",
+    "stage": {
+      "new": "新",
+      "in_review": "审核中",
+      "quoted": "已发送方案",
+      "won": "已获委托"
+    },
+    "new": "新",
+    "fit": {
+      "high": "高匹配 · {{ n }}",
+      "medium": "中等 · {{ n }}",
+      "low": "低 · {{ n }}"
+    },
+    "local": "本地",
+    "needs": "需求",
+    "consent": "同意",
+    "roadmapAttached": "已附路线图",
+    "call": "通话 {{ date }}",
+    "emptyStage": "此阶段暂无潜在客户。",
+    "fitNote": "匹配度评分：仅供参考，依据项目规模、行业、来源地及转介信息的完整程度。"
+  },
+  "lead": {
+    "back": "返回潜在客户",
+    "missing": "未找到该潜在客户。",
+    "stage": "阶段",
+    "message": "留言",
+    "project": "项目与路线图",
+    "province": "省份",
+    "investment": "投资额",
+    "workers": "员工（外籍）",
+    "vehicle": "投资载体",
+    "sector": "行业",
+    "origin": "来源地",
+    "openRoadmap": "打开路线图",
+    "noProject": "未附项目。",
+    "notes": "内部备注",
+    "noNotes": "暂无备注。",
+    "addNote": "新备注",
+    "saveNote": "保存备注",
+    "saved": "更改已保存",
+    "fit": "匹配度评分",
+    "fitPart": {
+      "size": "规模",
+      "sector": "行业",
+      "origin": "来源地",
+      "completeness": "完整度"
+    },
+    "handoff": "转介",
+    "expert": "所请求的专家",
+    "consentLegacy": "通过咨询表单发送",
+    "callSlot": "通话时段",
+    "channel": "渠道",
+    "contact": "联系方式"
+  },
+  "intel": {
+    "title": "投资者洞察",
+    "intro": "匿名化需求数据：面向 APIEX、CTA 和赞助方的季度报告。",
+    "period": "期间",
+    "export": "导出季度报告",
+    "print": "打印",
+    "exported": "报告已下载。",
+    "demoBanner": "演示数据：示例数字仅用于展示版式。正式报告将根据匿名化对话生成。",
+    "kpi": {
+      "conversations": "对话",
+      "investors": "投资者",
+      "roadmaps": "已生成路线图",
+      "origins": "来源国家",
+      "citation": "附引用的回答"
+    },
+    "delta": "{{ d }}，对比 {{ prev }}",
+    "sectorTitle": "按行业划分的路线图",
+    "sectorNote": "按行业划分的需求",
+    "col": {
+      "sector": "行业",
+      "bar": "占总数比例（条形图）",
+      "roadmaps": "路线图",
+      "share": "占比",
+      "asked": "提问次数"
+    },
+    "originTitle": "投资者来源地",
+    "originNote": "投资者自报的国家；从不与个人关联。",
+    "unansweredTitle": "Tiva 未能回答的问题",
+    "unansweredIntro": "每个问题都会成为法律团队的内容任务。",
+    "asked": "被问 {{ n }} 次",
+    "createTask": "创建内容任务",
+    "taskCreated": "内容任务已创建"
+  },
+  "partners": {
+    "title": "合作伙伴与名录",
+    "intro": "名录条目、赞助展示位以及投资者看到的翻译。",
+    "add": "添加条目",
+    "addHint": "演示中不可用：条目来自名录数据文件。",
+    "filterLabel": "筛选条目",
+    "filter": {
+      "all": "全部",
+      "public": "公共机构",
+      "sponsored": "赞助",
+      "providers": "服务商",
+      "attention": "需要处理"
+    },
+    "tableCaption": "名录条目",
+    "count": "{{ n }} 个条目",
+    "col": {
+      "name": "名称",
+      "type": "类型",
+      "status": "状态",
+      "verified": "已验证",
+      "languages": "语言",
+      "renewal": "续期"
+    },
+    "type": {
+      "public": "公共机构",
+      "association": "商业协会",
+      "law_firm": "律师事务所",
+      "tax": "税务顾问",
+      "bank": "银行",
+      "accounting": "会计",
+      "logistics": "物流",
+      "consulting": "咨询"
+    },
+    "contract": {
+      "founding_sponsor": "创始赞助方",
+      "sponsor": "赞助方",
+      "expert_partner": "专家合作伙伴",
+      "partner": "合作伙伴",
+      "verified_listing": "已验证条目"
+    },
+    "standing": {
+      "public": "公共",
+      "sponsored": "赞助",
+      "partner": "合作伙伴",
+      "verified": "已验证",
+      "pending": "文件待提交",
+      "expired": "执照已过期"
+    },
+    "notVerified": "尚未验证",
+    "ofEight": "{{ n }} / {{ total }}",
+    "translatedInto": "此条目已翻译成的语言",
+    "yes": "已翻译",
+    "no": "未翻译",
+    "renewal": {
+      "free": "免费 · 无需续期",
+      "ok": "有效",
+      "due": "待续期",
+      "expired": "已过期"
+    },
+    "placementTitle": "赞助展示位",
+    "shownOn": "展示位置",
+    "placement": {
+      "landing_footer": "首页页脚",
+      "directory": "名录",
+      "expert": "咨询专家"
+    },
+    "rulesTitle": "展示规则",
+    "rule": {
+      "publicFree": "公共机构始终免费列出",
+      "publicFirst": "公共机构始终排在首位",
+      "maxPerCategory": "每个类别最多 {{ n }} 个赞助条目",
+      "labelVisible": "始终标注“赞助”",
+      "notInAnswers": "绝不出现在法律回答中"
+    },
+    "ruleOk": "符合规则",
+    "ruleBroken": "违反规则",
+    "dataNote": "条目读取自公共名录；合同和展示位为示例演示数据。"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "brand": {
+    "name": "Tiva",
+    "tagline": "Msaidizi wa uwekezaji wa AI kwa Msumbiji",
+    "meaning": "“Kujua”, kwa Kichangana"
+  },
+  "seo": {
+    "siteTitle": "Tiva — Msaidizi wa uwekezaji wa AI kwa Msumbiji",
+    "siteDescription": "Mweleze Tiva wazo lako na upate ramani yako ya uwekezaji nchini Msumbiji ndani ya dakika chache: kampuni, leseni, vivutio, viza na hatua za kodi, kila moja ikirejelea sheria za Msumbiji. Law Technology Solutions pamoja na Tax Advisory.",
+    "welcome": "Karibu",
+    "pathfinder": "Kitafuta Njia ya Uwekezaji",
+    "chat": "Ongea na Tiva",
+    "roadmap": "Ramani ya uwekezaji",
+    "roadmapPrint": "Ramani kwa PDF",
+    "map": "Ramani ya fursa",
+    "incentives": "Kikadiriaji cha vivutio",
+    "expert": "Ongea na mtaalamu",
+    "expertSent": "Simu imeombwa",
+    "library": "Maktaba ya maarifa",
+    "libraryDescription": "Maelezo kwa lugha rahisi kwa kila eneo la sheria za biashara za Msumbiji, kila moja likiunganishwa na maandishi rasmi na tarehe yake ya mapitio.",
+    "documents": "Nyaraka na fomu",
+    "directory": "Saraka ya wadau",
+    "aftercare": "Kalenda ya huduma baada ya uwekezaji",
+    "alerts": "Ufuatiliaji wa kanuni",
+    "whatsapp": "Tiva kwenye WhatsApp",
+    "office": "Ofisi ya ndani",
+    "login": "Kuingia kwenye ofisi ya ndani",
+    "demo": "Paneli ya maonyesho",
+    "styleGuide": "Mwongozo wa mtindo",
+    "notFound": "Ukurasa haukupatikana"
+  },
+  "nav": {
+    "home": "Tiva — mwanzo",
+    "main": "Urambazaji mkuu",
+    "explore": "Gundua Msumbiji",
+    "roadmap": "Ramani",
+    "incentives": "Vivutio",
+    "library": "Maktaba",
+    "experts": "Wataalamu",
+    "chat": "Gumzo",
+    "start": "Anza na Tiva",
+    "tools": "Zana",
+    "documents": "Nyaraka",
+    "directory": "Saraka",
+    "aftercare": "Huduma baada ya uwekezaji",
+    "alerts": "Arifa za sheria",
+    "whatsapp": "WhatsApp",
+    "office": "Ofisi ya ndani",
+    "menu": "Menyu",
+    "language": "Lugha",
+    "skip": "Ruka hadi maudhui",
+    "back": "Rudi"
+  },
+  "footer": {
+    "technology": "Teknolojia",
+    "expert": "Mshirika mtaalamu",
+    "sponsors": "Mfadhili mwanzilishi: [SPONSOR] · Mshirika wa kitaasisi: [PARTNER]",
+    "privacy": "Faragha",
+    "terms": "Masharti",
+    "contact": "Mawasiliano",
+    "officeAccess": "Kuingia ofisi ya ndani",
+    "builtIn": "Imejengwa Msumbiji, kwa ajili ya Msumbiji.",
+    "journey": "Uwekezaji wako",
+    "tools": "Zana na njia za mawasiliano"
+  },
+  "mt": {
+    "notice": "Lugha hii ni tafsiri ya mashine inayoendelea kukaguliwa. Maudhui ya kisheria yanathibitishwa kwa Kireno na Kiingereza.",
+    "switch": "Soma kwa Kiingereza"
+  },
+  "disclaimer": "Taarifa za jumla kwa kuzingatia sheria za Msumbiji zinazotumika Oktoba 2026. Si ushauri wa kisheria wala wa kodi.",
+  "notFound": {
+    "title": "Ukurasa huu haupo",
+    "text": "Huenda anwani haijakamilika au ukurasa umehamishwa.",
+    "cta": "Rudi kwenye ukurasa wa mwanzo"
+  },
+  "topics": {
+    "companies": "Kampuni",
+    "licensing": "Leseni",
+    "investment": "Uwekezaji",
+    "tax": "Kodi",
+    "labour": "Ajira",
+    "immigration": "Uhamiaji",
+    "exchange": "Udhibiti wa fedha za kigeni",
+    "customs": "Forodha",
+    "incentives": "Vivutio vya kodi",
+    "compliance": "Mawasilisho na uhasibu",
+    "land": "Ardhi, mazingira na kanda",
+    "local_content": "Ushiriki wa wazawa na LNG"
+  },
+  "forms": {
+    "required": "Sehemu hii inahitajika.",
+    "email": "Weka anwani sahihi ya barua pepe.",
+    "minlength": "Andika angalau herufi {{ length }}.",
+    "maxlength": "Herufi zisizozidi {{ length }}.",
+    "min": "Thamani ya chini ni {{ min }}.",
+    "max": "Thamani ya juu ni {{ max }}.",
+    "integer": "Weka namba kamili.",
+    "pattern": "Muundo si sahihi.",
+    "phone": "Weka namba sahihi ya simu, pamoja na msimbo wa nchi.",
+    "areasRequired": "Chagua angalau eneo moja.",
+    "foreignExceedsWorkers": "Wafanyakazi wa kigeni hawawezi kuzidi jumla ya wafanyakazi.",
+    "fixErrors": "Tafadhali kagua sehemu zilizoangaziwa."
+  },
+  "ui": {
+    "close": "Funga",
+    "cancel": "Ghairi",
+    "toConfirm": "itathibitishwa",
+    "toConfirmHint": "Thamani itathibitishwa na Tax Advisory",
+    "citation": {
+      "open": "fungua rejea",
+      "eyebrow": "Rejea ya kisheria",
+      "status": "Hali",
+      "illustrative": "Kielelezo",
+      "reviewed": "Ilikaguliwa mwisho",
+      "topic": "Mada",
+      "summary": "Muhtasari",
+      "excerpt": "Dondoo ya kielelezo",
+      "note": "Dondoo iliyofafanuliwa kwa madhumuni ya maonyesho. Toleo la mwisho litanukuu vifungu vilivyokaguliwa na Tax Advisory."
+    },
+    "roadmap": {
+      "explore": "Chunguza",
+      "establish": "Anzisha",
+      "operate": "Endesha",
+      "step": "Hatua",
+      "critical": "Njia muhimu"
+    },
+    "calendar": {
+      "shifted": "Imesogezwa mbele",
+      "shiftedHint": "Tarehe ya mwisho ya {{ date }} inaangukia wikendi au sikukuu ya umma, kwa hivyo inahamishiwa siku ya kazi iliyotangulia.",
+      "then": "Inayofuata:"
+    },
+    "trigger": {
+      "fact": "Ukweli wa mradi",
+      "info": "Kinachobadilika",
+      "attention": "Tahadhari"
+    },
+    "answer": {
+      "question": "Swali",
+      "analysing": "Inachambua",
+      "sources": "Vyanzo",
+      "whenToTalk": "Wakati wa kuzungumza nasi",
+      "talkCta": "Ongea na Tax Advisory"
+    },
+    "status": {
+      "new": "Mpya",
+      "in_review": "Inakaguliwa",
+      "quoted": "Pendekezo limetumwa",
+      "won": "Imefanikiwa"
+    }
+  }
+}

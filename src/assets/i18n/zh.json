@@ -1,0 +1,151 @@
+{
+  "brand": {
+    "name": "Tiva",
+    "tagline": "莫桑比克 AI 投资顾问",
+    "meaning": "宗加语（Changana）意为“知道”"
+  },
+  "seo": {
+    "siteTitle": "Tiva — 莫桑比克 AI 投资顾问",
+    "siteDescription": "向 Tiva 讲述您的投资构想，几分钟内即可获得莫桑比克投资路线图：公司设立、许可证、优惠政策、签证和税务步骤，每一步均引用莫桑比克法律。由 Law Technology Solutions 与 Tax Advisory 联合提供。",
+    "welcome": "欢迎",
+    "pathfinder": "投资路径向导",
+    "chat": "与 Tiva 对话",
+    "roadmap": "投资路线图",
+    "roadmapPrint": "路线图 PDF",
+    "map": "投资机会地图",
+    "incentives": "优惠政策估算器",
+    "expert": "咨询专家",
+    "expertSent": "已申请通话",
+    "library": "知识库",
+    "libraryDescription": "以通俗语言讲解莫桑比克商法的各个领域，每篇均链接至官方文本并注明审核日期。",
+    "documents": "文件与表格",
+    "directory": "生态系统名录",
+    "aftercare": "投后合规日历",
+    "alerts": "法规动态监测",
+    "whatsapp": "WhatsApp 上的 Tiva",
+    "office": "后台管理",
+    "login": "后台登录",
+    "demo": "演示面板",
+    "styleGuide": "样式指南",
+    "notFound": "页面未找到"
+  },
+  "nav": {
+    "home": "Tiva — 首页",
+    "main": "主导航",
+    "explore": "探索莫桑比克",
+    "roadmap": "路线图",
+    "incentives": "优惠政策",
+    "library": "知识库",
+    "experts": "专家",
+    "chat": "对话",
+    "start": "开始使用 Tiva",
+    "tools": "工具",
+    "documents": "文件",
+    "directory": "名录",
+    "aftercare": "投后服务",
+    "alerts": "法律提醒",
+    "whatsapp": "WhatsApp",
+    "office": "后台管理",
+    "menu": "菜单",
+    "language": "语言",
+    "skip": "跳至正文",
+    "back": "返回"
+  },
+  "footer": {
+    "technology": "技术支持",
+    "expert": "专业合作伙伴",
+    "sponsors": "创始赞助商：[SPONSOR] · 机构合作伙伴：[PARTNER]",
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系我们",
+    "officeAccess": "后台入口",
+    "builtIn": "立足莫桑比克，服务莫桑比克。",
+    "journey": "您的投资",
+    "tools": "工具与渠道"
+  },
+  "mt": {
+    "notice": "本语言版本为机器翻译，正在审核中。法律内容以葡萄牙语和英语版本为准。",
+    "switch": "阅读英文版"
+  },
+  "disclaimer": "基于 2026 年 10 月现行莫桑比克法律的一般性信息，不构成法律或税务建议。",
+  "notFound": {
+    "title": "该页面不存在",
+    "text": "地址可能不完整，或页面已被移动。",
+    "cta": "返回首页"
+  },
+  "topics": {
+    "companies": "公司",
+    "licensing": "许可",
+    "investment": "投资",
+    "tax": "税务",
+    "labour": "劳动雇佣",
+    "immigration": "移民",
+    "exchange": "外汇管制",
+    "customs": "海关",
+    "incentives": "税收优惠",
+    "compliance": "申报与会计",
+    "land": "土地、环境与特区",
+    "local_content": "本地成分与液化天然气"
+  },
+  "forms": {
+    "required": "此字段为必填项。",
+    "email": "请输入有效的电子邮件地址。",
+    "minlength": "请至少输入 {{ length }} 个字符。",
+    "maxlength": "最多 {{ length }} 个字符。",
+    "min": "最小值为 {{ min }}。",
+    "max": "最大值为 {{ max }}。",
+    "integer": "请输入整数。",
+    "pattern": "格式无效。",
+    "phone": "请输入有效的电话号码（含国家代码）。",
+    "areasRequired": "请至少选择一个领域。",
+    "foreignExceedsWorkers": "外籍员工人数不能超过员工总数。",
+    "fixErrors": "请检查标出的字段。"
+  },
+  "ui": {
+    "close": "关闭",
+    "cancel": "取消",
+    "toConfirm": "待确认",
+    "toConfirmHint": "数值待 Tax Advisory 确认",
+    "citation": {
+      "open": "打开引用",
+      "eyebrow": "法律依据",
+      "status": "状态",
+      "illustrative": "示例",
+      "reviewed": "最近审核",
+      "topic": "主题",
+      "summary": "摘要",
+      "excerpt": "示例摘录",
+      "note": "此为演示用途的转述摘录。正式版本将引用经 Tax Advisory 审核的原文段落。"
+    },
+    "roadmap": {
+      "explore": "探索",
+      "establish": "设立",
+      "operate": "运营",
+      "step": "步骤",
+      "critical": "关键路径"
+    },
+    "calendar": {
+      "shifted": "已提前",
+      "shiftedHint": "{{ date }} 的截止日期适逢周末或公共假日，因此提前至前一个工作日。",
+      "then": "下一个："
+    },
+    "trigger": {
+      "fact": "项目情况",
+      "info": "变化内容",
+      "attention": "注意"
+    },
+    "answer": {
+      "question": "问题",
+      "analysing": "正在分析",
+      "sources": "来源",
+      "whenToTalk": "何时联系我们",
+      "talkCta": "联系 Tax Advisory"
+    },
+    "status": {
+      "new": "新建",
+      "in_review": "审核中",
+      "quoted": "已发送报价",
+      "won": "已成交"
+    }
+  }
+}

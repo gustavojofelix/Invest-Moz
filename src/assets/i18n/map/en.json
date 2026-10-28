@@ -1,0 +1,47 @@
+{
+  "eyebrow": "Opportunity map",
+  "title": "Explore Mozambique",
+  "intro": "Provinces, transport corridors and economic zones. Pick a sector to see where it fits, then a province for the details.",
+  "filter": "Filter by sector",
+  "all": "All sectors",
+  "matches": "{{count}} provinces highlighted",
+  "mapLabel": "Map of Mozambique with provinces, corridors and economic zones",
+  "pick": "Province",
+  "hint": "Select a province",
+  "note": "Positions are indicative. Zone eligibility and incentives are confirmed by APIEX.",
+  "legend": {
+    "ports": "Ports",
+    "cities": "Cities",
+    "corridors": "Corridors",
+    "zones": "Economic zones",
+    "rovuma": "Rovuma basin"
+  },
+  "card": {
+    "region": "Selected province",
+    "noCorridor": "Outside the main corridors",
+    "highlights": "Why here",
+    "sectors": "Key sectors",
+    "zones": "Economic zones and parks",
+    "noZones": "No economic zone or park is listed in this province yet.",
+    "incentives": "See incentives here",
+    "ask": "Ask Tiva",
+    "askQuestion": "What can I invest in in {{province}}?",
+    "profile": "Sector profiles",
+    "empty": "Select a province on the map or in the list to see its corridor, key sectors and zones."
+  },
+  "kind": {
+    "sez": "SEZ",
+    "ifz": "IFZ",
+    "park": "Industrial park",
+    "tourism": "Tourism zone"
+  },
+  "sectors": {
+    "agro_industry": "Agro-industry",
+    "energy": "Energy",
+    "logistics": "Logistics",
+    "tourism": "Tourism",
+    "oil_gas": "Oil and gas",
+    "mining": "Mining",
+    "services": "Services"
+  }
+}

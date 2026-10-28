@@ -1,0 +1,105 @@
+{
+  "illustrative": true,
+  "versions": [
+    {
+      "refId": "dec-41-2026",
+      "version": 1,
+      "status": "active",
+      "effective": "2026-10-25",
+      "revokes": "dec-39-2017"
+    },
+    { "refId": "lei-8-2023", "version": 1, "status": "active", "effective": "2023-09-08" },
+    { "refId": "dec-8-2024", "version": 2, "status": "amended", "effective": "2024-03-07" },
+    { "refId": "lei-4-2009", "version": 1, "status": "under_review" },
+    { "refId": "lei-13-2023", "version": 1, "status": "active" },
+    { "refId": "lei-11-2009", "version": 1, "status": "active" },
+    { "refId": "lei-19-97", "version": 1, "status": "active" }
+  ],
+  "extra": [
+    {
+      "refId": "dec-40-2026",
+      "instrument": "Decreto n.º 40/2026",
+      "topic": "licensing",
+      "version": 1,
+      "status": "active",
+      "effective": "2026-10-25",
+      "title": {
+        "pt": "Mera comunicação prévia",
+        "en": "Prior notice (mera comunicação prévia)",
+        "fr": "Simple communication préalable (mera comunicação prévia)",
+        "zh": "事先通知（mera comunicação prévia）",
+        "ar": "الإخطار المسبق (mera comunicação prévia)",
+        "hi": "पूर्व सूचना (mera comunicação prévia)",
+        "sw": "Taarifa ya awali (mera comunicação prévia)",
+        "af": "Voorafkennisgewing (mera comunicação prévia)"
+      }
+    },
+    {
+      "refId": "dec-39-2017",
+      "instrument": "Decreto n.º 39/2017",
+      "topic": "licensing",
+      "version": 1,
+      "status": "revoked",
+      "revokedBy": "Decreto n.º 41/2026",
+      "title": {
+        "pt": "Antigo regulamento do licenciamento simplificado",
+        "en": "Former simplified licensing regulation",
+        "fr": "Ancien règlement du licenciement simplifié",
+        "zh": "原简化许可条例",
+        "ar": "لائحة الترخيص المبسّط السابقة",
+        "hi": "पूर्व सरलीकृत लाइसेंसिंग विनियमन",
+        "sw": "Kanuni ya zamani ya leseni iliyorahisishwa",
+        "af": "Voormalige regulasie oor vereenvoudigde lisensiëring"
+      }
+    }
+  ],
+  "scan": {
+    "lastScan": "2026-10-26",
+    "nextScan": "2026-11-02",
+    "issuesRead": 6,
+    "items": [
+      {
+        "instrument": "Decreto n.º 41/2026",
+        "outcome": "queued",
+        "note": {
+          "pt": "Novo regulamento do licenciamento · resumo na fila de validação",
+          "en": "New licensing regulation · summary in the validation queue",
+          "fr": "Nouveau règlement de licenciement · résumé dans la file de validation",
+          "zh": "新许可条例 · 摘要在审核队列中",
+          "ar": "لائحة ترخيص جديدة · الملخص في قائمة التحقق",
+          "hi": "नया लाइसेंसिंग विनियमन · सारांश सत्यापन कतार में",
+          "sw": "Kanuni mpya ya leseni · muhtasari uko kwenye foleni ya uthibitishaji",
+          "af": "Nuwe lisensiëringsregulasie · opsomming in die valideringsry"
+        }
+      },
+      {
+        "instrument": "Decreto n.º 40/2026",
+        "outcome": "published",
+        "note": {
+          "pt": "Mera comunicação prévia · aprovado e ligado ao passo 6 do roteiro",
+          "en": "Prior notice · approved and linked to roadmap step 6",
+          "fr": "Communication préalable · approuvé et lié à l'étape 6 de la feuille de route",
+          "zh": "事先通知 · 已批准并关联到路线图第6步",
+          "ar": "الإخطار المسبق · تمت الموافقة عليه وربطه بالخطوة 6 من خريطة الطريق",
+          "hi": "पूर्व सूचना · स्वीकृत और रोडमैप चरण 6 से जुड़ा",
+          "sw": "Taarifa ya awali · imeidhinishwa na kuunganishwa na hatua ya 6 ya ramani",
+          "af": "Voorafkennisgewing · goedgekeur en gekoppel aan padkaartstap 6"
+        }
+      },
+      {
+        "instrument": "[Diploma]",
+        "outcome": "no_impact",
+        "note": {
+          "pt": "Sem impacto em respostas ou roteiros · arquivado",
+          "en": "No impact on answers or roadmaps · filed",
+          "fr": "Aucun impact sur les réponses ou les feuilles de route · classé",
+          "zh": "对回答或路线图无影响 · 已归档",
+          "ar": "لا تأثير على الإجابات أو خرائط الطريق · تمت الأرشفة",
+          "hi": "उत्तरों या रोडमैप पर कोई प्रभाव नहीं · दर्ज किया गया",
+          "sw": "Hakuna athari kwa majibu au ramani · imehifadhiwa",
+          "af": "Geen impak op antwoorde of padkaarte nie · geliasseer"
+        }
+      }
+    ]
+  }
+}

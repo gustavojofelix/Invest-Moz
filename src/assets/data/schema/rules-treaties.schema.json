@@ -3,11 +3,7 @@
   "$id": "rules-treaties.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "noTreatyRate",
-    "unknownTreatyRate",
-    "entries"
-  ],
+  "required": ["noTreatyRate", "unknownTreatyRate", "entries"],
   "properties": {
     "noTreatyRate": {
       "$ref": "common.schema.json#/definitions/localizedText"
@@ -20,11 +16,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "country",
-          "dividends",
-          "refs"
-        ],
+        "required": ["country", "dividends", "refs"],
         "properties": {
           "country": {
             "type": "string",

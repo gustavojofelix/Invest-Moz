@@ -15,84 +15,204 @@
   "location": [
     {
       "id": "corridor-nacala",
-      "when": [{ "field": "corridor", "op": "eq", "value": "nacala" }],
+      "when": [
+        {
+          "field": "corridor",
+          "op": "eq",
+          "value": "nacala"
+        }
+      ],
       "then": {
         "id": "corridor-nacala",
-        "title": { "pt": "Corredor de Nacala", "en": "Nacala corridor", "fr": "Corridor de Nacala" },
+        "title": {
+          "pt": "Corredor de Nacala",
+          "en": "Nacala corridor",
+          "fr": "Corridor de Nacala",
+          "zh": "纳卡拉走廊",
+          "ar": "ممر Nacala",
+          "hi": "नकाला कॉरिडोर",
+          "sw": "Ushoroba wa Nacala",
+          "af": "Nacala-korridor"
+        },
         "text": {
           "pt": "Porto de águas profundas de Nacala e ligação ferroviária ao interior e ao Malawi. A Zona Económica Especial de Nacala pode interessar a projectos industriais exportadores.",
           "en": "Nacala deep-water port and rail link to the interior and Malawi. The Nacala Special Economic Zone may suit export-oriented industrial projects.",
-          "fr": "Port en eau profonde de Nacala et liaison ferroviaire vers l'intérieur et le Malawi. La zone économique spéciale de Nacala peut intéresser les projets industriels exportateurs."
+          "fr": "Port en eau profonde de Nacala et liaison ferroviaire vers l'intérieur et le Malawi. La zone économique spéciale de Nacala peut intéresser les projets industriels exportateurs.",
+          "zh": "纳卡拉深水港及通往内陆和马拉维的铁路。纳卡拉经济特区可能适合出口导向型工业项目。",
+          "ar": "ميناء Nacala للمياه العميقة وخط السكك الحديدية إلى الداخل وملاوي. قد تناسب المنطقة الاقتصادية الخاصة في Nacala المشاريع الصناعية الموجّهة للتصدير.",
+          "hi": "नकाला का गहरे पानी का बंदरगाह और देश के भीतरी हिस्सों तथा मलावी तक रेल संपर्क। नकाला विशेष आर्थिक क्षेत्र (SEZ) निर्यात-उन्मुख औद्योगिक परियोजनाओं के लिए उपयुक्त हो सकता है।",
+          "sw": "Bandari ya kina kirefu ya Nacala na reli inayounganisha na maeneo ya ndani na Malawi. Kanda Maalum ya Kiuchumi ya Nacala inaweza kufaa miradi ya viwanda inayolenga mauzo ya nje.",
+          "af": "Diepwaterhawe van Nacala en spoorverbinding na die binneland en Malawi. Die Spesiale Ekonomiese Sone van Nacala kan uitvoergerigte industriële projekte pas."
         },
         "refs": ["zee-zfi"]
       }
     },
     {
       "id": "corridor-beira",
-      "when": [{ "field": "corridor", "op": "eq", "value": "beira" }],
+      "when": [
+        {
+          "field": "corridor",
+          "op": "eq",
+          "value": "beira"
+        }
+      ],
       "then": {
         "id": "corridor-beira",
-        "title": { "pt": "Corredor da Beira", "en": "Beira corridor", "fr": "Corridor de Beira" },
+        "title": {
+          "pt": "Corredor da Beira",
+          "en": "Beira corridor",
+          "fr": "Corridor de Beira",
+          "zh": "贝拉走廊",
+          "ar": "ممر Beira",
+          "hi": "बेइरा कॉरिडोर",
+          "sw": "Ushoroba wa Beira",
+          "af": "Beira-korridor"
+        },
         "text": {
           "pt": "Porto da Beira e ligação a Manica, Tete, Zimbabwe e Zâmbia: posição natural para logística regional e trânsito.",
           "en": "Port of Beira with links to Manica, Tete, Zimbabwe and Zambia: a natural base for regional logistics and transit.",
-          "fr": "Port de Beira relié à Manica, Tete, au Zimbabwe et à la Zambie : base naturelle pour la logistique régionale et le transit."
+          "fr": "Port de Beira relié à Manica, Tete, au Zimbabwe et à la Zambie : base naturelle pour la logistique régionale et le transit.",
+          "zh": "贝拉港连接马尼卡省、太特省、津巴布韦和赞比亚：是区域物流和过境运输的天然基地。",
+          "ar": "ميناء Beira المرتبط بـ Manica وTete وزيمبابوي وزامبيا: قاعدة طبيعية للخدمات اللوجستية والعبور الإقليمي.",
+          "hi": "बेइरा बंदरगाह, जो मानिका, तेते, ज़िम्बाब्वे और ज़ाम्बिया से जुड़ा है: क्षेत्रीय लॉजिस्टिक्स और पारगमन के लिए स्वाभाविक केंद्र।",
+          "sw": "Bandari ya Beira yenye viungo kwenda Manica, Tete, Zimbabwe na Zambia: kituo cha asili kwa usafirishaji na usafiri wa kupita wa kikanda.",
+          "af": "Hawe van Beira met verbindings na Manica, Tete, Zimbabwe en Zambië: 'n natuurlike basis vir streekslogistiek en transito."
         },
         "refs": ["zee-zfi"]
       }
     },
     {
       "id": "corridor-maputo",
-      "when": [{ "field": "corridor", "op": "eq", "value": "maputo" }],
+      "when": [
+        {
+          "field": "corridor",
+          "op": "eq",
+          "value": "maputo"
+        }
+      ],
       "then": {
         "id": "corridor-maputo",
-        "title": { "pt": "Corredor de Maputo", "en": "Maputo corridor", "fr": "Corridor de Maputo" },
+        "title": {
+          "pt": "Corredor de Maputo",
+          "en": "Maputo corridor",
+          "fr": "Corridor de Maputo",
+          "zh": "马普托走廊",
+          "ar": "ممر Maputo",
+          "hi": "मापुटो कॉरिडोर",
+          "sw": "Ushoroba wa Maputo",
+          "af": "Maputo-korridor"
+        },
         "text": {
           "pt": "Porto de Maputo e ligação rodoviária e ferroviária à África do Sul e a Eswatini. O parque industrial de Beluluane (MozParks) oferece infra-estrutura pronta.",
           "en": "Port of Maputo with road and rail links to South Africa and Eswatini. The Beluluane industrial park (MozParks) offers ready infrastructure.",
-          "fr": "Port de Maputo et liaisons routière et ferroviaire avec l'Afrique du Sud et l'Eswatini. Le parc industriel de Beluluane (MozParks) offre des infrastructures prêtes."
+          "fr": "Port de Maputo et liaisons routière et ferroviaire avec l'Afrique du Sud et l'Eswatini. Le parc industriel de Beluluane (MozParks) offre des infrastructures prêtes.",
+          "zh": "马普托港，有公路和铁路连接南非和斯威士兰。Beluluane 工业园（MozParks）提供现成的基础设施。",
+          "ar": "ميناء Maputo بروابط برية وسككية إلى جنوب أفريقيا وإسواتيني. يوفّر المجمّع الصناعي Beluluane (MozParks) بنية تحتية جاهزة.",
+          "hi": "मापुटो बंदरगाह, जो दक्षिण अफ्रीका और एस्वातिनी से सड़क और रेल द्वारा जुड़ा है। बेलुलुआने औद्योगिक पार्क (MozParks) तैयार बुनियादी ढाँचा प्रदान करता है।",
+          "sw": "Bandari ya Maputo yenye barabara na reli zinazounganisha na Afrika Kusini na Eswatini. Hifadhi ya viwanda ya Beluluane (MozParks) inatoa miundombinu iliyo tayari.",
+          "af": "Hawe van Maputo met pad- en spoorverbindings na Suid-Afrika en Eswatini. Die Beluluane-nywerheidspark (MozParks) bied gereedstaande infrastruktuur."
         },
         "refs": ["zee-zfi"]
       }
     },
     {
       "id": "pemba",
-      "when": [{ "field": "province", "op": "eq", "value": "cabo_delgado" }],
+      "when": [
+        {
+          "field": "province",
+          "op": "eq",
+          "value": "cabo_delgado"
+        }
+      ],
       "then": {
         "id": "pemba",
-        "title": { "pt": "Pemba e a bacia do Rovuma", "en": "Pemba and the Rovuma basin", "fr": "Pemba et le bassin du Rovuma" },
+        "title": {
+          "pt": "Pemba e a bacia do Rovuma",
+          "en": "Pemba and the Rovuma basin",
+          "fr": "Pemba et le bassin du Rovuma",
+          "zh": "彭巴与鲁伍马盆地",
+          "ar": "Pemba وحوض Rovuma",
+          "hi": "पेम्बा और रोवुमा बेसिन",
+          "sw": "Pemba na bonde la Rovuma",
+          "af": "Pemba en die Rovuma-kom"
+        },
         "text": {
           "pt": "Porto de Pemba e base logística de apoio aos projectos de GNL da bacia do Rovuma; proximidade aos operadores é um factor de selecção de fornecedores.",
           "en": "Port of Pemba and the logistics base supporting the Rovuma basin LNG projects; proximity to operators is a supplier selection factor.",
-          "fr": "Port de Pemba et base logistique au service des projets de GNL du bassin du Rovuma ; la proximité des opérateurs est un critère de sélection des fournisseurs."
+          "fr": "Port de Pemba et base logistique au service des projets de GNL du bassin du Rovuma ; la proximité des opérateurs est un critère de sélection des fournisseurs.",
+          "zh": "彭巴港及服务鲁伍马盆地液化天然气项目的物流基地；靠近运营商是供应商遴选的考量因素之一。",
+          "ar": "ميناء Pemba والقاعدة اللوجستية الداعمة لمشاريع الغاز الطبيعي المسال في حوض Rovuma؛ والقرب من المشغّلين عامل في اختيار المورّدين.",
+          "hi": "पेम्बा बंदरगाह और रोवुमा बेसिन की LNG परियोजनाओं को सहायता देने वाला लॉजिस्टिक्स बेस; ऑपरेटरों से निकटता आपूर्तिकर्ता चयन का एक कारक है।",
+          "sw": "Bandari ya Pemba na kituo cha usafirishaji kinachohudumia miradi ya LNG ya bonde la Rovuma; ukaribu na waendeshaji ni kigezo cha kuchagua wasambazaji.",
+          "af": "Hawe van Pemba en die logistieke basis wat die LNG-projekte in die Rovuma-kom ondersteun; nabyheid aan operateurs is 'n faktor by die keuse van verskaffers."
         },
         "refs": ["lei-21-2014"]
       }
     },
     {
       "id": "inhambane-coast",
-      "when": [{ "field": "province", "op": "eq", "value": "inhambane" }],
+      "when": [
+        {
+          "field": "province",
+          "op": "eq",
+          "value": "inhambane"
+        }
+      ],
       "then": {
         "id": "inhambane-coast",
-        "title": { "pt": "Costa de Inhambane", "en": "Inhambane coast", "fr": "Côte d'Inhambane" },
+        "title": {
+          "pt": "Costa de Inhambane",
+          "en": "Inhambane coast",
+          "fr": "Côte d'Inhambane",
+          "zh": "伊尼扬巴内海岸",
+          "ar": "ساحل Inhambane",
+          "hi": "इन्हाम्बाने तट",
+          "sw": "Pwani ya Inhambane",
+          "af": "Inhambane-kus"
+        },
         "text": {
           "pt": "Destino turístico consolidado; atenção às zonas de protecção costeira e às áreas de conservação na definição do terreno.",
           "en": "An established tourist destination; mind coastal protection zones and conservation areas when choosing the site.",
-          "fr": "Destination touristique établie ; attention aux zones de protection côtière et aux aires de conservation lors du choix du site."
+          "fr": "Destination touristique établie ; attention aux zones de protection côtière et aux aires de conservation lors du choix du site.",
+          "zh": "成熟的旅游目的地；选址时请注意海岸保护区和自然保护区。",
+          "ar": "وجهة سياحية راسخة؛ انتبه لمناطق الحماية الساحلية ومناطق الحفظ عند اختيار الموقع.",
+          "hi": "एक स्थापित पर्यटन स्थल; स्थल चुनते समय तटीय संरक्षण क्षेत्रों और संरक्षित क्षेत्रों का ध्यान रखें।",
+          "sw": "Kivutio cha utalii kilichojiimarisha; zingatia maeneo ya hifadhi ya pwani na maeneo ya uhifadhi wakati wa kuchagua eneo.",
+          "af": "'n Gevestigde toeristebestemming; let op kusbeskermingsones en bewaringsgebiede wanneer die terrein gekies word."
         },
         "refs": ["lei-19-97", "aia-regulation"]
       }
     },
     {
       "id": "sez-ifz",
-      "when": [{ "field": "exports", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "exports",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "sez-ifz",
-        "title": { "pt": "ZEE ou ZFI?", "en": "SEZ or IFZ?", "fr": "ZES ou ZFI ?" },
+        "title": {
+          "pt": "ZEE ou ZFI?",
+          "en": "SEZ or IFZ?",
+          "fr": "ZES ou ZFI ?",
+          "zh": "经济特区（SEZ）还是工业自由区（IFZ）？",
+          "ar": "منطقة اقتصادية خاصة أم منطقة صناعية حرة؟",
+          "hi": "SEZ या IFZ?",
+          "sw": "SEZ au IFZ?",
+          "af": "ZEE of ZFI?"
+        },
         "text": {
           "pt": "Exportadores podem avaliar uma Zona Económica Especial (área geográfica com regime próprio) ou uma Zona Franca Industrial (estatuto da empresa, que exige exportar pelo menos 70% da produção). Benefícios: na ZFI, até 10 anos de isenção total de IRPC; na ZEE, isenção nos anos 1 a 3, redução de 50% nos anos 4 a 10 e de 25% nos anos 11 a 15; em ambas, isenções aduaneiras e de IVA.",
           "en": "Exporters may consider a Special Economic Zone (a geographic area with its own regime) or an Industrial Free Zone (a company status requiring at least 70% of output to be exported). Benefits: in an IFZ, up to 10 years of full IRPC exemption; in an SEZ, exemption in years 1 to 3, a 50% reduction in years 4 to 10 and 25% in years 11 to 15; in both, customs and VAT exemptions.",
-          "fr": "Les exportateurs peuvent envisager une zone économique spéciale (zone géographique à régime propre) ou une zone franche industrielle (statut de l'entreprise qui impose d'exporter au moins 70 % de la production). Avantages : en ZFI, jusqu'à 10 ans d'exonération totale d'IRPC ; en ZES, exonération les années 1 à 3, réduction de 50 % les années 4 à 10 et de 25 % les années 11 à 15 ; dans les deux cas, exonérations de douane et de TVA."
+          "fr": "Les exportateurs peuvent envisager une zone économique spéciale (zone géographique à régime propre) ou une zone franche industrielle (statut de l'entreprise qui impose d'exporter au moins 70 % de la production). Avantages : en ZFI, jusqu'à 10 ans d'exonération totale d'IRPC ; en ZES, exonération les années 1 à 3, réduction de 50 % les années 4 à 10 et de 25 % les années 11 à 15 ; dans les deux cas, exonérations de douane et de TVA.",
+          "zh": "出口企业可考虑经济特区（拥有独立制度的地理区域）或工业自由区（一种企业身份，要求至少 70% 的产品用于出口）。优惠：在工业自由区，最长 10 年全额免征 IRPC；在经济特区，第 1 至 3 年免税，第 4 至 10 年减征 50%，第 11 至 15 年减征 25%；两者均享有海关和增值税豁免。",
+          "ar": "يمكن للمصدّرين النظر في منطقة اقتصادية خاصة (ZEE، وهي منطقة جغرافية ذات نظام خاص) أو منطقة صناعية حرة (ZFI، وهي صفة للشركة تشترط تصدير 70% على الأقل من الإنتاج). المزايا: في المنطقة الصناعية الحرة، إعفاء كامل من IRPC حتى 10 سنوات؛ وفي المنطقة الاقتصادية الخاصة، إعفاء في السنوات 1 إلى 3، وتخفيض بنسبة 50% في السنوات 4 إلى 10، و25% في السنوات 11 إلى 15؛ وفي كلتيهما إعفاءات من الرسوم الجمركية وIVA.",
+          "hi": "निर्यातक विशेष आर्थिक क्षेत्र (SEZ — अपनी अलग व्यवस्था वाला भौगोलिक क्षेत्र) या औद्योगिक मुक्त क्षेत्र (IFZ — कंपनी का एक दर्जा, जिसके लिए कम से कम 70% उत्पादन का निर्यात आवश्यक है) पर विचार कर सकते हैं। लाभ: IFZ में 10 वर्षों तक IRPC से पूर्ण छूट; SEZ में वर्ष 1 से 3 तक छूट, वर्ष 4 से 10 तक 50% की कमी और वर्ष 11 से 15 तक 25% की कमी; दोनों में सीमा शुल्क और IVA से छूट।",
+          "sw": "Wauzaji nje wanaweza kufikiria Kanda Maalum ya Kiuchumi (SEZ — eneo la kijiografia lenye utaratibu wake) au Kanda Huru ya Viwanda (IFZ — hadhi ya kampuni inayohitaji angalau 70% ya uzalishaji kuuzwa nje). Manufaa: katika IFZ, hadi miaka 10 ya msamaha kamili wa IRPC; katika SEZ, msamaha katika miaka 1 hadi 3, punguzo la 50% katika miaka 4 hadi 10 na 25% katika miaka 11 hadi 15; katika zote mbili, misamaha ya forodha na VAT.",
+          "af": "Uitvoerders kan 'n Spesiale Ekonomiese Sone (ZEE, 'n geografiese gebied met sy eie stelsel) of 'n Industriële Vrysone (ZFI, 'n maatskappystatus wat vereis dat minstens 70% van die produksie uitgevoer word) oorweeg. Voordele: in 'n ZFI, tot 10 jaar volle IRPC-vrystelling; in 'n ZEE, vrystelling in jaar 1 tot 3, 'n vermindering van 50% in jaar 4 tot 10 en 25% in jaar 11 tot 15; in albei, doeane- en BTW-vrystellings (IVA)."
         },
         "refs": ["zee-zfi", "apiex-guide-2026"]
       }
@@ -101,14 +221,34 @@
   "financing": [
     {
       "id": "shareholder-loan",
-      "when": [{ "field": "shareholderLoan", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "shareholderLoan",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "shareholder-loan",
-        "title": { "pt": "Empréstimo do accionista", "en": "Shareholder loan", "fr": "Prêt d'associé" },
+        "title": {
+          "pt": "Empréstimo do accionista",
+          "en": "Shareholder loan",
+          "fr": "Prêt d'associé",
+          "zh": "股东贷款",
+          "ar": "قرض المساهمين",
+          "hi": "शेयरधारक ऋण",
+          "sw": "Mkopo wa mbia",
+          "af": "Aandeelhouerslening"
+        },
         "text": {
           "pt": "Flexível e rápido, mas exige registo prévio no Banco de Moçambique e respeito do rácio 2:1 para dedução dos juros.",
           "en": "Flexible and fast, but needs prior registration with the Banco de Moçambique and the 2:1 ratio for interest deductibility.",
-          "fr": "Souple et rapide, mais exige un enregistrement préalable auprès de la Banco de Moçambique et le ratio 2:1 pour la déductibilité des intérêts."
+          "fr": "Souple et rapide, mais exige un enregistrement préalable auprès de la Banco de Moçambique et le ratio 2:1 pour la déductibilité des intérêts.",
+          "zh": "灵活快捷，但须事先在 Banco de Moçambique 登记，且利息扣除须符合 2:1 比例。",
+          "ar": "مرن وسريع، لكنه يتطلب تسجيلاً مسبقاً لدى Banco de Moçambique ونسبة 2:1 لقابلية خصم الفوائد.",
+          "hi": "लचीला और तेज़, लेकिन इसके लिए Banco de Moçambique में पूर्व पंजीकरण और ब्याज की कटौती के लिए 2:1 अनुपात का पालन आवश्यक है।",
+          "sw": "Unanyumbulika na ni wa haraka, lakini unahitaji usajili wa awali katika Banco de Moçambique na uwiano wa 2:1 ili riba ikatwe.",
+          "af": "Buigsaam en vinnig, maar vereis vooraf registrasie by die Banco de Moçambique en die 2:1-verhouding vir die aftrekbaarheid van rente."
         },
         "refs": ["lei-11-2009", "cirpc"]
       }
@@ -118,11 +258,25 @@
       "when": [],
       "then": {
         "id": "gapi",
-        "title": { "pt": "Garantias GAPI", "en": "GAPI guarantees", "fr": "Garanties GAPI" },
+        "title": {
+          "pt": "Garantias GAPI",
+          "en": "GAPI guarantees",
+          "fr": "Garanties GAPI",
+          "zh": "GAPI 担保",
+          "ar": "ضمانات GAPI",
+          "hi": "GAPI गारंटी",
+          "sw": "Dhamana za GAPI",
+          "af": "GAPI-waarborge"
+        },
         "text": {
           "pt": "A GAPI, instituição moçambicana de financiamento do desenvolvimento, pode partilhar risco com os bancos comerciais através de garantias de crédito até 75% do empréstimo bancário, em projectos agro-industriais elegíveis.",
           "en": "GAPI, a Mozambican development finance institution, can share risk with commercial banks through credit guarantees covering up to 75% of a bank loan for eligible agribusiness projects.",
-          "fr": "La GAPI, institution mozambicaine de financement du développement, peut partager le risque avec les banques commerciales par des garanties de crédit couvrant jusqu'à 75 % d'un prêt bancaire pour les projets agro-industriels éligibles."
+          "fr": "La GAPI, institution mozambicaine de financement du développement, peut partager le risque avec les banques commerciales par des garanties de crédit couvrant jusqu'à 75 % d'un prêt bancaire pour les projets agro-industriels éligibles.",
+          "zh": "GAPI 是莫桑比克的一家开发性金融机构，可通过信用担保与商业银行分担风险，对符合条件的农业综合企业项目最高担保银行贷款的 75%。",
+          "ar": "يمكن لـ GAPI، وهي مؤسسة موزمبيقية لتمويل التنمية، تقاسم المخاطر مع البنوك التجارية عبر ضمانات ائتمانية تغطي حتى 75% من القرض المصرفي لمشاريع الأعمال الزراعية المؤهلة.",
+          "hi": "GAPI, एक मोज़ाम्बिकी विकास वित्त संस्थान, पात्र कृषि-व्यवसाय परियोजनाओं के लिए बैंक ऋण के 75% तक की क्रेडिट गारंटी के माध्यम से वाणिज्यिक बैंकों के साथ जोखिम साझा कर सकता है।",
+          "sw": "GAPI, taasisi ya Msumbiji ya fedha za maendeleo, inaweza kugawana hatari na benki za biashara kupitia dhamana za mikopo zinazofidia hadi 75% ya mkopo wa benki kwa miradi ya kilimo-biashara inayostahili.",
+          "af": "GAPI, 'n Mosambiekse ontwikkelingsfinansieringsinstelling, kan risiko met kommersiële banke deel deur kredietwaarborge wat tot 75% van 'n banklening vir kwalifiserende agribesigheidsprojekte dek."
         },
         "refs": ["apiex-guide-2026"]
       }
@@ -132,25 +286,59 @@
       "when": [],
       "then": {
         "id": "funpi",
-        "title": { "pt": "FUNPI", "en": "FUNPI", "fr": "FUNPI" },
+        "title": {
+          "pt": "FUNPI",
+          "en": "FUNPI",
+          "fr": "FUNPI",
+          "zh": "FUNPI",
+          "ar": "FUNPI",
+          "hi": "FUNPI",
+          "sw": "FUNPI",
+          "af": "FUNPI"
+        },
         "text": {
           "pt": "Fundo Nacional de Promoção da Irrigação: subsídio até 30% do custo das infra-estruturas de irrigação em projectos de 200 ha ou mais; o pedido ao MAAP/FUNPI corre em paralelo com a licença de uso da água.",
           "en": "National Irrigation Promotion Fund: a subsidy of up to 30% of the cost of irrigation infrastructure for projects of 200 ha or more; apply to MAAP/FUNPI in parallel with the water use permit.",
-          "fr": "Fonds national de promotion de l'irrigation : subvention jusqu'à 30 % du coût des infrastructures d'irrigation pour les projets de 200 ha ou plus ; demande au MAAP/FUNPI en parallèle du permis d'utilisation de l'eau."
+          "fr": "Fonds national de promotion de l'irrigation : subvention jusqu'à 30 % du coût des infrastructures d'irrigation pour les projets de 200 ha ou plus ; demande au MAAP/FUNPI en parallèle du permis d'utilisation de l'eau.",
+          "zh": "国家灌溉促进基金：为 200 公顷及以上的项目提供最高达灌溉基础设施成本 30% 的补贴；请在申请用水许可的同时向 MAAP/FUNPI 提出申请。",
+          "ar": "الصندوق الوطني لتعزيز الري: دعم يصل إلى 30% من تكلفة البنية التحتية للري للمشاريع بمساحة 200 هكتار فأكثر؛ قدّم الطلب إلى MAAP/FUNPI بالتوازي مع تصريح استخدام المياه.",
+          "hi": "राष्ट्रीय सिंचाई संवर्धन कोष (Fundo Nacional de Promoção da Irrigação): 200 हेक्टेयर या उससे बड़ी परियोजनाओं में सिंचाई बुनियादी ढाँचे की लागत के 30% तक की सब्सिडी; MAAP/FUNPI में आवेदन जल उपयोग परमिट के साथ-साथ करें।",
+          "sw": "Mfuko wa Kitaifa wa Kukuza Umwagiliaji: ruzuku ya hadi 30% ya gharama ya miundombinu ya umwagiliaji kwa miradi ya hekta 200 au zaidi; omba kwa MAAP/FUNPI sambamba na kibali cha matumizi ya maji.",
+          "af": "Nasionale Fonds vir die Bevordering van Besproeiing: 'n subsidie van tot 30% van die koste van besproeiingsinfrastruktuur vir projekte van 200 ha of meer; doen aansoek by MAAP/FUNPI parallel met die watergebruikspermit."
         },
         "refs": ["apiex-guide-2026"]
       }
     },
     {
       "id": "dfi",
-      "when": [{ "field": "investmentUsd", "op": "gte", "value": 1000000 }],
+      "when": [
+        {
+          "field": "investmentUsd",
+          "op": "gte",
+          "value": 1000000
+        }
+      ],
       "then": {
         "id": "dfi",
-        "title": { "pt": "Instituições financeiras de desenvolvimento", "en": "Development finance institutions", "fr": "Institutions financières de développement" },
+        "title": {
+          "pt": "Instituições financeiras de desenvolvimento",
+          "en": "Development finance institutions",
+          "fr": "Institutions financières de développement",
+          "zh": "开发性金融机构",
+          "ar": "مؤسسات تمويل التنمية",
+          "hi": "विकास वित्त संस्थान",
+          "sw": "Taasisi za fedha za maendeleo",
+          "af": "Ontwikkelingsfinansieringsinstellings"
+        },
         "text": {
           "pt": "Para projectos desta dimensão, DFI internacionais podem financiar a longo prazo, com exigências ambientais e sociais próprias (Padrões de Desempenho da IFC).",
           "en": "For projects of this size, international DFIs can provide long-term finance, with their own environmental and social requirements (IFC Performance Standards).",
-          "fr": "Pour des projets de cette taille, des IFD internationales peuvent financer à long terme, avec leurs propres exigences environnementales et sociales (normes de performance de l'IFC)."
+          "fr": "Pour des projets de cette taille, des IFD internationales peuvent financer à long terme, avec leurs propres exigences environnementales et sociales (normes de performance de l'IFC).",
+          "zh": "对于这种规模的项目，国际开发性金融机构（DFI）可提供长期融资，但有其自身的环境和社会要求（IFC 绩效标准）。",
+          "ar": "بالنسبة لمشاريع بهذا الحجم، يمكن لمؤسسات تمويل التنمية الدولية تقديم تمويل طويل الأجل، مع متطلباتها البيئية والاجتماعية الخاصة (معايير الأداء الصادرة عن IFC).",
+          "hi": "इस आकार की परियोजनाओं के लिए अंतरराष्ट्रीय DFI दीर्घकालिक वित्त प्रदान कर सकते हैं, जिनकी अपनी पर्यावरणीय और सामाजिक आवश्यकताएँ होती हैं (IFC Performance Standards)।",
+          "sw": "Kwa miradi ya ukubwa huu, taasisi za kimataifa za fedha za maendeleo (DFI) zinaweza kutoa ufadhili wa muda mrefu, pamoja na masharti yao ya kimazingira na kijamii (IFC Performance Standards).",
+          "af": "Vir projekte van hierdie grootte kan internasionale ontwikkelingsfinansieringsinstellings (DFI's) langtermynfinansiering verskaf, met hul eie omgewings- en maatskaplike vereistes (IFC Performance Standards)."
         },
         "refs": ["ifc-ps"]
       }
@@ -162,39 +350,93 @@
       "when": [],
       "then": {
         "id": "eia-category",
-        "title": { "pt": "Avaliação de impacto ambiental", "en": "Environmental impact assessment", "fr": "Évaluation d'impact environnemental" },
+        "title": {
+          "pt": "Avaliação de impacto ambiental",
+          "en": "Environmental impact assessment",
+          "fr": "Évaluation d'impact environnemental",
+          "zh": "环境影响评价",
+          "ar": "تقييم الأثر البيئي",
+          "hi": "पर्यावरणीय प्रभाव आकलन",
+          "sw": "Tathmini ya athari kwa mazingira",
+          "af": "Omgewingsimpakbeoordeling"
+        },
         "text": {
           "pt": "Categoria provável {{fact.envCategory}} ({{fact.sector}}); a classificação final resulta da pré-avaliação pela autoridade ambiental.",
           "en": "Likely category {{fact.envCategory}} ({{fact.sector}}); the final classification follows the environmental authority's screening.",
-          "fr": "Catégorie probable {{fact.envCategory}} ({{fact.sector}}) ; le classement définitif découle de la pré-évaluation de l'autorité environnementale."
+          "fr": "Catégorie probable {{fact.envCategory}} ({{fact.sector}}) ; le classement définitif découle de la pré-évaluation de l'autorité environnementale.",
+          "zh": "可能属于 {{fact.envCategory}} 类（{{fact.sector}}）；最终分类以环境主管部门的筛查结果为准。",
+          "ar": "الفئة المرجّحة {{fact.envCategory}} ({{fact.sector}})؛ ويتبع التصنيف النهائي الفرز الأولي الذي تجريه السلطة البيئية.",
+          "hi": "संभावित श्रेणी {{fact.envCategory}} ({{fact.sector}}); अंतिम वर्गीकरण पर्यावरण प्राधिकरण की प्रारंभिक जाँच (screening) के बाद तय होता है।",
+          "sw": "Huenda ni daraja {{fact.envCategory}} ({{fact.sector}}); uainishaji wa mwisho hufuata uchunguzi wa awali wa mamlaka ya mazingira.",
+          "af": "Waarskynlik kategorie {{fact.envCategory}} ({{fact.sector}}); die finale klassifikasie volg op die omgewingsowerheid se sifting."
         },
         "refs": ["aia-regulation"]
       }
     },
     {
       "id": "community",
-      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "community",
-        "title": { "pt": "Consulta às comunidades", "en": "Community consultation", "fr": "Consultation des communautés" },
+        "title": {
+          "pt": "Consulta às comunidades",
+          "en": "Community consultation",
+          "fr": "Consultation des communautés",
+          "zh": "社区咨询",
+          "ar": "التشاور مع المجتمعات المحلية",
+          "hi": "सामुदायिक परामर्श",
+          "sw": "Mashauriano na jamii",
+          "af": "Gemeenskapsraadpleging"
+        },
         "text": {
           "pt": "A consulta às comunidades locais é condição prévia do DUAT; registar acordos e compromissos em acta.",
           "en": "Consultation with local communities is a precondition for the DUAT; record agreements and commitments in minutes.",
-          "fr": "La consultation des communautés locales est une condition préalable du DUAT ; consigner accords et engagements dans un procès-verbal."
+          "fr": "La consultation des communautés locales est une condition préalable du DUAT ; consigner accords et engagements dans un procès-verbal.",
+          "zh": "征询当地社区意见是取得 DUAT 的前提条件；请将协议和承诺记录在会议纪要中。",
+          "ar": "التشاور مع المجتمعات المحلية شرط مسبق للحصول على DUAT؛ دوّن الاتفاقات والالتزامات في محاضر.",
+          "hi": "स्थानीय समुदायों से परामर्श DUAT की पूर्व शर्त है; समझौतों और प्रतिबद्धताओं को कार्यवृत्त (minutes) में दर्ज करें।",
+          "sw": "Mashauriano na jamii za wenyeji ni sharti la awali la DUAT; andika makubaliano na ahadi katika kumbukumbu za vikao.",
+          "af": "Raadpleging met plaaslike gemeenskappe is 'n voorvereiste vir die DUAT; teken ooreenkomste en verbintenisse in notules aan."
         },
         "refs": ["lei-19-97"]
       }
     },
     {
       "id": "ifc",
-      "when": [{ "field": "investmentUsd", "op": "gte", "value": 1000000 }],
+      "when": [
+        {
+          "field": "investmentUsd",
+          "op": "gte",
+          "value": 1000000
+        }
+      ],
       "then": {
         "id": "ifc",
-        "title": { "pt": "Padrões de Desempenho da IFC", "en": "IFC Performance Standards", "fr": "Normes de performance de l'IFC" },
+        "title": {
+          "pt": "Padrões de Desempenho da IFC",
+          "en": "IFC Performance Standards",
+          "fr": "Normes de performance de l'IFC",
+          "zh": "IFC 绩效标准",
+          "ar": "معايير الأداء الصادرة عن IFC",
+          "hi": "IFC Performance Standards",
+          "sw": "IFC Performance Standards",
+          "af": "IFC Performance Standards"
+        },
         "text": {
           "pt": "Se houver financiamento de DFI, aplicam-se os Padrões de Desempenho da IFC: sistema de gestão ambiental e social, condições de trabalho e envolvimento das partes interessadas.",
           "en": "If DFIs finance the project, the IFC Performance Standards apply: an environmental and social management system, working conditions and stakeholder engagement.",
-          "fr": "En cas de financement par des IFD, les normes de performance de l'IFC s'appliquent : système de gestion environnementale et sociale, conditions de travail et engagement des parties prenantes."
+          "fr": "En cas de financement par des IFD, les normes de performance de l'IFC s'appliquent : système de gestion environnementale et sociale, conditions de travail et engagement des parties prenantes.",
+          "zh": "如由开发性金融机构为项目融资，则适用 IFC 绩效标准：环境和社会管理体系、劳动条件以及利益相关方参与。",
+          "ar": "إذا موّلت مؤسسات تمويل التنمية المشروع، تنطبق معايير الأداء الصادرة عن IFC: نظام للإدارة البيئية والاجتماعية، وظروف العمل، وإشراك أصحاب المصلحة.",
+          "hi": "यदि DFI परियोजना का वित्तपोषण करते हैं, तो IFC Performance Standards लागू होते हैं: पर्यावरणीय और सामाजिक प्रबंधन प्रणाली, कार्य की परिस्थितियाँ और हितधारकों के साथ जुड़ाव।",
+          "sw": "Ikiwa DFI zitafadhili mradi, IFC Performance Standards zinatumika: mfumo wa usimamizi wa mazingira na jamii, mazingira ya kazi na ushirikishaji wa wadau.",
+          "af": "As DFI's die projek finansier, is die IFC Performance Standards van toepassing: 'n omgewings- en maatskaplike bestuurstelsel, werksomstandighede en betrokkenheid van belanghebbendes."
         },
         "refs": ["ifc-ps"]
       }

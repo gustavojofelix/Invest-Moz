@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Vigilância legislativa",
+  "title": "Alterações que afectam o seu roteiro",
+  "lead": "Quando muda uma lei por trás do seu roteiro, a Tiva diz-lhe que passo é afectado, a partir de quando e o que fazer.",
+  "notifyBy": "Avisar-me por",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "Correio electrónico",
+    "push": "Notificação"
+  },
+  "channelsOn": "Os alertas chegam-lhe por {{list}} (demonstração: nada é enviado).",
+  "channelsOff": "Nenhum canal escolhido: os alertas ficam nesta página.",
+  "listTitle": "Últimas alterações",
+  "unread": "{{count}} novos",
+  "markAll": "Marcar tudo como lido",
+  "markReadLabel": "Marcar como lido: {{title}}",
+  "affectsStep": "Afecta o passo {{n}}",
+  "affectsArea": {
+    "incentives": "Afecta os incentivos"
+  },
+  "seeArea": {
+    "incentives": "Ver incentivos"
+  },
+  "forInformation": "Para informação",
+  "new": "Novo",
+  "inForceOn": "Em vigor desde {{date}}",
+  "inForce": "Em vigor",
+  "from": "A partir de {{date}}",
+  "pending": "Pendente",
+  "whatChanged": "O que mudou:",
+  "forYou": "Para si:",
+  "illustrative": "Ilustrativo",
+  "seeStep": "Ver o passo actualizado",
+  "ask": "Perguntar à Tiva",
+  "watching": "Em vigilância",
+  "openRoadmap": "Abrir o meu roteiro",
+  "guestText": "A Tiva acompanha as leis por trás de cada passo. Descreva o seu projecto para ver que alterações o afectam.",
+  "start": "Começar o Pathfinder",
+  "sourceTitle": "Alimentado pela série {{source}}",
+  "sourceText": "Cada alerta é preparado a partir do Boletim da República e revisto por um jurista antes de lhe chegar.",
+  "demoNote": "Demonstração: os alertas e as datas são ilustrativos e as escolhas de canal só ficam guardadas neste dispositivo."
+}

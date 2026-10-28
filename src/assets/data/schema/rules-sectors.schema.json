@@ -3,10 +3,7 @@
   "$id": "rules-sectors.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "fallback",
-    "sectors"
-  ],
+  "required": ["fallback", "sectors"],
   "properties": {
     "fallback": {
       "type": "string",
@@ -17,12 +14,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "label",
-          "envCategory",
-          "keywords"
-        ],
+        "required": ["id", "label", "envCategory", "keywords"],
         "properties": {
           "id": {
             "type": "string",
@@ -32,11 +24,7 @@
             "$ref": "common.schema.json#/definitions/localizedText"
           },
           "envCategory": {
-            "enum": [
-              "A",
-              "B",
-              "C"
-            ]
+            "enum": ["A", "B", "C"]
           },
           "keywords": {
             "$ref": "common.schema.json#/definitions/localizedKeywords"

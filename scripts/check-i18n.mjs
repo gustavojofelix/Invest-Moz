@@ -5,7 +5,7 @@
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
-const LOCALES = ['pt', 'en', 'fr'];
+const LOCALES = ['pt', 'en', 'fr', 'zh', 'ar', 'hi', 'sw', 'af'];
 const I18N = 'src/assets/i18n';
 const DATA = 'src/assets/data';
 const errors = [];
@@ -64,11 +64,19 @@ function walkData(node, path) {
   const present = LOCALES.filter((l) => l in node);
   if (present.length) {
     localized++;
+    const isKeywords = Array.isArray(node[present[0]]);
     for (const l of LOCALES) {
-      if (!(l in node)) errors.push(`${path}: LocalizedText missing "${l}"`);
-      else if (typeof node[l] === 'string' && !node[l].trim())
+      if (!(l in node)) {
+        if (!isKeywords || ['pt', 'en', 'fr'].includes(l))
+          errors.push(`${path}: LocalizedText missing "${l}"`);
+      } else if (typeof node[l] === 'string' && !node[l].trim())
         errors.push(`${path}: LocalizedText empty "${l}"`);
-      else if (Array.isArray(node[l]) && node[l].length === 0 && !path.includes('sectors[7]'))
+      else if (
+        Array.isArray(node[l]) &&
+        node[l].length === 0 &&
+        ['pt', 'en', 'fr'].includes(l) &&
+        !path.includes('sectors[7]')
+      )
         errors.push(`${path}: keywords empty for "${l}"`);
     }
     return;

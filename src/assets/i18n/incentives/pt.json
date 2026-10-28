@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Estimador de benefícios",
+  "title": "A que benefícios pode o seu projecto ter direito?",
+  "intro": "Benefícios fiscais e aduaneiros indicativos por sector, província e regime, cada um com a sua fonte legal.",
+  "form": "O seu projecto",
+  "results": "Benefícios indicativos",
+  "fields": {
+    "sector": "Sector",
+    "province": "Província",
+    "amount": "Investimento (USD)",
+    "jobs": "Postos de trabalho locais",
+    "regime": "Regime",
+    "exports70": "O projecto vai exportar pelo menos 70% da produção"
+  },
+  "warning": {
+    "title": "Apenas indicativo",
+    "text": "O Código dos Benefícios Fiscais (CBF) está em revisão pelo Governo, pelo que estes benefícios podem mudar. Dependem da aprovação do projecto pela APIEX."
+  },
+  "heading": "Benefícios no regime {{regime}}",
+  "status": {
+    "likely": "Provável",
+    "check": "A verificar"
+  },
+  "kind": {
+    "fiscal": "Fiscal",
+    "customs": "Aduaneiro",
+    "other": "Procedimento"
+  },
+  "estimate": {
+    "label": "Valor ilustrativo:",
+    "note": "em 5 anos, consoante a localização"
+  },
+  "exportsNeeded": "Só se aplica se pelo menos 70% da produção for exportada.",
+  "zones": {
+    "title": "Zonas em {{province}}",
+    "none": "Não há zona deste tipo registada nesta província. Zonas noutras províncias podem ainda servir o projecto.",
+    "map": "Ver as zonas no mapa"
+  },
+  "sources": "Fontes",
+  "upgrade": {
+    "eyebrow": "Precisa de certeza?",
+    "title": "Obter um memorando revisto por advogados",
+    "text": "A Tax Advisory pode confirmar que benefícios se aplicam ao seu projecto, os montantes e os passos do pedido, com uma proposta de honorários antes de qualquer trabalho.",
+    "cta": "Obter um memorando revisto"
+  },
+  "roadmap": "Abrir o meu roteiro",
+  "pathfinder": "Criar o meu roteiro",
+  "sectors": {
+    "agro_industry": "Agro-indústria",
+    "energy": "Energia",
+    "logistics": "Logística",
+    "tourism": "Turismo",
+    "oil_gas": "Petróleo e gás",
+    "mining": "Mineração",
+    "services": "Serviços",
+    "general": "Comércio geral"
+  }
+}

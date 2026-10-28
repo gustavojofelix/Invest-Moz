@@ -1,0 +1,140 @@
+{
+  "experts": [
+    {
+      "id": "tax-advisory",
+      "kind": "partner",
+      "fee": "paid",
+      "name": "Tax Advisory",
+      "logo": "brand/tax-advisory.png",
+      "areas": ["companies", "investment", "tax", "exchange", "labour", "immigration"],
+      "role": {
+        "pt": "Fiscal, jurídico e constituição de sociedades · Maputo · parceiro especialista fundador",
+        "en": "Tax, legal and corporate set-up · Maputo · founding expert partner",
+        "fr": "Fiscalité, droit et constitution de sociétés · Maputo · partenaire expert fondateur",
+        "zh": "税务、法律和公司设立 · Maputo · 创始专家合作伙伴",
+        "ar": "الضرائب والشؤون القانونية وتأسيس الشركات · مابوتو · شريك خبير مؤسس",
+        "hi": "कर, कानूनी और कॉर्पोरेट स्थापना · मापुटो · संस्थापक विशेषज्ञ भागीदार",
+        "sw": "Kodi, sheria na uanzishaji wa kampuni · Maputo · mshirika mtaalamu mwanzilishi",
+        "af": "Belasting, regs- en maatskappyopstelling · Maputo · stigtende kennisvennoot"
+      },
+      "helps": {
+        "pt": "Memorandos revistos por advogados, constituição da sociedade, registo na APIEX, câmbios e planeamento fiscal.",
+        "en": "Lawyer-reviewed memos, company incorporation, APIEX registration, exchange control and tax planning.",
+        "fr": "Notes revues par des avocats, constitution de société, enregistrement APIEX, contrôle des changes et planification fiscale.",
+        "zh": "经律师审核的备忘录、公司注册、APIEX 登记、外汇管制和税务筹划。",
+        "ar": "مذكرات يراجعها محامون، وتأسيس الشركات، والتسجيل لدى APIEX، والرقابة على الصرف، والتخطيط الضريبي.",
+        "hi": "वकीलों द्वारा समीक्षित मेमो, कंपनी निगमन, APIEX पंजीकरण, विनिमय नियंत्रण और कर योजना।",
+        "sw": "Nyaraka zilizopitiwa na wanasheria, usajili wa kampuni, usajili kwa APIEX, udhibiti wa fedha za kigeni na mipango ya kodi.",
+        "af": "Memo's wat deur prokureurs nagegaan is, maatskappyinlywing, APIEX-registrasie, valutabeheer en belastingbeplanning."
+      }
+    },
+    {
+      "id": "apiex",
+      "kind": "public",
+      "fee": "free",
+      "name": "APIEX",
+      "areas": ["investment", "incentives"],
+      "role": {
+        "pt": "Agência pública de promoção de investimento e exportações · registo do projecto",
+        "en": "Public investment and export agency · project registration",
+        "fr": "Agence publique de promotion des investissements et des exportations · enregistrement du projet",
+        "zh": "公共投资和出口促进机构 · 项目登记",
+        "ar": "الوكالة العامة للاستثمار والتصدير · تسجيل المشاريع",
+        "hi": "सार्वजनिक निवेश और निर्यात एजेंसी · परियोजना पंजीकरण",
+        "sw": "Wakala wa umma wa uwekezaji na mauzo ya nje · usajili wa miradi",
+        "af": "Openbare beleggings- en uitvoeragentskap · projekregistrasie"
+      },
+      "helps": {
+        "pt": "Reunião prévia, certificado de investimento, benefícios fiscais e acesso às ZEE e ZFI.",
+        "en": "Pre-submission meeting, investment certificate, tax incentives and access to SEZs and IFZs.",
+        "fr": "Réunion préalable, certificat d'investissement, avantages fiscaux et accès aux ZES et ZFI.",
+        "zh": "提交前会议、投资证书、税收激励，以及进入经济特区和工业自由区。",
+        "ar": "اجتماع ما قبل التقديم، وشهادة الاستثمار، والحوافز الضريبية، والوصول إلى المناطق الاقتصادية الخاصة والمناطق الصناعية الحرة.",
+        "hi": "आवेदन से पहले की बैठक, निवेश प्रमाणपत्र, कर प्रोत्साहन और SEZ तथा IFZ तक पहुँच।",
+        "sw": "Mkutano wa kabla ya kuwasilisha, cheti cha uwekezaji, vivutio vya kodi na upatikanaji wa SEZ na IFZ.",
+        "af": "Vergadering voor indiening, beleggingsertifikaat, belastingaansporings en toegang tot SEZ's en IFZ's."
+      }
+    },
+    {
+      "id": "bau",
+      "kind": "public",
+      "fee": "free",
+      "name": "BAU · e-BAU",
+      "areas": ["licensing", "companies"],
+      "role": {
+        "pt": "Balcão de Atendimento Único · licenciamento e pedidos no e-BAU",
+        "en": "One-stop shop · licensing desk and e-BAU filings",
+        "fr": "Guichet unique · autorisations et dépôts sur l'e-BAU",
+        "zh": "一站式服务窗口 · 许可服务台和 e-BAU 申报",
+        "ar": "الشباك الموحّد · مكتب الترخيص وطلبات e-BAU",
+        "hi": "वन-स्टॉप शॉप · लाइसेंसिंग डेस्क और e-BAU फ़ाइलिंग",
+        "sw": "Kituo cha huduma za pamoja · dawati la leseni na mawasilisho ya e-BAU",
+        "af": "Eenstopwinkel · lisensiëringstoonbank en e-BAU-indienings"
+      },
+      "helps": {
+        "pt": "Licenças de actividade e industriais ao abrigo dos Decretos n.º 40/2026 e 41/2026, em vigor desde 25 de Outubro de 2026.",
+        "en": "Activity and industrial licences under Decretos n.º 40/2026 and 41/2026, in force since 25 October 2026.",
+        "fr": "Licences d'activité et industrielles au titre des Decretos n.º 40/2026 et 41/2026, en vigueur depuis le 25 octobre 2026.",
+        "zh": "依据 Decretos n.º 40/2026 和 41/2026（自 2026 年 10 月 25 日起施行）办理经营许可和工业许可。",
+        "ar": "تراخيص النشاط والتراخيص الصناعية بموجب Decretos n.º 40/2026 و41/2026، السارية منذ 25 أكتوبر 2026.",
+        "hi": "Decretos n.º 40/2026 और 41/2026 के तहत गतिविधि और औद्योगिक लाइसेंस, जो 25 अक्टूबर 2026 से लागू हैं।",
+        "sw": "Leseni za shughuli na za viwanda chini ya Decretos n.º 40/2026 na 41/2026, zinazotumika tangu 25 Oktoba 2026.",
+        "af": "Aktiwiteits- en nywerheidslisensies kragtens Decretos n.º 40/2026 en 41/2026, van krag sedert 25 Oktober 2026."
+      }
+    },
+    {
+      "id": "mozparks",
+      "kind": "public",
+      "fee": "free",
+      "name": "MozParks",
+      "areas": ["land", "incentives"],
+      "role": {
+        "pt": "Operador de parques industriais (parceria APIEX e ASEZA) · lotes com estatuto de zona franca",
+        "en": "Industrial park operator (APIEX and ASEZA partnership) · plots with free-zone status",
+        "fr": "Opérateur de parcs industriels (partenariat APIEX et ASEZA) · terrains au statut de zone franche",
+        "zh": "工业园区运营商（APIEX 与 ASEZA 合作）· 具有自由区地位的地块",
+        "ar": "مشغّل مجمّعات صناعية (شراكة بين APIEX وASEZA) · قطع أراضٍ بوضع المنطقة الحرة",
+        "hi": "औद्योगिक पार्क संचालक (APIEX और ASEZA की साझेदारी) · फ़्री-ज़ोन दर्जे वाले भूखंड",
+        "sw": "Mwendeshaji wa hifadhi za viwanda (ushirikiano wa APIEX na ASEZA) · viwanja vyenye hadhi ya kanda huru",
+        "af": "Nywerheidsparkoperateur (APIEX- en ASEZA-vennootskap) · persele met vrysonestatus"
+      },
+      "helps": {
+        "pt": "Espaço em Beluluane e Topuito e nos novos parques; infra-estrutura pronta para fornecedores de um investidor âncora.",
+        "en": "Space at Beluluane, Topuito and the new parks; ready infrastructure for suppliers to an anchor investor.",
+        "fr": "Espace à Beluluane, Topuito et dans les nouveaux parcs ; infrastructures prêtes pour les fournisseurs d'un investisseur d'ancrage.",
+        "zh": "Beluluane、Topuito 及新园区的场地；为核心投资者的供应商提供现成基础设施。",
+        "ar": "مساحات في بيلولواني وتوبويتو والمجمّعات الجديدة؛ بنية تحتية جاهزة لموردي المستثمر الرئيسي.",
+        "hi": "बेलुलुआने, टोपुइटो और नए पार्कों में जगह; किसी प्रमुख निवेशक के आपूर्तिकर्ताओं के लिए तैयार बुनियादी ढाँचा।",
+        "sw": "Nafasi huko Beluluane, Topuito na hifadhi mpya; miundombinu iliyo tayari kwa wasambazaji wa mwekezaji mkuu.",
+        "af": "Ruimte by Beluluane, Topuito en die nuwe parke; gereed infrastruktuur vir verskaffers aan 'n ankerbelegger."
+      }
+    },
+    {
+      "id": "cta-bcl",
+      "kind": "public",
+      "fee": "free",
+      "name": "CTA · Bureau de Conteúdo Local",
+      "areas": ["local_content"],
+      "role": {
+        "pt": "Confederação das Associações Económicas · ligação entre fornecedores e operadores",
+        "en": "Confederation of Business Associations · links suppliers and operators",
+        "fr": "Confédération des associations économiques · met en relation fournisseurs et opérateurs",
+        "zh": "工商协会联合会 · 连接供应商与运营商",
+        "ar": "اتحاد جمعيات الأعمال · يربط الموردين بالمشغّلين",
+        "hi": "व्यावसायिक संघों का परिसंघ · आपूर्तिकर्ताओं और संचालकों को जोड़ता है",
+        "sw": "Shirikisho la Vyama vya Biashara · linaunganisha wasambazaji na waendeshaji",
+        "af": "Konfederasie van Sakeverenigings · verbind verskaffers en operateurs"
+      },
+      "helps": {
+        "pt": "Registo como fornecedor e oportunidades nos projectos de GNL e de mineração.",
+        "en": "Supplier registration and opportunities in the LNG and mining projects.",
+        "fr": "Enregistrement comme fournisseur et opportunités dans les projets de GNL et miniers.",
+        "zh": "供应商注册以及液化天然气和矿业项目中的机会。",
+        "ar": "تسجيل الموردين والفرص في مشاريع الغاز الطبيعي المسال والتعدين.",
+        "hi": "आपूर्तिकर्ता पंजीकरण और LNG तथा खनन परियोजनाओं में अवसर।",
+        "sw": "Usajili wa wasambazaji na fursa katika miradi ya LNG na ya madini.",
+        "af": "Verskafferregistrasie en geleenthede in die LNG- en mynbouprojekte."
+      }
+    }
+  ]
+}

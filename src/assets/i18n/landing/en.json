@@ -1,79 +1,101 @@
 {
   "hero": {
-    "eyebrow": "Tax Advisory × Law Technology Solutions",
-    "subtitle": "The guide to investing in Mozambique",
-    "lead": "From your first contact with APIEX to the first day of operation. Read the guide chapter by chapter — the country, the sectors, the Investment Law, the company, tax, labour and exchange control — or describe your project and get a tailored assessment, always with the legal reference.",
-    "guide": "Read the investor guide",
-    "primary": "Describe my project",
-    "secondary": "See an example"
+    "eyebrow": "AI investment concierge for Mozambique",
+    "title": "Your Mozambique investment roadmap, in minutes.",
+    "lead": "Tell Tiva your idea. Get the company structure, licences, incentives, visas and tax steps — each cited to Mozambican law — then meet the people who make it happen.",
+    "channels": "24/7, on web, app and WhatsApp",
+    "pathfinder": "Prefer six quick questions? Start the Pathfinder",
+    "example": "See an example roadmap",
+    "mapLabel": "Map of Mozambique with the Maputo, Beira and Nacala corridors"
   },
-  "guide": {
-    "eyebrow": "The guide",
-    "title": "Twelve chapters, from the country to protecting your investment",
-    "text": "Based on the APIEX Investment Guide 2026, Tax Advisory's tax sheets and company registration guide, and the Business Guide 2025. Every chapter ends with the next steps.",
-    "all": "See the full guide"
+  "idea": {
+    "formLabel": "Ask Tiva about your investment idea",
+    "label": "Describe your investment idea",
+    "placeholder": "e.g. A cashew-processing plant in Nampula, about USD 2 million",
+    "voice": "Speak your idea",
+    "voiceStop": "Stop listening",
+    "voiceUnavailable": "Voice input is not available in this browser",
+    "listening": "Listening… speak now.",
+    "ask": "Ask",
+    "empty": "Write your idea in a few words, or pick an example below.",
+    "examples": "Example ideas"
   },
-  "map": {
-    "label": "Map of Mozambique showing provinces, main cities, ports and corridors",
-    "hint": "Hover over or tap a province",
-    "ports": "Ports",
-    "cities": "Cities",
-    "corridors": "Corridors"
+  "examples": {
+    "ecoLodge": "Eco-lodge in Inhambane",
+    "solar": "Solar mini-grids in Niassa",
+    "logistics": "Logistics hub on the Beira corridor",
+    "bakery": "Bakery in Matola"
   },
-  "problem": {
-    "eyebrow": "The problem",
-    "title": "Eight legal regimes before day one",
-    "text": "A foreign investor in Mozambique meets company law, licensing, investment, tax, employment, immigration, exchange control and customs — each with its own instrument and authority.",
-    "regimes": {
-      "companies": { "title": "Company law", "covers": "Lda, SA, SAS or branch" },
-      "licensing": { "title": "Licensing", "covers": "BAU, sector and environmental licences" },
-      "investment": { "title": "Investment", "covers": "APIEX registration and incentives" },
-      "tax": { "title": "Tax", "covers": "IRPC, VAT, withholding and tax treaties" },
-      "labour": { "title": "Employment", "covers": "Contracts, foreign-worker quotas and INSS" },
-      "immigration": { "title": "Immigration", "covers": "Work permits and DIRE" },
-      "exchange": { "title": "Exchange control", "covers": "FDI registration, dividends and loans" },
-      "customs": { "title": "Customs", "covers": "Imports, Class K and temporary import" }
+  "moves": {
+    "title": "From idea to licensed business in three moves",
+    "m1": {
+      "title": "Describe your idea",
+      "text": "In your language, by text or voice. Tiva asks a few questions: sector, province, size, where you are from."
+    },
+    "m2": {
+      "title": "Get your roadmap",
+      "text": "Every step in order — who approves it, what to file — with the law behind it. Download it as a PDF."
+    },
+    "m3": {
+      "title": "Meet the right people",
+      "text": "One tap to a lawyer, APIEX or the licensing one-stop shop, with your summary already attached."
     }
   },
-  "how": {
-    "eyebrow": "How it works",
-    "title": "From the first map to the first day, in three steps",
-    "step1": { "title": "Read the guide", "text": "The country, the sectors and the path to operation: the Investment Law, company setup, tax, labour and exchange control." },
-    "step2": { "title": "Describe your project and get the assessment", "text": "Business, province, origin of capital, investment and staff. You get the company vehicle, a timed roadmap, licences, incentives and obligations, with the legal references." },
-    "step3": { "title": "Talk to Tax Advisory", "text": "Your enquiry reaches the firm with the project summary attached. A professional validates it and proposes next steps." },
-    "pricing": "General information is free and instant. Detailed advice, drafting and filings are paid services of Tax Advisory."
+  "covers": {
+    "title": "What Tiva covers",
+    "lead": "The questions investors actually ask, answered from Mozambican legislation.",
+    "companies": {
+      "title": "Company set-up",
+      "text": "Lda, SA, sole-member Lda or branch; registration and NUIT"
+    },
+    "licensing": {
+      "title": "Licensing",
+      "text": "Prior notice, simplified or full licence, through e-BAU"
+    },
+    "investment": {
+      "title": "Investment approval",
+      "text": "APIEX project registration under Lei n.º 8/2023"
+    },
+    "incentives": {
+      "title": "Incentives",
+      "text": "Code of Fiscal Benefits, Special Economic Zones and Industrial Free Zones"
+    },
+    "land": { "title": "Land", "text": "Land use rights (DUAT) and leases" },
+    "people": {
+      "title": "People",
+      "text": "Hiring, expatriate quotas, work permits, visas and DIRE"
+    },
+    "money": {
+      "title": "Money",
+      "text": "Exchange control, capital registration, profit repatriation"
+    },
+    "tax": { "title": "Tax and customs", "text": "IRPC, IVA, IRPS, INSS, import procedures" }
   },
-  "trust": {
-    "eyebrow": "Trust",
-    "title": "Built like an advisory memo, not a guess",
-    "reviewed": { "title": "Answers only from a reviewed legal base", "text": "Every answer cites the instrument it comes from. No source, no answer." },
-    "noInvented": { "title": "No invented numbers", "text": "When a value is not yet confirmed, it is flagged as \"to be confirmed\"." },
-    "sources": { "title": "Sources", "text": "Tax Advisory's legal base, the APIEX Investment Guide 2026 and the Business Guide 2025 (Lex Africa)." },
-    "language": { "title": "Professional Portuguese (pre-AO90)", "text": "Written in Mozambican Portuguese with the spelling used in legal practice, and available in English and French." }
+  "glance": {
+    "title": "Mozambique at a glance",
+    "people": { "value": "36.9 M", "label": "people" },
+    "age": { "value": "16.6", "label": "median age" },
+    "coast": { "value": "2,500 km", "label": "of Indian Ocean coast" },
+    "sources": "Sources: Worldometers (population, median age); Banco de Moçambique via AIM/Lusa (investment flows). Figures for general information."
   },
-  "partners": {
-    "eyebrow": "Partnership",
-    "title": "Tax Advisory × Law Technology Solutions",
-    "ta": "Tax and legal advisory firm in Maputo. Supplies and reviews all legal and tax content.",
-    "lts": "Builds the technology: the rules engine, the assistant and the platform.",
-    "principle": "The assistant provides the first map; a professional always validates detailed advice.",
-    "principleBy": "Shared principle"
+  "why": {
+    "title": "Why now",
+    "fdi": { "value": "USD 5.69 bn", "label": "foreign direct investment in 2025" },
+    "extractives": { "value": "91.5%", "label": "of it in the extractive industries" },
+    "forecast": { "value": "USD 5.88 bn", "label": "forecast for 2026" },
+    "districts": { "value": "129", "label": "districts linked to the BAU one-stop shops" }
   },
-  "demo": {
-    "eyebrow": "Demo access",
-    "title": "Tax Advisory inbox",
-    "text": "See enquiries from the firm's side: status, internal notes and the attached project summary.",
-    "email": "Email",
-    "password": "Password",
-    "cta": "Sign in as Tax Advisory",
-    "note": "Demonstration environment with fictitious data. This is not secure access."
+  "law": {
+    "title": "Built on the law, checked by lawyers",
+    "text": "Every answer shows the legislation it rests on and the date it was last reviewed. Nothing goes live until a Mozambican lawyer approves it. Tiva gives general information, not legal advice — for your specific case, talk to an expert.",
+    "sourcesLabel": "Some of the legislation Tiva draws on",
+    "sources": {
+      "investmentLaw": "Lei n.º 8/2023 · Investment Law",
+      "licensing": "Decreto n.º 41/2026 · Simplified licensing",
+      "irpc": "Lei n.º 12/2025 · IRPC amendments"
+    },
+    "library": "Browse the knowledge library",
+    "expert": "Talk to an expert"
   },
-  "phases": {
-    "eyebrow": "Next phases",
-    "title": "After approval",
-    "phase": "Phase",
-    "p1": { "title": "Public version", "text": "Launch on taxadvisorymoz.com, with the reviewed legal base and answers drawn from the legal texts." },
-    "p2": { "title": "Reach", "text": "WhatsApp channel, more languages and sector packs." },
-    "p3": { "title": "Institutional", "text": "Chambers of commerce, APIEX or municipality versions, and a quarterly legal review." }
-  }
+  "office": "Back-office access for reviewers and partners"
 }

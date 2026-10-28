@@ -1,0 +1,59 @@
+{
+  "back": "Back to the home page",
+  "status": "Investment concierge · online",
+  "new": "New conversation",
+  "language": "Language",
+  "thread": "Conversation with Tiva",
+  "hello": "Hello, I'm Tiva. Tell me about your investment idea or ask a question about investing in Mozambique. I answer from lawyer-reviewed content and show the legal source behind each answer.",
+  "tryAsking": "Try asking",
+  "thinking": "Tiva is checking the reviewed sources",
+  "stopped": "Answer stopped.",
+  "sources": "Legal sources",
+  "reviewed": "Lawyer-reviewed content · general information",
+  "whenToTalk": "When to talk to an expert",
+  "outline": {
+    "sector": "Sector: {{sector}}",
+    "body": "Good project to look at. In outline:\n\n- **Company:** a limitada (Lda) usually fits, and foreign shareholders can hold it.\n- **Investment:** register the project with APIEX to access the guarantees and incentives.\n- **Licence:** activity or industrial licence, filed through e-BAU.\n- **Money:** register your capital with the Banco de Moçambique to repatriate profits later.\n\nYour roadmap turns this into nine ordered steps for your sector, province and size."
+  },
+  "fallback": {
+    "text": "I don't have a lawyer-reviewed answer to that yet, and I'd rather not guess. Try one of these questions, or talk to an expert who can look at your case.",
+    "suggested": "Suggested questions"
+  },
+  "roadmap": {
+    "ready": "Your roadmap is ready",
+    "steps": "{{count}} steps · company, APIEX, land, environment, licence, capital, people, tax",
+    "open": "Open roadmap"
+  },
+  "build": {
+    "eyebrow": "Next step",
+    "title": "Build my roadmap",
+    "text": "Six short questions turn your idea into nine ordered steps, each with the authority and the law behind it.",
+    "cta": "Build my roadmap"
+  },
+  "quick": {
+    "label": "Suggested next questions",
+    "incentives": "Which incentives apply?",
+    "permits": "Work permits for my managers",
+    "expert": "Talk to an expert"
+  },
+  "topics": "Topics",
+  "topicQuestions": "Questions on this topic",
+  "fieldLabel": "Message Tiva",
+  "placeholder": "Ask anything about investing…",
+  "listening": "Listening… speak now",
+  "voice": "Record a voice note",
+  "voiceStop": "Stop recording",
+  "voiceUnavailable": "Voice notes are not available in this browser. Please type your question.",
+  "send": "Send",
+  "stop": "Stop the answer",
+  "sectors": {
+    "agro_industry": "Agro-industry",
+    "energy": "Energy",
+    "logistics": "Logistics",
+    "tourism": "Tourism",
+    "oil_gas": "Oil and gas",
+    "mining": "Mining",
+    "services": "Services",
+    "general": "General commerce"
+  }
+}

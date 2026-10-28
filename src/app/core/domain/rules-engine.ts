@@ -16,7 +16,7 @@ import { selectAll, selectFirst, type Facts } from './conditions';
 import { PROVINCE_NAMES } from './provinces';
 import type { QuotasTable, RuleSet, SectorDef } from './rule-set';
 import { renderLocalized, type TemplateVars } from './template';
-import { containsPhrase, normalize } from './text';
+import { containsPhrase, emptyText, normalize, pickText } from './text';
 import {
   LOCALES,
   type Assessment,
@@ -37,7 +37,16 @@ export interface EngineContext {
   countries: readonly Country[];
 }
 
-const INTL: Record<Locale, string> = { pt: 'pt-MZ', en: 'en-GB', fr: 'fr-FR' };
+const INTL: Record<Locale, string> = {
+  pt: 'pt-MZ',
+  en: 'en-GB',
+  fr: 'fr-FR',
+  zh: 'zh-CN',
+  ar: 'ar-EG',
+  hi: 'hi-IN',
+  sw: 'sw-TZ',
+  af: 'af-ZA',
+};
 
 // ---------------------------------------------------------------------------
 // Facts
@@ -47,7 +56,9 @@ const INTL: Record<Locale, string> = { pt: 'pt-MZ', en: 'en-GB', fr: 'fr-FR' };
 export function classifySector(idea: string, table: RuleSet['sectors']): SectorDef {
   const text = normalize(idea);
   for (const sector of table.sectors) {
-    const hit = LOCALES.some((l) => sector.keywords[l].some((k) => containsPhrase(text, k)));
+    const hit = LOCALES.some((l) =>
+      (sector.keywords[l] ?? []).some((k) => containsPhrase(text, k)),
+    );
     if (hit) return sector;
   }
   return (
@@ -126,16 +137,16 @@ function templateVars(
   for (const l of LOCALES) {
     const num = new Intl.NumberFormat(INTL[l], { maximumFractionDigits: 1 });
     vars[l] = {
-      'fact.country': country?.name[l] ?? input.investorCountry,
+      'fact.country': pickText(country?.name, l) || input.investorCountry,
       'fact.countryCode': input.investorCountry,
-      'fact.treatyRate': rate[l],
+      'fact.treatyRate': pickText(rate, l),
       'fact.ratio': `${num.format(Number(facts['foreignRatio']))}%`,
       'fact.workers': num.format(input.workers),
       'fact.foreignWorkers': num.format(input.foreignWorkers),
       'fact.investmentMzn': `MZN ${num.format(Number(facts['investmentMzn']))}`,
       'fact.investmentUsd': `USD ${num.format(input.investmentUsd)}`,
-      'fact.province': PROVINCE_NAMES[input.province][l],
-      'fact.sector': sector?.label[l] ?? '',
+      'fact.province': pickText(PROVINCE_NAMES[input.province], l),
+      'fact.sector': pickText(sector?.label, l),
       'fact.envCategory': String(facts['envCategory'] ?? ''),
       'fact.minQuota': `${rules.quotas.minPercent}%`,
       'fact.maxQuota': `${rules.quotas.maxPercent}%`,
@@ -202,7 +213,7 @@ export function assess(project: Project, rules: RuleSet, ctx: EngineContext): As
     sector: facts['sector'] as SectorId,
     vehicle: {
       recommended: vehicleRule.then.recommended,
-      recommendedName: recommendedDef?.name ?? { pt: '', en: '', fr: '' },
+      recommendedName: recommendedDef?.name ?? emptyText(),
       reasoning: L(vehicleRule.then.reasoning),
       alternatives: vehicleRule.then.alternatives
         .map((v) => optionOf(v))
@@ -211,14 +222,14 @@ export function assess(project: Project, rules: RuleSet, ctx: EngineContext): As
     },
     companyVsBranch,
     investmentRegime: track({
-      threshold: regime ? L(regime.then.threshold) : { pt: '', en: '', fr: '' },
-      authority: regime ? L(regime.then.authority) : { pt: '', en: '', fr: '' },
-      path: regime ? L(regime.then.path) : { pt: '', en: '', fr: '' },
-      fdiGuarantee: guarantee ? L(guarantee.then.text) : { pt: '', en: '', fr: '' },
+      threshold: regime ? L(regime.then.threshold) : emptyText(),
+      authority: regime ? L(regime.then.authority) : emptyText(),
+      path: regime ? L(regime.then.path) : emptyText(),
+      fdiGuarantee: guarantee ? L(guarantee.then.text) : emptyText(),
       refs: [...(regime?.then.refs ?? [])],
     }),
     roadmap,
-    timeToOperate: timeToOperate ? L(timeToOperate.then.text) : { pt: '', en: '', fr: '' },
+    timeToOperate: timeToOperate ? L(timeToOperate.then.text) : emptyText(),
     licences: selectAll(rules.licences.licences, facts).map((r) =>
       track({
         ...r.then,

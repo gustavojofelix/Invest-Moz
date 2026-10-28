@@ -6,12 +6,22 @@
       "title": {
         "pt": "Lei do Trabalho",
         "en": "Labour Law",
-        "fr": "Loi sur le travail"
+        "fr": "Loi sur le travail",
+        "zh": "劳动法",
+        "ar": "قانون العمل",
+        "hi": "श्रम कानून",
+        "sw": "Sheria ya Kazi",
+        "af": "Arbeidsreg"
       },
       "body": {
         "pt": "A Lei n.º 13/2023, de 25 de Agosto, é o quadro geral das relações de trabalho [ref:lei-13-2023]. Entre as novidades:\n- forma escrita obrigatória para contratos de comissão, trabalho no domicílio, empreitada, trabalho temporário, cedência, trabalho intermitente e teletrabalho;\n- licença de paternidade de sete dias (sessenta em caso de morte ou incapacidade da mãe);\n- regimes de teletrabalho, trabalho intermitente, pluralidade de empregadores e horários alternados;\n- suspensão do contrato por força maior.\n\nMantenha contratos escritos, respeite o salário mínimo do sector e as proibições de trabalho infantil [ref:apiex-guide-2026].",
         "en": "Law 13/2023 of 25 August is the general framework for employment [ref:lei-13-2023]. New features include:\n- mandatory written form for commission, home-work, contract-work, temporary-work, assignment, intermittent and telework contracts;\n- seven days' paternity leave (sixty if the mother dies or is incapacitated);\n- rules for telework, intermittent work, multiple employers and alternating hours;\n- suspension of contracts for force majeure.\n\nKeep written contracts, pay at least the sector minimum wage and respect the child labour prohibitions [ref:apiex-guide-2026].",
-        "fr": "La loi n° 13/2023 du 25 août est le cadre général des relations de travail [ref:lei-13-2023]. Parmi les nouveautés :\n- forme écrite obligatoire pour les contrats à la commission, de travail à domicile, d'entreprise, de travail temporaire, de mise à disposition, intermittents et de télétravail ;\n- congé de paternité de sept jours (soixante en cas de décès ou d'incapacité de la mère) ;\n- régimes du télétravail, du travail intermittent, de la pluralité d'employeurs et des horaires alternés ;\n- suspension du contrat pour force majeure.\n\nTenez des contrats écrits, respectez le salaire minimum du secteur et les interdictions du travail des enfants [ref:apiex-guide-2026]."
+        "fr": "La loi n° 13/2023 du 25 août est le cadre général des relations de travail [ref:lei-13-2023]. Parmi les nouveautés :\n- forme écrite obligatoire pour les contrats à la commission, de travail à domicile, d'entreprise, de travail temporaire, de mise à disposition, intermittents et de télétravail ;\n- congé de paternité de sept jours (soixante en cas de décès ou d'incapacité de la mère) ;\n- régimes du télétravail, du travail intermittent, de la pluralité d'employeurs et des horaires alternés ;\n- suspension du contrat pour force majeure.\n\nTenez des contrats écrits, respectez le salaire minimum du secteur et les interdictions du travail des enfants [ref:apiex-guide-2026].",
+        "zh": "8 月 25 日颁布的 Lei n.º 13/2023 是劳动雇佣的基本法律框架 [ref:lei-13-2023]。新规定包括：\n- 佣金合同、居家工作合同、承揽合同、临时工作合同、派遣合同、间歇性工作合同和远程工作合同必须采用书面形式；\n- 七天陪产假（如母亲死亡或丧失能力，则为六十天）；\n- 关于远程工作、间歇性工作、多雇主和轮班工时的规定；\n- 因不可抗力中止合同。\n\n请保存书面合同，支付不低于行业最低工资的薪酬，并遵守禁止童工的规定 [ref:apiex-guide-2026]。",
+        "ar": "القانون Lei n.º 13/2023 المؤرخ 25 أغسطس هو الإطار العام للتوظيف [ref:lei-13-2023]. ومن مستجداته:\n- الشكل الكتابي الإلزامي لعقود العمولة والعمل من المنزل والعمل بالمقاولة والعمل المؤقت والإعارة والعمل المتقطع والعمل عن بُعد؛\n- إجازة أبوة لمدة سبعة أيام (ستون يوماً في حال وفاة الأم أو عجزها)؛\n- قواعد للعمل عن بُعد والعمل المتقطع وتعدد أصحاب العمل وتناوب ساعات العمل؛\n- تعليق العقود بسبب القوة القاهرة.\n\nاحتفظ بعقود مكتوبة، وادفع على الأقل الحد الأدنى للأجور في القطاع، واحترم حظر عمل الأطفال [ref:apiex-guide-2026].",
+        "hi": "25 अगस्त का Lei n.º 13/2023 रोज़गार का सामान्य ढाँचा है [ref:lei-13-2023]। नई विशेषताओं में शामिल हैं:\n- कमीशन, घर से काम, ठेका कार्य, अस्थायी कार्य, प्रतिनियुक्ति (assignment), आंतरायिक (intermittent) कार्य और टेलीवर्क अनुबंधों के लिए लिखित रूप अनिवार्य;\n- सात दिनों का पितृत्व अवकाश (माँ की मृत्यु या अक्षमता की स्थिति में साठ दिन);\n- टेलीवर्क, आंतरायिक कार्य, एकाधिक नियोक्ताओं और बारी-बारी के कार्य-घंटों के नियम;\n- अप्रत्याशित घटना (force majeure) के कारण अनुबंधों का निलंबन।\n\nलिखित अनुबंध रखें, कम से कम क्षेत्र का न्यूनतम वेतन दें और बाल श्रम निषेधों का पालन करें [ref:apiex-guide-2026]।",
+        "sw": "Lei n.º 13/2023 ya tarehe 25 Agosti ndiyo mfumo wa jumla wa ajira [ref:lei-13-2023]. Mambo mapya yanajumuisha:\n- ulazima wa maandishi kwa mikataba ya kamisheni, kazi za nyumbani, kazi za mkataba, kazi za muda, uhamisho wa mfanyakazi, kazi za vipindi na kazi za mbali;\n- likizo ya uzazi kwa baba ya siku saba (sitini ikiwa mama atafariki au hana uwezo);\n- kanuni za kazi za mbali, kazi za vipindi, waajiri wengi na saa za kupokezana;\n- kusimamishwa kwa mikataba kwa sababu ya nguvu kubwa isiyozuilika (force majeure).\n\nTumia mikataba ya maandishi, lipa angalau kima cha chini cha mshahara cha sekta na heshimu marufuku ya ajira kwa watoto [ref:apiex-guide-2026].",
+        "af": "Lei n.º 13/2023, van 25 Augustus (die Arbeidswet), is die algemene raamwerk vir indiensneming [ref:lei-13-2023]. Nuwe kenmerke sluit in:\n- verpligte skriftelike vorm vir kommissie-, tuiswerk-, kontrakwerk-, tydelike werk-, sekondering-, intermitterende en telewerkkontrakte;\n- sewe dae vaderskapsverlof (sestig as die moeder sterf of ongeskik is);\n- reëls vir telewerk, intermitterende werk, meervoudige werkgewers en wisselende ure;\n- opskorting van kontrakte weens oormag.\n\nHou skriftelike kontrakte, betaal ten minste die sektorale minimumloon en eerbiedig die verbod op kinderarbeid [ref:apiex-guide-2026]."
       }
     },
     {
@@ -19,12 +29,22 @@
       "title": {
         "pt": "Segurança social e salários",
         "en": "Social security and wages",
-        "fr": "Sécurité sociale et salaires"
+        "fr": "Sécurité sociale et salaires",
+        "zh": "社会保障与工资",
+        "ar": "الضمان الاجتماعي والأجور",
+        "hi": "सामाजिक सुरक्षा और वेतन",
+        "sw": "Hifadhi ya jamii na mishahara",
+        "af": "Maatskaplike sekerheid en lone"
       },
       "body": {
         "pt": "Registe a empresa no INSS antes de contratar o primeiro trabalhador. As contribuições incidem sobre o salário bruto: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nOs salários mínimos são fixados por sector e revistos periodicamente em negociação tripartida entre Governo, empregadores e sindicatos. Na indústria transformadora, o mínimo é de cerca de **MZN 10 622 por mês** (aproximadamente USD 165–170) após a revisão de 2026 [ref:apiex-guide-2026].",
         "en": "Register the company with INSS before hiring the first employee. Contributions are levied on gross salary: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nMinimum wages are set by sector and revised periodically through tripartite negotiation between Government, employers and unions. In manufacturing the minimum is about **MZN 10,622 a month** (roughly USD 165–170) after the 2026 revision [ref:apiex-guide-2026].",
-        "fr": "Inscrivez l'entreprise à l'INSS avant d'embaucher le premier salarié. Les cotisations portent sur le salaire brut : {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nLes salaires minimums sont fixés par secteur et révisés périodiquement par une négociation tripartite entre le Gouvernement, les employeurs et les syndicats. Dans l'industrie manufacturière, le minimum est d'environ **10 622 MZN par mois** (environ 165–170 USD) après la révision de 2026 [ref:apiex-guide-2026]."
+        "fr": "Inscrivez l'entreprise à l'INSS avant d'embaucher le premier salarié. Les cotisations portent sur le salaire brut : {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nLes salaires minimums sont fixés par secteur et révisés périodiquement par une négociation tripartite entre le Gouvernement, les employeurs et les syndicats. Dans l'industrie manufacturière, le minimum est d'environ **10 622 MZN par mois** (environ 165–170 USD) après la révision de 2026 [ref:apiex-guide-2026].",
+        "zh": "雇用第一名员工之前，须在 INSS（国家社会保障局）为公司办理登记。缴费以工资总额为基数：{{INSS_CONTRIBUTION_RATES}} [ref:inss]。\n\n最低工资按行业确定，并通过政府、雇主和工会的三方谈判定期调整。经 2026 年调整后，制造业最低工资约为**每月 MZN 10,622**（约合 165–170 美元）[ref:apiex-guide-2026]。",
+        "ar": "سجّل الشركة لدى INSS قبل تعيين أول موظف. تُحتسب الاشتراكات على الراتب الإجمالي: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nتُحدَّد الأجور الدنيا بحسب القطاع وتُراجَع دورياً عبر تفاوض ثلاثي بين الحكومة وأصحاب العمل والنقابات. وفي الصناعة التحويلية يبلغ الحد الأدنى نحو **MZN 10,622 شهرياً** (قرابة USD 165–170) بعد مراجعة 2026 [ref:apiex-guide-2026].",
+        "hi": "पहले कर्मचारी को नियुक्त करने से पहले कंपनी को INSS (राष्ट्रीय सामाजिक सुरक्षा संस्थान) में पंजीकृत कराएँ। अंशदान सकल वेतन पर लगाए जाते हैं: {{INSS_CONTRIBUTION_RATES}} [ref:inss]।\n\nन्यूनतम वेतन क्षेत्रवार निर्धारित होते हैं और सरकार, नियोक्ताओं और ट्रेड यूनियनों के बीच त्रिपक्षीय वार्ता के माध्यम से समय-समय पर संशोधित किए जाते हैं। विनिर्माण क्षेत्र में 2026 के संशोधन के बाद न्यूनतम वेतन लगभग **MZN 10,622 प्रति माह** (लगभग USD 165–170) है [ref:apiex-guide-2026]।",
+        "sw": "Sajili kampuni katika INSS (hifadhi ya jamii) kabla ya kuajiri mfanyakazi wa kwanza. Michango hutozwa kwenye mshahara wa jumla: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nKima cha chini cha mshahara huwekwa kwa kila sekta na hurekebishwa mara kwa mara kupitia majadiliano ya pande tatu kati ya Serikali, waajiri na vyama vya wafanyakazi. Katika uzalishaji viwandani kima cha chini ni takriban **MZN 10,622 kwa mwezi** (takriban USD 165–170) baada ya marekebisho ya 2026 [ref:apiex-guide-2026].",
+        "af": "Registreer die maatskappy by INSS (nasionale maatskaplike sekerheid) voordat die eerste werknemer aangestel word. Bydraes word op die bruto salaris gehef: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nMinimumlone word per sektor vasgestel en periodiek hersien deur drieledige onderhandeling tussen die Regering, werkgewers en vakbonde. In die vervaardigingsbedryf is die minimum ongeveer **MZN 10,622 per maand** (sowat USD 165–170) ná die 2026-hersiening [ref:apiex-guide-2026]."
       }
     },
     {
@@ -32,34 +52,64 @@
       "title": {
         "pt": "Quota de trabalhadores estrangeiros",
         "en": "Foreign-worker quota",
-        "fr": "Quota de travailleurs étrangers"
+        "fr": "Quota de travailleurs étrangers",
+        "zh": "外籍员工配额",
+        "ar": "حصة العمال الأجانب",
+        "hi": "विदेशी कर्मचारियों का कोटा",
+        "sw": "Kiwango cha wafanyakazi wa kigeni",
+        "af": "Kwota vir buitelandse werkers"
       },
       "body": {
         "pt": "Os trabalhadores estrangeiros têm, em regra, o mesmo tratamento que os moçambicanos, mas a sua contratação está limitada por quotas consoante a dimensão da empresa [ref:business-guide-2025] [ref:dec-88-2024]. Dentro da quota basta comunicar a contratação; fora dela é necessária autorização do Ministro do Trabalho. Nos projectos de investimento aprovados pelo Governo que prevejam uma percentagem diferente, basta a comunicação ao ministro que tutela a área do trabalho.",
         "en": "Foreign workers are generally treated like Mozambican workers, but hiring them is capped by quotas that depend on company size [ref:business-guide-2025] [ref:dec-88-2024]. Within the quota a notification is enough; outside it, authorisation from the Minister of Labour is needed. In government-approved investment projects that set a different percentage, notifying the minister responsible for labour is sufficient.",
-        "fr": "Les travailleurs étrangers sont en principe traités comme les Mozambicains, mais leur recrutement est plafonné par des quotas selon la taille de l'entreprise [ref:business-guide-2025] [ref:dec-88-2024]. Dans le quota, une communication suffit ; au-delà, l'autorisation du ministre du Travail est nécessaire. Dans les projets d'investissement approuvés par le Gouvernement qui prévoient un pourcentage différent, il suffit d'informer le ministre chargé du travail."
+        "fr": "Les travailleurs étrangers sont en principe traités comme les Mozambicains, mais leur recrutement est plafonné par des quotas selon la taille de l'entreprise [ref:business-guide-2025] [ref:dec-88-2024]. Dans le quota, une communication suffit ; au-delà, l'autorisation du ministre du Travail est nécessaire. Dans les projets d'investissement approuvés par le Gouvernement qui prévoient un pourcentage différent, il suffit d'informer le ministre chargé du travail.",
+        "zh": "外籍员工一般享有与莫桑比克员工相同的待遇，但其雇用受配额限制，配额取决于公司规模 [ref:business-guide-2025] [ref:dec-88-2024]。配额内只需备案；超出配额须获得劳动部长的授权。在政府批准且规定了不同比例的投资项目中，只需向主管劳动事务的部长备案。",
+        "ar": "يُعامَل العمال الأجانب عموماً معاملة العمال الموزمبيقيين، لكن تعيينهم مقيّد بحصص تتوقف على حجم الشركة [ref:business-guide-2025] [ref:dec-88-2024]. وضمن الحصة يكفي الإخطار؛ وخارجها يلزم إذن من وزير العمل. وفي المشاريع الاستثمارية المعتمدة من الحكومة التي تحدد نسبة مختلفة، يكفي إخطار الوزير المسؤول عن العمل.",
+        "hi": "विदेशी कर्मचारियों के साथ सामान्यतः मोज़ाम्बिकी कर्मचारियों जैसा ही व्यवहार किया जाता है, लेकिन उनकी नियुक्ति कंपनी के आकार पर निर्भर कोटा द्वारा सीमित है [ref:business-guide-2025] [ref:dec-88-2024]। कोटा के भीतर केवल सूचना देना पर्याप्त है; कोटा से बाहर श्रम मंत्री की अनुमति आवश्यक है। सरकार द्वारा अनुमोदित निवेश परियोजनाओं में, जिनमें अलग प्रतिशत निर्धारित हो, श्रम के प्रभारी मंत्री को सूचित करना पर्याप्त है।",
+        "sw": "Wafanyakazi wa kigeni kwa ujumla hutendewa kama wafanyakazi wa Msumbiji, lakini kuwaajiri kuna kikomo cha viwango kinachotegemea ukubwa wa kampuni [ref:business-guide-2025] [ref:dec-88-2024]. Ndani ya kiwango, taarifa inatosha; nje yake, idhini ya Waziri wa Kazi inahitajika. Katika miradi ya uwekezaji iliyoidhinishwa na serikali inayoweka asilimia tofauti, kumjulisha waziri anayehusika na kazi kunatosha.",
+        "af": "Buitelandse werkers word oor die algemeen soos Mosambiekse werkers behandel, maar hul aanstelling word beperk deur kwotas wat van die maatskappy se grootte afhang [ref:business-guide-2025] [ref:dec-88-2024]. Binne die kwota is 'n kennisgewing genoeg; daarbuite is magtiging van die Minister van Arbeid nodig. By beleggingsprojekte wat deur die regering goedgekeur is en 'n ander persentasie bepaal, is kennisgewing aan die minister verantwoordelik vir arbeid voldoende."
       },
       "table": {
         "caption": {
           "pt": "Quota de trabalhadores estrangeiros por dimensão da empresa",
           "en": "Foreign-worker quota by company size",
-          "fr": "Quota de travailleurs étrangers selon la taille de l'entreprise"
+          "fr": "Quota de travailleurs étrangers selon la taille de l'entreprise",
+          "zh": "按公司规模划分的外籍员工配额",
+          "ar": "حصة العمال الأجانب بحسب حجم الشركة",
+          "hi": "कंपनी के आकार के अनुसार विदेशी कर्मचारियों का कोटा",
+          "sw": "Kiwango cha wafanyakazi wa kigeni kwa ukubwa wa kampuni",
+          "af": "Kwota vir buitelandse werkers volgens maatskappygrootte"
         },
         "columns": [
           {
             "pt": "Dimensão",
             "en": "Company size",
-            "fr": "Taille"
+            "fr": "Taille",
+            "zh": "公司规模",
+            "ar": "حجم الشركة",
+            "hi": "कंपनी का आकार",
+            "sw": "Ukubwa wa kampuni",
+            "af": "Maatskappygrootte"
           },
           {
             "pt": "Trabalhadores",
             "en": "Employees",
-            "fr": "Salariés"
+            "fr": "Salariés",
+            "zh": "员工人数",
+            "ar": "عدد الموظفين",
+            "hi": "कर्मचारी",
+            "sw": "Wafanyakazi",
+            "af": "Werknemers"
           },
           {
             "pt": "Quota máxima",
             "en": "Maximum quota",
-            "fr": "Quota maximal"
+            "fr": "Quota maximal",
+            "zh": "最高配额",
+            "ar": "الحصة القصوى",
+            "hi": "अधिकतम कोटा",
+            "sw": "Kiwango cha juu",
+            "af": "Maksimum kwota"
           }
         ],
         "rows": [
@@ -67,75 +117,140 @@
             {
               "pt": "Grande",
               "en": "Large",
-              "fr": "Grande"
+              "fr": "Grande",
+              "zh": "大型",
+              "ar": "كبيرة",
+              "hi": "बड़ी",
+              "sw": "Kubwa",
+              "af": "Groot"
             },
             {
               "pt": "Mais de 100",
               "en": "More than 100",
-              "fr": "Plus de 100"
+              "fr": "Plus de 100",
+              "zh": "100 人以上",
+              "ar": "أكثر من 100",
+              "hi": "100 से अधिक",
+              "sw": "Zaidi ya 100",
+              "af": "Meer as 100"
             },
             {
               "pt": "5%",
               "en": "5%",
-              "fr": "5 %"
+              "fr": "5 %",
+              "zh": "5%",
+              "ar": "5%",
+              "hi": "5%",
+              "sw": "5%",
+              "af": "5%"
             }
           ],
           [
             {
               "pt": "Média-grande",
               "en": "Medium-to-large",
-              "fr": "Moyenne à grande"
+              "fr": "Moyenne à grande",
+              "zh": "中大型",
+              "ar": "متوسطة إلى كبيرة",
+              "hi": "मध्यम-से-बड़ी",
+              "sw": "Kati hadi kubwa",
+              "af": "Medium tot groot"
             },
             {
               "pt": "31 a 100",
               "en": "31 to 100",
-              "fr": "31 à 100"
+              "fr": "31 à 100",
+              "zh": "31 至 100 人",
+              "ar": "من 31 إلى 100",
+              "hi": "31 से 100",
+              "sw": "31 hadi 100",
+              "af": "31 tot 100"
             },
             {
               "pt": "8%",
               "en": "8%",
-              "fr": "8 %"
+              "fr": "8 %",
+              "zh": "8%",
+              "ar": "8%",
+              "hi": "8%",
+              "sw": "8%",
+              "af": "8%"
             }
           ],
           [
             {
               "pt": "Média",
               "en": "Medium",
-              "fr": "Moyenne"
+              "fr": "Moyenne",
+              "zh": "中型",
+              "ar": "متوسطة",
+              "hi": "मध्यम",
+              "sw": "Kati",
+              "af": "Medium"
             },
             {
               "pt": "11 a 30",
               "en": "11 to 30",
-              "fr": "11 à 30"
+              "fr": "11 à 30",
+              "zh": "11 至 30 人",
+              "ar": "من 11 إلى 30",
+              "hi": "11 से 30",
+              "sw": "11 hadi 30",
+              "af": "11 tot 30"
             },
             {
               "pt": "10%",
               "en": "10%",
-              "fr": "10 %"
+              "fr": "10 %",
+              "zh": "10%",
+              "ar": "10%",
+              "hi": "10%",
+              "sw": "10%",
+              "af": "10%"
             }
           ],
           [
             {
               "pt": "Pequena",
               "en": "Small",
-              "fr": "Petite"
+              "fr": "Petite",
+              "zh": "小型",
+              "ar": "صغيرة",
+              "hi": "छोटी",
+              "sw": "Ndogo",
+              "af": "Klein"
             },
             {
               "pt": "Até 10",
               "en": "Up to 10",
-              "fr": "Jusqu'à 10"
+              "fr": "Jusqu'à 10",
+              "zh": "10 人及以下",
+              "ar": "حتى 10",
+              "hi": "10 तक",
+              "sw": "Hadi 10",
+              "af": "Tot 10"
             },
             {
               "pt": "15%",
               "en": "15%",
-              "fr": "15 %"
+              "fr": "15 %",
+              "zh": "15%",
+              "ar": "15%",
+              "hi": "15%",
+              "sw": "15%",
+              "af": "15%"
             }
           ]
         ],
         "note": {
           "pt": "Decreto n.º 37/2016, alterado pelos Decretos n.º 45/2021 e 43/2022; o Decreto n.º 88/2024 simplificou a tramitação. Confirme as condições em vigor junto do MTGAS.",
           "en": "Decree 37/2016, as amended by Decrees 45/2021 and 43/2022; Decree 88/2024 simplified processing. Confirm the current conditions with MTGAS.",
-          "fr": "Décret n° 37/2016, modifié par les décrets n° 45/2021 et 43/2022 ; le décret n° 88/2024 a simplifié la procédure. Vérifiez les conditions en vigueur auprès du MTGAS."
+          "fr": "Décret n° 37/2016, modifié par les décrets n° 45/2021 et 43/2022 ; le décret n° 88/2024 a simplifié la procédure. Vérifiez les conditions en vigueur auprès du MTGAS.",
+          "zh": "Decreto n.º 37/2016，经 Decreto n.º 45/2021 和 Decreto n.º 43/2022 修订；Decreto n.º 88/2024 简化了办理程序。请向 MTGAS（劳动、性别与社会行动部）确认现行条件。",
+          "ar": "Decreto n.º 37/2016، بصيغته المعدّلة بموجب Decreto n.º 45/2021 وDecreto n.º 43/2022؛ وقد بسّط Decreto n.º 88/2024 الإجراءات. أكّد الشروط السارية مع MTGAS.",
+          "hi": "Decreto n.º 37/2016, जिसे Decretos n.º 45/2021 और 43/2022 द्वारा संशोधित किया गया; Decreto n.º 88/2024 ने प्रक्रिया को सरल बनाया। वर्तमान शर्तों की पुष्टि MTGAS (श्रम मंत्रालय) से करें।",
+          "sw": "Decreto n.º 37/2016, kama ilivyorekebishwa na Decretos n.º 45/2021 na 43/2022; Decreto n.º 88/2024 ilirahisisha taratibu. Thibitisha masharti ya sasa na MTGAS.",
+          "af": "Decreto n.º 37/2016, soos gewysig deur Decretos n.º 45/2021 en 43/2022; Decreto n.º 88/2024 het die prosessering vereenvoudig. Bevestig die huidige voorwaardes by MTGAS."
         }
       }
     },
@@ -144,12 +259,22 @@
       "title": {
         "pt": "Autorizações de trabalho",
         "en": "Work permits",
-        "fr": "Autorisations de travail"
+        "fr": "Autorisations de travail",
+        "zh": "工作许可",
+        "ar": "تصاريح العمل",
+        "hi": "कार्य परमिट",
+        "sw": "Vibali vya kazi",
+        "af": "Werkpermitte"
       },
       "body": {
         "pt": "Um estrangeiro que trabalhe em Moçambique mais de **120 dias por ano** precisa de autorização de trabalho [ref:business-guide-2025]:\n- validade de **dois anos**, renovável por períodos sucessivos de dois anos;\n- pedido ao MTGAS no prazo de 15 dias após a chegada de cada trabalhador estrangeiro [ref:apiex-guide-2026];\n- trabalho de curta duração, fora da quota, até **90 dias** (180 dias nos sectores do petróleo e gás e da mineração).\n\nO sector extractivo tem regras próprias para trabalhadores estrangeiros.",
         "en": "A foreigner working in Mozambique for more than **120 days a year** needs a work permit [ref:business-guide-2025]:\n- valid for **two years**, renewable for further two-year periods;\n- apply to MTGAS within 15 days of each foreign employee's arrival [ref:apiex-guide-2026];\n- short-term work outside the quota is possible for up to **90 days** (180 days in oil and gas and mining).\n\nThe extractive sector has its own rules for foreign workers.",
-        "fr": "Un étranger qui travaille au Mozambique plus de **120 jours par an** a besoin d'une autorisation de travail [ref:business-guide-2025] :\n- valable **deux ans**, renouvelable par périodes successives de deux ans ;\n- demande au MTGAS dans les 15 jours suivant l'arrivée de chaque salarié étranger [ref:apiex-guide-2026] ;\n- le travail de courte durée, hors quota, est possible jusqu'à **90 jours** (180 jours dans le pétrole et le gaz et dans les mines).\n\nLe secteur extractif a ses propres règles pour les travailleurs étrangers."
+        "fr": "Un étranger qui travaille au Mozambique plus de **120 jours par an** a besoin d'une autorisation de travail [ref:business-guide-2025] :\n- valable **deux ans**, renouvelable par périodes successives de deux ans ;\n- demande au MTGAS dans les 15 jours suivant l'arrivée de chaque salarié étranger [ref:apiex-guide-2026] ;\n- le travail de courte durée, hors quota, est possible jusqu'à **90 jours** (180 jours dans le pétrole et le gaz et dans les mines).\n\nLe secteur extractif a ses propres règles pour les travailleurs étrangers.",
+        "zh": "外国人在莫桑比克每年工作超过 **120 天**须持有工作许可 [ref:business-guide-2025]：\n- 有效期**两年**，可续期，每次续期两年；\n- 须在每名外籍员工抵达后 15 天内向 MTGAS 提出申请 [ref:apiex-guide-2026]；\n- 配额外的短期工作最长可达 **90 天**（油气和采矿业为 180 天）。\n\n采掘业对外籍员工另有专门规定。",
+        "ar": "يحتاج الأجنبي الذي يعمل في موزمبيق أكثر من **120 يوماً في السنة** إلى تصريح عمل [ref:business-guide-2025]:\n- صالح لمدة **سنتين**، وقابل للتجديد لفترات إضافية مدة كل منها سنتان؛\n- يُقدَّم الطلب إلى MTGAS خلال 15 يوماً من وصول كل موظف أجنبي [ref:apiex-guide-2026]؛\n- العمل قصير الأجل خارج الحصة ممكن لمدة تصل إلى **90 يوماً** (180 يوماً في النفط والغاز والتعدين).\n\nولقطاع الصناعات الاستخراجية قواعده الخاصة بالعمال الأجانب.",
+        "hi": "मोज़ाम्बिक में वर्ष में **120 दिनों** से अधिक काम करने वाले विदेशी को कार्य परमिट की आवश्यकता होती है [ref:business-guide-2025]:\n- **दो वर्ष** के लिए वैध, आगे दो-दो वर्ष की अवधि के लिए नवीकरणीय;\n- प्रत्येक विदेशी कर्मचारी के आगमन के 15 दिनों के भीतर MTGAS में आवेदन करें [ref:apiex-guide-2026];\n- कोटा से बाहर अल्पकालिक कार्य **90 दिनों** तक संभव है (तेल और गैस तथा खनन में 180 दिन)।\n\nनिष्कर्षण (extractive) क्षेत्र में विदेशी कर्मचारियों के लिए अपने अलग नियम हैं।",
+        "sw": "Mgeni anayefanya kazi Msumbiji kwa zaidi ya **siku 120 kwa mwaka** anahitaji kibali cha kazi [ref:business-guide-2025]:\n- ni halali kwa **miaka miwili**, kinaweza kuhuishwa kwa vipindi vingine vya miaka miwili;\n- omba kwa MTGAS ndani ya siku 15 tangu kila mfanyakazi wa kigeni awasili [ref:apiex-guide-2026];\n- kazi za muda mfupi nje ya kiwango zinawezekana kwa hadi **siku 90** (siku 180 katika mafuta na gesi na madini).\n\nSekta ya uziduaji ina kanuni zake kwa wafanyakazi wa kigeni.",
+        "af": "'n Buitelander wat meer as **120 dae per jaar** in Mosambiek werk, het 'n werkpermit nodig [ref:business-guide-2025]:\n- geldig vir **twee jaar**, hernubaar vir verdere tydperke van twee jaar;\n- doen aansoek by MTGAS binne 15 dae ná elke buitelandse werknemer se aankoms [ref:apiex-guide-2026];\n- korttermynwerk buite die kwota is moontlik vir tot **90 dae** (180 dae in olie en gas en mynbou).\n\nDie ekstraktiewe sektor het sy eie reëls vir buitelandse werkers."
       }
     },
     {
@@ -157,12 +282,22 @@
       "title": {
         "pt": "Vistos e residência",
         "en": "Visas and residence",
-        "fr": "Visas et résidence"
+        "fr": "Visas et résidence",
+        "zh": "签证与居留",
+        "ar": "التأشيرات والإقامة",
+        "hi": "वीज़ा और निवास",
+        "sw": "Viza na ukaazi",
+        "af": "Visums en verblyf"
       },
       "body": {
         "pt": "Os quadros expatriados precisam de visto de trabalho e de autorização de residência, além da autorização de trabalho [ref:business-guide-2025]. Para investidores:\n- o **visto de actividade de investimento empresarial** está associado ao certificado de investimento da APIEX, para projectos a partir de **USD 500 000** [ref:lei-8-2023];\n- os vistos electrónicos pedem-se em evisa.gov.mz, ao abrigo do Decreto n.º 10/2023 [ref:apiex-guide-2026];\n- a APIEX apoia a facilitação de vistos e autorizações de trabalho.",
         "en": "Expatriate staff need a work visa and a residence permit in addition to the work permit [ref:business-guide-2025]. For investors:\n- the **Business Investment Activity Visa** is linked to the APIEX investment certificate, for projects of **USD 500,000** or more [ref:lei-8-2023];\n- e-visas are requested at evisa.gov.mz under Decree 10/2023 [ref:apiex-guide-2026];\n- APIEX helps with visa and work permit facilitation.",
-        "fr": "Les cadres expatriés ont besoin d'un visa de travail et d'un titre de séjour, en plus de l'autorisation de travail [ref:business-guide-2025]. Pour les investisseurs :\n- le **visa d'activité d'investissement** est lié au certificat d'investissement de l'APIEX, pour les projets d'au moins **500 000 USD** [ref:lei-8-2023] ;\n- les visas électroniques se demandent sur evisa.gov.mz, en vertu du décret n° 10/2023 [ref:apiex-guide-2026] ;\n- l'APIEX facilite l'obtention des visas et des autorisations de travail."
+        "fr": "Les cadres expatriés ont besoin d'un visa de travail et d'un titre de séjour, en plus de l'autorisation de travail [ref:business-guide-2025]. Pour les investisseurs :\n- le **visa d'activité d'investissement** est lié au certificat d'investissement de l'APIEX, pour les projets d'au moins **500 000 USD** [ref:lei-8-2023] ;\n- les visas électroniques se demandent sur evisa.gov.mz, en vertu du décret n° 10/2023 [ref:apiex-guide-2026] ;\n- l'APIEX facilite l'obtention des visas et des autorisations de travail.",
+        "zh": "外派员工除工作许可外，还需要工作签证和居留许可 [ref:business-guide-2025]。对于投资者：\n- **商业投资活动签证**与 APIEX 投资证书挂钩，适用于投资额 **500,000 美元**或以上的项目 [ref:lei-8-2023]；\n- 根据 Decreto n.º 10/2023，可在 evisa.gov.mz 申请电子签证 [ref:apiex-guide-2026]；\n- APIEX 协助办理签证和工作许可的便利手续。",
+        "ar": "يحتاج الموظفون الوافدون إلى تأشيرة عمل وتصريح إقامة إضافة إلى تصريح العمل [ref:business-guide-2025]. وبالنسبة للمستثمرين:\n- ترتبط **تأشيرة نشاط الاستثمار التجاري** بشهادة الاستثمار الصادرة عن APIEX، للمشاريع التي تبلغ **USD 500,000** أو أكثر [ref:lei-8-2023]؛\n- تُطلب التأشيرات الإلكترونية عبر evisa.gov.mz بموجب Decreto n.º 10/2023 [ref:apiex-guide-2026]؛\n- تساعد APIEX في تيسير التأشيرات وتصاريح العمل.",
+        "hi": "प्रवासी कर्मचारियों को कार्य परमिट के अतिरिक्त कार्य वीज़ा और निवास परमिट की आवश्यकता होती है [ref:business-guide-2025]। निवेशकों के लिए:\n- **व्यावसायिक निवेश गतिविधि वीज़ा** APIEX निवेश प्रमाणपत्र से जुड़ा है, **USD 500,000** या उससे अधिक की परियोजनाओं के लिए [ref:lei-8-2023];\n- ई-वीज़ा के लिए Decreto n.º 10/2023 के तहत evisa.gov.mz पर आवेदन किया जाता है [ref:apiex-guide-2026];\n- APIEX वीज़ा और कार्य परमिट प्राप्त करने में सहायता करता है।",
+        "sw": "Wafanyakazi wa kigeni wanahitaji viza ya kazi na kibali cha ukaazi pamoja na kibali cha kazi [ref:business-guide-2025]. Kwa wawekezaji:\n- **Viza ya Shughuli za Uwekezaji wa Kibiashara** inaunganishwa na cheti cha uwekezaji cha APIEX, kwa miradi ya **USD 500,000** au zaidi [ref:lei-8-2023];\n- viza za kielektroniki huombwa kwenye evisa.gov.mz chini ya Decreto n.º 10/2023 [ref:apiex-guide-2026];\n- APIEX husaidia kuwezesha viza na vibali vya kazi.",
+        "af": "Uitgewekene personeel het benewens die werkpermit 'n werkvisum en 'n verblyfpermit nodig [ref:business-guide-2025]. Vir beleggers:\n- die **visum vir sakebeleggingsaktiwiteit** is gekoppel aan die APIEX-beleggingsertifikaat, vir projekte van **USD 500,000** of meer [ref:lei-8-2023];\n- e-visums word by evisa.gov.mz aangevra ingevolge Decreto n.º 10/2023 [ref:apiex-guide-2026];\n- APIEX help om visums en werkpermitte te fasiliteer."
       }
     }
   ]

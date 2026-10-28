@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Regulatoriese waaksaamheid",
+  "title": "Veranderinge wat jou padkaart raak",
+  "lead": "Wanneer 'n wet agter jou padkaart verander, sê Tiva vir jou watter stap dit raak, vanaf wanneer, en wat om te doen.",
+  "notifyBy": "Stel my in kennis via",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "E-pos",
+    "push": "Kennisgewing"
+  },
+  "channelsOn": "Waarskuwings sal jou via {{list}} bereik (demo: niks word gestuur nie).",
+  "channelsOff": "Geen kanaal gekies nie: waarskuwings bly op hierdie bladsy.",
+  "listTitle": "Jongste veranderinge",
+  "unread": "{{count}} nuut",
+  "markAll": "Merk alles as gelees",
+  "markReadLabel": "Merk as gelees: {{title}}",
+  "affectsStep": "Raak stap {{n}}",
+  "affectsArea": {
+    "incentives": "Raak aansporings"
+  },
+  "seeArea": {
+    "incentives": "Sien aansporings"
+  },
+  "forInformation": "Ter inligting",
+  "new": "Nuut",
+  "inForceOn": "Van krag {{date}}",
+  "inForce": "Van krag",
+  "from": "Vanaf {{date}}",
+  "pending": "Hangend",
+  "whatChanged": "Wat verander het:",
+  "forYou": "Vir jou:",
+  "illustrative": "Illustratief",
+  "seeStep": "Sien bygewerkte stap",
+  "ask": "Vra Tiva",
+  "watching": "Hou dop vir",
+  "openRoadmap": "Maak my padkaart oop",
+  "guestText": "Tiva hou die wette agter elke stap dop. Beskryf jou projek om te sien watter veranderinge joune raak.",
+  "start": "Begin die Pathfinder",
+  "sourceTitle": "Gevoed deur die {{source}}-reeks",
+  "sourceText": "Elke waarskuwing word uit die Boletim da República opgestel en deur 'n prokureur nagegaan voordat dit jou bereik.",
+  "demoNote": "Demo: die waarskuwings en datums is illustratief, en die kanaalkeuses word slegs op hierdie toestel gestoor."
+}

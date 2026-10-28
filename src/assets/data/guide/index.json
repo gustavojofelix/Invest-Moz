@@ -7,7 +7,12 @@
       "publisher": {
         "pt": "APIEX · Ministério da Economia",
         "en": "APIEX · Ministry of Economy",
-        "fr": "APIEX · Ministère de l'Économie"
+        "fr": "APIEX · Ministère de l'Économie",
+        "zh": "APIEX · 经济部",
+        "ar": "APIEX · وزارة الاقتصاد",
+        "hi": "APIEX · अर्थव्यवस्था मंत्रालय (Ministério da Economia)",
+        "sw": "APIEX · Wizara ya Uchumi",
+        "af": "APIEX · Ministerie van Ekonomie"
       },
       "date": "2026-05",
       "refId": "apiex-guide-2026"
@@ -18,7 +23,12 @@
       "publisher": {
         "pt": "Tax Advisory",
         "en": "Tax Advisory",
-        "fr": "Tax Advisory"
+        "fr": "Tax Advisory",
+        "zh": "Tax Advisory",
+        "ar": "Tax Advisory",
+        "hi": "Tax Advisory",
+        "sw": "Tax Advisory",
+        "af": "Tax Advisory"
       },
       "date": "2026"
     },
@@ -28,7 +38,12 @@
       "publisher": {
         "pt": "Tax Advisory",
         "en": "Tax Advisory",
-        "fr": "Tax Advisory"
+        "fr": "Tax Advisory",
+        "zh": "Tax Advisory",
+        "ar": "Tax Advisory",
+        "hi": "Tax Advisory",
+        "sw": "Tax Advisory",
+        "af": "Tax Advisory"
       },
       "date": "2018-09",
       "refId": "ta-tax-indicators"
@@ -39,7 +54,12 @@
       "publisher": {
         "pt": "Tax Advisory",
         "en": "Tax Advisory",
-        "fr": "Tax Advisory"
+        "fr": "Tax Advisory",
+        "zh": "Tax Advisory",
+        "ar": "Tax Advisory",
+        "hi": "Tax Advisory",
+        "sw": "Tax Advisory",
+        "af": "Tax Advisory"
       },
       "date": "2018-09",
       "refId": "ta-dta-rates"
@@ -50,7 +70,12 @@
       "publisher": {
         "pt": "Lex Africa · JLA Advogados",
         "en": "Lex Africa · JLA Advogados",
-        "fr": "Lex Africa · JLA Advogados"
+        "fr": "Lex Africa · JLA Advogados",
+        "zh": "Lex Africa · JLA Advogados",
+        "ar": "Lex Africa · JLA Advogados",
+        "hi": "Lex Africa · JLA Advogados",
+        "sw": "Lex Africa · JLA Advogados",
+        "af": "Lex Africa · JLA Advogados"
       },
       "date": "2025",
       "refId": "business-guide-2025"
@@ -62,12 +87,22 @@
       "title": {
         "pt": "Moçambique em síntese",
         "en": "Mozambique at a glance",
-        "fr": "Le Mozambique en bref"
+        "fr": "Le Mozambique en bref",
+        "zh": "莫桑比克概览",
+        "ar": "موزمبيق في لمحة",
+        "hi": "मोज़ाम्बिक एक नज़र में",
+        "sw": "Msumbiji kwa muhtasari",
+        "af": "Mosambiek in 'n oogopslag"
       },
       "summary": {
         "pt": "O país, a economia, os recursos e o acesso a mercados: os números essenciais antes de qualquer decisão de investimento.",
         "en": "The country, the economy, its resources and market access: the key figures before any investment decision.",
-        "fr": "Le pays, l'économie, les ressources et l'accès aux marchés : les chiffres essentiels avant toute décision d'investissement."
+        "fr": "Le pays, l'économie, les ressources et l'accès aux marchés : les chiffres essentiels avant toute décision d'investissement.",
+        "zh": "国家、经济、资源与市场准入：作出任何投资决策前需要了解的关键数据。",
+        "ar": "البلد والاقتصاد والموارد والنفاذ إلى الأسواق: الأرقام الرئيسية قبل أي قرار استثماري.",
+        "hi": "देश, अर्थव्यवस्था, उसके संसाधन और बाज़ार तक पहुँच: किसी भी निवेश निर्णय से पहले जानने योग्य मुख्य आँकड़े।",
+        "sw": "Nchi, uchumi, rasilimali zake na upatikanaji wa masoko: takwimu muhimu kabla ya uamuzi wowote wa uwekezaji.",
+        "af": "Die land, die ekonomie, sy hulpbronne en marktoegang: die kernsyfers voor enige beleggingsbesluit."
       },
       "sources": ["apiex-2026", "lexafrica-2025"],
       "topic": "investment"
@@ -77,12 +112,22 @@
       "title": {
         "pt": "Porquê investir em Moçambique",
         "en": "Why invest in Mozambique",
-        "fr": "Pourquoi investir au Mozambique"
+        "fr": "Pourquoi investir au Mozambique",
+        "zh": "为何投资莫桑比克",
+        "ar": "لماذا الاستثمار في موزمبيق",
+        "hi": "मोज़ाम्बिक में निवेश क्यों करें",
+        "sw": "Kwa nini uwekeze Msumbiji",
+        "af": "Waarom in Mosambiek belê"
       },
       "summary": {
         "pt": "Sete vantagens estruturais que se reforçam entre si: corredores, energia, terra, plataformas industriais, custos, reformas e qualidade de vida.",
         "en": "Seven structural advantages that reinforce each other: corridors, energy, land, industrial platforms, costs, reforms and quality of life.",
-        "fr": "Sept avantages structurels qui se renforcent mutuellement : corridors, énergie, terre, plateformes industrielles, coûts, réformes et qualité de vie."
+        "fr": "Sept avantages structurels qui se renforcent mutuellement : corridors, énergie, terre, plateformes industrielles, coûts, réformes et qualité de vie.",
+        "zh": "七大相互促进的结构性优势：交通走廊、能源、土地、产业平台、成本、改革和生活质量。",
+        "ar": "سبع مزايا هيكلية يعزّز بعضها بعضاً: الممرات والطاقة والأراضي والمنصات الصناعية والتكاليف والإصلاحات وجودة الحياة.",
+        "hi": "सात संरचनात्मक लाभ जो एक-दूसरे को मज़बूत करते हैं: कॉरिडोर, ऊर्जा, भूमि, औद्योगिक प्लेटफ़ॉर्म, लागत, सुधार और जीवन की गुणवत्ता।",
+        "sw": "Faida saba za kimuundo zinazoimarishana: shoroba, nishati, ardhi, majukwaa ya viwanda, gharama, mageuzi na ubora wa maisha.",
+        "af": "Sewe strukturele voordele wat mekaar versterk: korridors, energie, grond, industriële platforms, koste, hervormings en lewensgehalte."
       },
       "sources": ["apiex-2026"],
       "topic": "investment"
@@ -92,12 +137,22 @@
       "title": {
         "pt": "Sectores prioritários",
         "en": "Priority sectors",
-        "fr": "Secteurs prioritaires"
+        "fr": "Secteurs prioritaires",
+        "zh": "重点行业",
+        "ar": "القطاعات ذات الأولوية",
+        "hi": "प्राथमिकता वाले क्षेत्र",
+        "sw": "Sekta za kipaumbele",
+        "af": "Prioriteitsektore"
       },
       "summary": {
         "pt": "Agronegócio, energias renováveis, turismo, economia digital, logística e conteúdo local: onde o investimento privado já está a acontecer e quem são os interlocutores.",
         "en": "Agribusiness, renewable energy, tourism, the digital economy, logistics and local content: where private investment is already happening and who to talk to.",
-        "fr": "Agro-industrie, énergies renouvelables, tourisme, économie numérique, logistique et contenu local : là où l'investissement privé est déjà à l'œuvre et les interlocuteurs."
+        "fr": "Agro-industrie, énergies renouvelables, tourisme, économie numérique, logistique et contenu local : là où l'investissement privé est déjà à l'œuvre et les interlocuteurs.",
+        "zh": "农业综合企业、可再生能源、旅游、数字经济、物流和本地成分：私人投资已在哪些领域展开，以及应与谁联系。",
+        "ar": "الأعمال الزراعية والطاقة المتجددة والسياحة والاقتصاد الرقمي واللوجستيات والمحتوى المحلي: أين يحدث الاستثمار الخاص بالفعل ومع من تتحدث.",
+        "hi": "कृषि-व्यवसाय, नवीकरणीय ऊर्जा, पर्यटन, डिजिटल अर्थव्यवस्था, लॉजिस्टिक्स और स्थानीय सामग्री (local content): जहाँ निजी निवेश पहले से हो रहा है और किससे संपर्क करें।",
+        "sw": "Kilimo-biashara, nishati jadidifu, utalii, uchumi wa kidijitali, usafirishaji na ushiriki wa wazawa: mahali uwekezaji binafsi unafanyika tayari na nani wa kuzungumza naye.",
+        "af": "Landboubesigheid, hernubare energie, toerisme, die digitale ekonomie, logistiek en plaaslike inhoud: waar private belegging reeds plaasvind en met wie om te praat."
       },
       "sources": ["apiex-2026", "lexafrica-2025"],
       "topic": "local_content"
@@ -107,12 +162,22 @@
       "title": {
         "pt": "Lei do Investimento e APIEX",
         "en": "Investment Law and APIEX",
-        "fr": "Loi sur l'investissement et APIEX"
+        "fr": "Loi sur l'investissement et APIEX",
+        "zh": "投资法与 APIEX",
+        "ar": "قانون الاستثمار وAPIEX",
+        "hi": "निवेश कानून और APIEX",
+        "sw": "Sheria ya Uwekezaji na APIEX",
+        "af": "Beleggingswet en APIEX"
       },
       "summary": {
         "pt": "Como a Lei n.º 8/2023 organiza a aprovação de projectos, o que o certificado de investimento desbloqueia e como a APIEX acompanha o investidor do primeiro contacto à operação.",
         "en": "How Law No. 8/2023 organises project approval, what the Investment Certificate unlocks, and how APIEX supports investors from first contact to operation.",
-        "fr": "Comment la loi n° 8/2023 organise l'approbation des projets, ce que débloque le certificat d'investissement et comment l'APIEX accompagne l'investisseur du premier contact à l'exploitation."
+        "fr": "Comment la loi n° 8/2023 organise l'approbation des projets, ce que débloque le certificat d'investissement et comment l'APIEX accompagne l'investisseur du premier contact à l'exploitation.",
+        "zh": "Lei n.º 8/2023（投资法）如何规范项目审批、投资证书能带来什么，以及 APIEX 如何从首次接触到投产运营全程支持投资者。",
+        "ar": "كيف ينظّم القانون Lei n.º 8/2023 اعتماد المشاريع، وما الذي تتيحه شهادة الاستثمار، وكيف تدعم APIEX المستثمرين من أول تواصل حتى التشغيل.",
+        "hi": "Lei n.º 8/2023 (निवेश कानून) परियोजना स्वीकृति को कैसे व्यवस्थित करता है, निवेश प्रमाणपत्र से क्या सुविधाएँ मिलती हैं, और APIEX पहले संपर्क से लेकर संचालन तक निवेशकों की कैसे सहायता करता है।",
+        "sw": "Jinsi Lei n.º 8/2023 (Sheria ya Uwekezaji) inavyopanga uidhinishaji wa miradi, kile ambacho Cheti cha Uwekezaji kinafungua, na jinsi APIEX inavyowasaidia wawekezaji tangu mawasiliano ya kwanza hadi uendeshaji.",
+        "af": "Hoe Lei n.º 8/2023 projekgoedkeuring reël, wat die beleggingsertifikaat ontsluit, en hoe APIEX beleggers van eerste kontak tot bedryf ondersteun."
       },
       "topic": "investment",
       "sources": ["apiex-2026", "lexafrica-2025"]
@@ -122,12 +187,22 @@
       "title": {
         "pt": "Constituir uma empresa",
         "en": "Setting up a company",
-        "fr": "Créer une société"
+        "fr": "Créer une société",
+        "zh": "设立公司",
+        "ar": "تأسيس شركة",
+        "hi": "कंपनी स्थापित करना",
+        "sw": "Kuanzisha kampuni",
+        "af": "Stigting van 'n maatskappy"
       },
       "summary": {
         "pt": "As formas societárias disponíveis, os oito passos da constituição de uma sociedade, os documentos de cada passo e o procedimento próprio das sucursais.",
         "en": "The business forms available, the eight steps to incorporate a company, the documents each step produces, and the separate procedure for branches.",
-        "fr": "Les formes de société disponibles, les huit étapes de la constitution, les documents de chaque étape et la procédure propre aux succursales."
+        "fr": "Les formes de société disponibles, les huit étapes de la constitution, les documents de chaque étape et la procédure propre aux succursales.",
+        "zh": "可选的企业形式、设立公司的八个步骤、每一步产生的文件，以及分公司的单独程序。",
+        "ar": "الأشكال القانونية المتاحة للأعمال، والخطوات الثماني لتأسيس شركة، والمستندات التي تنتج عن كل خطوة، والإجراء المستقل الخاص بالفروع.",
+        "hi": "उपलब्ध व्यावसायिक स्वरूप, कंपनी निगमन के आठ चरण, प्रत्येक चरण में मिलने वाले दस्तावेज़, और शाखाओं (branches) के लिए अलग प्रक्रिया।",
+        "sw": "Aina za biashara zilizopo, hatua nane za kusajili kampuni, nyaraka zinazotolewa na kila hatua, na utaratibu tofauti kwa matawi.",
+        "af": "Die beskikbare sakevorme, die agt stappe om 'n maatskappy in te lyf, die dokumente wat elke stap oplewer, en die afsonderlike prosedure vir takke."
       },
       "topic": "companies",
       "sources": ["ta-registration", "lexafrica-2025"]
@@ -137,12 +212,22 @@
       "title": {
         "pt": "O percurso do investimento",
         "en": "The investment journey",
-        "fr": "Le parcours de l'investissement"
+        "fr": "Le parcours de l'investissement",
+        "zh": "投资历程",
+        "ar": "رحلة الاستثمار",
+        "hi": "निवेश की यात्रा",
+        "sw": "Safari ya uwekezaji",
+        "af": "Die beleggingsreis"
       },
       "summary": {
         "pt": "As três fases de qualquer investimento — explorar, estabelecer, operar — com os passos, as entidades e os prazos indicativos, e os passos adicionais de cada sector.",
         "en": "The three phases of any investment — explore, establish, operate — with the steps, institutions and indicative timelines, plus the extra steps each sector adds.",
-        "fr": "Les trois phases de tout investissement — explorer, s'établir, exploiter — avec les étapes, les institutions et les délais indicatifs, et les étapes propres à chaque secteur."
+        "fr": "Les trois phases de tout investissement — explorer, s'établir, exploiter — avec les étapes, les institutions et les délais indicatifs, et les étapes propres à chaque secteur.",
+        "zh": "任何投资的三个阶段——探索、设立、运营——包括各步骤、相关机构和参考时间，以及各行业额外增加的步骤。",
+        "ar": "المراحل الثلاث لأي استثمار — الاستكشاف والتأسيس والتشغيل — مع الخطوات والمؤسسات والجداول الزمنية التقريبية، إضافة إلى الخطوات الإضافية التي يفرضها كل قطاع.",
+        "hi": "किसी भी निवेश के तीन चरण — खोज, स्थापना, संचालन — चरणों, संस्थाओं और सांकेतिक समय-सीमाओं के साथ, तथा प्रत्येक क्षेत्र द्वारा जोड़े जाने वाले अतिरिक्त चरण।",
+        "sw": "Awamu tatu za uwekezaji wowote — chunguza, anzisha, endesha — pamoja na hatua, taasisi na muda elekezi, na hatua za ziada ambazo kila sekta huongeza.",
+        "af": "Die drie fases van enige belegging — verken, vestig, bedryf — met die stappe, instellings en aanduidende tydlyne, plus die ekstra stappe wat elke sektor byvoeg."
       },
       "topic": "licensing",
       "sources": ["apiex-2026"]
@@ -152,12 +237,22 @@
       "title": {
         "pt": "Zonas económicas e corredores",
         "en": "Economic zones and corridors",
-        "fr": "Zones économiques et corridors"
+        "fr": "Zones économiques et corridors",
+        "zh": "经济区与交通走廊",
+        "ar": "المناطق الاقتصادية والممرات",
+        "hi": "आर्थिक क्षेत्र और कॉरिडोर",
+        "sw": "Kanda za kiuchumi na shoroba",
+        "af": "Ekonomiese sones en korridors"
       },
       "summary": {
         "pt": "Zonas Económicas Especiais, Zonas Francas Industriais e parques da MozParks: incentivos, onde ficam e como se ligam aos corredores de Maputo, Beira e Nacala.",
         "en": "Special Economic Zones, Industrial Free Zones and MozParks parks: their incentives, where they are, and how they connect to the Maputo, Beira and Nacala corridors.",
-        "fr": "Zones économiques spéciales, zones franches industrielles et parcs MozParks : leurs incitations, leur localisation et leur lien avec les corridors de Maputo, Beira et Nacala."
+        "fr": "Zones économiques spéciales, zones franches industrielles et parcs MozParks : leurs incitations, leur localisation et leur lien avec les corridors de Maputo, Beira et Nacala.",
+        "zh": "经济特区、工业自由区和 MozParks 园区：其优惠政策、所在位置，以及与马普托、贝拉和纳卡拉走廊的连接。",
+        "ar": "المناطق الاقتصادية الخاصة والمناطق الصناعية الحرة ومجمّعات MozParks: حوافزها ومواقعها وكيفية ارتباطها بممرات Maputo وBeira وNacala.",
+        "hi": "विशेष आर्थिक क्षेत्र (SEZ), औद्योगिक मुक्त क्षेत्र (IFZ) और MozParks पार्क: उनके प्रोत्साहन, वे कहाँ स्थित हैं, और वे Maputo, Beira और Nacala कॉरिडोर से कैसे जुड़ते हैं।",
+        "sw": "Kanda Maalum za Kiuchumi, Kanda Huru za Viwanda na hifadhi za MozParks: vivutio vyake, mahali zilipo, na jinsi zinavyounganishwa na shoroba za Maputo, Beira na Nacala.",
+        "af": "Spesiale ekonomiese sones, industriële vrysones en MozParks-parke: hul aansporings, waar hulle is en hoe hulle by die Maputo-, Beira- en Nacala-korridors aansluit."
       },
       "topic": "incentives",
       "sources": ["apiex-2026"]
@@ -167,12 +262,22 @@
       "title": {
         "pt": "Impostos",
         "en": "Tax",
-        "fr": "Fiscalité"
+        "fr": "Fiscalité",
+        "zh": "税务",
+        "ar": "الضرائب",
+        "hi": "कर",
+        "sw": "Kodi",
+        "af": "Belasting"
       },
       "summary": {
         "pt": "As taxas principais para residentes e não residentes, as retenções na fonte, os acordos de dupla tributação e os benefícios fiscais ao investimento.",
         "en": "The main rates for residents and non-residents, withholding taxes, double tax treaties and the tax incentives for investment.",
-        "fr": "Les principaux taux pour résidents et non-résidents, les retenues à la source, les conventions fiscales et les incitations fiscales à l'investissement."
+        "fr": "Les principaux taux pour résidents et non-résidents, les retenues à la source, les conventions fiscales et les incitations fiscales à l'investissement.",
+        "zh": "居民和非居民适用的主要税率、预提税、避免双重征税协定以及投资税收优惠。",
+        "ar": "المعدلات الرئيسية للمقيمين وغير المقيمين، والضرائب المقتطعة، واتفاقيات تجنّب الازدواج الضريبي، والحوافز الضريبية للاستثمار.",
+        "hi": "निवासियों और अनिवासियों के लिए मुख्य कर दरें, स्रोत पर कटौती (withholding) कर, दोहरा कराधान संधियाँ और निवेश के लिए कर प्रोत्साहन।",
+        "sw": "Viwango vikuu kwa wakaazi na wasio wakaazi, kodi za zuio, mikataba ya kuepuka kutozwa kodi mara mbili na vivutio vya kodi kwa uwekezaji.",
+        "af": "Die vernaamste koerse vir inwoners en nie-inwoners, terughoudingsbelasting, dubbelbelastingverdrae en die belastingaansporings vir belegging."
       },
       "topic": "tax",
       "sources": ["ta-tax-indicators", "ta-dta", "lexafrica-2025", "apiex-2026"]
@@ -182,12 +287,22 @@
       "title": {
         "pt": "Trabalho e imigração",
         "en": "Labour and immigration",
-        "fr": "Travail et immigration"
+        "fr": "Travail et immigration",
+        "zh": "劳动与移民",
+        "ar": "العمل والهجرة",
+        "hi": "श्रम और आप्रवासन",
+        "sw": "Kazi na uhamiaji",
+        "af": "Arbeid en immigrasie"
       },
       "summary": {
         "pt": "A Lei do Trabalho, a segurança social, os salários mínimos, as quotas de trabalhadores estrangeiros e os vistos para investidores e quadros expatriados.",
         "en": "The Labour Law, social security, minimum wages, foreign-worker quotas and the visas for investors and expatriate staff.",
-        "fr": "La loi sur le travail, la sécurité sociale, les salaires minimums, les quotas de travailleurs étrangers et les visas des investisseurs et expatriés."
+        "fr": "La loi sur le travail, la sécurité sociale, les salaires minimums, les quotas de travailleurs étrangers et les visas des investisseurs et expatriés.",
+        "zh": "劳动法、社会保障、最低工资、外籍员工配额，以及投资者和外派员工的签证。",
+        "ar": "قانون العمل والضمان الاجتماعي والحد الأدنى للأجور وحصص العمال الأجانب والتأشيرات الخاصة بالمستثمرين والموظفين الوافدين.",
+        "hi": "श्रम कानून (Lei do Trabalho), सामाजिक सुरक्षा, न्यूनतम वेतन, विदेशी कर्मचारियों का कोटा, और निवेशकों व प्रवासी कर्मचारियों के लिए वीज़ा।",
+        "sw": "Sheria ya Kazi, hifadhi ya jamii, kima cha chini cha mshahara, viwango vya wafanyakazi wa kigeni na viza kwa wawekezaji na wafanyakazi wa kigeni.",
+        "af": "Die Arbeidswet, maatskaplike sekerheid, minimum lone, kwotas vir buitelandse werkers en die visums vir beleggers en uitgewekene personeel."
       },
       "topic": "labour",
       "sources": ["lexafrica-2025", "apiex-2026"]
@@ -197,12 +312,22 @@
       "title": {
         "pt": "Câmbios e movimentos de capital",
         "en": "Exchange control and capital",
-        "fr": "Contrôle des changes et capitaux"
+        "fr": "Contrôle des changes et capitaux",
+        "zh": "外汇管制与资本",
+        "ar": "الرقابة على الصرف ورأس المال",
+        "hi": "विदेशी मुद्रा नियंत्रण और पूँजी",
+        "sw": "Udhibiti wa fedha za kigeni na mtaji",
+        "af": "Valutabeheer en kapitaal"
       },
       "summary": {
         "pt": "Como registar o investimento estrangeiro, financiar a empresa com empréstimos de sócios, gerir receitas de exportação e repatriar lucros.",
         "en": "How to register foreign investment, fund the company with shareholder loans, handle export proceeds and repatriate profits.",
-        "fr": "Comment enregistrer l'investissement étranger, financer la société par des prêts d'associés, gérer les recettes d'exportation et rapatrier les bénéfices."
+        "fr": "Comment enregistrer l'investissement étranger, financer la société par des prêts d'associés, gérer les recettes d'exportation et rapatrier les bénéfices.",
+        "zh": "如何登记外国投资、以股东贷款为公司注资、处理出口收入以及汇回利润。",
+        "ar": "كيفية تسجيل الاستثمار الأجنبي، وتمويل الشركة بقروض المساهمين، والتعامل مع حصيلة الصادرات، وإعادة الأرباح إلى الخارج.",
+        "hi": "विदेशी निवेश का पंजीकरण कैसे करें, शेयरधारक ऋणों से कंपनी को वित्तपोषित कैसे करें, निर्यात आय का प्रबंधन कैसे करें और लाभ का प्रत्यावर्तन (repatriation) कैसे करें।",
+        "sw": "Jinsi ya kusajili uwekezaji wa kigeni, kufadhili kampuni kwa mikopo ya wabia, kushughulikia mapato ya mauzo ya nje na kurejesha faida nje ya nchi.",
+        "af": "Hoe om buitelandse belegging te registreer, die maatskappy met aandeelhouerslenings te finansier, uitvoeropbrengste te hanteer en winste te repatrieer."
       },
       "topic": "exchange",
       "sources": ["lexafrica-2025", "apiex-2026"]
@@ -212,12 +337,22 @@
       "title": {
         "pt": "Terra, ambiente e financiamento",
         "en": "Land, environment and finance",
-        "fr": "Terre, environnement et financement"
+        "fr": "Terre, environnement et financement",
+        "zh": "土地、环境与融资",
+        "ar": "الأراضي والبيئة والتمويل",
+        "hi": "भूमि, पर्यावरण और वित्त",
+        "sw": "Ardhi, mazingira na fedha",
+        "af": "Grond, omgewing en finansiering"
       },
       "summary": {
         "pt": "O direito de uso da terra (DUAT), a consulta às comunidades, o licenciamento ambiental, os padrões ESG exigidos pelos financiadores e as fontes de financiamento.",
         "en": "Land use rights (DUAT), community consultation, environmental licensing, the ESG standards lenders require and the sources of finance.",
-        "fr": "Le droit d'usage de la terre (DUAT), la consultation des communautés, l'autorisation environnementale, les normes ESG exigées par les prêteurs et les sources de financement."
+        "fr": "Le droit d'usage de la terre (DUAT), la consultation des communautés, l'autorisation environnementale, les normes ESG exigées par les prêteurs et les sources de financement.",
+        "zh": "土地使用权（DUAT）、社区咨询、环境许可、贷款机构要求的 ESG 标准以及融资来源。",
+        "ar": "حقوق الانتفاع بالأراضي (DUAT)، والتشاور مع المجتمعات المحلية، والترخيص البيئي، ومعايير ESG التي تشترطها جهات الإقراض، ومصادر التمويل.",
+        "hi": "भूमि उपयोग अधिकार (DUAT), समुदाय परामर्श, पर्यावरण लाइसेंसिंग, ऋणदाताओं द्वारा अपेक्षित ESG मानक और वित्त के स्रोत।",
+        "sw": "Haki za matumizi ya ardhi (DUAT), mashauriano na jamii, leseni za mazingira, viwango vya ESG vinavyotakiwa na wakopeshaji na vyanzo vya fedha.",
+        "af": "Grondgebruiksregte (DUAT), gemeenskapskonsultasie, omgewingslisensiëring, die ESG-standaarde wat finansierders vereis en die bronne van finansiering."
       },
       "topic": "land",
       "sources": ["apiex-2026", "lexafrica-2025"]
@@ -227,12 +362,22 @@
       "title": {
         "pt": "Protecção do investidor e litígios",
         "en": "Investor protection and disputes",
-        "fr": "Protection de l'investisseur et litiges"
+        "fr": "Protection de l'investisseur et litiges",
+        "zh": "投资者保护与争议解决",
+        "ar": "حماية المستثمر والنزاعات",
+        "hi": "निवेशक संरक्षण और विवाद",
+        "sw": "Ulinzi wa mwekezaji na migogoro",
+        "af": "Beleggersbeskerming en geskille"
       },
       "summary": {
         "pt": "As garantias legais do investimento, o sistema judicial e a arbitragem, os tratados de protecção de investimentos, o controlo de concentrações e a propriedade intelectual.",
         "en": "The legal guarantees for investment, the courts and arbitration, investment protection treaties, merger control and intellectual property.",
-        "fr": "Les garanties légales de l'investissement, les tribunaux et l'arbitrage, les traités de protection des investissements, le contrôle des concentrations et la propriété intellectuelle."
+        "fr": "Les garanties légales de l'investissement, les tribunaux et l'arbitrage, les traités de protection des investissements, le contrôle des concentrations et la propriété intellectuelle.",
+        "zh": "投资的法律保障、法院与仲裁、投资保护协定、并购审查和知识产权。",
+        "ar": "الضمانات القانونية للاستثمار، والمحاكم والتحكيم، ومعاهدات حماية الاستثمار، والرقابة على الاندماجات، والملكية الفكرية.",
+        "hi": "निवेश की कानूनी गारंटियाँ, न्यायालय और मध्यस्थता (arbitration), निवेश संरक्षण संधियाँ, विलय नियंत्रण और बौद्धिक संपदा।",
+        "sw": "Dhamana za kisheria za uwekezaji, mahakama na usuluhishi, mikataba ya ulinzi wa uwekezaji, udhibiti wa muunganiko wa kampuni na miliki bunifu.",
+        "af": "Die regswaarborge vir belegging, die howe en arbitrasie, beleggingsbeskermingsverdrae, samesmeltingsbeheer en intellektuele eiendom."
       },
       "topic": "investment",
       "sources": ["lexafrica-2025", "apiex-2026"]

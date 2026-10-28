@@ -5,6 +5,7 @@ import { treatyRate } from '@core/domain/rules-engine';
 import { RULE_SET } from '@core/domain/rule-set.data';
 import { PROVINCE_NAMES } from '@core/domain/provinces';
 import { renderTemplate, type TemplateVars } from '@core/domain/template';
+import { pickText } from '@core/domain/text';
 import type { Locale, Project, QaAnswer, Vehicle } from '@core/domain/types';
 import { formatMoney, formatNumber } from '@core/i18n/format';
 import { AssessmentService, QaService, ReferenceData } from '@core/ports';
@@ -60,7 +61,7 @@ export class QaConversation {
   render(answer: QaAnswer, lang: Locale): string {
     const ctx = this.context;
     const vars: TemplateVars = ctx ? this.vars(ctx, lang) : {};
-    return renderTemplate(answer.body[lang], vars, { ctx: !!ctx });
+    return renderTemplate(pickText(answer.body, lang), vars, { ctx: !!ctx });
   }
 
   async ask(input: { text?: string; answerId?: string }, lang: Locale): Promise<void> {
@@ -117,12 +118,13 @@ export class QaConversation {
     const input = ctx.project.input;
     const country = this.countries.find((c) => c.code === input.investorCountry);
     return {
-      'ctx.projectTitle': ctx.project.title[lang],
-      'ctx.investorCountry': country?.name[lang] ?? input.investorCountry,
-      'ctx.treatyRate': treatyRate(input.investorCountry, this.countries, RULE_SET)[lang],
-      'ctx.province': PROVINCE_NAMES[input.province][lang],
+      'ctx.projectTitle': pickText(ctx.project.title, lang),
+      'ctx.investorCountry': country ? pickText(country.name, lang) : input.investorCountry,
+      'ctx.treatyRate': pickText(treatyRate(input.investorCountry, this.countries, RULE_SET), lang),
+      'ctx.province': pickText(PROVINCE_NAMES[input.province], lang),
       'ctx.vehicle':
-        RULE_SET.vehicles.options.find((o) => o.vehicle === ctx.vehicle)?.name[lang] ?? ctx.vehicle,
+        pickText(RULE_SET.vehicles.options.find((o) => o.vehicle === ctx.vehicle)?.name, lang) ||
+        ctx.vehicle,
       'ctx.workers': formatNumber(input.workers, lang),
       'ctx.foreignWorkers': formatNumber(input.foreignWorkers, lang),
       'ctx.investment': formatMoney(input.investmentUsd, 'USD', lang),

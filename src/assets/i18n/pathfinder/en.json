@@ -1,0 +1,114 @@
+{
+  "eyebrow": "Investment Pathfinder",
+  "progress": "Question {{n}} of {{total}}",
+  "progressLabel": "Pathfinder progress",
+  "why": "Why it matters:",
+  "back": "Back",
+  "continue": "Continue",
+  "build": "Build my roadmap",
+  "building": "Preparing your roadmap…",
+  "startOver": "Start over",
+  "voice": "Speak your idea",
+  "voiceStop": "Stop listening",
+  "disclaimer": "General information based on Mozambican law. Not legal advice.",
+  "askInstead": "Rather ask a question?",
+  "soFar": {
+    "title": "Your answers so far",
+    "empty": "Your answers will appear here as you go.",
+    "edit": "Change: {{q}}",
+    "sector": "Sector",
+    "province": "Province",
+    "size": "Investment",
+    "origin": "Investor",
+    "jobs": "Jobs",
+    "timing": "Start"
+  },
+  "example": {
+    "load": "Load an example",
+    "loaded": "Example loaded. Pick when you plan to start, then build the roadmap — or change any answer."
+  },
+  "sectors": {
+    "agro_industry": "Agro-industry",
+    "energy": "Energy",
+    "tourism": "Tourism",
+    "logistics": "Logistics",
+    "mining": "Mining",
+    "oil_gas": "Oil and gas",
+    "services": "Services",
+    "general": "Something else"
+  },
+  "sector": {
+    "title": "What will the business do?",
+    "why": "The sector decides which licences, environmental category and incentives apply.",
+    "ideaLabel": "Your idea in a sentence (optional)",
+    "ideaPlaceholder": "e.g. A cashew-processing plant exporting to India",
+    "ideaHint": "Tiva reads the sector from your idea; check it below.",
+    "legend": "Sector",
+    "required": "Choose the sector closest to your project.",
+    "next": "Next: where the project will be."
+  },
+  "province": {
+    "title": "Where will the project be?",
+    "why": "The province decides who approves some licences and which corridor and incentives apply.",
+    "unsure": "Not sure yet",
+    "unsureHint": "Tiva will use Maputo City for now. You can change it later.",
+    "required": "Choose a province, or “Not sure yet”.",
+    "next": "Next: investment size, jobs and when you plan to start."
+  },
+  "size": {
+    "title": "How much do you plan to invest?",
+    "why": "Size decides who approves the project at APIEX and whether the foreign investment meets the minimum for the guarantees on repatriating profits.",
+    "under": "Under {{v}}",
+    "over": "Over {{v}}",
+    "exact": "Or the exact amount (USD)",
+    "exactHint": "A range is enough for a first roadmap.",
+    "using": "Tiva will use {{v}} as an estimate.",
+    "required": "Choose a range or enter an amount of at least USD 1,000.",
+    "next": "Next: where the investment comes from."
+  },
+  "origin": {
+    "title": "Where does the investment come from?",
+    "why": "Your country decides whether a double taxation agreement lowers withholding tax, and foreign capital must be registered with Banco de Moçambique.",
+    "capitalLegend": "Capital",
+    "foreign": "Foreign",
+    "mixed": "Foreign and Mozambican",
+    "mozambican": "Mozambican",
+    "country": "Investor's country",
+    "countryPlaceholder": "Search for a country",
+    "countryHint": "Countries marked ADT have a double taxation agreement with Mozambique.",
+    "noCountry": "No country found",
+    "treaty": "ADT",
+    "required": "Choose the investor's country.",
+    "next": "Next: how many people you will employ."
+  },
+  "jobs": {
+    "title": "How many people will you employ?",
+    "why": "Headcount sets your foreign-worker quota under Lei n.º 13/2023: within it a notification is enough; above it you need work permits.",
+    "workers": "Total workers",
+    "foreign": "Of whom foreign",
+    "hint": "An estimate for the first year is fine.",
+    "summary": "{{n}} ({{f}} foreign)",
+    "required": "Enter whole numbers; foreign workers cannot exceed the total.",
+    "next": "Last: when you plan to start."
+  },
+  "timing": {
+    "title": "When do you plan to start?",
+    "why": "Timing tells Tiva which steps to start now: the environmental licence and land can take months, so they often run in parallel.",
+    "now": "Within 3 months",
+    "months3": "In 3 to 12 months",
+    "months12": "In more than a year",
+    "exploring": "Just exploring",
+    "required": "Choose when you plan to start.",
+    "next": "Then Tiva builds your nine-step roadmap."
+  },
+  "facts": {
+    "legend": "Also tell us (optional)",
+    "hint": "Tick what applies. Each one adds a step or a check to your roadmap.",
+    "needsLand": "We need land (DUAT) for the project",
+    "importsGoods": "We will import equipment or goods",
+    "temporaryImport": "Some equipment comes in temporarily",
+    "exports": "We will export",
+    "shareholderLoan": "A shareholder loan or foreign financing",
+    "feesAbroad": "We will pay services or royalties abroad"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "eyebrow": "Kennisbiblioteek",
+  "title": "Die reg, in eenvoudige woorde",
+  "lead": "Tien onderwerpareas, van belegging tot die beslegting van geskille. Elke artikel word in eenvoudige taal verduidelik en gekoppel aan die wetgewing waaruit dit kom.",
+  "searchLabel": "Deursoek die biblioteek",
+  "searchPlaceholder": "Soek: DUAT, kwota vir buitelanders, BTW…",
+  "resultsCount": "Resultate: {{count}}",
+  "resultsTitle": "Resultate vir «{{query}}»",
+  "clear": "Vee soektog uit",
+  "noResults": "Nog niks in die biblioteek nie",
+  "noResultsText": "Probeer 'n ander woord, of vra Tiva: die antwoord kom met sy regsbron.",
+  "askTiva": "Vra Tiva",
+  "banner": {
+    "tag": "Nuwe wet",
+    "title": "Laerisiko-aktiwiteite: vooraf kennisgewing in plaas van 'n lisensie",
+    "text": "Decretos n.º 40/2026 e 41/2026 vereenvoudig lisensiëring via e-BAU. Van krag sedert 25 Oktober 2026.",
+    "cta": "Sien wat verander het"
+  },
+  "areasTitle": "Onderwerpareas",
+  "reviewed": "Laas hersien: {{date}}",
+  "articleOne": "1 artikel",
+  "articleMany": "{{count}} artikels",
+  "areas": {
+    "start": {
+      "title": "Begin hier",
+      "tags": "Landoorsig"
+    },
+    "investment": {
+      "title": "Belegging en aansporings",
+      "tags": "APIEX · CBF · SEZ"
+    },
+    "companies": {
+      "title": "Maatskappystigting",
+      "tags": "Lda · SA · takke"
+    },
+    "licensing": {
+      "title": "Lisensiëring",
+      "tags": "e-BAU · sektorlisensies"
+    },
+    "tax": {
+      "title": "Belasting",
+      "tags": "IRPC · IVA · IRPS"
+    },
+    "labour": {
+      "title": "Arbeid en buitelanders",
+      "tags": "Kwotas · kontrakte"
+    },
+    "immigration": {
+      "title": "Immigrasie",
+      "tags": "Werkpermitte · DIRE"
+    },
+    "land": {
+      "title": "Grond en eiendom",
+      "tags": "DUAT · omgewing"
+    },
+    "exchange": {
+      "title": "Valutabeheer",
+      "tags": "Kapitaal · repatriasie"
+    },
+    "sectors": {
+      "title": "Sektorstelsels",
+      "tags": "Energie · mynbou · toerisme"
+    },
+    "disputes": {
+      "title": "Geskille en IE",
+      "tags": "Howe · arbitrasie"
+    }
+  },
+  "startHere": "Begin hier",
+  "allArticles": "Alle artikels",
+  "trust": "Elke artikel wys sy regsbron en die datum waarop dit laas hersien is. Algemene inligting, nie regsadvies nie.",
+  "article": {
+    "breadcrumb": "Broodkrummelpad",
+    "reviewedTag": "Hersien · {{date}}",
+    "versionLabel": "Artikeltaal",
+    "version": "Lees in",
+    "versionNote": "Portugees is die taal van die Mosambiekse reg: skakel na PT om die teks naaste aan die amptelike wetgewing te lees. Jou keuse verander slegs hierdie artikel.",
+    "onThisPage": "Op hierdie bladsy",
+    "sourceTitle": "Bronwetgewing",
+    "diplomaReviewed": "Verwysing hersien {{date}}",
+    "basedOn": "Gebaseer op:",
+    "ask": "Vra Tiva oor hierdie artikel",
+    "askShort": "Vra Tiva",
+    "askQuestion": "Kan jy «{{topic}}» vir my projek verduidelik?",
+    "official": "Amptelike teks",
+    "step": "Stap",
+    "where": "Waar",
+    "time": "Aanduidende tyd",
+    "nextSteps": "Volgende stappe",
+    "nextProject": "Pas dit toe op my projek",
+    "nextExpert": "Praat met 'n kenner",
+    "pager": "Artikelnavigasie",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "missingTitle": "Artikel nie gevind nie",
+    "missingText": "Hierdie artikel bestaan nie of is geskuif.",
+    "missingBack": "Terug na die biblioteek"
+  }
+}

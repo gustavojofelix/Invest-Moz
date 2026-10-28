@@ -3,11 +3,7 @@
   "$id": "guide-index.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "lastReviewed",
-    "sources",
-    "chapters"
-  ],
+  "required": ["lastReviewed", "sources", "chapters"],
   "properties": {
     "lastReviewed": {
       "$ref": "common.schema.json#/definitions/isoDate"
@@ -17,12 +13,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "title",
-          "publisher",
-          "date"
-        ],
+        "required": ["id", "title", "publisher", "date"],
         "properties": {
           "id": {
             "type": "string",
@@ -52,12 +43,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "title",
-          "summary",
-          "sources"
-        ],
+        "required": ["id", "title", "summary", "sources"],
         "properties": {
           "id": {
             "enum": [

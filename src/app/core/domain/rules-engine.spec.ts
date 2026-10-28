@@ -10,6 +10,7 @@ import {
 } from './rules-engine';
 import { COUNTRIES, CTX, custom, example } from './testing/fixtures';
 import type { Assessment } from './types';
+import { fillText } from './text';
 
 const run = (ref: string): Assessment => assess(example(ref), RULE_SET, CTX);
 const ids = <T extends { id: string }>(xs: T[]) => xs.map((x) => x.id);
@@ -269,7 +270,7 @@ describe('rules engine — custom input', () => {
             then: {
               recommended: 'sa' as const,
               alternatives: ['lda' as const],
-              reasoning: { pt: 'x', en: 'x', fr: 'x' },
+              reasoning: fillText({ pt: 'x', en: 'x', fr: 'x' }),
             },
           },
         ],

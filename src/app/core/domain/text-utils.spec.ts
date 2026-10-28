@@ -2,7 +2,7 @@ import { bestAnswer, chunkPhrases, scoreAnswer } from './qa-matcher';
 import { isExampleRef, newProjectRef, nextEnquiryRef } from './refs';
 import { inlineRefs, parseInline, parseRich } from './richtext';
 import { findPlaceholders, renderLocalized, renderTemplate } from './template';
-import { containsPhrase, normalize } from './text';
+import { containsPhrase, emptyText, fillText, normalize, pickText } from './text';
 import type { QaAnswer } from './types';
 import answersJson from '../../../assets/data/qa/answers.json';
 
@@ -22,13 +22,23 @@ describe('template', () => {
   });
 
   it('renders all locales with shared or per-locale vars', () => {
-    const text = { pt: 'p {{v}}', en: 'e {{v}}', fr: 'f {{v}}' };
-    expect(renderLocalized(text, { v: 1 })).toEqual({ pt: 'p 1', en: 'e 1', fr: 'f 1' });
-    expect(renderLocalized(text, { pt: { v: 'a' }, en: { v: 'b' } })).toEqual({
-      pt: 'p a',
-      en: 'e b',
-      fr: 'f {{v}}',
-    });
+    const text = fillText({ pt: 'p {{v}}', en: 'e {{v}}', fr: 'f {{v}}' });
+    const shared = renderLocalized(text, { v: 1 });
+    expect([shared.pt, shared.en, shared.fr, shared.zh]).toEqual(['p 1', 'e 1', 'f 1', 'e 1']);
+    const perLocale = renderLocalized(text, { pt: { v: 'a' }, en: { v: 'b' } });
+    expect([perLocale.pt, perLocale.en, perLocale.fr]).toEqual(['p a', 'e b', 'f {{v}}']);
+  });
+
+  it('picks a locale with English, then Portuguese, as fallback', () => {
+    expect(pickText({ pt: 'p', en: 'e' }, 'zh')).toBe('e');
+    expect(pickText({ pt: 'p' }, 'ar')).toBe('p');
+    expect(pickText(null, 'pt')).toBe('');
+    expect(Object.values(emptyText()).every((v) => v === '')).toBe(true);
+  });
+
+  it('normalises non-Latin scripts instead of dropping them', () => {
+    expect(normalize('Café, 投资!')).toBe('cafe 投资');
+    expect(containsPhrase(normalize('استثمار في موزمبيق'), 'موزمبيق')).toBe(true);
   });
 
   it('finds placeholders', () => {

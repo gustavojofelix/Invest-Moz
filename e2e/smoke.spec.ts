@@ -1,154 +1,143 @@
 import { expect, test, type Page } from '@playwright/test';
-import { readFileSync } from 'node:fs';
 
 /**
- * Demo smoke flow (PT on a 360px phone, EN on a 1440px desktop):
- * landing → intake (cashew example) → assessment → Q&A with a citation →
- * enquiry → demo login from the landing page → the enquiry is in the inbox.
- * Plus the investor guide: landing → guide index → chapter → next chapter.
+ * Tiva smoke flows (PT on a 360px phone, EN on a 1440px desktop):
+ * idea on the landing → chat; example roadmap with nine steps → expert handoff
+ * with consent → the lead in the back office. Plus the library, Arabic RTL and a
+ * walk through all 23 screens with no console errors and no horizontal scroll.
  */
-type Dict = Record<string, unknown>;
-const load = (path: string): Dict =>
-  JSON.parse(readFileSync(`src/assets/i18n/${path}`, 'utf8')) as Dict;
-const get = (dict: Dict, key: string): string =>
-  key.split('.').reduce<unknown>((node, k) => (node as Dict)[k], dict) as string;
+const REF = 'TA-IM-EX01';
 
-function strings(lang: string) {
-  const global = load(`${lang}.json`);
-  const scopes: Record<string, Dict> = {};
-  for (const s of ['landing', 'guide', 'intake', 'assessment', 'qa', 'enquiry', 'inbox'])
-    scopes[s] = load(`${s}/${lang}.json`);
-  return (key: string) => {
-    const [scope, ...rest] = key.split('.');
-    return scopes[scope] ? get(scopes[scope], rest.join('.')) : get(global, key);
-  };
+function collectErrors(page: Page): string[] {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
+  return errors;
 }
 
 async function expectNoHorizontalScroll(page: Page) {
-  const overflow = await page.evaluate(
-    () => document.documentElement.scrollWidth - window.innerWidth,
-  );
-  expect(overflow).toBeLessThanOrEqual(0);
+  // Compare with the configured viewport: mobile emulation zooms out to fit wide
+  // content, which would make window.innerWidth grow with the overflow.
+  const width = page.viewportSize()?.width ?? 0;
+  const scrollWidth = await page.evaluate(() => document.documentElement.scrollWidth);
+  expect(scrollWidth).toBeLessThanOrEqual(width);
 }
 
-test('demo flow: project → assessment → question → enquiry → inbox', async ({ page }, testInfo) => {
-  const lang = (testInfo.project.metadata as { lang: string }).lang;
-  const t = strings(lang);
-  const errors: string[] = [];
-  page.on('pageerror', (e) => errors.push(e.message));
-  page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
+const langOf = (info: { project: { metadata: unknown } }) =>
+  (info.project.metadata as { lang: string }).lang;
 
-  // Landing ----------------------------------------------------------------
+test('idea → chat → roadmap → expert → back-office lead', async ({ page }, info) => {
+  test.setTimeout(120_000);
+  const lang = langOf(info);
+  const errors = collectErrors(page);
+
+  // 1 · Landing: the idea box opens the chat with the idea as first message.
   await page.goto(`/${lang}`);
-  await expect(page.getByRole('heading', { level: 1, name: 'Invest Moz' })).toBeVisible();
-  await expect(page.getByText(t('landing.demo.title'))).toBeVisible();
-  await expectNoHorizontalScroll(page);
-  await page.getByRole('link', { name: t('landing.hero.primary') }).click();
-
-  // Intake: load the cashew example and submit --------------------------------
-  await expect(page.getByRole('heading', { level: 1, name: t('intake.title') })).toBeVisible();
-  await page.getByRole('button', { name: t('intake.loadExample') }).click();
-  await page.getByRole('menuitem').first().click();
-  await expect(page.locator('#idea')).toHaveValue(/caju/);
-  await page.getByRole('button', { name: t('intake.submit') }).click();
-  await expect(page.getByText(t('intake.preparing.title'))).toBeVisible();
-
-  // Assessment ----------------------------------------------------------------
-  await page.waitForURL(`**/${lang}/assessment/TA-IM-EX01`);
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-  await expect(page.getByText(t('assessment.recommended'), { exact: true })).toBeVisible();
-  await expect(page.getByText('Ref. TA-IM-EX01', { exact: true })).toBeVisible();
+  await expectNoHorizontalScroll(page);
+  await page.locator('#idea').fill('Cashew processing plant in Nampula, about USD 2 million');
+  await page.locator('#idea').press('Enter');
+
+  // 5 · Chat: Tiva answers with legal sources.
+  await page.waitForURL(`**/${lang}/chat**`);
+  await expect(page.locator('main')).toContainText(/Lei n\.º|Decreto|APIEX/, { timeout: 20_000 });
   await expectNoHorizontalScroll(page);
 
-  // Q&A: flagship dividends question + citation sheet ---------------------------
-  await page
-    .getByRole('button', { name: t('assessment.actions.ask') })
-    .first()
-    .click();
-  await page.waitForURL(`**/${lang}/questions`);
-  await page.goto(`/${lang}/questions/exchange`);
-  await page.locator('.suggestion').first().click();
-  await expect(page.getByText(t('ui.answer.whenToTalk')).first()).toBeVisible({ timeout: 20_000 });
-  await page
-    .locator('im-answer-block')
-    .getByRole('button', { name: /11\/2009/ })
-    .first()
-    .click();
-  const sheet = page.getByRole('dialog');
-  await expect(sheet).toBeVisible();
-  await expect(sheet.getByText(t('ui.citation.illustrative'), { exact: true })).toBeVisible();
-  await page.keyboard.press('Escape');
-  await expect(sheet).toBeHidden();
-
-  // Enquiry ----------------------------------------------------------------------
-  await page
-    .getByRole('button', { name: t('ui.answer.talkCta') })
-    .first()
-    .click();
-  await page.waitForURL(`**/${lang}/contact`);
-  await page.locator('#name').fill('Priya Raman');
-  await page.locator('#company').fill('Coromandel Agro Exports');
-  await page.locator('#email').fill('priya@example.com');
-  await page.locator('#message').fill('We would like a proposal for the Nampula cashew plant.');
-  await page.getByRole('button', { name: t('enquiry.submit') }).click();
-  await page.waitForURL(`**/${lang}/contact/sent/**`);
-  const ref = (await page.locator('.font-mono.text-xl').innerText()).trim();
-  expect(ref).toMatch(/^TA-IM-\d{4}-\d{4}$/);
-
-  // Demo login from the landing page → inbox ----------------------------------------
-  await page.goto(`/${lang}`);
-  await page.getByRole('button', { name: t('landing.demo.cta') }).click();
-  await page.waitForURL(`**/${lang}/inbox`);
-  const row = page.getByRole('link', { name: new RegExp(ref) });
-  await expect(row).toBeVisible();
-  await expect(row.locator('im-section-label', { hasText: t('inbox.newBadge') })).toBeVisible();
-  await row.click();
-  await expect(
-    page.getByRole('heading', { level: 1, name: 'Coromandel Agro Exports' }),
-  ).toBeVisible();
+  // 6 · Roadmap for the example project: nine steps, tick one off.
+  await page.goto(`/${lang}/roadmap/${REF}`);
+  await expect(page.locator('[id^="step-"]:not([id^="step-body-"])')).toHaveCount(9);
   await expectNoHorizontalScroll(page);
+
+  // 9 · Talk to an expert, with consent.
+  await page.goto(`/${lang}/expert?from=roadmap`);
+  await page.locator('#ex-name').fill('Ana Teste');
+  await page.locator('#ex-company').fill('Caju Lda');
+  await page.locator('#ex-email').fill('ana@example.com');
+  await page.getByRole('checkbox').last().check();
+  await page.locator('form button[type="submit"]').click();
+
+  // 10 · Call requested.
+  await page.waitForURL(`**/${lang}/expert/sent/**`);
+  const ref = page.url().split('/').pop() as string;
+  await expect(page.locator('main')).toContainText(ref);
+
+  // Back office: sign in with the prefilled demo credentials, the lead is there.
+  await page.goto(`/${lang}/login`);
+  await page.locator('form button[type="submit"]').click();
+  await page.waitForURL(`**/${lang}/office/**`);
+  await page.goto(`/${lang}/office/leads`);
+  await expect(page.locator('main')).toContainText('Caju Lda');
 
   expect(errors).toEqual([]);
 });
 
-test('investor guide: landing → index → chapter → next chapter', async ({ page }, testInfo) => {
-  const lang = (testInfo.project.metadata as { lang: string }).lang;
-  const t = strings(lang);
-  const index = JSON.parse(readFileSync('src/assets/data/guide/index.json', 'utf8')) as {
-    chapters: { id: string; title: Record<string, string> }[];
-  };
-  const [first, second] = index.chapters;
-  const errors: string[] = [];
-  page.on('pageerror', (e) => errors.push(e.message));
-  page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
-
-  await page.goto(`/${lang}`);
-  await page.getByRole('link', { name: t('landing.hero.guide') }).click();
-  await page.waitForURL(`**/${lang}/guide`);
-  await expect(page.getByRole('heading', { level: 1, name: t('guide.title') })).toBeVisible();
-  await expect(page.getByRole('link', { name: new RegExp(first.title[lang]) })).toHaveCount(1);
+test('library → article', async ({ page }, info) => {
+  const lang = langOf(info);
+  const errors = collectErrors(page);
+  await page.goto(`/${lang}/library`);
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+  await page.goto(`/${lang}/library/investment-law`);
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+  await expect(page.locator('main')).toContainText('8/2023');
   await expectNoHorizontalScroll(page);
-
-  await page.getByRole('link', { name: new RegExp(first.title[lang]) }).click();
-  await page.waitForURL(`**/${lang}/guide/${first.id}`);
-  await expect(page.getByRole('heading', { level: 1, name: first.title[lang] })).toBeVisible();
-  await expect(page.locator('article section[id]').first()).toBeVisible();
-  await expectNoHorizontalScroll(page);
-
-  await page
-    .getByRole('link', { name: new RegExp(second.title[lang]) })
-    .last()
-    .click();
-  await page.waitForURL(`**/${lang}/guide/${second.id}`);
-  await expect(page.getByRole('heading', { level: 1, name: second.title[lang] })).toBeVisible();
-  await expectNoHorizontalScroll(page);
-
   expect(errors).toEqual([]);
 });
 
-test('language switch keeps the page', async ({ page }) => {
-  await page.goto('/pt/questions/tax');
-  await page.locator('im-site-footer').getByRole('link', { name: /EN/ }).click();
-  await page.waitForURL('**/en/questions/tax');
-  await expect(page.locator('html')).toHaveAttribute('lang', 'en-GB');
+test('Arabic is right-to-left and Chinese renders', async ({ page }) => {
+  const errors = collectErrors(page);
+  await page.goto('/ar');
+  await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'ar');
+  await expectNoHorizontalScroll(page);
+  await page.goto('/zh/library');
+  await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+  expect(errors).toEqual([]);
+});
+
+test('all 23 screens render', async ({ page }, info) => {
+  test.setTimeout(180_000);
+  const lang = langOf(info);
+  const errors = collectErrors(page);
+  const screens = [
+    '',
+    `roadmap/${REF}/pdf`,
+    'welcome',
+    'pathfinder',
+    'chat',
+    `roadmap/${REF}`,
+    'map',
+    'incentives',
+    'expert',
+    'library',
+    'library/tax',
+    'documents?step=apiex',
+    'directory',
+    'aftercare',
+    'alerts',
+    'whatsapp',
+  ];
+  for (const s of screens) {
+    await page.goto(`/${lang}/${s}`);
+    await expect(page.locator('h1').first()).toBeVisible();
+    // The PDF screen is an A4 sheet by design.
+    if (!s.endsWith('/pdf')) await expectNoHorizontalScroll(page);
+  }
+  // Back office (18–23) behind the demo login.
+  await page.goto(`/${lang}/login`);
+  await page.locator('form button[type="submit"]').click();
+  await page.waitForURL(`**/${lang}/office/**`);
+  for (const s of [
+    'queue',
+    'knowledge-base',
+    'conversations',
+    'leads',
+    'intelligence',
+    'partners',
+  ]) {
+    await page.goto(`/${lang}/office/${s}`);
+    await expect(page.locator('h1').first()).toBeVisible();
+    await expectNoHorizontalScroll(page);
+  }
+  expect(errors).toEqual([]);
 });

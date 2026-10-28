@@ -1,0 +1,47 @@
+{
+  "eyebrow": "Carte des opportunités",
+  "title": "Explorer le Mozambique",
+  "intro": "Provinces, corridors de transport et zones économiques. Choisissez un secteur pour voir où il s'implante, puis une province pour le détail.",
+  "filter": "Filtrer par secteur",
+  "all": "Tous les secteurs",
+  "matches": "{{count}} provinces mises en évidence",
+  "mapLabel": "Carte du Mozambique avec provinces, corridors et zones économiques",
+  "pick": "Province",
+  "hint": "Sélectionnez une province",
+  "note": "Les positions sont indicatives. L'éligibilité aux zones et les avantages sont confirmés par l'APIEX.",
+  "legend": {
+    "ports": "Ports",
+    "cities": "Villes",
+    "corridors": "Corridors",
+    "zones": "Zones économiques",
+    "rovuma": "Bassin du Rovuma"
+  },
+  "card": {
+    "region": "Province sélectionnée",
+    "noCorridor": "Hors des corridors principaux",
+    "highlights": "Pourquoi ici",
+    "sectors": "Secteurs clés",
+    "zones": "Zones économiques et parcs",
+    "noZones": "Aucune zone économique ni aucun parc n'est encore répertorié dans cette province.",
+    "incentives": "Voir les avantages ici",
+    "ask": "Demander à Tiva",
+    "askQuestion": "Dans quoi puis-je investir à {{province}} ?",
+    "profile": "Profils sectoriels",
+    "empty": "Sélectionnez une province sur la carte ou dans la liste pour voir son corridor, ses secteurs clés et ses zones."
+  },
+  "kind": {
+    "sez": "ZES",
+    "ifz": "ZFI",
+    "park": "Parc industriel",
+    "tourism": "Zone touristique"
+  },
+  "sectors": {
+    "agro_industry": "Agro-industrie",
+    "energy": "Énergie",
+    "logistics": "Logistique",
+    "tourism": "Tourisme",
+    "oil_gas": "Pétrole et gaz",
+    "mining": "Mines",
+    "services": "Services"
+  }
+}

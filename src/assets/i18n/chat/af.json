@@ -1,0 +1,59 @@
+{
+  "back": "Terug na die tuisblad",
+  "status": "Beleggingsconcierge · aanlyn",
+  "new": "Nuwe gesprek",
+  "language": "Taal",
+  "thread": "Gesprek met Tiva",
+  "hello": "Hallo, ek is Tiva. Vertel my van jou beleggingsidee of vra 'n vraag oor belegging in Mosambiek. Ek antwoord uit inhoud wat deur prokureurs nagegaan is en wys die regsbron agter elke antwoord.",
+  "tryAsking": "Probeer vra",
+  "thinking": "Tiva gaan die nagegane bronne na",
+  "stopped": "Antwoord gestop.",
+  "sources": "Regsbronne",
+  "reviewed": "Inhoud deur prokureurs nagegaan · algemene inligting",
+  "whenToTalk": "Wanneer om met 'n kenner te praat",
+  "outline": {
+    "sector": "Sektor: {{sector}}",
+    "body": "'n Goeie projek om na te kyk. In breë trekke:\n\n- **Maatskappy:** 'n limitada (Lda) pas gewoonlik, en buitelandse aandeelhouers kan dit besit.\n- **Belegging:** registreer die projek by APIEX om toegang tot die waarborge en aansporings te kry.\n- **Lisensie:** aktiwiteits- of nywerheidslisensie, ingedien deur e-BAU.\n- **Geld:** registreer jou kapitaal by die Banco de Moçambique om later winste te repatrieer.\n\nJou padkaart omskep dit in nege geordende stappe vir jou sektor, provinsie en grootte."
+  },
+  "fallback": {
+    "text": "Ek het nog nie 'n antwoord hierop wat deur prokureurs nagegaan is nie, en ek raai liewer nie. Probeer een van hierdie vrae, of praat met 'n kenner wat na jou saak kan kyk.",
+    "suggested": "Voorgestelde vrae"
+  },
+  "roadmap": {
+    "ready": "Jou padkaart is gereed",
+    "steps": "{{count}} stappe · maatskappy, APIEX, grond, omgewing, lisensie, kapitaal, mense, belasting",
+    "open": "Maak padkaart oop"
+  },
+  "build": {
+    "eyebrow": "Volgende stap",
+    "title": "Bou my padkaart",
+    "text": "Ses kort vrae omskep jou idee in nege geordende stappe, elk met die owerheid en die wet daaragter.",
+    "cta": "Bou my padkaart"
+  },
+  "quick": {
+    "label": "Voorgestelde volgende vrae",
+    "incentives": "Watter aansporings is van toepassing?",
+    "permits": "Werkpermitte vir my bestuurders",
+    "expert": "Praat met 'n kenner"
+  },
+  "topics": "Onderwerpe",
+  "topicQuestions": "Vrae oor hierdie onderwerp",
+  "fieldLabel": "Stuur 'n boodskap aan Tiva",
+  "placeholder": "Vra enigiets oor belegging…",
+  "listening": "Luister… praat nou",
+  "voice": "Neem 'n stemnota op",
+  "voiceStop": "Stop opname",
+  "voiceUnavailable": "Stemnotas is nie in hierdie blaaier beskikbaar nie. Tik asseblief jou vraag.",
+  "send": "Stuur",
+  "stop": "Stop die antwoord",
+  "sectors": {
+    "agro_industry": "Agro-nywerheid",
+    "energy": "Energie",
+    "logistics": "Logistiek",
+    "tourism": "Toerisme",
+    "oil_gas": "Olie en gas",
+    "mining": "Mynbou",
+    "services": "Dienste",
+    "general": "Algemene handel"
+  }
+}

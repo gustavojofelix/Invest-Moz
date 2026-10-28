@@ -1,0 +1,893 @@
+{
+  "status": "illustrative",
+  "supplier": "mozTemplates",
+  "steps": [
+    {
+      "id": "entity",
+      "number": 1,
+      "title": {
+        "pt": "Escolher o tipo de sociedade e reservar o nome",
+        "en": "Choose the entity and reserve the name",
+        "fr": "Choisir la forme de société et réserver le nom",
+        "zh": "选择公司类型并预留名称",
+        "ar": "اختيار نوع الشركة وحجز الاسم",
+        "hi": "कंपनी का प्रकार चुनें और नाम आरक्षित करें",
+        "sw": "Chagua aina ya kampuni na uhifadhi jina",
+        "af": "Kies die maatskappyvorm en bespreek die naam"
+      },
+      "authority": {
+        "pt": "Conservatória do Registo de Entidades Legais",
+        "en": "Conservatória do Registo de Entidades Legais (legal-entities registry)",
+        "fr": "Conservatória do Registo de Entidades Legais (registre des entités)",
+        "zh": "Conservatória do Registo de Entidades Legais（法人实体登记处）",
+        "ar": "Conservatória do Registo de Entidades Legais (سجل الكيانات القانونية)",
+        "hi": "Conservatória do Registo de Entidades Legais (विधिक इकाई रजिस्ट्री)",
+        "sw": "Conservatória do Registo de Entidades Legais (sajili ya taasisi za kisheria)",
+        "af": "Conservatória do Registo de Entidades Legais (register van regsentiteite)"
+      },
+      "refs": ["dl-1-2022"],
+      "documents": [
+        {
+          "id": "name-reservation",
+          "kind": "upload",
+          "title": {
+            "pt": "Certidão de reserva de nome",
+            "en": "Name reservation certificate",
+            "fr": "Certificat de réservation de nom",
+            "zh": "名称预留证明",
+            "ar": "شهادة حجز الاسم",
+            "hi": "नाम आरक्षण प्रमाणपत्र",
+            "sw": "Cheti cha kuhifadhi jina",
+            "af": "Naambesprekingsertifikaat"
+          },
+          "hint": {
+            "pt": "Emitida pela Conservatória",
+            "en": "Issued by the Conservatória",
+            "fr": "Délivré par la Conservatória",
+            "zh": "由 Conservatória 签发",
+            "ar": "تصدرها الـ Conservatória",
+            "hi": "Conservatória द्वारा जारी",
+            "sw": "Hutolewa na Conservatória",
+            "af": "Uitgereik deur die Conservatória"
+          }
+        },
+        {
+          "id": "shareholder-id",
+          "kind": "upload",
+          "title": {
+            "pt": "Identificação dos sócios",
+            "en": "Shareholder identification",
+            "fr": "Identification des associés",
+            "zh": "股东身份证明",
+            "ar": "إثبات هوية الشركاء",
+            "hi": "शेयरधारकों की पहचान",
+            "sw": "Utambulisho wa wanahisa",
+            "af": "Identifikasie van aandeelhouers"
+          },
+          "hint": {
+            "pt": "Passaportes ou documentos da sociedade",
+            "en": "Passports or company documents",
+            "fr": "Passeports ou documents de la société",
+            "zh": "护照或公司文件",
+            "ar": "جوازات السفر أو وثائق الشركة",
+            "hi": "पासपोर्ट या कंपनी के दस्तावेज़",
+            "sw": "Pasipoti au nyaraka za kampuni",
+            "af": "Paspoorte of maatskappydokumente"
+          }
+        },
+        {
+          "id": "power-of-attorney",
+          "kind": "template",
+          "title": {
+            "pt": "Procuração para o representante local",
+            "en": "Power of attorney for the local representative",
+            "fr": "Procuration au représentant local",
+            "zh": "当地代表的授权委托书",
+            "ar": "توكيل للممثل المحلي",
+            "hi": "स्थानीय प्रतिनिधि के लिए मुख्तारनामा",
+            "sw": "Hati ya uwakilishi kwa mwakilishi wa ndani",
+            "af": "Volmag vir die plaaslike verteenwoordiger"
+          }
+        },
+        {
+          "id": "articles-draft",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Minuta do pacto social",
+            "en": "Draft articles of association",
+            "fr": "Projet de statuts",
+            "zh": "公司章程草案",
+            "ar": "مسودة النظام الأساسي للشركة",
+            "hi": "कंपनी के अंतर्नियमों का मसौदा",
+            "sw": "Rasimu ya katiba ya kampuni",
+            "af": "Konsep-oprigtingsakte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "incorporate",
+      "number": 2,
+      "title": {
+        "pt": "Constituir a empresa e obter o NUIT",
+        "en": "Incorporate and get a NUIT",
+        "fr": "Constituer la société et obtenir le NUIT",
+        "zh": "注册成立公司并取得 NUIT",
+        "ar": "تأسيس الشركة والحصول على NUIT",
+        "hi": "कंपनी का गठन करें और NUIT प्राप्त करें",
+        "sw": "Sajili kampuni na upate NUIT",
+        "af": "Stig die maatskappy en kry 'n NUIT"
+      },
+      "authority": {
+        "pt": "Conservatória e Autoridade Tributária",
+        "en": "Conservatória and Autoridade Tributária",
+        "fr": "Conservatória et Autoridade Tributária",
+        "zh": "Conservatória 和 Autoridade Tributária",
+        "ar": "الـ Conservatória والـ Autoridade Tributária",
+        "hi": "Conservatória और Autoridade Tributária",
+        "sw": "Conservatória na Autoridade Tributária",
+        "af": "Conservatória en Autoridade Tributária"
+      },
+      "refs": ["dl-1-2022", "cirpc"],
+      "documents": [
+        {
+          "id": "articles",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Pacto social",
+            "en": "Articles of association",
+            "fr": "Statuts",
+            "zh": "公司章程",
+            "ar": "النظام الأساسي للشركة",
+            "hi": "कंपनी के अंतर्नियम",
+            "sw": "Katiba ya kampuni",
+            "af": "Oprigtingsakte"
+          }
+        },
+        {
+          "id": "capital-deposit",
+          "kind": "upload",
+          "title": {
+            "pt": "Comprovativo de depósito do capital social",
+            "en": "Proof of share capital deposit",
+            "fr": "Preuve du dépôt du capital social",
+            "zh": "注册资本存款证明",
+            "ar": "إثبات إيداع رأس المال",
+            "hi": "शेयर पूंजी जमा का प्रमाण",
+            "sw": "Uthibitisho wa kuweka mtaji wa hisa",
+            "af": "Bewys van deposito van aandelekapitaal"
+          },
+          "hint": {
+            "pt": "Declaração do banco",
+            "en": "Bank statement or letter",
+            "fr": "Attestation bancaire",
+            "zh": "银行对账单或证明函",
+            "ar": "كشف حساب أو خطاب من البنك",
+            "hi": "बैंक स्टेटमेंट या पत्र",
+            "sw": "Taarifa ya benki au barua",
+            "af": "Bankstaat of -brief"
+          }
+        },
+        {
+          "id": "registry-certificate",
+          "kind": "upload",
+          "title": {
+            "pt": "Certidão do registo comercial",
+            "en": "Commercial registry certificate",
+            "fr": "Extrait du registre du commerce",
+            "zh": "商业登记证明",
+            "ar": "شهادة السجل التجاري",
+            "hi": "वाणिज्यिक रजिस्ट्री प्रमाणपत्र",
+            "sw": "Cheti cha usajili wa biashara",
+            "af": "Sertifikaat van die handelsregister"
+          }
+        },
+        {
+          "id": "br-publication",
+          "kind": "upload",
+          "title": {
+            "pt": "Publicação no Boletim da República",
+            "en": "Publication in the Boletim da República",
+            "fr": "Publication au Boletim da República",
+            "zh": "在 Boletim da República 上公告",
+            "ar": "النشر في Boletim da República",
+            "hi": "Boletim da República में प्रकाशन",
+            "sw": "Kuchapishwa katika Boletim da República",
+            "af": "Publikasie in die Boletim da República"
+          }
+        },
+        {
+          "id": "nuit-application",
+          "kind": "template",
+          "title": {
+            "pt": "Pedido de NUIT da empresa",
+            "en": "Company NUIT application",
+            "fr": "Demande de NUIT de la société",
+            "zh": "公司 NUIT 申请",
+            "ar": "طلب NUIT للشركة",
+            "hi": "कंपनी के NUIT के लिए आवेदन",
+            "sw": "Ombi la NUIT ya kampuni",
+            "af": "Aansoek om die maatskappy se NUIT"
+          }
+        }
+      ]
+    },
+    {
+      "id": "apiex",
+      "number": 3,
+      "title": {
+        "pt": "Registar o projecto na APIEX",
+        "en": "Register the project with APIEX",
+        "fr": "Enregistrer le projet auprès de l'APIEX",
+        "zh": "在 APIEX 登记项目",
+        "ar": "تسجيل المشروع لدى APIEX",
+        "hi": "APIEX में परियोजना पंजीकृत करें",
+        "sw": "Sajili mradi kwa APIEX",
+        "af": "Registreer die projek by APIEX"
+      },
+      "authority": {
+        "pt": "APIEX",
+        "en": "APIEX",
+        "fr": "APIEX",
+        "zh": "APIEX",
+        "ar": "APIEX",
+        "hi": "APIEX",
+        "sw": "APIEX",
+        "af": "APIEX"
+      },
+      "refs": ["lei-8-2023", "dec-8-2024"],
+      "documents": [
+        {
+          "id": "registry-certificate",
+          "kind": "upload",
+          "title": {
+            "pt": "Certidão do registo comercial",
+            "en": "Commercial registry certificate",
+            "fr": "Extrait du registre du commerce",
+            "zh": "商业登记证明",
+            "ar": "شهادة السجل التجاري",
+            "hi": "वाणिज्यिक रजिस्ट्री प्रमाणपत्र",
+            "sw": "Cheti cha usajili wa biashara",
+            "af": "Sertifikaat van die handelsregister"
+          }
+        },
+        {
+          "id": "articles",
+          "kind": "upload",
+          "title": {
+            "pt": "Pacto social",
+            "en": "Articles of association",
+            "fr": "Statuts",
+            "zh": "公司章程",
+            "ar": "النظام الأساسي للشركة",
+            "hi": "कंपनी के अंतर्नियम",
+            "sw": "Katiba ya kampuni",
+            "af": "Oprigtingsakte"
+          }
+        },
+        {
+          "id": "company-nuit",
+          "kind": "upload",
+          "title": {
+            "pt": "NUIT da empresa",
+            "en": "Company NUIT",
+            "fr": "NUIT de la société",
+            "zh": "公司 NUIT",
+            "ar": "NUIT الشركة",
+            "hi": "कंपनी का NUIT",
+            "sw": "NUIT ya kampuni",
+            "af": "Maatskappy se NUIT"
+          }
+        },
+        {
+          "id": "investment-proposal",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Formulário de proposta de investimento",
+            "en": "Investment proposal form",
+            "fr": "Formulaire de proposition d'investissement",
+            "zh": "投资提案表",
+            "ar": "استمارة مقترح الاستثمار",
+            "hi": "निवेश प्रस्ताव फ़ॉर्म",
+            "sw": "Fomu ya pendekezo la uwekezaji",
+            "af": "Beleggingsvoorstelvorm"
+          }
+        },
+        {
+          "id": "business-plan",
+          "kind": "template",
+          "title": {
+            "pt": "Plano de negócios",
+            "en": "Business plan",
+            "fr": "Plan d'affaires",
+            "zh": "商业计划书",
+            "ar": "خطة العمل",
+            "hi": "व्यवसाय योजना",
+            "sw": "Mpango wa biashara",
+            "af": "Sakeplan"
+          }
+        },
+        {
+          "id": "shareholder-id",
+          "kind": "upload",
+          "title": {
+            "pt": "Identificação dos sócios",
+            "en": "Shareholder identification",
+            "fr": "Identification des associés",
+            "zh": "股东身份证明",
+            "ar": "إثبات هوية الشركاء",
+            "hi": "शेयरधारकों की पहचान",
+            "sw": "Utambulisho wa wanahisa",
+            "af": "Identifikasie van aandeelhouers"
+          },
+          "hint": {
+            "pt": "Passaportes ou documentos da sociedade",
+            "en": "Passports or company documents",
+            "fr": "Passeports ou documents de la société",
+            "zh": "护照或公司文件",
+            "ar": "جوازات السفر أو وثائق الشركة",
+            "hi": "पासपोर्ट या कंपनी के दस्तावेज़",
+            "sw": "Pasipoti au nyaraka za kampuni",
+            "af": "Paspoorte of maatskappydokumente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "number": 4,
+      "title": {
+        "pt": "Garantir a terra: DUAT ou arrendamento",
+        "en": "Secure land use: DUAT or lease",
+        "fr": "Sécuriser le foncier : DUAT ou bail",
+        "zh": "取得土地使用权：DUAT 或租赁",
+        "ar": "تأمين استخدام الأرض: DUAT أو الإيجار",
+        "hi": "भूमि उपयोग सुनिश्चित करें: DUAT या पट्टा",
+        "sw": "Pata matumizi ya ardhi: DUAT au ukodishaji",
+        "af": "Verkry grondgebruik: DUAT of huur"
+      },
+      "authority": {
+        "pt": "Serviços de cadastro",
+        "en": "Cadastre services",
+        "fr": "Services du cadastre",
+        "zh": "地籍服务部门",
+        "ar": "مصالح المساحة العقارية",
+        "hi": "भू-अभिलेख (कैडस्ट्र) सेवाएँ",
+        "sw": "Huduma za upimaji ardhi",
+        "af": "Kadasterdienste"
+      },
+      "refs": ["lei-19-97"],
+      "documents": [
+        {
+          "id": "duat-application",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Pedido de DUAT",
+            "en": "DUAT application",
+            "fr": "Demande de DUAT",
+            "zh": "DUAT 申请",
+            "ar": "طلب DUAT",
+            "hi": "DUAT के लिए आवेदन",
+            "sw": "Ombi la DUAT",
+            "af": "DUAT-aansoek"
+          }
+        },
+        {
+          "id": "site-sketch",
+          "kind": "upload",
+          "title": {
+            "pt": "Esboço de localização do terreno",
+            "en": "Site location sketch",
+            "fr": "Croquis de localisation du terrain",
+            "zh": "地块位置草图",
+            "ar": "مخطط موقع الأرض",
+            "hi": "स्थल का स्थान-रेखाचित्र",
+            "sw": "Mchoro wa mahali kiwanja kilipo",
+            "af": "Liggingskets van die terrein"
+          }
+        },
+        {
+          "id": "community-minutes",
+          "kind": "upload",
+          "title": {
+            "pt": "Acta da consulta comunitária",
+            "en": "Community consultation minutes",
+            "fr": "Procès-verbal de la consultation communautaire",
+            "zh": "社区咨询会议纪要",
+            "ar": "محضر التشاور مع المجتمع المحلي",
+            "hi": "सामुदायिक परामर्श का कार्यवृत्त",
+            "sw": "Kumbukumbu za mashauriano na jamii",
+            "af": "Notule van die gemeenskapskonsultasie"
+          }
+        },
+        {
+          "id": "lease",
+          "kind": "template",
+          "title": {
+            "pt": "Contrato de arrendamento (se arrendar)",
+            "en": "Lease agreement (if leasing)",
+            "fr": "Contrat de bail (en cas de location)",
+            "zh": "租赁合同（如租赁）",
+            "ar": "عقد الإيجار (في حال الاستئجار)",
+            "hi": "पट्टा अनुबंध (यदि पट्टे पर लें)",
+            "sw": "Mkataba wa ukodishaji (ukikodisha)",
+            "af": "Huurooreenkoms (indien u huur)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "number": 5,
+      "title": {
+        "pt": "Licença ambiental",
+        "en": "Environmental licence",
+        "fr": "Licence environnementale",
+        "zh": "环境许可证",
+        "ar": "الترخيص البيئي",
+        "hi": "पर्यावरण लाइसेंस",
+        "sw": "Leseni ya mazingira",
+        "af": "Omgewingslisensie"
+      },
+      "authority": {
+        "pt": "Autoridade ambiental",
+        "en": "Environmental authority",
+        "fr": "Autorité environnementale",
+        "zh": "环境主管部门",
+        "ar": "السلطة البيئية",
+        "hi": "पर्यावरण प्राधिकरण",
+        "sw": "Mamlaka ya mazingira",
+        "af": "Omgewingsowerheid"
+      },
+      "refs": ["aia-regulation"],
+      "documents": [
+        {
+          "id": "env-screening",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Ficha de informação ambiental preliminar",
+            "en": "Preliminary environmental information form",
+            "fr": "Fiche d'information environnementale préliminaire",
+            "zh": "初步环境信息表",
+            "ar": "استمارة المعلومات البيئية الأولية",
+            "hi": "प्रारंभिक पर्यावरण सूचना फ़ॉर्म",
+            "sw": "Fomu ya taarifa za awali za mazingira",
+            "af": "Voorlopige omgewingsinligtingsvorm"
+          }
+        },
+        {
+          "id": "project-description",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Descrição do projecto",
+            "en": "Project description",
+            "fr": "Description du projet",
+            "zh": "项目说明",
+            "ar": "وصف المشروع",
+            "hi": "परियोजना विवरण",
+            "sw": "Maelezo ya mradi",
+            "af": "Projekbeskrywing"
+          }
+        },
+        {
+          "id": "env-study",
+          "kind": "upload",
+          "title": {
+            "pt": "Estudo ambiental",
+            "en": "Environmental study",
+            "fr": "Étude environnementale",
+            "zh": "环境研究报告",
+            "ar": "الدراسة البيئية",
+            "hi": "पर्यावरण अध्ययन",
+            "sw": "Utafiti wa mazingira",
+            "af": "Omgewingstudie"
+          },
+          "hint": {
+            "pt": "Simplificado ou completo, conforme a categoria",
+            "en": "Simplified or full, depending on the category",
+            "fr": "Simplifiée ou complète, selon la catégorie",
+            "zh": "根据类别为简化版或完整版",
+            "ar": "مبسطة أو كاملة حسب الفئة",
+            "hi": "श्रेणी के अनुसार सरलीकृत या पूर्ण",
+            "sw": "Iliyorahisishwa au kamili, kulingana na kundi",
+            "af": "Vereenvoudig of volledig, afhangende van die kategorie"
+          }
+        },
+        {
+          "id": "public-consultation",
+          "kind": "upload",
+          "title": {
+            "pt": "Relatório da consulta pública",
+            "en": "Public consultation report",
+            "fr": "Rapport de consultation publique",
+            "zh": "公众咨询报告",
+            "ar": "تقرير التشاور العام",
+            "hi": "सार्वजनिक परामर्श रिपोर्ट",
+            "sw": "Ripoti ya mashauriano ya umma",
+            "af": "Verslag oor die openbare konsultasie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "number": 6,
+      "title": {
+        "pt": "Licença da actividade no e-BAU",
+        "en": "Activity licence via e-BAU",
+        "fr": "Licence d'activité via l'e-BAU",
+        "zh": "通过 e-BAU 办理经营许可证",
+        "ar": "ترخيص النشاط عبر e-BAU",
+        "hi": "e-BAU के माध्यम से गतिविधि लाइसेंस",
+        "sw": "Leseni ya shughuli kupitia e-BAU",
+        "af": "Aktiwiteitslisensie via e-BAU"
+      },
+      "authority": {
+        "pt": "BAU / e-BAU",
+        "en": "BAU / e-BAU",
+        "fr": "BAU / e-BAU",
+        "zh": "BAU / e-BAU",
+        "ar": "BAU / e-BAU",
+        "hi": "BAU / e-BAU",
+        "sw": "BAU / e-BAU",
+        "af": "BAU / e-BAU"
+      },
+      "refs": ["dec-41-2026"],
+      "documents": [
+        {
+          "id": "ebau-application",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Pedido de licença ou comunicação prévia",
+            "en": "Licence application or prior notice",
+            "fr": "Demande de licence ou déclaration préalable",
+            "zh": "许可证申请或事先通知",
+            "ar": "طلب الترخيص أو الإخطار المسبق",
+            "hi": "लाइसेंस आवेदन या पूर्व सूचना",
+            "sw": "Ombi la leseni au taarifa ya awali",
+            "af": "Lisensieaansoek of vooraf kennisgewing"
+          }
+        },
+        {
+          "id": "registry-certificate",
+          "kind": "upload",
+          "title": {
+            "pt": "Certidão do registo comercial",
+            "en": "Commercial registry certificate",
+            "fr": "Extrait du registre du commerce",
+            "zh": "商业登记证明",
+            "ar": "شهادة السجل التجاري",
+            "hi": "वाणिज्यिक रजिस्ट्री प्रमाणपत्र",
+            "sw": "Cheti cha usajili wa biashara",
+            "af": "Sertifikaat van die handelsregister"
+          },
+          "hint": {
+            "pt": "Não é preciso reenviar se o Estado já o tiver",
+            "en": "No need to resend if the State already holds it",
+            "fr": "Inutile de le renvoyer si l'État le détient déjà",
+            "zh": "如国家已存有，无需重复提交",
+            "ar": "لا حاجة لإعادة إرسالها إذا كانت لدى الدولة",
+            "hi": "यदि राज्य के पास पहले से है तो दोबारा भेजने की ज़रूरत नहीं",
+            "sw": "Hakuna haja ya kutuma tena ikiwa Serikali tayari inayo",
+            "af": "Hoef nie weer gestuur te word as die Staat dit reeds het nie"
+          }
+        },
+        {
+          "id": "premises-title",
+          "kind": "upload",
+          "title": {
+            "pt": "Título ou contrato das instalações",
+            "en": "Title or lease of the premises",
+            "fr": "Titre ou bail des locaux",
+            "zh": "场所产权证明或租赁合同",
+            "ar": "سند ملكية المقر أو عقد إيجاره",
+            "hi": "परिसर का स्वामित्व-पत्र या पट्टा",
+            "sw": "Hati au mkataba wa ukodishaji wa majengo",
+            "af": "Titel of huurkontrak van die perseel"
+          }
+        },
+        {
+          "id": "env-licence",
+          "kind": "upload",
+          "title": {
+            "pt": "Licença ambiental, se aplicável",
+            "en": "Environmental licence, if applicable",
+            "fr": "Licence environnementale, le cas échéant",
+            "zh": "环境许可证（如适用）",
+            "ar": "الترخيص البيئي، إن وُجد",
+            "hi": "पर्यावरण लाइसेंस, यदि लागू हो",
+            "sw": "Leseni ya mazingira, ikihitajika",
+            "af": "Omgewingslisensie, indien van toepassing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "capital",
+      "number": 7,
+      "title": {
+        "pt": "Registar o capital estrangeiro no Banco de Moçambique",
+        "en": "Register foreign capital with Banco de Moçambique",
+        "fr": "Enregistrer le capital étranger auprès du Banco de Moçambique",
+        "zh": "在 Banco de Moçambique 登记外国资本",
+        "ar": "تسجيل رأس المال الأجنبي لدى Banco de Moçambique",
+        "hi": "Banco de Moçambique में विदेशी पूंजी पंजीकृत करें",
+        "sw": "Sajili mtaji wa kigeni kwa Banco de Moçambique",
+        "af": "Registreer buitelandse kapitaal by Banco de Moçambique"
+      },
+      "authority": {
+        "pt": "Banco de Moçambique, através do banco comercial",
+        "en": "Banco de Moçambique, through your commercial bank",
+        "fr": "Banco de Moçambique, via votre banque commerciale",
+        "zh": "Banco de Moçambique（通过您的商业银行办理）",
+        "ar": "Banco de Moçambique، عبر بنكك التجاري",
+        "hi": "Banco de Moçambique, आपके वाणिज्यिक बैंक के माध्यम से",
+        "sw": "Banco de Moçambique, kupitia benki yako ya biashara",
+        "af": "Banco de Moçambique, deur u handelsbank"
+      },
+      "refs": ["lei-11-2009", "aviso-3-gbm-2024"],
+      "documents": [
+        {
+          "id": "fdi-registration",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Pedido de registo do investimento directo estrangeiro",
+            "en": "Foreign direct investment registration request",
+            "fr": "Demande d'enregistrement de l'investissement direct étranger",
+            "zh": "外国直接投资登记申请",
+            "ar": "طلب تسجيل الاستثمار الأجنبي المباشر",
+            "hi": "प्रत्यक्ष विदेशी निवेश पंजीकरण अनुरोध",
+            "sw": "Ombi la usajili wa uwekezaji wa moja kwa moja kutoka nje",
+            "af": "Versoek om registrasie van direkte buitelandse belegging"
+          }
+        },
+        {
+          "id": "capital-inflow",
+          "kind": "upload",
+          "title": {
+            "pt": "Comprovativo de entrada dos fundos",
+            "en": "Proof of the funds coming in",
+            "fr": "Preuve de l'entrée des fonds",
+            "zh": "资金入账证明",
+            "ar": "إثبات دخول الأموال",
+            "hi": "धनराशि आने का प्रमाण",
+            "sw": "Uthibitisho wa fedha kuingia",
+            "af": "Bewys dat die fondse ingekom het"
+          },
+          "hint": {
+            "pt": "Transferência bancária do exterior",
+            "en": "Bank transfer from abroad",
+            "fr": "Virement bancaire depuis l'étranger",
+            "zh": "境外银行转账",
+            "ar": "تحويل مصرفي من الخارج",
+            "hi": "विदेश से बैंक हस्तांतरण",
+            "sw": "Uhamisho wa benki kutoka nje ya nchi",
+            "af": "Bankoorplasing uit die buiteland"
+          }
+        },
+        {
+          "id": "investment-certificate",
+          "kind": "upload",
+          "title": {
+            "pt": "Certificado de investimento da APIEX",
+            "en": "APIEX investment certificate",
+            "fr": "Certificat d'investissement de l'APIEX",
+            "zh": "APIEX 投资证书",
+            "ar": "شهادة الاستثمار الصادرة عن APIEX",
+            "hi": "APIEX निवेश प्रमाणपत्र",
+            "sw": "Cheti cha uwekezaji cha APIEX",
+            "af": "APIEX-beleggingsertifikaat"
+          }
+        },
+        {
+          "id": "loan-agreement",
+          "kind": "template",
+          "title": {
+            "pt": "Contrato de suprimentos (se houver empréstimo do sócio)",
+            "en": "Shareholder loan agreement (if any)",
+            "fr": "Contrat de prêt d'associé (le cas échéant)",
+            "zh": "股东贷款协议（如有）",
+            "ar": "اتفاقية قرض الشريك (إن وُجدت)",
+            "hi": "शेयरधारक ऋण अनुबंध (यदि कोई हो)",
+            "sw": "Mkataba wa mkopo wa mwanahisa (ikiwa upo)",
+            "af": "Aandeelhouerslening-ooreenkoms (indien enige)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "number": 8,
+      "title": {
+        "pt": "Contratar: quota de estrangeiros, autorizações de trabalho e DIRE",
+        "en": "Hire staff: expatriate quota, work permits and DIRE",
+        "fr": "Recruter : quota d'étrangers, permis de travail et DIRE",
+        "zh": "招聘员工：外籍员工配额、工作许可和 DIRE",
+        "ar": "توظيف العاملين: حصة الأجانب وتصاريح العمل وDIRE",
+        "hi": "कर्मचारी नियुक्त करें: प्रवासी कोटा, कार्य परमिट और DIRE",
+        "sw": "Ajiri wafanyakazi: kiwango cha wageni, vibali vya kazi na DIRE",
+        "af": "Stel personeel aan: kwota vir buitelanders, werkpermitte en DIRE"
+      },
+      "authority": {
+        "pt": "Ministério que tutela o trabalho e Serviço Nacional de Migração",
+        "en": "Labour ministry and Serviço Nacional de Migração",
+        "fr": "Ministère du Travail et Serviço Nacional de Migração",
+        "zh": "劳动主管部委和 Serviço Nacional de Migração",
+        "ar": "الوزارة المكلفة بالعمل وServiço Nacional de Migração",
+        "hi": "श्रम मंत्रालय और Serviço Nacional de Migração",
+        "sw": "Wizara ya kazi na Serviço Nacional de Migração",
+        "af": "Ministerie van Arbeid en Serviço Nacional de Migração"
+      },
+      "refs": ["lei-13-2023", "dec-88-2024"],
+      "documents": [
+        {
+          "id": "quota-calculation",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Cálculo da quota de estrangeiros",
+            "en": "Foreign-worker quota calculation",
+            "fr": "Calcul du quota de travailleurs étrangers",
+            "zh": "外籍员工配额计算",
+            "ar": "حساب حصة العمال الأجانب",
+            "hi": "विदेशी कर्मचारी कोटा की गणना",
+            "sw": "Hesabu ya kiwango cha wafanyakazi wa kigeni",
+            "af": "Berekening van die kwota vir buitelandse werkers"
+          }
+        },
+        {
+          "id": "employment-contract",
+          "kind": "template",
+          "title": {
+            "pt": "Contrato de trabalho",
+            "en": "Employment contract",
+            "fr": "Contrat de travail",
+            "zh": "劳动合同",
+            "ar": "عقد العمل",
+            "hi": "रोज़गार अनुबंध",
+            "sw": "Mkataba wa ajira",
+            "af": "Dienskontrak"
+          }
+        },
+        {
+          "id": "work-permit",
+          "kind": "template",
+          "title": {
+            "pt": "Pedido de autorização de trabalho",
+            "en": "Work permit application",
+            "fr": "Demande de permis de travail",
+            "zh": "工作许可申请",
+            "ar": "طلب تصريح العمل",
+            "hi": "कार्य परमिट के लिए आवेदन",
+            "sw": "Ombi la kibali cha kazi",
+            "af": "Werkpermitaansoek"
+          }
+        },
+        {
+          "id": "worker-documents",
+          "kind": "upload",
+          "title": {
+            "pt": "Passaporte e habilitações do trabalhador",
+            "en": "Worker's passport and qualifications",
+            "fr": "Passeport et diplômes du travailleur",
+            "zh": "员工护照及资质证明",
+            "ar": "جواز سفر العامل ومؤهلاته",
+            "hi": "कर्मचारी का पासपोर्ट और योग्यताएँ",
+            "sw": "Pasipoti na sifa za mfanyakazi",
+            "af": "Werker se paspoort en kwalifikasies"
+          }
+        },
+        {
+          "id": "dire-application",
+          "kind": "upload",
+          "title": {
+            "pt": "Pedido de DIRE",
+            "en": "DIRE application",
+            "fr": "Demande de DIRE",
+            "zh": "DIRE 申请",
+            "ar": "طلب DIRE",
+            "hi": "DIRE के लिए आवेदन",
+            "sw": "Ombi la DIRE",
+            "af": "DIRE-aansoek"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tax",
+      "number": 9,
+      "title": {
+        "pt": "Registos fiscais e aduaneiros: IVA, IRPC, INSS, importador",
+        "en": "Tax and customs set-up: IVA, IRPC, INSS, importer",
+        "fr": "Inscriptions fiscales et douanières : IVA, IRPC, INSS, importateur",
+        "zh": "税务和海关登记：IVA、IRPC、INSS、进口商",
+        "ar": "التسجيل الضريبي والجمركي: IVA وIRPC وINSS والمستورد",
+        "hi": "कर और सीमा शुल्क पंजीकरण: IVA, IRPC, INSS, आयातक",
+        "sw": "Usajili wa kodi na forodha: IVA, IRPC, INSS, mwagizaji",
+        "af": "Belasting- en doeaneregistrasie: IVA, IRPC, INSS, invoerder"
+      },
+      "authority": {
+        "pt": "Autoridade Tributária e INSS",
+        "en": "Autoridade Tributária and INSS",
+        "fr": "Autoridade Tributária et INSS",
+        "zh": "Autoridade Tributária 和 INSS",
+        "ar": "Autoridade Tributária وINSS",
+        "hi": "Autoridade Tributária और INSS",
+        "sw": "Autoridade Tributária na INSS",
+        "af": "Autoridade Tributária en INSS"
+      },
+      "refs": ["civa", "cirpc", "inss"],
+      "documents": [
+        {
+          "id": "company-nuit",
+          "kind": "upload",
+          "title": {
+            "pt": "NUIT da empresa",
+            "en": "Company NUIT",
+            "fr": "NUIT de la société",
+            "zh": "公司 NUIT",
+            "ar": "NUIT الشركة",
+            "hi": "कंपनी का NUIT",
+            "sw": "NUIT ya kampuni",
+            "af": "Maatskappy se NUIT"
+          }
+        },
+        {
+          "id": "iva-registration",
+          "kind": "prefilled",
+          "title": {
+            "pt": "Declaração de início de actividade (IVA)",
+            "en": "Start-of-activity declaration (IVA)",
+            "fr": "Déclaration de début d'activité (IVA)",
+            "zh": "开业申报（IVA）",
+            "ar": "إقرار بدء النشاط (IVA)",
+            "hi": "गतिविधि प्रारंभ की घोषणा (IVA)",
+            "sw": "Tamko la kuanza shughuli (IVA)",
+            "af": "Verklaring van aanvang van bedrywighede (IVA)"
+          }
+        },
+        {
+          "id": "inss-registration",
+          "kind": "template",
+          "title": {
+            "pt": "Inscrição da empresa no INSS",
+            "en": "Employer registration with INSS",
+            "fr": "Immatriculation de l'employeur à l'INSS",
+            "zh": "雇主在 INSS 登记",
+            "ar": "تسجيل صاحب العمل لدى INSS",
+            "hi": "INSS में नियोक्ता पंजीकरण",
+            "sw": "Usajili wa mwajiri kwa INSS",
+            "af": "Werkgewerregistrasie by INSS"
+          }
+        },
+        {
+          "id": "importer-registration",
+          "kind": "template",
+          "title": {
+            "pt": "Registo como importador",
+            "en": "Importer registration",
+            "fr": "Enregistrement comme importateur",
+            "zh": "进口商登记",
+            "ar": "التسجيل كمستورد",
+            "hi": "आयातक पंजीकरण",
+            "sw": "Usajili kama mwagizaji",
+            "af": "Registrasie as invoerder"
+          }
+        },
+        {
+          "id": "bank-details",
+          "kind": "upload",
+          "title": {
+            "pt": "Dados da conta bancária da empresa",
+            "en": "Company bank account details",
+            "fr": "Coordonnées bancaires de la société",
+            "zh": "公司银行账户信息",
+            "ar": "بيانات الحساب المصرفي للشركة",
+            "hi": "कंपनी के बैंक खाते का विवरण",
+            "sw": "Maelezo ya akaunti ya benki ya kampuni",
+            "af": "Maatskappy se bankrekeningbesonderhede"
+          }
+        }
+      ]
+    }
+  ]
+}

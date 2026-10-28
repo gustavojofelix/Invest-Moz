@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Aansporingsberamer",
+  "title": "Waarvoor kan jou projek kwalifiseer?",
+  "intro": "Aanduidende belasting- en doeanevoordele volgens sektor, provinsie en regime, elk met sy regsbron.",
+  "form": "Jou projek",
+  "results": "Aanduidende voordele",
+  "fields": {
+    "sector": "Sektor",
+    "province": "Provinsie",
+    "amount": "Belegging (USD)",
+    "jobs": "Plaaslike werksgeleenthede",
+    "regime": "Regime",
+    "exports70": "Die projek sal minstens 70% van sy produksie uitvoer"
+  },
+  "warning": {
+    "title": "Slegs aanduidend",
+    "text": "Die Kode van Belastingvoordele (CBF) word deur die Regering hersien, dus kan hierdie voordele verander. Dit hang af van APIEX se goedkeuring van die projek."
+  },
+  "heading": "Voordele onder die {{regime}}-regime",
+  "status": {
+    "likely": "Waarskynlik",
+    "check": "Gaan na"
+  },
+  "kind": {
+    "fiscal": "Belasting",
+    "customs": "Doeane",
+    "other": "Prosedure"
+  },
+  "estimate": {
+    "label": "Illustratiewe waarde:",
+    "note": "oor 5 jaar, afhangende van ligging"
+  },
+  "exportsNeeded": "Slegs van toepassing as minstens 70% van die produksie uitgevoer word.",
+  "zones": {
+    "title": "Sones in {{province}}",
+    "none": "Geen sone van hierdie tipe word in hierdie provinsie gelys nie. Sones in ander provinsies kan steeds by die projek pas.",
+    "map": "Sien sones op die kaart"
+  },
+  "sources": "Bronne",
+  "upgrade": {
+    "eyebrow": "Benodig sekerheid?",
+    "title": "Kry 'n memo wat deur prokureurs nagegaan is",
+    "text": "Tax Advisory kan bevestig watter voordele op jou projek van toepassing is, die bedrae en die indieningstappe, met 'n fooivoorstel voordat enige werk begin.",
+    "cta": "Kry 'n memo wat deur prokureurs nagegaan is"
+  },
+  "roadmap": "Maak my padkaart oop",
+  "pathfinder": "Bou my padkaart",
+  "sectors": {
+    "agro_industry": "Agro-nywerheid",
+    "energy": "Energie",
+    "logistics": "Logistiek",
+    "tourism": "Toerisme",
+    "oil_gas": "Olie en gas",
+    "mining": "Mynbou",
+    "services": "Dienste",
+    "general": "Algemene handel"
+  }
+}

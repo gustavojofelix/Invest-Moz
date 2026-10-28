@@ -1,0 +1,42 @@
+{
+  "eyebrow": "法规监测",
+  "title": "影响您路线图的变化",
+  "lead": "当您路线图所依据的法律发生变化时，Tiva 会告诉您涉及哪一步、何时生效以及该怎么做。",
+  "notifyBy": "通知方式",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "电子邮件",
+    "push": "推送"
+  },
+  "channelsOn": "提醒将通过 {{list}} 发送给您（演示：不会实际发送）。",
+  "channelsOff": "未选择渠道：提醒仅显示在本页。",
+  "listTitle": "最新变化",
+  "unread": "{{count}} 条新",
+  "markAll": "全部标为已读",
+  "markReadLabel": "标为已读：{{title}}",
+  "affectsStep": "影响第 {{n}} 步",
+  "affectsArea": {
+    "incentives": "影响激励措施"
+  },
+  "seeArea": {
+    "incentives": "查看激励措施"
+  },
+  "forInformation": "仅供参考",
+  "new": "新",
+  "inForceOn": "{{date}} 生效",
+  "inForce": "已生效",
+  "from": "自 {{date}} 起",
+  "pending": "待定",
+  "whatChanged": "变化内容：",
+  "forYou": "对您的影响：",
+  "illustrative": "示例",
+  "seeStep": "查看更新后的步骤",
+  "ask": "询问 Tiva",
+  "watching": "监测中",
+  "openRoadmap": "打开我的路线图",
+  "guestText": "Tiva 监测每一步背后的法律。描述您的项目，即可查看哪些变化与您相关。",
+  "start": "开始 Pathfinder",
+  "sourceTitle": "来自 {{source}} 系列",
+  "sourceText": "每条提醒均根据 Boletim da República 起草，并在发送给您之前经律师审核。",
+  "demoNote": "演示：提醒和日期仅为示例，渠道选择仅保存在本设备上。"
+}

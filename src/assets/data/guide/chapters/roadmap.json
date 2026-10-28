@@ -6,122 +6,232 @@
       "title": {
         "pt": "Fase 1 — Explorar",
         "en": "Phase 1 — Explore",
-        "fr": "Phase 1 — Explorer"
+        "fr": "Phase 1 — Explorer",
+        "zh": "第一阶段 — 探索",
+        "ar": "المرحلة 1 — الاستكشاف",
+        "hi": "चरण 1 — खोज",
+        "sw": "Awamu ya 1 — Chunguza",
+        "af": "Fase 1 — Verken"
       },
       "body": {
         "pt": "Descoberta, avaliação e compromisso. Envolva o seu gestor de conta da APIEX desde o primeiro dia e trabalhe com advogados locais experientes [ref:apiex-guide-2026]. Os prazos são indicativos.",
         "en": "Discovery, assessment and commitment. Engage your APIEX account manager from day one and work with experienced local counsel [ref:apiex-guide-2026]. Timelines are indicative.",
-        "fr": "Découverte, évaluation et engagement. Impliquez votre gestionnaire de compte APIEX dès le premier jour et travaillez avec un conseil local expérimenté [ref:apiex-guide-2026]. Les délais sont indicatifs."
+        "fr": "Découverte, évaluation et engagement. Impliquez votre gestionnaire de compte APIEX dès le premier jour et travaillez avec un conseil local expérimenté [ref:apiex-guide-2026]. Les délais sont indicatifs.",
+        "zh": "调研、评估与承诺。从第一天起就与您的 APIEX 客户经理联系，并与经验丰富的本地律师合作 [ref:apiex-guide-2026]。时间仅供参考。",
+        "ar": "الاستطلاع والتقييم والالتزام. تواصل مع مدير حسابك لدى APIEX منذ اليوم الأول واعمل مع مستشار قانوني محلي متمرّس [ref:apiex-guide-2026]. الجداول الزمنية تقريبية.",
+        "hi": "खोज, मूल्यांकन और प्रतिबद्धता। पहले दिन से अपने APIEX अकाउंट मैनेजर से जुड़ें और अनुभवी स्थानीय कानूनी सलाहकार के साथ काम करें [ref:apiex-guide-2026]। समय-सीमाएँ सांकेतिक हैं।",
+        "sw": "Ugunduzi, tathmini na kujitoa. Shirikiana na meneja wako wa akaunti wa APIEX tangu siku ya kwanza na fanya kazi na mwanasheria wa ndani mwenye uzoefu [ref:apiex-guide-2026]. Muda ulioonyeshwa ni elekezi.",
+        "af": "Ontdekking, evaluering en verbintenis. Betrek u APIEX-rekeningbestuurder van die eerste dag af en werk met ervare plaaslike regsadviseurs [ref:apiex-guide-2026]. Tydlyne is aanduidend."
       },
       "steps": [
         {
           "title": {
             "pt": "E1 · Contactar a APIEX",
             "en": "E1 · Engage with APIEX",
-            "fr": "E1 · Contacter l'APIEX"
+            "fr": "E1 · Contacter l'APIEX",
+            "zh": "E1 · 与 APIEX 接洽",
+            "ar": "E1 · التواصل مع APIEX",
+            "hi": "E1 · APIEX से जुड़ें",
+            "sw": "E1 · Wasiliana na APIEX",
+            "af": "E1 · Skakel met APIEX"
           },
           "where": {
             "pt": "APIEX",
             "en": "APIEX",
-            "fr": "APIEX"
+            "fr": "APIEX",
+            "zh": "APIEX",
+            "ar": "APIEX",
+            "hi": "APIEX",
+            "sw": "APIEX",
+            "af": "APIEX"
           },
           "time": {
             "pt": "Dia 1",
             "en": "Day 1",
-            "fr": "Jour 1"
+            "fr": "Jour 1",
+            "zh": "第 1 天",
+            "ar": "اليوم 1",
+            "hi": "दिन 1",
+            "sw": "Siku ya 1",
+            "af": "Dag 1"
           },
           "text": {
             "pt": "Primeira consulta gratuita e atribuição do gestor de conta.",
             "en": "Free first consultation and assignment of an account manager.",
-            "fr": "Première consultation gratuite et attribution d'un gestionnaire de compte."
+            "fr": "Première consultation gratuite et attribution d'un gestionnaire de compte.",
+            "zh": "免费首次咨询并指派客户经理。",
+            "ar": "استشارة أولى مجانية وتعيين مدير حساب.",
+            "hi": "पहला निःशुल्क परामर्श और एक अकाउंट मैनेजर की नियुक्ति।",
+            "sw": "Mashauriano ya kwanza bure na kupangiwa meneja wa akaunti.",
+            "af": "Gratis eerste konsultasie en toewysing van 'n rekeningbestuurder."
           }
         },
         {
           "title": {
             "pt": "E2 · Avaliação do país e do sector",
             "en": "E2 · Country and sector assessment",
-            "fr": "E2 · Évaluation du pays et du secteur"
+            "fr": "E2 · Évaluation du pays et du secteur",
+            "zh": "E2 · 国家与行业评估",
+            "ar": "E2 · تقييم البلد والقطاع",
+            "hi": "E2 · देश और क्षेत्र का मूल्यांकन",
+            "sw": "E2 · Tathmini ya nchi na sekta",
+            "af": "E2 · Lands- en sektorevaluering"
           },
           "where": {
             "pt": "APIEX / pesquisa própria",
             "en": "APIEX / own research",
-            "fr": "APIEX / recherche propre"
+            "fr": "APIEX / recherche propre",
+            "zh": "APIEX / 自行调研",
+            "ar": "APIEX / بحث ذاتي",
+            "hi": "APIEX / स्वयं का शोध",
+            "sw": "APIEX / utafiti wako",
+            "af": "APIEX / eie navorsing"
           },
           "time": {
             "pt": "1–4 semanas",
             "en": "1–4 weeks",
-            "fr": "1–4 semaines"
+            "fr": "1–4 semaines",
+            "zh": "1–4 周",
+            "ar": "1–4 أسابيع",
+            "hi": "1–4 सप्ताह",
+            "sw": "Wiki 1–4",
+            "af": "1–4 weke"
           },
           "text": {
             "pt": "Estudo de mercado e mapeamento regulatório.",
             "en": "Market research and regulatory mapping.",
-            "fr": "Étude de marché et cartographie réglementaire."
+            "fr": "Étude de marché et cartographie réglementaire.",
+            "zh": "市场调研和监管梳理。",
+            "ar": "دراسة السوق ورسم الخريطة التنظيمية.",
+            "hi": "बाज़ार अनुसंधान और नियामक मानचित्रण।",
+            "sw": "Utafiti wa soko na uchambuzi wa mfumo wa udhibiti.",
+            "af": "Marknavorsing en kartering van regulasies."
           }
         },
         {
           "title": {
             "pt": "E3 · Avaliação do local e das infra-estruturas",
             "en": "E3 · Site and infrastructure assessment",
-            "fr": "E3 · Évaluation du site et des infrastructures"
+            "fr": "E3 · Évaluation du site et des infrastructures",
+            "zh": "E3 · 选址与基础设施评估",
+            "ar": "E3 · تقييم الموقع والبنية التحتية",
+            "hi": "E3 · स्थल और बुनियादी ढांचे का मूल्यांकन",
+            "sw": "E3 · Tathmini ya eneo na miundombinu",
+            "af": "E3 · Evaluering van terrein en infrastruktuur"
           },
           "where": {
             "pt": "APIEX · DINAT",
             "en": "APIEX · DINAT",
-            "fr": "APIEX · DINAT"
+            "fr": "APIEX · DINAT",
+            "zh": "APIEX · DINAT",
+            "ar": "APIEX · DINAT",
+            "hi": "APIEX · DINAT",
+            "sw": "APIEX · DINAT",
+            "af": "APIEX · DINAT"
           },
           "time": {
             "pt": "2–6 semanas",
             "en": "2–6 weeks",
-            "fr": "2–6 semaines"
+            "fr": "2–6 semaines",
+            "zh": "2–6 周",
+            "ar": "2–6 أسابيع",
+            "hi": "2–6 सप्ताह",
+            "sw": "Wiki 2–6",
+            "af": "2–6 weke"
           },
           "text": {
             "pt": "Disponibilidade de terra e pré-verificação do DUAT.",
             "en": "Land availability and DUAT pre-check.",
-            "fr": "Disponibilité foncière et pré-vérification du DUAT."
+            "fr": "Disponibilité foncière et pré-vérification du DUAT.",
+            "zh": "土地可得性及 DUAT 预审。",
+            "ar": "توافر الأراضي والتحقق المسبق من DUAT.",
+            "hi": "भूमि की उपलब्धता और DUAT की प्रारंभिक जाँच।",
+            "sw": "Upatikanaji wa ardhi na ukaguzi wa awali wa DUAT.",
+            "af": "Beskikbaarheid van grond en voorafkontrole van die DUAT (grondgebruiksreg)."
           }
         },
         {
           "title": {
             "pt": "E4 · Contacto prévio com o regulador sectorial",
             "en": "E4 · Sector regulator pre-engagement",
-            "fr": "E4 · Contact préalable avec le régulateur sectoriel"
+            "fr": "E4 · Contact préalable avec le régulateur sectoriel",
+            "zh": "E4 · 与行业监管机构预先沟通",
+            "ar": "E4 · التواصل المسبق مع الجهة التنظيمية القطاعية",
+            "hi": "E4 · क्षेत्रीय नियामक से प्रारंभिक संपर्क",
+            "sw": "E4 · Mawasiliano ya awali na mdhibiti wa sekta",
+            "af": "E4 · Vroeë skakeling met die sektorreguleerder"
           },
           "where": {
             "pt": "Ministério da tutela / regulador",
             "en": "Line ministry / regulator",
-            "fr": "Ministère de tutelle / régulateur"
+            "fr": "Ministère de tutelle / régulateur",
+            "zh": "主管部委 / 监管机构",
+            "ar": "الوزارة المعنية / الجهة التنظيمية",
+            "hi": "संबंधित मंत्रालय / नियामक",
+            "sw": "Wizara ya kisekta / mdhibiti",
+            "af": "Lynministerie / reguleerder"
           },
           "time": {
             "pt": "2–4 semanas",
             "en": "2–4 weeks",
-            "fr": "2–4 semaines"
+            "fr": "2–4 semaines",
+            "zh": "2–4 周",
+            "ar": "2–4 أسابيع",
+            "hi": "2–4 सप्ताह",
+            "sw": "Wiki 2–4",
+            "af": "2–4 weke"
           },
           "text": {
             "pt": "Diálogo antecipado sobre licenças e requisitos do sector.",
             "en": "Early dialogue on sector licences and requirements.",
-            "fr": "Dialogue précoce sur les licences et exigences du secteur."
+            "fr": "Dialogue précoce sur les licences et exigences du secteur.",
+            "zh": "就行业许可证和要求进行早期沟通。",
+            "ar": "حوار مبكر حول التراخيص والمتطلبات القطاعية.",
+            "hi": "क्षेत्रीय लाइसेंसों और आवश्यकताओं पर शुरुआती संवाद।",
+            "sw": "Mazungumzo ya mapema kuhusu leseni na masharti ya kisekta.",
+            "af": "Vroeë dialoog oor sektorlisensies en -vereistes."
           }
         },
         {
           "title": {
             "pt": "E5 · Pré-avaliação ambiental e de terra",
             "en": "E5 · Environmental and land pre-screening",
-            "fr": "E5 · Pré-évaluation environnementale et foncière"
+            "fr": "E5 · Pré-évaluation environnementale et foncière",
+            "zh": "E5 · 环境与土地预筛查",
+            "ar": "E5 · الفرز الأولي البيئي والعقاري",
+            "hi": "E5 · पर्यावरण और भूमि की प्रारंभिक जाँच",
+            "sw": "E5 · Uchunguzi wa awali wa mazingira na ardhi",
+            "af": "E5 · Voorafsifting vir omgewing en grond"
           },
           "where": {
             "pt": "MAAP · DINAT",
             "en": "MAAP · DINAT",
-            "fr": "MAAP · DINAT"
+            "fr": "MAAP · DINAT",
+            "zh": "MAAP · DINAT",
+            "ar": "MAAP · DINAT",
+            "hi": "MAAP · DINAT",
+            "sw": "MAAP · DINAT",
+            "af": "MAAP · DINAT"
           },
           "time": {
             "pt": "2–8 semanas",
             "en": "2–8 weeks",
-            "fr": "2–8 semaines"
+            "fr": "2–8 semaines",
+            "zh": "2–8 周",
+            "ar": "2–8 أسابيع",
+            "hi": "2–8 सप्ताह",
+            "sw": "Wiki 2–8",
+            "af": "2–8 weke"
           },
           "text": {
             "pt": "Determinar a categoria de AIA (A, B ou C) e o caminho do DUAT — a causa mais comum de atrasos [ref:aia-regulation].",
             "en": "Determine the EIA category (A, B or C) and the DUAT pathway — the most common source of delay [ref:aia-regulation].",
-            "fr": "Déterminer la catégorie d'EIE (A, B ou C) et la voie du DUAT — la cause de retard la plus fréquente [ref:aia-regulation]."
+            "fr": "Déterminer la catégorie d'EIE (A, B ou C) et la voie du DUAT — la cause de retard la plus fréquente [ref:aia-regulation].",
+            "zh": "确定环境影响评价类别（A、B 或 C）和 DUAT 路径——这是最常见的延误原因 [ref:aia-regulation]。",
+            "ar": "تحديد فئة تقييم الأثر البيئي (A أو B أو C) ومسار DUAT — المصدر الأكثر شيوعاً للتأخير [ref:aia-regulation].",
+            "hi": "EIA (पर्यावरण प्रभाव आकलन) श्रेणी (A, B या C) और DUAT मार्ग तय करें — यह देरी का सबसे आम कारण है [ref:aia-regulation]।",
+            "sw": "Bainisha daraja la EIA (A, B au C) na njia ya DUAT — chanzo cha kawaida zaidi cha ucheleweshaji [ref:aia-regulation].",
+            "af": "Bepaal die OIB-kategorie (omgewingsimpakbeoordeling: A, B of C) en die DUAT-roete — die algemeenste bron van vertraging [ref:aia-regulation]."
           }
         }
       ]
@@ -131,178 +241,338 @@
       "title": {
         "pt": "Fase 2 — Estabelecer",
         "en": "Phase 2 — Establish",
-        "fr": "Phase 2 — S'établir"
+        "fr": "Phase 2 — S'établir",
+        "zh": "第二阶段 — 设立",
+        "ar": "المرحلة 2 — التأسيس",
+        "hi": "चरण 2 — स्थापना",
+        "sw": "Awamu ya 2 — Anzisha",
+        "af": "Fase 2 — Vestig"
       },
       "body": {
         "pt": "Passos universais para todos os investidores. O passo 4 é o ponto em que se acrescentam os passos de cada sector.",
         "en": "Universal steps for every investor. Step 4 is where the sector-specific steps branch off.",
-        "fr": "Étapes universelles pour tout investisseur. L'étape 4 est le point où s'ajoutent les étapes propres à chaque secteur."
+        "fr": "Étapes universelles pour tout investisseur. L'étape 4 est le point où s'ajoutent les étapes propres à chaque secteur.",
+        "zh": "所有投资者均适用的通用步骤。第 4 步是各行业特定步骤的分岔点。",
+        "ar": "خطوات عامة لكل مستثمر. وعند الخطوة 4 تتفرع الخطوات الخاصة بكل قطاع.",
+        "hi": "हर निवेशक के लिए सार्वभौमिक चरण। चरण 4 वह बिंदु है जहाँ से क्षेत्र-विशिष्ट चरण अलग होते हैं।",
+        "sw": "Hatua za jumla kwa kila mwekezaji. Hatua ya 4 ndipo hatua maalum za kisekta zinapoanzia.",
+        "af": "Universele stappe vir elke belegger. By stap 4 vertak die sektorspesifieke stappe."
       },
       "steps": [
         {
           "title": {
             "pt": "1 · Registo da empresa",
             "en": "1 · Company registration",
-            "fr": "1 · Immatriculation de la société"
+            "fr": "1 · Immatriculation de la société",
+            "zh": "1 · 公司登记",
+            "ar": "1 · تسجيل الشركة",
+            "hi": "1 · कंपनी पंजीकरण",
+            "sw": "1 · Usajili wa kampuni",
+            "af": "1 · Maatskappyregistrasie"
           },
           "where": {
             "pt": "BAU · CREL · AT",
             "en": "BAU · CREL · AT",
-            "fr": "BAU · CREL · AT"
+            "fr": "BAU · CREL · AT",
+            "zh": "BAU · CREL · AT",
+            "ar": "BAU · CREL · AT",
+            "hi": "BAU · CREL · AT",
+            "sw": "BAU · CREL · AT",
+            "af": "BAU · CREL · AT"
           },
           "time": {
             "pt": "3–10 dias",
             "en": "3–10 days",
-            "fr": "3–10 jours"
+            "fr": "3–10 jours",
+            "zh": "3–10 天",
+            "ar": "3–10 أيام",
+            "hi": "3–10 दिन",
+            "sw": "Siku 3–10",
+            "af": "3–10 dae"
           },
           "text": {
             "pt": "Reserva do nome, registo com documentos dos sócios, estatutos e prova do depósito mínimo de 30% do capital; NUIT obtido em simultâneo.",
             "en": "Name reservation, registration with partners' IDs, statutes and proof of the minimum 30% capital deposit; NUIT obtained at the same time.",
-            "fr": "Réservation du nom, immatriculation avec pièces des associés, statuts et preuve du dépôt minimal de 30 % du capital ; NUIT obtenu simultanément."
+            "fr": "Réservation du nom, immatriculation avec pièces des associés, statuts et preuve du dépôt minimal de 30 % du capital ; NUIT obtenu simultanément.",
+            "zh": "名称预留，凭股东身份证件、公司章程及至少 30% 资本存款证明办理登记；同时取得 NUIT。",
+            "ar": "حجز الاسم، والتسجيل بهويات الشركاء والنظام الأساسي وإثبات إيداع الحد الأدنى من رأس المال البالغ 30%؛ ويُحصل على NUIT في الوقت نفسه.",
+            "hi": "नाम आरक्षण, साझेदारों के पहचान पत्रों, अंतर्नियमों और न्यूनतम 30% पूंजी जमा के प्रमाण के साथ पंजीकरण; NUIT साथ ही प्राप्त होता है।",
+            "sw": "Kuhifadhi jina, usajili kwa vitambulisho vya wabia, katiba na uthibitisho wa kuweka angalau 30% ya mtaji; NUIT hupatikana wakati huo huo.",
+            "af": "Naamreservering, registrasie met die vennote se identiteitsdokumente, statute en bewys van die deposito van minstens 30% van die kapitaal; die NUIT (belastingnommer) word terselfdertyd verkry."
           }
         },
         {
           "title": {
             "pt": "2 · Autorização do investimento",
             "en": "2 · Investment authorisation",
-            "fr": "2 · Autorisation de l'investissement"
+            "fr": "2 · Autorisation de l'investissement",
+            "zh": "2 · 投资授权",
+            "ar": "2 · ترخيص الاستثمار",
+            "hi": "2 · निवेश प्राधिकरण",
+            "sw": "2 · Idhini ya uwekezaji",
+            "af": "2 · Beleggingsmagtiging"
           },
           "where": {
             "pt": "APIEX",
             "en": "APIEX",
-            "fr": "APIEX"
+            "fr": "APIEX",
+            "zh": "APIEX",
+            "ar": "APIEX",
+            "hi": "APIEX",
+            "sw": "APIEX",
+            "af": "APIEX"
           },
           "time": {
             "pt": "3–120 dias",
             "en": "3–120 days",
-            "fr": "3–120 jours"
+            "fr": "3–120 jours",
+            "zh": "3–120 天",
+            "ar": "3–120 يوماً",
+            "hi": "3–120 दिन",
+            "sw": "Siku 3–120",
+            "af": "3–120 dae"
           },
           "text": {
             "pt": "Regime de registo ou de autorização, conforme o montante; resulta no certificado de investimento [ref:lei-8-2023].",
             "en": "Registration or authorisation track, depending on the amount; results in the Investment Certificate [ref:lei-8-2023].",
-            "fr": "Voie d'enregistrement ou d'autorisation, selon le montant ; aboutit au certificat d'investissement [ref:lei-8-2023]."
+            "fr": "Voie d'enregistrement ou d'autorisation, selon le montant ; aboutit au certificat d'investissement [ref:lei-8-2023].",
+            "zh": "根据金额适用登记程序或授权程序；取得投资证书 [ref:lei-8-2023]。",
+            "ar": "مسار التسجيل أو الترخيص، بحسب المبلغ؛ وينتهي بشهادة الاستثمار [ref:lei-8-2023].",
+            "hi": "राशि के अनुसार पंजीकरण या प्राधिकरण मार्ग; परिणाम निवेश प्रमाणपत्र (Certificado de Investimento) होता है [ref:lei-8-2023]।",
+            "sw": "Njia ya usajili au ya idhini, kutegemea kiasi; matokeo ni Cheti cha Uwekezaji [ref:lei-8-2023].",
+            "af": "Registrasie- of magtigingsroete, afhangend van die bedrag; lei tot die beleggingsertifikaat [ref:lei-8-2023]."
           }
         },
         {
           "title": {
             "pt": "3 · Registo do IDE no Banco de Moçambique",
             "en": "3 · Register FDI with the Bank of Mozambique",
-            "fr": "3 · Enregistrer l'IDE à la Banque du Mozambique"
+            "fr": "3 · Enregistrer l'IDE à la Banque du Mozambique",
+            "zh": "3 · 在 Banco de Moçambique 登记外国直接投资",
+            "ar": "3 · تسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique",
+            "hi": "3 · Banco de Moçambique में FDI पंजीकृत करें",
+            "sw": "3 · Sajili FDI katika Banco de Moçambique",
+            "af": "3 · Registreer DBB by die Banco de Moçambique"
           },
           "where": {
             "pt": "BdM, através do banco comercial",
             "en": "BdM, via a commercial bank",
-            "fr": "BdM, via une banque commerciale"
+            "fr": "BdM, via une banque commerciale",
+            "zh": "BdM，通过商业银行办理",
+            "ar": "BdM، عبر بنك تجاري",
+            "hi": "BdM, किसी वाणिज्यिक बैंक के माध्यम से",
+            "sw": "BdM, kupitia benki ya biashara",
+            "af": "BdM, via 'n handelsbank"
           },
           "time": {
             "pt": "Até 90 dias",
             "en": "Within 90 days",
-            "fr": "Sous 90 jours"
+            "fr": "Sous 90 jours",
+            "zh": "90 天内",
+            "ar": "خلال 90 يوماً",
+            "hi": "90 दिनों के भीतर",
+            "sw": "Ndani ya siku 90",
+            "af": "Binne 90 dae"
           },
           "text": {
             "pt": "Condição para os direitos de repatriamento de lucros e capital [ref:aviso-3-gbm-2024].",
             "en": "A condition for profit and capital repatriation rights [ref:aviso-3-gbm-2024].",
-            "fr": "Condition des droits de rapatriement des bénéfices et du capital [ref:aviso-3-gbm-2024]."
+            "fr": "Condition des droits de rapatriement des bénéfices et du capital [ref:aviso-3-gbm-2024].",
+            "zh": "享有利润和资本汇回权利的前提条件 [ref:aviso-3-gbm-2024]。",
+            "ar": "شرط لحقوق إعادة الأرباح ورأس المال إلى الخارج [ref:aviso-3-gbm-2024].",
+            "hi": "लाभ और पूंजी प्रत्यावर्तन (repatriation) के अधिकारों की शर्त [ref:aviso-3-gbm-2024]।",
+            "sw": "Sharti la haki za kurejesha faida na mtaji [ref:aviso-3-gbm-2024].",
+            "af": "'n Voorwaarde vir die reg om winste en kapitaal te repatrieer [ref:aviso-3-gbm-2024]."
           }
         },
         {
           "title": {
             "pt": "4 · Licença de actividade (alvará)",
             "en": "4 · Business licence (alvará)",
-            "fr": "4 · Licence d'activité (alvará)"
+            "fr": "4 · Licence d'activité (alvará)",
+            "zh": "4 · 营业执照（alvará）",
+            "ar": "4 · رخصة النشاط (alvará)",
+            "hi": "4 · व्यावसायिक लाइसेंस (alvará)",
+            "sw": "4 · Leseni ya biashara (alvará)",
+            "af": "4 · Besigheidslisensie (alvará)"
           },
           "where": {
             "pt": "BAU / ministério da tutela",
             "en": "BAU / line ministry",
-            "fr": "BAU / ministère de tutelle"
+            "fr": "BAU / ministère de tutelle",
+            "zh": "BAU / 主管部委",
+            "ar": "BAU / الوزارة المعنية",
+            "hi": "BAU / संबंधित मंत्रालय",
+            "sw": "BAU / wizara ya kisekta",
+            "af": "BAU / lynministerie"
           },
           "time": {
             "pt": "5–15 dias",
             "en": "5–15 days",
-            "fr": "5–15 jours"
+            "fr": "5–15 jours",
+            "zh": "5–15 天",
+            "ar": "5–15 يوماً",
+            "hi": "5–15 दिन",
+            "sw": "Siku 5–15",
+            "af": "5–15 dae"
           },
           "text": {
             "pt": "Licenças correntes no BAU; licenças sectoriais no ministério competente. Ponto de ramificação sectorial [ref:dec-41-2026].",
             "en": "Standard licences at the BAU; sector licences with the competent ministry. The sector branch point [ref:dec-41-2026].",
-            "fr": "Licences courantes au BAU ; licences sectorielles auprès du ministère compétent. Point de bifurcation sectorielle [ref:dec-41-2026]."
+            "fr": "Licences courantes au BAU ; licences sectorielles auprès du ministère compétent. Point de bifurcation sectorielle [ref:dec-41-2026].",
+            "zh": "标准许可证在 BAU 办理；行业许可证向主管部委申请。此为各行业的分岔点 [ref:dec-41-2026]。",
+            "ar": "التراخيص العادية في BAU؛ والتراخيص القطاعية لدى الوزارة المختصة. نقطة تفرّع المسارات القطاعية [ref:dec-41-2026].",
+            "hi": "मानक लाइसेंस BAU पर; क्षेत्रीय लाइसेंस सक्षम मंत्रालय से। यही क्षेत्र-विशिष्ट शाखा का बिंदु है [ref:dec-41-2026]।",
+            "sw": "Leseni za kawaida katika BAU; leseni za kisekta katika wizara husika. Mahali hatua za kisekta zinapoanzia [ref:dec-41-2026].",
+            "af": "Standaardlisensies by die BAU (Eenstopwinkel); sektorlisensies by die bevoegde ministerie. Die sektorvertakkingspunt [ref:dec-41-2026]."
           }
         },
         {
           "title": {
             "pt": "5 · Registo na Autoridade Tributária",
             "en": "5 · Register with the Tax Authority",
-            "fr": "5 · Enregistrement auprès de l'administration fiscale"
+            "fr": "5 · Enregistrement auprès de l'administration fiscale",
+            "zh": "5 · 在税务机关登记",
+            "ar": "5 · التسجيل لدى هيئة الضرائب",
+            "hi": "5 · कर प्राधिकरण में पंजीकरण",
+            "sw": "5 · Jisajili katika Mamlaka ya Kodi",
+            "af": "5 · Registreer by die Belastingowerheid"
           },
           "where": {
             "pt": "AT",
             "en": "AT",
-            "fr": "AT"
+            "fr": "AT",
+            "zh": "AT",
+            "ar": "AT",
+            "hi": "AT",
+            "sw": "AT",
+            "af": "AT"
           },
           "time": {
             "pt": "1–3 dias",
             "en": "1–3 days",
-            "fr": "1–3 jours"
+            "fr": "1–3 jours",
+            "zh": "1–3 天",
+            "ar": "1–3 أيام",
+            "hi": "1–3 दिन",
+            "sw": "Siku 1–3",
+            "af": "1–3 dae"
           },
           "text": {
             "pt": "Registo para IRPC, IVA e retenções na fonte [ref:cirpc] [ref:civa].",
             "en": "Registration for corporate income tax, VAT and withholding [ref:cirpc] [ref:civa].",
-            "fr": "Enregistrement à l'IRPC, à la TVA et aux retenues à la source [ref:cirpc] [ref:civa]."
+            "fr": "Enregistrement à l'IRPC, à la TVA et aux retenues à la source [ref:cirpc] [ref:civa].",
+            "zh": "办理企业所得税、增值税和预提税登记 [ref:cirpc] [ref:civa]。",
+            "ar": "التسجيل لضريبة دخل الشركات وIVA والاقتطاع [ref:cirpc] [ref:civa].",
+            "hi": "कॉर्पोरेट आयकर (IRPC), IVA और विदहोल्डिंग के लिए पंजीकरण [ref:cirpc] [ref:civa]।",
+            "sw": "Usajili wa kodi ya mapato ya kampuni, VAT na kodi ya zuio [ref:cirpc] [ref:civa].",
+            "af": "Registrasie vir maatskappy-inkomstebelasting (IRPC), BTW (IVA) en terughouding [ref:cirpc] [ref:civa]."
           }
         },
         {
           "title": {
             "pt": "6 · Autorizações de trabalho e vistos",
             "en": "6 · Work permits and visas",
-            "fr": "6 · Permis de travail et visas"
+            "fr": "6 · Permis de travail et visas",
+            "zh": "6 · 工作许可与签证",
+            "ar": "6 · تصاريح العمل والتأشيرات",
+            "hi": "6 · वर्क परमिट और वीज़ा",
+            "sw": "6 · Vibali vya kazi na viza",
+            "af": "6 · Werkpermitte en visums"
           },
           "where": {
             "pt": "MTGAS · evisa.gov.mz",
             "en": "MTGAS · evisa.gov.mz",
-            "fr": "MTGAS · evisa.gov.mz"
+            "fr": "MTGAS · evisa.gov.mz",
+            "zh": "MTGAS · evisa.gov.mz",
+            "ar": "MTGAS · evisa.gov.mz",
+            "hi": "MTGAS · evisa.gov.mz",
+            "sw": "MTGAS · evisa.gov.mz",
+            "af": "MTGAS · evisa.gov.mz"
           },
           "text": {
             "pt": "Pedido ao MTGAS no prazo de 15 dias após a chegada de cada trabalhador estrangeiro, dentro das quotas aplicáveis [ref:dec-88-2024].",
             "en": "Apply to MTGAS within 15 days of each foreign employee's arrival, within the applicable quotas [ref:dec-88-2024].",
-            "fr": "Demande au MTGAS dans les 15 jours suivant l'arrivée de chaque salarié étranger, dans le respect des quotas [ref:dec-88-2024]."
+            "fr": "Demande au MTGAS dans les 15 jours suivant l'arrivée de chaque salarié étranger, dans le respect des quotas [ref:dec-88-2024].",
+            "zh": "在每名外籍员工抵达后 15 天内，在适用配额范围内向 MTGAS 提出申请 [ref:dec-88-2024]。",
+            "ar": "قدّم الطلب إلى MTGAS خلال 15 يوماً من وصول كل موظف أجنبي، ضمن الحصص المطبّقة [ref:dec-88-2024].",
+            "hi": "लागू कोटा के भीतर, प्रत्येक विदेशी कर्मचारी के आगमन के 15 दिनों के भीतर MTGAS में आवेदन करें [ref:dec-88-2024]।",
+            "sw": "Omba kwa MTGAS ndani ya siku 15 tangu kila mfanyakazi wa kigeni awasili, ndani ya viwango vinavyotumika [ref:dec-88-2024].",
+            "af": "Doen aansoek by MTGAS binne 15 dae ná elke buitelandse werknemer se aankoms, binne die toepaslike kwotas [ref:dec-88-2024]."
           }
         },
         {
           "title": {
             "pt": "7 · Inscrição no INSS",
             "en": "7 · Register with INSS",
-            "fr": "7 · Affiliation à l'INSS"
+            "fr": "7 · Affiliation à l'INSS",
+            "zh": "7 · 在 INSS 登记",
+            "ar": "7 · التسجيل لدى INSS",
+            "hi": "7 · INSS में पंजीकरण",
+            "sw": "7 · Jisajili katika INSS",
+            "af": "7 · Registreer by INSS"
           },
           "where": {
             "pt": "INSS",
             "en": "INSS",
-            "fr": "INSS"
+            "fr": "INSS",
+            "zh": "INSS",
+            "ar": "INSS",
+            "hi": "INSS",
+            "sw": "INSS",
+            "af": "INSS"
           },
           "text": {
             "pt": "Antes de contratar qualquer trabalhador; contribuições sobre o salário bruto [ref:inss].",
             "en": "Before hiring any employee; contributions on gross salary [ref:inss].",
-            "fr": "Avant toute embauche ; cotisations sur le salaire brut [ref:inss]."
+            "fr": "Avant toute embauche ; cotisations sur le salaire brut [ref:inss].",
+            "zh": "须在雇用任何员工之前办理；以工资总额为基数缴费 [ref:inss]。",
+            "ar": "قبل تعيين أي موظف؛ والاشتراكات على الراتب الإجمالي [ref:inss].",
+            "hi": "किसी भी कर्मचारी को नियुक्त करने से पहले; सकल वेतन पर अंशदान [ref:inss]।",
+            "sw": "Kabla ya kuajiri mfanyakazi yeyote; michango kwenye mshahara wa jumla [ref:inss].",
+            "af": "Voordat enige werknemer aangestel word; bydraes op die bruto salaris [ref:inss]."
           }
         },
         {
           "title": {
             "pt": "8 · Cumprimento contínuo",
             "en": "8 · Ongoing compliance",
-            "fr": "8 · Conformité continue"
+            "fr": "8 · Conformité continue",
+            "zh": "8 · 持续合规",
+            "ar": "8 · الامتثال المستمر",
+            "hi": "8 · निरंतर अनुपालन",
+            "sw": "8 · Uzingatiaji endelevu",
+            "af": "8 · Deurlopende nakoming"
           },
           "where": {
             "pt": "BAU · AT · Trabalho",
             "en": "BAU · AT · Labour",
-            "fr": "BAU · AT · Travail"
+            "fr": "BAU · AT · Travail",
+            "zh": "BAU · AT · 劳动部门",
+            "ar": "BAU · AT · العمل",
+            "hi": "BAU · AT · श्रम विभाग",
+            "sw": "BAU · AT · Kazi",
+            "af": "BAU · AT · Arbeid"
           },
           "time": {
             "pt": "Contínuo",
             "en": "Ongoing",
-            "fr": "Continu"
+            "fr": "Continu",
+            "zh": "持续",
+            "ar": "مستمر",
+            "hi": "निरंतर",
+            "sw": "Endelevu",
+            "af": "Deurlopend"
           },
           "text": {
             "pt": "Renovação de licenças, declarações fiscais e obrigações laborais.",
             "en": "Licence renewals, tax returns and labour obligations.",
-            "fr": "Renouvellement des licences, déclarations fiscales et obligations sociales."
+            "fr": "Renouvellement des licences, déclarations fiscales et obligations sociales.",
+            "zh": "许可证续期、纳税申报和劳动义务。",
+            "ar": "تجديد التراخيص والإقرارات الضريبية والالتزامات العمالية.",
+            "hi": "लाइसेंस नवीनीकरण, कर रिटर्न और श्रम दायित्व।",
+            "sw": "Uhuishaji wa leseni, ritani za kodi na wajibu wa kikazi.",
+            "af": "Hernuwing van lisensies, belastingopgawes en arbeidsverpligtinge."
           }
         }
       ]
@@ -312,95 +582,180 @@
       "title": {
         "pt": "Fase 3 — Operar e crescer",
         "en": "Phase 3 — Operate and grow",
-        "fr": "Phase 3 — Exploiter et croître"
+        "fr": "Phase 3 — Exploiter et croître",
+        "zh": "第三阶段 — 运营与发展",
+        "ar": "المرحلة 3 — التشغيل والنمو",
+        "hi": "चरण 3 — संचालन और विकास",
+        "sw": "Awamu ya 3 — Endesha na ukue",
+        "af": "Fase 3 — Bedryf en groei"
       },
       "steps": [
         {
           "title": {
             "pt": "O1 · Conta bancária e transferência de capital",
             "en": "O1 · Bank account and capital transfer",
-            "fr": "O1 · Compte bancaire et transfert de capital"
+            "fr": "O1 · Compte bancaire et transfert de capital",
+            "zh": "O1 · 银行账户与资本汇入",
+            "ar": "O1 · الحساب المصرفي وتحويل رأس المال",
+            "hi": "O1 · बैंक खाता और पूंजी हस्तांतरण",
+            "sw": "O1 · Akaunti ya benki na uhamisho wa mtaji",
+            "af": "O1 · Bankrekening en kapitaaloordrag"
           },
           "where": {
             "pt": "Banco comercial",
             "en": "Commercial bank",
-            "fr": "Banque commerciale"
+            "fr": "Banque commerciale",
+            "zh": "商业银行",
+            "ar": "بنك تجاري",
+            "hi": "वाणिज्यिक बैंक",
+            "sw": "Benki ya biashara",
+            "af": "Handelsbank"
           },
           "time": {
             "pt": "1–5 dias",
             "en": "1–5 days",
-            "fr": "1–5 jours"
+            "fr": "1–5 jours",
+            "zh": "1–5 天",
+            "ar": "1–5 أيام",
+            "hi": "1–5 दिन",
+            "sw": "Siku 1–5",
+            "af": "1–5 dae"
           },
           "text": {
             "pt": "Abertura da conta operacional e entrada do capital, registada em tempo real pelo banco.",
             "en": "Operating account opened and capital brought in, registered in real time by the bank.",
-            "fr": "Ouverture du compte d'exploitation et entrée du capital, enregistrée en temps réel par la banque."
+            "fr": "Ouverture du compte d'exploitation et entrée du capital, enregistrée en temps réel par la banque.",
+            "zh": "开立运营账户并汇入资本，由银行实时登记。",
+            "ar": "فتح حساب التشغيل وإدخال رأس المال، ويسجّله البنك فورياً.",
+            "hi": "परिचालन खाता खोला जाता है और पूंजी लाई जाती है, जिसे बैंक वास्तविक समय में पंजीकृत करता है।",
+            "sw": "Akaunti ya uendeshaji hufunguliwa na mtaji huingizwa, ukisajiliwa papo hapo na benki.",
+            "af": "Bedryfsrekening geopen en kapitaal ingebring, intyds deur die bank geregistreer."
           }
         },
         {
           "title": {
             "pt": "O2 · Cumprimento fiscal",
             "en": "O2 · Tax compliance",
-            "fr": "O2 · Conformité fiscale"
+            "fr": "O2 · Conformité fiscale",
+            "zh": "O2 · 税务合规",
+            "ar": "O2 · الامتثال الضريبي",
+            "hi": "O2 · कर अनुपालन",
+            "sw": "O2 · Uzingatiaji wa kodi",
+            "af": "O2 · Belastingnakoming"
           },
           "where": {
             "pt": "AT · APIEX",
             "en": "AT · APIEX",
-            "fr": "AT · APIEX"
+            "fr": "AT · APIEX",
+            "zh": "AT · APIEX",
+            "ar": "AT · APIEX",
+            "hi": "AT · APIEX",
+            "sw": "AT · APIEX",
+            "af": "AT · APIEX"
           },
           "time": {
             "pt": "Contínuo",
             "en": "Ongoing",
-            "fr": "Continu"
+            "fr": "Continu",
+            "zh": "持续",
+            "ar": "مستمر",
+            "hi": "निरंतर",
+            "sw": "Endelevu",
+            "af": "Deurlopend"
           },
           "text": {
             "pt": "Declarações periódicas e aplicação dos benefícios fiscais do certificado.",
             "en": "Periodic returns and application of the certificate's tax benefits.",
-            "fr": "Déclarations périodiques et application des avantages fiscaux du certificat."
+            "fr": "Déclarations périodiques et application des avantages fiscaux du certificat.",
+            "zh": "定期申报并适用投资证书规定的税收优惠。",
+            "ar": "الإقرارات الدورية وتطبيق المزايا الضريبية للشهادة.",
+            "hi": "आवधिक रिटर्न और प्रमाणपत्र के कर लाभों का उपयोग।",
+            "sw": "Ritani za mara kwa mara na matumizi ya manufaa ya kodi ya cheti.",
+            "af": "Periodieke opgawes en toepassing van die sertifikaat se belastingvoordele."
           }
         },
         {
           "title": {
             "pt": "O3 · Relatórios semestrais",
             "en": "O3 · Bi-annual reports",
-            "fr": "O3 · Rapports semestriels"
+            "fr": "O3 · Rapports semestriels",
+            "zh": "O3 · 半年度报告",
+            "ar": "O3 · التقارير نصف السنوية",
+            "hi": "O3 · अर्धवार्षिक रिपोर्ट",
+            "sw": "O3 · Ripoti za kila miezi sita",
+            "af": "O3 · Halfjaarlikse verslae"
           },
           "where": {
             "pt": "APIEX · reguladores sectoriais",
             "en": "APIEX · sector regulators",
-            "fr": "APIEX · régulateurs sectoriels"
+            "fr": "APIEX · régulateurs sectoriels",
+            "zh": "APIEX · 行业监管机构",
+            "ar": "APIEX · الجهات التنظيمية القطاعية",
+            "hi": "APIEX · क्षेत्रीय नियामक",
+            "sw": "APIEX · wadhibiti wa sekta",
+            "af": "APIEX · sektorreguleerders"
           },
           "time": {
             "pt": "A cada 6 meses",
             "en": "Every 6 months",
-            "fr": "Tous les 6 mois"
+            "fr": "Tous les 6 mois",
+            "zh": "每 6 个月",
+            "ar": "كل 6 أشهر",
+            "hi": "हर 6 महीने",
+            "sw": "Kila miezi 6",
+            "af": "Elke 6 maande"
           },
           "text": {
             "pt": "Relatórios de progresso e de cumprimento à APIEX.",
             "en": "Progress and compliance reports to APIEX.",
-            "fr": "Rapports d'avancement et de conformité à l'APIEX."
+            "fr": "Rapports d'avancement et de conformité à l'APIEX.",
+            "zh": "向 APIEX 提交进度和合规报告。",
+            "ar": "تقارير سير المشروع والامتثال إلى APIEX.",
+            "hi": "APIEX को प्रगति और अनुपालन रिपोर्ट।",
+            "sw": "Ripoti za maendeleo na uzingatiaji kwa APIEX.",
+            "af": "Vorderings- en nakomingsverslae aan APIEX."
           }
         },
         {
           "title": {
             "pt": "O4 · Acompanhamento e reinvestimento",
             "en": "O4 · Aftercare and reinvestment",
-            "fr": "O4 · Suivi et réinvestissement"
+            "fr": "O4 · Suivi et réinvestissement",
+            "zh": "O4 · 投后服务与再投资",
+            "ar": "O4 · خدمات ما بعد الاستثمار وإعادة الاستثمار",
+            "hi": "O4 · आफ़्टरकेयर और पुनर्निवेश",
+            "sw": "O4 · Huduma baada ya uwekezaji na uwekezaji upya",
+            "af": "O4 · Nasorg en herbelegging"
           },
           "where": {
             "pt": "APIEX",
             "en": "APIEX",
-            "fr": "APIEX"
+            "fr": "APIEX",
+            "zh": "APIEX",
+            "ar": "APIEX",
+            "hi": "APIEX",
+            "sw": "APIEX",
+            "af": "APIEX"
           },
           "time": {
             "pt": "Contínuo",
             "en": "Ongoing",
-            "fr": "Continu"
+            "fr": "Continu",
+            "zh": "持续",
+            "ar": "مستمر",
+            "hi": "निरंतर",
+            "sw": "Endelevu",
+            "af": "Deurlopend"
           },
           "text": {
             "pt": "Resolução de problemas regulatórios, promoção de exportações e apoio à expansão.",
             "en": "Regulatory problem-solving, export promotion and support for expansion.",
-            "fr": "Résolution des difficultés réglementaires, promotion des exportations et appui à l'expansion."
+            "fr": "Résolution des difficultés réglementaires, promotion des exportations et appui à l'expansion.",
+            "zh": "解决监管问题、促进出口并支持业务扩张。",
+            "ar": "حل المشكلات التنظيمية، وتشجيع الصادرات، ودعم التوسع.",
+            "hi": "नियामक समस्याओं का समाधान, निर्यात संवर्धन और विस्तार के लिए सहायता।",
+            "sw": "Utatuzi wa matatizo ya kiudhibiti, ukuzaji wa mauzo ya nje na usaidizi wa upanuzi.",
+            "af": "Oplossing van regulatoriese probleme, uitvoerbevordering en ondersteuning vir uitbreiding."
           }
         }
       ]
@@ -410,39 +765,74 @@
       "title": {
         "pt": "Passos adicionais por sector",
         "en": "Extra steps by sector",
-        "fr": "Étapes supplémentaires par secteur"
+        "fr": "Étapes supplémentaires par secteur",
+        "zh": "各行业的额外步骤",
+        "ar": "خطوات إضافية بحسب القطاع",
+        "hi": "क्षेत्र के अनुसार अतिरिक्त चरण",
+        "sw": "Hatua za ziada kwa sekta",
+        "af": "Ekstra stappe per sektor"
       },
       "body": {
         "pt": "Estes passos somam-se ao percurso universal e correm, em regra, em paralelo com o passo 4 ou depois dele.\n\n**Nunca pague taxas informais de facilitação** e peça sempre recibo oficial. Dificuldades: apiex@apiex.gov.mz · +258 21 321 291.",
         "en": "These steps add to the universal journey and usually run in parallel with, or after, step 4.\n\n**Never pay informal facilitation fees** and always ask for an official receipt. Difficulties: apiex@apiex.gov.mz · +258 21 321 291.",
-        "fr": "Ces étapes s'ajoutent au parcours universel et se déroulent en général en parallèle de l'étape 4 ou après elle.\n\n**Ne payez jamais de frais de facilitation informels** et exigez toujours un reçu officiel. Difficultés : apiex@apiex.gov.mz · +258 21 321 291."
+        "fr": "Ces étapes s'ajoutent au parcours universel et se déroulent en général en parallèle de l'étape 4 ou après elle.\n\n**Ne payez jamais de frais de facilitation informels** et exigez toujours un reçu officiel. Difficultés : apiex@apiex.gov.mz · +258 21 321 291.",
+        "zh": "这些步骤是在通用流程之外增加的，通常与第 4 步并行或在其之后进行。\n\n**切勿支付任何非正式的“疏通费”**，并始终索取正式收据。如遇困难：apiex@apiex.gov.mz · +258 21 321 291。",
+        "ar": "تُضاف هذه الخطوات إلى المسار العام، وتسير عادة بالتوازي مع الخطوة 4 أو بعدها.\n\n**لا تدفع أبداً رسوم تسهيل غير رسمية** واطلب دائماً إيصالاً رسمياً. في حال مواجهة صعوبات: apiex@apiex.gov.mz · +258 21 321 291.",
+        "hi": "ये चरण सार्वभौमिक प्रक्रिया में जुड़ते हैं और आमतौर पर चरण 4 के साथ-साथ या उसके बाद चलते हैं।\n\n**कभी भी अनौपचारिक 'सुविधा शुल्क' न दें** और हमेशा आधिकारिक रसीद माँगें। कठिनाइयों के लिए: apiex@apiex.gov.mz · +258 21 321 291।",
+        "sw": "Hatua hizi huongezwa kwenye safari ya jumla na kwa kawaida huendeshwa sambamba na, au baada ya, hatua ya 4.\n\n**Kamwe usilipe ada zisizo rasmi za uwezeshaji** na daima omba risiti rasmi. Changamoto: apiex@apiex.gov.mz · +258 21 321 291.",
+        "af": "Hierdie stappe kom by die universele reis en verloop gewoonlik parallel met, of ná, stap 4.\n\n**Betaal nooit informele fasiliteringsfooie nie** en vra altyd vir 'n amptelike kwitansie. Probleme: apiex@apiex.gov.mz · +258 21 321 291."
       },
       "table": {
         "caption": {
           "pt": "Percursos sectoriais (Guia de Investimento APIEX 2026)",
           "en": "Sector journeys (APIEX Investment Guide 2026)",
-          "fr": "Parcours sectoriels (Guide d'investissement APIEX 2026)"
+          "fr": "Parcours sectoriels (Guide d'investissement APIEX 2026)",
+          "zh": "行业投资流程（《APIEX 2026 年投资指南》）",
+          "ar": "المسارات القطاعية (دليل الاستثمار الصادر عن APIEX لعام 2026)",
+          "hi": "क्षेत्रीय प्रक्रियाएँ (APIEX Investment Guide 2026)",
+          "sw": "Safari za kisekta (Mwongozo wa Uwekezaji wa APIEX 2026)",
+          "af": "Sektorreise (APIEX-beleggingsgids 2026)"
         },
         "columns": [
           {
             "pt": "Sector",
             "en": "Sector",
-            "fr": "Secteur"
+            "fr": "Secteur",
+            "zh": "行业",
+            "ar": "القطاع",
+            "hi": "क्षेत्र",
+            "sw": "Sekta",
+            "af": "Sektor"
           },
           {
             "pt": "Passos-chave adicionais",
             "en": "Key extra steps",
-            "fr": "Étapes clés supplémentaires"
+            "fr": "Étapes clés supplémentaires",
+            "zh": "主要额外步骤",
+            "ar": "الخطوات الإضافية الرئيسية",
+            "hi": "मुख्य अतिरिक्त चरण",
+            "sw": "Hatua kuu za ziada",
+            "af": "Belangrikste ekstra stappe"
           },
           {
             "pt": "Entidades",
             "en": "Authorities",
-            "fr": "Autorités"
+            "fr": "Autorités",
+            "zh": "主管机关",
+            "ar": "الجهات",
+            "hi": "प्राधिकरण",
+            "sw": "Mamlaka",
+            "af": "Owerhede"
           },
           {
             "pt": "Prazo indicativo",
             "en": "Indicative time",
-            "fr": "Délai indicatif"
+            "fr": "Délai indicatif",
+            "zh": "参考时间",
+            "ar": "المدة التقريبية",
+            "hi": "सांकेतिक समय",
+            "sw": "Muda elekezi",
+            "af": "Aanduidende tyd"
           }
         ],
         "rows": [
@@ -450,132 +840,252 @@
             {
               "pt": "Energias renováveis",
               "en": "Renewable energy",
-              "fr": "Énergies renouvelables"
+              "fr": "Énergies renouvelables",
+              "zh": "可再生能源",
+              "ar": "الطاقة المتجددة",
+              "hi": "नवीकरणीय ऊर्जा",
+              "sw": "Nishati jadidifu",
+              "af": "Hernubare energie"
             },
             {
               "pt": "Estudo de ligação à rede, AIA, DUAT, SPV e PPA em paralelo; concessão e acordo de compra com a EDM",
               "en": "Grid connection study, EIA, DUAT, SPV and PPA in parallel; concession and offtake agreement with EDM",
-              "fr": "Étude de raccordement, EIE, DUAT, SPV et PPA en parallèle ; concession et contrat d'achat avec EDM"
+              "fr": "Étude de raccordement, EIE, DUAT, SPV et PPA en parallèle ; concession et contrat d'achat avec EDM",
+              "zh": "并网研究、环境影响评价、DUAT、特殊目的公司（SPV）和购电协议（PPA）并行推进；与 EDM 签订特许经营和购电协议",
+              "ar": "دراسة الربط بالشبكة، وتقييم الأثر البيئي، وDUAT، والشركة ذات الغرض الخاص (SPV)، واتفاقية شراء الطاقة (PPA) بالتوازي؛ والامتياز واتفاقية الشراء مع EDM",
+              "hi": "ग्रिड कनेक्शन अध्ययन, EIA, DUAT, SPV और PPA साथ-साथ; EDM के साथ रियायत और ऑफ़टेक समझौता",
+              "sw": "Utafiti wa kuunganishwa na gridi, EIA, DUAT, SPV na PPA sambamba; makubaliano ya upangishaji na mkataba wa ununuzi wa umeme na EDM",
+              "af": "Netwerkaansluitingstudie, OIB, DUAT, SPV en PPA parallel; konsessie- en afname-ooreenkoms met EDM"
             },
             {
               "pt": "MIREME · ARENE · EDM · FUNAE",
               "en": "MIREME · ARENE · EDM · FUNAE",
-              "fr": "MIREME · ARENE · EDM · FUNAE"
+              "fr": "MIREME · ARENE · EDM · FUNAE",
+              "zh": "MIREME · ARENE · EDM · FUNAE",
+              "ar": "MIREME · ARENE · EDM · FUNAE",
+              "hi": "MIREME · ARENE · EDM · FUNAE",
+              "sw": "MIREME · ARENE · EDM · FUNAE",
+              "af": "MIREME · ARENE · EDM · FUNAE"
             },
             {
               "pt": "36–72 meses até à operação comercial",
               "en": "36–72 months to commercial operation",
-              "fr": "36–72 mois jusqu'à la mise en service"
+              "fr": "36–72 mois jusqu'à la mise en service",
+              "zh": "36–72 个月至商业运营",
+              "ar": "36–72 شهراً حتى التشغيل التجاري",
+              "hi": "वाणिज्यिक संचालन तक 36–72 महीने",
+              "sw": "Miezi 36–72 hadi uendeshaji wa kibiashara",
+              "af": "36–72 maande tot kommersiële bedryf"
             }
           ],
           [
             {
               "pt": "Agro-negócio",
               "en": "Agribusiness",
-              "fr": "Agro-industrie"
+              "fr": "Agro-industrie",
+              "zh": "农业综合企业",
+              "ar": "الأعمال الزراعية",
+              "hi": "कृषि-व्यवसाय",
+              "sw": "Kilimo-biashara",
+              "af": "Landboubesigheid"
             },
             {
               "pt": "DUAT é o caminho crítico (provisório, definitivo ou direitos comunitários); consulta comunitária com pelo menos 3 assembleias; licença de uso de água; AIA se aplicável",
               "en": "DUAT is the critical path (provisional, definitive or community rights); community consultation with at least 3 assemblies; water use permit; EIA if triggered",
-              "fr": "Le DUAT est le chemin critique (provisoire, définitif ou droits communautaires) ; consultation communautaire avec au moins 3 assemblées ; permis d'usage de l'eau ; EIE si requise"
+              "fr": "Le DUAT est le chemin critique (provisoire, définitif ou droits communautaires) ; consultation communautaire avec au moins 3 assemblées ; permis d'usage de l'eau ; EIE si requise",
+              "zh": "DUAT 是关键路径（临时、永久或社区权利）；社区咨询至少召开 3 次大会；用水许可；如触发则需环境影响评价",
+              "ar": "DUAT هو المسار الحرج (حقوق مؤقتة أو نهائية أو مجتمعية)؛ تشاور مع المجتمعات المحلية بـ 3 جمعيات على الأقل؛ تصريح استخدام المياه؛ وتقييم الأثر البيئي إذا لزم",
+              "hi": "DUAT निर्णायक मार्ग है (अस्थायी, अंतिम या सामुदायिक अधिकार); कम से कम 3 सभाओं के साथ सामुदायिक परामर्श; जल उपयोग परमिट; आवश्यक होने पर EIA",
+              "sw": "DUAT ndiyo njia muhimu (haki ya muda, ya kudumu au ya jamii); mashauriano na jamii kwa angalau mikutano 3; kibali cha matumizi ya maji; EIA ikihitajika",
+              "af": "DUAT is die kritieke pad (voorlopige, definitiewe of gemeenskapsregte); gemeenskapskonsultasie met minstens 3 vergaderings; watergebruikspermit; OIB indien vereis"
             },
             {
               "pt": "MAAP · DINAT · DNAAS",
               "en": "MAAP · DINAT · DNAAS",
-              "fr": "MAAP · DINAT · DNAAS"
+              "fr": "MAAP · DINAT · DNAAS",
+              "zh": "MAAP · DINAT · DNAAS",
+              "ar": "MAAP · DINAT · DNAAS",
+              "hi": "MAAP · DINAT · DNAAS",
+              "sw": "MAAP · DINAT · DNAAS",
+              "af": "MAAP · DINAT · DNAAS"
             },
             {
               "pt": "DUAT: 3–24 meses",
               "en": "DUAT: 3–24 months",
-              "fr": "DUAT : 3–24 mois"
+              "fr": "DUAT : 3–24 mois",
+              "zh": "DUAT：3–24 个月",
+              "ar": "DUAT: 3–24 شهراً",
+              "hi": "DUAT: 3–24 महीने",
+              "sw": "DUAT: miezi 3–24",
+              "af": "DUAT: 3–24 maande"
             }
           ],
           [
             {
               "pt": "Turismo",
               "en": "Tourism",
-              "fr": "Tourisme"
+              "fr": "Tourisme",
+              "zh": "旅游",
+              "ar": "السياحة",
+              "hi": "पर्यटन",
+              "sw": "Utalii",
+              "af": "Toerisme"
             },
             {
               "pt": "Contacto prévio com a ANDITUR; concessão ou DUAT; AIA obrigatória em zonas costeiras e grandes projectos; licença turística",
               "en": "ANDITUR pre-engagement; concession or DUAT; EIA mandatory for coastal and large projects; tourism licence",
-              "fr": "Contact préalable avec l'ANDITUR ; concession ou DUAT ; EIE obligatoire pour les projets côtiers et de grande taille ; licence touristique"
+              "fr": "Contact préalable avec l'ANDITUR ; concession ou DUAT ; EIE obligatoire pour les projets côtiers et de grande taille ; licence touristique",
+              "zh": "与 ANDITUR 预先沟通；特许经营或 DUAT；沿海和大型项目必须进行环境影响评价；旅游许可证",
+              "ar": "تواصل مسبق مع ANDITUR؛ امتياز أو DUAT؛ تقييم الأثر البيئي إلزامي للمشاريع الساحلية والكبيرة؛ ترخيص سياحي",
+              "hi": "ANDITUR से प्रारंभिक संपर्क; रियायत या DUAT; तटीय और बड़ी परियोजनाओं के लिए EIA अनिवार्य; पर्यटन लाइसेंस",
+              "sw": "Mawasiliano ya awali na ANDITUR; makubaliano ya upangishaji au DUAT; EIA ni lazima kwa miradi ya pwani na mikubwa; leseni ya utalii",
+              "af": "Vroeë skakeling met ANDITUR; konsessie of DUAT; OIB verpligtend vir kus- en groot projekte; toerismelisensie"
             },
             {
               "pt": "ANDITUR · ANAC · MAAP",
               "en": "ANDITUR · ANAC · MAAP",
-              "fr": "ANDITUR · ANAC · MAAP"
+              "fr": "ANDITUR · ANAC · MAAP",
+              "zh": "ANDITUR · ANAC · MAAP",
+              "ar": "ANDITUR · ANAC · MAAP",
+              "hi": "ANDITUR · ANAC · MAAP",
+              "sw": "ANDITUR · ANAC · MAAP",
+              "af": "ANDITUR · ANAC · MAAP"
             },
             {
               "pt": "Concessão/DUAT: 3–18 meses",
               "en": "Concession/DUAT: 3–18 months",
-              "fr": "Concession/DUAT : 3–18 mois"
+              "fr": "Concession/DUAT : 3–18 mois",
+              "zh": "特许经营/DUAT：3–18 个月",
+              "ar": "الامتياز/DUAT: 3–18 شهراً",
+              "hi": "रियायत/DUAT: 3–18 महीने",
+              "sw": "Makubaliano/DUAT: miezi 3–18",
+              "af": "Konsessie/DUAT: 3–18 maande"
             }
           ],
           [
             {
               "pt": "Indústria ligeira",
               "en": "Light manufacturing",
-              "fr": "Industrie légère"
+              "fr": "Industrie légère",
+              "zh": "轻工制造",
+              "ar": "الصناعات الخفيفة",
+              "hi": "हल्का विनिर्माण",
+              "sw": "Viwanda vidogo",
+              "af": "Ligte vervaardiging"
             },
             {
               "pt": "Licença industrial; conformidade ambiental se aplicável; ou instalação num parque/zona com autoridade única",
               "en": "Industrial licence; environmental compliance if applicable; or set up in a park/zone with a single authority",
-              "fr": "Licence industrielle ; conformité environnementale si applicable ; ou implantation dans un parc/une zone à autorité unique"
+              "fr": "Licence industrielle ; conformité environnementale si applicable ; ou implantation dans un parc/une zone à autorité unique",
+              "zh": "工业许可证；如适用则需环境合规；或入驻由单一机构管理的园区/经济区",
+              "ar": "ترخيص صناعي؛ امتثال بيئي عند الاقتضاء؛ أو الإقامة في مجمّع/منطقة بسلطة واحدة",
+              "hi": "औद्योगिक लाइसेंस; लागू होने पर पर्यावरण अनुपालन; या एकल प्राधिकरण वाले पार्क/ज़ोन में स्थापना",
+              "sw": "Leseni ya viwanda; uzingatiaji wa mazingira ikihitajika; au kuanzisha katika hifadhi/kanda yenye mamlaka moja",
+              "af": "Nywerheidslisensie; omgewingsnakoming indien van toepassing; of vestiging in 'n park/sone met 'n enkele owerheid"
             },
             {
               "pt": "Ministério da Economia / BAU · MozParks",
               "en": "Ministry of Economy / BAU · MozParks",
-              "fr": "Ministère de l'Économie / BAU · MozParks"
+              "fr": "Ministère de l'Économie / BAU · MozParks",
+              "zh": "经济部 / BAU · MozParks",
+              "ar": "وزارة الاقتصاد / BAU · MozParks",
+              "hi": "अर्थव्यवस्था मंत्रालय / BAU · MozParks",
+              "sw": "Wizara ya Uchumi / BAU · MozParks",
+              "af": "Ministerie van Ekonomie / BAU · MozParks"
             },
             {
               "pt": "Licença industrial: 2–4 semanas",
               "en": "Industrial licence: 2–4 weeks",
-              "fr": "Licence industrielle : 2–4 semaines"
+              "fr": "Licence industrielle : 2–4 semaines",
+              "zh": "工业许可证：2–4 周",
+              "ar": "الترخيص الصناعي: 2–4 أسابيع",
+              "hi": "औद्योगिक लाइसेंस: 2–4 सप्ताह",
+              "sw": "Leseni ya viwanda: wiki 2–4",
+              "af": "Nywerheidslisensie: 2–4 weke"
             }
           ],
           [
             {
               "pt": "Pescas e aquacultura",
               "en": "Fisheries and aquaculture",
-              "fr": "Pêche et aquaculture"
+              "fr": "Pêche et aquaculture",
+              "zh": "渔业与水产养殖",
+              "ar": "مصايد الأسماك والاستزراع المائي",
+              "hi": "मत्स्य पालन और जलीय कृषि",
+              "sw": "Uvuvi na ufugaji wa samaki",
+              "af": "Visserye en akwakultuur"
             },
             {
               "pt": "Licença de pesca ou aquacultura; registo de embarcação estrangeira; licença de processamento; AIA se aplicável",
               "en": "Fishing or aquaculture licence; foreign vessel registration; processing licence; EIA if applicable",
-              "fr": "Licence de pêche ou d'aquaculture ; enregistrement du navire étranger ; licence de transformation ; EIE si applicable"
+              "fr": "Licence de pêche ou d'aquaculture ; enregistrement du navire étranger ; licence de transformation ; EIE si applicable",
+              "zh": "捕捞或水产养殖许可证；外国船舶登记；加工许可证；如适用则需环境影响评价",
+              "ar": "ترخيص صيد أو استزراع مائي؛ تسجيل السفن الأجنبية؛ ترخيص تصنيع؛ تقييم الأثر البيئي عند الاقتضاء",
+              "hi": "मत्स्य या जलीय कृषि लाइसेंस; विदेशी जहाज़ का पंजीकरण; प्रसंस्करण लाइसेंस; लागू होने पर EIA",
+              "sw": "Leseni ya uvuvi au ufugaji wa samaki; usajili wa meli ya kigeni; leseni ya usindikaji; EIA ikihitajika",
+              "af": "Vissery- of akwakultuurlisensie; registrasie van buitelandse vaartuie; verwerkingslisensie; OIB indien van toepassing"
             },
             {
               "pt": "MAAP · INAMAR",
               "en": "MAAP · INAMAR",
-              "fr": "MAAP · INAMAR"
+              "fr": "MAAP · INAMAR",
+              "zh": "MAAP · INAMAR",
+              "ar": "MAAP · INAMAR",
+              "hi": "MAAP · INAMAR",
+              "sw": "MAAP · INAMAR",
+              "af": "MAAP · INAMAR"
             },
             {
               "pt": "Licença: 4–8 semanas",
               "en": "Licence: 4–8 weeks",
-              "fr": "Licence : 4–8 semaines"
+              "fr": "Licence : 4–8 semaines",
+              "zh": "许可证：4–8 周",
+              "ar": "الترخيص: 4–8 أسابيع",
+              "hi": "लाइसेंस: 4–8 सप्ताह",
+              "sw": "Leseni: wiki 4–8",
+              "af": "Lisensie: 4–8 weke"
             }
           ],
           [
             {
               "pt": "PPP e grandes projectos",
               "en": "PPPs and large projects",
-              "fr": "PPP et grands projets"
+              "fr": "PPP et grands projets",
+              "zh": "公私合营与大型项目",
+              "ar": "الشراكات بين القطاعين العام والخاص والمشاريع الكبرى",
+              "hi": "PPP और बड़ी परियोजनाएँ",
+              "sw": "PPP na miradi mikubwa",
+              "af": "PPV's en groot projekte"
             },
             {
               "pt": "Contacto prévio com a UTAP; estudo de viabilidade e AIA de categoria A; submissão ao Conselho de Ministros; negociação do contrato (Lei das PPP n.º 15/2011)",
               "en": "UTAP pre-engagement; feasibility study and Category A EIA; Council of Ministers submission; contract negotiation (PPP Law No. 15/2011)",
-              "fr": "Contact préalable avec l'UTAP ; étude de faisabilité et EIE de catégorie A ; dépôt au Conseil des ministres ; négociation du contrat (loi PPP n° 15/2011)"
+              "fr": "Contact préalable avec l'UTAP ; étude de faisabilité et EIE de catégorie A ; dépôt au Conseil des ministres ; négociation du contrat (loi PPP n° 15/2011)",
+              "zh": "与 UTAP 预先沟通；可行性研究和 A 类环境影响评价；提交部长理事会；合同谈判（公私合营法 Lei n.º 15/2011）",
+              "ar": "تواصل مسبق مع UTAP؛ دراسة جدوى وتقييم أثر بيئي من الفئة A؛ عرض على مجلس الوزراء؛ التفاوض على العقد (قانون الشراكات Lei n.º 15/2011)",
+              "hi": "UTAP से प्रारंभिक संपर्क; व्यवहार्यता अध्ययन और श्रेणी A EIA; मंत्रिपरिषद (Conselho de Ministros) को प्रस्तुति; अनुबंध वार्ता (PPP कानून — Lei n.º 15/2011)",
+              "sw": "Mawasiliano ya awali na UTAP; upembuzi yakinifu na EIA ya Daraja A; kuwasilisha kwa Baraza la Mawaziri; majadiliano ya mkataba (Lei n.º 15/2011 ya PPP)",
+              "af": "Vroeë skakeling met UTAP; haalbaarheidstudie en Kategorie A-OIB; voorlegging aan die Ministerraad; kontrakonderhandeling (PPP-wet, Lei n.º 15/2011)"
             },
             {
               "pt": "UTAP · Conselho de Ministros · APIEX",
               "en": "UTAP · Council of Ministers · APIEX",
-              "fr": "UTAP · Conseil des ministres · APIEX"
+              "fr": "UTAP · Conseil des ministres · APIEX",
+              "zh": "UTAP · 部长理事会 · APIEX",
+              "ar": "UTAP · مجلس الوزراء · APIEX",
+              "hi": "UTAP · मंत्रिपरिषद · APIEX",
+              "sw": "UTAP · Baraza la Mawaziri · APIEX",
+              "af": "UTAP · Ministerraad · APIEX"
             },
             {
               "pt": "Estudos: 6–18 meses; decisão até 120 dias",
               "en": "Studies: 6–18 months; decision up to 120 days",
-              "fr": "Études : 6–18 mois ; décision jusqu'à 120 jours"
+              "fr": "Études : 6–18 mois ; décision jusqu'à 120 jours",
+              "zh": "研究：6–18 个月；决定最长 120 天",
+              "ar": "الدراسات: 6–18 شهراً؛ القرار خلال 120 يوماً كحد أقصى",
+              "hi": "अध्ययन: 6–18 महीने; निर्णय 120 दिनों तक",
+              "sw": "Tafiti: miezi 6–18; uamuzi hadi siku 120",
+              "af": "Studies: 6–18 maande; besluit binne tot 120 dae"
             }
           ]
         ]

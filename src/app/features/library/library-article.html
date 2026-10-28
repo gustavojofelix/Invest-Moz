@@ -1,0 +1,319 @@
+<ng-container *transloco="let t">
+  <div class="container-page py-6 sm:py-10">
+    <nav [attr.aria-label]="t('library.article.breadcrumb')" class="text-sm">
+      <a
+        class="link inline-flex min-h-11 items-center gap-1"
+        [routerLink]="['/', lang(), 'library']"
+        ><svg imIcon="arrow-left" [size]="16" class="flip-rtl" aria-hidden="true"></svg
+        >{{ t('library.eyebrow') }}</a
+      >
+    </nav>
+
+    @if (current(); as c) {
+      <header class="mt-2 grid gap-4 lg:grid-cols-12">
+        <div class="lg:col-span-8">
+          <p class="eyebrow">{{ t('library.areas.' + area() + '.title') }}</p>
+          <h1
+            class="mt-1.5 text-[1.75rem] leading-tight sm:text-4xl"
+            [attr.lang]="contentHtmlLang()"
+            [attr.dir]="contentDir()"
+          >
+            {{ c.title | loc: contentLang() }}
+          </h1>
+          <p
+            class="mt-3 text-muted sm:text-lg"
+            [attr.lang]="contentHtmlLang()"
+            [attr.dir]="contentDir()"
+          >
+            {{ c.summary | loc: contentLang() }}
+          </p>
+          <p class="mt-3 flex flex-wrap items-center gap-2">
+            @for (r of diplomas(); track r.id) {
+              <span class="chip">{{ r.instrument }}</span>
+            }
+            @if (guide(); as g) {
+              <span class="tag tag-ok"
+                ><svg imIcon="badge-check" [size]="14" aria-hidden="true"></svg
+                >{{
+                  t('library.article.reviewedTag', {
+                    date: g.lastReviewed | imDate: lang() : 'medium',
+                  })
+                }}</span
+              >
+            }
+          </p>
+        </div>
+
+        <div class="lg:col-span-4">
+          <div
+            role="group"
+            [attr.aria-label]="t('library.article.versionLabel')"
+            class="flex flex-wrap items-center gap-2"
+          >
+            <span class="text-sm font-bold">{{ t('library.article.version') }}</span>
+            @for (v of versions(); track v) {
+              <button
+                type="button"
+                class="pill min-w-11 justify-center"
+                [attr.aria-pressed]="v === contentLang()"
+                [attr.lang]="htmlLang(v)"
+                [attr.aria-label]="endonym(v)"
+                (click)="choice.set(v)"
+              >
+                {{ versionLabel(v) }}
+              </button>
+            }
+          </div>
+          <p class="mt-2 text-sm text-muted">{{ t('library.article.versionNote') }}</p>
+        </div>
+      </header>
+
+      <div class="mt-8 grid gap-10 lg:grid-cols-12">
+        <aside class="no-print order-2 min-w-0 lg:order-1 lg:col-span-3">
+          <div class="lg:sticky lg:top-24">
+            <nav [attr.aria-label]="t('library.article.onThisPage')">
+              <p class="label-caps text-muted">{{ t('library.article.onThisPage') }}</p>
+              <ul class="toc mt-2" role="list">
+                @for (s of sections(); track s.id) {
+                  <li>
+                    <a [routerLink]="[]" [fragment]="s.id" [attr.lang]="contentHtmlLang()">{{
+                      s.title | loc: contentLang()
+                    }}</a>
+                  </li>
+                }
+              </ul>
+            </nav>
+
+            <section class="source mt-6" aria-labelledby="source-title">
+              <h2 id="source-title" class="label-caps text-muted">
+                {{ t('library.article.sourceTitle') }}
+              </h2>
+              <ul class="mt-2 grid gap-3" role="list">
+                @for (r of diplomas(); track r.id) {
+                  <li class="text-sm">
+                    <im-ref-tag [refId]="r.id" />
+                    @if (r.title) {
+                      <span class="mt-1 block">{{ r.title }}</span>
+                    }
+                    @if (r.reviewed) {
+                      <span class="block text-xs text-muted">{{
+                        t('library.article.diplomaReviewed', {
+                          date: r.reviewed | imDate: lang() : 'medium',
+                        })
+                      }}</span>
+                    }
+                  </li>
+                }
+              </ul>
+              @if (sources().length) {
+                <p class="mt-3 text-xs text-muted">
+                  <span class="font-bold">{{ t('library.article.basedOn') }}</span>
+                  @for (s of sources(); track s.id; let last = $last) {
+                    {{ s.title }} ({{ s.date }}){{ last ? '' : ' · ' }}
+                  }
+                </p>
+              }
+              @if (guide(); as g) {
+                <p class="mt-2 text-xs text-muted">
+                  {{ t('library.reviewed', { date: g.lastReviewed | imDate: lang() : 'long' }) }}
+                </p>
+              }
+            </section>
+
+            <div class="mt-6 hidden gap-2 lg:grid">
+              <a
+                class="btn btn-primary"
+                [routerLink]="['/', lang(), 'chat']"
+                [queryParams]="{ q: askQuestion() }"
+              >
+                <svg imIcon="message-circle" [size]="18" aria-hidden="true"></svg
+                >{{ t('library.article.ask') }}
+              </a>
+              @if (diplomas()[0]; as first) {
+                <button type="button" class="btn btn-outline" (click)="openOfficial(first.id)">
+                  <svg imIcon="scale" [size]="18" aria-hidden="true"></svg
+                  >{{ t('library.article.official') }}
+                </button>
+              }
+            </div>
+          </div>
+        </aside>
+
+        <article
+          class="order-1 min-w-0 lg:order-2 lg:col-span-9"
+          [attr.lang]="contentHtmlLang()"
+          [attr.dir]="contentDir()"
+        >
+          @for (s of sections(); track s.id) {
+            <section class="section" [id]="s.id" [attr.aria-labelledby]="s.id + '-title'">
+              <h2 [id]="s.id + '-title'" class="text-2xl">{{ s.title | loc: contentLang() }}</h2>
+
+              @if (s.facts?.length) {
+                <dl class="facts mt-5">
+                  @for (f of s.facts; track $index) {
+                    <div class="fact">
+                      <dt class="order-2 mt-1 text-sm text-muted">
+                        {{ f.label | loc: contentLang() }}
+                      </dt>
+                      <dd class="order-1 font-serif text-2xl leading-tight font-semibold">
+                        {{ f.value | loc: contentLang() }}
+                      </dd>
+                    </div>
+                  }
+                </dl>
+              }
+
+              @if (s.body) {
+                <im-rich-text class="prose mt-4" [text]="s.body | loc: contentLang()" />
+              }
+
+              @if (s.steps?.length) {
+                <ol class="steps mt-6" role="list">
+                  @for (step of s.steps; track $index; let n = $index) {
+                    <li class="step">
+                      <span class="step-num" aria-hidden="true">{{ n + 1 }}</span>
+                      <div class="min-w-0">
+                        <h3 class="font-sans text-base font-bold">
+                          <span class="sr-only">{{ t('library.article.step') }} {{ n + 1 }}: </span
+                          >{{ step.title | loc: contentLang() }}
+                        </h3>
+                        @if (step.where || step.time) {
+                          <p class="mt-0.5 flex flex-wrap gap-x-4 text-sm text-muted">
+                            @if (step.where) {
+                              <span
+                                ><span class="sr-only">{{ t('library.article.where') }}: </span
+                                >{{ step.where | loc: contentLang() }}</span
+                              >
+                            }
+                            @if (step.time) {
+                              <span class="font-mono"
+                                ><span class="sr-only">{{ t('library.article.time') }}: </span
+                                >{{ step.time | loc: contentLang() }}</span
+                              >
+                            }
+                          </p>
+                        }
+                        <im-rich-text class="mt-1.5" [text]="step.text | loc: contentLang()" />
+                      </div>
+                    </li>
+                  }
+                </ol>
+              }
+
+              @if (s.table; as tbl) {
+                <figure class="mt-6">
+                  <figcaption class="label-caps mb-3 text-muted">
+                    {{ tbl.caption | loc: contentLang() }}
+                  </figcaption>
+                  <im-ruled-table
+                    [caption]="tbl.caption | loc: contentLang()"
+                    [columns]="tableColumns(tbl, contentLang())"
+                    [rows]="tableRows(tbl, contentLang())"
+                  />
+                  @if (tbl.note) {
+                    <p class="mt-3 text-sm text-muted">
+                      <im-confirm-text [text]="tbl.note | loc: contentLang()" />
+                    </p>
+                  }
+                </figure>
+              }
+            </section>
+          }
+
+          <section
+            class="next-steps no-print"
+            aria-labelledby="next-steps-title"
+            [attr.lang]="uiHtmlLang()"
+            [attr.dir]="uiDir()"
+          >
+            <h2 id="next-steps-title" class="text-xl">{{ t('library.article.nextSteps') }}</h2>
+            <ul class="mt-4 grid gap-3 sm:grid-cols-3" role="list">
+              <li>
+                <a class="action" [routerLink]="['/', lang(), 'pathfinder']">
+                  <svg imIcon="compass" [size]="20" aria-hidden="true"></svg>
+                  <span>{{ t('library.article.nextProject') }}</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="action"
+                  [routerLink]="['/', lang(), 'chat']"
+                  [queryParams]="{ q: askQuestion() }"
+                >
+                  <svg imIcon="message-square-text" [size]="20" aria-hidden="true"></svg>
+                  <span>{{ t('library.article.ask') }}</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="action"
+                  [routerLink]="['/', lang(), 'expert']"
+                  [queryParams]="{ from: 'library' }"
+                >
+                  <svg imIcon="handshake" [size]="20" aria-hidden="true"></svg>
+                  <span>{{ t('library.article.nextExpert') }}</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <div class="mt-8" [attr.lang]="uiHtmlLang()" [attr.dir]="uiDir()"><im-disclaimer /></div>
+
+          <nav
+            class="pager no-print"
+            [attr.aria-label]="t('library.article.pager')"
+            [attr.lang]="uiHtmlLang()"
+            [attr.dir]="uiDir()"
+          >
+            @if (prev(); as p) {
+              <a class="pager-link" [routerLink]="['/', lang(), 'library', p.id]" rel="prev">
+                <span class="label-caps flex items-center gap-1 text-muted"
+                  ><svg imIcon="arrow-left" [size]="14" class="flip-rtl" aria-hidden="true"></svg
+                  >{{ t('library.article.previous') }}</span
+                >
+                <span class="font-bold">{{ p.title | loc: lang() }}</span>
+              </a>
+            } @else {
+              <span></span>
+            }
+            @if (next(); as n) {
+              <a
+                class="pager-link text-end"
+                [routerLink]="['/', lang(), 'library', n.id]"
+                rel="next"
+              >
+                <span class="label-caps flex items-center justify-end gap-1 text-muted"
+                  >{{ t('library.article.next')
+                  }}<svg imIcon="arrow-right" [size]="14" class="flip-rtl" aria-hidden="true"></svg
+                ></span>
+                <span class="font-bold">{{ n.title | loc: lang() }}</span>
+              </a>
+            }
+          </nav>
+        </article>
+      </div>
+
+      <div class="foot no-print lg:hidden">
+        @if (diplomas()[0]; as first) {
+          <button type="button" class="btn btn-outline flex-1" (click)="openOfficial(first.id)">
+            {{ t('library.article.official') }}
+          </button>
+        }
+        <a
+          class="btn btn-primary flex-1"
+          [routerLink]="['/', lang(), 'chat']"
+          [queryParams]="{ q: askQuestion() }"
+          >{{ t('library.article.askShort') }}</a
+        >
+      </div>
+    } @else if (guide()) {
+      <div class="mt-6 max-w-2xl">
+        <h1 class="text-3xl">{{ t('library.article.missingTitle') }}</h1>
+        <p class="mt-3 text-muted">{{ t('library.article.missingText') }}</p>
+        <a class="btn btn-primary mt-6" [routerLink]="['/', lang(), 'library']">{{
+          t('library.article.missingBack')
+        }}</a>
+      </div>
+    }
+  </div>
+</ng-container>

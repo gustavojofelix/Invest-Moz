@@ -16,7 +16,12 @@
         "summary": {
           "pt": "Energia · Maputo Cidade · EPC fotovoltaico, capital 100% sul-africano, USD 1 200 000.",
           "en": "Energy · Maputo City · solar PV EPC, 100% South African capital, USD 1,200,000.",
-          "fr": "Énergie · Ville de Maputo · EPC photovoltaïque, capital 100 % sud-africain, 1 200 000 USD."
+          "fr": "Énergie · Ville de Maputo · EPC photovoltaïque, capital 100 % sud-africain, 1 200 000 USD.",
+          "zh": "能源 · 马普托市 · 太阳能光伏 EPC，100% 南非资本，USD 1,200,000。",
+          "ar": "الطاقة · مدينة مابوتو · أعمال الهندسة والتوريد والبناء (EPC) للطاقة الشمسية الكهروضوئية، رأس مال جنوب أفريقي بنسبة 100%، USD 1,200,000.",
+          "hi": "ऊर्जा · Maputo शहर · सोलर PV EPC, 100% दक्षिण अफ़्रीकी पूँजी, USD 1,200,000.",
+          "sw": "Nishati · Jiji la Maputo · EPC ya nishati ya jua (PV), mtaji wa Afrika Kusini 100%, USD 1,200,000.",
+          "af": "Energie · Maputo-stad · sonkrag-PV EPC, 100% Suid-Afrikaanse kapitaal, USD 1,200,000."
         },
         "input": {
           "idea": "Empresa sul-africana de engenharia solar: projectos EPC de sistemas fotovoltaicos para clientes comerciais e industriais em Maputo, e contratos de manutenção.",
@@ -49,7 +54,10 @@
       "message": "Pretendemos construir um pequeno lodge em Vilankulo. Gostaríamos de perceber o processo do DUAT, a consulta à comunidade e se compensa registar o projecto na APIEX com um investimento inicial reduzido.",
       "status": "in_review",
       "notes": [
-        { "at": "2026-10-16T10:05:00+02:00", "text": "Pedir planta de localização e confirmar se o terreno está em zona de protecção costeira." }
+        {
+          "at": "2026-10-16T10:05:00+02:00",
+          "text": "Pedir planta de localização e confirmar se o terreno está em zona de protecção costeira."
+        }
       ]
     },
     {
@@ -68,7 +76,12 @@
         "summary": {
           "pt": "Petróleo e gás · Cabo Delgado · serviços de apoio ao GNL, capital francês, USD 3 500 000.",
           "en": "Oil & gas · Cabo Delgado · LNG support services, French capital, USD 3,500,000.",
-          "fr": "Pétrole et gaz · Cabo Delgado · services d'appui au GNL, capital français, 3 500 000 USD."
+          "fr": "Pétrole et gaz · Cabo Delgado · services d'appui au GNL, capital français, 3 500 000 USD.",
+          "zh": "油气 · 德尔加杜角省 · 液化天然气配套服务，法国资本，USD 3,500,000。",
+          "ar": "النفط والغاز · Cabo Delgado · خدمات دعم الغاز الطبيعي المسال، رأس مال فرنسي، USD 3,500,000.",
+          "hi": "तेल और गैस · Cabo Delgado · LNG सहायक सेवाएँ, फ़्रांसीसी पूँजी, USD 3,500,000.",
+          "sw": "Mafuta na gesi · Cabo Delgado · huduma za usaidizi kwa LNG, mtaji wa Ufaransa, USD 3,500,000.",
+          "af": "Olie en gas · Cabo Delgado · ondersteuningsdienste vir LNG, Franse kapitaal, USD 3,500,000."
         },
         "input": {
           "idea": "Serviços de apoio ao sector de petróleo e gás em Pemba: manutenção de equipamento, aluguer de geradores e fornecimento aos projectos de GNL.",
@@ -88,8 +101,14 @@
       },
       "status": "quoted",
       "notes": [
-        { "at": "2026-10-14T09:30:00+02:00", "text": "Chamada com a cliente: parceiro moçambicano já identificado em Pemba." },
-        { "at": "2026-10-16T17:45:00+02:00", "text": "Proposta enviada: constituição, quota de estrangeiros e importação temporária." }
+        {
+          "at": "2026-10-14T09:30:00+02:00",
+          "text": "Chamada com a cliente: parceiro moçambicano já identificado em Pemba."
+        },
+        {
+          "at": "2026-10-16T17:45:00+02:00",
+          "text": "Proposta enviada: constituição, quota de estrangeiros e importação temporária."
+        }
       ]
     },
     {
@@ -108,7 +127,12 @@
         "summary": {
           "pt": "Agro-indústria · Nampula · processamento de castanha de caju, capital misto, USD 2 500 000.",
           "en": "Agro-industry · Nampula · cashew processing, mixed capital, USD 2,500,000.",
-          "fr": "Agro-industrie · Nampula · transformation de noix de cajou, capital mixte, 2 500 000 USD."
+          "fr": "Agro-industrie · Nampula · transformation de noix de cajou, capital mixte, 2 500 000 USD.",
+          "zh": "农产品加工 · 楠普拉省 · 腰果加工，混合资本，USD 2,500,000。",
+          "ar": "الصناعات الزراعية · Nampula · تصنيع الكاجو، رأس مال مختلط، USD 2,500,000.",
+          "hi": "कृषि-उद्योग · Nampula · काजू प्रसंस्करण, मिश्रित पूँजी, USD 2,500,000.",
+          "sw": "Viwanda vya kilimo · Nampula · usindikaji wa korosho, mtaji mchanganyiko, USD 2,500,000.",
+          "af": "Agro-industrie · Nampula · kasjoeverwerking, gemengde kapitaal, USD 2,500,000."
         },
         "input": {
           "idea": "Unidade de processamento de castanha de caju em Nampula: descasque, secagem e embalagem da amêndoa, com exportação de cerca de 90% para a Índia e o Vietname. Sócio indiano com parceiro moçambicano.",
@@ -128,8 +152,14 @@
       },
       "status": "won",
       "notes": [
-        { "at": "2026-10-10T14:00:00+02:00", "text": "Reunião em Maputo com o sócio moçambicano. Âmbito acordado." },
-        { "at": "2026-10-12T11:20:00+02:00", "text": "Proposta aceite. Abrir processo de constituição e marcar reunião com a APIEX." }
+        {
+          "at": "2026-10-10T14:00:00+02:00",
+          "text": "Reunião em Maputo com o sócio moçambicano. Âmbito acordado."
+        },
+        {
+          "at": "2026-10-12T11:20:00+02:00",
+          "text": "Proposta aceite. Abrir processo de constituição e marcar reunião com a APIEX."
+        }
       ]
     },
     {
@@ -168,7 +198,12 @@
       "areas": ["customs", "exchange", "immigration"],
       "message": "We plan a logistics hub in Beira with 220 staff and imported handling equipment under temporary import. Please advise on the shareholder loan registration with the central bank and on work permits for our engineers.",
       "status": "quoted",
-      "notes": [{ "at": "2026-09-25T09:00:00+02:00", "text": "Proposta enviada. Aguarda resposta do conselho de administração." }]
+      "notes": [
+        {
+          "at": "2026-09-25T09:00:00+02:00",
+          "text": "Proposta enviada. Aguarda resposta do conselho de administração."
+        }
+      ]
     },
     {
       "ref": "TA-IM-2026-0134",
@@ -181,7 +216,12 @@
       "areas": ["companies", "investment"],
       "message": "Uma empresa de software de Maurícias quer entrar no capital da nossa sociedade. Como se faz o registo do investimento estrangeiro e que alterações ao pacto social são necessárias?",
       "status": "won",
-      "notes": [{ "at": "2026-09-18T15:30:00+02:00", "text": "Mandato assinado. Preparar alteração do pacto social e registo do IDE." }]
+      "notes": [
+        {
+          "at": "2026-09-18T15:30:00+02:00",
+          "text": "Mandato assinado. Preparar alteração do pacto social e registo do IDE."
+        }
+      ]
     }
   ]
 }

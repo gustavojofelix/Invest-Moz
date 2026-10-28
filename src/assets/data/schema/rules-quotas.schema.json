@@ -3,11 +3,7 @@
   "$id": "rules-quotas.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "minPercent",
-    "maxPercent",
-    "bands"
-  ],
+  "required": ["minPercent", "maxPercent", "bands"],
   "properties": {
     "minPercent": {
       "type": "number"
@@ -20,10 +16,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "minWorkers",
-          "percent"
-        ],
+        "required": ["minWorkers", "percent"],
         "properties": {
           "minWorkers": {
             "type": "integer",

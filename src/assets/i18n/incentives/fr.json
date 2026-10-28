@@ -1,0 +1,58 @@
+{
+  "eyebrow": "Estimateur d'avantages",
+  "title": "À quels avantages votre projet pourrait-il prétendre ?",
+  "intro": "Avantages fiscaux et douaniers indicatifs par secteur, province et régime, chacun avec sa source juridique.",
+  "form": "Votre projet",
+  "results": "Avantages indicatifs",
+  "fields": {
+    "sector": "Secteur",
+    "province": "Province",
+    "amount": "Investissement (USD)",
+    "jobs": "Emplois locaux",
+    "regime": "Régime",
+    "exports70": "Le projet exportera au moins 70 % de sa production"
+  },
+  "warning": {
+    "title": "À titre indicatif",
+    "text": "Le Code des avantages fiscaux (CBF) est en cours de révision par le Gouvernement ; ces avantages peuvent donc changer. Ils dépendent de l'approbation du projet par l'APIEX."
+  },
+  "heading": "Avantages du régime {{regime}}",
+  "status": {
+    "likely": "Probable",
+    "check": "À vérifier"
+  },
+  "kind": {
+    "fiscal": "Fiscal",
+    "customs": "Douane",
+    "other": "Procédure"
+  },
+  "estimate": {
+    "label": "Valeur illustrative :",
+    "note": "sur 5 ans, selon la localisation"
+  },
+  "exportsNeeded": "Ne s'applique que si au moins 70 % de la production est exportée.",
+  "zones": {
+    "title": "Zones à {{province}}",
+    "none": "Aucune zone de ce type n'est répertoriée dans cette province. Des zones d'autres provinces peuvent toutefois convenir au projet.",
+    "map": "Voir les zones sur la carte"
+  },
+  "sources": "Sources",
+  "upgrade": {
+    "eyebrow": "Besoin de certitude ?",
+    "title": "Obtenir une note revue par des avocats",
+    "text": "Tax Advisory peut confirmer les avantages applicables à votre projet, les montants et les démarches, avec une proposition d'honoraires avant tout travail.",
+    "cta": "Obtenir une note revue"
+  },
+  "roadmap": "Ouvrir ma feuille de route",
+  "pathfinder": "Créer ma feuille de route",
+  "sectors": {
+    "agro_industry": "Agro-industrie",
+    "energy": "Énergie",
+    "logistics": "Logistique",
+    "tourism": "Tourisme",
+    "oil_gas": "Pétrole et gaz",
+    "mining": "Mines",
+    "services": "Services",
+    "general": "Commerce général"
+  }
+}

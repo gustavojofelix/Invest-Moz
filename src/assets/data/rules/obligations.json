@@ -2,12 +2,39 @@
   "obligations": [
     {
       "id": "inss",
-      "when": [{ "field": "workers", "op": "gte", "value": 1 }],
+      "when": [
+        {
+          "field": "workers",
+          "op": "gte",
+          "value": 1
+        }
+      ],
       "then": {
         "id": "inss",
-        "title": { "pt": "Contribuições para o INSS", "en": "INSS social security contributions", "fr": "Cotisations sociales INSS" },
-        "frequency": { "pt": "Mensal · até ao dia 10", "en": "Monthly · by the 10th", "fr": "Mensuel · avant le 10" },
-        "schedule": { "kind": "monthly", "day": 10 },
+        "title": {
+          "pt": "Contribuições para o INSS",
+          "en": "INSS social security contributions",
+          "fr": "Cotisations sociales INSS",
+          "zh": "INSS 社会保障缴费",
+          "ar": "اشتراكات الضمان الاجتماعي INSS",
+          "hi": "INSS सामाजिक सुरक्षा अंशदान",
+          "sw": "Michango ya hifadhi ya jamii ya INSS",
+          "af": "INSS-bydraes vir maatskaplike sekerheid"
+        },
+        "frequency": {
+          "pt": "Mensal · até ao dia 10",
+          "en": "Monthly · by the 10th",
+          "fr": "Mensuel · avant le 10",
+          "zh": "每月 · 10 日前",
+          "ar": "شهرياً · بحلول اليوم 10",
+          "hi": "मासिक · 10 तारीख तक",
+          "sw": "Kila mwezi · kabla ya tarehe 10",
+          "af": "Maandeliks · teen die 10de"
+        },
+        "schedule": {
+          "kind": "monthly",
+          "day": 10
+        },
         "refs": ["inss"]
       }
     },
@@ -16,9 +43,30 @@
       "when": [],
       "then": {
         "id": "withholding-stamp",
-        "title": { "pt": "Retenções na fonte e imposto do selo", "en": "Withholding taxes and stamp duty", "fr": "Retenues à la source et droit de timbre" },
-        "frequency": { "pt": "Mensal · até ao dia 20", "en": "Monthly · by the 20th", "fr": "Mensuel · avant le 20" },
-        "schedule": { "kind": "monthly", "day": 20 },
+        "title": {
+          "pt": "Retenções na fonte e imposto do selo",
+          "en": "Withholding taxes and stamp duty",
+          "fr": "Retenues à la source et droit de timbre",
+          "zh": "预提税和印花税",
+          "ar": "الضرائب المقتطعة ورسم الطابع",
+          "hi": "स्रोत पर कर कटौती (withholding) और स्टाम्प शुल्क",
+          "sw": "Kodi za zuio na ushuru wa stempu",
+          "af": "Terughoudingsbelasting en seëlreg"
+        },
+        "frequency": {
+          "pt": "Mensal · até ao dia 20",
+          "en": "Monthly · by the 20th",
+          "fr": "Mensuel · avant le 20",
+          "zh": "每月 · 20 日前",
+          "ar": "شهرياً · بحلول اليوم 20",
+          "hi": "मासिक · 20 तारीख तक",
+          "sw": "Kila mwezi · kabla ya tarehe 20",
+          "af": "Maandeliks · teen die 20ste"
+        },
+        "schedule": {
+          "kind": "monthly",
+          "day": 20
+        },
         "refs": ["cirpc", "imposto-selo"]
       }
     },
@@ -27,13 +75,39 @@
       "when": [],
       "then": {
         "id": "vat-return",
-        "title": { "pt": "Declaração periódica de IVA", "en": "Monthly VAT return", "fr": "Déclaration mensuelle de TVA" },
-        "frequency": { "pt": "Mensal", "en": "Monthly", "fr": "Mensuel" },
-        "schedule": { "kind": "monthly", "day": "last-working-day" },
+        "title": {
+          "pt": "Declaração periódica de IVA",
+          "en": "Monthly VAT return",
+          "fr": "Déclaration mensuelle de TVA",
+          "zh": "增值税（IVA）月度申报",
+          "ar": "الإقرار الشهري لضريبة القيمة المضافة (IVA)",
+          "hi": "मासिक IVA (VAT) रिटर्न",
+          "sw": "Ritani ya VAT ya kila mwezi",
+          "af": "Maandelikse BTW-opgawe (IVA)"
+        },
+        "frequency": {
+          "pt": "Mensal",
+          "en": "Monthly",
+          "fr": "Mensuel",
+          "zh": "每月",
+          "ar": "شهرياً",
+          "hi": "मासिक",
+          "sw": "Kila mwezi",
+          "af": "Maandeliks"
+        },
+        "schedule": {
+          "kind": "monthly",
+          "day": "last-working-day"
+        },
         "note": {
           "pt": "Data indicativa; prazo legal {{VAT_MONTHLY_RETURN_DEADLINE}}.",
           "en": "Indicative date; legal deadline {{VAT_MONTHLY_RETURN_DEADLINE}}.",
-          "fr": "Date indicative ; délai légal {{VAT_MONTHLY_RETURN_DEADLINE}}."
+          "fr": "Date indicative ; délai légal {{VAT_MONTHLY_RETURN_DEADLINE}}.",
+          "zh": "参考日期；法定截止日期为 {{VAT_MONTHLY_RETURN_DEADLINE}}。",
+          "ar": "تاريخ تقريبي؛ الموعد القانوني {{VAT_MONTHLY_RETURN_DEADLINE}}.",
+          "hi": "सांकेतिक तिथि; कानूनी समय-सीमा {{VAT_MONTHLY_RETURN_DEADLINE}}।",
+          "sw": "Tarehe elekezi; muda wa kisheria {{VAT_MONTHLY_RETURN_DEADLINE}}.",
+          "af": "Aanduidende datum; wetlike sperdatum {{VAT_MONTHLY_RETURN_DEADLINE}}."
         },
         "refs": ["civa"]
       }
@@ -43,13 +117,40 @@
       "when": [],
       "then": {
         "id": "irpc-payments-on-account",
-        "title": { "pt": "Pagamentos por conta de IRPC", "en": "IRPC payments on account", "fr": "Acomptes d'IRPC" },
-        "frequency": { "pt": "Maio, Julho e Setembro", "en": "May, July and September", "fr": "Mai, juillet et septembre" },
-        "schedule": { "kind": "annual", "months": [5, 7, 9], "day": "last-working-day" },
+        "title": {
+          "pt": "Pagamentos por conta de IRPC",
+          "en": "IRPC payments on account",
+          "fr": "Acomptes d'IRPC",
+          "zh": "IRPC 预缴",
+          "ar": "الدفعات المسبقة لـ IRPC",
+          "hi": "IRPC के अग्रिम भुगतान",
+          "sw": "Malipo ya awali ya IRPC",
+          "af": "Voorlopige IRPC-betalings"
+        },
+        "frequency": {
+          "pt": "Maio, Julho e Setembro",
+          "en": "May, July and September",
+          "fr": "Mai, juillet et septembre",
+          "zh": "5 月、7 月和 9 月",
+          "ar": "مايو ويوليو وسبتمبر",
+          "hi": "मई, जुलाई और सितंबर",
+          "sw": "Mei, Julai na Septemba",
+          "af": "Mei, Julie en September"
+        },
+        "schedule": {
+          "kind": "annual",
+          "months": [5, 7, 9],
+          "day": "last-working-day"
+        },
         "note": {
           "pt": "Dia exacto e base de cálculo: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
           "en": "Exact day and calculation basis: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
-          "fr": "Jour exact et base de calcul : {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}."
+          "fr": "Jour exact et base de calcul : {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
+          "zh": "具体日期和计算基础：{{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}。",
+          "ar": "اليوم المحدد وأساس الاحتساب: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
+          "hi": "सटीक दिन और गणना का आधार: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}।",
+          "sw": "Siku kamili na msingi wa hesabu: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}.",
+          "af": "Presiese dag en berekeningsgrondslag: {{IRPC_PAYMENT_ON_ACCOUNT_BASIS}}."
         },
         "refs": ["cirpc"]
       }
@@ -59,24 +160,79 @@
       "when": [],
       "then": {
         "id": "modelo-22",
-        "title": { "pt": "Declaração anual de IRPC (Modelo 22)", "en": "Annual IRPC return (Modelo 22)", "fr": "Déclaration annuelle d'IRPC (Modelo 22)" },
-        "frequency": { "pt": "Anual · último dia útil de Maio", "en": "Annual · last working day of May", "fr": "Annuel · dernier jour ouvrable de mai" },
-        "schedule": { "kind": "annual", "months": [5], "day": "last-working-day" },
+        "title": {
+          "pt": "Declaração anual de IRPC (Modelo 22)",
+          "en": "Annual IRPC return (Modelo 22)",
+          "fr": "Déclaration annuelle d'IRPC (Modelo 22)",
+          "zh": "IRPC 年度申报（Modelo 22）",
+          "ar": "الإقرار السنوي لـ IRPC (Modelo 22)",
+          "hi": "वार्षिक IRPC रिटर्न (Modelo 22)",
+          "sw": "Ritani ya mwaka ya IRPC (Modelo 22)",
+          "af": "Jaarlikse IRPC-opgawe (Modelo 22)"
+        },
+        "frequency": {
+          "pt": "Anual · último dia útil de Maio",
+          "en": "Annual · last working day of May",
+          "fr": "Annuel · dernier jour ouvrable de mai",
+          "zh": "每年 · 5 月最后一个工作日",
+          "ar": "سنوياً · آخر يوم عمل من مايو",
+          "hi": "वार्षिक · मई का अंतिम कार्य दिवस",
+          "sw": "Kila mwaka · siku ya mwisho ya kazi ya Mei",
+          "af": "Jaarliks · laaste werksdag van Mei"
+        },
+        "schedule": {
+          "kind": "annual",
+          "months": [5],
+          "day": "last-working-day"
+        },
         "refs": ["m22", "cirpc"]
       }
     },
     {
       "id": "modelo-20",
-      "when": [{ "field": "relatedParties", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "relatedParties",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "modelo-20",
-        "title": { "pt": "Modelo 20 e anexo de preços de transferência", "en": "Modelo 20 and transfer-pricing annex", "fr": "Modelo 20 et annexe prix de transfert" },
-        "frequency": { "pt": "Anual · último dia útil de Junho", "en": "Annual · last working day of June", "fr": "Annuel · dernier jour ouvrable de juin" },
-        "schedule": { "kind": "annual", "months": [6], "day": "last-working-day" },
+        "title": {
+          "pt": "Modelo 20 e anexo de preços de transferência",
+          "en": "Modelo 20 and transfer-pricing annex",
+          "fr": "Modelo 20 et annexe prix de transfert",
+          "zh": "Modelo 20 及转让定价附件",
+          "ar": "Modelo 20 وملحق أسعار التحويل",
+          "hi": "Modelo 20 और ट्रांसफर प्राइसिंग अनुलग्नक",
+          "sw": "Modelo 20 na kiambatisho cha bei za uhamisho",
+          "af": "Modelo 20 en bylae oor oordragprysing"
+        },
+        "frequency": {
+          "pt": "Anual · último dia útil de Junho",
+          "en": "Annual · last working day of June",
+          "fr": "Annuel · dernier jour ouvrable de juin",
+          "zh": "每年 · 6 月最后一个工作日",
+          "ar": "سنوياً · آخر يوم عمل من يونيو",
+          "hi": "वार्षिक · जून का अंतिम कार्य दिवस",
+          "sw": "Kila mwaka · siku ya mwisho ya kazi ya Juni",
+          "af": "Jaarliks · laaste werksdag van Junie"
+        },
+        "schedule": {
+          "kind": "annual",
+          "months": [6],
+          "day": "last-working-day"
+        },
         "note": {
           "pt": "Aplicável por existirem partes relacionadas (empréstimo ou serviços do grupo).",
           "en": "Applies because there are related parties (group loan or services).",
-          "fr": "Applicable en raison de parties liées (prêt ou services intragroupe)."
+          "fr": "Applicable en raison de parties liées (prêt ou services intragroupe).",
+          "zh": "因存在关联方（集团贷款或服务）而适用。",
+          "ar": "ينطبق لوجود أطراف ذات علاقة (قرض من المجموعة أو خدمات).",
+          "hi": "लागू है क्योंकि संबंधित पक्ष मौजूद हैं (समूह ऋण या सेवाएँ)।",
+          "sw": "Inatumika kwa sababu kuna wahusika wenye uhusiano (mkopo au huduma za kikundi).",
+          "af": "Van toepassing omdat daar verwante partye is (groepslening of -dienste)."
         },
         "refs": ["m20", "cirpc"]
       }
@@ -86,29 +242,85 @@
       "when": [],
       "then": {
         "id": "apiex-report",
-        "title": { "pt": "Relatório de progresso à APIEX", "en": "APIEX progress report", "fr": "Rapport d'avancement à l'APIEX" },
-        "frequency": { "pt": "Semestral", "en": "Half-yearly", "fr": "Semestriel" },
-        "schedule": { "kind": "text" },
+        "title": {
+          "pt": "Relatório de progresso à APIEX",
+          "en": "APIEX progress report",
+          "fr": "Rapport d'avancement à l'APIEX",
+          "zh": "APIEX 进度报告",
+          "ar": "تقرير سير المشروع إلى APIEX",
+          "hi": "APIEX को प्रगति रिपोर्ट",
+          "sw": "Ripoti ya maendeleo kwa APIEX",
+          "af": "Vorderingsverslag aan APIEX"
+        },
+        "frequency": {
+          "pt": "Semestral",
+          "en": "Half-yearly",
+          "fr": "Semestriel",
+          "zh": "每半年",
+          "ar": "نصف سنوي",
+          "hi": "अर्धवार्षिक",
+          "sw": "Kila miezi sita",
+          "af": "Halfjaarliks"
+        },
+        "schedule": {
+          "kind": "text"
+        },
         "note": {
           "pt": "Entrega de seis em seis meses após a emissão do certificado de investimento; confirmar as datas com o gestor de conta da APIEX.",
           "en": "Filed every six months after the investment certificate is issued; confirm the dates with your APIEX account manager.",
-          "fr": "Dépôt tous les six mois après la délivrance du certificat d'investissement ; confirmer les dates avec le gestionnaire de compte de l'APIEX."
+          "fr": "Dépôt tous les six mois après la délivrance du certificat d'investissement ; confirmer les dates avec le gestionnaire de compte de l'APIEX.",
+          "zh": "投资证书签发后每六个月提交一次；具体日期请与您的 APIEX 客户经理确认。",
+          "ar": "يُقدَّم كل ستة أشهر بعد إصدار شهادة الاستثمار؛ أكّد التواريخ مع مدير حسابك لدى APIEX.",
+          "hi": "निवेश प्रमाणपत्र जारी होने के बाद हर छह महीने में जमा की जाती है; तिथियों की पुष्टि अपने APIEX अकाउंट मैनेजर से करें।",
+          "sw": "Huwasilishwa kila baada ya miezi sita tangu cheti cha uwekezaji kutolewa; thibitisha tarehe na meneja wako wa akaunti katika APIEX.",
+          "af": "Word elke ses maande ná die uitreiking van die beleggingsertifikaat ingedien; bevestig die datums met jou rekeningbestuurder by APIEX."
         },
         "refs": ["lei-8-2023", "apiex-guide-2026"]
       }
     },
     {
       "id": "permit-renewals",
-      "when": [{ "field": "hasForeignWorkers", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "hasForeignWorkers",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "permit-renewals",
-        "title": { "pt": "Renovação de autorizações de trabalho e DIRE", "en": "Work permit and DIRE renewals", "fr": "Renouvellement des permis de travail et DIRE" },
-        "frequency": { "pt": "Conforme a validade de cada título", "en": "According to each document's validity", "fr": "Selon la validité de chaque titre" },
-        "schedule": { "kind": "text" },
+        "title": {
+          "pt": "Renovação de autorizações de trabalho e DIRE",
+          "en": "Work permit and DIRE renewals",
+          "fr": "Renouvellement des permis de travail et DIRE",
+          "zh": "工作许可和 DIRE 续期",
+          "ar": "تجديد تصاريح العمل وDIRE",
+          "hi": "कार्य परमिट और DIRE (निवास परमिट) का नवीनीकरण",
+          "sw": "Uhuishaji wa kibali cha kazi na DIRE",
+          "af": "Hernuwing van werkpermitte en DIRE"
+        },
+        "frequency": {
+          "pt": "Conforme a validade de cada título",
+          "en": "According to each document's validity",
+          "fr": "Selon la validité de chaque titre",
+          "zh": "根据各证件的有效期",
+          "ar": "بحسب مدة صلاحية كل مستند",
+          "hi": "प्रत्येक दस्तावेज़ की वैधता के अनुसार",
+          "sw": "Kulingana na muda wa uhalali wa kila hati",
+          "af": "Volgens die geldigheid van elke dokument"
+        },
+        "schedule": {
+          "kind": "text"
+        },
         "note": {
           "pt": "Iniciar a renovação com antecedência ({{RENEWAL_LEAD_TIME}}).",
           "en": "Start renewals early ({{RENEWAL_LEAD_TIME}}).",
-          "fr": "Lancer le renouvellement à l'avance ({{RENEWAL_LEAD_TIME}})."
+          "fr": "Lancer le renouvellement à l'avance ({{RENEWAL_LEAD_TIME}}).",
+          "zh": "请提前办理续期（{{RENEWAL_LEAD_TIME}}）。",
+          "ar": "ابدأ إجراءات التجديد مبكراً ({{RENEWAL_LEAD_TIME}}).",
+          "hi": "नवीनीकरण जल्दी शुरू करें ({{RENEWAL_LEAD_TIME}})।",
+          "sw": "Anza uhuishaji mapema ({{RENEWAL_LEAD_TIME}}).",
+          "af": "Begin hernuwings vroegtydig ({{RENEWAL_LEAD_TIME}})."
         },
         "refs": ["dec-88-2024", "lei-13-2023"]
       }

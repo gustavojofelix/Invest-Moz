@@ -6,62 +6,112 @@
       "title": {
         "pt": "O essencial",
         "en": "Country essentials",
-        "fr": "L'essentiel"
+        "fr": "L'essentiel",
+        "zh": "国家基本情况",
+        "ar": "أساسيات البلد",
+        "hi": "देश की मुख्य बातें",
+        "sw": "Mambo muhimu kuhusu nchi",
+        "af": "Landsbesonderhede"
       },
       "facts": [
         {
           "value": {
             "pt": "≈ 34,6 milhões",
             "en": "≈ 34.6 million",
-            "fr": "≈ 34,6 millions"
+            "fr": "≈ 34,6 millions",
+            "zh": "≈ 3,460 万",
+            "ar": "≈ 34.6 مليون",
+            "hi": "≈ 3.46 करोड़",
+            "sw": "≈ milioni 34.6",
+            "af": "≈ 34.6 miljoen"
           },
           "label": {
             "pt": "habitantes, a crescer ≈ 2,8% ao ano (Banco Mundial, 2024)",
             "en": "people, growing ≈ 2.8% a year (World Bank, 2024)",
-            "fr": "habitants, en hausse de ≈ 2,8 % par an (Banque mondiale, 2024)"
+            "fr": "habitants, en hausse de ≈ 2,8 % par an (Banque mondiale, 2024)",
+            "zh": "人口，年增长率 ≈ 2.8%（世界银行，2024 年）",
+            "ar": "نسمة، بنمو ≈ 2.8% سنوياً (البنك الدولي، 2024)",
+            "hi": "लोग, ≈ 2.8% वार्षिक वृद्धि (विश्व बैंक, 2024)",
+            "sw": "watu, wakiongezeka ≈ 2.8% kwa mwaka (Benki ya Dunia, 2024)",
+            "af": "mense, met 'n groei van ≈ 2.8% per jaar (Wêreldbank, 2024)"
           }
         },
         {
           "value": {
             "pt": "≈ 17 anos",
             "en": "≈ 17 years",
-            "fr": "≈ 17 ans"
+            "fr": "≈ 17 ans",
+            "zh": "≈ 17 岁",
+            "ar": "≈ 17 سنة",
+            "hi": "≈ 17 वर्ष",
+            "sw": "≈ miaka 17",
+            "af": "≈ 17 jaar"
           },
           "label": {
             "pt": "idade mediana — uma das populações mais jovens do mundo",
             "en": "median age — one of the world's youngest populations",
-            "fr": "âge médian — l'une des populations les plus jeunes du monde"
+            "fr": "âge médian — l'une des populations les plus jeunes du monde",
+            "zh": "年龄中位数——全球最年轻的人口之一",
+            "ar": "متوسط العمر — من أصغر السكان سناً في العالم",
+            "hi": "मध्य आयु — दुनिया की सबसे युवा आबादी में से एक",
+            "sw": "umri wa wastani — mojawapo ya idadi ya watu walio vijana zaidi duniani",
+            "af": "mediaanouderdom — een van die jongste bevolkings ter wêreld"
           }
         },
         {
           "value": {
             "pt": "≈ 14 milhões",
             "en": "≈ 14 million",
-            "fr": "≈ 14 millions"
+            "fr": "≈ 14 millions",
+            "zh": "≈ 1,400 万",
+            "ar": "≈ 14 مليون",
+            "hi": "≈ 1.4 करोड़",
+            "sw": "≈ milioni 14",
+            "af": "≈ 14 miljoen"
           },
           "label": {
             "pt": "população activa, em expansão (OIT / Banco Mundial)",
             "en": "labour force, and growing (ILO / World Bank)",
-            "fr": "population active, en croissance (OIT / Banque mondiale)"
+            "fr": "population active, en croissance (OIT / Banque mondiale)",
+            "zh": "劳动力，且持续增长（国际劳工组织 / 世界银行）",
+            "ar": "حجم القوى العاملة، وهو في ازدياد (منظمة العمل الدولية / البنك الدولي)",
+            "hi": "श्रम बल, और बढ़ रहा है (ILO / विश्व बैंक)",
+            "sw": "nguvu kazi, na inaongezeka (ILO / Benki ya Dunia)",
+            "af": "arbeidsmag, en dit groei (ILO / Wêreldbank)"
           }
         },
         {
           "value": {
             "pt": "801 590 km²",
             "en": "801,590 km²",
-            "fr": "801 590 km²"
+            "fr": "801 590 km²",
+            "zh": "801,590 km²",
+            "ar": "801,590 km²",
+            "hi": "801,590 km²",
+            "sw": "km² 801,590",
+            "af": "801,590 km²"
           },
           "label": {
             "pt": "de território, com ≈ 2 700 km de costa no Índico",
             "en": "of land, with ≈ 2,700 km of Indian Ocean coastline",
-            "fr": "de territoire, avec ≈ 2 700 km de côtes sur l'océan Indien"
+            "fr": "de territoire, avec ≈ 2 700 km de côtes sur l'océan Indien",
+            "zh": "国土面积，印度洋海岸线 ≈ 2,700 公里",
+            "ar": "من اليابسة، مع ≈ 2,700 كم من السواحل على المحيط الهندي",
+            "hi": "भूमि, हिंद महासागर के ≈ 2,700 km तटरेखा के साथ",
+            "sw": "za ardhi, na ≈ km 2,700 za ufukwe wa Bahari ya Hindi",
+            "af": "grondgebied, met ≈ 2,700 km kuslyn aan die Indiese Oseaan"
           }
         }
       ],
       "body": {
         "pt": "**Capital:** Maputo. **Língua oficial:** português. **Moeda:** metical (MZN).\n\nMoçambique é uma república presidencialista multipartidária: o Presidente, chefe de Estado e de Governo, é eleito por sufrágio directo para mandatos de cinco anos, e a Assembleia da República é unicameral. O sistema jurídico é romano-germânico (direito civil), com tribunais judiciais, administrativos, fiscais e aduaneiros [ref:business-guide-2025].\n\nO clima é tropical, com duas estações: quente e chuvosa de Outubro a Março, seca de Abril a Setembro.",
         "en": "**Capital:** Maputo. **Official language:** Portuguese. **Currency:** metical (MZN).\n\nMozambique is a multiparty presidential republic: the President, head of state and of government, is directly elected for five-year terms, and the Assembly of the Republic is unicameral. The legal system is Roman-Germanic (civil law), with judicial, administrative, tax and customs courts [ref:business-guide-2025].\n\nThe climate is tropical, with two seasons: hot and wet from October to March, dry from April to September.",
-        "fr": "**Capitale :** Maputo. **Langue officielle :** portugais. **Monnaie :** metical (MZN).\n\nLe Mozambique est une république présidentielle multipartite : le Président, chef de l'État et du gouvernement, est élu au suffrage direct pour cinq ans, et l'Assemblée de la République est monocamérale. Le système juridique est romano-germanique (droit civil), avec des juridictions judiciaires, administratives, fiscales et douanières [ref:business-guide-2025].\n\nLe climat est tropical, avec deux saisons : chaude et humide d'octobre à mars, sèche d'avril à septembre."
+        "fr": "**Capitale :** Maputo. **Langue officielle :** portugais. **Monnaie :** metical (MZN).\n\nLe Mozambique est une république présidentielle multipartite : le Président, chef de l'État et du gouvernement, est élu au suffrage direct pour cinq ans, et l'Assemblée de la République est monocamérale. Le système juridique est romano-germanique (droit civil), avec des juridictions judiciaires, administratives, fiscales et douanières [ref:business-guide-2025].\n\nLe climat est tropical, avec deux saisons : chaude et humide d'octobre à mars, sèche d'avril à septembre.",
+        "zh": "**首都：**马普托。**官方语言：**葡萄牙语。**货币：**梅蒂卡尔（MZN）。\n\n莫桑比克是多党制总统共和国：总统既是国家元首也是政府首脑，由直接选举产生，任期五年；共和国议会为一院制。法律体系属于罗马-日耳曼法系（大陆法系），设有司法、行政、税务和海关法院 [ref:business-guide-2025]。\n\n气候属热带气候，分为两季：10 月至次年 3 月为炎热多雨季，4 月至 9 月为旱季。",
+        "ar": "**العاصمة:** Maputo. **اللغة الرسمية:** البرتغالية. **العملة:** الميتيكال (MZN).\n\nموزمبيق جمهورية رئاسية متعددة الأحزاب: يُنتخب الرئيس، رئيس الدولة والحكومة، مباشرة لولايات مدتها خمس سنوات، وجمعية الجمهورية مجلس تشريعي واحد. والنظام القانوني روماني جرماني (قانون مدني)، مع محاكم قضائية وإدارية وضريبية وجمركية [ref:business-guide-2025].\n\nالمناخ استوائي بفصلين: حار وممطر من أكتوبر إلى مارس، وجاف من أبريل إلى سبتمبر.",
+        "hi": "**राजधानी:** Maputo। **आधिकारिक भाषा:** पुर्तगाली। **मुद्रा:** मेटिकल (MZN)।\n\nमोज़ाम्बिक एक बहुदलीय राष्ट्रपति प्रणाली वाला गणराज्य है: राष्ट्रपति, जो राष्ट्राध्यक्ष और सरकार के प्रमुख दोनों हैं, पाँच वर्ष के कार्यकाल के लिए सीधे चुने जाते हैं, और Assembleia da República (संसद) एक-सदनीय है। कानूनी प्रणाली रोमन-जर्मनिक (सिविल लॉ) है, जिसमें न्यायिक, प्रशासनिक, कर और सीमा शुल्क न्यायालय हैं [ref:business-guide-2025]।\n\nजलवायु उष्णकटिबंधीय है, दो मौसमों के साथ: अक्टूबर से मार्च तक गर्म और वर्षा वाला, अप्रैल से सितंबर तक शुष्क।",
+        "sw": "**Mji mkuu:** Maputo. **Lugha rasmi:** Kireno. **Sarafu:** metical (MZN).\n\nMsumbiji ni jamhuri ya kirais ya vyama vingi: Rais, mkuu wa nchi na wa serikali, huchaguliwa moja kwa moja kwa vipindi vya miaka mitano, na Bunge la Jamhuri (Assembleia da República) lina chumba kimoja. Mfumo wa kisheria ni wa Kiroma-Kijerumani (civil law), wenye mahakama za kawaida, za utawala, za kodi na za forodha [ref:business-guide-2025].\n\nHali ya hewa ni ya kitropiki, yenye misimu miwili: joto na mvua kuanzia Oktoba hadi Machi, kiangazi kuanzia Aprili hadi Septemba.",
+        "af": "**Hoofstad:** Maputo. **Amptelike taal:** Portugees. **Geldeenheid:** metical (MZN).\n\nMosambiek is 'n veelparty-presidensiële republiek: die President, staatshoof en regeringshoof, word direk vir termyne van vyf jaar verkies, en die Assembleia da República (Parlement) is eenkamerig. Die regstelsel is Romeins-Germaans (siviele reg), met geregtelike, administratiewe, belasting- en doeanehowe [ref:business-guide-2025].\n\nDie klimaat is tropies, met twee seisoene: warm en nat van Oktober tot Maart, droog van April tot September."
       }
     },
     {
@@ -69,62 +119,112 @@
       "title": {
         "pt": "Economia",
         "en": "Economy",
-        "fr": "Économie"
+        "fr": "Économie",
+        "zh": "经济",
+        "ar": "الاقتصاد",
+        "hi": "अर्थव्यवस्था",
+        "sw": "Uchumi",
+        "af": "Ekonomie"
       },
       "facts": [
         {
           "value": {
             "pt": "≈ USD 22 mil milhões",
             "en": "≈ USD 22 billion",
-            "fr": "≈ 22 milliards USD"
+            "fr": "≈ 22 milliards USD",
+            "zh": "≈ 220 亿美元",
+            "ar": "≈ USD 22 مليار",
+            "hi": "≈ USD 22 बिलियन",
+            "sw": "≈ USD bilioni 22",
+            "af": "≈ USD 22 miljard"
           },
           "label": {
             "pt": "PIB (Banco Mundial, 2024)",
             "en": "GDP (World Bank, 2024)",
-            "fr": "PIB (Banque mondiale, 2024)"
+            "fr": "PIB (Banque mondiale, 2024)",
+            "zh": "国内生产总值（世界银行，2024 年）",
+            "ar": "الناتج المحلي الإجمالي (البنك الدولي، 2024)",
+            "hi": "GDP (विश्व बैंक, 2024)",
+            "sw": "Pato la Taifa (Benki ya Dunia, 2024)",
+            "af": "BBP (Wêreldbank, 2024)"
           }
         },
         {
           "value": {
             "pt": "≈ 4–5%",
             "en": "≈ 4–5%",
-            "fr": "≈ 4–5 %"
+            "fr": "≈ 4–5 %",
+            "zh": "≈ 4–5%",
+            "ar": "≈ 4–5%",
+            "hi": "≈ 4–5%",
+            "sw": "≈ 4–5%",
+            "af": "≈ 4–5%"
           },
           "label": {
             "pt": "crescimento médio anual (Banco de Moçambique / INE, 2024)",
             "en": "average annual growth (Bank of Mozambique / INE, 2024)",
-            "fr": "croissance annuelle moyenne (Banque du Mozambique / INE, 2024)"
+            "fr": "croissance annuelle moyenne (Banque du Mozambique / INE, 2024)",
+            "zh": "年均增长率（Banco de Moçambique / INE，2024 年）",
+            "ar": "متوسط النمو السنوي (Banco de Moçambique / INE، 2024)",
+            "hi": "औसत वार्षिक वृद्धि (Banco de Moçambique / INE, 2024)",
+            "sw": "ukuaji wa wastani wa kila mwaka (Banco de Moçambique / INE, 2024)",
+            "af": "gemiddelde jaarlikse groei (Banco de Moçambique / INE, 2024)"
           }
         },
         {
           "value": {
             "pt": "≈ USD 3,5 mil milhões",
             "en": "≈ USD 3.5 billion",
-            "fr": "≈ 3,5 milliards USD"
+            "fr": "≈ 3,5 milliards USD",
+            "zh": "≈ 35 亿美元",
+            "ar": "≈ USD 3.5 مليار",
+            "hi": "≈ USD 3.5 बिलियन",
+            "sw": "≈ USD bilioni 3.5",
+            "af": "≈ USD 3.5 miljard"
           },
           "label": {
             "pt": "de IDE em 2024, +40% face ao ano anterior (Banco de Moçambique)",
             "en": "of FDI in 2024, up 40% year on year (Bank of Mozambique)",
-            "fr": "d'IDE en 2024, +40 % sur un an (Banque du Mozambique)"
+            "fr": "d'IDE en 2024, +40 % sur un an (Banque du Mozambique)",
+            "zh": "2024 年外国直接投资，同比增长 40%（Banco de Moçambique）",
+            "ar": "من الاستثمار الأجنبي المباشر في 2024، بزيادة 40% على أساس سنوي (Banco de Moçambique)",
+            "hi": "2024 में FDI, पिछले वर्ष की तुलना में 40% अधिक (Banco de Moçambique)",
+            "sw": "za FDI mwaka 2024, ongezeko la 40% ikilinganishwa na mwaka uliotangulia (Banco de Moçambique)",
+            "af": "se BDB (buitelandse direkte belegging) in 2024, 40% hoër as die vorige jaar (Banco de Moçambique)"
           }
         },
         {
           "value": {
             "pt": "≈ 15%",
             "en": "≈ 15%",
-            "fr": "≈ 15 %"
+            "fr": "≈ 15 %",
+            "zh": "≈ 15%",
+            "ar": "≈ 15%",
+            "hi": "≈ 15%",
+            "sw": "≈ 15%",
+            "af": "≈ 15%"
           },
           "label": {
             "pt": "rácio IDE/PIB — dos mais altos da África Subsariana",
             "en": "FDI-to-GDP ratio — among the highest in Sub-Saharan Africa",
-            "fr": "ratio IDE/PIB — parmi les plus élevés d'Afrique subsaharienne"
+            "fr": "ratio IDE/PIB — parmi les plus élevés d'Afrique subsaharienne",
+            "zh": "外国直接投资占 GDP 比重——位居撒哈拉以南非洲前列",
+            "ar": "نسبة الاستثمار الأجنبي المباشر إلى الناتج المحلي — من الأعلى في أفريقيا جنوب الصحراء",
+            "hi": "FDI-से-GDP अनुपात — उप-सहारा अफ़्रीका में सबसे ऊँचे अनुपातों में से एक",
+            "sw": "uwiano wa FDI kwa Pato la Taifa — miongoni mwa juu zaidi Kusini mwa Jangwa la Sahara",
+            "af": "verhouding van BDB tot BBP — onder die hoogstes in Afrika suid van die Sahara"
           }
         }
       ],
       "body": {
         "pt": "As principais exportações são carvão, GNL, alumínio e gás natural, a par de tabaco, açúcar, algodão, castanha de caju, gergelim e leguminosas.\n\nO Business Guide 2025 previa uma aceleração do crescimento para 6% em 2025, impulsionada pelos serviços e pela produção de GNL, com riscos climáticos, de segurança e de preços que podem reduzi-lo para 4,5% no médio prazo, e uma inflação de cerca de 7% [ref:business-guide-2025].",
         "en": "The main exports are coal, LNG, aluminium and natural gas, alongside tobacco, sugar, cotton, cashew nuts, sesame and pulses.\n\nThe Business Guide 2025 expected growth to accelerate to 6% in 2025, driven by services and LNG production, with climate, security and price risks that could lower it to 4.5% in the medium term, and inflation of about 7% [ref:business-guide-2025].",
-        "fr": "Les principales exportations sont le charbon, le GNL, l'aluminium et le gaz naturel, ainsi que le tabac, le sucre, le coton, la noix de cajou, le sésame et les légumineuses.\n\nLe Business Guide 2025 prévoyait une accélération de la croissance à 6 % en 2025, portée par les services et la production de GNL, avec des risques climatiques, sécuritaires et de prix pouvant la ramener à 4,5 % à moyen terme, et une inflation d'environ 7 % [ref:business-guide-2025]."
+        "fr": "Les principales exportations sont le charbon, le GNL, l'aluminium et le gaz naturel, ainsi que le tabac, le sucre, le coton, la noix de cajou, le sésame et les légumineuses.\n\nLe Business Guide 2025 prévoyait une accélération de la croissance à 6 % en 2025, portée par les services et la production de GNL, avec des risques climatiques, sécuritaires et de prix pouvant la ramener à 4,5 % à moyen terme, et une inflation d'environ 7 % [ref:business-guide-2025].",
+        "zh": "主要出口产品为煤炭、液化天然气、铝和天然气，另有烟草、糖、棉花、腰果、芝麻和豆类。\n\n《2025 年商业指南》预计 2025 年经济增长将加快至 6%，主要由服务业和液化天然气生产推动；但气候、安全和价格风险可能使中期增长降至 4.5%，通胀率约为 7% [ref:business-guide-2025]。",
+        "ar": "الصادرات الرئيسية هي الفحم والغاز الطبيعي المسال والألومنيوم والغاز الطبيعي، إلى جانب التبغ والسكر والقطن والكاجو والسمسم والبقوليات.\n\nتوقّع دليل الأعمال لعام 2025 تسارع النمو إلى 6% في 2025، مدفوعاً بالخدمات وإنتاج الغاز الطبيعي المسال، مع مخاطر مناخية وأمنية وسعرية قد تخفضه إلى 4.5% على المدى المتوسط، وتضخم بنحو 7% [ref:business-guide-2025].",
+        "hi": "मुख्य निर्यात कोयला, LNG, एल्युमीनियम और प्राकृतिक गैस हैं, साथ ही तंबाकू, चीनी, कपास, काजू, तिल और दालें।\n\nBusiness Guide 2025 ने सेवाओं और LNG उत्पादन के बल पर 2025 में वृद्धि के 6% तक तेज़ होने की अपेक्षा की थी, जिसमें जलवायु, सुरक्षा और मूल्य संबंधी जोखिम मध्यम अवधि में इसे 4.5% तक घटा सकते हैं, और मुद्रास्फीति लगभग 7% रहने का अनुमान था [ref:business-guide-2025]।",
+        "sw": "Bidhaa kuu zinazouzwa nje ni makaa ya mawe, LNG, alumini na gesi asilia, pamoja na tumbaku, sukari, pamba, korosho, ufuta na jamii ya kunde.\n\nMwongozo wa Biashara 2025 ulitarajia ukuaji kuongezeka hadi 6% mwaka 2025, ukichochewa na huduma na uzalishaji wa LNG, huku hatari za hali ya hewa, usalama na bei zikiweza kuushusha hadi 4.5% katika muda wa kati, na mfumuko wa bei wa takriban 7% [ref:business-guide-2025].",
+        "af": "Die vernaamste uitvoere is steenkool, LNG, aluminium en aardgas, saam met tabak, suiker, katoen, kasjoeneute, sesam en peulgewasse.\n\nDie Business Guide 2025 het verwag dat groei in 2025 tot 6% sou versnel, gedryf deur dienste en LNG-produksie, met klimaat-, veiligheids- en prysrisiko's wat dit op medium termyn tot 4.5% kan verlaag, en inflasie van sowat 7% [ref:business-guide-2025]."
       }
     },
     {
@@ -132,62 +232,112 @@
       "title": {
         "pt": "Recursos e infra-estruturas",
         "en": "Resources and infrastructure",
-        "fr": "Ressources et infrastructures"
+        "fr": "Ressources et infrastructures",
+        "zh": "资源与基础设施",
+        "ar": "الموارد والبنية التحتية",
+        "hi": "संसाधन और बुनियादी ढाँचा",
+        "sw": "Rasilimali na miundombinu",
+        "af": "Hulpbronne en infrastruktuur"
       },
       "facts": [
         {
           "value": {
             "pt": "180+ tcf",
             "en": "180+ tcf",
-            "fr": "180+ tcf"
+            "fr": "180+ tcf",
+            "zh": "180+ 万亿立方英尺",
+            "ar": "180+ tcf",
+            "hi": "180+ tcf",
+            "sw": "tcf 180+",
+            "af": "180+ tcf"
           },
           "label": {
             "pt": "de reservas provadas de gás natural na Bacia do Rovuma",
             "en": "of proven natural gas reserves in the Rovuma Basin",
-            "fr": "de réserves prouvées de gaz naturel dans le bassin du Rovuma"
+            "fr": "de réserves prouvées de gaz naturel dans le bassin du Rovuma",
+            "zh": "鲁伍马盆地已探明天然气储量",
+            "ar": "من احتياطيات الغاز الطبيعي المؤكدة في حوض Rovuma",
+            "hi": "Rovuma बेसिन में प्रमाणित प्राकृतिक गैस भंडार",
+            "sw": "za akiba iliyothibitishwa ya gesi asilia katika Bonde la Rovuma",
+            "af": "bewese aardgasreserwes in die Rovuma-kom"
           }
         },
         {
           "value": {
             "pt": "36 milhões ha",
             "en": "36 million ha",
-            "fr": "36 millions ha"
+            "fr": "36 millions ha",
+            "zh": "3,600 万公顷",
+            "ar": "36 مليون هكتار",
+            "hi": "3.6 करोड़ हेक्टेयर",
+            "sw": "hekta milioni 36",
+            "af": "36 miljoen ha"
           },
           "label": {
             "pt": "de terra arável; menos de 15% cultivada, 3–5% irrigada",
             "en": "of arable land; under 15% cultivated, 3–5% irrigated",
-            "fr": "de terres arables ; moins de 15 % cultivées, 3–5 % irriguées"
+            "fr": "de terres arables ; moins de 15 % cultivées, 3–5 % irriguées",
+            "zh": "可耕地；耕种面积不足 15%，灌溉面积 3–5%",
+            "ar": "من الأراضي الصالحة للزراعة؛ أقل من 15% مزروعة، و3–5% مروية",
+            "hi": "कृषि योग्य भूमि; 15% से कम पर खेती, 3–5% सिंचित",
+            "sw": "za ardhi ya kilimo; chini ya 15% inalimwa, 3–5% inamwagiliwa",
+            "af": "bewerkbare grond; minder as 15% bewerk, 3–5% besproei"
           }
         },
         {
           "value": {
             "pt": "2 075 MW",
             "en": "2,075 MW",
-            "fr": "2 075 MW"
+            "fr": "2 075 MW",
+            "zh": "2,075 MW",
+            "ar": "2,075 MW",
+            "hi": "2,075 MW",
+            "sw": "MW 2,075",
+            "af": "2,075 MW"
           },
           "label": {
             "pt": "Cahora Bassa — excedente exportado para a região",
             "en": "Cahora Bassa — surplus exported to the region",
-            "fr": "Cahora Bassa — excédent exporté dans la région"
+            "fr": "Cahora Bassa — excédent exporté dans la région",
+            "zh": "卡奥拉巴萨水电站——富余电力出口至周边地区",
+            "ar": "Cahora Bassa — يُصدَّر الفائض إلى المنطقة",
+            "hi": "Cahora Bassa — अतिरिक्त बिजली क्षेत्र को निर्यात की जाती है",
+            "sw": "Cahora Bassa — ziada inauzwa kwa nchi za kanda",
+            "af": "Cahora Bassa — surplus word na die streek uitgevoer"
           }
         },
         {
           "value": {
             "pt": "32 milhões t",
             "en": "32 million t",
-            "fr": "32 millions t"
+            "fr": "32 millions t",
+            "zh": "3,200 万吨",
+            "ar": "32 مليون طن",
+            "hi": "3.2 करोड़ टन",
+            "sw": "tani milioni 32",
+            "af": "32 miljoen t"
           },
           "label": {
             "pt": "movimentadas no Porto de Maputo em 2025, recorde histórico",
             "en": "handled at the Port of Maputo in 2025, an all-time record",
-            "fr": "traitées au port de Maputo en 2025, record historique"
+            "fr": "traitées au port de Maputo en 2025, record historique",
+            "zh": "2025 年马普托港吞吐量，创历史新高",
+            "ar": "تمت مناولتها في ميناء Maputo في 2025، وهو رقم قياسي غير مسبوق",
+            "hi": "2025 में Maputo बंदरगाह पर संभाला गया, अब तक का सर्वकालिक रिकॉर्ड",
+            "sw": "zilizoshughulikiwa katika Bandari ya Maputo mwaka 2025, rekodi ya wakati wote",
+            "af": "in 2025 deur die Hawe van Maputo hanteer, 'n rekord nog altyd"
           }
         }
       ],
       "body": {
         "pt": "- **Minerais:** grafite de Balama (escala mundial), areias pesadas, rubis, carvão, ouro e mármore.\n- **Pescas:** potencial de 220 000 a 330 000 toneladas por ano.\n- **Portos e ferrovia:** Maputo, Beira e Nacala, ligados pelos corredores ferroviários da CFM aos países vizinhos sem litoral.\n- **Conectividade:** fibra no corredor de Maputo, dados móveis em todo o país, três cabos submarinos (incluindo o 2Africa) e centros de dados Tier III.",
         "en": "- **Minerals:** Balama graphite (world-scale), heavy mineral sands, rubies, coal, gold and marble.\n- **Fisheries:** potential of 220,000 to 330,000 tonnes a year.\n- **Ports and rail:** Maputo, Beira and Nacala, linked by CFM's rail corridors to landlocked neighbours.\n- **Connectivity:** fibre along the Maputo corridor, nationwide mobile data, three submarine cables (including 2Africa) and Tier III data centres.",
-        "fr": "- **Minéraux :** graphite de Balama (d'envergure mondiale), sables minéralisés, rubis, charbon, or et marbre.\n- **Pêche :** potentiel de 220 000 à 330 000 tonnes par an.\n- **Ports et rail :** Maputo, Beira et Nacala, reliés par les corridors ferroviaires des CFM aux voisins enclavés.\n- **Connectivité :** fibre le long du corridor de Maputo, données mobiles dans tout le pays, trois câbles sous-marins (dont 2Africa) et centres de données Tier III."
+        "fr": "- **Minéraux :** graphite de Balama (d'envergure mondiale), sables minéralisés, rubis, charbon, or et marbre.\n- **Pêche :** potentiel de 220 000 à 330 000 tonnes par an.\n- **Ports et rail :** Maputo, Beira et Nacala, reliés par les corridors ferroviaires des CFM aux voisins enclavés.\n- **Connectivité :** fibre le long du corridor de Maputo, données mobiles dans tout le pays, trois câbles sous-marins (dont 2Africa) et centres de données Tier III.",
+        "zh": "- **矿产：**巴拉马石墨（世界级）、重矿砂、红宝石、煤炭、黄金和大理石。\n- **渔业：**年潜力 22 万至 33 万吨。\n- **港口与铁路：**马普托、贝拉和纳卡拉港，通过 CFM（莫桑比克港口和铁路公司）的铁路走廊连接内陆邻国。\n- **互联互通：**马普托走廊沿线光纤、全国移动数据网络、三条海底光缆（包括 2Africa）以及 Tier III 数据中心。",
+        "ar": "- **المعادن:** غرافيت Balama (على نطاق عالمي)، ورمال المعادن الثقيلة، والياقوت، والفحم، والذهب، والرخام.\n- **مصايد الأسماك:** إمكانات تتراوح بين 220,000 و330,000 طن سنوياً.\n- **الموانئ والسكك الحديدية:** Maputo وBeira وNacala، المرتبطة عبر الممرات السككية لشركة CFM بالدول المجاورة غير الساحلية.\n- **الاتصال:** ألياف ضوئية على امتداد ممر Maputo، وبيانات متنقلة على الصعيد الوطني، وثلاثة كابلات بحرية (منها 2Africa)، ومراكز بيانات من المستوى Tier III.",
+        "hi": "- **खनिज:** Balama ग्रेफ़ाइट (विश्व-स्तरीय), भारी खनिज रेत, माणिक (रूबी), कोयला, सोना और संगमरमर।\n- **मत्स्य पालन:** प्रति वर्ष 220,000 से 330,000 टन की क्षमता।\n- **बंदरगाह और रेल:** Maputo, Beira और Nacala, जो CFM के रेल कॉरिडोर द्वारा स्थल-रुद्ध (landlocked) पड़ोसी देशों से जुड़े हैं।\n- **कनेक्टिविटी:** Maputo कॉरिडोर के साथ फ़ाइबर, देशव्यापी मोबाइल डेटा, तीन समुद्री केबल (2Africa सहित) और Tier III डेटा सेंटर।",
+        "sw": "- **Madini:** grafiti ya Balama (ya kiwango cha dunia), mchanga wenye madini mazito, rubi, makaa ya mawe, dhahabu na marumaru.\n- **Uvuvi:** uwezo wa tani 220,000 hadi 330,000 kwa mwaka.\n- **Bandari na reli:** Maputo, Beira na Nacala, zinazounganishwa na shoroba za reli za CFM kwa majirani wasio na bahari.\n- **Muunganisho:** nyaya za fibre kando ya ushoroba wa Maputo, data ya simu nchi nzima, nyaya tatu za chini ya bahari (ikiwemo 2Africa) na vituo vya data vya Tier III.",
+        "af": "- **Minerale:** Balama-grafiet (op wêreldskaal), swaarmineraalsande, robyne, steenkool, goud en marmer.\n- **Visserye:** potensiaal van 220,000 tot 330,000 ton per jaar.\n- **Hawens en spoor:** Maputo, Beira en Nacala, deur CFM se spoorkorridors met ingeslote buurlande verbind.\n- **Konnektiwiteit:** vesel langs die Maputo-korridor, landwye mobiele data, drie duikkabels (insluitend 2Africa) en Tier III-datasentrums."
       }
     },
     {
@@ -195,34 +345,64 @@
       "title": {
         "pt": "Acesso a mercados",
         "en": "Market access",
-        "fr": "Accès aux marchés"
+        "fr": "Accès aux marchés",
+        "zh": "市场准入",
+        "ar": "النفاذ إلى الأسواق",
+        "hi": "बाज़ार तक पहुँच",
+        "sw": "Upatikanaji wa masoko",
+        "af": "Marktoegang"
       },
       "body": {
         "pt": "Moçambique faz fronteira com seis países e é membro da SADC, da União Africana, da CPLP, da Commonwealth e da OMC. A produção instalada no país pode servir o mercado interno, a região e a Europa.",
         "en": "Mozambique borders six countries and is a member of SADC, the African Union, the CPLP, the Commonwealth and the WTO. Production based in the country can serve the domestic market, the region and Europe.",
-        "fr": "Le Mozambique partage ses frontières avec six pays et est membre de la SADC, de l'Union africaine, de la CPLP, du Commonwealth et de l'OMC. Une production installée dans le pays peut desservir le marché intérieur, la région et l'Europe."
+        "fr": "Le Mozambique partage ses frontières avec six pays et est membre de la SADC, de l'Union africaine, de la CPLP, du Commonwealth et de l'OMC. Une production installée dans le pays peut desservir le marché intérieur, la région et l'Europe.",
+        "zh": "莫桑比克与六个国家接壤，是南部非洲发展共同体（SADC）、非洲联盟、葡语国家共同体（CPLP）、英联邦和世界贸易组织的成员。在莫桑比克生产的产品可供应国内市场、区域市场和欧洲市场。",
+        "ar": "تحدّ موزمبيق ست دول، وهي عضو في SADC والاتحاد الأفريقي وCPLP والكومنولث ومنظمة التجارة العالمية. ويمكن للإنتاج القائم في البلد أن يخدم السوق المحلية والمنطقة وأوروبا.",
+        "hi": "मोज़ाम्बिक की सीमाएँ छह देशों से लगती हैं और यह SADC, अफ़्रीकी संघ, CPLP, राष्ट्रमंडल (Commonwealth) और WTO का सदस्य है। देश में स्थित उत्पादन घरेलू बाज़ार, क्षेत्र और यूरोप की आपूर्ति कर सकता है।",
+        "sw": "Msumbiji inapakana na nchi sita na ni mwanachama wa SADC, Umoja wa Afrika, CPLP, Jumuiya ya Madola na WTO. Uzalishaji unaofanyika nchini unaweza kuhudumia soko la ndani, kanda na Ulaya.",
+        "af": "Mosambiek grens aan ses lande en is 'n lid van SADC, die Afrika-unie, die CPLP, die Statebond en die WHO (Wêreldhandelsorganisasie). Produksie wat in die land gevestig is, kan die binnelandse mark, die streek en Europa bedien."
       },
       "table": {
         "caption": {
           "pt": "Acordos comerciais",
           "en": "Trade agreements",
-          "fr": "Accords commerciaux"
+          "fr": "Accords commerciaux",
+          "zh": "贸易协定",
+          "ar": "الاتفاقيات التجارية",
+          "hi": "व्यापार समझौते",
+          "sw": "Mikataba ya biashara",
+          "af": "Handelsooreenkomste"
         },
         "columns": [
           {
             "pt": "Acordo",
             "en": "Agreement",
-            "fr": "Accord"
+            "fr": "Accord",
+            "zh": "协定",
+            "ar": "الاتفاقية",
+            "hi": "समझौता",
+            "sw": "Mkataba",
+            "af": "Ooreenkoms"
           },
           {
             "pt": "Âmbito",
             "en": "Scope",
-            "fr": "Portée"
+            "fr": "Portée",
+            "zh": "范围",
+            "ar": "النطاق",
+            "hi": "दायरा",
+            "sw": "Wigo",
+            "af": "Omvang"
           },
           {
             "pt": "Para o investidor",
             "en": "For the investor",
-            "fr": "Pour l'investisseur"
+            "fr": "Pour l'investisseur",
+            "zh": "对投资者的意义",
+            "ar": "بالنسبة للمستثمر",
+            "hi": "निवेशक के लिए",
+            "sw": "Kwa mwekezaji",
+            "af": "Vir die belegger"
           }
         ],
         "rows": [
@@ -230,68 +410,128 @@
             {
               "pt": "SADC",
               "en": "SADC",
-              "fr": "SADC"
+              "fr": "SADC",
+              "zh": "SADC",
+              "ar": "SADC",
+              "hi": "SADC",
+              "sw": "SADC",
+              "af": "SADC"
             },
             {
               "pt": "15 membros · mais de 253 milhões de consumidores",
               "en": "15 members · 253M+ consumers",
-              "fr": "15 membres · plus de 253 millions de consommateurs"
+              "fr": "15 membres · plus de 253 millions de consommateurs",
+              "zh": "15 个成员国 · 2.53 亿以上消费者",
+              "ar": "15 عضواً · أكثر من 253 مليون مستهلك",
+              "hi": "15 सदस्य · 25.3 करोड़ से अधिक उपभोक्ता",
+              "sw": "Wanachama 15 · watumiaji milioni 253+",
+              "af": "15 lede · 253M+ verbruikers"
             },
             {
               "pt": "Acesso isento de direitos ao abrigo do Protocolo Comercial da SADC",
               "en": "Duty-free access under the SADC Trade Protocol",
-              "fr": "Accès en franchise de droits au titre du protocole commercial de la SADC"
+              "fr": "Accès en franchise de droits au titre du protocole commercial de la SADC",
+              "zh": "根据《SADC 贸易议定书》享受免关税准入",
+              "ar": "نفاذ معفى من الرسوم بموجب بروتوكول التجارة لـ SADC",
+              "hi": "SADC व्यापार प्रोटोकॉल के तहत शुल्क-मुक्त पहुँच",
+              "sw": "Upatikanaji bila ushuru chini ya Itifaki ya Biashara ya SADC",
+              "af": "Regtevrye toegang kragtens die SADC-handelsprotokol"
             }
           ],
           [
             {
               "pt": "ZCLCA (AfCFTA)",
               "en": "AfCFTA",
-              "fr": "ZLECAf"
+              "fr": "ZLECAf",
+              "zh": "AfCFTA（非洲大陆自由贸易区）",
+              "ar": "AfCFTA",
+              "hi": "AfCFTA",
+              "sw": "AfCFTA",
+              "af": "AfCFTA"
             },
             {
               "pt": "54 signatários · 1,4 mil milhões de pessoas · PIB ≈ USD 3,4 biliões",
               "en": "54 signatories · 1.4 billion people · GDP ≈ USD 3.4 trillion",
-              "fr": "54 signataires · 1,4 milliard de personnes · PIB ≈ 3 400 milliards USD"
+              "fr": "54 signataires · 1,4 milliard de personnes · PIB ≈ 3 400 milliards USD",
+              "zh": "54 个签署国 · 14 亿人口 · GDP ≈ 3.4 万亿美元",
+              "ar": "54 دولة موقّعة · 1.4 مليار نسمة · ناتج محلي ≈ USD 3.4 تريليون",
+              "hi": "54 हस्ताक्षरकर्ता · 1.4 अरब लोग · GDP ≈ USD 3.4 ट्रिलियन",
+              "sw": "Nchi 54 zilizosaini · watu bilioni 1.4 · Pato la Taifa ≈ USD trilioni 3.4",
+              "af": "54 ondertekenaars · 1.4 miljard mense · BBP ≈ USD 3.4 biljoen"
             },
             {
               "pt": "Mercado continental em liberalização progressiva",
               "en": "A continental market being progressively liberalised",
-              "fr": "Un marché continental en libéralisation progressive"
+              "fr": "Un marché continental en libéralisation progressive",
+              "zh": "正在逐步自由化的大陆市场",
+              "ar": "سوق قارية يجري تحريرها تدريجياً",
+              "hi": "एक महाद्वीपीय बाज़ार जिसका क्रमिक उदारीकरण हो रहा है",
+              "sw": "Soko la bara linalofunguliwa hatua kwa hatua",
+              "af": "'n Kontinentale mark wat geleidelik geliberaliseer word"
             }
           ],
           [
             {
               "pt": "APE UE–SADC",
               "en": "EU–SADC EPA",
-              "fr": "APE UE–SADC"
+              "fr": "APE UE–SADC",
+              "zh": "欧盟–SADC 经济伙伴关系协定（EPA）",
+              "ar": "EPA بين الاتحاد الأوروبي وSADC",
+              "hi": "EU–SADC EPA",
+              "sw": "EU–SADC EPA",
+              "af": "EU–SADC EPA"
             },
             {
               "pt": "Todos os Estados-Membros da UE",
               "en": "All EU member states",
-              "fr": "Tous les États membres de l'UE"
+              "fr": "Tous les États membres de l'UE",
+              "zh": "所有欧盟成员国",
+              "ar": "جميع الدول الأعضاء في الاتحاد الأوروبي",
+              "hi": "सभी EU सदस्य देश",
+              "sw": "Nchi zote wanachama wa EU",
+              "af": "Alle EU-lidstate"
             },
             {
               "pt": "Acesso preferencial ou isento de direitos para bens moçambicanos",
               "en": "Preferential or duty-free access for Mozambican goods",
-              "fr": "Accès préférentiel ou en franchise pour les produits mozambicains"
+              "fr": "Accès préférentiel ou en franchise pour les produits mozambicains",
+              "zh": "莫桑比克商品享受优惠或免关税准入",
+              "ar": "نفاذ تفضيلي أو معفى من الرسوم للسلع الموزمبيقية",
+              "hi": "मोज़ाम्बिकी वस्तुओं के लिए अधिमान्य या शुल्क-मुक्त पहुँच",
+              "sw": "Upatikanaji wa upendeleo au bila ushuru kwa bidhaa za Msumbiji",
+              "af": "Voorkeur- of regtevrye toegang vir Mosambiekse goedere"
             }
           ],
           [
             {
               "pt": "Commonwealth",
               "en": "Commonwealth",
-              "fr": "Commonwealth"
+              "fr": "Commonwealth",
+              "zh": "英联邦",
+              "ar": "الكومنولث",
+              "hi": "राष्ट्रमंडल (Commonwealth)",
+              "sw": "Jumuiya ya Madola",
+              "af": "Statebond"
             },
             {
               "pt": "56 membros",
               "en": "56 members",
-              "fr": "56 membres"
+              "fr": "56 membres",
+              "zh": "56 个成员国",
+              "ar": "56 عضواً",
+              "hi": "56 सदस्य",
+              "sw": "Wanachama 56",
+              "af": "56 lede"
             },
             {
               "pt": "Ligações comerciais ao Reino Unido, Índia, Austrália e Canadá",
               "en": "Commercial links to the UK, India, Australia and Canada",
-              "fr": "Liens commerciaux avec le Royaume-Uni, l'Inde, l'Australie et le Canada"
+              "fr": "Liens commerciaux avec le Royaume-Uni, l'Inde, l'Australie et le Canada",
+              "zh": "与英国、印度、澳大利亚和加拿大的商业联系",
+              "ar": "روابط تجارية مع المملكة المتحدة والهند وأستراليا وكندا",
+              "hi": "यूनाइटेड किंगडम, भारत, ऑस्ट्रेलिया और कनाडा से व्यावसायिक संबंध",
+              "sw": "Viungo vya kibiashara na Uingereza, India, Australia na Kanada",
+              "af": "Handelsbande met die VK, Indië, Australië en Kanada"
             }
           ]
         ]

@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Nasorg",
+  "genericCompany": "[Maatskappynaam], Lda",
+  "fromRoadmap": "sperdatums uit jou padkaart",
+  "genericNote": "Voorbeeldkalender vir 'n maatskappy met personeel, sommige van hulle buitelanders.",
+  "start": "Gebruik my projek",
+  "view": "Bekyk",
+  "tabs": {
+    "deadlines": "Sperdatums",
+    "permits": "Permitte",
+    "filings": "Indienings"
+  },
+  "shiftRule": "Wanneer 'n sperdatum op 'n naweek of openbare vakansiedag val, skuif dit na die vorige werksdag. Tiva wys die datum wat jy werklik moet haal.",
+  "count": "Sperdatums: {{count}}",
+  "period": {
+    "payroll": "Betaalstaat vir {{month}}",
+    "salaries": "Salarisse en betalings vir {{month}}",
+    "vat": "Opgawe vir {{month}}"
+  },
+  "shiftedWeekend": "Sperdatum {{nominal}} val op 'n {{weekday}}: dien vroeër in, op {{date}}.",
+  "shiftedHoliday": "Sperdatum {{nominal}} is 'n openbare vakansiedag ({{holiday}}): dien vroeër in, op {{date}}.",
+  "noDeadlines": "Geen maandelikse sperdatums vir hierdie maatskappy nie.",
+  "permitKinds": {
+    "dire": "DIRE-hernuwing",
+    "work_permit": "Werkpermithernuwing",
+    "licence": "Lisensiehernuwing"
+  },
+  "exampleHolder": "[Bestuurder se naam]",
+  "expires": "Verval {{date}} · herinnering op {{reminder}}",
+  "expiresExample": "Verval [datum] · voorbeeld: voeg jou eie hieronder by",
+  "removePermit": "Verwyder die herinnering vir {{holder}}",
+  "noPermits": "Nog geen hernuwingsherinnerings nie.",
+  "addTitle": "Voeg 'n hernuwingsherinnering by",
+  "kind": "Dokument",
+  "holder": "Houer",
+  "expiry": "Vervaldatum",
+  "lead": "Herinner my",
+  "leadDays": "{{n}} dae vooraf",
+  "add": "Voeg herinnering by",
+  "filingsLead": "Jaarlikse opgawes, voorlopige betalings en verslae, met die volgende sperdatums.",
+  "remindTitle": "Herinner my via",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "E-pos",
+    "push": "Kennisgewing"
+  },
+  "remindOn": "Herinnerings drie dae voor elke sperdatum (demo: niks word gestuur nie).",
+  "remindOff": "Herinnerings is af. Sperdatums bly op hierdie bladsy.",
+  "sourcesTitle": "Regsgrondslag",
+  "disclaimer": "Aanduidende kalender, nie belastingadvies nie. Bevestig sperdatums met jou rekenmeester.",
+  "addToCalendar": "Voeg by kalender",
+  "help": "Kry hulp met indiening",
+  "icsShifted": "Vervroeg van {{date}} (naweek of openbare vakansiedag).",
+  "icsRenew": "Begin hernuwing: {{title}}",
+  "icsExpires": "Verval {{date}}."
+}

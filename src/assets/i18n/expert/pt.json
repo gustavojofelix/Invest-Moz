@@ -1,0 +1,85 @@
+{
+  "back": "Voltar",
+  "eyebrow": "Falar com um especialista",
+  "title": "Quem deve dar seguimento a isto?",
+  "intro": "Um único pedido ao especialista certo: a Tax Advisory para trabalho pago e revisto por advogados, ou um organismo público cujos serviços são gratuitos.",
+  "share": {
+    "title": "Resumo que a Tiva vai partilhar",
+    "preview": "Ver o que vai ser partilhado",
+    "contact": "Mais o seu nome, empresa, email, telefone (se o indicar) e a sua nota.",
+    "none": "Nenhum projecto em contexto: só serão partilhados os seus contactos e a sua nota.",
+    "build": "Criar primeiro o meu roteiro"
+  },
+  "choose": "Escolha quem contactar",
+  "publicTitle": "Organismos públicos gratuitos",
+  "fee": {
+    "paid": "Serviço pago · proposta de honorários antes de qualquer trabalho",
+    "free": "Serviço público gratuito"
+  },
+  "contact": {
+    "title": "Os seus dados"
+  },
+  "fields": {
+    "name": "Nome",
+    "company": "Empresa",
+    "email": "Email",
+    "phone": "Telefone ou WhatsApp (opcional)",
+    "phoneHint": "Inclua o indicativo do país, por exemplo +258 84 000 0000.",
+    "slot": "Hora preferida para a chamada",
+    "day": "Dia",
+    "time": "Hora",
+    "slotHint": "Hora de Maputo (UTC+2). O especialista confirma ou propõe outra hora.",
+    "note": "O que gostaria de discutir? (opcional)"
+  },
+  "theExpert": "o especialista seleccionado",
+  "consent": "Aceito partilhar este resumo e os meus contactos com {{expert}}.",
+  "consentRequired": "Marque a caixa para dar o seu acordo antes de partilharmos o que quer que seja.",
+  "submit": "Pedir uma chamada",
+  "feeNote": "Recebe uma proposta de honorários por escrito antes de qualquer trabalho.",
+  "referral": {
+    "text": "A Tiva pode receber uma comissão de referência dos especialistas pagos. Os organismos públicos são sempre listados gratuitamente e nunca pagam por referências.",
+    "how": "Como funcionam as referências",
+    "detail": "A Tiva é desenvolvida pela Law Technology Solutions, com a Tax Advisory como parceiro especialista. Se escolher um especialista pago e vier a contratá-lo, a Tiva pode receber uma comissão de referência desse especialista. Isso nunca altera o preço que lhe é proposto, e as respostas da Tiva são as mesmas seja quem for que escolher. Nada é partilhado sem o consentimento que dá nesta página."
+  },
+  "mail": {
+    "subject": "Tiva — pedido de chamada",
+    "areas": "Áreas"
+  },
+  "sent": {
+    "title": "O seu pedido está com {{expert}}",
+    "text": "Têm os seus contactos e a sua nota.",
+    "textProject": "Têm o resumo do seu projecto e o roteiro, por isso não vai precisar de o explicar outra vez.",
+    "ref": "Referência",
+    "call": "Chamada",
+    "timezone": "Hora de Maputo (UTC+2)",
+    "language": "Idioma",
+    "shared": "Partilhado",
+    "sharedProject": "Resumo · Roteiro · Contactos",
+    "sharedContact": "Contactos · Nota",
+    "whatShared": "Ver o que foi partilhado",
+    "next": "O que acontece a seguir",
+    "paid": {
+      "step1": "Um consultor confirma a chamada por email e, se indicou um número, por WhatsApp.",
+      "step2": "Na chamada acordam o âmbito do trabalho.",
+      "step3": "Recebe uma proposta de honorários por escrito antes de qualquer trabalho."
+    },
+    "free": {
+      "step1": "O balcão do investidor do organismo público confirma a chamada por email.",
+      "step2": "Na chamada explicam o procedimento e os documentos para o seu caso.",
+      "step3": "Os serviços são gratuitos; eventuais taxas oficiais são explicadas à partida."
+    },
+    "feeNote": "Nenhum trabalho começa e nada é cobrado até aceitar uma proposta de honorários por escrito.",
+    "freeNote": "Os organismos públicos são listados gratuitamente e nunca pagam à Tiva por referências.",
+    "calendar": "Adicionar ao calendário",
+    "icsTitle": "Chamada com {{expert}} (Tiva)",
+    "roadmap": "Voltar ao roteiro",
+    "pathfinder": "Criar o meu roteiro",
+    "chat": "Voltar à conversa",
+    "fallback": "Se algo correr mal, pode também copiar o pedido ou enviá-lo por email.",
+    "copy": "Copiar o pedido",
+    "copied": "Copiado",
+    "mail": "Enviar por email",
+    "missing": "Não encontrámos este pedido.",
+    "again": "Fazer um novo pedido"
+  }
+}

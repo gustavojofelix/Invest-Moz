@@ -43,7 +43,7 @@ export function renderLocalized(
   const perLocale = isPerLocale(vars);
   const out = {} as LocalizedText;
   for (const l of LOCALES) {
-    out[l] = renderTemplate(text[l], perLocale ? (vars[l] ?? {}) : vars, sections);
+    out[l] = renderTemplate(text[l] ?? text.en ?? '', perLocale ? (vars[l] ?? {}) : vars, sections);
   }
   return out;
 }

@@ -37,12 +37,22 @@ const day = {
 
 write('common', {
   definitions: {
-    localizedText: obj({ pt: str, en: str, fr: str }),
-    localizedKeywords: obj({
-      pt: arr({ type: 'string' }),
-      en: arr({ type: 'string' }),
-      fr: arr({ type: 'string' }),
-    }),
+    // The eight Tiva locales. PT/EN/FR are reviewed; ZH/AR/HI/SW/AF are machine translations.
+    localizedText: obj({ pt: str, en: str, fr: str, zh: str, ar: str, hi: str, sw: str, af: str }),
+    // Matching keywords: PT/EN/FR required, the other locales optional.
+    localizedKeywords: obj(
+      {
+        pt: arr({ type: 'string' }),
+        en: arr({ type: 'string' }),
+        fr: arr({ type: 'string' }),
+        zh: arr({ type: 'string' }),
+        ar: arr({ type: 'string' }),
+        hi: arr({ type: 'string' }),
+        sw: arr({ type: 'string' }),
+        af: arr({ type: 'string' }),
+      },
+      ['pt', 'en', 'fr'],
+    ),
     condition: obj({ field: str, op: { enum: ['eq', 'in', 'gte', 'lt', 'between'] }, value: {} }),
     topic: {
       enum: [
@@ -121,7 +131,7 @@ write(
         {
           ref: { type: 'string', pattern: '^TA-IM-\\d{4}-\\d{4}$' },
           createdAt: str,
-          locale: { enum: ['pt', 'en', 'fr'] },
+          locale: { enum: ['pt', 'en', 'fr', 'zh', 'ar', 'hi', 'sw', 'af'] },
           name: str,
           company: str,
           email: { type: 'string', format: 'email' },
@@ -136,6 +146,10 @@ write(
           }),
           status: { enum: ['new', 'in_review', 'quoted', 'won'] },
           notes: arr(obj({ at: str, text: str })),
+          expertId: str,
+          consent: obj({ shareSummary: { type: 'boolean' }, at: str }),
+          callSlot: str,
+          channel: { enum: ['web', 'app', 'whatsapp'] },
         },
         [
           'ref',

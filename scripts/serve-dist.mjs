@@ -82,5 +82,5 @@ createServer(async (req, res) => {
   res.writeHead(200, headers);
   res.end(body);
 }).listen(port, () => {
-  console.log(`Invest Moz preview: http://localhost:${port}`);
+  console.log(`Tiva preview: http://localhost:${port}`);
 });

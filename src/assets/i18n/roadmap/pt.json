@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Roteiro de investimento",
+  "backToChat": "Voltar à conversa",
+  "stepsTitle": "Os nove passos",
+  "progress": "{{done}} de {{total}} concluídos",
+  "progressLabel": "Progresso do roteiro",
+  "jobs": "{{n}} empregos",
+  "foreign": "{{n}} estrangeiros",
+  "capital": {
+    "foreign": "Investidor estrangeiro",
+    "mixed": "Capital estrangeiro e moçambicano",
+    "mozambican": "Investidor moçambicano"
+  },
+  "profile": {
+    "label": "Perfil do investidor",
+    "investor": "Investidor",
+    "investment": "Investimento",
+    "jobs": "Empregos",
+    "sector": "Sector"
+  },
+  "markDone": "Marcar o passo {{n}} como concluído: {{title}}",
+  "markUndone": "Marcar o passo {{n}} como não concluído: {{title}}",
+  "tick": "Marcar como concluído",
+  "undo": "Marcar como não concluído",
+  "done": "Concluído",
+  "current": "Agora",
+  "mayNotApply": "Pode não se aplicar",
+  "who": "Quem",
+  "duration": "Prazo indicativo",
+  "forYou": "Para o seu projecto",
+  "documents": "Documentos",
+  "checklist": "Abrir a lista de verificação",
+  "legalBasis": "Base legal",
+  "openRef": "{{ref}} — abrir a referência legal",
+  "detail": {
+    "recommended": "Recomendado",
+    "decides": "Quem decide",
+    "guarantee": "Garantia de repatriamento",
+    "noLand": "Indicou que o projecto não precisa de terra: arrendar instalações existentes costuma bastar. Se isso mudar, este passo aplica-se.",
+    "noForeignCapital": "Capital moçambicano: não é necessário registar investimento estrangeiro, salvo se entrarem fundos do exterior mais tarde.",
+    "noForeignWorkers": "Sem trabalhadores estrangeiros previstos: inscreva a empresa e o pessoal no INSS. As autorizações só contam se contratar no estrangeiro mais tarde."
+  },
+  "allDone": "Os nove passos estão concluídos. A partir daqui, acompanhe os prazos mensais.",
+  "aftercare": "Abrir o calendário de obrigações",
+  "timeToOperate": "Prazo até operar",
+  "legalDate": "Informação geral baseada na legislação em vigor em {{date}}. Não constitui aconselhamento jurídico.",
+  "actions": {
+    "label": "Acções do roteiro",
+    "pdf": "Descarregar PDF",
+    "expert": "Falar com um especialista",
+    "incentives": "Estimar os seus incentivos",
+    "chat": "Perguntar à Tiva sobre este roteiro",
+    "edit": "Alterar as minhas respostas"
+  },
+  "loading": "A preparar o seu roteiro…",
+  "error": "Ocorreu um erro ao preparar o roteiro.",
+  "missing": {
+    "title": "Não encontrámos este roteiro",
+    "text": "Os projectos ficam guardados apenas neste dispositivo. Responda novamente às seis perguntas para o recriar."
+  },
+  "empty": {
+    "title": "O seu roteiro começa com seis perguntas curtas",
+    "text": "Sector, província, dimensão, origem, empregos e calendário. A Tiva transforma as respostas em nove passos ordenados, cada um com a entidade, os documentos e a lei que o fundamenta.",
+    "pathfinder": "Começar o Pathfinder",
+    "examples": "Ou abra um roteiro de exemplo"
+  },
+  "pdf": {
+    "back": "Voltar ao roteiro",
+    "print": "Imprimir / Guardar como PDF",
+    "hint": "Escolha «Guardar como PDF» na janela de impressão.",
+    "ref": "Ref. {{ref}}",
+    "generated": "Gerado em {{date}}",
+    "step": "Passo",
+    "incentives": "Incentivos a explorar",
+    "incentivesNote": "Apenas indicativo: sujeito à aprovação da APIEX e à revisão pendente do Código dos Benefícios Fiscais.",
+    "next": "As suas próximas três acções",
+    "contacts": "Contactos principais",
+    "contactApiex": "APIEX · registo do projecto",
+    "contactBau": "BAU {{province}} · licenciamento",
+    "contactBdm": "Banco de Moçambique · registo do capital",
+    "contactTa": "Tax Advisory · apoio jurídico e fiscal",
+    "disclaimer": "Informação geral baseada na legislação em vigor na data de emissão. Não constitui aconselhamento jurídico. Os passos, as entidades e os documentos podem variar consoante os factos de cada projecto."
+  }
+}

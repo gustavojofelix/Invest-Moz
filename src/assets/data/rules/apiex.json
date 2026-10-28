@@ -4,22 +4,43 @@
   "regime": [
     {
       "id": "foreign-investment",
-      "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "threshold": {
           "pt": "Via de registo (mín. 3 dias úteis, sem estudo de viabilidade): Governador Provincial até cerca de USD 54 milhões; Director-Geral da APIEX até cerca de USD 100 milhões; Ministro das Finanças até cerca de USD 500 milhões. Acima de cerca de USD 500 milhões, PPP, concessões, terra a partir de 10 000 ha, mineração e petróleo: via de autorização, com estudo de viabilidade e decisão em até 120 dias.",
           "en": "Registration track (min. 3 working days, no feasibility study): Provincial Governor up to about USD 54 million; APIEX Director-General up to about USD 100 million; Minister of Finance up to about USD 500 million. Above about USD 500 million, PPPs, concessions, land of 10,000 ha or more, mining and petroleum: authorisation track, with a feasibility study and a decision within 120 days.",
-          "fr": "Voie de l'enregistrement (min. 3 jours ouvrables, sans étude de faisabilité) : gouverneur provincial jusqu'à environ 54 millions USD ; directeur général de l'APIEX jusqu'à environ 100 millions USD ; ministre des Finances jusqu'à environ 500 millions USD. Au-delà d'environ 500 millions USD, PPP, concessions, terres de 10 000 ha ou plus, mines et pétrole : voie de l'autorisation, avec étude de faisabilité et décision sous 120 jours."
+          "fr": "Voie de l'enregistrement (min. 3 jours ouvrables, sans étude de faisabilité) : gouverneur provincial jusqu'à environ 54 millions USD ; directeur général de l'APIEX jusqu'à environ 100 millions USD ; ministre des Finances jusqu'à environ 500 millions USD. Au-delà d'environ 500 millions USD, PPP, concessions, terres de 10 000 ha ou plus, mines et pétrole : voie de l'autorisation, avec étude de faisabilité et décision sous 120 jours.",
+          "zh": "登记程序（至少 3 个工作日，无需可行性研究）：投资额约 5,400 万美元以下由省长审批；约 1 亿美元以下由 APIEX 总干事审批；约 5 亿美元以下由财政部长审批。约 5 亿美元以上的项目、公私合营（PPP）、特许经营、10,000 公顷及以上土地、采矿和石油项目：适用授权程序，须提交可行性研究，并在 120 天内作出决定。",
+          "ar": "مسار التسجيل (3 أيام عمل كحد أدنى، دون دراسة جدوى): حاكم المقاطعة حتى نحو USD 54 مليون؛ المدير العام لـ APIEX حتى نحو USD 100 مليون؛ وزير المالية حتى نحو USD 500 مليون. فوق نحو USD 500 مليون، وللشراكات بين القطاعين العام والخاص والامتيازات والأراضي بمساحة 10,000 هكتار فأكثر والتعدين والبترول: مسار الترخيص، مع دراسة جدوى وقرار خلال 120 يوماً.",
+          "hi": "पंजीकरण मार्ग (न्यूनतम 3 कार्य दिवस, व्यवहार्यता अध्ययन आवश्यक नहीं): लगभग USD 54 मिलियन तक Governador Provincial (प्रांतीय गवर्नर); लगभग USD 100 मिलियन तक APIEX के Director-Geral; लगभग USD 500 मिलियन तक Ministro das Finanças (वित्त मंत्री)। लगभग USD 500 मिलियन से अधिक, PPP, रियायतें (concessões), 10,000 हेक्टेयर या उससे अधिक भूमि, खनन और पेट्रोलियम: प्राधिकरण मार्ग, जिसमें व्यवहार्यता अध्ययन आवश्यक है और निर्णय 120 दिनों के भीतर होता है।",
+          "sw": "Njia ya usajili (angalau siku 3 za kazi, bila upembuzi yakinifu): Gavana wa Mkoa hadi takriban USD milioni 54; Mkurugenzi Mkuu wa APIEX hadi takriban USD milioni 100; Waziri wa Fedha hadi takriban USD milioni 500. Zaidi ya takriban USD milioni 500, PPP, makubaliano ya upangishaji (concessions), ardhi ya hekta 10,000 au zaidi, madini na petroli: njia ya idhini, pamoja na upembuzi yakinifu na uamuzi ndani ya siku 120.",
+          "af": "Registrasieroete (min. 3 werksdae, geen uitvoerbaarheidstudie nie): Provinsiale Goewerneur tot sowat USD 54 miljoen; Direkteur-generaal van APIEX tot sowat USD 100 miljoen; Minister van Finansies tot sowat USD 500 miljoen. Bo sowat USD 500 miljoen, vir PPV's, konsessies, grond van 10,000 ha of meer, mynbou en petroleum: magtigingsroete, met 'n uitvoerbaarheidstudie en 'n besluit binne 120 dae."
         },
         "authority": {
           "pt": "APIEX — aprovação pela entidade competente consoante o montante do investimento",
           "en": "APIEX — approval by the competent authority according to the investment amount",
-          "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement"
+          "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement",
+          "zh": "APIEX — 根据投资金额由主管机关审批",
+          "ar": "APIEX — الاعتماد من الجهة المختصة بحسب مبلغ الاستثمار",
+          "hi": "APIEX — निवेश राशि के अनुसार सक्षम प्राधिकारी द्वारा अनुमोदन",
+          "sw": "APIEX — idhini ya mamlaka husika kulingana na kiasi cha uwekezaji",
+          "af": "APIEX — goedkeuring deur die bevoegde owerheid volgens die beleggingsbedrag"
         },
         "path": {
           "pt": "Reunião prévia com a APIEX → submissão do projecto → certificado de investimento (mín. 3 dias úteis) → registo do IDE no Banco de Moçambique através de um banco comercial (até 90 dias).",
           "en": "Preliminary meeting with APIEX → project submission → investment certificate (min. 3 working days) → FDI registration with the Banco de Moçambique through a commercial bank (up to 90 days).",
-          "fr": "Réunion préalable avec l'APIEX → dépôt du projet → certificat d'investissement (min. 3 jours ouvrables) → enregistrement de l'IDE auprès de la Banco de Moçambique via une banque commerciale (jusqu'à 90 jours)."
+          "fr": "Réunion préalable avec l'APIEX → dépôt du projet → certificat d'investissement (min. 3 jours ouvrables) → enregistrement de l'IDE auprès de la Banco de Moçambique via une banque commerciale (jusqu'à 90 jours).",
+          "zh": "与 APIEX 召开预备会议 → 提交项目 → 投资证书（至少 3 个工作日）→ 通过商业银行在 Banco de Moçambique 办理外国直接投资（FDI）登记（最长 90 天）。",
+          "ar": "اجتماع تمهيدي مع APIEX ← تقديم المشروع ← شهادة الاستثمار (3 أيام عمل كحد أدنى) ← تسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique عبر بنك تجاري (حتى 90 يوماً).",
+          "hi": "APIEX के साथ प्रारंभिक बैठक → परियोजना प्रस्तुत करना → निवेश प्रमाणपत्र (न्यूनतम 3 कार्य दिवस) → किसी वाणिज्यिक बैंक के माध्यम से Banco de Moçambique (मोज़ाम्बिक का केंद्रीय बैंक) में FDI का पंजीकरण (90 दिनों तक)।",
+          "sw": "Mkutano wa awali na APIEX → kuwasilisha mradi → cheti cha uwekezaji (angalau siku 3 za kazi) → usajili wa FDI katika Banco de Moçambique kupitia benki ya biashara (hadi siku 90).",
+          "af": "Voorlopige vergadering met APIEX → indiening van die projek → beleggingsertifikaat (min. 3 werksdae) → registrasie van die BBB (direkte buitelandse belegging) by die Banco de Moçambique deur 'n kommersiële bank (tot 90 dae)."
         },
         "refs": ["lei-8-2023", "apiex-guide-2026", "lei-11-2009", "aviso-3-gbm-2024"]
       }
@@ -31,17 +52,32 @@
         "threshold": {
           "pt": "Via de registo (mín. 3 dias úteis, sem estudo de viabilidade): Governador Provincial até cerca de USD 54 milhões; Director-Geral da APIEX até cerca de USD 100 milhões; Ministro das Finanças até cerca de USD 500 milhões. Acima de cerca de USD 500 milhões, PPP, concessões, terra a partir de 10 000 ha, mineração e petróleo: via de autorização, com estudo de viabilidade e decisão em até 120 dias.",
           "en": "Registration track (min. 3 working days, no feasibility study): Provincial Governor up to about USD 54 million; APIEX Director-General up to about USD 100 million; Minister of Finance up to about USD 500 million. Above about USD 500 million, PPPs, concessions, land of 10,000 ha or more, mining and petroleum: authorisation track, with a feasibility study and a decision within 120 days.",
-          "fr": "Voie de l'enregistrement (min. 3 jours ouvrables, sans étude de faisabilité) : gouverneur provincial jusqu'à environ 54 millions USD ; directeur général de l'APIEX jusqu'à environ 100 millions USD ; ministre des Finances jusqu'à environ 500 millions USD. Au-delà d'environ 500 millions USD, PPP, concessions, terres de 10 000 ha ou plus, mines et pétrole : voie de l'autorisation, avec étude de faisabilité et décision sous 120 jours."
+          "fr": "Voie de l'enregistrement (min. 3 jours ouvrables, sans étude de faisabilité) : gouverneur provincial jusqu'à environ 54 millions USD ; directeur général de l'APIEX jusqu'à environ 100 millions USD ; ministre des Finances jusqu'à environ 500 millions USD. Au-delà d'environ 500 millions USD, PPP, concessions, terres de 10 000 ha ou plus, mines et pétrole : voie de l'autorisation, avec étude de faisabilité et décision sous 120 jours.",
+          "zh": "登记程序（至少 3 个工作日，无需可行性研究）：投资额约 5,400 万美元以下由省长审批；约 1 亿美元以下由 APIEX 总干事审批；约 5 亿美元以下由财政部长审批。约 5 亿美元以上的项目、公私合营（PPP）、特许经营、10,000 公顷及以上土地、采矿和石油项目：适用授权程序，须提交可行性研究，并在 120 天内作出决定。",
+          "ar": "مسار التسجيل (3 أيام عمل كحد أدنى، دون دراسة جدوى): حاكم المقاطعة حتى نحو USD 54 مليون؛ المدير العام لـ APIEX حتى نحو USD 100 مليون؛ وزير المالية حتى نحو USD 500 مليون. فوق نحو USD 500 مليون، وللشراكات بين القطاعين العام والخاص والامتيازات والأراضي بمساحة 10,000 هكتار فأكثر والتعدين والبترول: مسار الترخيص، مع دراسة جدوى وقرار خلال 120 يوماً.",
+          "hi": "पंजीकरण मार्ग (न्यूनतम 3 कार्य दिवस, व्यवहार्यता अध्ययन आवश्यक नहीं): लगभग USD 54 मिलियन तक Governador Provincial (प्रांतीय गवर्नर); लगभग USD 100 मिलियन तक APIEX के Director-Geral; लगभग USD 500 मिलियन तक Ministro das Finanças (वित्त मंत्री)। लगभग USD 500 मिलियन से अधिक, PPP, रियायतें (concessões), 10,000 हेक्टेयर या उससे अधिक भूमि, खनन और पेट्रोलियम: प्राधिकरण मार्ग, जिसमें व्यवहार्यता अध्ययन आवश्यक है और निर्णय 120 दिनों के भीतर होता है।",
+          "sw": "Njia ya usajili (angalau siku 3 za kazi, bila upembuzi yakinifu): Gavana wa Mkoa hadi takriban USD milioni 54; Mkurugenzi Mkuu wa APIEX hadi takriban USD milioni 100; Waziri wa Fedha hadi takriban USD milioni 500. Zaidi ya takriban USD milioni 500, PPP, makubaliano ya upangishaji (concessions), ardhi ya hekta 10,000 au zaidi, madini na petroli: njia ya idhini, pamoja na upembuzi yakinifu na uamuzi ndani ya siku 120.",
+          "af": "Registrasieroete (min. 3 werksdae, geen uitvoerbaarheidstudie nie): Provinsiale Goewerneur tot sowat USD 54 miljoen; Direkteur-generaal van APIEX tot sowat USD 100 miljoen; Minister van Finansies tot sowat USD 500 miljoen. Bo sowat USD 500 miljoen, vir PPV's, konsessies, grond van 10,000 ha of meer, mynbou en petroleum: magtigingsroete, met 'n uitvoerbaarheidstudie en 'n besluit binne 120 dae."
         },
         "authority": {
           "pt": "APIEX — aprovação pela entidade competente consoante o montante do investimento",
           "en": "APIEX — approval by the competent authority according to the investment amount",
-          "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement"
+          "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement",
+          "zh": "APIEX — 根据投资金额由主管机关审批",
+          "ar": "APIEX — الاعتماد من الجهة المختصة بحسب مبلغ الاستثمار",
+          "hi": "APIEX — निवेश राशि के अनुसार सक्षम प्राधिकारी द्वारा अनुमोदन",
+          "sw": "APIEX — idhini ya mamlaka husika kulingana na kiasi cha uwekezaji",
+          "af": "APIEX — goedkeuring deur die bevoegde owerheid volgens die beleggingsbedrag"
         },
         "path": {
           "pt": "Registo do projecto na APIEX para aceder às garantias e benefícios fiscais (o certificado é opcional, mas é ele que dá acesso aos benefícios) → certificado de investimento (mín. 3 dias úteis).",
           "en": "Project registration with APIEX to access guarantees and tax incentives (the certificate is optional, but it is what unlocks the incentives) → investment certificate (min. 3 working days).",
-          "fr": "Enregistrement du projet auprès de l'APIEX pour accéder aux garanties et avantages fiscaux (le certificat est facultatif, mais c'est lui qui ouvre l'accès aux avantages) → certificat d'investissement (min. 3 jours ouvrables)."
+          "fr": "Enregistrement du projet auprès de l'APIEX pour accéder aux garanties et avantages fiscaux (le certificat est facultatif, mais c'est lui qui ouvre l'accès aux avantages) → certificat d'investissement (min. 3 jours ouvrables).",
+          "zh": "在 APIEX 登记项目以享受保障和税收优惠（投资证书为可选项，但只有取得证书才能享受优惠）→ 投资证书（至少 3 个工作日）。",
+          "ar": "تسجيل المشروع لدى APIEX للاستفادة من الضمانات والحوافز الضريبية (الشهادة اختيارية، لكنها ما يتيح الحوافز) ← شهادة الاستثمار (3 أيام عمل كحد أدنى).",
+          "hi": "गारंटियों और कर प्रोत्साहनों का लाभ पाने के लिए APIEX में परियोजना का पंजीकरण (प्रमाणपत्र वैकल्पिक है, लेकिन प्रोत्साहन इसी से मिलते हैं) → निवेश प्रमाणपत्र (न्यूनतम 3 कार्य दिवस)।",
+          "sw": "Usajili wa mradi katika APIEX ili kupata dhamana na vivutio vya kodi (cheti ni cha hiari, lakini ndicho kinachofungua vivutio) → cheti cha uwekezaji (angalau siku 3 za kazi).",
+          "af": "Registrasie van die projek by APIEX om toegang tot waarborge en belastingaansporings te kry (die sertifikaat is opsioneel, maar dit is wat die aansporings ontsluit) → beleggingsertifikaat (min. 3 werksdae)."
         },
         "refs": ["lei-8-2023", "apiex-guide-2026"]
       }
@@ -51,28 +87,54 @@
     {
       "id": "fdi-minimum-met",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "fdiMinimumMet", "op": "eq", "value": true }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "fdiMinimumMet",
+          "op": "eq",
+          "value": true
+        }
       ],
       "then": {
         "text": {
           "pt": "O investimento indicado ({{fact.investmentUsd}}, cerca de {{fact.investmentMzn}}) supera o IDE mínimo de MZN 6,5 milhões exigido para a garantia de exportação de lucros, desde que registado no Banco de Moçambique.",
           "en": "The stated investment ({{fact.investmentUsd}}, about {{fact.investmentMzn}}) exceeds the MZN 6.5 million minimum FDI required for the export-of-profits guarantee, provided it is registered with the Banco de Moçambique.",
-          "fr": "L'investissement indiqué ({{fact.investmentUsd}}, environ {{fact.investmentMzn}}) dépasse l'IDE minimum de 6,5 millions de MZN requis pour la garantie d'exportation des bénéfices, sous réserve de son enregistrement auprès de la Banco de Moçambique."
+          "fr": "L'investissement indiqué ({{fact.investmentUsd}}, environ {{fact.investmentMzn}}) dépasse l'IDE minimum de 6,5 millions de MZN requis pour la garantie d'exportation des bénéfices, sous réserve de son enregistrement auprès de la Banco de Moçambique.",
+          "zh": "申报的投资额（{{fact.investmentUsd}}，约合 {{fact.investmentMzn}}）超过享受利润汇出保障所需的 MZN 650 万最低外国直接投资额，前提是已在 Banco de Moçambique 登记。",
+          "ar": "يتجاوز الاستثمار المُعلن ({{fact.investmentUsd}}، أي نحو {{fact.investmentMzn}}) الحد الأدنى للاستثمار الأجنبي المباشر البالغ MZN 6.5 مليون والمطلوب لضمان تحويل الأرباح إلى الخارج، بشرط تسجيله لدى Banco de Moçambique.",
+          "hi": "बताया गया निवेश ({{fact.investmentUsd}}, लगभग {{fact.investmentMzn}}) लाभ के प्रत्यावर्तन (विदेश भेजने) की गारंटी के लिए आवश्यक न्यूनतम FDI MZN 6.5 मिलियन से अधिक है, बशर्ते यह Banco de Moçambique में पंजीकृत हो।",
+          "sw": "Uwekezaji uliotajwa ({{fact.investmentUsd}}, takriban {{fact.investmentMzn}}) unazidi kiwango cha chini cha FDI cha MZN milioni 6.5 kinachohitajika kwa dhamana ya kuhamisha faida nje ya nchi, ilimradi umesajiliwa katika Banco de Moçambique.",
+          "af": "Die verklaarde belegging ({{fact.investmentUsd}}, sowat {{fact.investmentMzn}}) oorskry die minimum BBB van MZN 6.5 miljoen wat vir die waarborg op die uitvoer van winste vereis word, mits dit by die Banco de Moçambique geregistreer is."
         }
       }
     },
     {
       "id": "fdi-minimum-not-met",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "fdiMinimumMet", "op": "eq", "value": false }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "fdiMinimumMet",
+          "op": "eq",
+          "value": false
+        }
       ],
       "then": {
         "text": {
           "pt": "O investimento indicado ({{fact.investmentUsd}}, cerca de {{fact.investmentMzn}}) fica abaixo do IDE mínimo de MZN 6,5 milhões. Sem esse mínimo, não há garantia de exportação de lucros; vale a pena rever o montante de IDE a registar.",
           "en": "The stated investment ({{fact.investmentUsd}}, about {{fact.investmentMzn}}) is below the MZN 6.5 million minimum FDI. Without it there is no export-of-profits guarantee; the FDI amount to register is worth reviewing.",
-          "fr": "L'investissement indiqué ({{fact.investmentUsd}}, environ {{fact.investmentMzn}}) est inférieur à l'IDE minimum de 6,5 millions de MZN. Sans ce minimum, il n'y a pas de garantie d'exportation des bénéfices ; le montant d'IDE à enregistrer mérite d'être revu."
+          "fr": "L'investissement indiqué ({{fact.investmentUsd}}, environ {{fact.investmentMzn}}) est inférieur à l'IDE minimum de 6,5 millions de MZN. Sans ce minimum, il n'y a pas de garantie d'exportation des bénéfices ; le montant d'IDE à enregistrer mérite d'être revu.",
+          "zh": "申报的投资额（{{fact.investmentUsd}}，约合 {{fact.investmentMzn}}）低于 MZN 650 万的最低外国直接投资额。未达到该金额则不享有利润汇出保障；建议重新评估拟登记的外国直接投资金额。",
+          "ar": "الاستثمار المُعلن ({{fact.investmentUsd}}، أي نحو {{fact.investmentMzn}}) أقل من الحد الأدنى للاستثمار الأجنبي المباشر البالغ MZN 6.5 مليون. ومن دونه لا يوجد ضمان لتحويل الأرباح إلى الخارج؛ ويجدر مراجعة مبلغ الاستثمار الأجنبي المباشر المراد تسجيله.",
+          "hi": "बताया गया निवेश ({{fact.investmentUsd}}, लगभग {{fact.investmentMzn}}) न्यूनतम FDI MZN 6.5 मिलियन से कम है। इस न्यूनतम के बिना लाभ के प्रत्यावर्तन की कोई गारंटी नहीं है; पंजीकृत की जाने वाली FDI राशि की समीक्षा करना उचित होगा।",
+          "sw": "Uwekezaji uliotajwa ({{fact.investmentUsd}}, takriban {{fact.investmentMzn}}) uko chini ya kiwango cha chini cha FDI cha MZN milioni 6.5. Bila hicho hakuna dhamana ya kuhamisha faida nje ya nchi; inafaa kupitia upya kiasi cha FDI cha kusajili.",
+          "af": "Die verklaarde belegging ({{fact.investmentUsd}}, sowat {{fact.investmentMzn}}) is onder die minimum BBB van MZN 6.5 miljoen. Daarsonder is daar geen waarborg op die uitvoer van winste nie; dit is die moeite werd om die BBB-bedrag wat geregistreer word, te hersien."
         }
       }
     },
@@ -83,7 +145,12 @@
         "text": {
           "pt": "Capital moçambicano: a garantia de exportação de lucros associada ao IDE não se aplica.",
           "en": "Mozambican capital: the FDI export-of-profits guarantee does not apply.",
-          "fr": "Capital mozambicain : la garantie d'exportation des bénéfices liée à l'IDE ne s'applique pas."
+          "fr": "Capital mozambicain : la garantie d'exportation des bénéfices liée à l'IDE ne s'applique pas.",
+          "zh": "莫桑比克本国资本：外国直接投资利润汇出保障不适用。",
+          "ar": "رأس مال موزمبيقي: لا ينطبق ضمان تحويل أرباح الاستثمار الأجنبي المباشر إلى الخارج.",
+          "hi": "मोज़ाम्बिकी पूंजी: FDI से जुड़ी लाभ प्रत्यावर्तन की गारंटी लागू नहीं होती।",
+          "sw": "Mtaji wa Msumbiji: dhamana ya FDI ya kuhamisha faida nje ya nchi haitumiki.",
+          "af": "Mosambiekse kapitaal: die BBB-waarborg op die uitvoer van winste is nie van toepassing nie."
         }
       }
     }

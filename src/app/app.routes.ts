@@ -9,9 +9,20 @@ import { guideChapterResolver, guideIndexResolver } from '@features/guide/guide-
 import { qaDataResolver } from '@features/qa/qa-data.resolver';
 
 /**
- * Route slugs are English in every locale. `/:lang` is pt | en | fr.
- * Prerendered: `/:lang`, `/:lang/guide`, `/:lang/guide/:chapter`, `/:lang/questions`,
- * `/:lang/questions/:topic`
+ * Route slugs are English in every locale. `/:lang` is one of the eight LOCALES.
+ * `data.chrome` picks the page chrome: `site` (default), `app` (full-screen
+ * mobile screens) or `office` (back office). See RouteChrome.
+ *
+ * The 23 screens of the Tiva screen pack:
+ *   web front door   1 landing (''), 2 roadmap PDF (roadmap/:ref/pdf)
+ *   investor journey 3 welcome, 4 pathfinder, 5 chat, 6 roadmap, 7 map, 8 incentives,
+ *                    9 expert, 10 expert/sent/:ref
+ *   tools, channels  11 library, 12 library/:chapter, 13 documents, 14 directory,
+ *                    15 aftercare, 16 alerts, 17 whatsapp
+ *   back office      18 office/queue, 19 office/knowledge-base, 20 office/conversations,
+ *                    21 office/leads, 22 office/intelligence, 23 office/partners
+ *
+ * Prerendered: `/:lang`, `/:lang/library`, `/:lang/library/:chapter`
  * (see app.routes.server.ts). Everything else renders on the client.
  */
 export const routes: Routes = [
@@ -26,105 +37,217 @@ export const routes: Routes = [
     component: Shell,
     resolve: { i18n: localeResolver },
     children: [
+      // 1 · Landing
       {
         path: '',
         pathMatch: 'full',
         loadComponent: () => import('@features/landing/landing-page').then((m) => m.LandingPage),
         providers: [provideTranslocoScope('landing')],
-        resolve: { scope: scopeResolver('landing'), guide: guideIndexResolver },
+        resolve: { scope: scopeResolver('landing') },
         data: { seo: { title: '', description: 'seo.siteDescription' } },
       },
+      // 3 · Welcome and language
       {
-        path: 'guide',
-        providers: [provideTranslocoScope('guide')],
-        resolve: { scope: scopeResolver('guide'), guide: guideIndexResolver },
+        path: 'welcome',
+        loadComponent: () => import('@features/welcome/welcome-page').then((m) => m.WelcomePage),
+        providers: [provideTranslocoScope('welcome')],
+        resolve: { scope: scopeResolver('welcome') },
+        data: { chrome: 'app', seo: { title: 'seo.welcome' } },
+      },
+      // 4 · Investment Pathfinder
+      {
+        path: 'pathfinder',
+        loadComponent: () =>
+          import('@features/pathfinder/pathfinder-page').then((m) => m.PathfinderPage),
+        providers: [provideTranslocoScope('pathfinder')],
+        resolve: { scope: scopeResolver('pathfinder') },
+        data: { seo: { title: 'seo.pathfinder' } },
+      },
+      // 5 · Chat with Tiva
+      {
+        path: 'chat',
+        loadComponent: () => import('@features/chat/chat-page').then((m) => m.ChatPage),
+        providers: [provideTranslocoScope('chat')],
+        resolve: { scope: scopeResolver('chat'), qaData: qaDataResolver },
+        data: { chrome: 'app', seo: { title: 'seo.chat' } },
+      },
+      // 6 · Investment roadmap, 2 · Roadmap PDF export
+      {
+        path: 'roadmap',
+        providers: [provideTranslocoScope('roadmap')],
+        resolve: { scope: scopeResolver('roadmap') },
         children: [
           {
             path: '',
-            loadComponent: () => import('@features/guide/guide-page').then((m) => m.GuidePage),
-            data: { seo: { title: 'seo.guide', description: 'seo.guideDescription' } },
+            loadComponent: () =>
+              import('@features/roadmap/roadmap-page').then((m) => m.RoadmapPage),
+            data: { seo: { title: 'seo.roadmap' } },
+          },
+          {
+            path: ':ref',
+            loadComponent: () =>
+              import('@features/roadmap/roadmap-page').then((m) => m.RoadmapPage),
+            data: { seo: { title: 'seo.roadmap' } },
+          },
+          {
+            path: ':ref/pdf',
+            loadComponent: () =>
+              import('@features/roadmap/roadmap-pdf').then((m) => m.RoadmapPdfPage),
+            data: { chrome: 'app', seo: { title: 'seo.roadmapPrint', noindex: true } },
+          },
+        ],
+      },
+      // 7 · Opportunity map
+      {
+        path: 'map',
+        loadComponent: () => import('@features/map/map-page').then((m) => m.MapPage),
+        providers: [provideTranslocoScope('map')],
+        resolve: { scope: scopeResolver('map') },
+        data: { seo: { title: 'seo.map' } },
+      },
+      // 8 · Incentive estimator
+      {
+        path: 'incentives',
+        loadComponent: () =>
+          import('@features/incentives/incentives-page').then((m) => m.IncentivesPage),
+        providers: [provideTranslocoScope('incentives')],
+        resolve: { scope: scopeResolver('incentives') },
+        data: { seo: { title: 'seo.incentives' } },
+      },
+      // 9 · Talk to an expert, 10 · Call requested
+      {
+        path: 'expert',
+        providers: [provideTranslocoScope('expert')],
+        resolve: { scope: scopeResolver('expert') },
+        children: [
+          {
+            path: '',
+            loadComponent: () => import('@features/expert/expert-page').then((m) => m.ExpertPage),
+            data: { seo: { title: 'seo.expert' } },
+          },
+          {
+            path: 'sent/:ref',
+            loadComponent: () =>
+              import('@features/expert/expert-sent').then((m) => m.ExpertSentPage),
+            data: { seo: { title: 'seo.expertSent', noindex: true } },
+          },
+        ],
+      },
+      // 11 · Knowledge library, 12 · Library article
+      {
+        path: 'library',
+        providers: [provideTranslocoScope('library')],
+        resolve: { scope: scopeResolver('library'), guide: guideIndexResolver },
+        children: [
+          {
+            path: '',
+            loadComponent: () =>
+              import('@features/library/library-page').then((m) => m.LibraryPage),
+            data: { seo: { title: 'seo.library', description: 'seo.libraryDescription' } },
           },
           {
             path: ':chapter',
             resolve: { body: guideChapterResolver },
             loadComponent: () =>
-              import('@features/guide/guide-chapter-page').then((m) => m.GuideChapterPage),
-            data: { seo: { title: 'seo.guide', description: 'seo.guideDescription' } },
+              import('@features/library/library-article').then((m) => m.LibraryArticlePage),
+            data: { seo: { title: 'seo.library', description: 'seo.libraryDescription' } },
           },
         ],
       },
+      // 13 · Documents and forms
       {
-        path: 'project',
-        loadComponent: () => import('@features/intake/intake-page').then((m) => m.IntakePage),
-        providers: [provideTranslocoScope('intake')],
-        resolve: { scope: scopeResolver('intake') },
-        data: { seo: { title: 'seo.project' } },
-      },
-      {
-        path: 'assessment/:ref',
+        path: 'documents',
         loadComponent: () =>
-          import('@features/assessment/assessment-page').then((m) => m.AssessmentPage),
-        providers: [provideTranslocoScope('assessment')],
-        resolve: { scope: scopeResolver('assessment') },
-        data: { seo: { title: 'seo.assessment' } },
+          import('@features/documents/documents-page').then((m) => m.DocumentsPage),
+        providers: [provideTranslocoScope('documents')],
+        resolve: { scope: scopeResolver('documents') },
+        data: { seo: { title: 'seo.documents' } },
       },
+      // 14 · Ecosystem directory
       {
-        path: 'questions',
-        providers: [provideTranslocoScope('qa')],
-        resolve: { scope: scopeResolver('qa'), qaData: qaDataResolver },
-        children: [
-          {
-            path: '',
-            loadComponent: () => import('@features/qa/qa-page').then((m) => m.QaPage),
-            data: { seo: { title: 'seo.questions' } },
-          },
-          {
-            path: ':topic',
-            loadComponent: () => import('@features/qa/qa-page').then((m) => m.QaPage),
-            data: { seo: { title: 'seo.questions' } },
-          },
-        ],
+        path: 'directory',
+        loadComponent: () =>
+          import('@features/directory/directory-page').then((m) => m.DirectoryPage),
+        providers: [provideTranslocoScope('directory')],
+        resolve: { scope: scopeResolver('directory') },
+        data: { seo: { title: 'seo.directory' } },
       },
+      // 15 · Aftercare calendar
       {
-        path: 'contact',
-        providers: [provideTranslocoScope('enquiry')],
-        resolve: { scope: scopeResolver('enquiry') },
-        children: [
-          {
-            path: '',
-            loadComponent: () =>
-              import('@features/enquiry/enquiry-page').then((m) => m.EnquiryPage),
-            data: { seo: { title: 'seo.contact' } },
-          },
-          {
-            path: 'sent/:ref',
-            loadComponent: () =>
-              import('@features/enquiry/enquiry-sent').then((m) => m.EnquirySent),
-            data: { seo: { title: 'seo.contactSent', noindex: true } },
-          },
-        ],
+        path: 'aftercare',
+        loadComponent: () =>
+          import('@features/aftercare/aftercare-page').then((m) => m.AftercarePage),
+        providers: [provideTranslocoScope('aftercare')],
+        resolve: { scope: scopeResolver('aftercare') },
+        data: { seo: { title: 'seo.aftercare' } },
       },
+      // 16 · Regulatory watch
+      {
+        path: 'alerts',
+        loadComponent: () => import('@features/alerts/alerts-page').then((m) => m.AlertsPage),
+        providers: [provideTranslocoScope('alerts')],
+        resolve: { scope: scopeResolver('alerts') },
+        data: { seo: { title: 'seo.alerts' } },
+      },
+      // 17 · WhatsApp channel
+      {
+        path: 'whatsapp',
+        loadComponent: () => import('@features/whatsapp/whatsapp-page').then((m) => m.WhatsappPage),
+        providers: [provideTranslocoScope('whatsapp')],
+        resolve: { scope: scopeResolver('whatsapp'), qaData: qaDataResolver },
+        data: { chrome: 'app', seo: { title: 'seo.whatsapp' } },
+      },
+      // Back-office sign-in (demo credentials)
       {
         path: 'login',
         loadComponent: () => import('@features/auth/login-page').then((m) => m.LoginPage),
-        providers: [provideTranslocoScope('inbox')],
-        resolve: { scope: scopeResolver('inbox') },
+        providers: [provideTranslocoScope('office')],
+        resolve: { scope: scopeResolver('office') },
         data: { seo: { title: 'seo.login', noindex: true } },
       },
+      // 18–23 · Back office
       {
-        path: 'inbox',
+        path: 'office',
         canActivate: [authGuard],
-        providers: [provideTranslocoScope('inbox')],
-        resolve: { scope: scopeResolver('inbox') },
-        data: { seo: { title: 'seo.inbox', noindex: true } },
+        loadComponent: () => import('@features/office/office-layout').then((m) => m.OfficeLayout),
+        providers: [provideTranslocoScope('office')],
+        resolve: { scope: scopeResolver('office') },
+        data: { chrome: 'office', seo: { title: 'seo.office', noindex: true } },
         children: [
+          { path: '', pathMatch: 'full', redirectTo: 'queue' },
           {
-            path: '',
-            loadComponent: () => import('@features/inbox/inbox-page').then((m) => m.InboxPage),
+            path: 'queue',
+            loadComponent: () =>
+              import('@features/office/validation-queue').then((m) => m.ValidationQueuePage),
           },
           {
-            path: ':ref',
-            loadComponent: () => import('@features/inbox/inbox-detail').then((m) => m.InboxDetail),
+            path: 'knowledge-base',
+            loadComponent: () =>
+              import('@features/office/knowledge-base').then((m) => m.KnowledgeBasePage),
+          },
+          {
+            path: 'conversations',
+            loadComponent: () =>
+              import('@features/office/conversation-review').then((m) => m.ConversationReviewPage),
+          },
+          {
+            path: 'leads',
+            loadComponent: () => import('@features/office/leads-page').then((m) => m.LeadsPage),
+          },
+          {
+            path: 'leads/:ref',
+            loadComponent: () =>
+              import('@features/office/lead-detail').then((m) => m.LeadDetailPage),
+          },
+          {
+            path: 'intelligence',
+            loadComponent: () =>
+              import('@features/office/intelligence-page').then((m) => m.IntelligencePage),
+          },
+          {
+            path: 'partners',
+            loadComponent: () =>
+              import('@features/office/partners-page').then((m) => m.PartnersPage),
           },
         ],
       },
@@ -145,6 +268,17 @@ export const routes: Routes = [
           },
         ],
       },
+      // Addresses from the earlier Invest Moz prototype.
+      { path: 'guide', redirectTo: 'library' },
+      { path: 'guide/:chapter', redirectTo: 'library/:chapter' },
+      { path: 'project', redirectTo: 'pathfinder' },
+      { path: 'assessment/:ref', redirectTo: 'roadmap/:ref' },
+      { path: 'questions', redirectTo: 'chat' },
+      { path: 'questions/:topic', redirectTo: 'chat' },
+      { path: 'contact', redirectTo: 'expert' },
+      { path: 'contact/sent/:ref', redirectTo: 'expert/sent/:ref' },
+      { path: 'inbox', redirectTo: 'office/leads' },
+      { path: 'inbox/:ref', redirectTo: 'office/leads/:ref' },
       {
         path: '**',
         loadComponent: () => import('@features/landing/not-found').then((m) => m.NotFound),

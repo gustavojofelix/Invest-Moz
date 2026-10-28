@@ -3,21 +3,14 @@
   "$id": "rules-triggers.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "triggers",
-    "watchPoints"
-  ],
+  "required": ["triggers", "watchPoints"],
   "properties": {
     "triggers": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -32,13 +25,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "trigger",
-              "fact",
-              "text",
-              "severity",
-              "refs"
-            ],
+            "required": ["trigger", "fact", "text", "severity", "refs"],
             "properties": {
               "trigger": {
                 "enum": [
@@ -59,10 +46,7 @@
                 "$ref": "common.schema.json#/definitions/localizedText"
               },
               "severity": {
-                "enum": [
-                  "info",
-                  "attention"
-                ]
+                "enum": ["info", "attention"]
               },
               "refs": {
                 "type": "array",
@@ -81,11 +65,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -100,9 +80,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "text"
-            ],
+            "required": ["text"],
             "properties": {
               "text": {
                 "$ref": "common.schema.json#/definitions/localizedText"

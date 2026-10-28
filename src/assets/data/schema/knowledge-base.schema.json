@@ -3,24 +3,14 @@
   "$id": "knowledge-base.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "references"
-  ],
+  "required": ["references"],
   "properties": {
     "references": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "topic",
-          "instrument",
-          "title",
-          "summary",
-          "lastReviewed",
-          "status"
-        ],
+        "required": ["id", "topic", "instrument", "title", "summary", "lastReviewed", "status"],
         "properties": {
           "id": {
             "type": "string",
@@ -46,10 +36,7 @@
             "$ref": "common.schema.json#/definitions/isoDate"
           },
           "status": {
-            "enum": [
-              "illustrative",
-              "verified"
-            ]
+            "enum": ["illustrative", "verified"]
           }
         }
       }

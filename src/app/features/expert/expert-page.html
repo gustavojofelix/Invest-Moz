@@ -1,0 +1,226 @@
+<ng-container *transloco="let t">
+  <header class="border-b border-rule bg-paper">
+    <div class="container-page py-5 sm:py-8">
+      <a class="link inline-flex min-h-11 items-center gap-1.5 text-sm" [routerLink]="back()">
+        <svg imIcon="arrow-left" [size]="16" class="flip" aria-hidden="true"></svg
+        >{{ t('expert.back') }}
+      </a>
+      <p class="eyebrow mt-1 text-brand">{{ t('expert.eyebrow') }}</p>
+      <h1 class="mt-1 font-serif text-2xl sm:text-3xl">{{ t('expert.title') }}</h1>
+      <p class="mt-2 max-w-2xl text-muted">{{ t('expert.intro') }}</p>
+    </div>
+  </header>
+
+  <form
+    class="container-page grid gap-6 py-6 lg:grid-cols-12 lg:gap-10 lg:py-10"
+    [formGroup]="form"
+    (ngSubmit)="submit()"
+    novalidate
+  >
+    <div class="min-w-0 space-y-5 lg:col-span-7">
+      <!-- What Tiva will share -->
+      <section class="rounded-lg bg-surface-alt p-4" aria-labelledby="share-title">
+        <h2 id="share-title" class="text-sm font-bold text-ink-soft">
+          {{ t('expert.share.title') }}
+        </h2>
+        @if (summary(); as s) {
+          <p class="mt-1.5 font-bold">
+            {{ s.title }}
+            <span class="font-mono text-xs font-normal text-muted">· {{ s.ref }}</span>
+          </p>
+          <p class="mt-0.5 text-sm">{{ s.facts.join(' · ') }}</p>
+          <details class="mt-2 text-sm">
+            <summary class="link inline-flex min-h-11 cursor-pointer items-center">
+              {{ t('expert.share.preview') }}
+            </summary>
+            <p class="mt-1 leading-relaxed">{{ s.text }}</p>
+            <p class="mt-2 text-muted">{{ t('expert.share.contact') }}</p>
+          </details>
+        } @else if (project.isLoading()) {
+          <p class="mt-1.5 text-sm text-muted">…</p>
+        } @else {
+          <p class="mt-1.5 text-sm">{{ t('expert.share.none') }}</p>
+          <a
+            class="link mt-1 inline-flex min-h-11 items-center text-sm"
+            [routerLink]="['/', lang(), 'pathfinder']"
+            >{{ t('expert.share.build') }}</a
+          >
+        }
+      </section>
+
+      <!-- Who to contact -->
+      <fieldset class="space-y-2.5">
+        <legend class="mb-2.5 text-sm font-bold text-ink-soft">{{ t('expert.choose') }}</legend>
+        @for (e of partners(); track e.id) {
+          <label class="choice">
+            <input type="radio" formControlName="expertId" [value]="e.id" />
+            <span class="flex min-w-0 flex-col gap-1">
+              @if (e.logo) {
+                <img class="logo self-start" [src]="'/' + e.logo" [alt]="e.name" />
+              } @else {
+                <strong>{{ e.name }}</strong>
+              }
+              <span class="text-sm text-ink-soft">{{ e.role | loc: lang() }}</span>
+              <span class="text-sm text-muted">{{ e.helps | loc: lang() }}</span>
+              <span class="tag tag-warn mt-0.5 self-start">{{ t('expert.fee.paid') }}</span>
+            </span>
+          </label>
+        }
+        <p class="label-caps pt-2 text-muted">{{ t('expert.publicTitle') }}</p>
+        @for (e of publicBodies(); track e.id) {
+          <label class="choice">
+            <input type="radio" formControlName="expertId" [value]="e.id" />
+            <span class="flex min-w-0 flex-col gap-1">
+              <strong class="text-[0.9375rem]">{{ e.name }}</strong>
+              <span class="text-sm text-ink-soft">{{ e.role | loc: lang() }}</span>
+              <span class="text-sm text-muted">{{ e.helps | loc: lang() }}</span>
+              <span class="tag tag-ok mt-0.5 self-start">{{ t('expert.fee.free') }}</span>
+            </span>
+          </label>
+        }
+      </fieldset>
+    </div>
+
+    <div class="min-w-0 space-y-5 lg:col-span-5">
+      <section class="card space-y-4 p-4 sm:p-5" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="font-serif text-xl">{{ t('expert.contact.title') }}</h2>
+        <div>
+          <label class="field-label" for="ex-name">{{ t('expert.fields.name') }}</label>
+          <input
+            id="ex-name"
+            class="input mt-1.5"
+            formControlName="name"
+            autocomplete="name"
+            [attr.aria-invalid]="invalid('name') ? 'true' : null"
+            aria-describedby="ex-name-error"
+          />
+          <im-field-error
+            [control]="form.controls.name"
+            [submitted]="submitted()"
+            errorId="ex-name-error"
+          />
+        </div>
+        <div>
+          <label class="field-label" for="ex-company">{{ t('expert.fields.company') }}</label>
+          <input
+            id="ex-company"
+            class="input mt-1.5"
+            formControlName="company"
+            autocomplete="organization"
+            [attr.aria-invalid]="invalid('company') ? 'true' : null"
+            aria-describedby="ex-company-error"
+          />
+          <im-field-error
+            [control]="form.controls.company"
+            [submitted]="submitted()"
+            errorId="ex-company-error"
+          />
+        </div>
+        <div>
+          <label class="field-label" for="ex-email">{{ t('expert.fields.email') }}</label>
+          <input
+            id="ex-email"
+            type="email"
+            class="input mt-1.5"
+            formControlName="email"
+            autocomplete="email"
+            [attr.aria-invalid]="invalid('email') ? 'true' : null"
+            aria-describedby="ex-email-error"
+          />
+          <im-field-error
+            [control]="form.controls.email"
+            [submitted]="submitted()"
+            errorId="ex-email-error"
+          />
+        </div>
+        <div>
+          <label class="field-label" for="ex-phone">{{ t('expert.fields.phone') }}</label>
+          <input
+            id="ex-phone"
+            type="tel"
+            class="input mt-1.5"
+            formControlName="phone"
+            autocomplete="tel"
+            [attr.aria-invalid]="invalid('phone') ? 'true' : null"
+            aria-describedby="ex-phone-hint ex-phone-error"
+          />
+          <p id="ex-phone-hint" class="field-hint">{{ t('expert.fields.phoneHint') }}</p>
+          <im-field-error
+            [control]="form.controls.phone"
+            [submitted]="submitted()"
+            errorId="ex-phone-error"
+            [keys]="{ pattern: 'phone' }"
+          />
+        </div>
+
+        <fieldset>
+          <legend class="field-label">{{ t('expert.fields.slot') }}</legend>
+          <div class="mt-1.5 grid grid-cols-[minmax(0,1fr)_auto] gap-2">
+            <label class="sr-only" for="ex-day">{{ t('expert.fields.day') }}</label>
+            <select id="ex-day" class="input" formControlName="day">
+              @for (d of days.value() ?? []; track d) {
+                <option [value]="d">{{ dayLabel(d) }}</option>
+              }
+            </select>
+            <label class="sr-only" for="ex-time">{{ t('expert.fields.time') }}</label>
+            <select id="ex-time" class="input" formControlName="time">
+              @for (h of times; track h) {
+                <option [value]="h">{{ h }}</option>
+              }
+            </select>
+          </div>
+          <p class="field-hint">{{ t('expert.fields.slotHint') }}</p>
+        </fieldset>
+
+        <div>
+          <label class="field-label" for="ex-note">{{ t('expert.fields.note') }}</label>
+          <textarea
+            id="ex-note"
+            class="input mt-1.5"
+            rows="3"
+            formControlName="note"
+            maxlength="1000"
+          ></textarea>
+        </div>
+
+        <label class="consent flex items-start gap-2.5 text-sm leading-relaxed text-ink-soft">
+          <input
+            type="checkbox"
+            formControlName="consent"
+            [attr.aria-invalid]="invalid('consent') ? 'true' : null"
+            aria-describedby="ex-consent-error"
+          />
+          <span>{{
+            t('expert.consent', { expert: chosen()?.name ?? t('expert.theExpert') })
+          }}</span>
+        </label>
+        @if (invalid('consent')) {
+          <p id="ex-consent-error" class="field-error">
+            <svg imIcon="circle-alert" [size]="16" class="mt-0.5" aria-hidden="true"></svg>
+            <span>{{ t('expert.consentRequired') }}</span>
+          </p>
+        }
+
+        @if (submitted() && form.invalid) {
+          <p class="text-sm text-bad-ink" role="alert">{{ t('forms.fixErrors') }}</p>
+        }
+        <button type="submit" class="btn btn-primary btn-lg w-full" [disabled]="sending()">
+          <svg imIcon="phone" [size]="18" aria-hidden="true"></svg>{{ t('expert.submit') }}
+        </button>
+        @if (chosen()?.fee === 'paid') {
+          <p class="text-center text-sm text-muted">{{ t('expert.feeNote') }}</p>
+        }
+      </section>
+
+      <section class="text-sm text-muted" aria-labelledby="referral-title">
+        <p id="referral-title">{{ t('expert.referral.text') }}</p>
+        <details class="mt-1">
+          <summary class="link inline-flex min-h-11 cursor-pointer items-center">
+            {{ t('expert.referral.how') }}
+          </summary>
+          <p class="mt-1 leading-relaxed">{{ t('expert.referral.detail') }}</p>
+        </details>
+      </section>
+    </div>
+  </form>
+</ng-container>

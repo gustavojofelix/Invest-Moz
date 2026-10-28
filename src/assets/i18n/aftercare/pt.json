@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Acompanhamento",
+  "genericCompany": "[Nome da empresa], Lda",
+  "fromRoadmap": "prazos do seu roteiro",
+  "genericNote": "Calendário de exemplo para uma empresa com trabalhadores, alguns estrangeiros.",
+  "start": "Usar o meu projecto",
+  "view": "Vista",
+  "tabs": {
+    "deadlines": "Prazos",
+    "permits": "Autorizações",
+    "filings": "Declarações"
+  },
+  "shiftRule": "Quando um prazo termina num fim-de-semana ou feriado, passa para o dia útil anterior. A Tiva mostra a data que tem mesmo de cumprir.",
+  "count": "Prazos: {{count}}",
+  "period": {
+    "payroll": "Salários de {{month}}",
+    "salaries": "Salários e pagamentos de {{month}}",
+    "vat": "Declaração de {{month}}"
+  },
+  "shiftedWeekend": "O prazo de {{nominal}} calha num(a) {{weekday}}: entregue antes, a {{date}}.",
+  "shiftedHoliday": "O prazo de {{nominal}} é feriado ({{holiday}}): entregue antes, a {{date}}.",
+  "noDeadlines": "Sem prazos mensais para esta empresa.",
+  "permitKinds": {
+    "dire": "Renovação do DIRE",
+    "work_permit": "Renovação da autorização de trabalho",
+    "licence": "Renovação da licença"
+  },
+  "exampleHolder": "[Nome do director]",
+  "expires": "Expira a {{date}} · lembrete a {{reminder}}",
+  "expiresExample": "Expira a [data] · exemplo: acrescente os seus abaixo",
+  "removePermit": "Remover o lembrete de {{holder}}",
+  "noPermits": "Ainda sem lembretes de renovação.",
+  "addTitle": "Acrescentar um lembrete de renovação",
+  "kind": "Documento",
+  "holder": "Titular",
+  "expiry": "Data de validade",
+  "lead": "Avisar-me",
+  "leadDays": "{{n}} dias antes",
+  "add": "Acrescentar lembrete",
+  "filingsLead": "Declarações anuais, pagamentos por conta e relatórios, com as próximas datas.",
+  "remindTitle": "Lembrar-me por",
+  "channels": {
+    "whatsapp": "WhatsApp",
+    "email": "Correio electrónico",
+    "push": "Notificação"
+  },
+  "remindOn": "Lembretes três dias antes de cada prazo (demonstração: nada é enviado).",
+  "remindOff": "Lembretes desligados. Os prazos ficam nesta página.",
+  "sourcesTitle": "Base legal",
+  "disclaimer": "Calendário indicativo, não aconselhamento fiscal. Confirme os prazos com o seu contabilista.",
+  "addToCalendar": "Adicionar ao calendário",
+  "help": "Ajuda para entregar",
+  "icsShifted": "Antecipado de {{date}} (fim-de-semana ou feriado).",
+  "icsRenew": "Iniciar renovação: {{title}}",
+  "icsExpires": "Expira a {{date}}."
+}

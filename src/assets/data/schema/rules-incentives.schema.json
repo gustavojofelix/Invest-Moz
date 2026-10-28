@@ -3,20 +3,14 @@
   "$id": "rules-incentives.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "incentives"
-  ],
+  "required": ["incentives"],
   "properties": {
     "incentives": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -31,13 +25,7 @@
           "then": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "id",
-              "title",
-              "detail",
-              "conditions",
-              "refs"
-            ],
+            "required": ["id", "title", "detail", "conditions", "refs"],
             "properties": {
               "id": {
                 "type": "string",

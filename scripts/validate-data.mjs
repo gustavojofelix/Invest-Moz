@@ -163,8 +163,8 @@ const answerIds = new Set();
 for (const a of answers) {
   if (answerIds.has(a.id)) fail(`qa/answers.json: duplicate id ${a.id}`);
   answerIds.add(a.id);
-  for (const l of ['pt', 'en', 'fr']) {
-    for (const m of a.body[l].matchAll(/\[ref:([a-z0-9-]+)\]/g))
+  for (const l of ['pt', 'en', 'fr', 'zh', 'ar', 'hi', 'sw', 'af']) {
+    for (const m of (a.body[l] ?? '').matchAll(/\[ref:([a-z0-9-]+)\]/g))
       if (!a.refs.includes(m[1]))
         fail(`qa/answers.json: ${a.id} [${l}] cites ${m[1]} but refs[] does not list it`);
   }

@@ -3,17 +3,39 @@
     {
       "id": "treaty",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "treaty", "op": "eq", "value": true }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "treaty",
+          "op": "eq",
+          "value": true
+        }
       ],
       "then": {
         "trigger": "treaty",
         "severity": "info",
-        "fact": { "pt": "País do investidor: {{fact.country}}", "en": "Investor's country: {{fact.country}}", "fr": "Pays de l'investisseur : {{fact.country}}" },
+        "fact": {
+          "pt": "País do investidor: {{fact.country}}",
+          "en": "Investor's country: {{fact.country}}",
+          "fr": "Pays de l'investisseur : {{fact.country}}",
+          "zh": "投资者所在国：{{fact.country}}",
+          "ar": "بلد المستثمر: {{fact.country}}",
+          "hi": "निवेशक का देश: {{fact.country}}",
+          "sw": "Nchi ya mwekezaji: {{fact.country}}",
+          "af": "Belegger se land: {{fact.country}}"
+        },
         "text": {
           "pt": "Existe acordo para evitar a dupla tributação. Retenção sobre dividendos: {{fact.treatyRate}}, mediante prova de residência fiscal do sócio.",
           "en": "A double tax treaty applies. Dividend withholding: {{fact.treatyRate}}, subject to proof of the shareholder's tax residence.",
-          "fr": "Une convention de non-double imposition s'applique. Retenue sur dividendes : {{fact.treatyRate}}, sur justificatif de résidence fiscale de l'associé."
+          "fr": "Une convention de non-double imposition s'applique. Retenue sur dividendes : {{fact.treatyRate}}, sur justificatif de résidence fiscale de l'associé.",
+          "zh": "适用避免双重征税协定。股息预提税：{{fact.treatyRate}}，须提供股东税务居民身份证明。",
+          "ar": "تنطبق اتفاقية لتجنّب الازدواج الضريبي. الضريبة المقتطعة على الأرباح الموزعة: {{fact.treatyRate}}، رهناً بإثبات الإقامة الضريبية للمساهم.",
+          "hi": "दोहरा कराधान परिहार समझौता (DTAA) लागू होता है। लाभांश पर रोक कर (withholding): {{fact.treatyRate}}, शेयरधारक के कर निवास के प्रमाण के अधीन।",
+          "sw": "Mkataba wa kuepuka kutozwa kodi mara mbili unatumika. Kodi ya zuio kwa gawio: {{fact.treatyRate}}, kwa sharti la kuthibitisha ukaazi wa kikodi wa mbia.",
+          "af": "'n Dubbelbelastingverdrag is van toepassing. Terughouding op dividende: {{fact.treatyRate}}, onderhewig aan bewys van die aandeelhouer se belastingverblyf."
         },
         "refs": ["dta-network", "cirpc"]
       }
@@ -21,145 +43,319 @@
     {
       "id": "no-treaty",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "treaty", "op": "eq", "value": false }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "treaty",
+          "op": "eq",
+          "value": false
+        }
       ],
       "then": {
         "trigger": "treaty",
         "severity": "attention",
-        "fact": { "pt": "País do investidor: {{fact.country}}", "en": "Investor's country: {{fact.country}}", "fr": "Pays de l'investisseur : {{fact.country}}" },
+        "fact": {
+          "pt": "País do investidor: {{fact.country}}",
+          "en": "Investor's country: {{fact.country}}",
+          "fr": "Pays de l'investisseur : {{fact.country}}",
+          "zh": "投资者所在国：{{fact.country}}",
+          "ar": "بلد المستثمر: {{fact.country}}",
+          "hi": "निवेशक का देश: {{fact.country}}",
+          "sw": "Nchi ya mwekezaji: {{fact.country}}",
+          "af": "Belegger se land: {{fact.country}}"
+        },
         "text": {
           "pt": "Sem acordo de dupla tributação: dividendos pagos ao exterior com retenção na fonte de 20%.",
           "en": "No double tax treaty: dividends paid abroad bear 20% withholding tax.",
-          "fr": "Pas de convention fiscale : les dividendes versés à l'étranger supportent une retenue à la source de 20 %."
+          "fr": "Pas de convention fiscale : les dividendes versés à l'étranger supportent une retenue à la source de 20 %.",
+          "zh": "无避免双重征税协定：向境外支付的股息须缴纳 20% 的预提税。",
+          "ar": "لا توجد اتفاقية لتجنّب الازدواج الضريبي: تخضع الأرباح الموزعة المدفوعة إلى الخارج لضريبة مقتطعة بنسبة 20%.",
+          "hi": "कोई दोहरा कराधान परिहार समझौता नहीं: विदेश में भुगतान किए गए लाभांश पर 20% रोक कर लगता है।",
+          "sw": "Hakuna mkataba wa kuepuka kutozwa kodi mara mbili: gawio linalolipwa nje ya nchi hutozwa kodi ya zuio ya 20%.",
+          "af": "Geen dubbelbelastingverdrag nie: dividende wat na die buiteland betaal word, dra 20% terughoudingsbelasting."
         },
         "refs": ["cirpc"]
       }
     },
     {
       "id": "shareholder-loan",
-      "when": [{ "field": "shareholderLoan", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "shareholderLoan",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "trigger": "loan",
         "severity": "attention",
-        "fact": { "pt": "Empréstimo do accionista ou financiamento externo", "en": "Shareholder loan or external financing", "fr": "Prêt d'associé ou financement extérieur" },
+        "fact": {
+          "pt": "Empréstimo do accionista ou financiamento externo",
+          "en": "Shareholder loan or external financing",
+          "fr": "Prêt d'associé ou financement extérieur",
+          "zh": "股东贷款或境外融资",
+          "ar": "قرض من المساهمين أو تمويل خارجي",
+          "hi": "शेयरधारक ऋण या बाहरी वित्तपोषण",
+          "sw": "Mkopo wa mbia au ufadhili kutoka nje",
+          "af": "Aandeelhouerslening of buitelandse finansiering"
+        },
         "text": {
           "pt": "Registo no Banco de Moçambique antes do desembolso; limiares de USD 5 milhões e USD 10 milhões determinam o procedimento junto do BdM. Subcapitalização: rácio 2:1 entre dívida a partes relacionadas e capital próprio para dedução dos juros.",
           "en": "Registration with the Banco de Moçambique before disbursement; thresholds of USD 5 million and USD 10 million determine the BdM procedure. Thin capitalisation: 2:1 ratio of related-party debt to equity for interest deductibility.",
-          "fr": "Enregistrement auprès de la Banco de Moçambique avant décaissement ; des seuils de 5 et 10 millions USD déterminent la procédure auprès de la BdM. Sous-capitalisation : ratio 2:1 entre dette envers des parties liées et fonds propres pour la déductibilité des intérêts."
+          "fr": "Enregistrement auprès de la Banco de Moçambique avant décaissement ; des seuils de 5 et 10 millions USD déterminent la procédure auprès de la BdM. Sous-capitalisation : ratio 2:1 entre dette envers des parties liées et fonds propres pour la déductibilité des intérêts.",
+          "zh": "须在放款前向 Banco de Moçambique 登记；USD 500 万和 USD 1,000 万两个门槛决定适用的 BdM 程序。资本弱化规则：关联方债务与权益之比为 2:1，超出部分的利息不得扣除。",
+          "ar": "التسجيل لدى Banco de Moçambique قبل الصرف؛ وتحدد العتبتان USD 5 مليون وUSD 10 مليون إجراء البنك المركزي (BdM). الرسملة الضعيفة: نسبة 2:1 بين ديون الأطراف ذات العلاقة وحقوق الملكية لقابلية خصم الفوائد.",
+          "hi": "राशि जारी (disbursement) होने से पहले Banco de Moçambique में पंजीकरण; USD 5 मिलियन और USD 10 मिलियन की सीमाएँ BdM प्रक्रिया तय करती हैं। थिन कैपिटलाइज़ेशन: ब्याज की कटौती के लिए संबंधित-पक्ष ऋण और इक्विटी का अनुपात 2:1।",
+          "sw": "Usajili katika Banco de Moçambique kabla ya fedha kutolewa; viwango vya USD milioni 5 na USD milioni 10 huamua utaratibu wa BdM. Mtaji mdogo (thin capitalisation): uwiano wa 2:1 wa deni la wahusika wenye uhusiano dhidi ya mtaji ili riba ikatwe.",
+          "af": "Registrasie by die Banco de Moçambique voor uitbetaling; drempels van USD 5 miljoen en USD 10 miljoen bepaal die BdM-prosedure. Onderkapitalisasie: verhouding van 2:1 tussen skuld aan verwante partye en ekwiteit vir die aftrekbaarheid van rente."
         },
         "refs": ["lei-11-2009", "aviso-4-gbm-2024", "cirpc"]
       }
     },
     {
       "id": "fees-abroad",
-      "when": [{ "field": "feesAbroad", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "feesAbroad",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "trigger": "fees_abroad",
         "severity": "attention",
-        "fact": { "pt": "Serviços, royalties ou assistência técnica pagos ao exterior", "en": "Services, royalties or technical assistance paid abroad", "fr": "Services, redevances ou assistance technique payés à l'étranger" },
+        "fact": {
+          "pt": "Serviços, royalties ou assistência técnica pagos ao exterior",
+          "en": "Services, royalties or technical assistance paid abroad",
+          "fr": "Services, redevances ou assistance technique payés à l'étranger",
+          "zh": "向境外支付服务费、特许权使用费或技术援助费",
+          "ar": "خدمات أو إتاوات أو مساعدة فنية مدفوعة إلى الخارج",
+          "hi": "विदेश में भुगतान की गई सेवाएँ, रॉयल्टी या तकनीकी सहायता",
+          "sw": "Huduma, mirabaha au usaidizi wa kiufundi unaolipwa nje ya nchi",
+          "af": "Dienste, tantième of tegniese bystand wat na die buiteland betaal word"
+        },
         "text": {
           "pt": "Retenção na fonte de 20% (ou taxa do ADT), autoliquidação do IVA e documentos de suporte exigidos pelo banco para a transferência.",
           "en": "20% withholding tax (or the treaty rate), VAT reverse charge and supporting documents required by the bank for the transfer.",
-          "fr": "Retenue à la source de 20 % (ou taux conventionnel), autoliquidation de la TVA et pièces justificatives exigées par la banque pour le transfert."
+          "fr": "Retenue à la source de 20 % (ou taux conventionnel), autoliquidation de la TVA et pièces justificatives exigées par la banque pour le transfert.",
+          "zh": "20% 预提税（或协定税率）、增值税反向征收，以及银行办理汇款所需的证明文件。",
+          "ar": "ضريبة مقتطعة بنسبة 20% (أو معدل الاتفاقية)، والاحتساب العكسي لـ IVA، والمستندات الداعمة التي يطلبها البنك لإجراء التحويل.",
+          "hi": "20% रोक कर (या संधि दर), IVA रिवर्स चार्ज, और अंतरण के लिए बैंक द्वारा माँगे गए सहायक दस्तावेज़।",
+          "sw": "Kodi ya zuio ya 20% (au kiwango cha mkataba), VAT kwa utaratibu wa reverse charge na nyaraka za kuthibitisha zinazohitajika na benki kwa uhamisho.",
+          "af": "20% terughoudingsbelasting (of die verdragskoers), BTW-verleggingsmeganisme (IVA) en stawende dokumente wat die bank vir die oordrag vereis."
         },
         "refs": ["cirpc", "civa", "aviso-4-gbm-2024"]
       }
     },
     {
       "id": "temporary-import",
-      "when": [{ "field": "temporaryImport", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "temporaryImport",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "trigger": "temporary_import",
         "severity": "info",
-        "fact": { "pt": "Equipamento em importação temporária", "en": "Equipment under temporary import", "fr": "Équipement en admission temporaire" },
+        "fact": {
+          "pt": "Equipamento em importação temporária",
+          "en": "Equipment under temporary import",
+          "fr": "Équipement en admission temporaire",
+          "zh": "临时进口设备",
+          "ar": "معدات خاضعة لنظام الاستيراد المؤقت",
+          "hi": "अस्थायी आयात के अंतर्गत उपकरण",
+          "sw": "Vifaa chini ya uingizaji wa muda",
+          "af": "Toerusting onder tydelike invoer"
+        },
         "text": {
           "pt": "Taxa de utilização, garantia aduaneira e prazo fixado ({{TEMPORARY_IMPORT_PERIOD}}); a reexportação no prazo liberta a garantia.",
           "en": "Usage fee, customs guarantee and a fixed period ({{TEMPORARY_IMPORT_PERIOD}}); re-export within the period releases the guarantee.",
-          "fr": "Redevance d'utilisation, garantie douanière et délai fixé ({{TEMPORARY_IMPORT_PERIOD}}) ; la réexportation dans le délai libère la garantie."
+          "fr": "Redevance d'utilisation, garantie douanière et délai fixé ({{TEMPORARY_IMPORT_PERIOD}}) ; la réexportation dans le délai libère la garantie.",
+          "zh": "须缴纳使用费、提供海关担保，并在规定期限内（{{TEMPORARY_IMPORT_PERIOD}}）使用；在期限内复出口即可解除担保。",
+          "ar": "رسم استخدام وضمان جمركي ومدة محددة ({{TEMPORARY_IMPORT_PERIOD}})؛ وإعادة التصدير خلال المدة تُحرّر الضمان.",
+          "hi": "उपयोग शुल्क, सीमा शुल्क गारंटी और निश्चित अवधि ({{TEMPORARY_IMPORT_PERIOD}}); अवधि के भीतर पुनः निर्यात करने पर गारंटी मुक्त हो जाती है।",
+          "sw": "Ada ya matumizi, dhamana ya forodha na muda maalum ({{TEMPORARY_IMPORT_PERIOD}}); kusafirisha tena nje ndani ya muda huo huachilia dhamana.",
+          "af": "Gebruiksfooi, doeanewaarborg en 'n vaste tydperk ({{TEMPORARY_IMPORT_PERIOD}}); heruitvoer binne die tydperk stel die waarborg vry."
         },
         "refs": ["lei-11-2016", "pauta"]
       }
     },
     {
       "id": "quota-within",
-      "when": [{ "field": "quotaStatus", "op": "eq", "value": "within" }],
+      "when": [
+        {
+          "field": "quotaStatus",
+          "op": "eq",
+          "value": "within"
+        }
+      ],
       "then": {
         "trigger": "quota",
         "severity": "info",
         "fact": {
           "pt": "{{fact.foreignWorkers}} estrangeiros em {{fact.workers}} trabalhadores ({{fact.ratio}})",
           "en": "{{fact.foreignWorkers}} foreign out of {{fact.workers}} workers ({{fact.ratio}})",
-          "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})"
+          "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})",
+          "zh": "{{fact.workers}} 名员工中有 {{fact.foreignWorkers}} 名外籍员工（{{fact.ratio}}）",
+          "ar": "{{fact.foreignWorkers}} أجانب من أصل {{fact.workers}} عاملاً ({{fact.ratio}})",
+          "hi": "{{fact.workers}} कर्मचारियों में से {{fact.foreignWorkers}} विदेशी ({{fact.ratio}})",
+          "sw": "Wageni {{fact.foreignWorkers}} kati ya wafanyakazi {{fact.workers}} ({{fact.ratio}})",
+          "af": "{{fact.foreignWorkers}} buitelanders uit {{fact.workers}} werkers ({{fact.ratio}})"
         },
         "text": {
           "pt": "Com {{fact.workers}} trabalhadores, a quota de trabalhadores estrangeiros é de {{fact.quota}} (5% acima de 100 trabalhadores, 8% de 31 a 100, 10% de 11 a 30 e 15% até 10). Contratações dentro da quota exigem comunicação; acima dela, autorização de trabalho.",
           "en": "With {{fact.workers}} workers, the foreign-worker quota is {{fact.quota}} (5% above 100 workers, 8% from 31 to 100, 10% from 11 to 30 and 15% up to 10). Hires within the quota require notification; above it, a work permit.",
-          "fr": "Avec {{fact.workers}} salariés, le quota de travailleurs étrangers est de {{fact.quota}} (5 % au-delà de 100 salariés, 8 % de 31 à 100, 10 % de 11 à 30 et 15 % jusqu'à 10). Les embauches dans le quota exigent une communication ; au-delà, un permis de travail."
+          "fr": "Avec {{fact.workers}} salariés, le quota de travailleurs étrangers est de {{fact.quota}} (5 % au-delà de 100 salariés, 8 % de 31 à 100, 10 % de 11 à 30 et 15 % jusqu'à 10). Les embauches dans le quota exigent une communication ; au-delà, un permis de travail.",
+          "zh": "员工人数为 {{fact.workers}} 人时，外籍员工配额为 {{fact.quota}}（100 人以上为 5%，31 至 100 人为 8%，11 至 30 人为 10%，10 人及以下为 15%）。配额内的雇用只需备案；超出配额须申请工作许可。",
+          "ar": "مع {{fact.workers}} عاملاً، تبلغ حصة العمال الأجانب {{fact.quota}} (5% لأكثر من 100 عامل، و8% من 31 إلى 100، و10% من 11 إلى 30، و15% حتى 10). التعيينات ضمن الحصة تتطلب إخطاراً؛ وما يتجاوزها يتطلب تصريح عمل.",
+          "hi": "{{fact.workers}} कर्मचारियों के साथ विदेशी कर्मचारियों का कोटा {{fact.quota}} है (100 से अधिक कर्मचारियों पर 5%, 31 से 100 पर 8%, 11 से 30 पर 10% और 10 तक 15%)। कोटे के भीतर भर्ती के लिए सूचना देना आवश्यक है; कोटे से अधिक के लिए कार्य परमिट।",
+          "sw": "Kwa wafanyakazi {{fact.workers}}, kiwango cha wafanyakazi wa kigeni ni {{fact.quota}} (5% zaidi ya wafanyakazi 100, 8% kwa 31 hadi 100, 10% kwa 11 hadi 30 na 15% hadi 10). Ajira ndani ya kiwango zinahitaji taarifa; zaidi ya hapo, kibali cha kazi.",
+          "af": "Met {{fact.workers}} werkers is die kwota vir buitelandse werkers {{fact.quota}} (5% bo 100 werkers, 8% van 31 tot 100, 10% van 11 tot 30 en 15% tot 10). Aanstellings binne die kwota vereis kennisgewing; daarbo, 'n werkpermit."
         },
         "refs": ["lei-13-2023", "dec-88-2024"]
       }
     },
     {
       "id": "quota-over",
-      "when": [{ "field": "quotaStatus", "op": "eq", "value": "over" }],
+      "when": [
+        {
+          "field": "quotaStatus",
+          "op": "eq",
+          "value": "over"
+        }
+      ],
       "then": {
         "trigger": "quota",
         "severity": "attention",
         "fact": {
           "pt": "{{fact.foreignWorkers}} estrangeiros em {{fact.workers}} trabalhadores ({{fact.ratio}})",
           "en": "{{fact.foreignWorkers}} foreign out of {{fact.workers}} workers ({{fact.ratio}})",
-          "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})"
+          "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})",
+          "zh": "{{fact.workers}} 名员工中有 {{fact.foreignWorkers}} 名外籍员工（{{fact.ratio}}）",
+          "ar": "{{fact.foreignWorkers}} أجانب من أصل {{fact.workers}} عاملاً ({{fact.ratio}})",
+          "hi": "{{fact.workers}} कर्मचारियों में से {{fact.foreignWorkers}} विदेशी ({{fact.ratio}})",
+          "sw": "Wageni {{fact.foreignWorkers}} kati ya wafanyakazi {{fact.workers}} ({{fact.ratio}})",
+          "af": "{{fact.foreignWorkers}} buitelanders uit {{fact.workers}} werkers ({{fact.ratio}})"
         },
         "text": {
           "pt": "Acima da quota de {{fact.quota}} aplicável a {{fact.workers}} trabalhadores: os trabalhadores excedentes precisam de autorização de trabalho fora da quota, com justificação técnica e plano de formação de moçambicanos.",
           "en": "Above the {{fact.quota}} quota that applies to {{fact.workers}} workers: the excess workers need out-of-quota work permits, with technical justification and a plan to train Mozambicans.",
-          "fr": "Au-delà du quota de {{fact.quota}} applicable à {{fact.workers}} salariés : les travailleurs en excédent nécessitent un permis de travail hors quota, avec justification technique et plan de formation de Mozambicains."
+          "fr": "Au-delà du quota de {{fact.quota}} applicable à {{fact.workers}} salariés : les travailleurs en excédent nécessitent un permis de travail hors quota, avec justification technique et plan de formation de Mozambicains.",
+          "zh": "超出 {{fact.workers}} 名员工所适用的 {{fact.quota}} 配额：超额员工须申请配额外工作许可，并提供技术理由和莫桑比克员工培训计划。",
+          "ar": "تجاوز الحصة البالغة {{fact.quota}} المطبّقة على {{fact.workers}} عاملاً: يحتاج العمال الزائدون إلى تصاريح عمل خارج الحصة، مع مبرر فني وخطة لتدريب الموزمبيقيين.",
+          "hi": "{{fact.workers}} कर्मचारियों पर लागू {{fact.quota}} कोटे से अधिक: अतिरिक्त कर्मचारियों को कोटे से बाहर के कार्य परमिट चाहिए, जिनके साथ तकनीकी औचित्य और मोज़ाम्बिकी नागरिकों के प्रशिक्षण की योजना हो।",
+          "sw": "Zaidi ya kiwango cha {{fact.quota}} kinachotumika kwa wafanyakazi {{fact.workers}}: wafanyakazi wa ziada wanahitaji vibali vya kazi nje ya kiwango, pamoja na sababu za kiufundi na mpango wa kuwafunza Wamsumbiji.",
+          "af": "Bo die kwota van {{fact.quota}} wat op {{fact.workers}} werkers van toepassing is: die oortollige werkers het werkpermitte buite die kwota nodig, met tegniese regverdiging en 'n plan om Mosambiekers op te lei."
         },
         "refs": ["lei-13-2023", "dec-88-2024"]
       }
     },
     {
       "id": "exports",
-      "when": [{ "field": "exports", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "exports",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "trigger": "exports",
         "severity": "info",
-        "fact": { "pt": "Receitas de exportação", "en": "Export proceeds", "fr": "Recettes d'exportation" },
+        "fact": {
+          "pt": "Receitas de exportação",
+          "en": "Export proceeds",
+          "fr": "Recettes d'exportation",
+          "zh": "出口收入",
+          "ar": "حصيلة الصادرات",
+          "hi": "निर्यात आय",
+          "sw": "Mapato ya mauzo ya nje",
+          "af": "Uitvoeropbrengs"
+        },
         "text": {
           "pt": "As receitas de exportação são recebidas numa conta específica em moeda estrangeira, cujo saldo deve ser usado prioritariamente nos pagamentos ao exterior; o repatriamento segue os termos do Banco de Moçambique. Prever estas contas e o calendário de recebimentos.",
           "en": "Export proceeds are received in a dedicated foreign-currency account, whose balance must be used first for payments abroad; repatriation follows the Banco de Moçambique's terms. Plan these accounts and the collection schedule.",
-          "fr": "Les recettes d'exportation sont reçues sur un compte spécifique en devises, dont le solde doit servir en priorité aux paiements à l'étranger ; le rapatriement suit les conditions de la Banco de Moçambique. Prévoir ces comptes et le calendrier d'encaissement."
+          "fr": "Les recettes d'exportation sont reçues sur un compte spécifique en devises, dont le solde doit servir en priorité aux paiements à l'étranger ; le rapatriement suit les conditions de la Banco de Moçambique. Prévoir ces comptes et le calendrier d'encaissement.",
+          "zh": "出口收入须存入专用外币账户，该账户余额须优先用于境外付款；收入汇回须遵守 Banco de Moçambique 的规定。请提前规划这些账户和收款安排。",
+          "ar": "تُستلم حصيلة الصادرات في حساب مخصص بالعملة الأجنبية، ويجب استخدام رصيده أولاً للمدفوعات إلى الخارج؛ وتخضع الإعادة إلى الوطن لشروط Banco de Moçambique. خطّط لهذه الحسابات ولجدول التحصيل.",
+          "hi": "निर्यात आय एक समर्पित विदेशी मुद्रा खाते में प्राप्त होती है, जिसकी शेष राशि का उपयोग पहले विदेश में भुगतानों के लिए किया जाना चाहिए; प्रत्यावर्तन Banco de Moçambique की शर्तों के अनुसार होता है। इन खातों और प्राप्ति की समय-सारणी की योजना बनाएँ।",
+          "sw": "Mapato ya mauzo ya nje hupokelewa katika akaunti maalum ya fedha za kigeni, ambayo salio lake lazima litumike kwanza kwa malipo ya nje ya nchi; urejeshaji hufuata masharti ya Banco de Moçambique. Panga akaunti hizi na ratiba ya makusanyo.",
+          "af": "Uitvoeropbrengs word in 'n toegewyde rekening in buitelandse valuta ontvang, waarvan die saldo eerste vir betalings na die buiteland gebruik moet word; repatriasie volg die voorwaardes van die Banco de Moçambique. Beplan hierdie rekeninge en die invorderingskedule."
         },
         "refs": ["lei-11-2009", "aviso-3-gbm-2024", "business-guide-2025"]
       }
     },
     {
       "id": "land",
-      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "trigger": "land",
         "severity": "attention",
-        "fact": { "pt": "Precisa de terra", "en": "Land needed", "fr": "Besoin de terrain" },
+        "fact": {
+          "pt": "Precisa de terra",
+          "en": "Land needed",
+          "fr": "Besoin de terrain",
+          "zh": "需要土地",
+          "ar": "الحاجة إلى أرض",
+          "hi": "भूमि की आवश्यकता",
+          "sw": "Ardhi inahitajika",
+          "af": "Grond benodig"
+        },
         "text": {
           "pt": "O DUAT exige consulta prévia às comunidades locais e um plano de exploração; a terra não se compra nem se vende.",
           "en": "The DUAT requires prior consultation with local communities and a land use plan; land cannot be bought or sold.",
-          "fr": "Le DUAT exige une consultation préalable des communautés locales et un plan d'exploitation ; la terre ne s'achète ni ne se vend."
+          "fr": "Le DUAT exige une consultation préalable des communautés locales et un plan d'exploitation ; la terre ne s'achète ni ne se vend.",
+          "zh": "取得 DUAT（土地使用和收益权）须事先征询当地社区意见并制定土地使用规划；土地不得买卖。",
+          "ar": "يتطلب DUAT تشاوراً مسبقاً مع المجتمعات المحلية وخطة لاستخدام الأرض؛ ولا يجوز بيع الأرض أو شراؤها.",
+          "hi": "DUAT के लिए स्थानीय समुदायों से पूर्व परामर्श और भूमि उपयोग योजना आवश्यक है; भूमि खरीदी या बेची नहीं जा सकती।",
+          "sw": "DUAT inahitaji mashauriano ya awali na jamii za wenyeji na mpango wa matumizi ya ardhi; ardhi haiwezi kununuliwa wala kuuzwa.",
+          "af": "Die DUAT (grondgebruiksreg) vereis vooraf raadpleging met plaaslike gemeenskappe en 'n grondgebruiksplan; grond kan nie gekoop of verkoop word nie."
         },
         "refs": ["lei-19-97"]
       }
     },
     {
       "id": "local-content",
-      "when": [{ "field": "sector", "op": "eq", "value": "oil_gas" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "oil_gas"
+        }
+      ],
       "then": {
         "trigger": "local_content",
         "severity": "attention",
-        "fact": { "pt": "Fornecedor do sector petrolífero", "en": "Petroleum sector supplier", "fr": "Fournisseur du secteur pétrolier" },
+        "fact": {
+          "pt": "Fornecedor do sector petrolífero",
+          "en": "Petroleum sector supplier",
+          "fr": "Fournisseur du secteur pétrolier",
+          "zh": "石油行业供应商",
+          "ar": "مورّد في قطاع البترول",
+          "hi": "पेट्रोलियम क्षेत्र का आपूर्तिकर्ता",
+          "sw": "Msambazaji wa sekta ya petroli",
+          "af": "Verskaffer in die petroleumsektor"
+        },
         "text": {
           "pt": "Preferência por bens e serviços moçambicanos ({{LOCAL_CONTENT_PRICE_MARGIN}}) e parcerias com empresas moçambicanas ({{LOCAL_PARTNER_MIN_SHARE}}).",
           "en": "Preference for Mozambican goods and services ({{LOCAL_CONTENT_PRICE_MARGIN}}) and partnerships with Mozambican companies ({{LOCAL_PARTNER_MIN_SHARE}}).",
-          "fr": "Préférence pour les biens et services mozambicains ({{LOCAL_CONTENT_PRICE_MARGIN}}) et partenariats avec des entreprises mozambicaines ({{LOCAL_PARTNER_MIN_SHARE}})."
+          "fr": "Préférence pour les biens et services mozambicains ({{LOCAL_CONTENT_PRICE_MARGIN}}) et partenariats avec des entreprises mozambicaines ({{LOCAL_PARTNER_MIN_SHARE}}).",
+          "zh": "优先采购莫桑比克商品和服务（{{LOCAL_CONTENT_PRICE_MARGIN}}），并与莫桑比克公司建立合作（{{LOCAL_PARTNER_MIN_SHARE}}）。",
+          "ar": "أفضلية للسلع والخدمات الموزمبيقية ({{LOCAL_CONTENT_PRICE_MARGIN}}) وشراكات مع شركات موزمبيقية ({{LOCAL_PARTNER_MIN_SHARE}}).",
+          "hi": "मोज़ाम्बिकी वस्तुओं और सेवाओं को वरीयता ({{LOCAL_CONTENT_PRICE_MARGIN}}) और मोज़ाम्बिकी कंपनियों के साथ साझेदारी ({{LOCAL_PARTNER_MIN_SHARE}})।",
+          "sw": "Upendeleo kwa bidhaa na huduma za Msumbiji ({{LOCAL_CONTENT_PRICE_MARGIN}}) na ubia na kampuni za Msumbiji ({{LOCAL_PARTNER_MIN_SHARE}}).",
+          "af": "Voorkeur vir Mosambiekse goedere en dienste ({{LOCAL_CONTENT_PRICE_MARGIN}}) en vennootskappe met Mosambiekse maatskappye ({{LOCAL_PARTNER_MIN_SHARE}})."
         },
         "refs": ["lei-21-2014", "dec-9-2017", "dec-70-2017"]
       }
@@ -168,48 +364,92 @@
   "watchPoints": [
     {
       "id": "duat-expansion",
-      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "O DUAT para expansão pode levar até 24 meses: iniciar a segunda fase do pedido de terra em paralelo com a instalação.",
           "en": "The DUAT for expansion can take up to 24 months: start the second-phase land request in parallel with set-up.",
-          "fr": "Le DUAT pour l'extension peut prendre jusqu'à 24 mois : lancer la demande de terrain de la deuxième phase en parallèle de l'installation."
+          "fr": "Le DUAT pour l'extension peut prendre jusqu'à 24 mois : lancer la demande de terrain de la deuxième phase en parallèle de l'installation.",
+          "zh": "扩建所需的 DUAT 可能长达 24 个月：请在设立公司的同时启动第二期用地申请。",
+          "ar": "قد يستغرق DUAT الخاص بالتوسعة حتى 24 شهراً: ابدأ طلب أرض المرحلة الثانية بالتوازي مع التأسيس.",
+          "hi": "विस्तार के लिए DUAT में 24 महीने तक लग सकते हैं: दूसरे चरण की भूमि का आवेदन स्थापना के साथ-साथ ही शुरू करें।",
+          "sw": "DUAT kwa ajili ya upanuzi inaweza kuchukua hadi miezi 24: anza ombi la ardhi la awamu ya pili sambamba na uanzishaji.",
+          "af": "Die DUAT vir uitbreiding kan tot 24 maande neem: begin die grondaansoek vir die tweede fase parallel met die opstelling."
         },
         "refs": ["lei-19-97"]
       }
     },
     {
       "id": "loan-before-disbursement",
-      "when": [{ "field": "shareholderLoan", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "shareholderLoan",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "Registar o empréstimo no Banco de Moçambique antes do primeiro desembolso; sem registo, o reembolso e os juros podem não ser transferíveis.",
           "en": "Register the loan with the Banco de Moçambique before the first disbursement; without registration, repayments and interest may not be transferable.",
-          "fr": "Enregistrer le prêt auprès de la Banco de Moçambique avant le premier décaissement ; sans enregistrement, remboursements et intérêts peuvent ne pas être transférables."
+          "fr": "Enregistrer le prêt auprès de la Banco de Moçambique avant le premier décaissement ; sans enregistrement, remboursements et intérêts peuvent ne pas être transférables.",
+          "zh": "请在首次放款前向 Banco de Moçambique 登记贷款；未经登记，还本付息可能无法汇出。",
+          "ar": "سجّل القرض لدى Banco de Moçambique قبل الدفعة الأولى؛ فمن دون التسجيل قد لا يمكن تحويل الأقساط والفوائد.",
+          "hi": "पहली राशि जारी होने से पहले ऋण को Banco de Moçambique में पंजीकृत कराएँ; पंजीकरण के बिना पुनर्भुगतान और ब्याज विदेश भेजे नहीं जा सकेंगे।",
+          "sw": "Sajili mkopo katika Banco de Moçambique kabla ya fedha za kwanza kutolewa; bila usajili, marejesho na riba huenda yasiweze kuhamishwa.",
+          "af": "Registreer die lening by die Banco de Moçambique voor die eerste uitbetaling; sonder registrasie is terugbetalings en rente moontlik nie oordraagbaar nie."
         },
         "refs": ["lei-11-2009"]
       }
     },
     {
       "id": "transfer-pricing",
-      "when": [{ "field": "relatedParties", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "relatedParties",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "Operações com partes relacionadas (empréstimos, serviços, royalties): documentar preços e benefício desde o primeiro ano; o Modelo 20 inclui o anexo de preços de transferência.",
           "en": "Related-party transactions (loans, services, royalties): document prices and benefit from year one; Modelo 20 includes the transfer-pricing annex.",
-          "fr": "Opérations avec des parties liées (prêts, services, redevances) : documenter les prix et le bénéfice dès la première année ; le Modelo 20 inclut l'annexe prix de transfert."
+          "fr": "Opérations avec des parties liées (prêts, services, redevances) : documenter les prix et le bénéfice dès la première année ; le Modelo 20 inclut l'annexe prix de transfert.",
+          "zh": "关联交易（贷款、服务、特许权使用费）：自第一年起记录定价依据和受益情况；Modelo 20 包含转让定价附件。",
+          "ar": "المعاملات مع الأطراف ذات العلاقة (القروض والخدمات والإتاوات): وثّق الأسعار والمنفعة منذ السنة الأولى؛ ويتضمن Modelo 20 ملحق أسعار التحويل.",
+          "hi": "संबंधित-पक्ष लेनदेन (ऋण, सेवाएँ, रॉयल्टी): पहले वर्ष से ही मूल्य और लाभ का दस्तावेज़ीकरण करें; Modelo 20 में ट्रांसफर प्राइसिंग अनुलग्नक शामिल है।",
+          "sw": "Miamala ya wahusika wenye uhusiano (mikopo, huduma, mirabaha): weka kumbukumbu za bei na manufaa tangu mwaka wa kwanza; Modelo 20 inajumuisha kiambatisho cha bei za uhamisho.",
+          "af": "Transaksies met verwante partye (lenings, dienste, tantième): dokumenteer pryse en voordeel van die eerste jaar af; Modelo 20 sluit die bylae oor oordragprysing in."
         },
         "refs": ["m20", "cirpc"]
       }
     },
     {
       "id": "branch-liability",
-      "when": [{ "field": "vehicle", "op": "eq", "value": "branch" }],
+      "when": [
+        {
+          "field": "vehicle",
+          "op": "eq",
+          "value": "branch"
+        }
+      ],
       "then": {
         "text": {
           "pt": "Com sucursal, a sociedade-mãe responde sem limite pelas obrigações em Moçambique; avaliar seguros e garantias de desempenho dos contratos.",
           "en": "With a branch, the parent is liable without limit for obligations in Mozambique; review insurance and contract performance bonds.",
-          "fr": "Avec une succursale, la société mère répond sans limite des obligations au Mozambique ; examiner assurances et garanties de bonne exécution."
+          "fr": "Avec une succursale, la société mère répond sans limite des obligations au Mozambique ; examiner assurances et garanties de bonne exécution.",
+          "zh": "若设立分公司，母公司须对其在莫桑比克的债务承担无限责任；请审查保险和合同履约保函。",
+          "ar": "في حالة الفرع، تكون الشركة الأم مسؤولة مسؤولية غير محدودة عن الالتزامات في موزمبيق؛ راجع التأمين وضمانات حسن تنفيذ العقود.",
+          "hi": "शाखा (branch) होने पर मूल कंपनी मोज़ाम्बिक में दायित्वों के लिए असीमित रूप से उत्तरदायी होती है; बीमा और अनुबंधों की परफॉर्मेंस गारंटी की समीक्षा करें।",
+          "sw": "Kwa tawi, kampuni mama inawajibika bila kikomo kwa wajibu nchini Msumbiji; kagua bima na dhamana za utekelezaji wa mikataba.",
+          "af": "Met 'n tak is die moedermaatskappy onbeperk aanspreeklik vir verpligtinge in Mosambiek; hersien versekering en kontraknakomingswaarborge."
         },
         "refs": ["dl-1-2022"]
       }
@@ -217,74 +457,142 @@
     {
       "id": "fdi-below-minimum",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "fdiMinimumMet", "op": "eq", "value": false }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "fdiMinimumMet",
+          "op": "eq",
+          "value": false
+        }
       ],
       "then": {
         "text": {
           "pt": "Investimento abaixo do IDE mínimo de MZN 6,5 milhões: sem garantia de exportação de lucros. Ponderar o montante de capital a registar.",
           "en": "Investment below the MZN 6.5 million minimum FDI: no export-of-profits guarantee. Consider the amount of capital to register.",
-          "fr": "Investissement inférieur à l'IDE minimum de 6,5 millions de MZN : pas de garantie d'exportation des bénéfices. Réfléchir au montant de capital à enregistrer."
+          "fr": "Investissement inférieur à l'IDE minimum de 6,5 millions de MZN : pas de garantie d'exportation des bénéfices. Réfléchir au montant de capital à enregistrer.",
+          "zh": "投资额低于 MZN 650 万的最低外国直接投资额：不享有利润汇出保障。请考虑拟登记的资本金额。",
+          "ar": "استثمار أقل من الحد الأدنى للاستثمار الأجنبي المباشر البالغ MZN 6.5 مليون: لا يوجد ضمان لتحويل الأرباح إلى الخارج. ادرس مبلغ رأس المال المراد تسجيله.",
+          "hi": "निवेश न्यूनतम FDI MZN 6.5 मिलियन से कम है: लाभ प्रत्यावर्तन की कोई गारंटी नहीं। पंजीकृत की जाने वाली पूंजी की राशि पर विचार करें।",
+          "sw": "Uwekezaji chini ya kiwango cha chini cha FDI cha MZN milioni 6.5: hakuna dhamana ya kuhamisha faida nje ya nchi. Fikiria kiasi cha mtaji cha kusajili.",
+          "af": "Belegging onder die minimum BBB van MZN 6.5 miljoen: geen waarborg op die uitvoer van winste nie. Oorweeg die bedrag kapitaal om te registreer."
         },
         "refs": ["lei-8-2023"]
       }
     },
     {
       "id": "quota-over",
-      "when": [{ "field": "quotaStatus", "op": "eq", "value": "over" }],
+      "when": [
+        {
+          "field": "quotaStatus",
+          "op": "eq",
+          "value": "over"
+        }
+      ],
       "then": {
         "text": {
           "pt": "Peso de trabalhadores estrangeiros acima da quota: planear a formação e substituição por quadros moçambicanos.",
           "en": "Share of foreign workers above the quota: plan training and replacement by Mozambican staff.",
-          "fr": "Part de travailleurs étrangers au-delà du quota : planifier la formation et le remplacement par des cadres mozambicains."
+          "fr": "Part de travailleurs étrangers au-delà du quota : planifier la formation et le remplacement par des cadres mozambicains.",
+          "zh": "外籍员工比例超出配额：请规划培训并逐步由莫桑比克员工替代。",
+          "ar": "نسبة العمال الأجانب تتجاوز الحصة: خطّط للتدريب والاستبدال بموظفين موزمبيقيين.",
+          "hi": "विदेशी कर्मचारियों का अनुपात कोटे से अधिक है: मोज़ाम्बिकी कर्मचारियों के प्रशिक्षण और उनके द्वारा प्रतिस्थापन की योजना बनाएँ।",
+          "sw": "Idadi ya wafanyakazi wa kigeni iko juu ya kiwango: panga mafunzo na kuwabadilisha kwa wafanyakazi wa Msumbiji.",
+          "af": "Aandeel buitelandse werkers bo die kwota: beplan opleiding en vervanging deur Mosambiekse personeel."
         },
         "refs": ["lei-13-2023"]
       }
     },
     {
       "id": "temporary-import-deadline",
-      "when": [{ "field": "temporaryImport", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "temporaryImport",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "Controlar o prazo da importação temporária: fora do prazo, a garantia pode ser executada e os direitos tornam-se devidos.",
           "en": "Track the temporary import period: once it lapses, the guarantee may be called and duties become payable.",
-          "fr": "Suivre le délai d'admission temporaire : à son expiration, la garantie peut être appelée et les droits deviennent exigibles."
+          "fr": "Suivre le délai d'admission temporaire : à son expiration, la garantie peut être appelée et les droits deviennent exigibles.",
+          "zh": "留意临时进口期限：期限届满后，担保可能被执行，并须缴纳关税。",
+          "ar": "تابع مدة الاستيراد المؤقت: عند انقضائها قد يُسيَّل الضمان وتصبح الرسوم مستحقة.",
+          "hi": "अस्थायी आयात अवधि पर नज़र रखें: अवधि समाप्त होने पर गारंटी भुनाई जा सकती है और शुल्क देय हो जाते हैं।",
+          "sw": "Fuatilia muda wa uingizaji wa muda: ukipita, dhamana inaweza kudaiwa na ushuru kulipwa.",
+          "af": "Hou die tydperk van tydelike invoer dop: sodra dit verstryk, kan die waarborg opgeëis word en word regte betaalbaar."
         },
         "refs": ["lei-11-2016"]
       }
     },
     {
       "id": "cabo-delgado",
-      "when": [{ "field": "province", "op": "eq", "value": "cabo_delgado" }],
+      "when": [
+        {
+          "field": "province",
+          "op": "eq",
+          "value": "cabo_delgado"
+        }
+      ],
       "then": {
         "text": {
           "pt": "Cabo Delgado: avaliar a situação de segurança, seguros e logística de acesso; prazos dos operadores de GNL podem mudar.",
           "en": "Cabo Delgado: assess security, insurance and access logistics; LNG operators' timelines may shift.",
-          "fr": "Cabo Delgado : évaluer la sécurité, les assurances et la logistique d'accès ; les calendriers des opérateurs de GNL peuvent évoluer."
+          "fr": "Cabo Delgado : évaluer la sécurité, les assurances et la logistique d'accès ; les calendriers des opérateurs de GNL peuvent évoluer.",
+          "zh": "德尔加杜角省：请评估安全、保险和交通物流；液化天然气运营商的时间表可能调整。",
+          "ar": "Cabo Delgado: قيّم الأمن والتأمين ولوجستيات الوصول؛ وقد تتغير الجداول الزمنية لمشغّلي الغاز الطبيعي المسال.",
+          "hi": "Cabo Delgado: सुरक्षा स्थिति, बीमा और पहुँच की लॉजिस्टिक्स का आकलन करें; LNG ऑपरेटरों की समय-सीमाएँ बदल सकती हैं।",
+          "sw": "Cabo Delgado: tathmini usalama, bima na usafirishaji wa kufikia eneo; ratiba za waendeshaji wa LNG zinaweza kubadilika.",
+          "af": "Cabo Delgado: beoordeel sekuriteit, versekering en toegangslogistiek; die tydlyne van LNG-operateurs kan verskuif."
         },
         "refs": ["lei-21-2014"]
       }
     },
     {
       "id": "coastal",
-      "when": [{ "field": "sector", "op": "eq", "value": "tourism" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "tourism"
+        }
+      ],
       "then": {
         "text": {
           "pt": "Zona costeira: confirmar as zonas de protecção parcial e restrições de construção junto ao mar ({{COASTAL_PROTECTION_RULE}}).",
           "en": "Coastal area: confirm the partial protection zones and building restrictions near the shore ({{COASTAL_PROTECTION_RULE}}).",
-          "fr": "Zone côtière : vérifier les zones de protection partielle et les restrictions de construction en bord de mer ({{COASTAL_PROTECTION_RULE}})."
+          "fr": "Zone côtière : vérifier les zones de protection partielle et les restrictions de construction en bord de mer ({{COASTAL_PROTECTION_RULE}}).",
+          "zh": "沿海地区：请确认部分保护区以及海岸附近的建筑限制（{{COASTAL_PROTECTION_RULE}}）。",
+          "ar": "منطقة ساحلية: تحقّق من مناطق الحماية الجزئية وقيود البناء قرب الشاطئ ({{COASTAL_PROTECTION_RULE}}).",
+          "hi": "तटीय क्षेत्र: समुद्र तट के पास आंशिक संरक्षण क्षेत्रों और निर्माण प्रतिबंधों की पुष्टि करें ({{COASTAL_PROTECTION_RULE}})।",
+          "sw": "Eneo la pwani: thibitisha maeneo ya hifadhi ya sehemu na vikwazo vya ujenzi karibu na ufukwe ({{COASTAL_PROTECTION_RULE}}).",
+          "af": "Kusgebied: bevestig die gedeeltelike beskermingsones en boubeperkings naby die strand ({{COASTAL_PROTECTION_RULE}})."
         },
         "refs": ["lei-19-97"]
       }
     },
     {
       "id": "exports",
-      "when": [{ "field": "exports", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "exports",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "Exportação: confirmar as regras de repatriamento e conversão das receitas antes de fechar contratos de venda.",
           "en": "Exports: confirm the rules on repatriation and conversion of proceeds before signing sales contracts.",
-          "fr": "Export : confirmer les règles de rapatriement et de conversion des recettes avant de signer les contrats de vente."
+          "fr": "Export : confirmer les règles de rapatriement et de conversion des recettes avant de signer les contrats de vente.",
+          "zh": "出口：签订销售合同前，请确认收入汇回和结汇规则。",
+          "ar": "الصادرات: تحقّق من قواعد إعادة الحصيلة وتحويلها قبل توقيع عقود البيع.",
+          "hi": "निर्यात: बिक्री अनुबंधों पर हस्ताक्षर से पहले आय के प्रत्यावर्तन और रूपांतरण के नियमों की पुष्टि करें।",
+          "sw": "Mauzo ya nje: thibitisha kanuni za urejeshaji na ubadilishaji wa mapato kabla ya kusaini mikataba ya mauzo.",
+          "af": "Uitvoere: bevestig die reëls oor die repatriasie en omskakeling van opbrengs voordat verkoopkontrakte onderteken word."
         },
         "refs": ["aviso-4-gbm-2024"]
       }

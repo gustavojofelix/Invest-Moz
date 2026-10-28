@@ -1,4 +1,4 @@
-import { containsPhrase, normalize } from './text';
+import { containsPhrase, normalize, pickText } from './text';
 import { LOCALES, type Locale, type QaAnswer } from './types';
 
 /**
@@ -40,7 +40,7 @@ export function scoreAnswer(question: string, answer: QaAnswer, lang: Locale): n
     }
   }
   const asked = new Set(significantWords(question));
-  const canonical = new Set(significantWords(answer.question[lang]));
+  const canonical = new Set(significantWords(pickText(answer.question, lang)));
   let shared = 0;
   for (const w of asked) if (canonical.has(w)) shared++;
   // Similarity to the canonical question (Dice coefficient), weighted so a

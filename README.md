@@ -1,14 +1,16 @@
-# Invest Moz
+# Tiva
 
-**The guide to investing in Mozambique, with an assistant that applies it to your project.**
-A partnership between **Tax Advisory**, which supplies and reviews the legal and tax content, and
-**Law Technology Solutions (LTS)**, which builds the technology.
+**“To know”, in Changana — the AI investment concierge for Mozambique.**
+Tell Tiva your idea and get your Mozambique investment roadmap in minutes: company, licences, incentives,
+visas and tax steps, each cited to Mozambican law, in eight languages. Built by **Law Technology Solutions
+(LTS)** with **Tax Advisory** as expert partner, which supplies and validates the legal and tax content.
 
-This repository is the **proof of concept (POC)** used to present the full user flow and UX to the client.
-- There is **no backend**. Everything runs in the browser on JSON seed data.
-- The **investor guide** (`/:lang/guide`) is 12 prerendered chapters built from the APIEX Investment Guide 2026,
-  Tax Advisory's tax sheets and registration guide, and the Lex Africa Business Guide 2025.
-- The "assistant" answers come from a reviewed answer bank with simulated streaming.
+This repository is the **proof of concept (POC)** of the 23-screen Tiva screen pack (October 2026).
+- There is **no backend**. Everything runs in the browser on JSON seed data and a `localStorage` overlay.
+- The "AI" answers come from a lawyer-reviewed answer bank with simulated streaming; the back office shows
+  how drafts, reviews and leads would flow.
+- Eight languages: **PT, EN, FR** (reviewed) and **中文, العربية (RTL), हिन्दी, Kiswahili, Afrikaans**
+  (machine translations, shown with a "translation under review" notice).
 - The site deploys as a **static site on Netlify**.
 
 > The assistant gives the first map; a professional always validates detailed advice.
@@ -71,63 +73,71 @@ npm run preview           # → http://localhost:4310/pt
 | Email | `demo@taxadvisorymoz.com` |
 | Password | `InvestMoz2026` |
 
-The credentials are shown on the landing page ("Acesso de demonstração") and prefilled on `/pt/login`.
+They are prefilled on `/pt/login` (the back office, `/pt/office`).
 
 > **This is not real security.** The POC has no server: the "login" compares public values in the browser
 > (`src/app/core/config/demo-credentials.ts`) and stores a flag in `localStorage`. Real authentication arrives
 > with the backend.
 
 **Presenter shortcuts**
-- **Shift + D** opens the demo panel on any screen. You can load an example, jump to a screen, switch
+- **Shift + D** opens the demo panel on any screen: load an example, jump to any of the 23 screens, switch
   language, toggle dark mode or **reset the demo data**.
 - The same controls are at `/pt/demo`, and `/pt/demo/ui` is the living style guide.
+
+## The 23 screens
+
+| # | Screen | Route (`/:lang/…`) |
+|---|---|---|
+| 1 | Landing page (idea box → chat) | `` |
+| 2 | Roadmap PDF export (A4, print) | `roadmap/:ref/pdf` |
+| 3 | Welcome and language | `welcome` |
+| 4 | Investment Pathfinder (six questions) | `pathfinder` |
+| 5 | Chat with Tiva (cited answers, voice) | `chat?q=` |
+| 6 | Investment roadmap (nine steps, progress) | `roadmap/:ref` |
+| 7 | Opportunity map (corridors, zones, sectors) | `map` |
+| 8 | Incentive estimator (general / SEZ / IFZ) | `incentives` |
+| 9 | Talk to an expert (consent, referral fees) | `expert` |
+| 10 | Call requested | `expert/sent/:ref` |
+| 11 | Knowledge library (search, new-law banner) | `library` |
+| 12 | Library article (EN/PT, source, review date) | `library/:chapter` |
+| 13 | Documents and forms (checklist per step) | `documents?step=` |
+| 14 | Ecosystem directory | `directory` |
+| 15 | Aftercare calendar (INSS, IRPS, IVA, DIRE) | `aftercare` |
+| 16 | Regulatory watch (linked to roadmap steps) | `alerts` |
+| 17 | WhatsApp channel (voice notes) | `whatsapp` |
+| 18 | Validation queue | `office/queue` |
+| 19 | Legal knowledge base | `office/knowledge-base` |
+| 20 | Conversation review | `office/conversations` |
+| 21 | Leads (pipeline, fit score) | `office/leads` |
+| 22 | Investor intelligence | `office/intelligence` |
+| 23 | Partners and directory | `office/partners` |
+
+Earlier Invest Moz addresses (`/guide`, `/project`, `/assessment/:ref`, `/questions`, `/contact`, `/inbox`)
+redirect to their Tiva equivalents.
 
 ## 5-minute demo script
 
 Reset the data first: **Shift + D → "Repor dados de demonstração"**.
 
-1. **Landing (PT), 45 s.** Open `/pt`.
-   - The hero leads with **Ler o guia do investidor**; below it, the twelve guide chapters.
-   - Point to the eight legal regimes, each with its main instrument.
-   - Read the "how it works" line: free general information; paid detailed advice.
-   - Hover a province on the map. Mention the trust principles: reviewed base, *a confirmar* instead of
-     invented numbers, pre-AO90 Portuguese.
-   - *(Optional, 30 s)* Open **Guia → Impostos**: the tax indicators and the treaty table, each with its
-     source, then **Próximos passos** at the end of the chapter.
-2. **Project, 45 s.** Click **Descrever o meu projecto → Carregar exemplo →** *Indústria agro-alimentar ·
-   processamento de amêndoas* (cashew, Nampula).
-   - Show the fields: Indian investor, mixed capital, USD 2.5M, 80 workers (4 foreign), the six facts.
-   - Click **Preparar o enquadramento** and let the checks tick.
-3. **Assessment, 90 s.**
-   - Lda recommended, with the reasoning and the alternatives.
-   - The **company vs. branch** table.
-   - The APIEX path and the MZN 6.5M FDI guarantee.
-   - The **six-step roadmap**: environmental licence on the red critical path, 4–6 months to operate,
-     DUAT up to 24 months.
-   - The fact triggers: treaty (India 7.5% on dividends), shareholder loan 5M/10M and 2:1, fees abroad 20%
-     and VAT reverse charge, foreign-worker quota (8% for 31–100 workers; 4 of 80 is within it).
-   - The obligations calendar: point to the **"Antecipado"** flag (20 Dec 2026 is a Sunday → 18 Dec).
-   - **Imprimir / Exportar PDF** shows the A4 memo.
-4. **Switch language, 20 s.** Click **EN** (or **FR**) in the header. The same page, now in English, keeps the
-   reference and the dates in local formats.
-5. **Question with a citation, 45 s.** Click **Ask a question about this project → Exchange control →**
-   *Can a company with a South African shareholder repatriate dividends?*
-   - The answer streams: FDI registration, MZN 6.5M minimum, approved profits, 20% → 8%/15% under the treaty.
-   - Click the **Lei n.º 11/2009** tag to open the citation sheet (*Illustrative*, last reviewed, excerpt).
-6. **Enquiry, 40 s.** Click **Talk to Tax Advisory**.
-   - The areas are preselected and the project summary is attached; open the preview.
-   - Fill name, company and email, then send. You get reference **TA-IM-2026-0142**.
-   - Mention the copy/mailto fallback.
-7. **Firm inbox, 35 s.** Go to the landing page → **Demo access → Sign in as Tax Advisory**.
-   - The new enquiry is on top with the **New** highlight.
-   - Open it: attached project, link back to the full assessment.
-   - Change the status to *In review* and add an internal note. Both persist after a reload.
+1. **Landing (PT), 40 s.** Open `/pt`. Type an idea in the idea box (or tap an example) → **Perguntar**.
+2. **Chat, 40 s.** Tiva answers with legal-source chips; tap a chip to open the citation. Point to the
+   roadmap card and the quick replies.
+3. **Pathfinder → roadmap, 60 s.** `/pt/pathfinder` → **Carregar um exemplo** (cashew, Nampula) → finish.
+   The nine steps, the current one open with documents and legal basis; tick one off; **Descarregar PDF**.
+4. **Map and incentives, 40 s.** `/pt/map` → Nampula / Nacala corridor → **Ver incentivos**: the CBF warning.
+5. **Expert, 40 s.** **Falar com um especialista**: Tax Advisory beside free public bodies, the shared summary,
+   consent, referral fees → the call is requested.
+6. **Tools, 40 s.** Library article (EN/PT toggle), documents checklist, aftercare calendar (deadlines moved off
+   weekends), regulatory watch, WhatsApp voice note.
+7. **Languages, 20 s.** Switch to العربية (right to left) and 中文.
+8. **Back office, 40 s.** `/pt/login` → validation queue (approve a draft), knowledge base, leads (the new
+   request is on top), investor intelligence.
 
 ## Architecture
 
 ```mermaid
 flowchart TB
-  UI["features/* — landing · guide · intake · assessment · qa · enquiry · inbox · auth · demo"] --> F["Facades / page state (signals)"]
+  UI["features/* — 23 screens: landing · welcome · pathfinder · chat · roadmap · map · incentives · expert · library · documents · directory · aftercare · alerts · whatsapp · office · auth · demo"] --> F["Facades / page state (signals)"]
   F --> P["Ports (abstract classes, DI tokens)"]
   P --> J["Json* adapters (this phase)"]
   P -. later .-> H["Http* adapters → Python API"]
@@ -140,11 +150,15 @@ flowchart TB
 - **Angular 22**: standalone components, signals, zoneless change detection, the new control flow, `OnPush`
   everywhere, strict TypeScript.
 - **Rendering**: static output.
-  - `/:lang`, `/:lang/guide`, `/:lang/guide/:chapter`, `/:lang/questions` and `/:lang/questions/:topic`
-    are **prerendered in PT, EN and FR** (81 pages), with incremental hydration below the fold.
+  - `/:lang`, `/:lang/library` and `/:lang/library/:chapter` are **prerendered in all eight locales**
+    (112 pages), with incremental hydration below the fold.
+  - `data.chrome` on a route picks the page chrome: `site` (header and footer), `app` (full-screen mobile
+    screens: welcome, chat, WhatsApp, PDF) or `office` (back-office sidebar). See `core/layout/route-chrome.ts`.
   - Every other route renders on the client from `index.csr.html`.
-- **i18n**: Transloco with lazy scopes per feature (`src/assets/i18n/<scope>/<lang>.json`), loaded in route
-  resolvers so prerendering waits for them.
+- **i18n**: eight locales (`LOCALES` in `core/domain/types.ts`); Arabic sets `<html dir="rtl">` and the CSS
+  uses logical properties. Transloco with lazy scopes per feature (`src/assets/i18n/<scope>/<lang>.json`),
+  indexed by `scripts/build-i18n-index.mjs`, loaded in route resolvers so prerendering waits for them.
+  Missing keys fall back to English; `pickText()` does the same for `LocalizedText`.
   - UI strings live in the i18n files.
   - Content (legal summaries, answers, roadmap steps) is `LocalizedText` in the data files.
 - **Ports** (`src/app/core/ports`):
@@ -159,7 +173,9 @@ flowchart TB
   - Every storage call is wrapped in try/catch, with an in-memory fallback.
 - **Design**:
   - Tailwind CSS v4 with tokens in `src/styles.css` (light and dark).
-  - Source Serif 4, Lato and IBM Plex Mono, self-hosted via Fontsource.
+  - The Tiva screen-pack palette (deep green, cream, flag yellow) and Fraunces, Manrope and IBM Plex Mono,
+    self-hosted via Fontsource; Chinese, Arabic and Devanagari use the system's script fonts.
+  - Partner logos in `public/brand/`.
   - Angular CDK for overlays, menus and dialogs.
   - Lucide icons (stroke 1.5).
 
@@ -172,8 +188,10 @@ src/app/
 │  ├─ i18n/        Transloco setup, locale service, resolvers, Intl formatters
 │  ├─ layout/      shell, header, footer, flag stripe, brand marks, language switcher, SEO, theme
 │  └─ config/      firm details, demo credentials
-├─ shared/ui/      ref-tag, ruled-table, memo-section, roadmap-timeline, obligation-calendar, …
-└─ features/       landing, guide, intake, assessment, qa, enquiry, inbox, auth, demo
+├─ shared/ui/      ref-tag, answer-block, citation sheet, ruled-table, obligation-calendar, …
+└─ features/       landing, welcome, pathfinder, chat, roadmap, map, incentives, expert, library,
+                   documents, directory, aftercare, alerts, whatsapp, office, auth, demo
+                   (guide, qa and enquiry keep only resolvers/helpers still in use)
 ```
 
 ## Editing the content (JSON)
@@ -182,11 +200,15 @@ All legal and tax content lives in `src/assets/data/`. After any edit, run **`np
 
 | File | Content |
 |---|---|
-| `guide/index.json` · `guide/chapters/*.json` | The investor guide: 12 chapters in three parts, their sources, and one file per chapter (sections with body text, key figures, steps and tables). Each chapter loads as its own lazy chunk |
+| `guide/index.json` · `guide/chapters/*.json` | The knowledge library (from the investor guide): 12 chapters in three parts, their sources, and one file per chapter (sections with body text, key figures, steps and tables). Each chapter loads as its own lazy chunk |
 | `knowledge-base.json` | 31 legal references: `instrument`, `title`, `summary`, `excerpt` (PT/EN/FR), `lastReviewed`, `status` |
 | `qa/topics.json` · `qa/answers.json` | 12 topics; 48 answers (question, keywords, body, refs, "when to talk to us") |
 | `projects.json` | The 5 example projects (`TA-IM-EX01`…`EX05`) |
-| `enquiries.json` | The 8 seeded inbox enquiries |
+| `enquiries.json` | The 8 seeded enquiries (back-office leads) |
+| `roadmap/steps.json` | The nine roadmap steps (who, documents, legal basis); ids in `core/domain/roadmap-steps.ts` |
+| `map/` · `incentives/` · `expert/` | Opportunity map profiles, estimator settings, the experts and public bodies for the handoff |
+| `documents/` · `directory/` · `alerts/` | Checklists per roadmap step, directory listings, regulatory-watch alerts |
+| `office/` | Back-office seed: validation queue, diplomas, conversations, intelligence, partners (illustrative) |
 | `holidays.json` | Mozambican public holidays 2026–2027 (used to shift deadlines) |
 | `countries.json` | Investor countries; `treaty: true` entries are marked `illustrative` |
 | `rules/*.json` | Rule tables: sectors, vehicles, APIEX, treaties, quotas, roadmap, licences, triggers, incentives, obligations, zones |
@@ -194,7 +216,11 @@ All legal and tax content lives in `src/assets/data/`. After any edit, run **`np
 | `schema/*.schema.json` | JSON Schemas (generated by `npm run data:schemas`) |
 
 **Text conventions**
-- Every text is `{ "pt": "…", "en": "…", "fr": "…" }`.
+- Every text is `{ "pt": "…", "en": "…", "fr": "…", "zh": "…", "ar": "…", "hi": "…", "sw": "…", "af": "…" }`.
+  PT, EN and FR are reviewed; the other five are machine translations. To add or refresh a locale:
+  `node scripts/i18n-todo.mjs export <file|i18n-folder> <lang> todo.json`, translate the values, then
+  `node scripts/i18n-todo.mjs apply <same target> <lang> translations.json` (keeps placeholders, refs and
+  key order; safe with several writers). Legal citations stay in Portuguese in every language.
 - **Portuguese uses pre-AO90 spelling** (projecto, actividade, sector, director…). `npm run check` fails on
   AO90 forms.
 - Answer bodies use a small Markdown subset:
@@ -245,7 +271,7 @@ What Netlify serves:
 - The **Content-Security-Policy** is generated per build into `_headers`. It allows only same-origin scripts
   plus the hashes of the inline scripts that Angular hydration emits.
 - Hashed JS, CSS and fonts are cached for a year (`immutable`).
-- The inbox, login and demo routes send `X-Robots-Tag: noindex` and are disallowed in `robots.txt`.
+- The back-office, login and demo routes send `X-Robots-Tag: noindex` and are disallowed in `robots.txt`.
 
 CI: `.github/workflows/ci.yml` runs lint, type-check, unit tests with coverage, the data, i18n and orthography
 checks, the build, and the Playwright flow. It works once the repository is on GitHub.
@@ -254,10 +280,10 @@ checks, the build, and the Playwright flow. It works once the repository is on G
 
 | Check | Status |
 |---|---|
-| Unit tests | 62 passing. `core/domain` coverage: 99% statements, 94% branches, 100% functions and lines |
-| E2E (Playwright) | The demo flow and the guide flow (landing → index → chapter → next chapter) pass in PT at 360px and in EN at 1440px, with no console errors and no horizontal scroll under the production CSP |
-| Data / i18n / orthography | 31 data files valid against their schemas; 465 UI keys × 3 locales; 1,268 localised content values; pre-AO90 check passes |
-| Lighthouse (mobile, local) | Accessibility 99–100, Best Practices 100, SEO 100. Performance: landing 84–90, Q&A 88–90, assessment ≈ 76 (client-rendered). Local simulated runs vary by ±5; Netlify's CDN with HTTP/2 and brotli is usually faster |
+| Unit tests | 71 passing (rules engine, text utilities, Pathfinder idea composition, roadmap step building) |
+| E2E (Playwright) | Idea → chat → roadmap (nine steps) → expert handoff → lead in the back office; library; Arabic RTL and Chinese; and a walk through all 23 screens. Pass in PT at 360px and EN at 1440px with no console errors and no horizontal scroll under the production CSP |
+| Data / i18n / orthography | 31 schema-validated data files; 1,192 UI keys × 8 locales; 1,593 localised content values; pre-AO90 check passes |
+| Lighthouse | Not re-measured after the Tiva redesign. The eight-locale content makes the answer bank (≈ 670 kB raw, 127 kB compressed) the largest lazy chunk |
 
 Accessibility: semantic HTML, a skip link, visible focus, keyboard-operable menus, sheets and the combobox,
 44px touch targets, `prefers-reduced-motion` support and AA-contrast tokens in both themes.
@@ -278,7 +304,7 @@ Accessibility: semantic HTML, a skip link, visible focus, keyboard-operable menu
 6. **Hosting.** The API runs in Docker on AWS or a VPS behind an `/api` proxy. The frontend can stay on
    Netlify (add the proxy redirect and extend `connect-src` in the CSP).
 
-Roadmap after approval:
+Roadmap after approval (see the screen pack, "From screens to MVP"):
 - **Phase 1:** public version on taxadvisorymoz.com
 - **Phase 2:** reach (WhatsApp, more languages, sector packs)
 - **Phase 3:** institutional (chambers of commerce, APIEX or municipality versions, quarterly legal review)

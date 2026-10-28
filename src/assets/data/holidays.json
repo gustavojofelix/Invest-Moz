@@ -7,7 +7,12 @@
       "name": {
         "pt": "Dia da Fraternidade Universal",
         "en": "Universal Fraternity Day",
-        "fr": "Journée de la fraternité universelle"
+        "fr": "Journée de la fraternité universelle",
+        "zh": "世界博爱日（元旦）",
+        "ar": "يوم الأخوة العالمية",
+        "hi": "सार्वभौमिक भाईचारा दिवस",
+        "sw": "Siku ya Udugu wa Ulimwengu",
+        "af": "Dag van Universele Broederskap"
       }
     },
     {
@@ -15,7 +20,12 @@
       "name": {
         "pt": "Dia dos Heróis Moçambicanos",
         "en": "Mozambican Heroes Day",
-        "fr": "Journée des héros mozambicains"
+        "fr": "Journée des héros mozambicains",
+        "zh": "莫桑比克英雄日",
+        "ar": "يوم الأبطال الموزمبيقيين",
+        "hi": "मोज़ाम्बिक वीर दिवस",
+        "sw": "Siku ya Mashujaa wa Msumbiji",
+        "af": "Mosambiekse Heldedag"
       }
     },
     {
@@ -23,7 +33,12 @@
       "name": {
         "pt": "Dia da Mulher Moçambicana",
         "en": "Mozambican Women's Day",
-        "fr": "Journée de la femme mozambicaine"
+        "fr": "Journée de la femme mozambicaine",
+        "zh": "莫桑比克妇女节",
+        "ar": "يوم المرأة الموزمبيقية",
+        "hi": "मोज़ाम्बिक महिला दिवस",
+        "sw": "Siku ya Wanawake wa Msumbiji",
+        "af": "Mosambiekse Vrouedag"
       }
     },
     {
@@ -31,7 +46,12 @@
       "name": {
         "pt": "Dia Internacional dos Trabalhadores",
         "en": "International Workers' Day",
-        "fr": "Fête internationale des travailleurs"
+        "fr": "Fête internationale des travailleurs",
+        "zh": "国际劳动节",
+        "ar": "يوم العمال العالمي",
+        "hi": "अंतरराष्ट्रीय श्रमिक दिवस",
+        "sw": "Siku ya Kimataifa ya Wafanyakazi",
+        "af": "Internasionale Werkersdag"
       }
     },
     {
@@ -39,7 +59,12 @@
       "name": {
         "pt": "Dia da Independência Nacional",
         "en": "Independence Day",
-        "fr": "Fête de l'indépendance"
+        "fr": "Fête de l'indépendance",
+        "zh": "独立日",
+        "ar": "يوم الاستقلال",
+        "hi": "स्वतंत्रता दिवस",
+        "sw": "Siku ya Uhuru",
+        "af": "Onafhanklikheidsdag"
       }
     },
     {
@@ -47,7 +72,12 @@
       "name": {
         "pt": "Dia da Vitória",
         "en": "Victory Day",
-        "fr": "Jour de la victoire"
+        "fr": "Jour de la victoire",
+        "zh": "胜利日",
+        "ar": "يوم النصر",
+        "hi": "विजय दिवस",
+        "sw": "Siku ya Ushindi",
+        "af": "Oorwinningsdag"
       }
     },
     {
@@ -55,7 +85,12 @@
       "name": {
         "pt": "Dia das Forças Armadas de Libertação Nacional",
         "en": "Armed Forces Day",
-        "fr": "Journée des forces armées"
+        "fr": "Journée des forces armées",
+        "zh": "武装部队日",
+        "ar": "يوم القوات المسلحة",
+        "hi": "सशस्त्र बल दिवस",
+        "sw": "Siku ya Majeshi",
+        "af": "Dag van die Gewapende Magte"
       }
     },
     {
@@ -63,7 +98,12 @@
       "name": {
         "pt": "Dia da Paz e Reconciliação",
         "en": "Peace and Reconciliation Day",
-        "fr": "Journée de la paix et de la réconciliation"
+        "fr": "Journée de la paix et de la réconciliation",
+        "zh": "和平与和解日",
+        "ar": "يوم السلام والمصالحة",
+        "hi": "शांति और सुलह दिवस",
+        "sw": "Siku ya Amani na Maridhiano",
+        "af": "Dag van Vrede en Versoening"
       }
     },
     {
@@ -71,7 +111,12 @@
       "name": {
         "pt": "Dia da Paz e Reconciliação (gozo)",
         "en": "Peace and Reconciliation Day (observed)",
-        "fr": "Journée de la paix et de la réconciliation (report)"
+        "fr": "Journée de la paix et de la réconciliation (report)",
+        "zh": "和平与和解日（补休）",
+        "ar": "يوم السلام والمصالحة (يوم بديل)",
+        "hi": "शांति और सुलह दिवस (स्थानांतरित अवकाश)",
+        "sw": "Siku ya Amani na Maridhiano (mapumziko mbadala)",
+        "af": "Dag van Vrede en Versoening (waargeneem)"
       }
     },
     {
@@ -79,7 +124,12 @@
       "name": {
         "pt": "Dia da Família",
         "en": "Family Day",
-        "fr": "Journée de la famille"
+        "fr": "Journée de la famille",
+        "zh": "家庭日",
+        "ar": "يوم الأسرة",
+        "hi": "परिवार दिवस",
+        "sw": "Siku ya Familia",
+        "af": "Gesinsdag"
       }
     },
     {
@@ -87,7 +137,12 @@
       "name": {
         "pt": "Dia da Fraternidade Universal",
         "en": "Universal Fraternity Day",
-        "fr": "Journée de la fraternité universelle"
+        "fr": "Journée de la fraternité universelle",
+        "zh": "世界博爱日（元旦）",
+        "ar": "يوم الأخوة العالمية",
+        "hi": "सार्वभौमिक भाईचारा दिवस",
+        "sw": "Siku ya Udugu wa Ulimwengu",
+        "af": "Dag van Universele Broederskap"
       }
     },
     {
@@ -95,7 +150,12 @@
       "name": {
         "pt": "Dia dos Heróis Moçambicanos",
         "en": "Mozambican Heroes Day",
-        "fr": "Journée des héros mozambicains"
+        "fr": "Journée des héros mozambicains",
+        "zh": "莫桑比克英雄日",
+        "ar": "يوم الأبطال الموزمبيقيين",
+        "hi": "मोज़ाम्बिक वीर दिवस",
+        "sw": "Siku ya Mashujaa wa Msumbiji",
+        "af": "Mosambiekse Heldedag"
       }
     },
     {
@@ -103,7 +163,12 @@
       "name": {
         "pt": "Dia da Mulher Moçambicana",
         "en": "Mozambican Women's Day",
-        "fr": "Journée de la femme mozambicaine"
+        "fr": "Journée de la femme mozambicaine",
+        "zh": "莫桑比克妇女节",
+        "ar": "يوم المرأة الموزمبيقية",
+        "hi": "मोज़ाम्बिक महिला दिवस",
+        "sw": "Siku ya Wanawake wa Msumbiji",
+        "af": "Mosambiekse Vrouedag"
       }
     },
     {
@@ -111,7 +176,12 @@
       "name": {
         "pt": "Dia Internacional dos Trabalhadores",
         "en": "International Workers' Day",
-        "fr": "Fête internationale des travailleurs"
+        "fr": "Fête internationale des travailleurs",
+        "zh": "国际劳动节",
+        "ar": "يوم العمال العالمي",
+        "hi": "अंतरराष्ट्रीय श्रमिक दिवस",
+        "sw": "Siku ya Kimataifa ya Wafanyakazi",
+        "af": "Internasionale Werkersdag"
       }
     },
     {
@@ -119,7 +189,12 @@
       "name": {
         "pt": "Dia da Independência Nacional",
         "en": "Independence Day",
-        "fr": "Fête de l'indépendance"
+        "fr": "Fête de l'indépendance",
+        "zh": "独立日",
+        "ar": "يوم الاستقلال",
+        "hi": "स्वतंत्रता दिवस",
+        "sw": "Siku ya Uhuru",
+        "af": "Onafhanklikheidsdag"
       }
     },
     {
@@ -127,7 +202,12 @@
       "name": {
         "pt": "Dia da Vitória",
         "en": "Victory Day",
-        "fr": "Jour de la victoire"
+        "fr": "Jour de la victoire",
+        "zh": "胜利日",
+        "ar": "يوم النصر",
+        "hi": "विजय दिवस",
+        "sw": "Siku ya Ushindi",
+        "af": "Oorwinningsdag"
       }
     },
     {
@@ -135,7 +215,12 @@
       "name": {
         "pt": "Dia das Forças Armadas de Libertação Nacional",
         "en": "Armed Forces Day",
-        "fr": "Journée des forces armées"
+        "fr": "Journée des forces armées",
+        "zh": "武装部队日",
+        "ar": "يوم القوات المسلحة",
+        "hi": "सशस्त्र बल दिवस",
+        "sw": "Siku ya Majeshi",
+        "af": "Dag van die Gewapende Magte"
       }
     },
     {
@@ -143,7 +228,12 @@
       "name": {
         "pt": "Dia da Paz e Reconciliação",
         "en": "Peace and Reconciliation Day",
-        "fr": "Journée de la paix et de la réconciliation"
+        "fr": "Journée de la paix et de la réconciliation",
+        "zh": "和平与和解日",
+        "ar": "يوم السلام والمصالحة",
+        "hi": "शांति और सुलह दिवस",
+        "sw": "Siku ya Amani na Maridhiano",
+        "af": "Dag van Vrede en Versoening"
       }
     },
     {
@@ -151,7 +241,12 @@
       "name": {
         "pt": "Dia da Família",
         "en": "Family Day",
-        "fr": "Journée de la famille"
+        "fr": "Journée de la famille",
+        "zh": "家庭日",
+        "ar": "يوم الأسرة",
+        "hi": "परिवार दिवस",
+        "sw": "Siku ya Familia",
+        "af": "Gesinsdag"
       }
     }
   ]

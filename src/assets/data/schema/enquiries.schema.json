@@ -3,9 +3,7 @@
   "$id": "enquiries.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "enquiries"
-  ],
+  "required": ["enquiries"],
   "properties": {
     "enquiries": {
       "type": "array",
@@ -34,11 +32,7 @@
             "minLength": 1
           },
           "locale": {
-            "enum": [
-              "pt",
-              "en",
-              "fr"
-            ]
+            "enum": ["pt", "en", "fr", "zh", "ar", "hi", "sw", "af"]
           },
           "name": {
             "type": "string",
@@ -70,12 +64,7 @@
           "projectSnapshot": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "projectRef",
-              "vehicle",
-              "summary",
-              "input"
-            ],
+            "required": ["projectRef", "vehicle", "summary", "input"],
             "properties": {
               "projectRef": {
                 "type": "string",
@@ -93,22 +82,14 @@
             }
           },
           "status": {
-            "enum": [
-              "new",
-              "in_review",
-              "quoted",
-              "won"
-            ]
+            "enum": ["new", "in_review", "quoted", "won"]
           },
           "notes": {
             "type": "array",
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": [
-                "at",
-                "text"
-              ],
+              "required": ["at", "text"],
               "properties": {
                 "at": {
                   "type": "string",
@@ -120,6 +101,31 @@
                 }
               }
             }
+          },
+          "expertId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "consent": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["shareSummary", "at"],
+            "properties": {
+              "shareSummary": {
+                "type": "boolean"
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "callSlot": {
+            "type": "string",
+            "minLength": 1
+          },
+          "channel": {
+            "enum": ["web", "app", "whatsapp"]
           }
         }
       },

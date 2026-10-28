@@ -3,12 +3,7 @@
   "$id": "rules-zones.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "corridors",
-    "location",
-    "financing",
-    "esg"
-  ],
+  "required": ["corridors", "location", "financing", "esg"],
   "properties": {
     "corridors": {
       "type": "object",
@@ -16,12 +11,7 @@
         "$ref": "common.schema.json#/definitions/province"
       },
       "additionalProperties": {
-        "enum": [
-          "nacala",
-          "beira",
-          "maputo",
-          "none"
-        ]
+        "enum": ["nacala", "beira", "maputo", "none"]
       }
     },
     "location": {
@@ -29,11 +19,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -56,11 +42,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",
@@ -83,11 +65,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "id",
-          "when",
-          "then"
-        ],
+        "required": ["id", "when", "then"],
         "properties": {
           "id": {
             "type": "string",

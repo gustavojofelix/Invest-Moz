@@ -1,0 +1,120 @@
+{
+  "illustrative": true,
+  "periods": [
+    {
+      "id": "2026-Q4",
+      "from": "2026-10-01",
+      "to": "2026-12-31",
+      "conversations": 1240,
+      "investors": 610,
+      "roadmaps": 285,
+      "citationRate": 0.94,
+      "sectors": [
+        { "sector": "agro_industry", "roadmaps": 74 },
+        { "sector": "tourism", "roadmaps": 58 },
+        { "sector": "energy", "roadmaps": 49 },
+        { "sector": "logistics", "roadmaps": 41 },
+        { "sector": "services", "roadmaps": 33 },
+        { "sector": "oil_gas", "roadmaps": 18 },
+        { "sector": "mining", "roadmaps": 12 }
+      ],
+      "origins": [
+        { "country": "ZA", "investors": 132 },
+        { "country": "PT", "investors": 97 },
+        { "country": "IN", "investors": 74 },
+        { "country": "CN", "investors": 61 },
+        { "country": "FR", "investors": 38 },
+        { "country": "AE", "investors": 29 },
+        { "country": "KE", "investors": 22 }
+      ]
+    },
+    {
+      "id": "2026-Q3",
+      "from": "2026-07-01",
+      "to": "2026-09-30",
+      "conversations": 980,
+      "investors": 470,
+      "roadmaps": 212,
+      "citationRate": 0.91,
+      "sectors": [
+        { "sector": "agro_industry", "roadmaps": 61 },
+        { "sector": "energy", "roadmaps": 44 },
+        { "sector": "tourism", "roadmaps": 39 },
+        { "sector": "logistics", "roadmaps": 30 },
+        { "sector": "services", "roadmaps": 21 },
+        { "sector": "oil_gas", "roadmaps": 10 },
+        { "sector": "mining", "roadmaps": 7 }
+      ],
+      "origins": [
+        { "country": "ZA", "investors": 104 },
+        { "country": "PT", "investors": 81 },
+        { "country": "IN", "investors": 52 },
+        { "country": "CN", "investors": 44 },
+        { "country": "FR", "investors": 25 },
+        { "country": "AE", "investors": 18 }
+      ]
+    }
+  ],
+  "unanswered": [
+    {
+      "id": "u-fishing-vessel",
+      "topic": "licensing",
+      "asked": 14,
+      "text": {
+        "pt": "Licenciar uma embarcação de pesca de bandeira estrangeira",
+        "en": "Licensing a foreign-flagged fishing vessel",
+        "fr": "Licence d'un navire de pêche battant pavillon étranger",
+        "zh": "为悬挂外国国旗的渔船申请许可",
+        "ar": "ترخيص سفينة صيد ترفع علماً أجنبياً",
+        "hi": "विदेशी ध्वज वाले मछली पकड़ने के जहाज़ का लाइसेंस",
+        "sw": "Kupata leseni ya meli ya uvuvi yenye bendera ya kigeni",
+        "af": "Lisensiëring van 'n vissersvaartuig onder 'n buitelandse vlag"
+      }
+    },
+    {
+      "id": "u-branch-profits",
+      "topic": "exchange",
+      "asked": 11,
+      "text": {
+        "pt": "Repatriar lucros de uma sucursal, e não de uma sociedade",
+        "en": "Repatriating profits from a branch, not a company",
+        "fr": "Rapatrier les bénéfices d'une succursale, et non d'une société",
+        "zh": "从分公司（而非子公司）汇回利润",
+        "ar": "إعادة أرباح فرع، لا شركة، إلى الخارج",
+        "hi": "कंपनी नहीं, बल्कि शाखा से मुनाफ़े का प्रत्यावर्तन",
+        "sw": "Kurudisha faida kutoka tawi, si kampuni",
+        "af": "Repatriasie van wins uit 'n tak, nie 'n maatskappy nie"
+      }
+    },
+    {
+      "id": "u-digital-vat",
+      "topic": "tax",
+      "asked": 9,
+      "text": {
+        "pt": "IVA sobre serviços digitais vendidos a partir do estrangeiro",
+        "en": "VAT on digital services sold from abroad",
+        "fr": "TVA sur les services numériques vendus depuis l'étranger",
+        "zh": "从境外销售数字服务的增值税",
+        "ar": "ضريبة القيمة المضافة على الخدمات الرقمية المبيعة من الخارج",
+        "hi": "विदेश से बेची गई डिजिटल सेवाओं पर वैट",
+        "sw": "VAT kwa huduma za kidijitali zinazouzwa kutoka nje",
+        "af": "BTW op digitale dienste wat uit die buiteland verkoop word"
+      }
+    },
+    {
+      "id": "u-tourism-zone",
+      "topic": "land",
+      "asked": 7,
+      "text": {
+        "pt": "Regras das zonas de interesse turístico para um lodge",
+        "en": "Tourism-interest zone rules for a lodge",
+        "fr": "Règles des zones d'intérêt touristique pour un lodge",
+        "zh": "度假屋适用的旅游利益区规则",
+        "ar": "قواعد مناطق الاهتمام السياحي لنُزُل",
+        "hi": "लॉज के लिए पर्यटन-हित क्षेत्र के नियम",
+        "sw": "Kanuni za maeneo ya maslahi ya utalii kwa nyumba ya kitalii",
+        "af": "Reëls van toerisme-belangsones vir 'n lodge"
+      }
+    }
+  ]
+}

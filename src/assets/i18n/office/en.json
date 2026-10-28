@@ -1,0 +1,407 @@
+{
+  "demoData": "Illustrative demo data",
+  "toConfirm": "to confirm",
+  "channel": {
+    "web": "Web",
+    "app": "App",
+    "whatsapp": "WhatsApp"
+  },
+  "nav": {
+    "title": "Back office",
+    "home": "Back office home",
+    "menu": "Back-office menu",
+    "close": "Close the menu",
+    "queue": "Validation queue",
+    "knowledgeBase": "Legal knowledge base",
+    "conversations": "Conversation review",
+    "leads": "Leads",
+    "intelligence": "Investor intelligence",
+    "partners": "Partners and directory",
+    "pending": "waiting",
+    "builtBy": "Built by",
+    "legalContent": "Legal content",
+    "signedIn": "Signed in",
+    "signOut": "Sign out",
+    "language": "Language",
+    "publicSite": "Back to the public site"
+  },
+  "login": {
+    "eyebrow": "Back office",
+    "title": "Sign in to the Tiva back office",
+    "intro": "Where lawyers approve what Tiva says, and partners follow the investors who asked for them.",
+    "points": {
+      "validate": "Approve AI drafts before they reach investors",
+      "leads": "Follow consented handoffs to mandate",
+      "intelligence": "Read anonymised demand data"
+    },
+    "demoTitle": "Demo credentials",
+    "demoText": "The fields are already filled in. Just sign in.",
+    "email": "Email",
+    "password": "Password",
+    "error": "Incorrect email or password.",
+    "submit": "Sign in",
+    "notSecurity": "Demonstration only: this sign-in is not real security. Real authentication arrives with the backend."
+  },
+  "queue": {
+    "title": "Validation queue",
+    "intro": "AI drafts wait here. Nothing reaches investors until a lawyer approves it.",
+    "upload": "Upload legislation",
+    "uploadName": "Diploma",
+    "uploadPlaceholder": "e.g. Decreto n.º [n]/2026",
+    "uploadHint": "Simulated: Tiva drafts a summary and adds it to the queue.",
+    "uploadFile": "Boletim da República PDF (optional)",
+    "uploadSubmit": "Add to the queue",
+    "uploadedMeta": "Uploaded by a reviewer · AI summary in preparation",
+    "uploadedSummary": "Tiva is preparing the summary of this text (simulated in the demo). Use Edit to write it yourself.",
+    "uploadedOfficial": "[Official text of the uploaded diploma]",
+    "awaiting": "Awaiting review",
+    "reviewed": "Reviewed",
+    "empty": "Nothing waiting. Every draft has been reviewed.",
+    "affects": "New law · affects existing roadmaps",
+    "kind": {
+      "law_summary": "Summary",
+      "answer_template": "Answer template",
+      "roadmap_rule": "Roadmap rule",
+      "flagged_answer": "Flagged answer"
+    },
+    "decision": {
+      "approved": "Approved and published",
+      "rejected": "Rejected"
+    },
+    "effective": "Effective {{ date }}",
+    "draftAi": "Draft · AI",
+    "draftEdited": "Draft · edited by a reviewer",
+    "aiSummary": "AI summary ({{ lang }})",
+    "source": "Source · Boletim da República",
+    "illustrativeExcerpt": "Illustrative excerpt for the demo; the reviewer checks it against the official publication.",
+    "openConversation": "Open the conversation in review",
+    "editLabel": "Edit the summary",
+    "saveEdit": "Save the edit",
+    "cancel": "Cancel",
+    "note": "Reviewer note",
+    "notePlaceholder": "Optional: what you changed and why",
+    "approve": "Approve and publish",
+    "edit": "Edit",
+    "reject": "Reject",
+    "logged": "Every action is logged with reviewer, time and version",
+    "version": "current version v{{ n }}",
+    "auditTitle": "Audit log",
+    "audit": {
+      "time": "Time",
+      "action": "Action",
+      "reviewer": "Reviewer",
+      "version": "Version",
+      "note": "Note"
+    },
+    "action": {
+      "drafted": "Drafted by AI",
+      "flagged": "Flagged for review",
+      "commented": "Comment",
+      "edited": "Edited",
+      "approved": "Approved and published",
+      "rejected": "Rejected",
+      "uploaded": "Legislation uploaded"
+    },
+    "announce": {
+      "approved": "Draft approved and published.",
+      "rejected": "Draft rejected.",
+      "edited": "Edit saved as a new version.",
+      "uploaded": "Legislation added to the queue."
+    },
+    "stripTitle": "Investor intelligence this quarter",
+    "topSectors": "Top sectors asked",
+    "topOrigins": "Top investor origins",
+    "unanswered": "Unanswered questions",
+    "unansweredCount": "{{ n }} routed to the content team"
+  },
+  "kb": {
+    "title": "Legal knowledge base",
+    "intro": "Every answer and roadmap rule is tied to a versioned legal text with its effective date.",
+    "search": "Search diplomas",
+    "add": "Add legislation",
+    "filterTopic": "Filter by area",
+    "filterStatus": "Filter by status",
+    "all": "All",
+    "anyStatus": "Any status",
+    "status": {
+      "active": "Active",
+      "amended": "Amended",
+      "under_review": "Under review",
+      "revoked": "Revoked"
+    },
+    "revokedBy": "by {{ by }}",
+    "summaryInReview": "Summary in review",
+    "tableCaption": "Diplomas in the knowledge base",
+    "count": "{{ n }} diplomas",
+    "empty": "No diploma matches the filters.",
+    "col": {
+      "diploma": "Diploma",
+      "subject": "Subject",
+      "effective": "Effective",
+      "version": "Version",
+      "status": "Status",
+      "linked": "Linked rules"
+    },
+    "kind": {
+      "step": "Roadmap steps",
+      "rule": "Rule tables",
+      "answer": "Answers"
+    },
+    "table": {
+      "apiex": "APIEX",
+      "incentives": "Incentives",
+      "licences": "Licences",
+      "obligations": "Obligations",
+      "quotas": "Quotas",
+      "roadmap": "Roadmap",
+      "sectors": "Sectors",
+      "treaties": "Treaties",
+      "triggers": "Triggers",
+      "vehicles": "Vehicles",
+      "zones": "Zones",
+      "qa": "Answer"
+    },
+    "scan": {
+      "title": "Weekly Boletim da República scan",
+      "intro": "Tiva reads each new issue and flags texts that touch answers or roadmaps.",
+      "last": "Last scan",
+      "next": "Next scan",
+      "issues": "Issues read",
+      "found": "New items found",
+      "outcome": {
+        "queued": "In the validation queue",
+        "published": "Approved",
+        "no_impact": "No impact"
+      },
+      "footer": "New texts are drafted by AI and published only after lawyer approval."
+    }
+  },
+  "review": {
+    "title": "Conversation review",
+    "intro": "Low-confidence and flagged answers come here. Corrections teach the knowledge base.",
+    "chat": "Chat #{{ id }}",
+    "reason": {
+      "low_confidence": "Low confidence",
+      "user_flagged": "Flagged by the investor",
+      "law_changed": "Law changed"
+    },
+    "confidence": "Confidence",
+    "translation": "Translation ({{ lang }})",
+    "tivaAnswer": "Tiva's answer",
+    "sources": "Sources cited",
+    "gapTag": "Not in the knowledge base",
+    "actionTitle": "Reviewer action",
+    "corrected": "Corrected answer",
+    "correctedPlaceholder": "Write the corrected answer, citing the diplomas it relies on",
+    "gap": "Gap in the knowledge base",
+    "gapOther": "Another gap…",
+    "gapOtherPlaceholder": "Describe the missing rule or text",
+    "gapNone": "No gap",
+    "notify": "Notify the investor if the answer changes",
+    "correct": "Correct and teach",
+    "approve": "Approve as is",
+    "escalate": "Escalate to a lawyer",
+    "notifyNote": "The investor is notified if the answer they received changes.",
+    "done": {
+      "corrected": "Corrected and taught",
+      "approved": "Approved as is",
+      "escalated": "Escalated to a lawyer"
+    },
+    "notified": "The investor will be notified of the change.",
+    "reopen": "Reopen",
+    "open": "Open",
+    "queueTitle": "Review queue",
+    "col": {
+      "chat": "Conversation",
+      "language": "Language",
+      "topic": "Topic",
+      "reason": "Reason",
+      "received": "Received",
+      "status": "Status"
+    },
+    "gapsTitle": "Gaps logged in the knowledge base",
+    "gapsIntro": "Each gap becomes a content task for the legal team.",
+    "gapsEmpty": "No gap logged yet."
+  },
+  "leads": {
+    "title": "Leads",
+    "intro": "Investors who asked for an expert. Shared only with their consent.",
+    "filterExpert": "Filter by expert",
+    "filter": {
+      "all": "All experts",
+      "tax-advisory": "Tax Advisory",
+      "public": "Public bodies"
+    },
+    "metrics": {
+      "month": "Handoffs this month",
+      "conversion": "Handoff to mandate",
+      "reply": "Median first reply",
+      "response": "Answered",
+      "note": "Calculated from the {{ n }} handoffs shown."
+    },
+    "hours": "{{ n }} h",
+    "stage": {
+      "new": "New",
+      "in_review": "In review",
+      "quoted": "Proposal sent",
+      "won": "Mandate won"
+    },
+    "new": "New",
+    "fit": {
+      "high": "High fit · {{ n }}",
+      "medium": "Medium · {{ n }}",
+      "low": "Low · {{ n }}"
+    },
+    "local": "Local",
+    "needs": "Needs",
+    "consent": "Consent",
+    "roadmapAttached": "Roadmap attached",
+    "call": "Call {{ date }}",
+    "emptyStage": "No lead at this stage.",
+    "fitNote": "Fit score: indicative, from project size, sector, origin and how complete the handoff is."
+  },
+  "lead": {
+    "back": "Back to leads",
+    "missing": "Lead not found.",
+    "stage": "Stage",
+    "message": "Message",
+    "project": "Project and roadmap",
+    "province": "Province",
+    "investment": "Investment",
+    "workers": "Workers (foreign)",
+    "vehicle": "Vehicle",
+    "sector": "Sector",
+    "origin": "Origin",
+    "openRoadmap": "Open the roadmap",
+    "noProject": "No project attached.",
+    "notes": "Internal notes",
+    "noNotes": "No notes yet.",
+    "addNote": "New note",
+    "saveNote": "Save note",
+    "saved": "Changes saved",
+    "fit": "Fit score",
+    "fitPart": {
+      "size": "Size",
+      "sector": "Sector",
+      "origin": "Origin",
+      "completeness": "Completeness"
+    },
+    "handoff": "Handoff",
+    "expert": "Expert requested",
+    "consentLegacy": "Sent through the enquiry form",
+    "callSlot": "Call slot",
+    "channel": "Channel",
+    "contact": "Contact"
+  },
+  "intel": {
+    "title": "Investor intelligence",
+    "intro": "Anonymised demand data: the quarterly report for APIEX, CTA and sponsors.",
+    "period": "Period",
+    "export": "Export quarterly report",
+    "print": "Print",
+    "exported": "Report downloaded.",
+    "demoBanner": "Demo data: illustrative figures to show the layout. The live report is filled from anonymised conversations.",
+    "kpi": {
+      "conversations": "Conversations",
+      "investors": "Investors",
+      "roadmaps": "Roadmaps generated",
+      "origins": "Countries of origin",
+      "citation": "Answers with a citation"
+    },
+    "delta": "{{ d }} vs {{ prev }}",
+    "sectorTitle": "Roadmaps by sector",
+    "sectorNote": "Demand by sector",
+    "col": {
+      "sector": "Sector",
+      "bar": "Share of the total (bar)",
+      "roadmaps": "Roadmaps",
+      "share": "Share",
+      "asked": "Times asked"
+    },
+    "originTitle": "Investor origins",
+    "originNote": "Countries declared by investors; never linked to a person.",
+    "unansweredTitle": "Questions Tiva could not answer",
+    "unansweredIntro": "Each one becomes a content task for the legal team.",
+    "asked": "asked {{ n }} times",
+    "createTask": "Create content task",
+    "taskCreated": "Content task created"
+  },
+  "partners": {
+    "title": "Partners and directory",
+    "intro": "Listings, sponsor placements and the translations investors see.",
+    "add": "Add listing",
+    "addHint": "Not available in the demo: listings come from the directory data file.",
+    "filterLabel": "Filter listings",
+    "filter": {
+      "all": "All",
+      "public": "Public bodies",
+      "sponsored": "Sponsored",
+      "providers": "Providers",
+      "attention": "Needs attention"
+    },
+    "tableCaption": "Directory listings",
+    "count": "{{ n }} listings",
+    "col": {
+      "name": "Name",
+      "type": "Type",
+      "status": "Status",
+      "verified": "Verified",
+      "languages": "Languages",
+      "renewal": "Renewal"
+    },
+    "type": {
+      "public": "Public body",
+      "association": "Business association",
+      "law_firm": "Law firm",
+      "tax": "Tax adviser",
+      "bank": "Bank",
+      "accounting": "Accounting",
+      "logistics": "Logistics",
+      "consulting": "Consulting"
+    },
+    "contract": {
+      "founding_sponsor": "Founding sponsor",
+      "sponsor": "Sponsor",
+      "expert_partner": "Expert partner",
+      "partner": "Partner",
+      "verified_listing": "Verified listing"
+    },
+    "standing": {
+      "public": "Public",
+      "sponsored": "Sponsored",
+      "partner": "Partner",
+      "verified": "Verified",
+      "pending": "Documents pending",
+      "expired": "Licence expired"
+    },
+    "notVerified": "Not yet verified",
+    "ofEight": "{{ n }} of {{ total }}",
+    "translatedInto": "Languages this listing is translated into",
+    "yes": "translated",
+    "no": "not translated",
+    "renewal": {
+      "free": "Free · no renewal",
+      "ok": "Current",
+      "due": "Renewal due",
+      "expired": "Expired"
+    },
+    "placementTitle": "Sponsor placement",
+    "shownOn": "Shown on",
+    "placement": {
+      "landing_footer": "landing page footer",
+      "directory": "directory",
+      "expert": "Talk to an expert"
+    },
+    "rulesTitle": "Placement rules",
+    "rule": {
+      "publicFree": "Public bodies are always listed, free",
+      "publicFirst": "Public bodies always come first",
+      "maxPerCategory": "At most {{ n }} sponsored listing per category",
+      "labelVisible": "Always labelled \"Sponsored\"",
+      "notInAnswers": "Never placed inside legal answers"
+    },
+    "ruleOk": "rule met",
+    "ruleBroken": "rule broken",
+    "dataNote": "Listings are read from the public directory; contracts and placements are illustrative demo data."
+  }
+}

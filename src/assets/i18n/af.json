@@ -1,0 +1,151 @@
+{
+  "brand": {
+    "name": "Tiva",
+    "tagline": "KI-beleggingskonsiërge vir Mosambiek",
+    "meaning": "“Om te weet”, in Changana"
+  },
+  "seo": {
+    "siteTitle": "Tiva — KI-beleggingskonsiërge vir Mosambiek",
+    "siteDescription": "Vertel Tiva jou idee en kry binne minute jou beleggingspadkaart vir Mosambiek: maatskappy, lisensies, aansporings, visums en belastingstappe, elk met 'n verwysing na die Mosambiekse reg. Law Technology Solutions saam met Tax Advisory.",
+    "welcome": "Welkom",
+    "pathfinder": "Beleggingspadvinder",
+    "chat": "Gesels met Tiva",
+    "roadmap": "Beleggingspadkaart",
+    "roadmapPrint": "Padkaart-PDF",
+    "map": "Geleentheidskaart",
+    "incentives": "Aansporingsberekenaar",
+    "expert": "Praat met 'n kenner",
+    "expertSent": "Oproep aangevra",
+    "library": "Kennisbiblioteek",
+    "libraryDescription": "Verduidelikings in eenvoudige taal vir elke gebied van die Mosambiekse sakereg, elk gekoppel aan die amptelike teks en die datum van hersiening.",
+    "documents": "Dokumente en vorms",
+    "directory": "Ekosisteemgids",
+    "aftercare": "Nasorgkalender",
+    "alerts": "Regulatoriese waaksaamheid",
+    "whatsapp": "Tiva op WhatsApp",
+    "office": "Agterkantoor",
+    "login": "Aanmelding by agterkantoor",
+    "demo": "Demopaneel",
+    "styleGuide": "Stylgids",
+    "notFound": "Bladsy nie gevind nie"
+  },
+  "nav": {
+    "home": "Tiva — tuis",
+    "main": "Hoofnavigasie",
+    "explore": "Verken Mosambiek",
+    "roadmap": "Padkaart",
+    "incentives": "Aansporings",
+    "library": "Biblioteek",
+    "experts": "Kenners",
+    "chat": "Gesels",
+    "start": "Begin met Tiva",
+    "tools": "Hulpmiddels",
+    "documents": "Dokumente",
+    "directory": "Gids",
+    "aftercare": "Nasorg",
+    "alerts": "Wetswaarskuwings",
+    "whatsapp": "WhatsApp",
+    "office": "Agterkantoor",
+    "menu": "Kieslys",
+    "language": "Taal",
+    "skip": "Spring na inhoud",
+    "back": "Terug"
+  },
+  "footer": {
+    "technology": "Tegnologie",
+    "expert": "Kundige vennoot",
+    "sponsors": "Stigtersborg: [SPONSOR] · Institusionele vennoot: [PARTNER]",
+    "privacy": "Privaatheid",
+    "terms": "Bepalings",
+    "contact": "Kontak",
+    "officeAccess": "Toegang tot agterkantoor",
+    "builtIn": "Gebou in Mosambiek, vir Mosambiek.",
+    "journey": "Jou belegging",
+    "tools": "Hulpmiddels en kanale"
+  },
+  "mt": {
+    "notice": "Hierdie taal is 'n masjienvertaling wat hersien word. Regsinhoud word in Portugees en Engels bekragtig.",
+    "switch": "Lees in Engels"
+  },
+  "disclaimer": "Algemene inligting gebaseer op die Mosambiekse reg wat in Oktober 2026 van krag is. Nie regs- of belastingadvies nie.",
+  "notFound": {
+    "title": "Hierdie bladsy bestaan nie",
+    "text": "Die adres is dalk onvolledig of die bladsy is moontlik verskuif.",
+    "cta": "Terug na die tuisblad"
+  },
+  "topics": {
+    "companies": "Maatskappye",
+    "licensing": "Lisensiëring",
+    "investment": "Belegging",
+    "tax": "Belasting",
+    "labour": "Indiensneming",
+    "immigration": "Immigrasie",
+    "exchange": "Valutabeheer",
+    "customs": "Doeane",
+    "incentives": "Belastingaansporings",
+    "compliance": "Indienings en rekeningkunde",
+    "land": "Grond, omgewing en sones",
+    "local_content": "Plaaslike inhoud en LNG"
+  },
+  "forms": {
+    "required": "Hierdie veld is verpligtend.",
+    "email": "Voer 'n geldige e-posadres in.",
+    "minlength": "Skryf minstens {{ length }} karakters.",
+    "maxlength": "Hoogstens {{ length }} karakters.",
+    "min": "Die minimum waarde is {{ min }}.",
+    "max": "Die maksimum waarde is {{ max }}.",
+    "integer": "Voer 'n heelgetal in.",
+    "pattern": "Ongeldige formaat.",
+    "phone": "Voer 'n geldige telefoonnommer in, insluitend die landkode.",
+    "areasRequired": "Kies minstens een gebied.",
+    "foreignExceedsWorkers": "Buitelandse werkers kan nie meer as die totale aantal werkers wees nie.",
+    "fixErrors": "Gaan asseblief die gemerkte velde na."
+  },
+  "ui": {
+    "close": "Sluit",
+    "cancel": "Kanselleer",
+    "toConfirm": "moet bevestig word",
+    "toConfirmHint": "Waarde moet deur Tax Advisory bevestig word",
+    "citation": {
+      "open": "open verwysing",
+      "eyebrow": "Regsverwysing",
+      "status": "Status",
+      "illustrative": "Illustratief",
+      "reviewed": "Laas hersien",
+      "topic": "Onderwerp",
+      "summary": "Opsomming",
+      "excerpt": "Illustratiewe uittreksel",
+      "note": "Geparafraseerde uittreksel vir demonstrasiedoeleindes. Die finale weergawe sal die gedeeltes aanhaal wat deur Tax Advisory hersien is."
+    },
+    "roadmap": {
+      "explore": "Verken",
+      "establish": "Vestig",
+      "operate": "Bedryf",
+      "step": "Stap",
+      "critical": "Kritieke pad"
+    },
+    "calendar": {
+      "shifted": "Vervroeg",
+      "shiftedHint": "Die sperdatum van {{ date }} val op 'n naweek of openbare vakansiedag, en skuif dus na die vorige werksdag.",
+      "then": "Volgende:"
+    },
+    "trigger": {
+      "fact": "Projekfeit",
+      "info": "Wat verander",
+      "attention": "Aandag"
+    },
+    "answer": {
+      "question": "Vraag",
+      "analysing": "Ontleed tans",
+      "sources": "Bronne",
+      "whenToTalk": "Wanneer om met ons te praat",
+      "talkCta": "Praat met Tax Advisory"
+    },
+    "status": {
+      "new": "Nuut",
+      "in_review": "In hersiening",
+      "quoted": "Voorstel gestuur",
+      "won": "Gewen"
+    }
+  }
+}

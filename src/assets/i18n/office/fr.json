@@ -1,0 +1,407 @@
+{
+  "demoData": "Données de démonstration illustratives",
+  "toConfirm": "à confirmer",
+  "channel": {
+    "web": "Web",
+    "app": "Appli",
+    "whatsapp": "WhatsApp"
+  },
+  "nav": {
+    "title": "Back-office",
+    "home": "Accueil du back-office",
+    "menu": "Menu du back-office",
+    "close": "Fermer le menu",
+    "queue": "File de validation",
+    "knowledgeBase": "Base de connaissances juridiques",
+    "conversations": "Revue des conversations",
+    "leads": "Prospects",
+    "intelligence": "Veille investisseurs",
+    "partners": "Partenaires et annuaire",
+    "pending": "en attente",
+    "builtBy": "Développé par",
+    "legalContent": "Contenu juridique",
+    "signedIn": "Connecté",
+    "signOut": "Se déconnecter",
+    "language": "Langue",
+    "publicSite": "Retour au site public"
+  },
+  "login": {
+    "eyebrow": "Back-office",
+    "title": "Connexion au back-office de Tiva",
+    "intro": "Là où les avocats approuvent ce que dit Tiva, et où les partenaires suivent les investisseurs qui les ont sollicités.",
+    "points": {
+      "validate": "Approuver les brouillons de l'IA avant qu'ils n'atteignent les investisseurs",
+      "leads": "Suivre les mises en relation consenties jusqu'au mandat",
+      "intelligence": "Consulter des données de demande anonymisées"
+    },
+    "demoTitle": "Identifiants de démonstration",
+    "demoText": "Les champs sont déjà remplis. Il suffit de se connecter.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "error": "E-mail ou mot de passe incorrect.",
+    "submit": "Se connecter",
+    "notSecurity": "Démonstration uniquement : cette connexion n'offre aucune sécurité réelle. La vraie authentification arrivera avec le backend."
+  },
+  "queue": {
+    "title": "File de validation",
+    "intro": "Les brouillons de l'IA attendent ici. Rien n'atteint les investisseurs sans l'approbation d'un avocat.",
+    "upload": "Téléverser un texte",
+    "uploadName": "Texte juridique",
+    "uploadPlaceholder": "ex. Decreto n.º [n]/2026",
+    "uploadHint": "Simulé : Tiva rédige un résumé et l'ajoute à la file.",
+    "uploadFile": "PDF du Boletim da República (facultatif)",
+    "uploadSubmit": "Ajouter à la file",
+    "uploadedMeta": "Téléversé par un réviseur · résumé de l'IA en préparation",
+    "uploadedSummary": "Tiva prépare le résumé de ce texte (simulé dans la démonstration). Utilisez Modifier pour le rédiger vous-même.",
+    "uploadedOfficial": "[Texte officiel du texte téléversé]",
+    "awaiting": "En attente de revue",
+    "reviewed": "Revus",
+    "empty": "Rien en attente. Tous les brouillons ont été revus.",
+    "affects": "Nouvelle loi · concerne des feuilles de route existantes",
+    "kind": {
+      "law_summary": "Résumé",
+      "answer_template": "Modèle de réponse",
+      "roadmap_rule": "Règle de feuille de route",
+      "flagged_answer": "Réponse signalée"
+    },
+    "decision": {
+      "approved": "Approuvé et publié",
+      "rejected": "Rejeté"
+    },
+    "effective": "En vigueur le {{ date }}",
+    "draftAi": "Brouillon · IA",
+    "draftEdited": "Brouillon · modifié par un réviseur",
+    "aiSummary": "Résumé de l'IA ({{ lang }})",
+    "source": "Source · Boletim da República",
+    "illustrativeExcerpt": "Extrait illustratif pour la démonstration ; le réviseur le vérifie par rapport à la publication officielle.",
+    "openConversation": "Ouvrir la conversation en revue",
+    "editLabel": "Modifier le résumé",
+    "saveEdit": "Enregistrer la modification",
+    "cancel": "Annuler",
+    "note": "Note du réviseur",
+    "notePlaceholder": "Facultatif : ce que vous avez changé et pourquoi",
+    "approve": "Approuver et publier",
+    "edit": "Modifier",
+    "reject": "Rejeter",
+    "logged": "Chaque action est journalisée avec le réviseur, l'heure et la version",
+    "version": "version actuelle v{{ n }}",
+    "auditTitle": "Journal d'audit",
+    "audit": {
+      "time": "Heure",
+      "action": "Action",
+      "reviewer": "Réviseur",
+      "version": "Version",
+      "note": "Note"
+    },
+    "action": {
+      "drafted": "Rédigé par l'IA",
+      "flagged": "Signalé pour revue",
+      "commented": "Commentaire",
+      "edited": "Modifié",
+      "approved": "Approuvé et publié",
+      "rejected": "Rejeté",
+      "uploaded": "Texte téléversé"
+    },
+    "announce": {
+      "approved": "Brouillon approuvé et publié.",
+      "rejected": "Brouillon rejeté.",
+      "edited": "Modification enregistrée comme nouvelle version.",
+      "uploaded": "Texte ajouté à la file."
+    },
+    "stripTitle": "Veille investisseurs ce trimestre",
+    "topSectors": "Secteurs les plus demandés",
+    "topOrigins": "Principales origines des investisseurs",
+    "unanswered": "Questions sans réponse",
+    "unansweredCount": "{{ n }} transmises à l'équipe de contenu"
+  },
+  "kb": {
+    "title": "Base de connaissances juridiques",
+    "intro": "Chaque réponse et chaque règle de feuille de route est liée à un texte juridique versionné, avec sa date d'entrée en vigueur.",
+    "search": "Rechercher un texte",
+    "add": "Ajouter un texte",
+    "filterTopic": "Filtrer par domaine",
+    "filterStatus": "Filtrer par statut",
+    "all": "Tous",
+    "anyStatus": "Tous les statuts",
+    "status": {
+      "active": "En vigueur",
+      "amended": "Modifié",
+      "under_review": "En révision",
+      "revoked": "Abrogé"
+    },
+    "revokedBy": "par le {{ by }}",
+    "summaryInReview": "Résumé en revue",
+    "tableCaption": "Textes de la base de connaissances",
+    "count": "{{ n }} textes",
+    "empty": "Aucun texte ne correspond aux filtres.",
+    "col": {
+      "diploma": "Texte",
+      "subject": "Objet",
+      "effective": "En vigueur",
+      "version": "Version",
+      "status": "Statut",
+      "linked": "Règles liées"
+    },
+    "kind": {
+      "step": "Étapes de la feuille de route",
+      "rule": "Tables de règles",
+      "answer": "Réponses"
+    },
+    "table": {
+      "apiex": "APIEX",
+      "incentives": "Incitations",
+      "licences": "Licences",
+      "obligations": "Obligations",
+      "quotas": "Quotas",
+      "roadmap": "Feuille de route",
+      "sectors": "Secteurs",
+      "treaties": "Conventions",
+      "triggers": "Faits",
+      "vehicles": "Structures",
+      "zones": "Zones",
+      "qa": "Réponse"
+    },
+    "scan": {
+      "title": "Veille hebdomadaire du Boletim da República",
+      "intro": "Tiva lit chaque nouveau numéro et signale les textes qui touchent des réponses ou des feuilles de route.",
+      "last": "Dernière lecture",
+      "next": "Prochaine lecture",
+      "issues": "Numéros lus",
+      "found": "Nouveaux éléments",
+      "outcome": {
+        "queued": "Dans la file de validation",
+        "published": "Approuvé",
+        "no_impact": "Sans impact"
+      },
+      "footer": "Les nouveaux textes sont rédigés par l'IA et publiés uniquement après l'approbation d'un avocat."
+    }
+  },
+  "review": {
+    "title": "Revue des conversations",
+    "intro": "Les réponses à faible confiance et les réponses signalées arrivent ici. Les corrections enrichissent la base de connaissances.",
+    "chat": "Conversation #{{ id }}",
+    "reason": {
+      "low_confidence": "Confiance faible",
+      "user_flagged": "Signalée par l'investisseur",
+      "law_changed": "La loi a changé"
+    },
+    "confidence": "Confiance",
+    "translation": "Traduction ({{ lang }})",
+    "tivaAnswer": "Réponse de Tiva",
+    "sources": "Sources citées",
+    "gapTag": "Absent de la base de connaissances",
+    "actionTitle": "Action du réviseur",
+    "corrected": "Réponse corrigée",
+    "correctedPlaceholder": "Rédigez la réponse corrigée en citant les textes sur lesquels elle s'appuie",
+    "gap": "Lacune de la base de connaissances",
+    "gapOther": "Autre lacune…",
+    "gapOtherPlaceholder": "Décrivez la règle ou le texte manquant",
+    "gapNone": "Aucune lacune",
+    "notify": "Prévenir l'investisseur si la réponse change",
+    "correct": "Corriger et enseigner",
+    "approve": "Approuver en l'état",
+    "escalate": "Transmettre à un avocat",
+    "notifyNote": "L'investisseur est prévenu si la réponse qu'il a reçue change.",
+    "done": {
+      "corrected": "Corrigée et enseignée",
+      "approved": "Approuvée en l'état",
+      "escalated": "Transmise à un avocat"
+    },
+    "notified": "L'investisseur sera prévenu du changement.",
+    "reopen": "Rouvrir",
+    "open": "Ouverte",
+    "queueTitle": "File de revue",
+    "col": {
+      "chat": "Conversation",
+      "language": "Langue",
+      "topic": "Thème",
+      "reason": "Motif",
+      "received": "Reçue",
+      "status": "Statut"
+    },
+    "gapsTitle": "Lacunes consignées dans la base de connaissances",
+    "gapsIntro": "Chaque lacune devient une tâche de contenu pour l'équipe juridique.",
+    "gapsEmpty": "Aucune lacune consignée pour l'instant."
+  },
+  "leads": {
+    "title": "Prospects",
+    "intro": "Les investisseurs qui ont demandé un expert. Partagés uniquement avec leur consentement.",
+    "filterExpert": "Filtrer par expert",
+    "filter": {
+      "all": "Tous les experts",
+      "tax-advisory": "Tax Advisory",
+      "public": "Organismes publics"
+    },
+    "metrics": {
+      "month": "Mises en relation ce mois-ci",
+      "conversion": "De la mise en relation au mandat",
+      "reply": "Délai médian de première réponse",
+      "response": "Traités",
+      "note": "Calculé à partir des {{ n }} mises en relation affichées."
+    },
+    "hours": "{{ n }} h",
+    "stage": {
+      "new": "Nouveau",
+      "in_review": "En analyse",
+      "quoted": "Proposition envoyée",
+      "won": "Mandat obtenu"
+    },
+    "new": "Nouveau",
+    "fit": {
+      "high": "Forte adéquation · {{ n }}",
+      "medium": "Moyenne · {{ n }}",
+      "low": "Faible · {{ n }}"
+    },
+    "local": "Local",
+    "needs": "Besoins",
+    "consent": "Consentement",
+    "roadmapAttached": "Feuille de route jointe",
+    "call": "Appel {{ date }}",
+    "emptyStage": "Aucun prospect à cette étape.",
+    "fitNote": "Score d'adéquation : indicatif, calculé à partir de la taille du projet, du secteur, de l'origine et de la complétude de la mise en relation."
+  },
+  "lead": {
+    "back": "Retour aux prospects",
+    "missing": "Prospect introuvable.",
+    "stage": "Étape",
+    "message": "Message",
+    "project": "Projet et feuille de route",
+    "province": "Province",
+    "investment": "Investissement",
+    "workers": "Salariés (étrangers)",
+    "vehicle": "Structure",
+    "sector": "Secteur",
+    "origin": "Origine",
+    "openRoadmap": "Ouvrir la feuille de route",
+    "noProject": "Aucun projet joint.",
+    "notes": "Notes internes",
+    "noNotes": "Pas encore de notes.",
+    "addNote": "Nouvelle note",
+    "saveNote": "Enregistrer la note",
+    "saved": "Modifications enregistrées",
+    "fit": "Score d'adéquation",
+    "fitPart": {
+      "size": "Taille",
+      "sector": "Secteur",
+      "origin": "Origine",
+      "completeness": "Complétude"
+    },
+    "handoff": "Mise en relation",
+    "expert": "Expert demandé",
+    "consentLegacy": "Envoyé via le formulaire de contact",
+    "callSlot": "Créneau d'appel",
+    "channel": "Canal",
+    "contact": "Contact"
+  },
+  "intel": {
+    "title": "Veille investisseurs",
+    "intro": "Données de demande anonymisées : le rapport trimestriel pour l'APIEX, la CTA et les sponsors.",
+    "period": "Période",
+    "export": "Exporter le rapport trimestriel",
+    "print": "Imprimer",
+    "exported": "Rapport téléchargé.",
+    "demoBanner": "Données de démonstration : chiffres illustratifs pour montrer la mise en page. Le rapport réel est alimenté par des conversations anonymisées.",
+    "kpi": {
+      "conversations": "Conversations",
+      "investors": "Investisseurs",
+      "roadmaps": "Feuilles de route générées",
+      "origins": "Pays d'origine",
+      "citation": "Réponses avec citation"
+    },
+    "delta": "{{ d }} par rapport à {{ prev }}",
+    "sectorTitle": "Feuilles de route par secteur",
+    "sectorNote": "Demande par secteur",
+    "col": {
+      "sector": "Secteur",
+      "bar": "Part du total (barre)",
+      "roadmaps": "Feuilles de route",
+      "share": "Part",
+      "asked": "Nombre de demandes"
+    },
+    "originTitle": "Origine des investisseurs",
+    "originNote": "Pays déclarés par les investisseurs ; jamais rattachés à une personne.",
+    "unansweredTitle": "Questions auxquelles Tiva n'a pas su répondre",
+    "unansweredIntro": "Chacune devient une tâche de contenu pour l'équipe juridique.",
+    "asked": "posée {{ n }} fois",
+    "createTask": "Créer une tâche de contenu",
+    "taskCreated": "Tâche de contenu créée"
+  },
+  "partners": {
+    "title": "Partenaires et annuaire",
+    "intro": "Fiches, emplacements sponsorisés et traductions que voient les investisseurs.",
+    "add": "Ajouter une fiche",
+    "addHint": "Indisponible dans la démonstration : les fiches proviennent du fichier de données de l'annuaire.",
+    "filterLabel": "Filtrer les fiches",
+    "filter": {
+      "all": "Toutes",
+      "public": "Organismes publics",
+      "sponsored": "Sponsorisées",
+      "providers": "Prestataires",
+      "attention": "À traiter"
+    },
+    "tableCaption": "Fiches de l'annuaire",
+    "count": "{{ n }} fiches",
+    "col": {
+      "name": "Nom",
+      "type": "Type",
+      "status": "Statut",
+      "verified": "Vérifiée",
+      "languages": "Langues",
+      "renewal": "Renouvellement"
+    },
+    "type": {
+      "public": "Organisme public",
+      "association": "Organisation patronale",
+      "law_firm": "Cabinet d'avocats",
+      "tax": "Conseil fiscal",
+      "bank": "Banque",
+      "accounting": "Comptabilité",
+      "logistics": "Logistique",
+      "consulting": "Conseil"
+    },
+    "contract": {
+      "founding_sponsor": "Sponsor fondateur",
+      "sponsor": "Sponsor",
+      "expert_partner": "Partenaire expert",
+      "partner": "Partenaire",
+      "verified_listing": "Fiche vérifiée"
+    },
+    "standing": {
+      "public": "Public",
+      "sponsored": "Sponsorisé",
+      "partner": "Partenaire",
+      "verified": "Vérifié",
+      "pending": "Documents en attente",
+      "expired": "Licence expirée"
+    },
+    "notVerified": "Pas encore vérifiée",
+    "ofEight": "{{ n }} sur {{ total }}",
+    "translatedInto": "Langues dans lesquelles la fiche est traduite",
+    "yes": "traduite",
+    "no": "non traduite",
+    "renewal": {
+      "free": "Gratuite · sans renouvellement",
+      "ok": "À jour",
+      "due": "Renouvellement proche",
+      "expired": "Expirée"
+    },
+    "placementTitle": "Emplacement sponsorisé",
+    "shownOn": "Affiché sur",
+    "placement": {
+      "landing_footer": "pied de la page d'accueil",
+      "directory": "annuaire",
+      "expert": "Parler à un expert"
+    },
+    "rulesTitle": "Règles d'emplacement",
+    "rule": {
+      "publicFree": "Les organismes publics sont toujours listés, gratuitement",
+      "publicFirst": "Les organismes publics apparaissent toujours en premier",
+      "maxPerCategory": "Au plus {{ n }} fiche sponsorisée par catégorie",
+      "labelVisible": "Toujours avec la mention « Sponsorisé »",
+      "notInAnswers": "Jamais placé dans les réponses juridiques"
+    },
+    "ruleOk": "règle respectée",
+    "ruleBroken": "règle non respectée",
+    "dataNote": "Les fiches proviennent de l'annuaire public ; contrats et emplacements sont des données de démonstration illustratives."
+  }
+}

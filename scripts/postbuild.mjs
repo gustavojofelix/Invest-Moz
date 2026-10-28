@@ -17,7 +17,7 @@ const origin = (
   process.env.SITE_URL ||
   'https://invest-moz.netlify.app'
 ).replace(/\/$/, '');
-const LOCALES = ['pt', 'en', 'fr'];
+const LOCALES = ['pt', 'en', 'fr', 'zh', 'ar', 'hi', 'sw', 'af'];
 const TOPICS = [
   'companies',
   'licensing',
@@ -116,7 +116,7 @@ for (const file of files(OUT)) {
 }
 // Private demo routes are never indexed.
 for (const l of LOCALES) {
-  for (const p of ['inbox', 'inbox/*', 'login', 'demo', 'demo/*', 'contact/sent/*']) {
+  for (const p of ['office', 'office/*', 'login', 'demo', 'demo/*', 'expert/sent/*']) {
     blocks.push(`/${l}/${p}\n  X-Robots-Tag: noindex, nofollow`);
   }
 }

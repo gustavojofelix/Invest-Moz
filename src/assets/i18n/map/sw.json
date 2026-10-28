@@ -1,0 +1,47 @@
+{
+  "eyebrow": "Ramani ya fursa",
+  "title": "Gundua Msumbiji",
+  "intro": "Majimbo, korido za usafiri na kanda za kiuchumi. Chagua sekta uone inapofaa, kisha jimbo upate maelezo.",
+  "filter": "Chuja kwa sekta",
+  "all": "Sekta zote",
+  "matches": "Majimbo {{count}} yameangaziwa",
+  "mapLabel": "Ramani ya Msumbiji yenye majimbo, korido na kanda za kiuchumi",
+  "pick": "Jimbo",
+  "hint": "Chagua jimbo",
+  "note": "Maeneo yaliyoonyeshwa ni ya makadirio. Ustahiki wa kanda na vivutio huthibitishwa na APIEX.",
+  "legend": {
+    "ports": "Bandari",
+    "cities": "Miji",
+    "corridors": "Korido",
+    "zones": "Kanda za kiuchumi",
+    "rovuma": "Bonde la Rovuma"
+  },
+  "card": {
+    "region": "Jimbo lililochaguliwa",
+    "noCorridor": "Nje ya korido kuu",
+    "highlights": "Kwa nini hapa",
+    "sectors": "Sekta kuu",
+    "zones": "Kanda za kiuchumi na hifadhi za viwanda",
+    "noZones": "Bado hakuna kanda ya kiuchumi wala hifadhi ya viwanda iliyoorodheshwa katika jimbo hili.",
+    "incentives": "Tazama vivutio hapa",
+    "ask": "Muulize Tiva",
+    "askQuestion": "Ninaweza kuwekeza katika nini huko {{province}}?",
+    "profile": "Wasifu wa sekta",
+    "empty": "Chagua jimbo kwenye ramani au kwenye orodha uone korido yake, sekta kuu na kanda zake."
+  },
+  "kind": {
+    "sez": "SEZ",
+    "ifz": "IFZ",
+    "park": "Hifadhi ya viwanda",
+    "tourism": "Kanda ya utalii"
+  },
+  "sectors": {
+    "agro_industry": "Viwanda vya kilimo",
+    "energy": "Nishati",
+    "logistics": "Usafirishaji",
+    "tourism": "Utalii",
+    "oil_gas": "Mafuta na gesi",
+    "mining": "Madini",
+    "services": "Huduma"
+  }
+}

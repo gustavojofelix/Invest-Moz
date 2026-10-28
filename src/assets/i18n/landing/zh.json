@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "eyebrow": "莫桑比克 AI 投资顾问",
+    "title": "几分钟内获得您的莫桑比克投资路线图。",
+    "lead": "告诉 Tiva 您的想法，即可获得公司架构、许可证、优惠政策、签证和税务步骤——每一项均注明莫桑比克法律依据——并对接能够落实的专业人士。",
+    "channels": "全天候服务，支持网页、应用和 WhatsApp",
+    "pathfinder": "更喜欢回答六个简短问题？开始使用 Pathfinder",
+    "example": "查看路线图示例",
+    "mapLabel": "莫桑比克地图，显示马普托、贝拉和纳卡拉走廊"
+  },
+  "idea": {
+    "formLabel": "向 Tiva 咨询您的投资想法",
+    "label": "描述您的投资想法",
+    "placeholder": "例如：在楠普拉建一座腰果加工厂，约 200 万美元",
+    "voice": "语音描述您的想法",
+    "voiceStop": "停止聆听",
+    "voiceUnavailable": "此浏览器不支持语音输入",
+    "listening": "正在聆听……请开始说话。",
+    "ask": "提问",
+    "empty": "请用几句话写下您的想法，或从下方选择一个示例。",
+    "examples": "想法示例"
+  },
+  "examples": {
+    "ecoLodge": "伊尼扬巴内生态旅馆",
+    "solar": "尼亚萨太阳能微电网",
+    "logistics": "贝拉走廊物流枢纽",
+    "bakery": "马托拉面包店"
+  },
+  "moves": {
+    "title": "三步从想法到持证经营",
+    "m1": {
+      "title": "描述您的想法",
+      "text": "使用您的语言，通过文字或语音。Tiva 会询问几个问题：行业、省份、规模以及您来自哪里。"
+    },
+    "m2": {
+      "title": "获取您的路线图",
+      "text": "按顺序列出每一步——由谁审批、需提交什么——并附法律依据。可下载为 PDF。"
+    },
+    "m3": {
+      "title": "对接合适的人",
+      "text": "一键联系律师、APIEX 或许可一站式服务窗口，并自动附上您的摘要。"
+    }
+  },
+  "covers": {
+    "title": "Tiva 涵盖的内容",
+    "lead": "投资者真正关心的问题，依据莫桑比克法律作答。",
+    "companies": {
+      "title": "公司设立",
+      "text": "Lda、SA、一人 Lda 或分支机构；注册及 NUIT"
+    },
+    "licensing": {
+      "title": "许可",
+      "text": "事先通知、简化许可或完整许可，通过 e-BAU 办理"
+    },
+    "investment": {
+      "title": "投资审批",
+      "text": "依据 Lei n.º 8/2023 在 APIEX 进行项目登记"
+    },
+    "incentives": {
+      "title": "优惠政策",
+      "text": "税收优惠法典、经济特区和工业自由区"
+    },
+    "land": {
+      "title": "土地",
+      "text": "土地使用权（DUAT）和租赁"
+    },
+    "people": {
+      "title": "人员",
+      "text": "招聘、外籍员工配额、工作许可、签证和 DIRE"
+    },
+    "money": {
+      "title": "资金",
+      "text": "外汇管制、资本登记、利润汇回"
+    },
+    "tax": {
+      "title": "税务与海关",
+      "text": "IRPC、IVA、IRPS、INSS、进口手续"
+    }
+  },
+  "glance": {
+    "title": "莫桑比克概览",
+    "people": {
+      "value": "3690 万",
+      "label": "人口"
+    },
+    "age": {
+      "value": "16.6",
+      "label": "年龄中位数"
+    },
+    "coast": {
+      "value": "2,500 公里",
+      "label": "印度洋海岸线"
+    },
+    "sources": "来源：Worldometers（人口、年龄中位数）；Banco de Moçambique，经 AIM/Lusa（投资流量）。数据仅供一般参考。"
+  },
+  "why": {
+    "title": "为何是现在",
+    "fdi": {
+      "value": "56.9 亿美元",
+      "label": "2025 年外国直接投资"
+    },
+    "extractives": {
+      "value": "91.5%",
+      "label": "其中投向采掘业的比例"
+    },
+    "forecast": {
+      "value": "58.8 亿美元",
+      "label": "2026 年预测"
+    },
+    "districts": {
+      "value": "129",
+      "label": "个区已接入 BAU 一站式服务窗口"
+    }
+  },
+  "law": {
+    "title": "以法律为基础，经律师审核",
+    "text": "每个回答都会显示所依据的法律及最近审核日期。所有内容须经莫桑比克律师批准后方可上线。Tiva 提供一般信息，并非法律意见——具体情况请咨询专家。",
+    "sourcesLabel": "Tiva 引用的部分法律",
+    "sources": {
+      "investmentLaw": "Lei n.º 8/2023 · 投资法",
+      "licensing": "Decreto n.º 41/2026 · 简化许可",
+      "irpc": "Lei n.º 12/2025 · IRPC 修订"
+    },
+    "library": "浏览知识库",
+    "expert": "咨询专家"
+  },
+  "office": "审核人员和合作伙伴后台入口"
+}

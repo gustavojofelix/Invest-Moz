@@ -6,13 +6,45 @@
       "then": {
         "id": "apiex-meeting",
         "phase": "explore",
-        "title": { "pt": "Reunião com a APIEX", "en": "Meeting with APIEX", "fr": "Réunion avec l'APIEX" },
-        "authority": { "pt": "APIEX", "en": "APIEX", "fr": "APIEX" },
-        "duration": { "pt": "1–4 semanas", "en": "1–4 weeks", "fr": "1 à 4 semaines" },
+        "title": {
+          "pt": "Reunião com a APIEX",
+          "en": "Meeting with APIEX",
+          "fr": "Réunion avec l'APIEX",
+          "zh": "与 APIEX 会面",
+          "ar": "اجتماع مع APIEX",
+          "hi": "APIEX के साथ बैठक",
+          "sw": "Mkutano na APIEX",
+          "af": "Vergadering met APIEX"
+        },
+        "authority": {
+          "pt": "APIEX",
+          "en": "APIEX",
+          "fr": "APIEX",
+          "zh": "APIEX",
+          "ar": "APIEX",
+          "hi": "APIEX",
+          "sw": "APIEX",
+          "af": "APIEX"
+        },
+        "duration": {
+          "pt": "1–4 semanas",
+          "en": "1–4 weeks",
+          "fr": "1 à 4 semaines",
+          "zh": "1–4 周",
+          "ar": "1–4 أسابيع",
+          "hi": "1–4 सप्ताह",
+          "sw": "Wiki 1–4",
+          "af": "1–4 weke"
+        },
         "note": {
           "pt": "Apresentar o projecto, confirmar o enquadramento e a documentação para o registo.",
           "en": "Present the project, confirm the regime and the documents needed for registration.",
-          "fr": "Présenter le projet, confirmer le régime applicable et les pièces nécessaires à l'enregistrement."
+          "fr": "Présenter le projet, confirmer le régime applicable et les pièces nécessaires à l'enregistrement.",
+          "zh": "介绍项目，确认适用制度及登记所需文件。",
+          "ar": "عرض المشروع وتأكيد النظام والمستندات اللازمة للتسجيل.",
+          "hi": "परियोजना प्रस्तुत करें, लागू व्यवस्था और पंजीकरण के लिए आवश्यक दस्तावेज़ों की पुष्टि करें।",
+          "sw": "Wasilisha mradi, thibitisha utaratibu na nyaraka zinazohitajika kwa usajili.",
+          "af": "Stel die projek voor, bevestig die stelsel en die dokumente wat vir registrasie nodig is."
         },
         "critical": false,
         "refs": ["apiex-guide-2026", "lei-8-2023"]
@@ -20,17 +52,55 @@
     },
     {
       "id": "env-land-pre",
-      "when": [{ "field": "envRelevant", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "envRelevant",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "env-land-pre",
         "phase": "explore",
-        "title": { "pt": "Pré-avaliação ambiental e de terra", "en": "Environmental and land pre-assessment", "fr": "Pré-évaluation environnementale et foncière" },
-        "authority": { "pt": "Autoridade ambiental e serviços de cadastro da província", "en": "Provincial environmental authority and land registry services", "fr": "Autorité environnementale et services du cadastre de la province" },
-        "duration": { "pt": "2–8 semanas", "en": "2–8 weeks", "fr": "2 à 8 semaines" },
+        "title": {
+          "pt": "Pré-avaliação ambiental e de terra",
+          "en": "Environmental and land pre-assessment",
+          "fr": "Pré-évaluation environnementale et foncière",
+          "zh": "环境与土地预评估",
+          "ar": "التقييم الأولي البيئي والعقاري",
+          "hi": "पर्यावरण और भूमि का प्रारंभिक आकलन",
+          "sw": "Tathmini ya awali ya mazingira na ardhi",
+          "af": "Voorlopige omgewings- en grondbeoordeling"
+        },
+        "authority": {
+          "pt": "Autoridade ambiental e serviços de cadastro da província",
+          "en": "Provincial environmental authority and land registry services",
+          "fr": "Autorité environnementale et services du cadastre de la province",
+          "zh": "省级环境主管部门和土地登记部门",
+          "ar": "السلطة البيئية في المقاطعة ودوائر السجل العقاري",
+          "hi": "प्रांतीय पर्यावरण प्राधिकरण और भूमि रजिस्ट्री सेवाएँ (Serviços de cadastro)",
+          "sw": "Mamlaka ya mazingira ya mkoa na huduma za usajili wa ardhi",
+          "af": "Provinsiale omgewingsowerheid en grondregistrasiedienste"
+        },
+        "duration": {
+          "pt": "2–8 semanas",
+          "en": "2–8 weeks",
+          "fr": "2 à 8 semaines",
+          "zh": "2–8 周",
+          "ar": "2–8 أسابيع",
+          "hi": "2–8 सप्ताह",
+          "sw": "Wiki 2–8",
+          "af": "2–8 weke"
+        },
         "note": {
           "pt": "Classificação ambiental provável e verificação da situação da terra em {{fact.province}}.",
           "en": "Likely environmental category and a check of the land situation in {{fact.province}}.",
-          "fr": "Catégorie environnementale probable et vérification de la situation foncière à {{fact.province}}."
+          "fr": "Catégorie environnementale probable et vérification de la situation foncière à {{fact.province}}.",
+          "zh": "初步判断环境类别，并核查 {{fact.province}} 的土地状况。",
+          "ar": "الفئة البيئية المرجّحة والتحقق من وضع الأرض في {{fact.province}}.",
+          "hi": "संभावित पर्यावरण श्रेणी और {{fact.province}} में भूमि की स्थिति की जाँच।",
+          "sw": "Daraja linalowezekana la mazingira na ukaguzi wa hali ya ardhi katika {{fact.province}}.",
+          "af": "Waarskynlike omgewingskategorie en 'n kontrole van die grondsituasie in {{fact.province}}."
         },
         "critical": false,
         "refs": ["aia-regulation", "lei-19-97"]
@@ -38,17 +108,55 @@
     },
     {
       "id": "incorporation-lda",
-      "when": [{ "field": "vehicle", "op": "eq", "value": "lda" }],
+      "when": [
+        {
+          "field": "vehicle",
+          "op": "eq",
+          "value": "lda"
+        }
+      ],
       "then": {
         "id": "incorporation",
         "phase": "establish",
-        "title": { "pt": "Constituição da Lda e NUIT", "en": "Lda incorporation and NUIT", "fr": "Constitution de la Lda et NUIT" },
-        "authority": { "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária", "en": "Legal Entities Registry · Tax Authority", "fr": "Registre des entités juridiques · Administration fiscale" },
-        "duration": { "pt": "3–10 dias", "en": "3–10 days", "fr": "3 à 10 jours" },
+        "title": {
+          "pt": "Constituição da Lda e NUIT",
+          "en": "Lda incorporation and NUIT",
+          "fr": "Constitution de la Lda et NUIT",
+          "zh": "设立 Lda 并取得 NUIT",
+          "ar": "تأسيس شركة Lda وNUIT",
+          "hi": "Lda का निगमन और NUIT",
+          "sw": "Usajili wa Lda na NUIT",
+          "af": "Inlywing van die Lda en NUIT"
+        },
+        "authority": {
+          "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária",
+          "en": "Legal Entities Registry · Tax Authority",
+          "fr": "Registre des entités juridiques · Administration fiscale",
+          "zh": "法人登记处 · 税务机关",
+          "ar": "سجل الكيانات القانونية · هيئة الضرائب",
+          "hi": "Conservatória do Registo das Entidades Legais (कानूनी इकाई रजिस्ट्री) · Autoridade Tributária (कर प्राधिकरण)",
+          "sw": "Msajili wa Taasisi za Kisheria · Mamlaka ya Kodi",
+          "af": "Register van Regspersone · Belastingowerheid"
+        },
+        "duration": {
+          "pt": "3–10 dias",
+          "en": "3–10 days",
+          "fr": "3 à 10 jours",
+          "zh": "3–10 天",
+          "ar": "3–10 أيام",
+          "hi": "3–10 दिन",
+          "sw": "Siku 3–10",
+          "af": "3–10 dae"
+        },
         "note": {
           "pt": "Pacto social, registo comercial e número único de identificação tributária.",
           "en": "Articles of association, commercial registration and taxpayer number (NUIT).",
-          "fr": "Statuts, immatriculation au registre du commerce et numéro d'identification fiscale (NUIT)."
+          "fr": "Statuts, immatriculation au registre du commerce et numéro d'identification fiscale (NUIT).",
+          "zh": "公司章程、商业登记和纳税人识别号（NUIT）。",
+          "ar": "النظام الأساسي والقيد التجاري ورقم التعريف الضريبي (NUIT).",
+          "hi": "संस्था के अंतर्नियम (pacto social), वाणिज्यिक पंजीकरण और करदाता संख्या (NUIT)।",
+          "sw": "Katiba ya kampuni, usajili wa kibiashara na namba ya mlipakodi (NUIT).",
+          "af": "Statute, handelsregistrasie en belastingbetalernommer (NUIT)."
         },
         "critical": false,
         "refs": ["dl-1-2022"]
@@ -56,17 +164,55 @@
     },
     {
       "id": "incorporation-company",
-      "when": [{ "field": "vehicle", "op": "in", "value": ["sa", "sas"] }],
+      "when": [
+        {
+          "field": "vehicle",
+          "op": "in",
+          "value": ["sa", "sas"]
+        }
+      ],
       "then": {
         "id": "incorporation",
         "phase": "establish",
-        "title": { "pt": "Constituição da sociedade e NUIT", "en": "Company incorporation and NUIT", "fr": "Constitution de la société et NUIT" },
-        "authority": { "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária", "en": "Legal Entities Registry · Tax Authority", "fr": "Registre des entités juridiques · Administration fiscale" },
-        "duration": { "pt": "3–10 dias", "en": "3–10 days", "fr": "3 à 10 jours" },
+        "title": {
+          "pt": "Constituição da sociedade e NUIT",
+          "en": "Company incorporation and NUIT",
+          "fr": "Constitution de la société et NUIT",
+          "zh": "设立公司并取得 NUIT",
+          "ar": "تأسيس الشركة وNUIT",
+          "hi": "कंपनी का निगमन और NUIT",
+          "sw": "Usajili wa kampuni na NUIT",
+          "af": "Inlywing van die maatskappy en NUIT"
+        },
+        "authority": {
+          "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária",
+          "en": "Legal Entities Registry · Tax Authority",
+          "fr": "Registre des entités juridiques · Administration fiscale",
+          "zh": "法人登记处 · 税务机关",
+          "ar": "سجل الكيانات القانونية · هيئة الضرائب",
+          "hi": "Conservatória do Registo das Entidades Legais (कानूनी इकाई रजिस्ट्री) · Autoridade Tributária (कर प्राधिकरण)",
+          "sw": "Msajili wa Taasisi za Kisheria · Mamlaka ya Kodi",
+          "af": "Register van Regspersone · Belastingowerheid"
+        },
+        "duration": {
+          "pt": "3–10 dias",
+          "en": "3–10 days",
+          "fr": "3 à 10 jours",
+          "zh": "3–10 天",
+          "ar": "3–10 أيام",
+          "hi": "3–10 दिन",
+          "sw": "Siku 3–10",
+          "af": "3–10 dae"
+        },
         "note": {
           "pt": "Estatutos, registo comercial e número único de identificação tributária.",
           "en": "Articles, commercial registration and taxpayer number (NUIT).",
-          "fr": "Statuts, immatriculation et numéro d'identification fiscale (NUIT)."
+          "fr": "Statuts, immatriculation et numéro d'identification fiscale (NUIT).",
+          "zh": "公司章程、商业登记和纳税人识别号（NUIT）。",
+          "ar": "النظام الأساسي والقيد التجاري ورقم التعريف الضريبي (NUIT).",
+          "hi": "अंतर्नियम (estatutos), वाणिज्यिक पंजीकरण और करदाता संख्या (NUIT)।",
+          "sw": "Katiba, usajili wa kibiashara na namba ya mlipakodi (NUIT).",
+          "af": "Statute, handelsregistrasie en belastingbetalernommer (NUIT)."
         },
         "critical": false,
         "refs": ["dl-1-2022"]
@@ -74,17 +220,55 @@
     },
     {
       "id": "incorporation-branch",
-      "when": [{ "field": "vehicle", "op": "eq", "value": "branch" }],
+      "when": [
+        {
+          "field": "vehicle",
+          "op": "eq",
+          "value": "branch"
+        }
+      ],
       "then": {
         "id": "incorporation",
         "phase": "establish",
-        "title": { "pt": "Registo da sucursal e NUIT", "en": "Branch registration and NUIT", "fr": "Immatriculation de la succursale et NUIT" },
-        "authority": { "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária", "en": "Legal Entities Registry · Tax Authority", "fr": "Registre des entités juridiques · Administration fiscale" },
-        "duration": { "pt": "{{BRANCH_REGISTRATION_TIME}}", "en": "{{BRANCH_REGISTRATION_TIME}}", "fr": "{{BRANCH_REGISTRATION_TIME}}" },
+        "title": {
+          "pt": "Registo da sucursal e NUIT",
+          "en": "Branch registration and NUIT",
+          "fr": "Immatriculation de la succursale et NUIT",
+          "zh": "分公司登记并取得 NUIT",
+          "ar": "تسجيل الفرع وNUIT",
+          "hi": "शाखा का पंजीकरण और NUIT",
+          "sw": "Usajili wa tawi na NUIT",
+          "af": "Registrasie van die tak en NUIT"
+        },
+        "authority": {
+          "pt": "Conservatória do Registo das Entidades Legais · Autoridade Tributária",
+          "en": "Legal Entities Registry · Tax Authority",
+          "fr": "Registre des entités juridiques · Administration fiscale",
+          "zh": "法人登记处 · 税务机关",
+          "ar": "سجل الكيانات القانونية · هيئة الضرائب",
+          "hi": "Conservatória do Registo das Entidades Legais (कानूनी इकाई रजिस्ट्री) · Autoridade Tributária (कर प्राधिकरण)",
+          "sw": "Msajili wa Taasisi za Kisheria · Mamlaka ya Kodi",
+          "af": "Register van Regspersone · Belastingowerheid"
+        },
+        "duration": {
+          "pt": "{{BRANCH_REGISTRATION_TIME}}",
+          "en": "{{BRANCH_REGISTRATION_TIME}}",
+          "fr": "{{BRANCH_REGISTRATION_TIME}}",
+          "zh": "{{BRANCH_REGISTRATION_TIME}}",
+          "ar": "{{BRANCH_REGISTRATION_TIME}}",
+          "hi": "{{BRANCH_REGISTRATION_TIME}}",
+          "sw": "{{BRANCH_REGISTRATION_TIME}}",
+          "af": "{{BRANCH_REGISTRATION_TIME}}"
+        },
         "note": {
           "pt": "Documentos da sociedade-mãe legalizados e traduzidos; nomeação do representante.",
           "en": "Parent company documents legalised and translated; appointment of the representative.",
-          "fr": "Documents de la société mère légalisés et traduits ; nomination du représentant."
+          "fr": "Documents de la société mère légalisés et traduits ; nomination du représentant.",
+          "zh": "母公司文件须经认证和翻译；任命代表。",
+          "ar": "مستندات الشركة الأم مصدّقة ومترجمة؛ وتعيين الممثل.",
+          "hi": "मूल कंपनी के दस्तावेज़ वैधीकृत (legalised) और अनूदित; प्रतिनिधि की नियुक्ति।",
+          "sw": "Nyaraka za kampuni mama zilizohalalishwa na kutafsiriwa; uteuzi wa mwakilishi.",
+          "af": "Dokumente van die moedermaatskappy gelegaliseer en vertaal; aanstelling van die verteenwoordiger."
         },
         "critical": false,
         "refs": ["dl-1-2022"]
@@ -96,13 +280,45 @@
       "then": {
         "id": "project-registration",
         "phase": "establish",
-        "title": { "pt": "Registo do projecto e certificado de investimento", "en": "Project registration and investment certificate", "fr": "Enregistrement du projet et certificat d'investissement" },
-        "authority": { "pt": "APIEX", "en": "APIEX", "fr": "APIEX" },
-        "duration": { "pt": "mín. 3 dias úteis", "en": "min. 3 working days", "fr": "min. 3 jours ouvrables" },
+        "title": {
+          "pt": "Registo do projecto e certificado de investimento",
+          "en": "Project registration and investment certificate",
+          "fr": "Enregistrement du projet et certificat d'investissement",
+          "zh": "项目登记与投资证书",
+          "ar": "تسجيل المشروع وشهادة الاستثمار",
+          "hi": "परियोजना पंजीकरण और निवेश प्रमाणपत्र",
+          "sw": "Usajili wa mradi na cheti cha uwekezaji",
+          "af": "Projekregistrasie en beleggingsertifikaat"
+        },
+        "authority": {
+          "pt": "APIEX",
+          "en": "APIEX",
+          "fr": "APIEX",
+          "zh": "APIEX",
+          "ar": "APIEX",
+          "hi": "APIEX",
+          "sw": "APIEX",
+          "af": "APIEX"
+        },
+        "duration": {
+          "pt": "mín. 3 dias úteis",
+          "en": "min. 3 working days",
+          "fr": "min. 3 jours ouvrables",
+          "zh": "至少 3 个工作日",
+          "ar": "3 أيام عمل كحد أدنى",
+          "hi": "न्यूनतम 3 कार्य दिवस",
+          "sw": "angalau siku 3 za kazi",
+          "af": "min. 3 werksdae"
+        },
         "note": {
           "pt": "O certificado dá acesso às garantias e aos benefícios fiscais.",
           "en": "The certificate unlocks the guarantees and tax incentives.",
-          "fr": "Le certificat ouvre l'accès aux garanties et aux avantages fiscaux."
+          "fr": "Le certificat ouvre l'accès aux garanties et aux avantages fiscaux.",
+          "zh": "投资证书是享受保障和税收优惠的前提。",
+          "ar": "تتيح الشهادة الاستفادة من الضمانات والحوافز الضريبية.",
+          "hi": "प्रमाणपत्र से गारंटियाँ और कर प्रोत्साहन प्राप्त होते हैं।",
+          "sw": "Cheti hufungua dhamana na vivutio vya kodi.",
+          "af": "Die sertifikaat ontsluit die waarborge en belastingaansporings."
         },
         "critical": false,
         "refs": ["lei-8-2023", "lei-4-2009"]
@@ -111,19 +327,59 @@
     {
       "id": "fdi-registration-critical",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "envRelevant", "op": "eq", "value": false }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "envRelevant",
+          "op": "eq",
+          "value": false
+        }
       ],
       "then": {
         "id": "fdi-registration",
         "phase": "operate",
-        "title": { "pt": "Registo do IDE no Banco de Moçambique", "en": "FDI registration with the Banco de Moçambique", "fr": "Enregistrement de l'IDE auprès de la Banco de Moçambique" },
-        "authority": { "pt": "Banco de Moçambique, via banco comercial", "en": "Banco de Moçambique, via a commercial bank", "fr": "Banco de Moçambique, via une banque commerciale" },
-        "duration": { "pt": "até 90 dias", "en": "up to 90 days", "fr": "jusqu'à 90 jours" },
+        "title": {
+          "pt": "Registo do IDE no Banco de Moçambique",
+          "en": "FDI registration with the Banco de Moçambique",
+          "fr": "Enregistrement de l'IDE auprès de la Banco de Moçambique",
+          "zh": "在 Banco de Moçambique 办理外国直接投资登记",
+          "ar": "تسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique",
+          "hi": "Banco de Moçambique में FDI पंजीकरण",
+          "sw": "Usajili wa FDI katika Banco de Moçambique",
+          "af": "Registrasie van die BBB by die Banco de Moçambique"
+        },
+        "authority": {
+          "pt": "Banco de Moçambique, via banco comercial",
+          "en": "Banco de Moçambique, via a commercial bank",
+          "fr": "Banco de Moçambique, via une banque commerciale",
+          "zh": "Banco de Moçambique，通过商业银行办理",
+          "ar": "Banco de Moçambique، عبر بنك تجاري",
+          "hi": "Banco de Moçambique, किसी वाणिज्यिक बैंक के माध्यम से",
+          "sw": "Banco de Moçambique, kupitia benki ya biashara",
+          "af": "Banco de Moçambique, deur 'n kommersiële bank"
+        },
+        "duration": {
+          "pt": "até 90 dias",
+          "en": "up to 90 days",
+          "fr": "jusqu'à 90 jours",
+          "zh": "最长 90 天",
+          "ar": "حتى 90 يوماً",
+          "hi": "90 दिनों तक",
+          "sw": "hadi siku 90",
+          "af": "tot 90 dae"
+        },
         "note": {
           "pt": "Caminho crítico: condiciona a entrada de capital e a futura transferência de lucros.",
           "en": "Critical path: it governs capital inflows and future profit transfers.",
-          "fr": "Chemin critique : conditionne l'entrée des capitaux et le futur transfert des bénéfices."
+          "fr": "Chemin critique : conditionne l'entrée des capitaux et le futur transfert des bénéfices.",
+          "zh": "关键路径：决定资本流入和未来利润汇出。",
+          "ar": "المسار الحرج: يحكم تدفقات رأس المال الواردة وتحويلات الأرباح المستقبلية.",
+          "hi": "क्रिटिकल पाथ: यह पूंजी के आगमन और भविष्य में लाभ के अंतरण को नियंत्रित करता है।",
+          "sw": "Njia muhimu: husimamia uingiaji wa mtaji na uhamisho wa faida wa baadaye.",
+          "af": "Kritieke pad: dit reël kapitaalinvloei en toekomstige oordragte van winste."
         },
         "critical": true,
         "refs": ["lei-11-2009", "aviso-3-gbm-2024"]
@@ -132,19 +388,59 @@
     {
       "id": "fdi-registration",
       "when": [
-        { "field": "foreignOwned", "op": "eq", "value": true },
-        { "field": "envRelevant", "op": "eq", "value": true }
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "envRelevant",
+          "op": "eq",
+          "value": true
+        }
       ],
       "then": {
         "id": "fdi-registration",
         "phase": "operate",
-        "title": { "pt": "Registo do IDE no Banco de Moçambique", "en": "FDI registration with the Banco de Moçambique", "fr": "Enregistrement de l'IDE auprès de la Banco de Moçambique" },
-        "authority": { "pt": "Banco de Moçambique, via banco comercial", "en": "Banco de Moçambique, via a commercial bank", "fr": "Banco de Moçambique, via une banque commerciale" },
-        "duration": { "pt": "até 90 dias", "en": "up to 90 days", "fr": "jusqu'à 90 jours" },
+        "title": {
+          "pt": "Registo do IDE no Banco de Moçambique",
+          "en": "FDI registration with the Banco de Moçambique",
+          "fr": "Enregistrement de l'IDE auprès de la Banco de Moçambique",
+          "zh": "在 Banco de Moçambique 办理外国直接投资登记",
+          "ar": "تسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique",
+          "hi": "Banco de Moçambique में FDI पंजीकरण",
+          "sw": "Usajili wa FDI katika Banco de Moçambique",
+          "af": "Registrasie van die BBB by die Banco de Moçambique"
+        },
+        "authority": {
+          "pt": "Banco de Moçambique, via banco comercial",
+          "en": "Banco de Moçambique, via a commercial bank",
+          "fr": "Banco de Moçambique, via une banque commerciale",
+          "zh": "Banco de Moçambique，通过商业银行办理",
+          "ar": "Banco de Moçambique، عبر بنك تجاري",
+          "hi": "Banco de Moçambique, किसी वाणिज्यिक बैंक के माध्यम से",
+          "sw": "Banco de Moçambique, kupitia benki ya biashara",
+          "af": "Banco de Moçambique, deur 'n kommersiële bank"
+        },
+        "duration": {
+          "pt": "até 90 dias",
+          "en": "up to 90 days",
+          "fr": "jusqu'à 90 jours",
+          "zh": "最长 90 天",
+          "ar": "حتى 90 يوماً",
+          "hi": "90 दिनों तक",
+          "sw": "hadi siku 90",
+          "af": "tot 90 dae"
+        },
         "note": {
           "pt": "Condiciona a entrada de capital e a futura transferência de lucros.",
           "en": "Governs capital inflows and future profit transfers.",
-          "fr": "Conditionne l'entrée des capitaux et le futur transfert des bénéfices."
+          "fr": "Conditionne l'entrée des capitaux et le futur transfert des bénéfices.",
+          "zh": "决定资本流入和未来利润汇出。",
+          "ar": "يحكم تدفقات رأس المال الواردة وتحويلات الأرباح المستقبلية.",
+          "hi": "यह पूंजी के आगमन और भविष्य में लाभ के अंतरण को नियंत्रित करता है।",
+          "sw": "Husimamia uingiaji wa mtaji na uhamisho wa faida wa baadaye.",
+          "af": "Reël kapitaalinvloei en toekomstige oordragte van winste."
         },
         "critical": false,
         "refs": ["lei-11-2009", "aviso-3-gbm-2024"]
@@ -152,17 +448,55 @@
     },
     {
       "id": "env-licence-a",
-      "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
+      "when": [
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "A"
+        }
+      ],
       "then": {
         "id": "env-licence",
         "phase": "operate",
-        "title": { "pt": "Licença ambiental (categoria A)", "en": "Environmental licence (category A)", "fr": "Licence environnementale (catégorie A)" },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
-        "duration": { "pt": "6–12 meses", "en": "6–12 months", "fr": "6 à 12 mois" },
+        "title": {
+          "pt": "Licença ambiental (categoria A)",
+          "en": "Environmental licence (category A)",
+          "fr": "Licence environnementale (catégorie A)",
+          "zh": "环境许可证（A 类）",
+          "ar": "الترخيص البيئي (الفئة A)",
+          "hi": "पर्यावरण लाइसेंस (श्रेणी A)",
+          "sw": "Leseni ya mazingira (daraja A)",
+          "af": "Omgewingslisensie (kategorie A)"
+        },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
+        "duration": {
+          "pt": "6–12 meses",
+          "en": "6–12 months",
+          "fr": "6 à 12 mois",
+          "zh": "6–12 个月",
+          "ar": "6–12 شهراً",
+          "hi": "6–12 महीने",
+          "sw": "Miezi 6–12",
+          "af": "6–12 maande"
+        },
         "note": {
           "pt": "Caminho crítico: estudo de impacto ambiental completo e consulta pública.",
           "en": "Critical path: full environmental impact study and public consultation.",
-          "fr": "Chemin critique : étude d'impact environnemental complète et consultation publique."
+          "fr": "Chemin critique : étude d'impact environnemental complète et consultation publique.",
+          "zh": "关键路径：完整的环境影响评价和公众咨询。",
+          "ar": "المسار الحرج: دراسة كاملة للأثر البيئي وتشاور عام.",
+          "hi": "क्रिटिकल पाथ: पूर्ण पर्यावरणीय प्रभाव अध्ययन और सार्वजनिक परामर्श।",
+          "sw": "Njia muhimu: tathmini kamili ya athari kwa mazingira na mashauriano ya umma.",
+          "af": "Kritieke pad: volledige omgewingsimpakstudie en openbare raadpleging."
         },
         "critical": true,
         "refs": ["aia-regulation"]
@@ -171,19 +505,59 @@
     {
       "id": "env-licence-b-land",
       "when": [
-        { "field": "envCategory", "op": "eq", "value": "B" },
-        { "field": "needsLand", "op": "eq", "value": true }
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "B"
+        },
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
       ],
       "then": {
         "id": "env-licence",
         "phase": "operate",
-        "title": { "pt": "Licença ambiental (categoria B)", "en": "Environmental licence (category B)", "fr": "Licence environnementale (catégorie B)" },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
-        "duration": { "pt": "2–4 meses", "en": "2–4 months", "fr": "2 à 4 mois" },
+        "title": {
+          "pt": "Licença ambiental (categoria B)",
+          "en": "Environmental licence (category B)",
+          "fr": "Licence environnementale (catégorie B)",
+          "zh": "环境许可证（B 类）",
+          "ar": "الترخيص البيئي (الفئة B)",
+          "hi": "पर्यावरण लाइसेंस (श्रेणी B)",
+          "sw": "Leseni ya mazingira (daraja B)",
+          "af": "Omgewingslisensie (kategorie B)"
+        },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
+        "duration": {
+          "pt": "2–4 meses",
+          "en": "2–4 months",
+          "fr": "2 à 4 mois",
+          "zh": "2–4 个月",
+          "ar": "2–4 أشهر",
+          "hi": "2–4 महीने",
+          "sw": "Miezi 2–4",
+          "af": "2–4 maande"
+        },
         "note": {
           "pt": "Caminho crítico; corre em paralelo com o processo do DUAT.",
           "en": "Critical path; runs in parallel with the DUAT process.",
-          "fr": "Chemin critique ; se déroule en parallèle de la procédure de DUAT."
+          "fr": "Chemin critique ; se déroule en parallèle de la procédure de DUAT.",
+          "zh": "关键路径；与 DUAT 程序并行办理。",
+          "ar": "المسار الحرج؛ يسير بالتوازي مع إجراءات DUAT.",
+          "hi": "क्रिटिकल पाथ; DUAT प्रक्रिया के साथ-साथ चलता है।",
+          "sw": "Njia muhimu; inaendeshwa sambamba na mchakato wa DUAT.",
+          "af": "Kritieke pad; loop parallel met die DUAT-proses."
         },
         "critical": true,
         "refs": ["aia-regulation", "lei-19-97"]
@@ -192,19 +566,59 @@
     {
       "id": "env-licence-b",
       "when": [
-        { "field": "envCategory", "op": "eq", "value": "B" },
-        { "field": "needsLand", "op": "eq", "value": false }
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "B"
+        },
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": false
+        }
       ],
       "then": {
         "id": "env-licence",
         "phase": "operate",
-        "title": { "pt": "Licença ambiental (categoria B)", "en": "Environmental licence (category B)", "fr": "Licence environnementale (catégorie B)" },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
-        "duration": { "pt": "2–4 meses", "en": "2–4 months", "fr": "2 à 4 mois" },
+        "title": {
+          "pt": "Licença ambiental (categoria B)",
+          "en": "Environmental licence (category B)",
+          "fr": "Licence environnementale (catégorie B)",
+          "zh": "环境许可证（B 类）",
+          "ar": "الترخيص البيئي (الفئة B)",
+          "hi": "पर्यावरण लाइसेंस (श्रेणी B)",
+          "sw": "Leseni ya mazingira (daraja B)",
+          "af": "Omgewingslisensie (kategorie B)"
+        },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
+        "duration": {
+          "pt": "2–4 meses",
+          "en": "2–4 months",
+          "fr": "2 à 4 mois",
+          "zh": "2–4 个月",
+          "ar": "2–4 أشهر",
+          "hi": "2–4 महीने",
+          "sw": "Miezi 2–4",
+          "af": "2–4 maande"
+        },
         "note": {
           "pt": "Caminho crítico; a instalação só pode operar com a licença emitida.",
           "en": "Critical path; the facility can only operate once the licence is issued.",
-          "fr": "Chemin critique ; l'installation ne peut fonctionner qu'une fois la licence délivrée."
+          "fr": "Chemin critique ; l'installation ne peut fonctionner qu'une fois la licence délivrée.",
+          "zh": "关键路径；设施须在许可证签发后方可运营。",
+          "ar": "المسار الحرج؛ لا يمكن تشغيل المنشأة إلا بعد صدور الترخيص.",
+          "hi": "क्रिटिकल पाथ; लाइसेंस जारी होने के बाद ही सुविधा का संचालन हो सकता है।",
+          "sw": "Njia muhimu; kituo kinaweza kufanya kazi tu baada ya leseni kutolewa.",
+          "af": "Kritieke pad; die fasiliteit kan eers bedryf word wanneer die lisensie uitgereik is."
         },
         "critical": true,
         "refs": ["aia-regulation"]
@@ -213,19 +627,59 @@
     {
       "id": "env-licence-c-land",
       "when": [
-        { "field": "envCategory", "op": "eq", "value": "C" },
-        { "field": "needsLand", "op": "eq", "value": true }
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "C"
+        },
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
       ],
       "then": {
         "id": "env-licence",
         "phase": "operate",
-        "title": { "pt": "Licença ambiental (categoria C)", "en": "Environmental licence (category C)", "fr": "Licence environnementale (catégorie C)" },
-        "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
-        "duration": { "pt": "1–2 meses", "en": "1–2 months", "fr": "1 à 2 mois" },
+        "title": {
+          "pt": "Licença ambiental (categoria C)",
+          "en": "Environmental licence (category C)",
+          "fr": "Licence environnementale (catégorie C)",
+          "zh": "环境许可证（C 类）",
+          "ar": "الترخيص البيئي (الفئة C)",
+          "hi": "पर्यावरण लाइसेंस (श्रेणी C)",
+          "sw": "Leseni ya mazingira (daraja C)",
+          "af": "Omgewingslisensie (kategorie C)"
+        },
+        "authority": {
+          "pt": "Autoridade ambiental",
+          "en": "Environmental authority",
+          "fr": "Autorité environnementale",
+          "zh": "环境主管部门",
+          "ar": "السلطة البيئية",
+          "hi": "पर्यावरण प्राधिकरण",
+          "sw": "Mamlaka ya mazingira",
+          "af": "Omgewingsowerheid"
+        },
+        "duration": {
+          "pt": "1–2 meses",
+          "en": "1–2 months",
+          "fr": "1 à 2 mois",
+          "zh": "1–2 个月",
+          "ar": "1–2 شهر",
+          "hi": "1–2 महीने",
+          "sw": "Miezi 1–2",
+          "af": "1–2 maande"
+        },
         "note": {
           "pt": "Procedimento simplificado; corre em paralelo com o DUAT.",
           "en": "Simplified procedure; runs in parallel with the DUAT.",
-          "fr": "Procédure simplifiée ; en parallèle du DUAT."
+          "fr": "Procédure simplifiée ; en parallèle du DUAT.",
+          "zh": "简化程序；与 DUAT 并行办理。",
+          "ar": "إجراء مبسّط؛ يسير بالتوازي مع DUAT.",
+          "hi": "सरलीकृत प्रक्रिया; DUAT के साथ-साथ चलती है।",
+          "sw": "Utaratibu rahisi; unaendeshwa sambamba na DUAT.",
+          "af": "Vereenvoudigde prosedure; loop parallel met die DUAT."
         },
         "critical": false,
         "refs": ["aia-regulation"]
@@ -233,17 +687,55 @@
     },
     {
       "id": "sector-licence",
-      "when": [{ "field": "sector", "op": "in", "value": ["energy", "tourism", "logistics", "oil_gas", "mining"] }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "in",
+          "value": ["energy", "tourism", "logistics", "oil_gas", "mining"]
+        }
+      ],
       "then": {
         "id": "sector-licence",
         "phase": "operate",
-        "title": { "pt": "Licença da actividade · {{fact.sector}}", "en": "Activity licence · {{fact.sector}}", "fr": "Licence d'activité · {{fact.sector}}" },
-        "authority": { "pt": "Entidade de licenciamento do sector, via BAU", "en": "Sector licensing authority, via the BAU", "fr": "Autorité sectorielle d'autorisation, via le BAU" },
-        "duration": { "pt": "{{SECTOR_LICENCE_TIME}}", "en": "{{SECTOR_LICENCE_TIME}}", "fr": "{{SECTOR_LICENCE_TIME}}" },
+        "title": {
+          "pt": "Licença da actividade · {{fact.sector}}",
+          "en": "Activity licence · {{fact.sector}}",
+          "fr": "Licence d'activité · {{fact.sector}}",
+          "zh": "经营许可证 · {{fact.sector}}",
+          "ar": "ترخيص النشاط · {{fact.sector}}",
+          "hi": "गतिविधि लाइसेंस · {{fact.sector}}",
+          "sw": "Leseni ya shughuli · {{fact.sector}}",
+          "af": "Bedryfslisensie · {{fact.sector}}"
+        },
+        "authority": {
+          "pt": "Entidade de licenciamento do sector, via BAU",
+          "en": "Sector licensing authority, via the BAU",
+          "fr": "Autorité sectorielle d'autorisation, via le BAU",
+          "zh": "行业许可主管部门，通过 BAU 办理",
+          "ar": "سلطة الترخيص القطاعية، عبر BAU",
+          "hi": "क्षेत्रीय लाइसेंसिंग प्राधिकरण, BAU के माध्यम से",
+          "sw": "Mamlaka ya leseni ya sekta, kupitia BAU",
+          "af": "Sektorale lisensiëringsowerheid, deur die BAU"
+        },
+        "duration": {
+          "pt": "{{SECTOR_LICENCE_TIME}}",
+          "en": "{{SECTOR_LICENCE_TIME}}",
+          "fr": "{{SECTOR_LICENCE_TIME}}",
+          "zh": "{{SECTOR_LICENCE_TIME}}",
+          "ar": "{{SECTOR_LICENCE_TIME}}",
+          "hi": "{{SECTOR_LICENCE_TIME}}",
+          "sw": "{{SECTOR_LICENCE_TIME}}",
+          "af": "{{SECTOR_LICENCE_TIME}}"
+        },
         "note": {
           "pt": "Licenciamento da actividade nos termos do novo regulamento de licenciamento.",
           "en": "Activity licensing under the new licensing regulation.",
-          "fr": "Autorisation de l'activité au titre du nouveau règlement sur les autorisations."
+          "fr": "Autorisation de l'activité au titre du nouveau règlement sur les autorisations.",
+          "zh": "根据新的许可条例办理经营许可。",
+          "ar": "ترخيص النشاط بموجب لائحة الترخيص الجديدة.",
+          "hi": "नए लाइसेंसिंग विनियम के अंतर्गत गतिविधि लाइसेंसिंग।",
+          "sw": "Leseni ya shughuli chini ya kanuni mpya za leseni.",
+          "af": "Lisensiëring van bedrywighede ingevolge die nuwe lisensiëringsregulasie."
         },
         "critical": false,
         "refs": ["dec-41-2026"]
@@ -251,17 +743,55 @@
     },
     {
       "id": "temporary-import",
-      "when": [{ "field": "temporaryImport", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "temporaryImport",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "id": "temporary-import",
         "phase": "operate",
-        "title": { "pt": "Importação temporária de equipamento", "en": "Temporary import of equipment", "fr": "Admission temporaire d'équipements" },
-        "authority": { "pt": "Autoridade Tributária — Alfândegas", "en": "Tax Authority — Customs", "fr": "Administration fiscale — Douanes" },
-        "duration": { "pt": "{{TEMP_IMPORT_PROCESSING_TIME}}", "en": "{{TEMP_IMPORT_PROCESSING_TIME}}", "fr": "{{TEMP_IMPORT_PROCESSING_TIME}}" },
+        "title": {
+          "pt": "Importação temporária de equipamento",
+          "en": "Temporary import of equipment",
+          "fr": "Admission temporaire d'équipements",
+          "zh": "设备临时进口",
+          "ar": "الاستيراد المؤقت للمعدات",
+          "hi": "उपकरणों का अस्थायी आयात",
+          "sw": "Uingizaji wa muda wa vifaa",
+          "af": "Tydelike invoer van toerusting"
+        },
+        "authority": {
+          "pt": "Autoridade Tributária — Alfândegas",
+          "en": "Tax Authority — Customs",
+          "fr": "Administration fiscale — Douanes",
+          "zh": "税务机关 — 海关",
+          "ar": "هيئة الضرائب — الجمارك",
+          "hi": "Autoridade Tributária — Alfândegas (कर प्राधिकरण — सीमा शुल्क)",
+          "sw": "Mamlaka ya Kodi — Forodha",
+          "af": "Belastingowerheid — Doeane"
+        },
+        "duration": {
+          "pt": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "en": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "fr": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "zh": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "ar": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "hi": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "sw": "{{TEMP_IMPORT_PROCESSING_TIME}}",
+          "af": "{{TEMP_IMPORT_PROCESSING_TIME}}"
+        },
         "note": {
           "pt": "Taxa de utilização, garantia e prazo fixado; a reexportação tem de ser documentada.",
           "en": "Usage fee, guarantee and a fixed period; re-export must be documented.",
-          "fr": "Redevance d'utilisation, garantie et délai fixé ; la réexportation doit être documentée."
+          "fr": "Redevance d'utilisation, garantie et délai fixé ; la réexportation doit être documentée.",
+          "zh": "使用费、担保和固定期限；复出口须有文件证明。",
+          "ar": "رسم استخدام وضمان ومدة محددة؛ ويجب توثيق إعادة التصدير.",
+          "hi": "उपयोग शुल्क, गारंटी और निश्चित अवधि; पुनः निर्यात का दस्तावेज़ीकरण आवश्यक है।",
+          "sw": "Ada ya matumizi, dhamana na muda maalum; kusafirisha tena nje lazima kuwe na kumbukumbu.",
+          "af": "Gebruiksfooi, waarborg en 'n vaste tydperk; heruitvoer moet gedokumenteer word."
         },
         "critical": false,
         "refs": ["lei-11-2016", "pauta"]
@@ -270,19 +800,59 @@
     {
       "id": "work-permits",
       "when": [
-        { "field": "hasForeignWorkers", "op": "eq", "value": true },
-        { "field": "sector", "op": "in", "value": ["energy", "tourism", "logistics", "oil_gas", "mining", "services", "general"] }
+        {
+          "field": "hasForeignWorkers",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "sector",
+          "op": "in",
+          "value": ["energy", "tourism", "logistics", "oil_gas", "mining", "services", "general"]
+        }
       ],
       "then": {
         "id": "work-permits",
         "phase": "operate",
-        "title": { "pt": "Autorizações de trabalho e DIRE", "en": "Work permits and DIRE", "fr": "Permis de travail et DIRE" },
-        "authority": { "pt": "Ministério do Trabalho · Serviço Nacional de Migração", "en": "Ministry of Labour · National Migration Service", "fr": "Ministère du Travail · Service national des migrations" },
-        "duration": { "pt": "{{WORK_PERMIT_PROCESSING_TIME}}", "en": "{{WORK_PERMIT_PROCESSING_TIME}}", "fr": "{{WORK_PERMIT_PROCESSING_TIME}}" },
+        "title": {
+          "pt": "Autorizações de trabalho e DIRE",
+          "en": "Work permits and DIRE",
+          "fr": "Permis de travail et DIRE",
+          "zh": "工作许可与 DIRE",
+          "ar": "تصاريح العمل وDIRE",
+          "hi": "कार्य परमिट और DIRE",
+          "sw": "Vibali vya kazi na DIRE",
+          "af": "Werkpermitte en DIRE"
+        },
+        "authority": {
+          "pt": "Ministério do Trabalho · Serviço Nacional de Migração",
+          "en": "Ministry of Labour · National Migration Service",
+          "fr": "Ministère du Travail · Service national des migrations",
+          "zh": "劳动部 · 国家移民局",
+          "ar": "وزارة العمل · الدائرة الوطنية للهجرة",
+          "hi": "Ministério do Trabalho (श्रम मंत्रालय) · Serviço Nacional de Migração (राष्ट्रीय प्रवासन सेवा)",
+          "sw": "Wizara ya Kazi · Huduma ya Taifa ya Uhamiaji",
+          "af": "Ministerie van Arbeid · Nasionale Migrasiediens"
+        },
+        "duration": {
+          "pt": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "en": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "fr": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "zh": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "ar": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "hi": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "sw": "{{WORK_PERMIT_PROCESSING_TIME}}",
+          "af": "{{WORK_PERMIT_PROCESSING_TIME}}"
+        },
         "note": {
           "pt": "{{fact.foreignWorkers}} trabalhadores estrangeiros: quota ou autorização fora da quota.",
           "en": "{{fact.foreignWorkers}} foreign workers: within quota or out-of-quota authorisation.",
-          "fr": "{{fact.foreignWorkers}} travailleurs étrangers : dans le quota ou autorisation hors quota."
+          "fr": "{{fact.foreignWorkers}} travailleurs étrangers : dans le quota ou autorisation hors quota.",
+          "zh": "{{fact.foreignWorkers}} 名外籍员工：配额内或配额外授权。",
+          "ar": "{{fact.foreignWorkers}} عمال أجانب: ضمن الحصة أو بتصريح خارج الحصة.",
+          "hi": "{{fact.foreignWorkers}} विदेशी कर्मचारी: कोटे के भीतर या कोटे से बाहर प्राधिकरण।",
+          "sw": "Wafanyakazi wa kigeni {{fact.foreignWorkers}}: ndani ya kiwango au idhini nje ya kiwango.",
+          "af": "{{fact.foreignWorkers}} buitelandse werkers: binne die kwota of magtiging buite die kwota."
         },
         "critical": false,
         "refs": ["lei-13-2023", "dec-88-2024"]
@@ -290,17 +860,55 @@
     },
     {
       "id": "supplier-registration",
-      "when": [{ "field": "sector", "op": "eq", "value": "oil_gas" }],
+      "when": [
+        {
+          "field": "sector",
+          "op": "eq",
+          "value": "oil_gas"
+        }
+      ],
       "then": {
         "id": "supplier-registration",
         "phase": "operate",
-        "title": { "pt": "Registo como fornecedor (conteúdo local)", "en": "Supplier registration (local content)", "fr": "Enregistrement comme fournisseur (contenu local)" },
-        "authority": { "pt": "Operadores de GNL · INP", "en": "LNG operators · INP", "fr": "Opérateurs de GNL · INP" },
-        "duration": { "pt": "{{SUPPLIER_REGISTRATION_TIME}}", "en": "{{SUPPLIER_REGISTRATION_TIME}}", "fr": "{{SUPPLIER_REGISTRATION_TIME}}" },
+        "title": {
+          "pt": "Registo como fornecedor (conteúdo local)",
+          "en": "Supplier registration (local content)",
+          "fr": "Enregistrement comme fournisseur (contenu local)",
+          "zh": "供应商登记（本地成分）",
+          "ar": "تسجيل المورّد (المحتوى المحلي)",
+          "hi": "आपूर्तिकर्ता पंजीकरण (स्थानीय सामग्री)",
+          "sw": "Usajili wa msambazaji (ushiriki wa wazawa)",
+          "af": "Registrasie as verskaffer (plaaslike inhoud)"
+        },
+        "authority": {
+          "pt": "Operadores de GNL · INP",
+          "en": "LNG operators · INP",
+          "fr": "Opérateurs de GNL · INP",
+          "zh": "液化天然气运营商 · INP",
+          "ar": "مشغّلو الغاز الطبيعي المسال · INP",
+          "hi": "LNG ऑपरेटर · INP",
+          "sw": "Waendeshaji wa LNG · INP",
+          "af": "LNG-operateurs · INP"
+        },
+        "duration": {
+          "pt": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "en": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "fr": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "zh": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "ar": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "hi": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "sw": "{{SUPPLIER_REGISTRATION_TIME}}",
+          "af": "{{SUPPLIER_REGISTRATION_TIME}}"
+        },
         "note": {
           "pt": "Qualificação nas plataformas dos operadores e plano de conteúdo local.",
           "en": "Qualification on the operators' platforms and a local content plan.",
-          "fr": "Qualification sur les plateformes des opérateurs et plan de contenu local."
+          "fr": "Qualification sur les plateformes des opérateurs et plan de contenu local.",
+          "zh": "在运营商平台完成资质认证并制定本地成分计划。",
+          "ar": "التأهيل على منصات المشغّلين وخطة للمحتوى المحلي.",
+          "hi": "ऑपरेटरों के प्लेटफ़ॉर्म पर योग्यता और स्थानीय सामग्री (local content) योजना।",
+          "sw": "Usajili wa sifa kwenye majukwaa ya waendeshaji na mpango wa ushiriki wa wazawa.",
+          "af": "Kwalifikasie op die operateurs se platforms en 'n plan vir plaaslike inhoud."
         },
         "critical": false,
         "refs": ["lei-21-2014"]
@@ -310,45 +918,89 @@
   "timeToOperate": [
     {
       "id": "with-land",
-      "when": [{ "field": "needsLand", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "needsLand",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "Cerca de 4–6 meses até operar. O DUAT para expansão pode levar até 24 meses.",
           "en": "About 4–6 months to operate. The DUAT for expansion can take up to 24 months.",
-          "fr": "Environ 4 à 6 mois avant l'exploitation. Le DUAT pour l'extension peut prendre jusqu'à 24 mois."
+          "fr": "Environ 4 à 6 mois avant l'exploitation. Le DUAT pour l'extension peut prendre jusqu'à 24 mois.",
+          "zh": "约 4–6 个月可投入运营。扩建所需的 DUAT 可能长达 24 个月。",
+          "ar": "نحو 4–6 أشهر لبدء التشغيل. وقد يستغرق DUAT الخاص بالتوسعة حتى 24 شهراً.",
+          "hi": "संचालन शुरू होने में लगभग 4–6 महीने। विस्तार के लिए DUAT में 24 महीने तक लग सकते हैं।",
+          "sw": "Takriban miezi 4–6 hadi kuanza kazi. DUAT kwa ajili ya upanuzi inaweza kuchukua hadi miezi 24.",
+          "af": "Sowat 4–6 maande tot bedryf. Die DUAT vir uitbreiding kan tot 24 maande neem."
         }
       }
     },
     {
       "id": "category-a",
-      "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
+      "when": [
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "A"
+        }
+      ],
       "then": {
         "text": {
           "pt": "Prazo determinado pela licença ambiental de categoria A (6 a 12 meses).",
           "en": "Timing driven by the category A environmental licence (6 to 12 months).",
-          "fr": "Délai déterminé par la licence environnementale de catégorie A (6 à 12 mois)."
+          "fr": "Délai déterminé par la licence environnementale de catégorie A (6 à 12 mois).",
+          "zh": "时间取决于 A 类环境许可证（6 至 12 个月）。",
+          "ar": "التوقيت يحكمه الترخيص البيئي من الفئة A (من 6 إلى 12 شهراً).",
+          "hi": "समय-सीमा श्रेणी A पर्यावरण लाइसेंस (6 से 12 महीने) पर निर्भर करती है।",
+          "sw": "Muda unaamuliwa na leseni ya mazingira ya daraja A (miezi 6 hadi 12).",
+          "af": "Tydsberekening word deur die omgewingslisensie van kategorie A bepaal (6 tot 12 maande)."
         }
       }
     },
     {
       "id": "category-b",
-      "when": [{ "field": "envCategory", "op": "eq", "value": "B" }],
+      "when": [
+        {
+          "field": "envCategory",
+          "op": "eq",
+          "value": "B"
+        }
+      ],
       "then": {
         "text": {
           "pt": "Cerca de 3–5 meses até operar, condicionado pela licença ambiental (2–4 meses na categoria B).",
           "en": "About 3–5 months to operate, driven by the environmental licence (2–4 months for category B).",
-          "fr": "Environ 3 à 5 mois avant l'exploitation, selon la licence environnementale (2 à 4 mois en catégorie B)."
+          "fr": "Environ 3 à 5 mois avant l'exploitation, selon la licence environnementale (2 à 4 mois en catégorie B).",
+          "zh": "约 3–5 个月可投入运营，取决于环境许可证（B 类为 2–4 个月）。",
+          "ar": "نحو 3–5 أشهر لبدء التشغيل، ويحكمه الترخيص البيئي (2–4 أشهر للفئة B).",
+          "hi": "संचालन शुरू होने में लगभग 3–5 महीने, जो पर्यावरण लाइसेंस पर निर्भर है (श्रेणी B के लिए 2–4 महीने)।",
+          "sw": "Takriban miezi 3–5 hadi kuanza kazi, kutegemea leseni ya mazingira (miezi 2–4 kwa daraja B).",
+          "af": "Sowat 3–5 maande tot bedryf, bepaal deur die omgewingslisensie (2–4 maande vir kategorie B)."
         }
       }
     },
     {
       "id": "foreign",
-      "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
+      "when": [
+        {
+          "field": "foreignOwned",
+          "op": "eq",
+          "value": true
+        }
+      ],
       "then": {
         "text": {
           "pt": "Cerca de 1–3 meses até operar. O registo do IDE no Banco de Moçambique pode levar até 90 dias.",
           "en": "About 1–3 months to operate. FDI registration with the Banco de Moçambique can take up to 90 days.",
-          "fr": "Environ 1 à 3 mois avant l'exploitation. L'enregistrement de l'IDE auprès de la Banco de Moçambique peut prendre jusqu'à 90 jours."
+          "fr": "Environ 1 à 3 mois avant l'exploitation. L'enregistrement de l'IDE auprès de la Banco de Moçambique peut prendre jusqu'à 90 jours.",
+          "zh": "约 1–3 个月可投入运营。在 Banco de Moçambique 办理外国直接投资登记最长可能需要 90 天。",
+          "ar": "نحو 1–3 أشهر لبدء التشغيل. وقد يستغرق تسجيل الاستثمار الأجنبي المباشر لدى Banco de Moçambique حتى 90 يوماً.",
+          "hi": "संचालन शुरू होने में लगभग 1–3 महीने। Banco de Moçambique में FDI पंजीकरण में 90 दिन तक लग सकते हैं।",
+          "sw": "Takriban miezi 1–3 hadi kuanza kazi. Usajili wa FDI katika Banco de Moçambique unaweza kuchukua hadi siku 90.",
+          "af": "Sowat 1–3 maande tot bedryf. Registrasie van die BBB by die Banco de Moçambique kan tot 90 dae neem."
         }
       }
     },
@@ -359,7 +1011,12 @@
         "text": {
           "pt": "Cerca de 2–4 semanas até operar, após constituição e registo do projecto.",
           "en": "About 2–4 weeks to operate, after incorporation and project registration.",
-          "fr": "Environ 2 à 4 semaines avant l'exploitation, après constitution et enregistrement du projet."
+          "fr": "Environ 2 à 4 semaines avant l'exploitation, après constitution et enregistrement du projet.",
+          "zh": "完成公司设立和项目登记后，约 2–4 周可投入运营。",
+          "ar": "نحو 2–4 أسابيع لبدء التشغيل، بعد التأسيس وتسجيل المشروع.",
+          "hi": "निगमन और परियोजना पंजीकरण के बाद संचालन शुरू होने में लगभग 2–4 सप्ताह।",
+          "sw": "Takriban wiki 2–4 hadi kuanza kazi, baada ya usajili wa kampuni na wa mradi.",
+          "af": "Sowat 2–4 weke tot bedryf, ná inlywing en projekregistrasie."
         }
       }
     }

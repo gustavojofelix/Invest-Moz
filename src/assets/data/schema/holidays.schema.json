@@ -3,17 +3,10 @@
   "$id": "holidays.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "status",
-    "note",
-    "holidays"
-  ],
+  "required": ["status", "note", "holidays"],
   "properties": {
     "status": {
-      "enum": [
-        "illustrative",
-        "verified"
-      ]
+      "enum": ["illustrative", "verified"]
     },
     "note": {
       "type": "string",
@@ -24,10 +17,7 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "date",
-          "name"
-        ],
+        "required": ["date", "name"],
         "properties": {
           "date": {
             "$ref": "common.schema.json#/definitions/isoDate"

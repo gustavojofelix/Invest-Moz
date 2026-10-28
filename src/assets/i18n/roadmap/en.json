@@ -1,0 +1,84 @@
+{
+  "eyebrow": "Investment roadmap",
+  "backToChat": "Back to the chat",
+  "stepsTitle": "The nine steps",
+  "progress": "{{done}} of {{total}} done",
+  "progressLabel": "Roadmap progress",
+  "jobs": "{{n}} jobs",
+  "foreign": "{{n}} foreign",
+  "capital": {
+    "foreign": "Foreign investor",
+    "mixed": "Foreign and Mozambican capital",
+    "mozambican": "Mozambican investor"
+  },
+  "profile": {
+    "label": "Investor profile",
+    "investor": "Investor",
+    "investment": "Investment",
+    "jobs": "Jobs",
+    "sector": "Sector"
+  },
+  "markDone": "Mark step {{n}} as done: {{title}}",
+  "markUndone": "Mark step {{n}} as not done: {{title}}",
+  "tick": "Mark as done",
+  "undo": "Mark as not done",
+  "done": "Done",
+  "current": "Now",
+  "mayNotApply": "May not apply",
+  "who": "Who",
+  "duration": "Indicative time",
+  "forYou": "For your project",
+  "documents": "Documents",
+  "checklist": "Open the checklist",
+  "legalBasis": "Legal basis",
+  "openRef": "{{ref}} — open the legal reference",
+  "detail": {
+    "recommended": "Recommended",
+    "decides": "Who decides",
+    "guarantee": "Repatriation guarantee",
+    "noLand": "You said the project does not need land: leasing existing premises is usually enough. If that changes, this step applies.",
+    "noForeignCapital": "Mozambican capital: no foreign investment registration is needed unless foreign funds come in later.",
+    "noForeignWorkers": "No foreign workers planned: register the company and your staff with INSS. Permits only matter if you hire from abroad later."
+  },
+  "allDone": "All nine steps are done. From here, keep track of the monthly deadlines.",
+  "aftercare": "Open the aftercare calendar",
+  "timeToOperate": "Time to operate",
+  "legalDate": "General information based on legislation in force on {{date}}. Not legal advice.",
+  "actions": {
+    "label": "Roadmap actions",
+    "pdf": "Download PDF",
+    "expert": "Talk to an expert",
+    "incentives": "Estimate your incentives",
+    "chat": "Ask Tiva about this roadmap",
+    "edit": "Change my answers"
+  },
+  "loading": "Preparing your roadmap…",
+  "error": "Something went wrong while preparing the roadmap.",
+  "missing": {
+    "title": "We could not find this roadmap",
+    "text": "Projects are kept on this device only. Answer the six questions again to rebuild it."
+  },
+  "empty": {
+    "title": "Your roadmap starts with six short questions",
+    "text": "Sector, province, size, origin, jobs and timing. Tiva turns the answers into nine ordered steps, each with the authority, the documents and the law behind it.",
+    "pathfinder": "Start the Pathfinder",
+    "examples": "Or open an example roadmap"
+  },
+  "pdf": {
+    "back": "Back to the roadmap",
+    "print": "Print / Save as PDF",
+    "hint": "Choose “Save as PDF” in the print dialogue.",
+    "ref": "Ref. {{ref}}",
+    "generated": "Generated {{date}}",
+    "step": "Step",
+    "incentives": "Incentives to explore",
+    "incentivesNote": "Indicative only: subject to APIEX approval and to the pending review of the Code of Fiscal Benefits.",
+    "next": "Your next three actions",
+    "contacts": "Key contacts",
+    "contactApiex": "APIEX · project registration",
+    "contactBau": "BAU {{province}} · licensing",
+    "contactBdm": "Banco de Moçambique · capital registration",
+    "contactTa": "Tax Advisory · legal and tax support",
+    "disclaimer": "General information based on legislation in force on the date generated. Not legal advice. Steps, authorities and documents may vary with the facts of each project."
+  }
+}

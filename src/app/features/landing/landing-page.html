@@ -1,222 +1,245 @@
 <ng-container *transloco="let t">
   <!-- Hero ------------------------------------------------------------------>
-  <section
-    class="container-page grid gap-10 pt-10 pb-16 sm:pt-16 lg:grid-cols-12 lg:gap-12 lg:pt-20"
-  >
-    <div class="lg:col-span-7 lg:pt-6">
-      <p class="label-caps text-brand">{{ t('landing.hero.eyebrow') }}</p>
-      <h1 class="mt-4 text-4xl sm:text-[3.5rem] sm:leading-[1.05]">Invest Moz</h1>
-      <p class="mt-3 font-serif text-2xl leading-snug text-ink sm:text-[1.875rem]">
-        {{ t('landing.hero.subtitle') }}
-      </p>
-      <p class="mt-6 max-w-xl text-lg text-muted">{{ t('landing.hero.lead') }}</p>
-      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-        <a [routerLink]="['/', lang(), 'guide']" class="btn btn-primary">
-          {{ t('landing.hero.guide') }}
-          <svg imIcon="arrow-right" [size]="18" aria-hidden="true"></svg>
-        </a>
-        <a [routerLink]="['/', lang(), 'project']" class="btn btn-secondary">
-          {{ t('landing.hero.primary') }}
-        </a>
-      </div>
-      <button type="button" class="link mt-4 text-[0.9375rem]" (click)="viewExample()">
-        {{ t('landing.hero.secondary') }}
-      </button>
-    </div>
-    <div class="lg:col-span-5">
-      <div class="mx-auto max-w-sm lg:max-w-none">
-        @defer (on immediate; hydrate on interaction; hydrate on viewport) {
-          <im-moz-map
-            [label]="t('landing.map.label')"
-            [hint]="t('landing.map.hint')"
-            [portsLabel]="t('landing.map.ports')"
-            [citiesLabel]="t('landing.map.cities')"
-            [corridorsLabel]="t('landing.map.corridors')"
-          />
-        }
-      </div>
-    </div>
-  </section>
+  <section class="surface-deep" aria-labelledby="hero-title">
+    <div
+      class="container-page grid items-center gap-10 pt-10 pb-12 sm:pt-16 sm:pb-14 lg:grid-cols-12 lg:gap-12"
+    >
+      <div class="flex min-w-0 flex-col gap-6 lg:col-span-7">
+        <p
+          class="inline-flex items-center gap-2 text-sm font-semibold tracking-[0.06em] text-highlight uppercase"
+        >
+          <im-brand-mark variant="flag" size="sm" />
+          {{ t('landing.hero.eyebrow') }}
+        </p>
+        <h1
+          id="hero-title"
+          class="font-serif text-[2.5rem] leading-[1.05] font-medium tracking-tight sm:text-[3.5rem]"
+        >
+          {{ t('landing.hero.title') }}
+        </h1>
+        <p class="max-w-[37.5rem] text-lg leading-relaxed text-on-deep-muted sm:text-[1.1875rem]">
+          {{ t('landing.hero.lead') }}
+        </p>
 
-  <!-- The guide ------------------------------------------------------------>
-  <section class="border-t border-rule py-16 sm:py-20" aria-labelledby="guide-title">
-    <div class="container-page grid gap-10 lg:grid-cols-12">
-      <div class="lg:col-span-4">
-        <p class="label-caps text-brand">{{ t('landing.guide.eyebrow') }}</p>
-        <h2 id="guide-title" class="mt-3 text-3xl">{{ t('landing.guide.title') }}</h2>
-        <p class="mt-4 text-muted">{{ t('landing.guide.text') }}</p>
-        <a class="btn btn-secondary mt-6" [routerLink]="['/', lang(), 'guide']">
-          {{ t('landing.guide.all') }}
-          <svg imIcon="arrow-right" [size]="18" aria-hidden="true"></svg>
-        </a>
+        <!-- Idea box -->
+        <form
+          class="flex max-w-[38.75rem] flex-col gap-3 rounded-lg bg-paper p-3 text-ink"
+          role="search"
+          [attr.aria-label]="t('landing.idea.formLabel')"
+          method="get"
+          [attr.action]="'/' + lang() + '/chat'"
+          (submit)="ask($event)"
+          novalidate
+        >
+          <label for="idea" class="px-2 pt-1 text-[0.8125rem] font-semibold text-muted">{{
+            t('landing.idea.label')
+          }}</label>
+          <div class="flex items-center gap-2">
+            <input
+              id="idea"
+              #ideaField
+              type="text"
+              name="q"
+              class="input min-h-12 min-w-0 flex-1 text-base"
+              autocomplete="off"
+              maxlength="600"
+              enterkeyhint="send"
+              [placeholder]="t('landing.idea.placeholder')"
+              [value]="idea()"
+              [attr.aria-invalid]="empty() ? 'true' : null"
+              [attr.aria-describedby]="empty() ? 'idea-error' : null"
+              (input)="idea.set($any($event.target).value); empty.set(false)"
+            />
+            <button
+              type="button"
+              class="mic btn btn-secondary size-12 shrink-0 p-0"
+              [disabled]="!speech.supported()"
+              [attr.aria-pressed]="speech.supported() ? speech.listening() : null"
+              [attr.aria-label]="
+                t(
+                  !speech.supported()
+                    ? 'landing.idea.voiceUnavailable'
+                    : speech.listening()
+                      ? 'landing.idea.voiceStop'
+                      : 'landing.idea.voice'
+                )
+              "
+              [attr.title]="speech.supported() ? null : t('landing.idea.voiceUnavailable')"
+              (click)="voice()"
+            >
+              <svg
+                [imIcon]="speech.listening() ? 'mic-off' : 'mic'"
+                [size]="20"
+                aria-hidden="true"
+              ></svg>
+            </button>
+            <button type="submit" class="btn btn-primary min-h-12 shrink-0 px-4.5">
+              {{ t('landing.idea.ask') }}
+            </button>
+          </div>
+          @if (empty()) {
+            <p id="idea-error" class="field-error mt-0 px-2" role="alert">
+              <svg imIcon="circle-alert" [size]="16" aria-hidden="true"></svg>
+              {{ t('landing.idea.empty') }}
+            </p>
+          }
+          @if (speech.listening()) {
+            <p class="px-2 text-sm text-muted" role="status">{{ t('landing.idea.listening') }}</p>
+          }
+          <ul class="flex flex-wrap gap-2 px-1 pb-1" [attr.aria-label]="t('landing.idea.examples')">
+            @for (e of examples; track e) {
+              <li>
+                <button
+                  type="button"
+                  class="pill bg-surface"
+                  (click)="go(t('landing.examples.' + e))"
+                >
+                  {{ t('landing.examples.' + e) }}
+                </button>
+              </li>
+            }
+          </ul>
+        </form>
+
+        <p class="text-sm leading-relaxed text-on-deep-subtle">
+          @for (x of languages; track x.l; let last = $last) {
+            <span [attr.lang]="x.l" [attr.dir]="x.dir">{{ x.name }}</span
+            >{{ last ? '' : ' · ' }}
+          }
+          — {{ t('landing.hero.channels') }}
+        </p>
+        <p class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
+          <a
+            class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-on-deep underline underline-offset-4"
+            [routerLink]="['/', lang(), 'pathfinder']"
+            >{{ t('landing.hero.pathfinder') }}</a
+          >
+          <a
+            class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-on-deep underline underline-offset-4"
+            [routerLink]="['/', lang(), 'roadmap', 'TA-IM-EX01']"
+            >{{ t('landing.hero.example') }}</a
+          >
+        </p>
       </div>
-      <ol class="chapters lg:col-span-8" role="list">
-        @for (c of guide()?.chapters ?? []; track c.id; let i = $index) {
-          <li>
-            <a [routerLink]="['/', lang(), 'guide', c.id]">
-              <span class="font-mono text-xs text-muted">{{
-                (i + 1).toString().padStart(2, '0')
-              }}</span>
-              <span class="font-serif text-lg font-semibold leading-snug">{{
-                c.title | loc: lang()
-              }}</span>
-            </a>
-          </li>
-        }
-      </ol>
+
+      <figure class="m-0 flex justify-center lg:col-span-5">
+        <div class="w-full max-w-[22.5rem]">
+          <im-hero-map [label]="t('landing.hero.mapLabel')" />
+        </div>
+      </figure>
     </div>
+    <im-flag-stripe [height]="14" />
   </section>
 
   @defer (on immediate; hydrate on viewport) {
-    <!-- The problem ------------------------------------------------------------>
-    <section class="border-y border-rule bg-panel py-16 sm:py-20" aria-labelledby="problem-title">
-      <div class="container-page">
-        <div class="grid gap-6 lg:grid-cols-12">
-          <div class="lg:col-span-4">
-            <p class="label-caps text-muted">{{ t('landing.problem.eyebrow') }}</p>
-            <h2 id="problem-title" class="mt-3 text-3xl">{{ t('landing.problem.title') }}</h2>
-            <p class="mt-4 text-muted">{{ t('landing.problem.text') }}</p>
-          </div>
-          <ol class="grid sm:grid-cols-2 lg:col-span-8" role="list">
-            @for (r of regimes; track r.key; let i = $index) {
-              <li class="regime">
-                <p class="flex items-baseline justify-between gap-3">
-                  <span class="flex items-baseline gap-3">
-                    <span class="font-mono text-xs text-muted">0{{ i + 1 }}</span>
-                    <span class="font-serif text-xl font-semibold">{{
-                      t('landing.problem.regimes.' + r.key + '.title')
-                    }}</span>
-                  </span>
-                  <im-ref-tag [label]="r.ref" />
-                </p>
-                <p class="mt-1.5 pl-7 text-[0.9375rem] text-muted">
-                  {{ t('landing.problem.regimes.' + r.key + '.covers') }}
-                </p>
-              </li>
+    <!-- Three moves ------------------------------------------------------------>
+    <section class="container-page pt-16 pb-6 sm:pt-[4.5rem]" aria-labelledby="moves-title">
+      <h2 id="moves-title" class="mb-8 font-serif text-3xl font-medium sm:text-4xl">
+        {{ t('landing.moves.title') }}
+      </h2>
+      <ol class="grid gap-6 md:grid-cols-3" role="list">
+        @for (n of [1, 2, 3]; track n) {
+          <li class="card flex flex-col gap-3 p-7">
+            <span class="move-num" aria-hidden="true">{{ n }}</span>
+            <h3 class="text-xl font-bold">{{ t('landing.moves.m' + n + '.title') }}</h3>
+            <p class="leading-relaxed text-ink-soft">{{ t('landing.moves.m' + n + '.text') }}</p>
+          </li>
+        }
+      </ol>
+    </section>
+
+    <!-- What Tiva covers -------------------------------------------------------->
+    <section class="container-page py-12" aria-labelledby="covers-title">
+      <h2 id="covers-title" class="font-serif text-3xl font-medium sm:text-4xl">
+        {{ t('landing.covers.title') }}
+      </h2>
+      <p class="mt-2 mb-8 text-[1.0625rem] text-muted">{{ t('landing.covers.lead') }}</p>
+      <ul class="grid gap-x-4 sm:grid-cols-2 lg:grid-cols-4" role="list">
+        @for (k of areas; track k; let i = $index) {
+          <li class="area flex flex-col gap-1.5" [class.alt]="i >= 4">
+            <strong class="text-[1.0625rem]">{{ t('landing.covers.' + k + '.title') }}</strong>
+            <span class="text-[0.9375rem] leading-normal text-muted">{{
+              t('landing.covers.' + k + '.text')
+            }}</span>
+          </li>
+        }
+      </ul>
+    </section>
+
+    <!-- Mozambique at a glance -------------------------------------------------->
+    <section class="border-y border-rule bg-panel py-12" aria-labelledby="glance-title">
+      <div class="container-page grid gap-10 lg:grid-cols-2">
+        <div>
+          <h2 id="glance-title" class="font-serif text-2xl font-medium sm:text-3xl">
+            {{ t('landing.glance.title') }}
+          </h2>
+          <dl class="mt-6 grid grid-cols-3 gap-4">
+            @for (k of ['people', 'age', 'coast']; track k) {
+              <div>
+                <dt class="sr-only">{{ t('landing.glance.' + k + '.label') }}</dt>
+                <dd class="stat">{{ t('landing.glance.' + k + '.value') }}</dd>
+                <dd class="mt-1 text-sm text-muted" aria-hidden="true">
+                  {{ t('landing.glance.' + k + '.label') }}
+                </dd>
+              </div>
             }
-          </ol>
+          </dl>
         </div>
+        <div>
+          <h2 class="font-serif text-2xl font-medium sm:text-3xl">{{ t('landing.why.title') }}</h2>
+          <dl class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
+            @for (k of ['fdi', 'extractives', 'forecast', 'districts']; track k) {
+              <div>
+                <dt class="sr-only">{{ t('landing.why.' + k + '.label') }}</dt>
+                <dd class="stat text-[1.75rem]">{{ t('landing.why.' + k + '.value') }}</dd>
+                <dd class="mt-1 text-sm text-muted" aria-hidden="true">
+                  {{ t('landing.why.' + k + '.label') }}
+                </dd>
+              </div>
+            }
+          </dl>
+        </div>
+        <p class="text-xs text-muted lg:col-span-2">{{ t('landing.glance.sources') }}</p>
       </div>
     </section>
 
-    <!-- How it works ----------------------------------------------------------->
-    <section class="py-16 sm:py-20" aria-labelledby="how-title">
-      <div class="container-page">
-        <p class="label-caps text-muted">{{ t('landing.how.eyebrow') }}</p>
-        <h2 id="how-title" class="mt-3 max-w-2xl text-3xl">{{ t('landing.how.title') }}</h2>
-        <ol class="mt-10 grid gap-10 md:grid-cols-3" role="list">
-          @for (n of [1, 2, 3]; track n) {
-            <li class="border-t border-ink pt-5">
-              <span class="how-num" aria-hidden="true">{{ n }}</span>
-              <h3 class="mt-4 text-xl">{{ t('landing.how.step' + n + '.title') }}</h3>
-              <p class="mt-2 text-muted">{{ t('landing.how.step' + n + '.text') }}</p>
-            </li>
-          }
-        </ol>
-        <p class="mt-10 max-w-3xl bg-panel px-5 py-4 font-serif text-lg">
-          {{ t('landing.how.pricing') }}
-        </p>
-      </div>
-    </section>
-
-    <!-- Trust ------------------------------------------------------------------>
-    <section class="border-y border-rule bg-panel py-16 sm:py-20" aria-labelledby="trust-title">
-      <div class="container-page grid gap-10 lg:grid-cols-12">
-        <div class="lg:col-span-4">
-          <p class="label-caps text-muted">{{ t('landing.trust.eyebrow') }}</p>
-          <h2 id="trust-title" class="mt-3 text-3xl">{{ t('landing.trust.title') }}</h2>
+    <!-- Built on the law -------------------------------------------------------->
+    <section class="container-page pt-12 pb-16" aria-labelledby="law-title">
+      <div class="card flex flex-col gap-8 rounded-xl p-6 sm:p-8 lg:flex-row lg:items-center">
+        <div class="flex min-w-0 flex-col gap-2.5 lg:flex-[2]">
+          <h2 id="law-title" class="font-serif text-[1.875rem] font-medium">
+            {{ t('landing.law.title') }}
+          </h2>
+          <p class="leading-relaxed text-ink-soft">{{ t('landing.law.text') }}</p>
+          <p class="mt-1 flex flex-wrap gap-x-5 text-sm">
+            <a
+              class="link inline-flex min-h-11 items-center"
+              [routerLink]="['/', lang(), 'library']"
+              >{{ t('landing.law.library') }}</a
+            >
+            <a
+              class="link inline-flex min-h-11 items-center"
+              [routerLink]="['/', lang(), 'expert']"
+              >{{ t('landing.law.expert') }}</a
+            >
+          </p>
         </div>
-        <ul class="grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:col-span-8" role="list">
-          @for (k of ['reviewed', 'noInvented', 'sources', 'language']; track k) {
-            <li class="border-l-2 border-brand pl-4">
-              <h3 class="font-sans text-base font-bold">
-                {{ t('landing.trust.' + k + '.title') }}
-              </h3>
-              <p class="mt-1 text-[0.9375rem] text-muted">
-                {{ t('landing.trust.' + k + '.text') }}
-              </p>
+        <ul
+          class="flex flex-col gap-3 lg:flex-1"
+          role="list"
+          [attr.aria-label]="t('landing.law.sourcesLabel')"
+        >
+          @for (s of sources; track s) {
+            <li class="chip rounded px-3.5 py-2.5 text-sm text-brand-deep dark:text-ok-ink">
+              <svg imIcon="scale" [size]="16" aria-hidden="true"></svg>
+              {{ t('landing.law.sources.' + s) }}
             </li>
           }
         </ul>
       </div>
-    </section>
-
-    <!-- Partnership + demo access ------------------------------------------------>
-    <section class="py-16 sm:py-20" aria-labelledby="partners-title">
-      <div class="container-page grid gap-12 lg:grid-cols-12">
-        <div class="lg:col-span-7">
-          <p class="label-caps text-muted">{{ t('landing.partners.eyebrow') }}</p>
-          <h2 id="partners-title" class="mt-3 text-3xl">{{ t('landing.partners.title') }}</h2>
-          <div class="mt-6"><im-brand-mark variant="partners" size="lg" /></div>
-          <div class="mt-8 grid gap-6 sm:grid-cols-2">
-            <div>
-              <p class="font-bold">Tax Advisory</p>
-              <p class="mt-1 text-[0.9375rem] text-muted">{{ t('landing.partners.ta') }}</p>
-            </div>
-            <div>
-              <p class="font-bold">Law Technology Solutions</p>
-              <p class="mt-1 text-[0.9375rem] text-muted">{{ t('landing.partners.lts') }}</p>
-            </div>
-          </div>
-          <figure class="mt-10 border-l-4 border-accent pl-5">
-            <blockquote class="font-serif text-2xl leading-snug">
-              “{{ t('landing.partners.principle') }}”
-            </blockquote>
-            <figcaption class="label-caps mt-3 text-muted">
-              {{ t('landing.partners.principleBy') }}
-            </figcaption>
-          </figure>
-        </div>
-
-        <aside class="lg:col-span-5" aria-labelledby="demo-access-title">
-          <div class="demo-box p-6 sm:p-7">
-            <p class="label-caps flex items-center gap-2 text-muted">
-              <svg imIcon="key-round" [size]="16" aria-hidden="true"></svg
-              >{{ t('landing.demo.eyebrow') }}
-            </p>
-            <h2 id="demo-access-title" class="mt-2 text-2xl">{{ t('landing.demo.title') }}</h2>
-            <p class="mt-2 text-[0.9375rem] text-muted">{{ t('landing.demo.text') }}</p>
-            <dl
-              class="mt-5 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 border-y border-rule py-4 text-sm"
-            >
-              <dt class="text-muted">{{ t('landing.demo.email') }}</dt>
-              <dd class="font-mono break-all">{{ creds.email }}</dd>
-              <dt class="text-muted">{{ t('landing.demo.password') }}</dt>
-              <dd class="font-mono">{{ creds.password }}</dd>
-            </dl>
-            <button
-              type="button"
-              class="btn btn-brand mt-5 w-full"
-              (click)="enterInbox()"
-              [disabled]="signingIn()"
-            >
-              <svg imIcon="log-in" [size]="18" aria-hidden="true"></svg>{{ t('landing.demo.cta') }}
-            </button>
-            <p class="mt-3 text-xs text-muted">{{ t('landing.demo.note') }}</p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- Next phases ------------------------------------------------------------>
-    <section class="border-t border-rule py-14" aria-labelledby="phases-title">
-      <div class="container-page">
-        <p class="label-caps text-muted">{{ t('landing.phases.eyebrow') }}</p>
-        <h2 id="phases-title" class="mt-3 text-2xl">{{ t('landing.phases.title') }}</h2>
-        <ol class="mt-8 grid gap-8 md:grid-cols-3" role="list">
-          @for (n of [1, 2, 3]; track n) {
-            <li>
-              <p class="label-caps text-brand">{{ t('landing.phases.phase') }} {{ n }}</p>
-              <h3 class="mt-1 font-sans text-base font-bold">
-                {{ t('landing.phases.p' + n + '.title') }}
-              </h3>
-              <p class="mt-1 text-[0.9375rem] text-muted">
-                {{ t('landing.phases.p' + n + '.text') }}
-              </p>
-            </li>
-          }
-        </ol>
-      </div>
+      <p class="mt-6 text-center text-sm text-muted">
+        <a class="link" [routerLink]="['/', lang(), 'login']">{{ t('landing.office') }}</a>
+      </p>
     </section>
   }
 </ng-container>
