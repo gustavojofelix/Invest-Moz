@@ -1,4 +1,4 @@
-# Invest Moz — static deployment (prerendered pages + client-rendered SPA shell).
+# Tiva — static deployment (prerendered pages + client-rendered SPA shell).
 
 [build]
   command = "npm run build"
@@ -35,6 +35,6 @@
     Cross-Origin-Opener-Policy = "same-origin"
 
 # Long-lived caching for hashed files (main-*.js, chunk-*.js, styles-*.css, media/*)
-# and X-Robots-Tag: noindex for the inbox, login and demo routes are written to
+# and X-Robots-Tag: noindex for the office, login and demo routes are written to
 # _headers by scripts/postbuild.mjs with explicit paths (Netlify header paths
 # only support trailing splats).

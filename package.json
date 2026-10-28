@@ -35,9 +35,9 @@
     "@angular/platform-server": "^22.2.0",
     "@angular/router": "^22.2.0",
     "@angular/ssr": "^22.2.3",
+    "@fontsource/fraunces": "^5.3.0",
     "@fontsource/ibm-plex-mono": "^5.3.0",
-    "@fontsource/lato": "^5.3.0",
-    "@fontsource/source-serif-4": "^5.3.1",
+    "@fontsource/manrope": "^5.3.0",
     "@jsverse/transloco": "^8.4.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
