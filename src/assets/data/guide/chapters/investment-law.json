@@ -1,0 +1,227 @@
+{
+  "id": "investment-law",
+  "sections": [
+    {
+      "id": "apiex",
+      "title": {
+        "pt": "APIEX, o seu ponto de entrada",
+        "en": "APIEX, your entry point",
+        "fr": "L'APIEX, votre point d'entrée"
+      },
+      "body": {
+        "pt": "A APIEX (Agência de Promoção de Investimentos e Exportações) é, nos termos da Lei n.º 8/2023, a interface institucional dos investidores estrangeiros [ref:apiex-guide-2026]. Cada investidor recebe um **gestor de conta** que coordena ministérios, reguladores, o BAU e a Autoridade Tributária.\n\n- A primeira consulta é **gratuita e não vinculativa**: use-a para clarificar o regime aplicável antes de gastar em estudos.\n- A APIEX emite cartas de apoio para identificação de terra, reuniões com ministérios e pedidos em embaixadas.\n- Para ZEE e parques industriais, coordena com as autoridades das zonas e a MozParks.\n\nContactos: apiex@apiex.gov.mz · +258 21 321 291 · Rua da Imprensa N.º 332 R/C, Maputo · apiex.gov.mz.",
+        "en": "APIEX (Agency for Investment and Export Promotion) is, under Law No. 8/2023, the institutional interface for foreign investors [ref:apiex-guide-2026]. Each investor is assigned an **account manager** who coordinates ministries, regulators, the BAU and the Tax Authority.\n\n- The first consultation is **free and non-binding**: use it to clarify your track before spending on feasibility work.\n- APIEX issues letters of support for land identification, ministry meetings and embassy applications.\n- For SEZs and industrial parks it coordinates with zone authorities and MozParks on your behalf.\n\nContact: apiex@apiex.gov.mz · +258 21 321 291 · Rua da Imprensa N.º 332 R/C, Maputo · apiex.gov.mz.",
+        "fr": "L'APIEX (Agence de promotion des investissements et des exportations) est, selon la loi n° 8/2023, l'interface institutionnelle des investisseurs étrangers [ref:apiex-guide-2026]. Chaque investisseur se voit attribuer un **gestionnaire de compte** qui coordonne ministères, régulateurs, le BAU et l'administration fiscale.\n\n- La première consultation est **gratuite et sans engagement** : utilisez-la pour clarifier votre régime avant d'engager des études.\n- L'APIEX délivre des lettres de soutien pour l'identification de terrains, les réunions ministérielles et les démarches consulaires.\n- Pour les ZES et les parcs industriels, elle coordonne avec les autorités des zones et MozParks.\n\nContact : apiex@apiex.gov.mz · +258 21 321 291 · Rua da Imprensa N.º 332 R/C, Maputo · apiex.gov.mz."
+      }
+    },
+    {
+      "id": "law-8-2023",
+      "title": {
+        "pt": "O que mudou com a Lei n.º 8/2023",
+        "en": "What Law No. 8/2023 changed",
+        "fr": "Ce qu'a changé la loi n° 8/2023"
+      },
+      "body": {
+        "pt": "A Lei n.º 8/2023 (em vigor desde Setembro de 2023) substituiu a Lei n.º 3/1993 e é regulamentada pelo Decreto n.º 8/2024, de Março de 2024 [ref:lei-8-2023] [ref:dec-8-2024].\n\n- **Prazos de decisão vinculativos**: mínimo de 3 dias úteis no regime de registo.\n- **Sem estudo de viabilidade** para a maioria dos projectos até cerca de USD 500 milhões.\n- **Incentivos ligados ao certificado**: o acesso ao Código dos Benefícios Fiscais passa pelo certificado de investimento emitido pela APIEX [ref:lei-4-2009].\n- **Protecções legais**: tratamento justo, protecção do DUAT, livre transferência de capitais e arbitragem ICSID/CCI.",
+        "en": "Law No. 8/2023 (in force since September 2023) replaced Law No. 3/1993 and is implemented by Decree No. 8/2024 of March 2024 [ref:lei-8-2023] [ref:dec-8-2024].\n\n- **Binding decision timelines**: a minimum of 3 working days on the registration track.\n- **No feasibility study** for most projects up to about USD 500 million.\n- **Certificate-triggered incentives**: access to the Fiscal Benefits Code runs through the APIEX Investment Certificate [ref:lei-4-2009].\n- **Statutory protections**: fair treatment, DUAT protection, free transfer of capital and ICSID/ICC arbitration.",
+        "fr": "La loi n° 8/2023 (en vigueur depuis septembre 2023) a remplacé la loi n° 3/1993 ; elle est mise en œuvre par le décret n° 8/2024 de mars 2024 [ref:lei-8-2023] [ref:dec-8-2024].\n\n- **Délais de décision contraignants** : 3 jours ouvrables minimum dans la voie d'enregistrement.\n- **Pas d'étude de faisabilité** pour la plupart des projets jusqu'à environ 500 millions USD.\n- **Incitations liées au certificat** : l'accès au Code des avantages fiscaux passe par le certificat d'investissement de l'APIEX [ref:lei-4-2009].\n- **Protections légales** : traitement équitable, protection du DUAT, libre transfert des capitaux et arbitrage CIRDI/CCI."
+      }
+    },
+    {
+      "id": "tracks",
+      "title": {
+        "pt": "Dois regimes, quatro níveis de aprovação",
+        "en": "Two tracks, four approval levels",
+        "fr": "Deux voies, quatre niveaux d'approbation"
+      },
+      "body": {
+        "pt": "A entidade que aprova depende do montante e da natureza do projecto. Os valores em USD são aproximados, tal como publicados pela APIEX [ref:apiex-guide-2026].",
+        "en": "The approving authority depends on the amount and nature of the project. USD values are approximate, as published by APIEX [ref:apiex-guide-2026].",
+        "fr": "L'autorité qui approuve dépend du montant et de la nature du projet. Les montants en USD sont approximatifs, tels que publiés par l'APIEX [ref:apiex-guide-2026]."
+      },
+      "table": {
+        "caption": {
+          "pt": "Regimes de aprovação ao abrigo da Lei n.º 8/2023",
+          "en": "Approval tracks under Law No. 8/2023",
+          "fr": "Voies d'approbation selon la loi n° 8/2023"
+        },
+        "columns": [
+          {
+            "pt": "Nível",
+            "en": "Level",
+            "fr": "Niveau"
+          },
+          {
+            "pt": "Montante (aprox.)",
+            "en": "Amount (approx.)",
+            "fr": "Montant (approx.)"
+          },
+          {
+            "pt": "Aprova",
+            "en": "Approved by",
+            "fr": "Approuvé par"
+          },
+          {
+            "pt": "Condições",
+            "en": "Conditions",
+            "fr": "Conditions"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Registo — T1",
+              "en": "Registration — T1",
+              "fr": "Enregistrement — T1"
+            },
+            {
+              "pt": "Até ≈ USD 54 milhões",
+              "en": "Up to ≈ USD 54 million",
+              "fr": "Jusqu'à ≈ 54 millions USD"
+            },
+            {
+              "pt": "Governador Provincial",
+              "en": "Provincial Governor",
+              "fr": "Gouverneur provincial"
+            },
+            {
+              "pt": "Mínimo de 3 dias úteis; sem estudo de viabilidade",
+              "en": "Minimum 3 working days; no feasibility study",
+              "fr": "3 jours ouvrables minimum ; pas d'étude de faisabilité"
+            }
+          ],
+          [
+            {
+              "pt": "Registo — T2",
+              "en": "Registration — T2",
+              "fr": "Enregistrement — T2"
+            },
+            {
+              "pt": "≈ USD 54–100 milhões",
+              "en": "≈ USD 54–100 million",
+              "fr": "≈ 54–100 millions USD"
+            },
+            {
+              "pt": "Director-Geral da APIEX",
+              "en": "APIEX Director-General",
+              "fr": "Directeur général de l'APIEX"
+            },
+            {
+              "pt": "Mínimo de 3 dias úteis; sem estudo de viabilidade",
+              "en": "Minimum 3 working days; no feasibility study",
+              "fr": "3 jours ouvrables minimum ; pas d'étude de faisabilité"
+            }
+          ],
+          [
+            {
+              "pt": "Registo — T3",
+              "en": "Registration — T3",
+              "fr": "Enregistrement — T3"
+            },
+            {
+              "pt": "≈ USD 100–500 milhões",
+              "en": "≈ USD 100–500 million",
+              "fr": "≈ 100–500 millions USD"
+            },
+            {
+              "pt": "Ministro das Finanças",
+              "en": "Minister of Finance",
+              "fr": "Ministre des Finances"
+            },
+            {
+              "pt": "Mínimo de 3 dias úteis; sem estudo de viabilidade; prazos reais mais longos",
+              "en": "Minimum 3 working days; no feasibility study; longer in practice",
+              "fr": "3 jours ouvrables minimum ; pas d'étude de faisabilité ; plus long en pratique"
+            }
+          ],
+          [
+            {
+              "pt": "Autorização",
+              "en": "Authorisation",
+              "fr": "Autorisation"
+            },
+            {
+              "pt": "Acima de ≈ USD 500 milhões; PPP, concessões, terra ≥ 10 000 ha, minas e petróleos",
+              "en": "Above ≈ USD 500 million; PPPs, concessions, land ≥ 10,000 ha, mining and petroleum",
+              "fr": "Au-delà de ≈ 500 millions USD ; PPP, concessions, terres ≥ 10 000 ha, mines et pétrole"
+            },
+            {
+              "pt": "Conselho de Ministros",
+              "en": "Council of Ministers",
+              "fr": "Conseil des ministres"
+            },
+            {
+              "pt": "Estudo de viabilidade completo; até 120 dias",
+              "en": "Full feasibility study; up to 120 days",
+              "fr": "Étude de faisabilité complète ; jusqu'à 120 jours"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "certificate",
+      "title": {
+        "pt": "O certificado de investimento",
+        "en": "The Investment Certificate",
+        "fr": "Le certificat d'investissement"
+      },
+      "body": {
+        "pt": "O certificado é **opcional**, mas é ele que dá acesso ao regime de incentivos [ref:lei-8-2023]:\n\n- isenção de direitos aduaneiros na importação de bens de equipamento da **Classe K** [ref:pauta];\n- benefícios do **Código dos Benefícios Fiscais** (Lei n.º 4/2009) [ref:lei-4-2009];\n- o **Visto de Actividade de Investimento**, para projectos a partir de USD 500 000.\n\nApós a certificação, o investidor assume as obrigações abaixo.",
+        "en": "The certificate is **optional**, but it is what opens the incentive regime [ref:lei-8-2023]:\n\n- customs duty exemption on imported **Class K** capital goods [ref:pauta];\n- the benefits of the **Fiscal Benefits Code** (Law No. 4/2009) [ref:lei-4-2009];\n- the **Business Investment Activity Visa**, for projects of USD 500,000 or more.\n\nOnce certified, the investor takes on the obligations below.",
+        "fr": "Le certificat est **facultatif**, mais c'est lui qui ouvre le régime d'incitations [ref:lei-8-2023] :\n\n- exonération des droits de douane sur les biens d'équipement de **Classe K** [ref:pauta] ;\n- les avantages du **Code des avantages fiscaux** (loi n° 4/2009) [ref:lei-4-2009] ;\n- le **visa d'activité d'investissement**, pour les projets d'au moins 500 000 USD.\n\nUne fois certifié, l'investisseur assume les obligations ci-dessous."
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "120 dias",
+            "en": "120 days",
+            "fr": "120 jours"
+          },
+          "label": {
+            "pt": "Para iniciar a implementação após a aprovação",
+            "en": "To start implementation after approval",
+            "fr": "Pour démarrer la mise en œuvre après l'approbation"
+          }
+        },
+        {
+          "value": {
+            "pt": "6 meses",
+            "en": "6 months",
+            "fr": "6 mois"
+          },
+          "label": {
+            "pt": "Periodicidade dos relatórios de progresso à APIEX",
+            "en": "Frequency of progress reports to APIEX",
+            "fr": "Fréquence des rapports d'avancement à l'APIEX"
+          }
+        },
+        {
+          "value": {
+            "pt": "90 dias",
+            "en": "90 days",
+            "fr": "90 jours"
+          },
+          "label": {
+            "pt": "Para registar o IDE no Banco de Moçambique após a entrada do investimento",
+            "en": "To register FDI with the Bank of Mozambique after the investment enters",
+            "fr": "Pour enregistrer l'IDE auprès de la Banque du Mozambique après l'entrée de l'investissement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "protections",
+      "title": {
+        "pt": "Garantias do investidor",
+        "en": "Investor protections",
+        "fr": "Garanties de l'investisseur"
+      },
+      "body": {
+        "pt": "A Lei n.º 8/2023 consagra como direitos legais, e não como concessões negociadas [ref:lei-8-2023]:\n\n- tratamento justo e não discriminatório;\n- protecção dos DUAT;\n- livre transferência para o exterior de lucros, dividendos e capital;\n- acesso à arbitragem ICSID ou CCI.\n\nPara beneficiar da garantia de repatriamento, o IDE mínimo é de **MZN 6,5 milhões (≈ USD 100 000)**, registado no Banco de Moçambique [ref:aviso-3-gbm-2024]. A Constituição só admite expropriação por interesse público e mediante justa indemnização [ref:business-guide-2025].",
+        "en": "Law No. 8/2023 sets these out as statutory rights, not negotiated concessions [ref:lei-8-2023]:\n\n- fair and non-discriminatory treatment;\n- protection of DUATs;\n- free transfer abroad of profits, dividends and capital;\n- access to ICSID or ICC arbitration.\n\nTo benefit from the repatriation guarantee, the minimum FDI is **MZN 6.5 million (≈ USD 100,000)**, registered with the Bank of Mozambique [ref:aviso-3-gbm-2024]. The Constitution only allows expropriation in the public interest and against fair compensation [ref:business-guide-2025].",
+        "fr": "La loi n° 8/2023 en fait des droits légaux, et non des concessions négociées [ref:lei-8-2023] :\n\n- traitement juste et non discriminatoire ;\n- protection des DUAT ;\n- libre transfert à l'étranger des bénéfices, dividendes et capitaux ;\n- accès à l'arbitrage CIRDI ou CCI.\n\nPour bénéficier de la garantie de rapatriement, l'IDE minimum est de **6,5 millions de MZN (≈ 100 000 USD)**, enregistré auprès de la Banque du Mozambique [ref:aviso-3-gbm-2024]. La Constitution n'admet l'expropriation que pour cause d'intérêt public et contre une juste indemnisation [ref:business-guide-2025]."
+      }
+    }
+  ]
+}

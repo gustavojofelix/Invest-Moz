@@ -14,7 +14,7 @@
 import { nextDueDates } from './calendar';
 import { selectAll, selectFirst, type Facts } from './conditions';
 import { PROVINCE_NAMES } from './provinces';
-import type { RuleSet, SectorDef } from './rule-set';
+import type { QuotasTable, RuleSet, SectorDef } from './rule-set';
 import { renderLocalized, type TemplateVars } from './template';
 import { containsPhrase, normalize } from './text';
 import {
@@ -57,13 +57,19 @@ export function classifySector(idea: string, table: RuleSet['sectors']): SectorD
 
 export type QuotaStatus = 'none' | 'within' | 'over';
 
+/** Foreign-worker quota (%) for a headcount; falls back to the table maximum. */
+export function quotaPercent(workers: number, quotas: QuotasTable): number {
+  return quotas.bands.find((b) => workers >= b.minWorkers)?.percent ?? quotas.maxPercent;
+}
+
 export function quotaStatus(
   input: Pick<ProjectInput, 'workers' | 'foreignWorkers'>,
-  maxPercent: number,
+  quotas: QuotasTable,
 ): QuotaStatus {
   if (input.foreignWorkers <= 0) return 'none';
   if (input.workers <= 0) return 'over';
-  return (input.foreignWorkers / input.workers) * 100 > maxPercent ? 'over' : 'within';
+  const ratio = (input.foreignWorkers / input.workers) * 100;
+  return ratio > quotaPercent(input.workers, quotas) ? 'over' : 'within';
 }
 
 export function deriveFacts(
@@ -88,7 +94,7 @@ export function deriveFacts(
     fdiMinimumMet: investmentMzn >= rules.apiex.fdiMinimumMzn,
     foreignRatio,
     hasForeignWorkers: input.foreignWorkers > 0,
-    quotaStatus: quotaStatus(input, rules.quotas.maxPercent),
+    quotaStatus: quotaStatus(input, rules.quotas),
     relatedParties: input.shareholderLoan || input.feesAbroad,
     corridor: rules.zones.corridors[input.province] ?? 'none',
   };
@@ -133,6 +139,7 @@ function templateVars(
       'fact.envCategory': String(facts['envCategory'] ?? ''),
       'fact.minQuota': `${rules.quotas.minPercent}%`,
       'fact.maxQuota': `${rules.quotas.maxPercent}%`,
+      'fact.quota': `${quotaPercent(input.workers, rules.quotas)}%`,
     };
   }
   return vars;
@@ -204,7 +211,7 @@ export function assess(project: Project, rules: RuleSet, ctx: EngineContext): As
     },
     companyVsBranch,
     investmentRegime: track({
-      threshold: regime?.then.threshold ?? '',
+      threshold: regime ? L(regime.then.threshold) : { pt: '', en: '', fr: '' },
       authority: regime ? L(regime.then.authority) : { pt: '', en: '', fr: '' },
       path: regime ? L(regime.then.path) : { pt: '', en: '', fr: '' },
       fdiGuarantee: guarantee ? L(guarantee.then.text) : { pt: '', en: '', fr: '' },

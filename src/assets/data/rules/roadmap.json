@@ -158,7 +158,7 @@
         "phase": "operate",
         "title": { "pt": "Licença ambiental (categoria A)", "en": "Environmental licence (category A)", "fr": "Licence environnementale (catégorie A)" },
         "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
-        "duration": { "pt": "{{ENV_LICENCE_CAT_A_DURATION}}", "en": "{{ENV_LICENCE_CAT_A_DURATION}}", "fr": "{{ENV_LICENCE_CAT_A_DURATION}}" },
+        "duration": { "pt": "6–12 meses", "en": "6–12 months", "fr": "6 à 12 mois" },
         "note": {
           "pt": "Caminho crítico: estudo de impacto ambiental completo e consulta pública.",
           "en": "Critical path: full environmental impact study and public consultation.",
@@ -221,7 +221,7 @@
         "phase": "operate",
         "title": { "pt": "Licença ambiental (categoria C)", "en": "Environmental licence (category C)", "fr": "Licence environnementale (catégorie C)" },
         "authority": { "pt": "Autoridade ambiental", "en": "Environmental authority", "fr": "Autorité environnementale" },
-        "duration": { "pt": "{{ENV_LICENCE_CAT_C_DURATION}}", "en": "{{ENV_LICENCE_CAT_C_DURATION}}", "fr": "{{ENV_LICENCE_CAT_C_DURATION}}" },
+        "duration": { "pt": "1–2 meses", "en": "1–2 months", "fr": "1 à 2 mois" },
         "note": {
           "pt": "Procedimento simplificado; corre em paralelo com o DUAT.",
           "en": "Simplified procedure; runs in parallel with the DUAT.",
@@ -324,9 +324,9 @@
       "when": [{ "field": "envCategory", "op": "eq", "value": "A" }],
       "then": {
         "text": {
-          "pt": "Prazo determinado pela licença ambiental de categoria A ({{ENV_LICENCE_CAT_A_DURATION}}).",
-          "en": "Timing driven by the category A environmental licence ({{ENV_LICENCE_CAT_A_DURATION}}).",
-          "fr": "Délai déterminé par la licence environnementale de catégorie A ({{ENV_LICENCE_CAT_A_DURATION}})."
+          "pt": "Prazo determinado pela licença ambiental de categoria A (6 a 12 meses).",
+          "en": "Timing driven by the category A environmental licence (6 to 12 months).",
+          "fr": "Délai déterminé par la licence environnementale de catégorie A (6 à 12 mois)."
         }
       }
     },

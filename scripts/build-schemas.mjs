@@ -265,7 +265,7 @@ write(
   obj({
     fxUsdMzn: { type: 'number', exclusiveMinimum: 0 },
     fdiMinimumMzn: { type: 'number', exclusiveMinimum: 0 },
-    regime: arr(rule(obj({ threshold: str, authority: LT, path: LT, refs }))),
+    regime: arr(rule(obj({ threshold: LT, authority: LT, path: LT, refs }))),
     fdiGuarantee: arr(rule(obj({ text: LT }))),
   }),
 );
@@ -279,7 +279,16 @@ write(
   }),
 );
 
-write('rules-quotas', obj({ minPercent: { type: 'number' }, maxPercent: { type: 'number' } }));
+write(
+  'rules-quotas',
+  obj({
+    minPercent: { type: 'number' },
+    maxPercent: { type: 'number' },
+    bands: arr(obj({ minWorkers: { type: 'integer', minimum: 0 }, percent: { type: 'number' } }), {
+      minItems: 1,
+    }),
+  }),
+);
 
 write(
   'rules-roadmap',
@@ -400,6 +409,81 @@ write(
     location: arr(rule(ref('note'))),
     financing: arr(rule(ref('note'))),
     esg: arr(rule(ref('note'))),
+  }),
+);
+
+const GUIDE_CHAPTERS = [
+  'at-a-glance',
+  'why-mozambique',
+  'sectors',
+  'investment-law',
+  'company-setup',
+  'roadmap',
+  'zones',
+  'tax',
+  'people',
+  'exchange',
+  'land-esg',
+  'protection',
+];
+const kebab = { type: 'string', pattern: '^[a-z0-9]+(-[a-z0-9]+)*$' };
+
+write(
+  'guide-index',
+  obj({
+    lastReviewed: ref('isoDate'),
+    sources: arr(
+      obj(
+        {
+          id: kebab,
+          title: str,
+          publisher: LT,
+          date: { type: 'string', pattern: '^\\d{4}(-\\d{2})?$' },
+          refId: { type: 'string', pattern: '^[a-z0-9-]+$' },
+        },
+        ['id', 'title', 'publisher', 'date'],
+      ),
+      { minItems: 1 },
+    ),
+    chapters: arr(
+      obj(
+        {
+          id: { enum: GUIDE_CHAPTERS },
+          title: LT,
+          summary: LT,
+          sources: arr(kebab),
+          topic: ref('topic'),
+        },
+        ['id', 'title', 'summary', 'sources'],
+      ),
+      { minItems: GUIDE_CHAPTERS.length, maxItems: GUIDE_CHAPTERS.length },
+    ),
+  }),
+);
+
+write(
+  'guide-chapter',
+  obj({
+    id: { enum: GUIDE_CHAPTERS },
+    sections: arr(
+      obj(
+        {
+          id: kebab,
+          title: LT,
+          body: LT,
+          facts: arr(obj({ value: LT, label: LT }), { minItems: 1 }),
+          steps: arr(obj({ title: LT, text: LT, where: LT, time: LT }, ['title', 'text']), {
+            minItems: 1,
+          }),
+          table: obj(
+            { caption: LT, columns: arr(LT, { minItems: 2 }), rows: arr(arr(LT)), note: LT },
+            ['caption', 'columns', 'rows'],
+          ),
+        },
+        ['id', 'title'],
+      ),
+      { minItems: 1 },
+    ),
   }),
 );
 

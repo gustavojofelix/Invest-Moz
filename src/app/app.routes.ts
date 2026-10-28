@@ -5,11 +5,13 @@ import { localeMatchGuard, localeResolver, scopeResolver } from '@core/i18n/i18n
 import { LocaleService } from '@core/i18n/locale.service';
 import { Shell } from '@core/layout/shell';
 import { authGuard } from '@features/auth/auth.guard';
+import { guideChapterResolver, guideIndexResolver } from '@features/guide/guide-data.resolver';
 import { qaDataResolver } from '@features/qa/qa-data.resolver';
 
 /**
  * Route slugs are English in every locale. `/:lang` is pt | en | fr.
- * Prerendered: `/:lang`, `/:lang/questions`, `/:lang/questions/:topic`
+ * Prerendered: `/:lang`, `/:lang/guide`, `/:lang/guide/:chapter`, `/:lang/questions`,
+ * `/:lang/questions/:topic`
  * (see app.routes.server.ts). Everything else renders on the client.
  */
 export const routes: Routes = [
@@ -29,8 +31,27 @@ export const routes: Routes = [
         pathMatch: 'full',
         loadComponent: () => import('@features/landing/landing-page').then((m) => m.LandingPage),
         providers: [provideTranslocoScope('landing')],
-        resolve: { scope: scopeResolver('landing') },
+        resolve: { scope: scopeResolver('landing'), guide: guideIndexResolver },
         data: { seo: { title: '', description: 'seo.siteDescription' } },
+      },
+      {
+        path: 'guide',
+        providers: [provideTranslocoScope('guide')],
+        resolve: { scope: scopeResolver('guide'), guide: guideIndexResolver },
+        children: [
+          {
+            path: '',
+            loadComponent: () => import('@features/guide/guide-page').then((m) => m.GuidePage),
+            data: { seo: { title: 'seo.guide', description: 'seo.guideDescription' } },
+          },
+          {
+            path: ':chapter',
+            resolve: { body: guideChapterResolver },
+            loadComponent: () =>
+              import('@features/guide/guide-chapter-page').then((m) => m.GuideChapterPage),
+            data: { seo: { title: 'seo.guide', description: 'seo.guideDescription' } },
+          },
+        ],
       },
       {
         path: 'project',

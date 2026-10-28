@@ -6,7 +6,11 @@
       "id": "foreign-investment",
       "when": [{ "field": "foreignOwned", "op": "eq", "value": true }],
       "then": {
-        "threshold": "{{APIEX_APPROVAL_THRESHOLDS}}",
+        "threshold": {
+          "pt": "Via de registo (mín. 3 dias úteis, sem estudo de viabilidade): Governador Provincial até cerca de USD 54 milhões; Director-Geral da APIEX até cerca de USD 100 milhões; Ministro das Finanças até cerca de USD 500 milhões. Acima de cerca de USD 500 milhões, PPP, concessões, terra a partir de 10 000 ha, mineração e petróleo: via de autorização, com estudo de viabilidade e decisão em até 120 dias.",
+          "en": "Registration track (min. 3 working days, no feasibility study): Provincial Governor up to about USD 54 million; APIEX Director-General up to about USD 100 million; Minister of Finance up to about USD 500 million. Above about USD 500 million, PPPs, concessions, land of 10,000 ha or more, mining and petroleum: authorisation track, with a feasibility study and a decision within 120 days.",
+          "fr": "Voie de l'enregistrement (min. 3 jours ouvrables, sans étude de faisabilité) : gouverneur provincial jusqu'à environ 54 millions USD ; directeur général de l'APIEX jusqu'à environ 100 millions USD ; ministre des Finances jusqu'à environ 500 millions USD. Au-delà d'environ 500 millions USD, PPP, concessions, terres de 10 000 ha ou plus, mines et pétrole : voie de l'autorisation, avec étude de faisabilité et décision sous 120 jours."
+        },
         "authority": {
           "pt": "APIEX — aprovação pela entidade competente consoante o montante do investimento",
           "en": "APIEX — approval by the competent authority according to the investment amount",
@@ -24,16 +28,20 @@
       "id": "domestic-investment",
       "when": [],
       "then": {
-        "threshold": "{{APIEX_APPROVAL_THRESHOLDS}}",
+        "threshold": {
+          "pt": "Via de registo (mín. 3 dias úteis, sem estudo de viabilidade): Governador Provincial até cerca de USD 54 milhões; Director-Geral da APIEX até cerca de USD 100 milhões; Ministro das Finanças até cerca de USD 500 milhões. Acima de cerca de USD 500 milhões, PPP, concessões, terra a partir de 10 000 ha, mineração e petróleo: via de autorização, com estudo de viabilidade e decisão em até 120 dias.",
+          "en": "Registration track (min. 3 working days, no feasibility study): Provincial Governor up to about USD 54 million; APIEX Director-General up to about USD 100 million; Minister of Finance up to about USD 500 million. Above about USD 500 million, PPPs, concessions, land of 10,000 ha or more, mining and petroleum: authorisation track, with a feasibility study and a decision within 120 days.",
+          "fr": "Voie de l'enregistrement (min. 3 jours ouvrables, sans étude de faisabilité) : gouverneur provincial jusqu'à environ 54 millions USD ; directeur général de l'APIEX jusqu'à environ 100 millions USD ; ministre des Finances jusqu'à environ 500 millions USD. Au-delà d'environ 500 millions USD, PPP, concessions, terres de 10 000 ha ou plus, mines et pétrole : voie de l'autorisation, avec étude de faisabilité et décision sous 120 jours."
+        },
         "authority": {
           "pt": "APIEX — aprovação pela entidade competente consoante o montante do investimento",
           "en": "APIEX — approval by the competent authority according to the investment amount",
           "fr": "APIEX — approbation par l'autorité compétente selon le montant de l'investissement"
         },
         "path": {
-          "pt": "Registo do projecto na APIEX para aceder às garantias e benefícios fiscais ({{APIEX_REGISTRATION_THRESHOLD}}) → certificado de investimento (mín. 3 dias úteis).",
-          "en": "Project registration with APIEX to access guarantees and tax incentives ({{APIEX_REGISTRATION_THRESHOLD}}) → investment certificate (min. 3 working days).",
-          "fr": "Enregistrement du projet auprès de l'APIEX pour accéder aux garanties et avantages fiscaux ({{APIEX_REGISTRATION_THRESHOLD}}) → certificat d'investissement (min. 3 jours ouvrables)."
+          "pt": "Registo do projecto na APIEX para aceder às garantias e benefícios fiscais (o certificado é opcional, mas é ele que dá acesso aos benefícios) → certificado de investimento (mín. 3 dias úteis).",
+          "en": "Project registration with APIEX to access guarantees and tax incentives (the certificate is optional, but it is what unlocks the incentives) → investment certificate (min. 3 working days).",
+          "fr": "Enregistrement du projet auprès de l'APIEX pour accéder aux garanties et avantages fiscaux (le certificat est facultatif, mais c'est lui qui ouvre l'accès aux avantages) → certificat d'investissement (min. 3 jours ouvrables)."
         },
         "refs": ["lei-8-2023", "apiex-guide-2026"]
       }

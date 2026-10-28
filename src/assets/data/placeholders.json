@@ -4,9 +4,8 @@
     {
       "title": "Sociedades e licenciamento",
       "items": {
-        "SAS_REQUIREMENTS": "Confirmar se a forma SAS existe ao abrigo do DL 1/2022 e quais os requisitos.",
+        "SAS_REQUIREMENTS": "Requisitos da SAS (capital, número de sócios, órgãos). A existência da forma está confirmada no Business Guide 2025.",
         "MIN_SHARE_CAPITAL": "Capital social mínimo para Lda, SA e SAS.",
-        "FOREIGN_OWNERSHIP_SECTOR_RESTRICTIONS": "Sectores com limites à participação estrangeira ou exigência de participação nacional.",
         "FOREIGN_DOCS_LEGALISATION": "Legalização e tradução exigidas para documentos de sócios estrangeiros.",
         "BRANCH_REGISTRATION_TIME": "Prazo indicativo para registo de sucursal e obtenção do NUIT.",
         "BRANCH_PROFIT_REMITTANCE_TAX": "Tratamento fiscal da remessa de lucros da sucursal para a sede.",
@@ -18,22 +17,8 @@
       }
     },
     {
-      "title": "Investimento e APIEX",
-      "items": {
-        "APIEX_APPROVAL_THRESHOLDS": "Limiares de montante que determinam a entidade competente para aprovar o projecto (Lei 8/2023).",
-        "APIEX_REGISTRATION_THRESHOLD": "Se o registo na APIEX é obrigatório e a partir de que montante.",
-        "APIEX_REPORT_DATES": "Datas de entrega dos relatórios semestrais de progresso à APIEX.",
-        "PROJECT_IMPLEMENTATION_DEADLINE": "Prazo para iniciar a implementação após a emissão do certificado de investimento.",
-        "SCOPE_DEC_8_2024": "Âmbito do Decreto n.º 8/2024."
-      }
-    },
-    {
       "title": "Impostos e benefícios fiscais",
       "items": {
-        "TREATY_DIVIDEND_RATES": "Taxas de retenção sobre dividendos nos ADT (excepto África do Sul, 8%/15%): Portugal, Índia, Maurícias, EAU, Itália, Macau, Botswana, Vietname.",
-        "DTA_RELIEF_PROCEDURE": "Procedimento e formulário para comprovar a residência fiscal e aplicar o ADT.",
-        "DTA_COUNTRY_LIST": "Lista de ADT em vigor.",
-        "WHT_INTEREST_RATE": "Taxa de retenção sobre juros pagos ao exterior.",
         "VAT_MONTHLY_RETURN_DEADLINE": "Prazo legal da declaração periódica e pagamento do IVA (o calendário usa, a título indicativo, o último dia útil do mês).",
         "IRPC_PAYMENT_ON_ACCOUNT_BASIS": "Dia exacto e base de cálculo dos pagamentos por conta (Maio, Julho, Setembro).",
         "ITC_RATE_BY_LOCATION": "Correspondência entre localizações e a taxa do crédito fiscal (5% a 10%).",
@@ -45,16 +30,13 @@
     {
       "title": "Trabalho e imigração",
       "items": {
-        "QUOTA_BAND_BY_SIZE": "Quota aplicável a cada dimensão de empresa, dentro do intervalo de 5% a 15%.",
         "QUOTA_COMMUNICATION_DEADLINE": "Prazo para comunicar contratação de estrangeiro dentro da quota.",
-        "SHORT_TERM_WORK_REGIME": "Regime e duração do trabalho de curta duração de estrangeiros.",
         "FOREIGN_CONTRACT_MAX_TERM": "Duração máxima e renovação dos contratos de trabalhadores estrangeiros.",
-        "INSS_CONTRIBUTION_RATES": "Taxas de contribuição para o INSS (entidade empregadora e trabalhador).",
+        "INSS_CONTRIBUTION_RATES": "Taxas de contribuição para o INSS (entidade empregadora e trabalhador). Atenção: o Guia APIEX 2026 indica 7% + 3%, o que diverge dos 4% + 3% habituais; confirmar a taxa em vigor.",
         "INSS_FOREIGN_WORKER_EXEMPTION": "Isenção do INSS para estrangeiros cobertos por segurança social no país de origem.",
         "WORK_PERMIT_PROCESSING_TIME": "Prazo de tramitação da autorização de trabalho.",
         "WORK_VISA_PROCESSING_TIME": "Prazo de emissão do visto de trabalho.",
         "DIRE_PROCESSING_TIME": "Prazo de emissão do DIRE.",
-        "WORK_PERMIT_VALIDITY": "Validade da autorização de trabalho.",
         "DIRE_VALIDITY": "Validade do DIRE.",
         "RENEWAL_LEAD_TIME": "Antecedência recomendada para renovar autorização de trabalho e DIRE."
       }
@@ -62,7 +44,6 @@
     {
       "title": "Câmbios e alfândegas",
       "items": {
-        "EXPORT_PROCEEDS_RULE": "Regras de repatriamento e conversão das receitas de exportação.",
         "TEMPORARY_IMPORT_PERIOD": "Prazo máximo da importação temporária.",
         "TEMP_IMPORT_PROCESSING_TIME": "Prazo de tramitação do pedido de importação temporária."
       }
@@ -70,11 +51,7 @@
     {
       "title": "Terra, ambiente e zonas",
       "items": {
-        "ENV_LICENCE_CAT_A_DURATION": "Prazo indicativo da licença ambiental de categorias A+ e A.",
-        "ENV_LICENCE_CAT_C_DURATION": "Prazo indicativo da licença ambiental de categoria C.",
-        "COASTAL_PROTECTION_RULE": "Zonas de protecção parcial costeira e restrições de construção (Lei 19/97).",
-        "ZFI_EXPORT_REQUIREMENT": "Percentagem mínima de exportação para o estatuto de ZFI.",
-        "ZEE_ZFI_BENEFITS": "Benefícios aduaneiros, fiscais e cambiais das ZEE e ZFI."
+        "COASTAL_PROTECTION_RULE": "Zonas de protecção parcial costeira e restrições de construção (Lei 19/97)."
       }
     },
     {
@@ -85,13 +62,6 @@
         "SUPPLIER_REGISTRATION_TIME": "Prazo indicativo de registo e qualificação como fornecedor dos operadores.",
         "SCOPE_DEC_9_2017": "Âmbito do Decreto n.º 9/2017.",
         "SCOPE_DEC_70_2017": "Âmbito do Decreto n.º 70/2017."
-      }
-    },
-    {
-      "title": "Financiamento",
-      "items": {
-        "GAPI_GUARANTEE_TERMS": "Condições das garantias GAPI.",
-        "FUNPI_CONDITIONS": "Designação correcta, condições e elegibilidade do FUNPI."
       }
     }
   ]

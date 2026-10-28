@@ -1,0 +1,527 @@
+{
+  "id": "tax",
+  "sections": [
+    {
+      "id": "rates",
+      "title": {
+        "pt": "Indicadores fiscais",
+        "en": "Tax indicators",
+        "fr": "Indicateurs fiscaux"
+      },
+      "body": {
+        "pt": "Uma sociedade é residente quando tem sede ou direcção efectiva em Moçambique e é tributada pelo rendimento global à taxa geral do IRPC [ref:cirpc]. Os não residentes são tributados apenas pelo rendimento obtido em Moçambique, em regra por retenção na fonte definitiva [ref:ta-tax-indicators]. O IVA incide sobre bens e serviços vendidos em Moçambique e sobre importações; as exportações estão isentas [ref:civa].",
+        "en": "A company is resident when its head office or effective management is in Mozambique, and it is taxed on worldwide income at the general CIT rate [ref:cirpc]. Non-residents are taxed only on Mozambican-source income, usually through a final withholding tax [ref:ta-tax-indicators]. VAT applies to goods and services sold in Mozambique and to imports; exports are exempt [ref:civa].",
+        "fr": "Une société est résidente lorsque son siège ou sa direction effective se trouve au Mozambique ; elle est imposée sur son revenu mondial au taux général de l'IRPC [ref:cirpc]. Les non-résidents ne sont imposés que sur leurs revenus de source mozambicaine, en règle générale par une retenue à la source libératoire [ref:ta-tax-indicators]. La TVA s'applique aux biens et services vendus au Mozambique et aux importations ; les exportations sont exonérées [ref:civa]."
+      },
+      "table": {
+        "caption": {
+          "pt": "Indicadores fiscais de Moçambique",
+          "en": "Mozambique tax indicators",
+          "fr": "Indicateurs fiscaux du Mozambique"
+        },
+        "columns": [
+          {
+            "pt": "Imposto",
+            "en": "Tax",
+            "fr": "Impôt"
+          },
+          {
+            "pt": "Residentes",
+            "en": "Residents",
+            "fr": "Résidents"
+          },
+          {
+            "pt": "Não residentes",
+            "en": "Non-residents",
+            "fr": "Non-résidents"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Imposto sobre o rendimento (IRPC)",
+              "en": "Corporate income tax (IRPC)",
+              "fr": "Impôt sur les sociétés (IRPC)"
+            },
+            {
+              "pt": "32%",
+              "en": "32%",
+              "fr": "32 %"
+            },
+            {
+              "pt": "20% ou 10% (retenção definitiva)",
+              "en": "20% or 10% (final withholding)",
+              "fr": "20 % ou 10 % (retenue libératoire)"
+            }
+          ],
+          [
+            {
+              "pt": "Mais-valias",
+              "en": "Capital gains",
+              "fr": "Plus-values"
+            },
+            {
+              "pt": "32% (integradas no rendimento)",
+              "en": "32% (part of business income)",
+              "fr": "32 % (intégrées au résultat)"
+            },
+            {
+              "pt": "32% (taxa final)",
+              "en": "32% (final tax)",
+              "fr": "32 % (impôt final)"
+            }
+          ],
+          [
+            {
+              "pt": "IVA",
+              "en": "VAT",
+              "fr": "TVA"
+            },
+            {
+              "pt": "16% (exportações isentas)",
+              "en": "16% (exports exempt)",
+              "fr": "16 % (exportations exonérées)"
+            },
+            {
+              "pt": "16%",
+              "en": "16%",
+              "fr": "16 %"
+            }
+          ],
+          [
+            {
+              "pt": "Rendimento das pessoas singulares (IRPS)",
+              "en": "Personal income tax (IRPS)",
+              "fr": "Impôt sur le revenu des personnes physiques (IRPS)"
+            },
+            {
+              "pt": "10% a 32%",
+              "en": "10% to 32%",
+              "fr": "10 % à 32 %"
+            },
+            {
+              "pt": "20%",
+              "en": "20%",
+              "fr": "20 %"
+            }
+          ],
+          [
+            {
+              "pt": "Retenção: dividendos, juros, royalties, serviços técnicos e de gestão",
+              "en": "Withholding: dividends, interest, royalties, technical and management fees",
+              "fr": "Retenue : dividendes, intérêts, redevances, honoraires techniques et de gestion"
+            },
+            {
+              "pt": "20%",
+              "en": "20%",
+              "fr": "20 %"
+            },
+            {
+              "pt": "20% (10% nos casos previstos)",
+              "en": "20% (10% in specified cases)",
+              "fr": "20 % (10 % dans les cas prévus)"
+            }
+          ],
+          [
+            {
+              "pt": "Exercício fiscal",
+              "en": "Fiscal year",
+              "fr": "Exercice fiscal"
+            },
+            {
+              "pt": "Ano civil; outro período mediante pedido",
+              "en": "Calendar year; a different year on request",
+              "fr": "Année civile ; autre exercice sur demande"
+            },
+            {
+              "pt": "Ano civil; as sucursais podem pedir outro período",
+              "en": "Calendar year; branches may request a different year",
+              "fr": "Année civile ; les succursales peuvent demander un autre exercice"
+            }
+          ]
+        ],
+        "note": {
+          "pt": "Fonte: fichas fiscais da Tax Advisory. Os valores devem ser confirmados à luz da reforma fiscal de 2025–2026 (Leis n.º 9 a 12/2025) antes de qualquer decisão.",
+          "en": "Source: Tax Advisory tax sheets. Confirm the figures against the 2025–2026 tax reform (Laws 9 to 12/2025) before making any decision.",
+          "fr": "Source : fiches fiscales de Tax Advisory. Les chiffres doivent être confirmés au regard de la réforme fiscale 2025–2026 (lois n° 9 à 12/2025) avant toute décision."
+        }
+      }
+    },
+    {
+      "id": "withholding-rules",
+      "title": {
+        "pt": "Retenções e regras anti-abuso",
+        "en": "Withholding and anti-avoidance rules",
+        "fr": "Retenues et règles anti-abus"
+      },
+      "body": {
+        "pt": "A retenção sobre não residentes desce para **10%** em quatro casos [ref:ta-tax-indicators]:\n- telecomunicações e transporte internacional, incluindo montagem de equipamento associado e manutenção e aluguer de aeronaves;\n- construção e reabilitação de infra-estruturas de electricidade em projectos públicos de electrificação rural;\n- afretamento de embarcações para pesca e cabotagem;\n- obrigações cotadas na Bolsa de Valores de Moçambique.\n\nOs dividendos entre sociedades residentes ficam isentos de retenção e de IRPC quando a participação é de pelo menos **20%** e é detida há pelo menos **dois anos**. Aplica-se uma regra de subcapitalização de **2:1** (dívida/capital) e o princípio de plena concorrência nos preços de transferência.",
+        "en": "Non-resident withholding falls to **10%** in four cases [ref:ta-tax-indicators]:\n- telecommunications and international transport, including related equipment assembly and aircraft maintenance and hire;\n- building and rehabilitating electricity infrastructure in public rural electrification projects;\n- chartering vessels for fishing and coastal shipping;\n- bonds listed on the Mozambique Stock Exchange.\n\nDividends between resident companies are exempt from withholding and CIT when the holding is at least **20%** and has been held for at least **two years**. A **2:1** debt-to-equity thin capitalisation rule applies, and transfer pricing follows the arm's length principle.",
+        "fr": "La retenue sur les non-résidents est ramenée à **10 %** dans quatre cas [ref:ta-tax-indicators] :\n- télécommunications et transport international, y compris le montage des équipements associés et l'entretien et la location d'aéronefs ;\n- construction et réhabilitation d'infrastructures électriques dans les projets publics d'électrification rurale ;\n- affrètement de navires de pêche et de cabotage ;\n- obligations cotées à la Bourse des valeurs du Mozambique.\n\nLes dividendes entre sociétés résidentes sont exonérés de retenue et d'IRPC lorsque la participation atteint au moins **20 %** et est détenue depuis au moins **deux ans**. Une règle de sous-capitalisation de **2:1** (dette/fonds propres) s'applique, et les prix de transfert suivent le principe de pleine concurrence."
+      }
+    },
+    {
+      "id": "treaties",
+      "title": {
+        "pt": "Acordos de dupla tributação",
+        "en": "Double tax treaties",
+        "fr": "Conventions de double imposition"
+      },
+      "body": {
+        "pt": "Moçambique tem acordos para evitar a dupla tributação com nove jurisdições [ref:dta-network]. Quando aplicáveis, reduzem a retenção de 20% sobre rendimentos pagos ao exterior [ref:ta-dta-rates].",
+        "en": "Mozambique has double tax treaties with nine jurisdictions [ref:dta-network]. Where they apply, they reduce the 20% withholding on income paid abroad [ref:ta-dta-rates].",
+        "fr": "Le Mozambique a conclu des conventions de non double imposition avec neuf juridictions [ref:dta-network]. Lorsqu'elles s'appliquent, elles réduisent la retenue de 20 % sur les revenus versés à l'étranger [ref:ta-dta-rates]."
+      },
+      "table": {
+        "caption": {
+          "pt": "Taxas de retenção nos acordos de dupla tributação",
+          "en": "Withholding rates under the double tax treaties",
+          "fr": "Taux de retenue prévus par les conventions fiscales"
+        },
+        "columns": [
+          {
+            "pt": "Beneficiário",
+            "en": "Recipient",
+            "fr": "Bénéficiaire"
+          },
+          {
+            "pt": "Dividendos",
+            "en": "Dividends",
+            "fr": "Dividendes"
+          },
+          {
+            "pt": "Juros",
+            "en": "Interest",
+            "fr": "Intérêts"
+          },
+          {
+            "pt": "Royalties",
+            "en": "Royalties",
+            "fr": "Redevances"
+          },
+          {
+            "pt": "Serviços de gestão e consultoria",
+            "en": "Management and consultancy fees",
+            "fr": "Honoraires de gestion et de conseil"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Taxa interna (sem acordo)",
+              "en": "Domestic rate (no treaty)",
+              "fr": "Taux interne (sans convention)"
+            },
+            {
+              "pt": "20%",
+              "en": "20%",
+              "fr": "20 %"
+            },
+            {
+              "pt": "20%",
+              "en": "20%",
+              "fr": "20 %"
+            },
+            {
+              "pt": "20%",
+              "en": "20%",
+              "fr": "20 %"
+            },
+            {
+              "pt": "20%",
+              "en": "20%",
+              "fr": "20 %"
+            }
+          ],
+          [
+            {
+              "pt": "Botswana",
+              "en": "Botswana",
+              "fr": "Botswana"
+            },
+            {
+              "pt": "0% ou 12%*",
+              "en": "0% or 12%*",
+              "fr": "0 % ou 12 %*"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "Índia",
+              "en": "India",
+              "fr": "Inde"
+            },
+            {
+              "pt": "7,5%",
+              "en": "7.5%",
+              "fr": "7,5 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "Itália",
+              "en": "Italy",
+              "fr": "Italie"
+            },
+            {
+              "pt": "15%",
+              "en": "15%",
+              "fr": "15 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "Macau",
+              "en": "Macau",
+              "fr": "Macao"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            }
+          ],
+          [
+            {
+              "pt": "Maurícias",
+              "en": "Mauritius",
+              "fr": "Maurice"
+            },
+            {
+              "pt": "8%, 10% ou 15%*",
+              "en": "8%, 10% or 15%*",
+              "fr": "8 %, 10 % ou 15 %*"
+            },
+            {
+              "pt": "8%",
+              "en": "8%",
+              "fr": "8 %"
+            },
+            {
+              "pt": "5%",
+              "en": "5%",
+              "fr": "5 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "Portugal",
+              "en": "Portugal",
+              "fr": "Portugal"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "África do Sul",
+              "en": "South Africa",
+              "fr": "Afrique du Sud"
+            },
+            {
+              "pt": "8% ou 15%*",
+              "en": "8% or 15%*",
+              "fr": "8 % ou 15 %*"
+            },
+            {
+              "pt": "8%",
+              "en": "8%",
+              "fr": "8 %"
+            },
+            {
+              "pt": "5%",
+              "en": "5%",
+              "fr": "5 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "Emirados Árabes Unidos",
+              "en": "United Arab Emirates",
+              "fr": "Émirats arabes unis"
+            },
+            {
+              "pt": "0%",
+              "en": "0%",
+              "fr": "0 %"
+            },
+            {
+              "pt": "0%**",
+              "en": "0%**",
+              "fr": "0 %**"
+            },
+            {
+              "pt": "5%",
+              "en": "5%",
+              "fr": "5 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ],
+          [
+            {
+              "pt": "Vietname",
+              "en": "Vietnam",
+              "fr": "Viêt Nam"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            },
+            {
+              "pt": "0%***",
+              "en": "0%***",
+              "fr": "0 %***"
+            }
+          ]
+        ],
+        "note": {
+          "pt": "* A taxa depende da participação efectiva do beneficiário. ** O Estado de residência do beneficiário tem o direito de tributar, embora em alguns casos o Estado da fonte também possa tributar. *** Na prática, a Autoridade Tributária tende a tributar os serviços de gestão e consultoria como royalties.",
+          "en": "* The rate depends on the recipient's beneficial shareholding. ** The recipient's state of residence has the taxing right, although in some cases the source state may also tax. *** In practice, the Tax Authority tends to tax management and consultancy fees as royalties.",
+          "fr": "* Le taux dépend de la participation effective du bénéficiaire. ** L'État de résidence du bénéficiaire a le droit d'imposer, mais dans certains cas l'État de la source peut aussi imposer. *** En pratique, l'Autorité fiscale tend à imposer les honoraires de gestion et de conseil comme des redevances."
+        }
+      }
+    },
+    {
+      "id": "treaty-relief",
+      "title": {
+        "pt": "Como aplicar um acordo",
+        "en": "How to claim treaty relief",
+        "fr": "Comment bénéficier d'une convention"
+      },
+      "body": {
+        "pt": "Os acordos **não se aplicam automaticamente** [ref:business-guide-2025]. Antes do pagamento, o beneficiário deve:\n- obter um certificado de residência fiscal emitido pela administração fiscal do seu país;\n- apresentá-lo para confirmação pela Autoridade Tributária de Moçambique;\n- preencher os formulários aprovados pelo Ministério das Finanças.\n\nSem esta documentação, quem paga retém à taxa interna de 20%.",
+        "en": "Treaties **do not apply automatically** [ref:business-guide-2025]. Before payment, the recipient must:\n- obtain a certificate of tax residence from its own country's tax administration;\n- submit it for confirmation by the Mozambican Tax Authority;\n- complete the forms approved by the Ministry of Finance.\n\nWithout these documents, the payer withholds at the domestic 20% rate.",
+        "fr": "Les conventions **ne s'appliquent pas automatiquement** [ref:business-guide-2025]. Avant le paiement, le bénéficiaire doit :\n- obtenir un certificat de résidence fiscale délivré par l'administration fiscale de son pays ;\n- le soumettre à la confirmation de l'Autorité fiscale du Mozambique ;\n- remplir les formulaires approuvés par le ministère des Finances.\n\nSans ces documents, le débiteur retient au taux interne de 20 %."
+      }
+    },
+    {
+      "id": "incentives",
+      "title": {
+        "pt": "Benefícios fiscais",
+        "en": "Tax incentives",
+        "fr": "Incitations fiscales"
+      },
+      "body": {
+        "pt": "O Código dos Benefícios Fiscais aplica-se aos projectos com certificado de investimento da APIEX [ref:lei-4-2009] [ref:lei-8-2023]. Os benefícios genéricos incluem:\n- isenção de direitos aduaneiros e IVA na importação de bens de equipamento da **Classe K** da Pauta [ref:pauta];\n- crédito fiscal por investimento;\n- amortizações e reintegrações aceleradas;\n- deduções por investimento em modernização e novas tecnologias e em formação profissional.\n\nHá benefícios específicos para infra-estruturas básicas, comércio e indústria em zonas rurais, indústria transformadora e de montagem, agricultura e pescas, hotelaria e turismo, parques de ciência e tecnologia, grandes projectos (acima de MZN 12,5 mil milhões) e projectos em ZEE e ZFI [ref:zee-zfi].",
+        "en": "The Fiscal Benefits Code applies to projects holding an APIEX investment certificate [ref:lei-4-2009] [ref:lei-8-2023]. Generic incentives include:\n- customs duty and VAT exemption on imports of **Class K** capital goods under the tariff [ref:pauta];\n- an investment tax credit;\n- accelerated depreciation and amortisation;\n- deductions for investment in modernisation and new technology and in vocational training.\n\nSpecific incentives apply to basic infrastructure, rural commerce and industry, manufacturing and assembly, agriculture and fisheries, hotels and tourism, science and technology parks, large projects (above MZN 12.5 billion) and projects in SEZs and IFZs [ref:zee-zfi].",
+        "fr": "Le Code des avantages fiscaux s'applique aux projets titulaires d'un certificat d'investissement de l'APIEX [ref:lei-4-2009] [ref:lei-8-2023]. Les avantages génériques comprennent :\n- l'exonération des droits de douane et de la TVA à l'importation des biens d'équipement de la **classe K** du tarif [ref:pauta] ;\n- un crédit d'impôt à l'investissement ;\n- des amortissements accélérés ;\n- des déductions pour l'investissement dans la modernisation, les nouvelles technologies et la formation professionnelle.\n\nDes avantages spécifiques visent les infrastructures de base, le commerce et l'industrie en zone rurale, l'industrie manufacturière et d'assemblage, l'agriculture et la pêche, l'hôtellerie et le tourisme, les parcs scientifiques et technologiques, les grands projets (plus de 12,5 milliards de MZN) et les projets en ZES et ZFI [ref:zee-zfi]."
+      }
+    },
+    {
+      "id": "extractives",
+      "title": {
+        "pt": "Mineração, petróleo e gás",
+        "en": "Mining, oil and gas",
+        "fr": "Mines, pétrole et gaz"
+      },
+      "body": {
+        "pt": "Estes sectores têm regimes fiscais próprios [ref:business-guide-2025]:\n- mais-valias de **32%** na transmissão de direitos mineiros ou petrolíferos, por residentes ou não residentes, incluindo transmissões indirectas;\n- retenção de **10%** sobre serviços prestados por não residentes a empresas mineiras e petrolíferas;\n- estabilidade fiscal até **10 anos**, prorrogável mediante pagamento adicional de 2% do imposto de produção;\n- IRPC apurado separadamente por contrato de concessão (ring-fencing);\n- isenção de direitos aduaneiros por cinco anos sobre equipamento não disponível no mercado local, sem isenção de IVA;\n- auditoria obrigatória das contas por auditores independentes autorizados.",
+        "en": "These sectors have their own tax regimes [ref:business-guide-2025]:\n- **32%** capital gains tax on transfers of mining or petroleum interests by residents or non-residents, including indirect transfers;\n- **10%** withholding on services supplied by non-residents to mining and oil companies;\n- tax stability for up to **10 years**, extendable against an additional 2% of production tax;\n- CIT calculated separately for each concession contract (ring-fencing);\n- a five-year customs duty exemption on equipment not available locally, with no VAT exemption;\n- mandatory audit of the accounts by authorised independent auditors.",
+        "fr": "Ces secteurs disposent de régimes fiscaux propres [ref:business-guide-2025] :\n- impôt de **32 %** sur les plus-values de cession de droits miniers ou pétroliers, par des résidents ou des non-résidents, y compris les cessions indirectes ;\n- retenue de **10 %** sur les services fournis par des non-résidents aux sociétés minières et pétrolières ;\n- stabilité fiscale jusqu'à **10 ans**, prorogeable moyennant 2 % supplémentaires de l'impôt sur la production ;\n- IRPC calculé séparément par contrat de concession (ring-fencing) ;\n- exonération des droits de douane pendant cinq ans sur les équipements indisponibles localement, sans exonération de TVA ;\n- audit obligatoire des comptes par des auditeurs indépendants agréés."
+      }
+    }
+  ]
+}

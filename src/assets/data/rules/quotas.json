@@ -1,4 +1,10 @@
 {
   "minPercent": 5,
-  "maxPercent": 15
+  "maxPercent": 15,
+  "bands": [
+    { "minWorkers": 101, "percent": 5 },
+    { "minWorkers": 31, "percent": 8 },
+    { "minWorkers": 11, "percent": 10 },
+    { "minWorkers": 0, "percent": 15 }
+  ]
 }

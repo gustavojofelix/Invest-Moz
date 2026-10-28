@@ -1,0 +1,585 @@
+{
+  "id": "roadmap",
+  "sections": [
+    {
+      "id": "explore",
+      "title": {
+        "pt": "Fase 1 — Explorar",
+        "en": "Phase 1 — Explore",
+        "fr": "Phase 1 — Explorer"
+      },
+      "body": {
+        "pt": "Descoberta, avaliação e compromisso. Envolva o seu gestor de conta da APIEX desde o primeiro dia e trabalhe com advogados locais experientes [ref:apiex-guide-2026]. Os prazos são indicativos.",
+        "en": "Discovery, assessment and commitment. Engage your APIEX account manager from day one and work with experienced local counsel [ref:apiex-guide-2026]. Timelines are indicative.",
+        "fr": "Découverte, évaluation et engagement. Impliquez votre gestionnaire de compte APIEX dès le premier jour et travaillez avec un conseil local expérimenté [ref:apiex-guide-2026]. Les délais sont indicatifs."
+      },
+      "steps": [
+        {
+          "title": {
+            "pt": "E1 · Contactar a APIEX",
+            "en": "E1 · Engage with APIEX",
+            "fr": "E1 · Contacter l'APIEX"
+          },
+          "where": {
+            "pt": "APIEX",
+            "en": "APIEX",
+            "fr": "APIEX"
+          },
+          "time": {
+            "pt": "Dia 1",
+            "en": "Day 1",
+            "fr": "Jour 1"
+          },
+          "text": {
+            "pt": "Primeira consulta gratuita e atribuição do gestor de conta.",
+            "en": "Free first consultation and assignment of an account manager.",
+            "fr": "Première consultation gratuite et attribution d'un gestionnaire de compte."
+          }
+        },
+        {
+          "title": {
+            "pt": "E2 · Avaliação do país e do sector",
+            "en": "E2 · Country and sector assessment",
+            "fr": "E2 · Évaluation du pays et du secteur"
+          },
+          "where": {
+            "pt": "APIEX / pesquisa própria",
+            "en": "APIEX / own research",
+            "fr": "APIEX / recherche propre"
+          },
+          "time": {
+            "pt": "1–4 semanas",
+            "en": "1–4 weeks",
+            "fr": "1–4 semaines"
+          },
+          "text": {
+            "pt": "Estudo de mercado e mapeamento regulatório.",
+            "en": "Market research and regulatory mapping.",
+            "fr": "Étude de marché et cartographie réglementaire."
+          }
+        },
+        {
+          "title": {
+            "pt": "E3 · Avaliação do local e das infra-estruturas",
+            "en": "E3 · Site and infrastructure assessment",
+            "fr": "E3 · Évaluation du site et des infrastructures"
+          },
+          "where": {
+            "pt": "APIEX · DINAT",
+            "en": "APIEX · DINAT",
+            "fr": "APIEX · DINAT"
+          },
+          "time": {
+            "pt": "2–6 semanas",
+            "en": "2–6 weeks",
+            "fr": "2–6 semaines"
+          },
+          "text": {
+            "pt": "Disponibilidade de terra e pré-verificação do DUAT.",
+            "en": "Land availability and DUAT pre-check.",
+            "fr": "Disponibilité foncière et pré-vérification du DUAT."
+          }
+        },
+        {
+          "title": {
+            "pt": "E4 · Contacto prévio com o regulador sectorial",
+            "en": "E4 · Sector regulator pre-engagement",
+            "fr": "E4 · Contact préalable avec le régulateur sectoriel"
+          },
+          "where": {
+            "pt": "Ministério da tutela / regulador",
+            "en": "Line ministry / regulator",
+            "fr": "Ministère de tutelle / régulateur"
+          },
+          "time": {
+            "pt": "2–4 semanas",
+            "en": "2–4 weeks",
+            "fr": "2–4 semaines"
+          },
+          "text": {
+            "pt": "Diálogo antecipado sobre licenças e requisitos do sector.",
+            "en": "Early dialogue on sector licences and requirements.",
+            "fr": "Dialogue précoce sur les licences et exigences du secteur."
+          }
+        },
+        {
+          "title": {
+            "pt": "E5 · Pré-avaliação ambiental e de terra",
+            "en": "E5 · Environmental and land pre-screening",
+            "fr": "E5 · Pré-évaluation environnementale et foncière"
+          },
+          "where": {
+            "pt": "MAAP · DINAT",
+            "en": "MAAP · DINAT",
+            "fr": "MAAP · DINAT"
+          },
+          "time": {
+            "pt": "2–8 semanas",
+            "en": "2–8 weeks",
+            "fr": "2–8 semaines"
+          },
+          "text": {
+            "pt": "Determinar a categoria de AIA (A, B ou C) e o caminho do DUAT — a causa mais comum de atrasos [ref:aia-regulation].",
+            "en": "Determine the EIA category (A, B or C) and the DUAT pathway — the most common source of delay [ref:aia-regulation].",
+            "fr": "Déterminer la catégorie d'EIE (A, B ou C) et la voie du DUAT — la cause de retard la plus fréquente [ref:aia-regulation]."
+          }
+        }
+      ]
+    },
+    {
+      "id": "establish",
+      "title": {
+        "pt": "Fase 2 — Estabelecer",
+        "en": "Phase 2 — Establish",
+        "fr": "Phase 2 — S'établir"
+      },
+      "body": {
+        "pt": "Passos universais para todos os investidores. O passo 4 é o ponto em que se acrescentam os passos de cada sector.",
+        "en": "Universal steps for every investor. Step 4 is where the sector-specific steps branch off.",
+        "fr": "Étapes universelles pour tout investisseur. L'étape 4 est le point où s'ajoutent les étapes propres à chaque secteur."
+      },
+      "steps": [
+        {
+          "title": {
+            "pt": "1 · Registo da empresa",
+            "en": "1 · Company registration",
+            "fr": "1 · Immatriculation de la société"
+          },
+          "where": {
+            "pt": "BAU · CREL · AT",
+            "en": "BAU · CREL · AT",
+            "fr": "BAU · CREL · AT"
+          },
+          "time": {
+            "pt": "3–10 dias",
+            "en": "3–10 days",
+            "fr": "3–10 jours"
+          },
+          "text": {
+            "pt": "Reserva do nome, registo com documentos dos sócios, estatutos e prova do depósito mínimo de 30% do capital; NUIT obtido em simultâneo.",
+            "en": "Name reservation, registration with partners' IDs, statutes and proof of the minimum 30% capital deposit; NUIT obtained at the same time.",
+            "fr": "Réservation du nom, immatriculation avec pièces des associés, statuts et preuve du dépôt minimal de 30 % du capital ; NUIT obtenu simultanément."
+          }
+        },
+        {
+          "title": {
+            "pt": "2 · Autorização do investimento",
+            "en": "2 · Investment authorisation",
+            "fr": "2 · Autorisation de l'investissement"
+          },
+          "where": {
+            "pt": "APIEX",
+            "en": "APIEX",
+            "fr": "APIEX"
+          },
+          "time": {
+            "pt": "3–120 dias",
+            "en": "3–120 days",
+            "fr": "3–120 jours"
+          },
+          "text": {
+            "pt": "Regime de registo ou de autorização, conforme o montante; resulta no certificado de investimento [ref:lei-8-2023].",
+            "en": "Registration or authorisation track, depending on the amount; results in the Investment Certificate [ref:lei-8-2023].",
+            "fr": "Voie d'enregistrement ou d'autorisation, selon le montant ; aboutit au certificat d'investissement [ref:lei-8-2023]."
+          }
+        },
+        {
+          "title": {
+            "pt": "3 · Registo do IDE no Banco de Moçambique",
+            "en": "3 · Register FDI with the Bank of Mozambique",
+            "fr": "3 · Enregistrer l'IDE à la Banque du Mozambique"
+          },
+          "where": {
+            "pt": "BdM, através do banco comercial",
+            "en": "BdM, via a commercial bank",
+            "fr": "BdM, via une banque commerciale"
+          },
+          "time": {
+            "pt": "Até 90 dias",
+            "en": "Within 90 days",
+            "fr": "Sous 90 jours"
+          },
+          "text": {
+            "pt": "Condição para os direitos de repatriamento de lucros e capital [ref:aviso-3-gbm-2024].",
+            "en": "A condition for profit and capital repatriation rights [ref:aviso-3-gbm-2024].",
+            "fr": "Condition des droits de rapatriement des bénéfices et du capital [ref:aviso-3-gbm-2024]."
+          }
+        },
+        {
+          "title": {
+            "pt": "4 · Licença de actividade (alvará)",
+            "en": "4 · Business licence (alvará)",
+            "fr": "4 · Licence d'activité (alvará)"
+          },
+          "where": {
+            "pt": "BAU / ministério da tutela",
+            "en": "BAU / line ministry",
+            "fr": "BAU / ministère de tutelle"
+          },
+          "time": {
+            "pt": "5–15 dias",
+            "en": "5–15 days",
+            "fr": "5–15 jours"
+          },
+          "text": {
+            "pt": "Licenças correntes no BAU; licenças sectoriais no ministério competente. Ponto de ramificação sectorial [ref:dec-41-2026].",
+            "en": "Standard licences at the BAU; sector licences with the competent ministry. The sector branch point [ref:dec-41-2026].",
+            "fr": "Licences courantes au BAU ; licences sectorielles auprès du ministère compétent. Point de bifurcation sectorielle [ref:dec-41-2026]."
+          }
+        },
+        {
+          "title": {
+            "pt": "5 · Registo na Autoridade Tributária",
+            "en": "5 · Register with the Tax Authority",
+            "fr": "5 · Enregistrement auprès de l'administration fiscale"
+          },
+          "where": {
+            "pt": "AT",
+            "en": "AT",
+            "fr": "AT"
+          },
+          "time": {
+            "pt": "1–3 dias",
+            "en": "1–3 days",
+            "fr": "1–3 jours"
+          },
+          "text": {
+            "pt": "Registo para IRPC, IVA e retenções na fonte [ref:cirpc] [ref:civa].",
+            "en": "Registration for corporate income tax, VAT and withholding [ref:cirpc] [ref:civa].",
+            "fr": "Enregistrement à l'IRPC, à la TVA et aux retenues à la source [ref:cirpc] [ref:civa]."
+          }
+        },
+        {
+          "title": {
+            "pt": "6 · Autorizações de trabalho e vistos",
+            "en": "6 · Work permits and visas",
+            "fr": "6 · Permis de travail et visas"
+          },
+          "where": {
+            "pt": "MTGAS · evisa.gov.mz",
+            "en": "MTGAS · evisa.gov.mz",
+            "fr": "MTGAS · evisa.gov.mz"
+          },
+          "text": {
+            "pt": "Pedido ao MTGAS no prazo de 15 dias após a chegada de cada trabalhador estrangeiro, dentro das quotas aplicáveis [ref:dec-88-2024].",
+            "en": "Apply to MTGAS within 15 days of each foreign employee's arrival, within the applicable quotas [ref:dec-88-2024].",
+            "fr": "Demande au MTGAS dans les 15 jours suivant l'arrivée de chaque salarié étranger, dans le respect des quotas [ref:dec-88-2024]."
+          }
+        },
+        {
+          "title": {
+            "pt": "7 · Inscrição no INSS",
+            "en": "7 · Register with INSS",
+            "fr": "7 · Affiliation à l'INSS"
+          },
+          "where": {
+            "pt": "INSS",
+            "en": "INSS",
+            "fr": "INSS"
+          },
+          "text": {
+            "pt": "Antes de contratar qualquer trabalhador; contribuições sobre o salário bruto [ref:inss].",
+            "en": "Before hiring any employee; contributions on gross salary [ref:inss].",
+            "fr": "Avant toute embauche ; cotisations sur le salaire brut [ref:inss]."
+          }
+        },
+        {
+          "title": {
+            "pt": "8 · Cumprimento contínuo",
+            "en": "8 · Ongoing compliance",
+            "fr": "8 · Conformité continue"
+          },
+          "where": {
+            "pt": "BAU · AT · Trabalho",
+            "en": "BAU · AT · Labour",
+            "fr": "BAU · AT · Travail"
+          },
+          "time": {
+            "pt": "Contínuo",
+            "en": "Ongoing",
+            "fr": "Continu"
+          },
+          "text": {
+            "pt": "Renovação de licenças, declarações fiscais e obrigações laborais.",
+            "en": "Licence renewals, tax returns and labour obligations.",
+            "fr": "Renouvellement des licences, déclarations fiscales et obligations sociales."
+          }
+        }
+      ]
+    },
+    {
+      "id": "operate",
+      "title": {
+        "pt": "Fase 3 — Operar e crescer",
+        "en": "Phase 3 — Operate and grow",
+        "fr": "Phase 3 — Exploiter et croître"
+      },
+      "steps": [
+        {
+          "title": {
+            "pt": "O1 · Conta bancária e transferência de capital",
+            "en": "O1 · Bank account and capital transfer",
+            "fr": "O1 · Compte bancaire et transfert de capital"
+          },
+          "where": {
+            "pt": "Banco comercial",
+            "en": "Commercial bank",
+            "fr": "Banque commerciale"
+          },
+          "time": {
+            "pt": "1–5 dias",
+            "en": "1–5 days",
+            "fr": "1–5 jours"
+          },
+          "text": {
+            "pt": "Abertura da conta operacional e entrada do capital, registada em tempo real pelo banco.",
+            "en": "Operating account opened and capital brought in, registered in real time by the bank.",
+            "fr": "Ouverture du compte d'exploitation et entrée du capital, enregistrée en temps réel par la banque."
+          }
+        },
+        {
+          "title": {
+            "pt": "O2 · Cumprimento fiscal",
+            "en": "O2 · Tax compliance",
+            "fr": "O2 · Conformité fiscale"
+          },
+          "where": {
+            "pt": "AT · APIEX",
+            "en": "AT · APIEX",
+            "fr": "AT · APIEX"
+          },
+          "time": {
+            "pt": "Contínuo",
+            "en": "Ongoing",
+            "fr": "Continu"
+          },
+          "text": {
+            "pt": "Declarações periódicas e aplicação dos benefícios fiscais do certificado.",
+            "en": "Periodic returns and application of the certificate's tax benefits.",
+            "fr": "Déclarations périodiques et application des avantages fiscaux du certificat."
+          }
+        },
+        {
+          "title": {
+            "pt": "O3 · Relatórios semestrais",
+            "en": "O3 · Bi-annual reports",
+            "fr": "O3 · Rapports semestriels"
+          },
+          "where": {
+            "pt": "APIEX · reguladores sectoriais",
+            "en": "APIEX · sector regulators",
+            "fr": "APIEX · régulateurs sectoriels"
+          },
+          "time": {
+            "pt": "A cada 6 meses",
+            "en": "Every 6 months",
+            "fr": "Tous les 6 mois"
+          },
+          "text": {
+            "pt": "Relatórios de progresso e de cumprimento à APIEX.",
+            "en": "Progress and compliance reports to APIEX.",
+            "fr": "Rapports d'avancement et de conformité à l'APIEX."
+          }
+        },
+        {
+          "title": {
+            "pt": "O4 · Acompanhamento e reinvestimento",
+            "en": "O4 · Aftercare and reinvestment",
+            "fr": "O4 · Suivi et réinvestissement"
+          },
+          "where": {
+            "pt": "APIEX",
+            "en": "APIEX",
+            "fr": "APIEX"
+          },
+          "time": {
+            "pt": "Contínuo",
+            "en": "Ongoing",
+            "fr": "Continu"
+          },
+          "text": {
+            "pt": "Resolução de problemas regulatórios, promoção de exportações e apoio à expansão.",
+            "en": "Regulatory problem-solving, export promotion and support for expansion.",
+            "fr": "Résolution des difficultés réglementaires, promotion des exportations et appui à l'expansion."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sector-journeys",
+      "title": {
+        "pt": "Passos adicionais por sector",
+        "en": "Extra steps by sector",
+        "fr": "Étapes supplémentaires par secteur"
+      },
+      "body": {
+        "pt": "Estes passos somam-se ao percurso universal e correm, em regra, em paralelo com o passo 4 ou depois dele.\n\n**Nunca pague taxas informais de facilitação** e peça sempre recibo oficial. Dificuldades: apiex@apiex.gov.mz · +258 21 321 291.",
+        "en": "These steps add to the universal journey and usually run in parallel with, or after, step 4.\n\n**Never pay informal facilitation fees** and always ask for an official receipt. Difficulties: apiex@apiex.gov.mz · +258 21 321 291.",
+        "fr": "Ces étapes s'ajoutent au parcours universel et se déroulent en général en parallèle de l'étape 4 ou après elle.\n\n**Ne payez jamais de frais de facilitation informels** et exigez toujours un reçu officiel. Difficultés : apiex@apiex.gov.mz · +258 21 321 291."
+      },
+      "table": {
+        "caption": {
+          "pt": "Percursos sectoriais (Guia de Investimento APIEX 2026)",
+          "en": "Sector journeys (APIEX Investment Guide 2026)",
+          "fr": "Parcours sectoriels (Guide d'investissement APIEX 2026)"
+        },
+        "columns": [
+          {
+            "pt": "Sector",
+            "en": "Sector",
+            "fr": "Secteur"
+          },
+          {
+            "pt": "Passos-chave adicionais",
+            "en": "Key extra steps",
+            "fr": "Étapes clés supplémentaires"
+          },
+          {
+            "pt": "Entidades",
+            "en": "Authorities",
+            "fr": "Autorités"
+          },
+          {
+            "pt": "Prazo indicativo",
+            "en": "Indicative time",
+            "fr": "Délai indicatif"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Energias renováveis",
+              "en": "Renewable energy",
+              "fr": "Énergies renouvelables"
+            },
+            {
+              "pt": "Estudo de ligação à rede, AIA, DUAT, SPV e PPA em paralelo; concessão e acordo de compra com a EDM",
+              "en": "Grid connection study, EIA, DUAT, SPV and PPA in parallel; concession and offtake agreement with EDM",
+              "fr": "Étude de raccordement, EIE, DUAT, SPV et PPA en parallèle ; concession et contrat d'achat avec EDM"
+            },
+            {
+              "pt": "MIREME · ARENE · EDM · FUNAE",
+              "en": "MIREME · ARENE · EDM · FUNAE",
+              "fr": "MIREME · ARENE · EDM · FUNAE"
+            },
+            {
+              "pt": "36–72 meses até à operação comercial",
+              "en": "36–72 months to commercial operation",
+              "fr": "36–72 mois jusqu'à la mise en service"
+            }
+          ],
+          [
+            {
+              "pt": "Agro-negócio",
+              "en": "Agribusiness",
+              "fr": "Agro-industrie"
+            },
+            {
+              "pt": "DUAT é o caminho crítico (provisório, definitivo ou direitos comunitários); consulta comunitária com pelo menos 3 assembleias; licença de uso de água; AIA se aplicável",
+              "en": "DUAT is the critical path (provisional, definitive or community rights); community consultation with at least 3 assemblies; water use permit; EIA if triggered",
+              "fr": "Le DUAT est le chemin critique (provisoire, définitif ou droits communautaires) ; consultation communautaire avec au moins 3 assemblées ; permis d'usage de l'eau ; EIE si requise"
+            },
+            {
+              "pt": "MAAP · DINAT · DNAAS",
+              "en": "MAAP · DINAT · DNAAS",
+              "fr": "MAAP · DINAT · DNAAS"
+            },
+            {
+              "pt": "DUAT: 3–24 meses",
+              "en": "DUAT: 3–24 months",
+              "fr": "DUAT : 3–24 mois"
+            }
+          ],
+          [
+            {
+              "pt": "Turismo",
+              "en": "Tourism",
+              "fr": "Tourisme"
+            },
+            {
+              "pt": "Contacto prévio com a ANDITUR; concessão ou DUAT; AIA obrigatória em zonas costeiras e grandes projectos; licença turística",
+              "en": "ANDITUR pre-engagement; concession or DUAT; EIA mandatory for coastal and large projects; tourism licence",
+              "fr": "Contact préalable avec l'ANDITUR ; concession ou DUAT ; EIE obligatoire pour les projets côtiers et de grande taille ; licence touristique"
+            },
+            {
+              "pt": "ANDITUR · ANAC · MAAP",
+              "en": "ANDITUR · ANAC · MAAP",
+              "fr": "ANDITUR · ANAC · MAAP"
+            },
+            {
+              "pt": "Concessão/DUAT: 3–18 meses",
+              "en": "Concession/DUAT: 3–18 months",
+              "fr": "Concession/DUAT : 3–18 mois"
+            }
+          ],
+          [
+            {
+              "pt": "Indústria ligeira",
+              "en": "Light manufacturing",
+              "fr": "Industrie légère"
+            },
+            {
+              "pt": "Licença industrial; conformidade ambiental se aplicável; ou instalação num parque/zona com autoridade única",
+              "en": "Industrial licence; environmental compliance if applicable; or set up in a park/zone with a single authority",
+              "fr": "Licence industrielle ; conformité environnementale si applicable ; ou implantation dans un parc/une zone à autorité unique"
+            },
+            {
+              "pt": "Ministério da Economia / BAU · MozParks",
+              "en": "Ministry of Economy / BAU · MozParks",
+              "fr": "Ministère de l'Économie / BAU · MozParks"
+            },
+            {
+              "pt": "Licença industrial: 2–4 semanas",
+              "en": "Industrial licence: 2–4 weeks",
+              "fr": "Licence industrielle : 2–4 semaines"
+            }
+          ],
+          [
+            {
+              "pt": "Pescas e aquacultura",
+              "en": "Fisheries and aquaculture",
+              "fr": "Pêche et aquaculture"
+            },
+            {
+              "pt": "Licença de pesca ou aquacultura; registo de embarcação estrangeira; licença de processamento; AIA se aplicável",
+              "en": "Fishing or aquaculture licence; foreign vessel registration; processing licence; EIA if applicable",
+              "fr": "Licence de pêche ou d'aquaculture ; enregistrement du navire étranger ; licence de transformation ; EIE si applicable"
+            },
+            {
+              "pt": "MAAP · INAMAR",
+              "en": "MAAP · INAMAR",
+              "fr": "MAAP · INAMAR"
+            },
+            {
+              "pt": "Licença: 4–8 semanas",
+              "en": "Licence: 4–8 weeks",
+              "fr": "Licence : 4–8 semaines"
+            }
+          ],
+          [
+            {
+              "pt": "PPP e grandes projectos",
+              "en": "PPPs and large projects",
+              "fr": "PPP et grands projets"
+            },
+            {
+              "pt": "Contacto prévio com a UTAP; estudo de viabilidade e AIA de categoria A; submissão ao Conselho de Ministros; negociação do contrato (Lei das PPP n.º 15/2011)",
+              "en": "UTAP pre-engagement; feasibility study and Category A EIA; Council of Ministers submission; contract negotiation (PPP Law No. 15/2011)",
+              "fr": "Contact préalable avec l'UTAP ; étude de faisabilité et EIE de catégorie A ; dépôt au Conseil des ministres ; négociation du contrat (loi PPP n° 15/2011)"
+            },
+            {
+              "pt": "UTAP · Conselho de Ministros · APIEX",
+              "en": "UTAP · Council of Ministers · APIEX",
+              "fr": "UTAP · Conseil des ministres · APIEX"
+            },
+            {
+              "pt": "Estudos: 6–18 meses; decisão até 120 dias",
+              "en": "Studies: 6–18 months; decision up to 120 days",
+              "fr": "Études : 6–18 mois ; décision jusqu'à 120 jours"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

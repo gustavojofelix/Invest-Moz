@@ -1,0 +1,70 @@
+{
+  "id": "exchange",
+  "sections": [
+    {
+      "id": "framework",
+      "title": {
+        "pt": "Enquadramento",
+        "en": "Framework",
+        "fr": "Cadre"
+      },
+      "body": {
+        "pt": "Os câmbios regem-se pela Lei n.º 11/2009 [ref:lei-11-2009] e pelo regulamento aprovado pelo Banco de Moçambique através do Aviso n.º 3/GBM/2024, de 20 de Março de 2024, que revogou as regras anteriores [ref:aviso-3-gbm-2024].\n\nOs pedidos são feitos através de um **banco intermediário**, que verifica a documentação e enquadra a operação. Desde Janeiro de 2016, o uso do dólar, do rand e do euro nas transacções comerciais internas é restrito: em Moçambique, factura-se e paga-se em meticais [ref:business-guide-2025].",
+        "en": "Exchange control is governed by Law 11/2009 [ref:lei-11-2009] and by the regulations the Bank of Mozambique approved through Notice 3/GBM/2024 of 20 March 2024, which revoked the previous rules [ref:aviso-3-gbm-2024].\n\nRequests go through an **intermediary bank**, which checks the documents and classifies the operation. Since January 2016 the use of the US dollar, rand and euro in domestic business transactions has been restricted: in Mozambique you invoice and pay in meticais [ref:business-guide-2025].",
+        "fr": "Le contrôle des changes est régi par la loi n° 11/2009 [ref:lei-11-2009] et par le règlement approuvé par la Banque du Mozambique par l'avis n° 3/GBM/2024 du 20 mars 2024, qui a abrogé les règles antérieures [ref:aviso-3-gbm-2024].\n\nLes demandes passent par une **banque intermédiaire**, qui vérifie les documents et qualifie l'opération. Depuis janvier 2016, l'usage du dollar, du rand et de l'euro dans les transactions commerciales internes est restreint : au Mozambique, on facture et on paie en meticais [ref:business-guide-2025]."
+      }
+    },
+    {
+      "id": "fdi-registration",
+      "title": {
+        "pt": "Registo do investimento directo estrangeiro",
+        "en": "Registering foreign direct investment",
+        "fr": "Enregistrement de l'investissement direct étranger"
+      },
+      "body": {
+        "pt": "O IDE está **automaticamente autorizado**; basta registá-lo no banco intermediário [ref:aviso-3-gbm-2024]:\n- a entrada de divisas é registada em tempo real e classificada pelo banco;\n- se o investimento incluir máquinas, equipamento ou outros bens, o registo no Banco de Moçambique deve ser feito no prazo de **90 dias**;\n- o registo é a base para repatriar lucros e capital: a garantia de exportação de lucros exige um IDE mínimo de **MZN 6,5 milhões** (cerca de USD 100 000) [ref:lei-8-2023].",
+        "en": "FDI is **automatically authorised**; it only needs to be registered with the intermediary bank [ref:aviso-3-gbm-2024]:\n- the inflow of foreign currency is registered in real time and classified by the bank;\n- if the investment includes machinery, equipment or other goods, registration with the Bank of Mozambique is due within **90 days**;\n- registration is the basis for repatriating profits and capital: the export-of-profits guarantee requires minimum FDI of **MZN 6.5 million** (about USD 100,000) [ref:lei-8-2023].",
+        "fr": "L'IDE est **automatiquement autorisé** ; il suffit de l'enregistrer auprès de la banque intermédiaire [ref:aviso-3-gbm-2024] :\n- l'entrée de devises est enregistrée en temps réel et qualifiée par la banque ;\n- si l'investissement comprend des machines, des équipements ou d'autres biens, l'enregistrement auprès de la Banque du Mozambique doit intervenir dans les **90 jours** ;\n- l'enregistrement fonde le rapatriement des bénéfices et du capital : la garantie d'exportation des bénéfices exige un IDE minimum de **6,5 millions de MZN** (environ 100 000 USD) [ref:lei-8-2023]."
+      }
+    },
+    {
+      "id": "shareholder-loans",
+      "title": {
+        "pt": "Empréstimos de sócios",
+        "en": "Shareholder loans",
+        "fr": "Prêts d'associés"
+      },
+      "body": {
+        "pt": "Os empréstimos de sócios ou de empresas relacionadas estão **automaticamente autorizados** quando [ref:business-guide-2025] [ref:aviso-3-gbm-2024]:\n- a taxa de juro é 0%, o prazo é de três anos ou mais e não há encargos nem comissões; ou\n- a taxa é superior a 0% mas inferior à taxa de referência da moeda do crédito, o prazo é de três anos ou mais, sem comissões nem encargos, até **USD 5 milhões**.\n\nFora destes casos, o empréstimo precisa de autorização prévia do Banco de Moçambique. Lembre-se também da regra fiscal de subcapitalização de 2:1 [ref:ta-tax-indicators].",
+        "en": "Loans from shareholders or related companies are **automatically authorised** when [ref:business-guide-2025] [ref:aviso-3-gbm-2024]:\n- the interest rate is 0%, the term is three years or more and there are no charges or commissions; or\n- the rate is above 0% but below the reference rate for the loan currency, the term is three years or more, with no commissions or charges, up to **USD 5 million**.\n\nOtherwise the loan needs prior authorisation from the Bank of Mozambique. Keep the 2:1 thin capitalisation tax rule in mind too [ref:ta-tax-indicators].",
+        "fr": "Les prêts d'associés ou de sociétés liées sont **automatiquement autorisés** lorsque [ref:business-guide-2025] [ref:aviso-3-gbm-2024] :\n- le taux d'intérêt est de 0 %, la durée est d'au moins trois ans et il n'y a ni frais ni commissions ; ou\n- le taux est supérieur à 0 % mais inférieur au taux de référence de la devise du prêt, la durée est d'au moins trois ans, sans commissions ni frais, jusqu'à **5 millions USD**.\n\nDans les autres cas, le prêt requiert l'autorisation préalable de la Banque du Mozambique. Tenez compte aussi de la règle fiscale de sous-capitalisation de 2:1 [ref:ta-tax-indicators]."
+      }
+    },
+    {
+      "id": "trade-accounts",
+      "title": {
+        "pt": "Exportações, importações e contas",
+        "en": "Exports, imports and accounts",
+        "fr": "Exportations, importations et comptes"
+      },
+      "body": {
+        "pt": "Regras práticas do Aviso n.º 3/GBM/2024 [ref:aviso-3-gbm-2024]:\n- as receitas de exportação entram numa **conta específica** em moeda estrangeira, cujo saldo deve ser usado prioritariamente nos pagamentos ao exterior; as transferências só podem ir para contas da mesma natureza no sistema bancário nacional;\n- deixou de ser permitido pagar em moeda estrangeira a residentes não exportadores;\n- residentes com relação comprovada com o exterior podem abrir contas em moeda estrangeira;\n- importações e exportações são permitidas quando registadas e com pagamento diferido até dois anos;\n- no petróleo e gás, os pagamentos na fase de produção passam por bancos autorizados a operar em Moçambique.",
+        "en": "Practical rules from Notice 3/GBM/2024 [ref:aviso-3-gbm-2024]:\n- export earnings go into a **specific** foreign-currency account whose balance must be used first for payments abroad; transfers may only go to accounts of the same nature in the national banking system;\n- paying non-exporting residents in foreign currency is no longer allowed;\n- residents with a proven link abroad may open foreign-currency accounts;\n- imports and exports are allowed when registered and with payment deferred by no more than two years;\n- in oil and gas, production-phase payments go through banks authorised to operate in Mozambique.",
+        "fr": "Règles pratiques de l'avis n° 3/GBM/2024 [ref:aviso-3-gbm-2024] :\n- les recettes d'exportation sont versées sur un compte **spécifique** en devises, dont le solde doit servir en priorité aux paiements vers l'étranger ; les virements ne peuvent aller que vers des comptes de même nature dans le système bancaire national ;\n- il n'est plus permis de payer en devises des résidents non exportateurs ;\n- les résidents ayant un lien avéré avec l'étranger peuvent ouvrir des comptes en devises ;\n- importations et exportations sont autorisées si elles sont enregistrées et si le paiement n'est pas différé de plus de deux ans ;\n- dans le pétrole et le gaz, les paiements en phase de production passent par des banques autorisées au Mozambique."
+      }
+    },
+    {
+      "id": "compliance",
+      "title": {
+        "pt": "Consequências do incumprimento",
+        "en": "Consequences of non-compliance",
+        "fr": "Conséquences du non-respect"
+      },
+      "body": {
+        "pt": "A maioria das outras operações de capital entre residentes e não residentes exige autorização prévia do Banco de Moçambique e registo [ref:business-guide-2025]. O incumprimento impede a saída de fundos de Moçambique e pode levar a multas e à perda dos bens ou valores envolvidos. Registe cada entrada de capital no momento certo: é o que garante, mais tarde, o repatriamento de dividendos e do capital investido.",
+        "en": "Most other capital operations between residents and non-residents need prior authorisation from the Bank of Mozambique and registration [ref:business-guide-2025]. Non-compliance blocks any outflow of funds from Mozambique and can lead to fines and forfeiture of the assets or amounts involved. Register every capital inflow at the right time: that is what later secures the repatriation of dividends and invested capital.",
+        "fr": "La plupart des autres opérations en capital entre résidents et non-résidents requièrent l'autorisation préalable de la Banque du Mozambique et un enregistrement [ref:business-guide-2025]. Le non-respect bloque toute sortie de fonds du Mozambique et peut entraîner des amendes et la confiscation des biens ou montants concernés. Enregistrez chaque apport au bon moment : c'est ce qui garantit ensuite le rapatriement des dividendes et du capital investi."
+      }
+    }
+  ]
+}

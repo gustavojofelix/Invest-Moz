@@ -93,9 +93,9 @@
           "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})"
         },
         "text": {
-          "pt": "A quota de trabalhadores estrangeiros varia entre {{fact.minQuota}} e {{fact.maxQuota}} consoante a dimensão da empresa ({{QUOTA_BAND_BY_SIZE}}). Contratações dentro da quota exigem comunicação; acima dela, autorização de trabalho.",
-          "en": "The foreign-worker quota ranges from {{fact.minQuota}} to {{fact.maxQuota}} depending on company size ({{QUOTA_BAND_BY_SIZE}}). Hires within the quota require notification; above it, a work permit.",
-          "fr": "Le quota de travailleurs étrangers varie de {{fact.minQuota}} à {{fact.maxQuota}} selon la taille de l'entreprise ({{QUOTA_BAND_BY_SIZE}}). Les embauches dans le quota exigent une communication ; au-delà, un permis de travail."
+          "pt": "Com {{fact.workers}} trabalhadores, a quota de trabalhadores estrangeiros é de {{fact.quota}} (5% acima de 100 trabalhadores, 8% de 31 a 100, 10% de 11 a 30 e 15% até 10). Contratações dentro da quota exigem comunicação; acima dela, autorização de trabalho.",
+          "en": "With {{fact.workers}} workers, the foreign-worker quota is {{fact.quota}} (5% above 100 workers, 8% from 31 to 100, 10% from 11 to 30 and 15% up to 10). Hires within the quota require notification; above it, a work permit.",
+          "fr": "Avec {{fact.workers}} salariés, le quota de travailleurs étrangers est de {{fact.quota}} (5 % au-delà de 100 salariés, 8 % de 31 à 100, 10 % de 11 à 30 et 15 % jusqu'à 10). Les embauches dans le quota exigent une communication ; au-delà, un permis de travail."
         },
         "refs": ["lei-13-2023", "dec-88-2024"]
       }
@@ -112,9 +112,9 @@
           "fr": "{{fact.foreignWorkers}} étrangers sur {{fact.workers}} salariés ({{fact.ratio}})"
         },
         "text": {
-          "pt": "Acima do máximo de {{fact.maxQuota}} da quota: os trabalhadores excedentes precisam de autorização de trabalho fora da quota, com justificação técnica e plano de formação de moçambicanos.",
-          "en": "Above the {{fact.maxQuota}} quota ceiling: the excess workers need out-of-quota work permits, with technical justification and a plan to train Mozambicans.",
-          "fr": "Au-delà du plafond de {{fact.maxQuota}} : les travailleurs en excédent nécessitent un permis de travail hors quota, avec justification technique et plan de formation de Mozambicains."
+          "pt": "Acima da quota de {{fact.quota}} aplicável a {{fact.workers}} trabalhadores: os trabalhadores excedentes precisam de autorização de trabalho fora da quota, com justificação técnica e plano de formação de moçambicanos.",
+          "en": "Above the {{fact.quota}} quota that applies to {{fact.workers}} workers: the excess workers need out-of-quota work permits, with technical justification and a plan to train Mozambicans.",
+          "fr": "Au-delà du quota de {{fact.quota}} applicable à {{fact.workers}} salariés : les travailleurs en excédent nécessitent un permis de travail hors quota, avec justification technique et plan de formation de Mozambicains."
         },
         "refs": ["lei-13-2023", "dec-88-2024"]
       }
@@ -127,11 +127,11 @@
         "severity": "info",
         "fact": { "pt": "Receitas de exportação", "en": "Export proceeds", "fr": "Recettes d'exportation" },
         "text": {
-          "pt": "As receitas de exportação seguem as regras cambiais de repatriamento e conversão ({{EXPORT_PROCEEDS_RULE}}); prever contas em moeda estrangeira e o calendário de recebimentos.",
-          "en": "Export proceeds follow the exchange rules on repatriation and conversion ({{EXPORT_PROCEEDS_RULE}}); plan foreign-currency accounts and the collection schedule.",
-          "fr": "Les recettes d'exportation suivent les règles de change sur le rapatriement et la conversion ({{EXPORT_PROCEEDS_RULE}}) ; prévoir des comptes en devises et le calendrier d'encaissement."
+          "pt": "As receitas de exportação são recebidas numa conta específica em moeda estrangeira, cujo saldo deve ser usado prioritariamente nos pagamentos ao exterior; o repatriamento segue os termos do Banco de Moçambique. Prever estas contas e o calendário de recebimentos.",
+          "en": "Export proceeds are received in a dedicated foreign-currency account, whose balance must be used first for payments abroad; repatriation follows the Banco de Moçambique's terms. Plan these accounts and the collection schedule.",
+          "fr": "Les recettes d'exportation sont reçues sur un compte spécifique en devises, dont le solde doit servir en priorité aux paiements à l'étranger ; le rapatriement suit les conditions de la Banco de Moçambique. Prévoir ces comptes et le calendrier d'encaissement."
         },
-        "refs": ["lei-11-2009", "aviso-4-gbm-2024"]
+        "refs": ["lei-11-2009", "aviso-3-gbm-2024", "business-guide-2025"]
       }
     },
     {

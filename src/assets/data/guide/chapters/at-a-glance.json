@@ -1,0 +1,301 @@
+{
+  "id": "at-a-glance",
+  "sections": [
+    {
+      "id": "essentials",
+      "title": {
+        "pt": "O essencial",
+        "en": "Country essentials",
+        "fr": "L'essentiel"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "≈ 34,6 milhões",
+            "en": "≈ 34.6 million",
+            "fr": "≈ 34,6 millions"
+          },
+          "label": {
+            "pt": "habitantes, a crescer ≈ 2,8% ao ano (Banco Mundial, 2024)",
+            "en": "people, growing ≈ 2.8% a year (World Bank, 2024)",
+            "fr": "habitants, en hausse de ≈ 2,8 % par an (Banque mondiale, 2024)"
+          }
+        },
+        {
+          "value": {
+            "pt": "≈ 17 anos",
+            "en": "≈ 17 years",
+            "fr": "≈ 17 ans"
+          },
+          "label": {
+            "pt": "idade mediana — uma das populações mais jovens do mundo",
+            "en": "median age — one of the world's youngest populations",
+            "fr": "âge médian — l'une des populations les plus jeunes du monde"
+          }
+        },
+        {
+          "value": {
+            "pt": "≈ 14 milhões",
+            "en": "≈ 14 million",
+            "fr": "≈ 14 millions"
+          },
+          "label": {
+            "pt": "população activa, em expansão (OIT / Banco Mundial)",
+            "en": "labour force, and growing (ILO / World Bank)",
+            "fr": "population active, en croissance (OIT / Banque mondiale)"
+          }
+        },
+        {
+          "value": {
+            "pt": "801 590 km²",
+            "en": "801,590 km²",
+            "fr": "801 590 km²"
+          },
+          "label": {
+            "pt": "de território, com ≈ 2 700 km de costa no Índico",
+            "en": "of land, with ≈ 2,700 km of Indian Ocean coastline",
+            "fr": "de territoire, avec ≈ 2 700 km de côtes sur l'océan Indien"
+          }
+        }
+      ],
+      "body": {
+        "pt": "**Capital:** Maputo. **Língua oficial:** português. **Moeda:** metical (MZN).\n\nMoçambique é uma república presidencialista multipartidária: o Presidente, chefe de Estado e de Governo, é eleito por sufrágio directo para mandatos de cinco anos, e a Assembleia da República é unicameral. O sistema jurídico é romano-germânico (direito civil), com tribunais judiciais, administrativos, fiscais e aduaneiros [ref:business-guide-2025].\n\nO clima é tropical, com duas estações: quente e chuvosa de Outubro a Março, seca de Abril a Setembro.",
+        "en": "**Capital:** Maputo. **Official language:** Portuguese. **Currency:** metical (MZN).\n\nMozambique is a multiparty presidential republic: the President, head of state and of government, is directly elected for five-year terms, and the Assembly of the Republic is unicameral. The legal system is Roman-Germanic (civil law), with judicial, administrative, tax and customs courts [ref:business-guide-2025].\n\nThe climate is tropical, with two seasons: hot and wet from October to March, dry from April to September.",
+        "fr": "**Capitale :** Maputo. **Langue officielle :** portugais. **Monnaie :** metical (MZN).\n\nLe Mozambique est une république présidentielle multipartite : le Président, chef de l'État et du gouvernement, est élu au suffrage direct pour cinq ans, et l'Assemblée de la République est monocamérale. Le système juridique est romano-germanique (droit civil), avec des juridictions judiciaires, administratives, fiscales et douanières [ref:business-guide-2025].\n\nLe climat est tropical, avec deux saisons : chaude et humide d'octobre à mars, sèche d'avril à septembre."
+      }
+    },
+    {
+      "id": "economy",
+      "title": {
+        "pt": "Economia",
+        "en": "Economy",
+        "fr": "Économie"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "≈ USD 22 mil milhões",
+            "en": "≈ USD 22 billion",
+            "fr": "≈ 22 milliards USD"
+          },
+          "label": {
+            "pt": "PIB (Banco Mundial, 2024)",
+            "en": "GDP (World Bank, 2024)",
+            "fr": "PIB (Banque mondiale, 2024)"
+          }
+        },
+        {
+          "value": {
+            "pt": "≈ 4–5%",
+            "en": "≈ 4–5%",
+            "fr": "≈ 4–5 %"
+          },
+          "label": {
+            "pt": "crescimento médio anual (Banco de Moçambique / INE, 2024)",
+            "en": "average annual growth (Bank of Mozambique / INE, 2024)",
+            "fr": "croissance annuelle moyenne (Banque du Mozambique / INE, 2024)"
+          }
+        },
+        {
+          "value": {
+            "pt": "≈ USD 3,5 mil milhões",
+            "en": "≈ USD 3.5 billion",
+            "fr": "≈ 3,5 milliards USD"
+          },
+          "label": {
+            "pt": "de IDE em 2024, +40% face ao ano anterior (Banco de Moçambique)",
+            "en": "of FDI in 2024, up 40% year on year (Bank of Mozambique)",
+            "fr": "d'IDE en 2024, +40 % sur un an (Banque du Mozambique)"
+          }
+        },
+        {
+          "value": {
+            "pt": "≈ 15%",
+            "en": "≈ 15%",
+            "fr": "≈ 15 %"
+          },
+          "label": {
+            "pt": "rácio IDE/PIB — dos mais altos da África Subsariana",
+            "en": "FDI-to-GDP ratio — among the highest in Sub-Saharan Africa",
+            "fr": "ratio IDE/PIB — parmi les plus élevés d'Afrique subsaharienne"
+          }
+        }
+      ],
+      "body": {
+        "pt": "As principais exportações são carvão, GNL, alumínio e gás natural, a par de tabaco, açúcar, algodão, castanha de caju, gergelim e leguminosas.\n\nO Business Guide 2025 previa uma aceleração do crescimento para 6% em 2025, impulsionada pelos serviços e pela produção de GNL, com riscos climáticos, de segurança e de preços que podem reduzi-lo para 4,5% no médio prazo, e uma inflação de cerca de 7% [ref:business-guide-2025].",
+        "en": "The main exports are coal, LNG, aluminium and natural gas, alongside tobacco, sugar, cotton, cashew nuts, sesame and pulses.\n\nThe Business Guide 2025 expected growth to accelerate to 6% in 2025, driven by services and LNG production, with climate, security and price risks that could lower it to 4.5% in the medium term, and inflation of about 7% [ref:business-guide-2025].",
+        "fr": "Les principales exportations sont le charbon, le GNL, l'aluminium et le gaz naturel, ainsi que le tabac, le sucre, le coton, la noix de cajou, le sésame et les légumineuses.\n\nLe Business Guide 2025 prévoyait une accélération de la croissance à 6 % en 2025, portée par les services et la production de GNL, avec des risques climatiques, sécuritaires et de prix pouvant la ramener à 4,5 % à moyen terme, et une inflation d'environ 7 % [ref:business-guide-2025]."
+      }
+    },
+    {
+      "id": "resources",
+      "title": {
+        "pt": "Recursos e infra-estruturas",
+        "en": "Resources and infrastructure",
+        "fr": "Ressources et infrastructures"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "180+ tcf",
+            "en": "180+ tcf",
+            "fr": "180+ tcf"
+          },
+          "label": {
+            "pt": "de reservas provadas de gás natural na Bacia do Rovuma",
+            "en": "of proven natural gas reserves in the Rovuma Basin",
+            "fr": "de réserves prouvées de gaz naturel dans le bassin du Rovuma"
+          }
+        },
+        {
+          "value": {
+            "pt": "36 milhões ha",
+            "en": "36 million ha",
+            "fr": "36 millions ha"
+          },
+          "label": {
+            "pt": "de terra arável; menos de 15% cultivada, 3–5% irrigada",
+            "en": "of arable land; under 15% cultivated, 3–5% irrigated",
+            "fr": "de terres arables ; moins de 15 % cultivées, 3–5 % irriguées"
+          }
+        },
+        {
+          "value": {
+            "pt": "2 075 MW",
+            "en": "2,075 MW",
+            "fr": "2 075 MW"
+          },
+          "label": {
+            "pt": "Cahora Bassa — excedente exportado para a região",
+            "en": "Cahora Bassa — surplus exported to the region",
+            "fr": "Cahora Bassa — excédent exporté dans la région"
+          }
+        },
+        {
+          "value": {
+            "pt": "32 milhões t",
+            "en": "32 million t",
+            "fr": "32 millions t"
+          },
+          "label": {
+            "pt": "movimentadas no Porto de Maputo em 2025, recorde histórico",
+            "en": "handled at the Port of Maputo in 2025, an all-time record",
+            "fr": "traitées au port de Maputo en 2025, record historique"
+          }
+        }
+      ],
+      "body": {
+        "pt": "- **Minerais:** grafite de Balama (escala mundial), areias pesadas, rubis, carvão, ouro e mármore.\n- **Pescas:** potencial de 220 000 a 330 000 toneladas por ano.\n- **Portos e ferrovia:** Maputo, Beira e Nacala, ligados pelos corredores ferroviários da CFM aos países vizinhos sem litoral.\n- **Conectividade:** fibra no corredor de Maputo, dados móveis em todo o país, três cabos submarinos (incluindo o 2Africa) e centros de dados Tier III.",
+        "en": "- **Minerals:** Balama graphite (world-scale), heavy mineral sands, rubies, coal, gold and marble.\n- **Fisheries:** potential of 220,000 to 330,000 tonnes a year.\n- **Ports and rail:** Maputo, Beira and Nacala, linked by CFM's rail corridors to landlocked neighbours.\n- **Connectivity:** fibre along the Maputo corridor, nationwide mobile data, three submarine cables (including 2Africa) and Tier III data centres.",
+        "fr": "- **Minéraux :** graphite de Balama (d'envergure mondiale), sables minéralisés, rubis, charbon, or et marbre.\n- **Pêche :** potentiel de 220 000 à 330 000 tonnes par an.\n- **Ports et rail :** Maputo, Beira et Nacala, reliés par les corridors ferroviaires des CFM aux voisins enclavés.\n- **Connectivité :** fibre le long du corridor de Maputo, données mobiles dans tout le pays, trois câbles sous-marins (dont 2Africa) et centres de données Tier III."
+      }
+    },
+    {
+      "id": "market-access",
+      "title": {
+        "pt": "Acesso a mercados",
+        "en": "Market access",
+        "fr": "Accès aux marchés"
+      },
+      "body": {
+        "pt": "Moçambique faz fronteira com seis países e é membro da SADC, da União Africana, da CPLP, da Commonwealth e da OMC. A produção instalada no país pode servir o mercado interno, a região e a Europa.",
+        "en": "Mozambique borders six countries and is a member of SADC, the African Union, the CPLP, the Commonwealth and the WTO. Production based in the country can serve the domestic market, the region and Europe.",
+        "fr": "Le Mozambique partage ses frontières avec six pays et est membre de la SADC, de l'Union africaine, de la CPLP, du Commonwealth et de l'OMC. Une production installée dans le pays peut desservir le marché intérieur, la région et l'Europe."
+      },
+      "table": {
+        "caption": {
+          "pt": "Acordos comerciais",
+          "en": "Trade agreements",
+          "fr": "Accords commerciaux"
+        },
+        "columns": [
+          {
+            "pt": "Acordo",
+            "en": "Agreement",
+            "fr": "Accord"
+          },
+          {
+            "pt": "Âmbito",
+            "en": "Scope",
+            "fr": "Portée"
+          },
+          {
+            "pt": "Para o investidor",
+            "en": "For the investor",
+            "fr": "Pour l'investisseur"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "SADC",
+              "en": "SADC",
+              "fr": "SADC"
+            },
+            {
+              "pt": "15 membros · mais de 253 milhões de consumidores",
+              "en": "15 members · 253M+ consumers",
+              "fr": "15 membres · plus de 253 millions de consommateurs"
+            },
+            {
+              "pt": "Acesso isento de direitos ao abrigo do Protocolo Comercial da SADC",
+              "en": "Duty-free access under the SADC Trade Protocol",
+              "fr": "Accès en franchise de droits au titre du protocole commercial de la SADC"
+            }
+          ],
+          [
+            {
+              "pt": "ZCLCA (AfCFTA)",
+              "en": "AfCFTA",
+              "fr": "ZLECAf"
+            },
+            {
+              "pt": "54 signatários · 1,4 mil milhões de pessoas · PIB ≈ USD 3,4 biliões",
+              "en": "54 signatories · 1.4 billion people · GDP ≈ USD 3.4 trillion",
+              "fr": "54 signataires · 1,4 milliard de personnes · PIB ≈ 3 400 milliards USD"
+            },
+            {
+              "pt": "Mercado continental em liberalização progressiva",
+              "en": "A continental market being progressively liberalised",
+              "fr": "Un marché continental en libéralisation progressive"
+            }
+          ],
+          [
+            {
+              "pt": "APE UE–SADC",
+              "en": "EU–SADC EPA",
+              "fr": "APE UE–SADC"
+            },
+            {
+              "pt": "Todos os Estados-Membros da UE",
+              "en": "All EU member states",
+              "fr": "Tous les États membres de l'UE"
+            },
+            {
+              "pt": "Acesso preferencial ou isento de direitos para bens moçambicanos",
+              "en": "Preferential or duty-free access for Mozambican goods",
+              "fr": "Accès préférentiel ou en franchise pour les produits mozambicains"
+            }
+          ],
+          [
+            {
+              "pt": "Commonwealth",
+              "en": "Commonwealth",
+              "fr": "Commonwealth"
+            },
+            {
+              "pt": "56 membros",
+              "en": "56 members",
+              "fr": "56 membres"
+            },
+            {
+              "pt": "Ligações comerciais ao Reino Unido, Índia, Austrália e Canadá",
+              "en": "Commercial links to the UK, India, Australia and Canada",
+              "fr": "Liens commerciaux avec le Royaume-Uni, l'Inde, l'Australie et le Canada"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

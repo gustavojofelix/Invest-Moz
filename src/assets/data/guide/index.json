@@ -1,0 +1,241 @@
+{
+  "lastReviewed": "2026-10-28",
+  "sources": [
+    {
+      "id": "apiex-2026",
+      "title": "Invest in Mozambique — Your Investment Guide (2nd ed.)",
+      "publisher": {
+        "pt": "APIEX · Ministério da Economia",
+        "en": "APIEX · Ministry of Economy",
+        "fr": "APIEX · Ministère de l'Économie"
+      },
+      "date": "2026-05",
+      "refId": "apiex-guide-2026"
+    },
+    {
+      "id": "ta-registration",
+      "title": "How to Register a Company in Mozambique",
+      "publisher": {
+        "pt": "Tax Advisory",
+        "en": "Tax Advisory",
+        "fr": "Tax Advisory"
+      },
+      "date": "2026"
+    },
+    {
+      "id": "ta-tax-indicators",
+      "title": "Mozambique — Tax Indicators",
+      "publisher": {
+        "pt": "Tax Advisory",
+        "en": "Tax Advisory",
+        "fr": "Tax Advisory"
+      },
+      "date": "2018-09",
+      "refId": "ta-tax-indicators"
+    },
+    {
+      "id": "ta-dta",
+      "title": "Mozambique — Double Tax Treaties",
+      "publisher": {
+        "pt": "Tax Advisory",
+        "en": "Tax Advisory",
+        "fr": "Tax Advisory"
+      },
+      "date": "2018-09",
+      "refId": "ta-dta-rates"
+    },
+    {
+      "id": "lexafrica-2025",
+      "title": "Business Guide 2025 — Mozambique",
+      "publisher": {
+        "pt": "Lex Africa · JLA Advogados",
+        "en": "Lex Africa · JLA Advogados",
+        "fr": "Lex Africa · JLA Advogados"
+      },
+      "date": "2025",
+      "refId": "business-guide-2025"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "at-a-glance",
+      "title": {
+        "pt": "Moçambique em síntese",
+        "en": "Mozambique at a glance",
+        "fr": "Le Mozambique en bref"
+      },
+      "summary": {
+        "pt": "O país, a economia, os recursos e o acesso a mercados: os números essenciais antes de qualquer decisão de investimento.",
+        "en": "The country, the economy, its resources and market access: the key figures before any investment decision.",
+        "fr": "Le pays, l'économie, les ressources et l'accès aux marchés : les chiffres essentiels avant toute décision d'investissement."
+      },
+      "sources": ["apiex-2026", "lexafrica-2025"],
+      "topic": "investment"
+    },
+    {
+      "id": "why-mozambique",
+      "title": {
+        "pt": "Porquê investir em Moçambique",
+        "en": "Why invest in Mozambique",
+        "fr": "Pourquoi investir au Mozambique"
+      },
+      "summary": {
+        "pt": "Sete vantagens estruturais que se reforçam entre si: corredores, energia, terra, plataformas industriais, custos, reformas e qualidade de vida.",
+        "en": "Seven structural advantages that reinforce each other: corridors, energy, land, industrial platforms, costs, reforms and quality of life.",
+        "fr": "Sept avantages structurels qui se renforcent mutuellement : corridors, énergie, terre, plateformes industrielles, coûts, réformes et qualité de vie."
+      },
+      "sources": ["apiex-2026"],
+      "topic": "investment"
+    },
+    {
+      "id": "sectors",
+      "title": {
+        "pt": "Sectores prioritários",
+        "en": "Priority sectors",
+        "fr": "Secteurs prioritaires"
+      },
+      "summary": {
+        "pt": "Agronegócio, energias renováveis, turismo, economia digital, logística e conteúdo local: onde o investimento privado já está a acontecer e quem são os interlocutores.",
+        "en": "Agribusiness, renewable energy, tourism, the digital economy, logistics and local content: where private investment is already happening and who to talk to.",
+        "fr": "Agro-industrie, énergies renouvelables, tourisme, économie numérique, logistique et contenu local : là où l'investissement privé est déjà à l'œuvre et les interlocuteurs."
+      },
+      "sources": ["apiex-2026", "lexafrica-2025"],
+      "topic": "local_content"
+    },
+    {
+      "id": "investment-law",
+      "title": {
+        "pt": "Lei do Investimento e APIEX",
+        "en": "Investment Law and APIEX",
+        "fr": "Loi sur l'investissement et APIEX"
+      },
+      "summary": {
+        "pt": "Como a Lei n.º 8/2023 organiza a aprovação de projectos, o que o certificado de investimento desbloqueia e como a APIEX acompanha o investidor do primeiro contacto à operação.",
+        "en": "How Law No. 8/2023 organises project approval, what the Investment Certificate unlocks, and how APIEX supports investors from first contact to operation.",
+        "fr": "Comment la loi n° 8/2023 organise l'approbation des projets, ce que débloque le certificat d'investissement et comment l'APIEX accompagne l'investisseur du premier contact à l'exploitation."
+      },
+      "topic": "investment",
+      "sources": ["apiex-2026", "lexafrica-2025"]
+    },
+    {
+      "id": "company-setup",
+      "title": {
+        "pt": "Constituir uma empresa",
+        "en": "Setting up a company",
+        "fr": "Créer une société"
+      },
+      "summary": {
+        "pt": "As formas societárias disponíveis, os oito passos da constituição de uma sociedade, os documentos de cada passo e o procedimento próprio das sucursais.",
+        "en": "The business forms available, the eight steps to incorporate a company, the documents each step produces, and the separate procedure for branches.",
+        "fr": "Les formes de société disponibles, les huit étapes de la constitution, les documents de chaque étape et la procédure propre aux succursales."
+      },
+      "topic": "companies",
+      "sources": ["ta-registration", "lexafrica-2025"]
+    },
+    {
+      "id": "roadmap",
+      "title": {
+        "pt": "O percurso do investimento",
+        "en": "The investment journey",
+        "fr": "Le parcours de l'investissement"
+      },
+      "summary": {
+        "pt": "As três fases de qualquer investimento — explorar, estabelecer, operar — com os passos, as entidades e os prazos indicativos, e os passos adicionais de cada sector.",
+        "en": "The three phases of any investment — explore, establish, operate — with the steps, institutions and indicative timelines, plus the extra steps each sector adds.",
+        "fr": "Les trois phases de tout investissement — explorer, s'établir, exploiter — avec les étapes, les institutions et les délais indicatifs, et les étapes propres à chaque secteur."
+      },
+      "topic": "licensing",
+      "sources": ["apiex-2026"]
+    },
+    {
+      "id": "zones",
+      "title": {
+        "pt": "Zonas económicas e corredores",
+        "en": "Economic zones and corridors",
+        "fr": "Zones économiques et corridors"
+      },
+      "summary": {
+        "pt": "Zonas Económicas Especiais, Zonas Francas Industriais e parques da MozParks: incentivos, onde ficam e como se ligam aos corredores de Maputo, Beira e Nacala.",
+        "en": "Special Economic Zones, Industrial Free Zones and MozParks parks: their incentives, where they are, and how they connect to the Maputo, Beira and Nacala corridors.",
+        "fr": "Zones économiques spéciales, zones franches industrielles et parcs MozParks : leurs incitations, leur localisation et leur lien avec les corridors de Maputo, Beira et Nacala."
+      },
+      "topic": "incentives",
+      "sources": ["apiex-2026"]
+    },
+    {
+      "id": "tax",
+      "title": {
+        "pt": "Impostos",
+        "en": "Tax",
+        "fr": "Fiscalité"
+      },
+      "summary": {
+        "pt": "As taxas principais para residentes e não residentes, as retenções na fonte, os acordos de dupla tributação e os benefícios fiscais ao investimento.",
+        "en": "The main rates for residents and non-residents, withholding taxes, double tax treaties and the tax incentives for investment.",
+        "fr": "Les principaux taux pour résidents et non-résidents, les retenues à la source, les conventions fiscales et les incitations fiscales à l'investissement."
+      },
+      "topic": "tax",
+      "sources": ["ta-tax-indicators", "ta-dta", "lexafrica-2025", "apiex-2026"]
+    },
+    {
+      "id": "people",
+      "title": {
+        "pt": "Trabalho e imigração",
+        "en": "Labour and immigration",
+        "fr": "Travail et immigration"
+      },
+      "summary": {
+        "pt": "A Lei do Trabalho, a segurança social, os salários mínimos, as quotas de trabalhadores estrangeiros e os vistos para investidores e quadros expatriados.",
+        "en": "The Labour Law, social security, minimum wages, foreign-worker quotas and the visas for investors and expatriate staff.",
+        "fr": "La loi sur le travail, la sécurité sociale, les salaires minimums, les quotas de travailleurs étrangers et les visas des investisseurs et expatriés."
+      },
+      "topic": "labour",
+      "sources": ["lexafrica-2025", "apiex-2026"]
+    },
+    {
+      "id": "exchange",
+      "title": {
+        "pt": "Câmbios e movimentos de capital",
+        "en": "Exchange control and capital",
+        "fr": "Contrôle des changes et capitaux"
+      },
+      "summary": {
+        "pt": "Como registar o investimento estrangeiro, financiar a empresa com empréstimos de sócios, gerir receitas de exportação e repatriar lucros.",
+        "en": "How to register foreign investment, fund the company with shareholder loans, handle export proceeds and repatriate profits.",
+        "fr": "Comment enregistrer l'investissement étranger, financer la société par des prêts d'associés, gérer les recettes d'exportation et rapatrier les bénéfices."
+      },
+      "topic": "exchange",
+      "sources": ["lexafrica-2025", "apiex-2026"]
+    },
+    {
+      "id": "land-esg",
+      "title": {
+        "pt": "Terra, ambiente e financiamento",
+        "en": "Land, environment and finance",
+        "fr": "Terre, environnement et financement"
+      },
+      "summary": {
+        "pt": "O direito de uso da terra (DUAT), a consulta às comunidades, o licenciamento ambiental, os padrões ESG exigidos pelos financiadores e as fontes de financiamento.",
+        "en": "Land use rights (DUAT), community consultation, environmental licensing, the ESG standards lenders require and the sources of finance.",
+        "fr": "Le droit d'usage de la terre (DUAT), la consultation des communautés, l'autorisation environnementale, les normes ESG exigées par les prêteurs et les sources de financement."
+      },
+      "topic": "land",
+      "sources": ["apiex-2026", "lexafrica-2025"]
+    },
+    {
+      "id": "protection",
+      "title": {
+        "pt": "Protecção do investidor e litígios",
+        "en": "Investor protection and disputes",
+        "fr": "Protection de l'investisseur et litiges"
+      },
+      "summary": {
+        "pt": "As garantias legais do investimento, o sistema judicial e a arbitragem, os tratados de protecção de investimentos, o controlo de concentrações e a propriedade intelectual.",
+        "en": "The legal guarantees for investment, the courts and arbitration, investment protection treaties, merger control and intellectual property.",
+        "fr": "Les garanties légales de l'investissement, les tribunaux et l'arbitrage, les traités de protection des investissements, le contrôle des concentrations et la propriété intellectuelle."
+      },
+      "topic": "investment",
+      "sources": ["lexafrica-2025", "apiex-2026"]
+    }
+  ]
+}

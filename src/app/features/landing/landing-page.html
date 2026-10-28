@@ -11,14 +11,17 @@
       </p>
       <p class="mt-6 max-w-xl text-lg text-muted">{{ t('landing.hero.lead') }}</p>
       <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-        <a [routerLink]="['/', lang(), 'project']" class="btn btn-primary">
-          {{ t('landing.hero.primary') }}
+        <a [routerLink]="['/', lang(), 'guide']" class="btn btn-primary">
+          {{ t('landing.hero.guide') }}
           <svg imIcon="arrow-right" [size]="18" aria-hidden="true"></svg>
         </a>
-        <button type="button" class="btn btn-secondary" (click)="viewExample()">
-          {{ t('landing.hero.secondary') }}
-        </button>
+        <a [routerLink]="['/', lang(), 'project']" class="btn btn-secondary">
+          {{ t('landing.hero.primary') }}
+        </a>
       </div>
+      <button type="button" class="link mt-4 text-[0.9375rem]" (click)="viewExample()">
+        {{ t('landing.hero.secondary') }}
+      </button>
     </div>
     <div class="lg:col-span-5">
       <div class="mx-auto max-w-sm lg:max-w-none">
@@ -35,9 +38,38 @@
     </div>
   </section>
 
+  <!-- The guide ------------------------------------------------------------>
+  <section class="border-t border-rule py-16 sm:py-20" aria-labelledby="guide-title">
+    <div class="container-page grid gap-10 lg:grid-cols-12">
+      <div class="lg:col-span-4">
+        <p class="label-caps text-brand">{{ t('landing.guide.eyebrow') }}</p>
+        <h2 id="guide-title" class="mt-3 text-3xl">{{ t('landing.guide.title') }}</h2>
+        <p class="mt-4 text-muted">{{ t('landing.guide.text') }}</p>
+        <a class="btn btn-secondary mt-6" [routerLink]="['/', lang(), 'guide']">
+          {{ t('landing.guide.all') }}
+          <svg imIcon="arrow-right" [size]="18" aria-hidden="true"></svg>
+        </a>
+      </div>
+      <ol class="chapters lg:col-span-8" role="list">
+        @for (c of guide()?.chapters ?? []; track c.id; let i = $index) {
+          <li>
+            <a [routerLink]="['/', lang(), 'guide', c.id]">
+              <span class="font-mono text-xs text-muted">{{
+                (i + 1).toString().padStart(2, '0')
+              }}</span>
+              <span class="font-serif text-lg font-semibold leading-snug">{{
+                c.title | loc: lang()
+              }}</span>
+            </a>
+          </li>
+        }
+      </ol>
+    </div>
+  </section>
+
   @defer (on immediate; hydrate on viewport) {
     <!-- The problem ------------------------------------------------------------>
-    <section class="border-t border-rule bg-panel py-16 sm:py-20" aria-labelledby="problem-title">
+    <section class="border-y border-rule bg-panel py-16 sm:py-20" aria-labelledby="problem-title">
       <div class="container-page">
         <div class="grid gap-6 lg:grid-cols-12">
           <div class="lg:col-span-4">

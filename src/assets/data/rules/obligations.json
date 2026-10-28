@@ -90,9 +90,9 @@
         "frequency": { "pt": "Semestral", "en": "Half-yearly", "fr": "Semestriel" },
         "schedule": { "kind": "text" },
         "note": {
-          "pt": "Datas de entrega {{APIEX_REPORT_DATES}}.",
-          "en": "Filing dates {{APIEX_REPORT_DATES}}.",
-          "fr": "Dates de dépôt {{APIEX_REPORT_DATES}}."
+          "pt": "Entrega de seis em seis meses após a emissão do certificado de investimento; confirmar as datas com o gestor de conta da APIEX.",
+          "en": "Filed every six months after the investment certificate is issued; confirm the dates with your APIEX account manager.",
+          "fr": "Dépôt tous les six mois après la délivrance du certificat d'investissement ; confirmer les dates avec le gestionnaire de compte de l'APIEX."
         },
         "refs": ["lei-8-2023", "apiex-guide-2026"]
       }

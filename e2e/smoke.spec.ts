@@ -5,6 +5,7 @@ import { readFileSync } from 'node:fs';
  * Demo smoke flow (PT on a 360px phone, EN on a 1440px desktop):
  * landing → intake (cashew example) → assessment → Q&A with a citation →
  * enquiry → demo login from the landing page → the enquiry is in the inbox.
+ * Plus the investor guide: landing → guide index → chapter → next chapter.
  */
 type Dict = Record<string, unknown>;
 const load = (path: string): Dict =>
@@ -15,7 +16,7 @@ const get = (dict: Dict, key: string): string =>
 function strings(lang: string) {
   const global = load(`${lang}.json`);
   const scopes: Record<string, Dict> = {};
-  for (const s of ['landing', 'intake', 'assessment', 'qa', 'enquiry', 'inbox'])
+  for (const s of ['landing', 'guide', 'intake', 'assessment', 'qa', 'enquiry', 'inbox'])
     scopes[s] = load(`${s}/${lang}.json`);
   return (key: string) => {
     const [scope, ...rest] = key.split('.');
@@ -105,6 +106,41 @@ test('demo flow: project → assessment → question → enquiry → inbox', asy
   await expect(
     page.getByRole('heading', { level: 1, name: 'Coromandel Agro Exports' }),
   ).toBeVisible();
+  await expectNoHorizontalScroll(page);
+
+  expect(errors).toEqual([]);
+});
+
+test('investor guide: landing → index → chapter → next chapter', async ({ page }, testInfo) => {
+  const lang = (testInfo.project.metadata as { lang: string }).lang;
+  const t = strings(lang);
+  const index = JSON.parse(readFileSync('src/assets/data/guide/index.json', 'utf8')) as {
+    chapters: { id: string; title: Record<string, string> }[];
+  };
+  const [first, second] = index.chapters;
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
+
+  await page.goto(`/${lang}`);
+  await page.getByRole('link', { name: t('landing.hero.guide') }).click();
+  await page.waitForURL(`**/${lang}/guide`);
+  await expect(page.getByRole('heading', { level: 1, name: t('guide.title') })).toBeVisible();
+  await expect(page.getByRole('link', { name: new RegExp(first.title[lang]) })).toHaveCount(1);
+  await expectNoHorizontalScroll(page);
+
+  await page.getByRole('link', { name: new RegExp(first.title[lang]) }).click();
+  await page.waitForURL(`**/${lang}/guide/${first.id}`);
+  await expect(page.getByRole('heading', { level: 1, name: first.title[lang] })).toBeVisible();
+  await expect(page.locator('article section[id]').first()).toBeVisible();
+  await expectNoHorizontalScroll(page);
+
+  await page
+    .getByRole('link', { name: new RegExp(second.title[lang]) })
+    .last()
+    .click();
+  await page.waitForURL(`**/${lang}/guide/${second.id}`);
+  await expect(page.getByRole('heading', { level: 1, name: second.title[lang] })).toBeVisible();
   await expectNoHorizontalScroll(page);
 
   expect(errors).toEqual([]);

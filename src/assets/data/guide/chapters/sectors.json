@@ -1,0 +1,348 @@
+{
+  "id": "sectors",
+  "sections": [
+    {
+      "id": "agribusiness",
+      "title": {
+        "pt": "Agronegócio",
+        "en": "Agribusiness",
+        "fr": "Agro-industrie"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "≈ 25% do PIB",
+            "en": "≈ 25% of GDP",
+            "fr": "≈ 25 % du PIB"
+          },
+          "label": {
+            "pt": "contributo da agricultura, que emprega mais de 70% da força de trabalho",
+            "en": "agriculture's share, employing over 70% of the workforce",
+            "fr": "part de l'agriculture, qui emploie plus de 70 % de la main-d'œuvre"
+          }
+        },
+        {
+          "value": {
+            "pt": "3,6 milhões ha",
+            "en": "3.6 million ha",
+            "fr": "3,6 millions ha"
+          },
+          "label": {
+            "pt": "de potencial de irrigação identificado, menos de 5% irrigado",
+            "en": "of identified irrigation potential, under 5% irrigated",
+            "fr": "de potentiel d'irrigation identifié, moins de 5 % irrigués"
+          }
+        }
+      ],
+      "body": {
+        "pt": "Investidores estrangeiros já produzem fruta tropical para supermercados sul-africanos, tilápia em Cahora Bassa e amido de mandioca com 4 000 pequenos produtores. Quatro subsectores definem a oportunidade:\n\n- **Fruta tropical, frutos secos e horticultura** — papaia, macadâmia, abacate, lichia, ananás e caju, com cadeia de frio até Joanesburgo.\n- **Aquacultura de água doce** e economia azul.\n- **Agro-processamento** — mandioca, coco, gergelim, açúcar, feijão-boer, amendoim e soja ainda saem com pouco valor acrescentado.\n- **Irrigação** — infra-estrutura financiável, com subsídio do FUNPI e garantias da GAPI.\n\nO registo na APIEX dá isenção de direitos na importação de bens de equipamento elegíveis [ref:lei-4-2009]. Interlocutores: APIEX, MAAP (direcções provinciais), CTA, IIAM e ICM.",
+        "en": "Foreign investors already grow tropical fruit for South African supermarkets, farm tilapia on Lake Cahora Bassa and make cassava starch with 4,000 smallholders. Four sub-sectors define the opportunity:\n\n- **Tropical fruit, nuts and horticulture** — papaya, macadamia, avocado, lychee, pineapple and cashew, with a cold chain to Johannesburg.\n- **Freshwater aquaculture** and the blue economy.\n- **Agro-processing** — cassava, coconut, sesame, sugar, pigeon peas, groundnuts and soya still leave with little value added.\n- **Irrigation** — financeable infrastructure, with FUNPI subsidies and GAPI guarantees.\n\nAPIEX registration brings duty-free import of qualifying capital equipment [ref:lei-4-2009]. Contacts: APIEX, MAAP (provincial directorates), CTA, IIAM and ICM.",
+        "fr": "Des investisseurs étrangers produisent déjà des fruits tropicaux pour les supermarchés sud-africains, du tilapia sur le lac Cahora Bassa et de l'amidon de manioc avec 4 000 petits producteurs. Quatre sous-secteurs définissent l'opportunité :\n\n- **Fruits tropicaux, fruits à coque et maraîchage** — papaye, macadamia, avocat, litchi, ananas et cajou, avec une chaîne du froid jusqu'à Johannesburg.\n- **Aquaculture d'eau douce** et économie bleue.\n- **Agro-transformation** — manioc, coco, sésame, sucre, pois d'Angole, arachide et soja sortent encore avec peu de valeur ajoutée.\n- **Irrigation** — infrastructure finançable, avec subventions du FUNPI et garanties de la GAPI.\n\nL'enregistrement APIEX ouvre l'importation en franchise des biens d'équipement éligibles [ref:lei-4-2009]. Interlocuteurs : APIEX, MAAP (directions provinciales), CTA, IIAM et ICM."
+      },
+      "table": {
+        "caption": {
+          "pt": "Três zonas agro-ecológicas",
+          "en": "Three agro-ecological zones",
+          "fr": "Trois zones agro-écologiques"
+        },
+        "columns": [
+          {
+            "pt": "Zona",
+            "en": "Zone",
+            "fr": "Zone"
+          },
+          {
+            "pt": "Províncias",
+            "en": "Provinces",
+            "fr": "Provinces"
+          },
+          {
+            "pt": "Culturas e cadeias de valor",
+            "en": "Crops and value chains",
+            "fr": "Cultures et chaînes de valeur"
+          },
+          {
+            "pt": "Logística",
+            "en": "Logistics",
+            "fr": "Logistique"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Norte",
+              "en": "North",
+              "fr": "Nord"
+            },
+            {
+              "pt": "Niassa, Cabo Delgado, Nampula",
+              "en": "Niassa, Cabo Delgado, Nampula",
+              "fr": "Niassa, Cabo Delgado, Nampula"
+            },
+            {
+              "pt": "Caju, gergelim, algodão, soja, tabaco, macadâmia, aquacultura (lago Niassa)",
+              "en": "Cashew, sesame, cotton, soya, tobacco, macadamia, aquaculture (Lake Niassa)",
+              "fr": "Cajou, sésame, coton, soja, tabac, macadamia, aquaculture (lac Niassa)"
+            },
+            {
+              "pt": "Corredor de Nacala para a Ásia · ZEE de Nacala",
+              "en": "Nacala corridor to Asia · Nacala SEZ",
+              "fr": "Corridor de Nacala vers l'Asie · ZES de Nacala"
+            }
+          ],
+          [
+            {
+              "pt": "Centro",
+              "en": "Centre",
+              "fr": "Centre"
+            },
+            {
+              "pt": "Zambézia, Tete, Manica, Sofala",
+              "en": "Zambézia, Tete, Manica, Sofala",
+              "fr": "Zambézia, Tete, Manica, Sofala"
+            },
+            {
+              "pt": "Chá, milho, açúcar, banana, citrinos, soja, gergelim, mandioca",
+              "en": "Tea, maize, sugar, banana, citrus, soya, sesame, cassava",
+              "fr": "Thé, maïs, sucre, banane, agrumes, soja, sésame, manioc"
+            },
+            {
+              "pt": "Corredor da Beira para o Zimbabwe, a Zâmbia e a RDC · ZEE de Mocuba",
+              "en": "Beira corridor to Zimbabwe, Zambia and the DRC · Mocuba SEZ",
+              "fr": "Corridor de Beira vers le Zimbabwe, la Zambie et la RDC · ZES de Mocuba"
+            }
+          ],
+          [
+            {
+              "pt": "Sul",
+              "en": "South",
+              "fr": "Sud"
+            },
+            {
+              "pt": "Gaza, Inhambane, Maputo",
+              "en": "Gaza, Inhambane, Maputo",
+              "fr": "Gaza, Inhambane, Maputo"
+            },
+            {
+              "pt": "Citrinos, caju, horticultura, abacate, papaia, pecuária, aquacultura marinha",
+              "en": "Citrus, cashew, horticulture, avocado, papaya, livestock, marine aquaculture",
+              "fr": "Agrumes, cajou, maraîchage, avocat, papaye, élevage, aquaculture marine"
+            },
+            {
+              "pt": "Acesso directo ao mercado sul-africano · ZEE do Vale do Limpopo",
+              "en": "Direct access to the South African market · Limpopo Valley SEZ",
+              "fr": "Accès direct au marché sud-africain · ZES de la vallée du Limpopo"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "renewable-energy",
+      "title": {
+        "pt": "Energias renováveis",
+        "en": "Renewable energy",
+        "fr": "Énergies renouvelables"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "≈ 4 000 MW",
+            "en": "≈ 4,000 MW",
+            "fr": "≈ 4 000 MW"
+          },
+          "label": {
+            "pt": "de capacidade instalada, 81% hídrica",
+            "en": "of installed capacity, 81% hydro",
+            "fr": "de capacité installée, 81 % hydraulique"
+          }
+        },
+        {
+          "value": {
+            "pt": "64%",
+            "en": "64%",
+            "fr": "64 %"
+          },
+          "label": {
+            "pt": "taxa de electrificação (31% em 2018)",
+            "en": "electrification rate (31% in 2018)",
+            "fr": "taux d'électrification (31 % en 2018)"
+          }
+        },
+        {
+          "value": {
+            "pt": "≈ 45%",
+            "en": "≈ 45%",
+            "fr": "≈ 45 %"
+          },
+          "label": {
+            "pt": "da energia transaccionada no mercado diário da SAPP",
+            "en": "of energy traded on the SAPP day-ahead market",
+            "fr": "de l'énergie échangée sur le marché journalier du SAPP"
+          }
+        }
+      ],
+      "body": {
+        "pt": "Duas centrais solares de escala comercial já operam (Mocuba, 40 MWp; Cuamba com baterias, 18 MWp), a central a gás de Temane (450 MW) está em construção e Mphanda Nkuwa (1 500 MW) avança para o fecho financeiro. Três factores sustentam o sector:\n\n- **Procura interna estrutural** — a EDM liga mais de 300 000 novos clientes por ano, e o programa «Energia para Todos» visa o acesso universal até 2030.\n- **Mercados regionais** — a África do Sul fecha centrais a carvão e a cintura do cobre enfrenta défices.\n- **Abertura regulatória** — a Lei da Electricidade de 2022 permite vender a compradores que não a EDM, em condições definidas; a regulamentação está a ser concluída.\n\nO desenvolvimento leva tipicamente 36 a 72 meses até à operação comercial. Interlocutores: MIREME, EDM, ARENE, FUNAE e APIEX.",
+        "en": "Two utility-scale solar plants already operate (Mocuba, 40 MWp; Cuamba with battery storage, 18 MWp), the Temane gas plant (450 MW) is under construction and Mphanda Nkuwa (1,500 MW) is moving towards financial close. Three drivers support the sector:\n\n- **Structural domestic demand** — EDM connects over 300,000 new customers a year, and the Energy for All programme targets universal access by 2030.\n- **Regional markets** — South Africa is retiring coal plants and the copper belt faces shortages.\n- **Regulatory opening** — the 2022 Electricity Law allows sales to offtakers other than EDM under defined conditions; secondary legislation is being finalised.\n\nDevelopment typically takes 36 to 72 months to commercial operation. Contacts: MIREME, EDM, ARENE, FUNAE and APIEX.",
+        "fr": "Deux centrales solaires à l'échelle industrielle fonctionnent déjà (Mocuba, 40 MWc ; Cuamba avec stockage, 18 MWc), la centrale à gaz de Temane (450 MW) est en construction et Mphanda Nkuwa (1 500 MW) avance vers le bouclage financier. Trois moteurs soutiennent le secteur :\n\n- **Demande intérieure structurelle** — EDM raccorde plus de 300 000 nouveaux clients par an, et le programme « Énergie pour tous » vise l'accès universel d'ici 2030.\n- **Marchés régionaux** — l'Afrique du Sud ferme ses centrales à charbon et la ceinture du cuivre manque d'électricité.\n- **Ouverture réglementaire** — la loi sur l'électricité de 2022 permet de vendre à d'autres acheteurs qu'EDM, sous conditions ; les textes d'application sont en cours.\n\nLe développement prend généralement 36 à 72 mois jusqu'à l'exploitation commerciale. Interlocuteurs : MIREME, EDM, ARENE, FUNAE et APIEX."
+      }
+    },
+    {
+      "id": "tourism",
+      "title": {
+        "pt": "Turismo",
+        "en": "Tourism",
+        "fr": "Tourisme"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "1,27 milhões",
+            "en": "1.27 million",
+            "fr": "1,27 million"
+          },
+          "label": {
+            "pt": "de chegadas de turistas em 2025, +16% face a 2024",
+            "en": "tourist arrivals in 2025, up 16% on 2024",
+            "fr": "arrivées de touristes en 2025, +16 % par rapport à 2024"
+          }
+        },
+        {
+          "value": {
+            "pt": "USD 1,1 mil milhões+",
+            "en": "USD 1.1B+",
+            "fr": "1,1+ milliard USD"
+          },
+          "label": {
+            "pt": "investidos no turismo entre 2018 e 2022 — terceiro sector de IDE",
+            "en": "invested in tourism in 2018–2022 — the third-largest FDI sector",
+            "fr": "investis dans le tourisme en 2018–2022 — troisième secteur d'IDE"
+          }
+        }
+      ],
+      "body": {
+        "pt": "Mais de 2 500 km de costa pouco desenvolvida, dois sítios do Património Mundial da UNESCO e os arquipélagos das Quirimbas e do Bazaruto. O Governo quer duplicar as receitas do turismo até 2029.\n\n- **Turismo de natureza e conservação** — 10% do território destinado à gestão da fauna; concessões até 25 anos, renováveis.\n- **Turismo costeiro e de lazer** — Vilankulos, Inhambane, Tofo e Ponta do Ouro consolidados; Pemba e as Quirimbas por desenvolver.\n- **Turismo de negócios (MICE)** — Maputo como pólo regional, com procura estrutural ligada ao GNL.\n\nA ANDITUR (ex-INATUR), criada pelo Decreto n.º 19/2026, promove projectos estratégicos e parcerias público-privadas. Interlocutores: ANDITUR, ANAC, Ministério da Economia e APIEX.",
+        "en": "Over 2,500 km of largely undeveloped coastline, two UNESCO World Heritage Sites and the Quirimbas and Bazaruto archipelagos. The government aims to double tourism revenue by 2029.\n\n- **Nature and conservation tourism** — 10% of the land is set aside for wildlife management; concessions of up to 25 years, renewable.\n- **Coastal and leisure tourism** — Vilankulos, Inhambane, Tofo and Ponta do Ouro are established; Pemba and the Quirimbas are largely undeveloped.\n- **Business tourism (MICE)** — Maputo as a regional hub, with structural demand from the LNG sector.\n\nANDITUR (formerly INATUR), created by Decree No. 19/2026, promotes strategic projects and public-private partnerships. Contacts: ANDITUR, ANAC, the Ministry of Economy and APIEX.",
+        "fr": "Plus de 2 500 km de côtes peu aménagées, deux sites du patrimoine mondial de l'UNESCO et les archipels des Quirimbas et de Bazaruto. Le gouvernement veut doubler les recettes touristiques d'ici 2029.\n\n- **Tourisme de nature et de conservation** — 10 % du territoire consacré à la gestion de la faune ; concessions jusqu'à 25 ans, renouvelables.\n- **Tourisme côtier et de loisirs** — Vilankulos, Inhambane, Tofo et Ponta do Ouro sont établis ; Pemba et les Quirimbas restent à développer.\n- **Tourisme d'affaires (MICE)** — Maputo comme pôle régional, avec une demande structurelle liée au GNL.\n\nL'ANDITUR (ex-INATUR), créée par le décret n° 19/2026, promeut les projets stratégiques et les partenariats public-privé. Interlocuteurs : ANDITUR, ANAC, ministère de l'Économie et APIEX."
+      }
+    },
+    {
+      "id": "digital",
+      "title": {
+        "pt": "Economia digital",
+        "en": "Digital economy",
+        "fr": "Économie numérique"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "24 milhões",
+            "en": "24 million",
+            "fr": "24 millions"
+          },
+          "label": {
+            "pt": "cartões SIM activos (≈ 71% de penetração) e outras tantas contas de dinheiro móvel",
+            "en": "active SIM cards (≈ 71% penetration) and as many mobile-money accounts",
+            "fr": "cartes SIM actives (≈ 71 % de pénétration) et autant de comptes de monnaie mobile"
+          }
+        },
+        {
+          "value": {
+            "pt": "EUR 245 milhões",
+            "en": "EUR 245 million",
+            "fr": "245 millions EUR"
+          },
+          "label": {
+            "pt": "de oportunidades identificadas pela ATDI para o sector privado",
+            "en": "of opportunities identified by ATDI for private investors",
+            "fr": "d'opportunités identifiées par l'ATDI pour le secteur privé"
+          }
+        }
+      ],
+      "body": {
+        "pt": "O Governo escolheu posicionar o país como nação digital: um Ministério das Comunicações e Transformação Digital, a agência ATDI (ex-INAGE) e reformas sobre computação em nuvem, centros de dados, partilha de infra-estruturas e roaming nacional. Um programa de USD 350 milhões, apoiado pelo Banco Mundial e pela UE, cobre identidade digital, pagamentos electrónicos e a rede do Governo.\n\nDois centros de dados Tier III abriram em 2024 (Raxio, no Parque de Beluluane, e Vodacom) e três cabos submarinos chegam perto de Maputo.\n\nSectores abertos: centros de dados, conectividade, fintech, montagem de dispositivos, EdTech, HealthTech, AgriTech e BPO. Interlocutores: MCTD, ATDI, INCM, INTIC e APIEX.",
+        "en": "The government has chosen to position the country as a digital nation: a Ministry of Communications and Digital Transformation, the ATDI agency (formerly INAGE) and reforms on cloud computing, data centres, infrastructure sharing and national roaming. A USD 350 million programme backed by the World Bank and the EU covers digital ID, e-payments and the government network.\n\nTwo Tier III data centres opened in 2024 (Raxio, at Beluluane Industrial Park, and Vodacom) and three submarine cables land near Maputo.\n\nOpen sectors: data centres, connectivity, fintech, device assembly, EdTech, HealthTech, AgriTech and BPO. Contacts: MCTD, ATDI, INCM, INTIC and APIEX.",
+        "fr": "Le gouvernement a choisi de faire du pays une nation numérique : un ministère des Communications et de la Transformation numérique, l'agence ATDI (ex-INAGE) et des réformes sur l'informatique en nuage, les centres de données, le partage d'infrastructures et l'itinérance nationale. Un programme de 350 millions USD, soutenu par la Banque mondiale et l'UE, couvre l'identité numérique, les paiements électroniques et le réseau de l'État.\n\nDeux centres de données Tier III ont ouvert en 2024 (Raxio, au parc de Beluluane, et Vodacom) et trois câbles sous-marins atterrissent près de Maputo.\n\nSecteurs ouverts : centres de données, connectivité, fintech, assemblage d'appareils, EdTech, HealthTech, AgriTech et BPO. Interlocuteurs : MCTD, ATDI, INCM, INTIC et APIEX."
+      }
+    },
+    {
+      "id": "logistics",
+      "title": {
+        "pt": "Logística",
+        "en": "Logistics",
+        "fr": "Logistique"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "11,7 milhões t",
+            "en": "11.7 million t",
+            "fr": "11,7 millions t"
+          },
+          "label": {
+            "pt": "por ferrovia no corredor de Maputo em 2025 (+17%)",
+            "en": "by rail on the Maputo corridor in 2025 (+17%)",
+            "fr": "par rail sur le corridor de Maputo en 2025 (+17 %)"
+          }
+        },
+        {
+          "value": {
+            "pt": "530 000 TEU",
+            "en": "530,000 TEU",
+            "fr": "530 000 EVP"
+          },
+          "label": {
+            "pt": "capacidade-alvo do terminal de contentores de Maputo (DP World)",
+            "en": "target capacity of the Maputo container terminal (DP World)",
+            "fr": "capacité visée du terminal à conteneurs de Maputo (DP World)"
+          }
+        }
+      ],
+      "body": {
+        "pt": "A posição de Moçambique não depende do gás nem do carvão: é geografia. O Zimbabwe, a Zâmbia, o Malawi, o Eswatini e a RDC importam e exportam pelos seus corredores.\n\n- **Portos e terminais** — PPP para expansão de terminais e portos secos (Beira, Nacala, Moatize).\n- **Ferrovia** — extensões de concessões e financiamento de material circulante nos corredores de Nacala e da Beira.\n- **Cadeia de frio e armazenagem** — muito aquém da procura, tanto para a distribuição alimentar como para o GNL no norte.\n- **Transporte rodoviário** refrigerado e de carga pesada.\n\nInterlocutores: MPDC, CFM, Ministério dos Transportes e Logística, MozParks e APIEX.",
+        "en": "Mozambique's position does not depend on gas or coal: it is geography. Zimbabwe, Zambia, Malawi, Eswatini and the DRC import and export through its corridors.\n\n- **Ports and terminals** — PPPs for terminal expansion and dry ports (Beira, Nacala, Moatize).\n- **Rail** — concession extensions and rolling-stock finance on the Nacala and Beira corridors.\n- **Cold chain and warehousing** — far short of demand, for food distribution and for LNG in the north.\n- Refrigerated and heavy-load **road transport**.\n\nContacts: MPDC, CFM, the Ministry of Transport and Logistics, MozParks and APIEX.",
+        "fr": "La position du Mozambique ne dépend ni du gaz ni du charbon : c'est la géographie. Le Zimbabwe, la Zambie, le Malawi, l'Eswatini et la RDC importent et exportent par ses corridors.\n\n- **Ports et terminaux** — PPP pour l'extension des terminaux et des ports secs (Beira, Nacala, Moatize).\n- **Rail** — prolongation de concessions et financement du matériel roulant sur les corridors de Nacala et de Beira.\n- **Chaîne du froid et entreposage** — très en deçà de la demande, pour la distribution alimentaire comme pour le GNL au nord.\n- **Transport routier** frigorifique et lourd.\n\nInterlocuteurs : MPDC, CFM, ministère des Transports et de la Logistique, MozParks et APIEX."
+      }
+    },
+    {
+      "id": "local-content",
+      "title": {
+        "pt": "Recursos naturais e conteúdo local",
+        "en": "Natural resources and local content",
+        "fr": "Ressources naturelles et contenu local"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "USD 10 mil milhões+",
+            "en": "USD 10B+",
+            "fr": "10+ milliards USD"
+          },
+          "label": {
+            "pt": "esperados na economia nacional nos próximos cinco anos, só do gás",
+            "en": "expected to reach the domestic economy in the next five years from gas alone",
+            "fr": "attendus dans l'économie nationale en cinq ans, du seul gaz"
+          }
+        },
+        {
+          "value": {
+            "pt": "17 000",
+            "en": "17,000",
+            "fr": "17 000"
+          },
+          "label": {
+            "pt": "empregos directos no pico da construção do Mozambique LNG",
+            "en": "direct jobs at the Mozambique LNG construction peak",
+            "fr": "emplois directs au pic de construction de Mozambique LNG"
+          }
+        }
+      ],
+      "body": {
+        "pt": "A questão não é se a procura do GNL chega, mas quanto dela será satisfeito por empresas locais. Na construção, os operadores precisam já de segurança, catering, aluguer de viaturas, habitação, TIC, limpeza e logística; na fase de operação (15 a 25 anos), de serviços especializados e de fornecimento integrado.\n\nNão existe ainda uma lei única de conteúdo local: as obrigações resultam da Lei dos Petróleos (Lei n.º 21/2014), da Lei de Minas (Lei n.º 20/2014), do Regulamento das Operações Petrolíferas e dos contratos de concessão [ref:lei-21-2014]. O Bureau de Conteúdo Local da CTA (bcl.org.mz) faz a ponte entre fornecedores e operadores.\n\nNa mineração, as licenças de prospecção valem 2 a 5 anos e as concessões até 25 anos, prorrogáveis por mais 25 [ref:business-guide-2025].",
+        "en": "The question is not whether LNG demand will arrive but how much of it local businesses will supply. During construction operators already need security, catering, vehicle rental, housing, ICT, cleaning and logistics; in the operating phase (15 to 25 years), specialised services and integrated supply.\n\nThere is no single local content law yet: obligations come from the Petroleum Law (Law No. 21/2014), the Mining Law (Law No. 20/2014), the Petroleum Operations Regulation and concession contracts [ref:lei-21-2014]. CTA's Local Content Bureau (bcl.org.mz) connects suppliers and operators.\n\nIn mining, exploration licences run for 2 to 5 years and mining concessions for up to 25 years, extendable by another 25 [ref:business-guide-2025].",
+        "fr": "La question n'est pas de savoir si la demande du GNL arrivera, mais quelle part en sera servie par les entreprises locales. Pendant la construction, les opérateurs ont déjà besoin de sécurité, restauration, location de véhicules, logement, TIC, nettoyage et logistique ; en phase d'exploitation (15 à 25 ans), de services spécialisés et d'approvisionnement intégré.\n\nIl n'existe pas encore de loi unique sur le contenu local : les obligations découlent de la loi pétrolière (loi n° 21/2014), de la loi minière (loi n° 20/2014), du règlement des opérations pétrolières et des contrats de concession [ref:lei-21-2014]. Le Bureau du contenu local de la CTA (bcl.org.mz) met en relation fournisseurs et opérateurs.\n\nDans les mines, les licences d'exploration valent 2 à 5 ans et les concessions jusqu'à 25 ans, prorogeables de 25 ans [ref:business-guide-2025]."
+      }
+    }
+  ]
+}

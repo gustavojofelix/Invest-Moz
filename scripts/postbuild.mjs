@@ -67,7 +67,16 @@ for (const file of files(OUT)) {
 }
 
 // 2 -------------------------------------------------------------------------------
-const paths = ['', '/questions', ...TOPICS.map((t) => `/questions/${t}`)];
+const CHAPTERS = JSON.parse(readFileSync('src/assets/data/guide/index.json', 'utf8')).chapters.map(
+  (c) => c.id,
+);
+const paths = [
+  '',
+  '/guide',
+  ...CHAPTERS.map((c) => `/guide/${c}`),
+  '/questions',
+  ...TOPICS.map((t) => `/questions/${t}`),
+];
 const today = new Date().toISOString().slice(0, 10);
 const urls = paths.flatMap((p) =>
   LOCALES.map((l) => {

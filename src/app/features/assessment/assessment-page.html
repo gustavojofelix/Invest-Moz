@@ -274,7 +274,11 @@
                           </div>
                           <div>
                             <dt>{{ t('assessment.regime.threshold') }}</dt>
-                            <dd><im-confirm-text [text]="a.investmentRegime.threshold" /></dd>
+                            <dd>
+                              <im-confirm-text
+                                [text]="a.investmentRegime.threshold | loc: lang()"
+                              />
+                            </dd>
                           </div>
                           <div>
                             <dt>{{ t('assessment.regime.guarantee') }}</dt>

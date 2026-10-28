@@ -1,7 +1,9 @@
 {
   "seo": {
-    "siteTitle": "Invest Moz — Your assistant for investing in Mozambique",
-    "siteDescription": "Describe your project and receive a legal and tax assessment for investing in Mozambique, with the legal references. Tax Advisory × Law Technology Solutions.",
+    "siteTitle": "Invest Moz — The guide to investing in Mozambique",
+    "siteDescription": "The guide to investing in Mozambique: sectors, the Investment Law, companies, tax, labour and exchange control, with the legal references, plus an assessment tailored to your project. Tax Advisory × Law Technology Solutions.",
+    "guide": "Investor guide",
+    "guideDescription": "A guide to investing in Mozambique: sectors, the Investment Law, company setup, tax, labour, exchange control, economic zones and environment, with the legal references. Tax Advisory × Law Technology Solutions.",
     "project": "Your project",
     "assessment": "Setup assessment",
     "questions": "Quick questions",
@@ -16,6 +18,7 @@
   "nav": {
     "home": "Invest Moz — home",
     "main": "Main navigation",
+    "guide": "Guide",
     "project": "Your project",
     "questions": "Questions",
     "contact": "Contact",

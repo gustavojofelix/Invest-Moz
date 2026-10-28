@@ -4,6 +4,7 @@ import {
   AuthService,
   DemoStateService,
   EnquiryRepository,
+  GuideService,
   KnowledgeBase,
   ProjectRepository,
   QaService,
@@ -13,6 +14,7 @@ import { JsonAssessmentService } from './json-assessment-service';
 import { JsonAuthService } from './json-auth-service';
 import { JsonDemoStateService } from './json-demo-state';
 import { JsonEnquiryRepository } from './json-enquiry-repository';
+import { JsonGuideService } from './json-guide-service';
 import { JsonKnowledgeBase } from './json-knowledge-base';
 import { JsonProjectRepository } from './json-project-repository';
 import { JsonQaService } from './json-qa-service';
@@ -26,6 +28,7 @@ export function provideJsonAdapters(): Provider[] {
   return [
     { provide: ReferenceData, useClass: JsonReferenceData },
     { provide: KnowledgeBase, useClass: JsonKnowledgeBase },
+    { provide: GuideService, useClass: JsonGuideService },
     { provide: ProjectRepository, useClass: JsonProjectRepository },
     { provide: AssessmentService, useClass: JsonAssessmentService },
     { provide: QaService, useClass: JsonQaService },

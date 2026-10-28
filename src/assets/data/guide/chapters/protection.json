@@ -1,0 +1,83 @@
+{
+  "id": "protection",
+  "sections": [
+    {
+      "id": "guarantees",
+      "title": {
+        "pt": "Garantias ao investimento",
+        "en": "Investment guarantees",
+        "fr": "Garanties de l'investissement"
+      },
+      "body": {
+        "pt": "A Constituição garante o investimento estrangeiro e o direito de propriedade; a expropriação só é possível por interesse público e mediante justa indemnização [ref:business-guide-2025]. O investimento estrangeiro é permitido em todos os sectores. A Lei n.º 8/2023 consagra como direitos legais [ref:lei-8-2023]:\n- tratamento justo e não discriminatório;\n- protecção dos DUAT;\n- livre transferência de lucros e capital para o exterior, para IDE registado acima do mínimo de MZN 6,5 milhões;\n- acesso à arbitragem do ICSID ou da CCI.\n\nO seguro de risco da MIGA complementa estas garantias.",
+        "en": "The Constitution guarantees foreign investment and the right to property; expropriation is only possible in the public interest and against fair compensation [ref:business-guide-2025]. Foreign investment is allowed in every sector. Law 8/2023 sets out as statutory rights [ref:lei-8-2023]:\n- fair and non-discriminatory treatment;\n- protection of DUATs;\n- free transfer of profits and capital abroad, for registered FDI above the MZN 6.5 million minimum;\n- access to ICSID or ICC arbitration.\n\nMIGA risk insurance complements these guarantees.",
+        "fr": "La Constitution garantit l'investissement étranger et le droit de propriété ; l'expropriation n'est possible que pour cause d'intérêt public et moyennant une juste indemnisation [ref:business-guide-2025]. L'investissement étranger est autorisé dans tous les secteurs. La loi n° 8/2023 consacre comme droits légaux [ref:lei-8-2023] :\n- un traitement juste et non discriminatoire ;\n- la protection des DUAT ;\n- le libre transfert des bénéfices et du capital à l'étranger, pour l'IDE enregistré au-delà du minimum de 6,5 millions de MZN ;\n- l'accès à l'arbitrage du CIRDI ou de la CCI.\n\nL'assurance contre les risques de la MIGA complète ces garanties."
+      }
+    },
+    {
+      "id": "disputes",
+      "title": {
+        "pt": "Tribunais e arbitragem",
+        "en": "Courts and arbitration",
+        "fr": "Tribunaux et arbitrage"
+      },
+      "body": {
+        "pt": "Moçambique segue o sistema romano-germânico (direito civil) [ref:business-guide-2025]. A organização judicial inclui o Tribunal Supremo, os tribunais superiores de recurso, os tribunais provinciais e distritais, o tribunal administrativo e tribunais especiais, como os fiscais e aduaneiros.\n\nAs sentenças arbitrais proferidas em Moçambique têm a força de uma sentença judicial. Moçambique ratificou a **Convenção de Nova Iorque** em 11 de Junho de 1998 (em vigor desde 9 de Setembro de 1998, sob reciprocidade). As sentenças e decisões estrangeiras são executadas após revisão e confirmação pelo Tribunal Supremo.",
+        "en": "Mozambique follows the Roman-Germanic (civil law) system [ref:business-guide-2025]. The courts include the Supreme Court, the superior courts of appeal, provincial and district courts, the administrative court and special courts such as the tax and customs courts.\n\nArbitral awards made in Mozambique are enforced like court judgments. Mozambique ratified the **New York Convention** on 11 June 1998 (in force since 9 September 1998, subject to reciprocity). Foreign awards and judgments are enforced once reviewed and recognised by the Supreme Court.",
+        "fr": "Le Mozambique suit le système romano-germanique (droit civil) [ref:business-guide-2025]. L'organisation judiciaire comprend la Cour suprême, les cours supérieures d'appel, les tribunaux provinciaux et de district, le tribunal administratif et des juridictions spéciales comme les tribunaux fiscaux et douaniers.\n\nLes sentences arbitrales rendues au Mozambique ont la force d'un jugement. Le Mozambique a ratifié la **Convention de New York** le 11 juin 1998 (en vigueur depuis le 9 septembre 1998, sous réserve de réciprocité). Les sentences et jugements étrangers sont exécutés après révision et reconnaissance par la Cour suprême."
+      }
+    },
+    {
+      "id": "bits",
+      "title": {
+        "pt": "Tratados de protecção de investimentos",
+        "en": "Investment protection treaties",
+        "fr": "Traités de protection des investissements"
+      },
+      "body": {
+        "pt": "Moçambique assinou acordos de promoção e protecção recíproca de investimentos com: África do Sul, Argélia, Bélgica, China, Cuba, Dinamarca, Egipto, Emirados Árabes Unidos, Estados Unidos, Finlândia, França, Índia, Indonésia, Itália, Japão, Luxemburgo, Maurícias, Países Baixos, Portugal, Reino Unido, Suécia, Suíça, Vietname e Zimbabwe [ref:business-guide-2025]. Verifique se o país da sua holding consta da lista: pode dar protecção adicional ao investimento.",
+        "en": "Mozambique has signed investment promotion and protection agreements with: Algeria, Belgium, China, Cuba, Denmark, Egypt, Finland, France, India, Indonesia, Italy, Japan, Luxembourg, Mauritius, the Netherlands, Portugal, South Africa, Sweden, Switzerland, the United Arab Emirates, the United Kingdom, the United States, Vietnam and Zimbabwe [ref:business-guide-2025]. Check whether your holding company's country is on the list: it can add protection to the investment.",
+        "fr": "Le Mozambique a signé des accords de promotion et de protection réciproque des investissements avec : l'Afrique du Sud, l'Algérie, la Belgique, la Chine, Cuba, le Danemark, l'Égypte, les Émirats arabes unis, les États-Unis, la Finlande, la France, l'Inde, l'Indonésie, l'Italie, le Japon, le Luxembourg, Maurice, les Pays-Bas, le Portugal, le Royaume-Uni, la Suède, la Suisse, le Viêt Nam et le Zimbabwe [ref:business-guide-2025]. Vérifiez si le pays de votre société holding y figure : cela peut renforcer la protection de l'investissement."
+      }
+    },
+    {
+      "id": "competition",
+      "title": {
+        "pt": "Concorrência e concentrações",
+        "en": "Competition and merger control",
+        "fr": "Concurrence et concentrations"
+      },
+      "body": {
+        "pt": "As concentrações de empresas estão sujeitas a notificação à Autoridade Reguladora da Concorrência (ARC) no prazo de **sete dias úteis** após a conclusão do acordo, quando [ref:business-guide-2025]:\n- resultem numa quota superior a 50% do mercado nacional de um bem ou serviço;\n- resultem numa quota entre 30% e 50%, se pelo menos duas das empresas tiverem, cada uma, volume de negócios em Moçambique superior a MZN 100 milhões;\n- as empresas envolvidas tenham, em conjunto, um volume de negócios em Moçambique de cerca de MZN 900 milhões.\n\nAs fusões no estrangeiro com efeitos em Moçambique também têm de ser notificadas.",
+        "en": "Mergers must be notified to the Competition Regulatory Authority (ARC) within **seven working days** of concluding the agreement when [ref:business-guide-2025]:\n- they result in a share above 50% of the national market for a good or service;\n- they result in a share between 30% and 50%, if at least two of the companies each have turnover in Mozambique above MZN 100 million;\n- the companies involved jointly have turnover in Mozambique of about MZN 900 million.\n\nForeign mergers with effects in Mozambique must also be notified.",
+        "fr": "Les concentrations doivent être notifiées à l'Autorité de régulation de la concurrence (ARC) dans les **sept jours ouvrables** suivant la conclusion de l'accord lorsque [ref:business-guide-2025] :\n- elles aboutissent à une part supérieure à 50 % du marché national d'un bien ou service ;\n- elles aboutissent à une part comprise entre 30 % et 50 %, si au moins deux des entreprises réalisent chacune au Mozambique un chiffre d'affaires supérieur à 100 millions de MZN ;\n- les entreprises concernées réalisent ensemble au Mozambique un chiffre d'affaires d'environ 900 millions de MZN.\n\nLes fusions à l'étranger ayant des effets au Mozambique doivent aussi être notifiées."
+      }
+    },
+    {
+      "id": "ip",
+      "title": {
+        "pt": "Propriedade intelectual",
+        "en": "Intellectual property",
+        "fr": "Propriété intellectuelle"
+      },
+      "body": {
+        "pt": "Os direitos de autor regem-se pela Lei n.º 9/2022 e pelo Decreto n.º 46/2024; marcas, patentes e desenhos pelo Código da Propriedade Industrial (Decreto n.º 47/2015) [ref:business-guide-2025]. Moçambique é membro da OMC, da OMPI e da ARIPO e aderiu às Convenções de Paris e de Berna, ao Acordo e Protocolo de Madrid, ao Tratado de Cooperação em matéria de Patentes (PCT) e aos Protocolos de Banjul e de Harare. Registe as marcas antes de entrar no mercado.",
+        "en": "Copyright is governed by Law 9/2022 and Decree 46/2024; trademarks, patents and designs by the Industrial Property Code (Decree 47/2015) [ref:business-guide-2025]. Mozambique is a member of the WTO, WIPO and ARIPO and has joined the Paris and Berne Conventions, the Madrid Agreement and Protocol, the Patent Cooperation Treaty (PCT) and the Banjul and Harare Protocols. Register your trademarks before entering the market.",
+        "fr": "Le droit d'auteur est régi par la loi n° 9/2022 et le décret n° 46/2024 ; les marques, brevets et dessins par le Code de la propriété industrielle (décret n° 47/2015) [ref:business-guide-2025]. Le Mozambique est membre de l'OMC, de l'OMPI et de l'ARIPO et a adhéré aux conventions de Paris et de Berne, à l'Arrangement et au Protocole de Madrid, au Traité de coopération en matière de brevets (PCT) et aux protocoles de Banjul et de Harare. Enregistrez vos marques avant d'entrer sur le marché."
+      }
+    },
+    {
+      "id": "memberships",
+      "title": {
+        "pt": "Organizações internacionais",
+        "en": "International memberships",
+        "fr": "Organisations internationales"
+      },
+      "body": {
+        "pt": "Moçambique é membro da SADC, da União Africana, das Nações Unidas, da CPLP, dos PALOP, da Commonwealth, do FMI, do Banco Mundial, da OMC, da OIT, da Associação dos Países da Orla do Oceano Índico (IOR-ARC) e da Organização de Cooperação Islâmica, entre outras [ref:business-guide-2025]. Estas adesões dão acesso a mercados regionais e a instrumentos de cooperação e financiamento.",
+        "en": "Mozambique is a member of SADC, the African Union, the United Nations, the CPLP, the PALOP, the Commonwealth, the IMF, the World Bank, the WTO, the ILO, the Indian Ocean Rim Association (IOR-ARC) and the Organisation of Islamic Cooperation, among others [ref:business-guide-2025]. These memberships open regional markets and cooperation and financing instruments.",
+        "fr": "Le Mozambique est membre de la SADC, de l'Union africaine, des Nations unies, de la CPLP, des PALOP, du Commonwealth, du FMI, de la Banque mondiale, de l'OMC, de l'OIT, de l'Association des États riverains de l'océan Indien (IOR-ARC) et de l'Organisation de la coopération islamique, entre autres [ref:business-guide-2025]. Ces adhésions ouvrent des marchés régionaux et des instruments de coopération et de financement."
+      }
+    }
+  ]
+}

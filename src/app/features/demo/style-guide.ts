@@ -190,7 +190,7 @@ export class StyleGuide {
   ];
 
   protected readonly answer =
-    '**Sim, desde que cumpridas as condições.** O IDE deve estar registado [ref:lei-11-2009].\n\nCondições:\n- IDE mínimo de **MZN 6,5 milhões** [ref:lei-8-2023]\n- Taxa a confirmar: {{TREATY_DIVIDEND_RATES}}';
+    '**Sim, desde que cumpridas as condições.** O IDE deve estar registado [ref:lei-11-2009].\n\nCondições:\n- IDE mínimo de **MZN 6,5 milhões** [ref:lei-8-2023]\n- Taxa a confirmar: {{INSS_CONTRIBUTION_RATES}}';
 
   protected openSheet(): void {
     this.sheet.open(StyleGuideSheet, { label: 'Sheet' });

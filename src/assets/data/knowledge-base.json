@@ -93,19 +93,19 @@
       "topic": "investment",
       "instrument": "Decreto n.º 8/2024",
       "title": {
-        "pt": "Decreto n.º 8/2024 (âmbito a confirmar)",
-        "en": "Decree No. 8/2024 (scope to be confirmed)",
-        "fr": "Décret n° 8/2024 (champ d'application à confirmer)"
+        "pt": "Regulamento da Lei de Investimentos",
+        "en": "Regulation of the Investment Law",
+        "fr": "Règlement de la loi sur les investissements"
       },
       "summary": {
-        "pt": "Instrumento referido na base jurídica da Tax Advisory; âmbito a confirmar: {{SCOPE_DEC_8_2024}}.",
-        "en": "Instrument cited in Tax Advisory's legal basis; scope to be confirmed: {{SCOPE_DEC_8_2024}}.",
-        "fr": "Instrument cité dans la base juridique de Tax Advisory ; champ d'application à confirmer : {{SCOPE_DEC_8_2024}}."
+        "pt": "Regulamento da Lei n.º 8/2023, aprovado em Março de 2024 e vinculativo para todas as entidades públicas. Define os procedimentos de registo e autorização, os incentivos e os documentos a apresentar.",
+        "en": "Implementing regulation of Law 8/2023, approved in March 2024 and binding on all government bodies. It sets the registration and authorisation procedures, the incentives and the documents to be filed.",
+        "fr": "Règlement d'application de la Loi n° 8/2023, approuvé en mars 2024 et contraignant pour toutes les entités publiques. Il fixe les procédures d'enregistrement et d'autorisation, les avantages et les documents à fournir."
       },
       "excerpt": {
-        "pt": "Em síntese: {{SCOPE_DEC_8_2024}}. O conteúdo deste instrumento será descrito após confirmação pela Tax Advisory.",
-        "en": "In short: {{SCOPE_DEC_8_2024}}. The content of this instrument will be described once confirmed by Tax Advisory.",
-        "fr": "En résumé : {{SCOPE_DEC_8_2024}}. Le contenu de cet instrument sera décrit après confirmation par Tax Advisory."
+        "pt": "Em síntese: o decreto põe em prática a Lei de Investimentos, concretizando os prazos de decisão, o acesso aos incentivos através do certificado de investimento e os documentos exigidos, para reduzir a margem de interpretação.",
+        "en": "In short: the decree puts the Investment Law into practice, setting out decision deadlines, access to incentives through the investment certificate and the required documents, to reduce room for interpretation.",
+        "fr": "En résumé : le décret met en œuvre la loi sur les investissements en précisant les délais de décision, l'accès aux avantages par le certificat d'investissement et les documents exigés, afin de réduire la marge d'interprétation."
       },
       "lastReviewed": "2026-10-01",
       "status": "illustrative"
@@ -614,6 +614,72 @@
         "fr": "En résumé : le projet financé doit identifier et gérer ses risques environnementaux et sociaux, y compris l'acquisition de terres et la réinstallation involontaire. Les bailleurs vérifient la conformité avant le décaissement et pendant toute la durée du projet."
       },
       "lastReviewed": "2026-10-01",
+      "status": "illustrative"
+    },
+    {
+      "id": "ta-tax-indicators",
+      "topic": "tax",
+      "instrument": "Tax Advisory — Indicadores fiscais",
+      "title": {
+        "pt": "Moçambique — Indicadores fiscais (Tax Advisory)",
+        "en": "Mozambique — Tax indicators (Tax Advisory)",
+        "fr": "Mozambique — Indicateurs fiscaux (Tax Advisory)"
+      },
+      "summary": {
+        "pt": "Quadro-resumo da Tax Advisory com as principais taxas: IRPC de 32%, retenção definitiva de 20% (ou 10%) para não residentes, IVA de 16%, IRPS de 10% a 32%, retenção de 20% sobre dividendos, juros, royalties e honorários, subcapitalização 2:1 e preços de transferência pelo princípio de plena concorrência.",
+        "en": "Tax Advisory's summary table of the main rates: 32% IRPC, 20% (or 10%) final withholding for non-residents, 16% VAT, 10% to 32% IRPS, 20% withholding on dividends, interest, royalties and fees, 2:1 thin capitalisation and arm's length transfer pricing.",
+        "fr": "Tableau de synthèse de Tax Advisory avec les principaux taux : IRPC de 32 %, retenue libératoire de 20 % (ou 10 %) pour les non-résidents, TVA de 16 %, IRPS de 10 % à 32 %, retenue de 20 % sur dividendes, intérêts, redevances et honoraires, sous-capitalisation 2:1 et prix de transfert selon le principe de pleine concurrence."
+      },
+      "excerpt": {
+        "pt": "Em síntese: os dividendos pagos entre sociedades residentes ficam isentos de retenção e de IRPC quando a participação é de pelo menos 20% e é detida há dois anos. A retenção de 10% para não residentes aplica-se, entre outros, a telecomunicações e transporte internacional, à electrificação rural e às obrigações cotadas na Bolsa de Valores de Moçambique.",
+        "en": "In short: dividends paid between resident companies are exempt from withholding and IRPC where the holding is at least 20% and has been held for two years. The 10% non-resident rate applies, among others, to telecommunications and international transport, rural electrification and bonds listed on the Mozambique Stock Exchange.",
+        "fr": "En résumé : les dividendes versés entre sociétés résidentes sont exonérés de retenue et d'IRPC lorsque la participation est d'au moins 20 % et détenue depuis deux ans. Le taux de 10 % pour les non-résidents s'applique notamment aux télécommunications et au transport international, à l'électrification rurale et aux obligations cotées à la Bourse du Mozambique."
+      },
+      "lastReviewed": "2026-10-28",
+      "status": "illustrative"
+    },
+    {
+      "id": "ta-dta-rates",
+      "topic": "tax",
+      "instrument": "Tax Advisory — Taxas dos ADT",
+      "title": {
+        "pt": "Moçambique — Acordos de dupla tributação: taxas (Tax Advisory)",
+        "en": "Mozambique — Double tax treaties: rates (Tax Advisory)",
+        "fr": "Mozambique — Conventions fiscales : taux (Tax Advisory)"
+      },
+      "summary": {
+        "pt": "Tabela da Tax Advisory com as taxas de retenção sobre dividendos, juros, royalties e honorários previstas nos nove acordos em vigor (Botswana, Índia, Itália, Macau, Maurícias, Portugal, África do Sul, Emirados Árabes Unidos e Vietname), face à taxa interna de 20%.",
+        "en": "Tax Advisory's table of the withholding rates on dividends, interest, royalties and fees under the nine treaties in force (Botswana, India, Italy, Macau, Mauritius, Portugal, South Africa, United Arab Emirates and Vietnam), against the 20% domestic rate.",
+        "fr": "Tableau de Tax Advisory des taux de retenue sur dividendes, intérêts, redevances et honoraires prévus par les neuf conventions en vigueur (Botswana, Inde, Italie, Macao, Maurice, Portugal, Afrique du Sud, Émirats arabes unis et Viêt Nam), par rapport au taux interne de 20 %."
+      },
+      "excerpt": {
+        "pt": "Em síntese: dividendos — Botswana 0% ou 12%, Índia 7,5%, Itália 15%, Macau 10%, Maurícias 8%, 10% ou 15%, Portugal 10%, África do Sul 8% ou 15%, EAU 0%, Vietname 10% (onde há duas taxas, depende da participação do beneficiário). Na prática, a Autoridade Tributária tende a tributar os honorários de gestão e consultoria como royalties.",
+        "en": "In short: dividends — Botswana 0% or 12%, India 7.5%, Italy 15%, Macau 10%, Mauritius 8%, 10% or 15%, Portugal 10%, South Africa 8% or 15%, UAE 0%, Vietnam 10% (where two rates apply, it depends on the recipient's shareholding). In practice, the Tax Authority tends to tax management and consultancy fees as royalties.",
+        "fr": "En résumé : dividendes — Botswana 0 % ou 12 %, Inde 7,5 %, Italie 15 %, Macao 10 %, Maurice 8 %, 10 % ou 15 %, Portugal 10 %, Afrique du Sud 8 % ou 15 %, ÉAU 0 %, Viêt Nam 10 % (lorsque deux taux existent, cela dépend de la participation du bénéficiaire). En pratique, l'Autorité fiscale tend à imposer les honoraires de gestion et de conseil comme des redevances."
+      },
+      "lastReviewed": "2026-10-28",
+      "status": "illustrative"
+    },
+    {
+      "id": "business-guide-2025",
+      "topic": "companies",
+      "instrument": "Business Guide 2025 (Lex Africa)",
+      "title": {
+        "pt": "Guia de Negócios 2025 — capítulo Moçambique (JLA Advogados / Lex Africa)",
+        "en": "Business Guide 2025 — Mozambique chapter (JLA Advogados / Lex Africa)",
+        "fr": "Guide des affaires 2025 — chapitre Mozambique (JLA Advogados / Lex Africa)"
+      },
+      "summary": {
+        "pt": "Síntese jurídica sobre o investimento em Moçambique: formas de sociedade, constituição de sociedades e sucursais, controlo cambial (Aviso 3/GBM/2024), tributação, concorrência, arbitragem, propriedade intelectual e contratação de trabalhadores estrangeiros.",
+        "en": "Legal overview of investing in Mozambique: business forms, incorporation of companies and branches, exchange control (Notice 3/GBM/2024), taxation, competition, arbitration, intellectual property and the hiring of foreign workers.",
+        "fr": "Synthèse juridique sur l'investissement au Mozambique : formes de société, constitution de sociétés et de succursales, contrôle des changes (Avis 3/GBM/2024), fiscalité, concurrence, arbitrage, propriété intellectuelle et embauche de travailleurs étrangers."
+      },
+      "excerpt": {
+        "pt": "Em síntese: a detenção de sociedades por estrangeiros não tem limites, mas a terra não pode ser propriedade privada. A quota de trabalhadores estrangeiros é de 5% (mais de 100 trabalhadores), 8% (31 a 100), 10% (11 a 30) ou 15% (até 10); a autorização de trabalho vale 2 anos, renovável.",
+        "en": "In short: foreign ownership of companies is not restricted, but land cannot be privately owned. The foreign worker quota is 5% (over 100 workers), 8% (31 to 100), 10% (11 to 30) or 15% (up to 10); a work permit is valid for 2 years and renewable.",
+        "fr": "En résumé : la détention de sociétés par des étrangers n'est pas limitée, mais la terre ne peut pas faire l'objet de propriété privée. Le quota de travailleurs étrangers est de 5 % (plus de 100 salariés), 8 % (31 à 100), 10 % (11 à 30) ou 15 % (jusqu'à 10) ; le permis de travail est valable 2 ans, renouvelable."
+      },
+      "lastReviewed": "2026-10-28",
       "status": "illustrative"
     }
   ]

@@ -1,10 +1,17 @@
 {
   "hero": {
     "eyebrow": "Tax Advisory × Law Technology Solutions",
-    "subtitle": "Votre assistant pour investir au Mozambique",
-    "lead": "Décrivez votre projet en quelques lignes. Recevez l'analyse de la structure, de l'investissement, des autorisations, de la fiscalité, du travail, du contrôle des changes et des douanes — avec la référence juridique de chaque point.",
+    "subtitle": "Le guide pour investir au Mozambique",
+    "lead": "Du premier contact avec l'APIEX au premier jour d'activité. Lisez le guide chapitre par chapitre — le pays, les secteurs, la loi sur l'investissement, la société, la fiscalité, le travail et les changes — ou décrivez votre projet et obtenez une analyse sur mesure, toujours avec la référence juridique.",
+    "guide": "Lire le guide de l'investisseur",
     "primary": "Décrire mon projet",
     "secondary": "Voir un exemple"
+  },
+  "guide": {
+    "eyebrow": "Le guide",
+    "title": "Douze chapitres, du pays à la protection de l'investissement",
+    "text": "Fondé sur le Guide de l'investisseur APIEX 2026, les fiches fiscales et le guide de création de société de Tax Advisory, et le Business Guide 2025. Chaque chapitre se termine par les prochaines étapes.",
+    "all": "Voir le guide complet"
   },
   "map": {
     "label": "Carte du Mozambique avec les provinces, les principales villes, les ports et les corridors",
@@ -30,9 +37,9 @@
   },
   "how": {
     "eyebrow": "Comment ça marche",
-    "title": "Du projet à une première cartographie, en trois étapes",
-    "step1": { "title": "Décrivez le projet", "text": "Activité, province, origine du capital, investissement et effectifs. Plus c'est concret, meilleure est l'analyse." },
-    "step2": { "title": "Recevez la fiche d'analyse", "text": "Structure juridique, feuille de route avec délais, autorisations, incitations, obligations et points de vigilance, avec les références légales." },
+    "title": "De la première carte au premier jour, en trois étapes",
+    "step1": { "title": "Lisez le guide", "text": "Le pays, les secteurs et le chemin jusqu'à l'exploitation : loi sur l'investissement, création de la société, fiscalité, travail et changes." },
+    "step2": { "title": "Décrivez votre projet et recevez l'analyse", "text": "Activité, province, origine du capital, investissement et effectifs. Vous obtenez le véhicule juridique, une feuille de route chiffrée, les licences, incitations et obligations, avec les références juridiques." },
     "step3": { "title": "Contactez Tax Advisory", "text": "Votre demande parvient au cabinet avec le résumé du projet en pièce jointe. Un professionnel la valide et propose la suite." },
     "pricing": "L'information générale est gratuite et immédiate. Le conseil détaillé, la rédaction et les dépôts sont des services payants de Tax Advisory."
   },
@@ -41,7 +48,7 @@
     "title": "Conçu comme une note de conseil, pas comme une supposition",
     "reviewed": { "title": "Des réponses issues uniquement d'une base juridique revue", "text": "Chaque réponse cite le texte dont elle provient. Sans source, pas de réponse." },
     "noInvented": { "title": "Aucun chiffre inventé", "text": "Lorsqu'une valeur n'est pas encore confirmée, elle est signalée « à confirmer »." },
-    "sources": { "title": "Sources", "text": "Base juridique de Tax Advisory et Guide de l'investisseur APIEX 2026." },
+    "sources": { "title": "Sources", "text": "Base juridique de Tax Advisory, Guide de l'investisseur APIEX 2026 et Business Guide 2025 (Lex Africa)." },
     "language": { "title": "Portugais professionnel (pré-AO90)", "text": "Rédigé en portugais du Mozambique, avec l'orthographe de la pratique juridique, et disponible en anglais et en français." }
   },
   "partners": {

@@ -138,6 +138,7 @@ export class SiteHeader {
   protected readonly items = computed(() => {
     const l = this.lang();
     const base = [
+      { key: 'nav.guide', link: ['/', l, 'guide'] },
       { key: 'nav.project', link: ['/', l, 'project'] },
       { key: 'nav.questions', link: ['/', l, 'questions'] },
       { key: 'nav.contact', link: ['/', l, 'contact'] },

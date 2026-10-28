@@ -1,0 +1,205 @@
+<ng-container *transloco="let t">
+  <div class="container-page py-10 sm:py-14">
+    <nav [attr.aria-label]="t('guide.breadcrumb')" class="text-sm">
+      <a class="link" [routerLink]="['/', lang(), 'guide']">{{ t('guide.eyebrow') }}</a>
+      @if (current()) {
+        <span class="text-muted" aria-hidden="true"> / </span>
+        <span class="text-muted">{{ t('guide.chapter') }} {{ number() }}</span>
+      }
+    </nav>
+
+    @if (current(); as c) {
+      <header class="mt-4 max-w-3xl">
+        <im-section-label tone="brand">{{ t('guide.chapter') }} {{ number() }}</im-section-label>
+        <h1 class="mt-2 text-3xl sm:text-4xl">{{ c.title | loc: lang() }}</h1>
+        <p class="mt-3 text-lg text-muted">{{ c.summary | loc: lang() }}</p>
+        @if (sources().length) {
+          <p class="mt-4 text-sm text-muted">
+            <span class="font-bold">{{ t('guide.basedOn') }}</span>
+            @for (s of sources(); track s.id; let last = $last) {
+              {{ s.title }} ({{ s.date }}){{ last ? '' : ' · ' }}
+            }
+          </p>
+        }
+      </header>
+
+      <div class="mt-10 grid gap-10 lg:grid-cols-12">
+        <aside class="no-print min-w-0 lg:col-span-3">
+          <div class="lg:sticky lg:top-24">
+            <nav [attr.aria-label]="t('guide.onThisPage')">
+              <p class="label-caps text-muted">{{ t('guide.onThisPage') }}</p>
+              <ul class="toc mt-2" role="list">
+                @for (s of sections(); track s.id) {
+                  <li>
+                    <a [routerLink]="[]" [fragment]="s.id">{{ s.title | loc: lang() }}</a>
+                  </li>
+                }
+              </ul>
+            </nav>
+            <nav [attr.aria-label]="t('guide.chapters')" class="mt-8 hidden lg:block">
+              <p class="label-caps text-muted">{{ t('guide.chapters') }}</p>
+              <ol class="chapters mt-2" role="list">
+                @for (ch of chapters(); track ch.id; let i = $index) {
+                  <li>
+                    <a
+                      [routerLink]="['/', lang(), 'guide', ch.id]"
+                      [class.active]="ch.id === c.id"
+                      [attr.aria-current]="ch.id === c.id ? 'page' : null"
+                    >
+                      <span class="font-mono text-xs text-muted">{{
+                        (i + 1).toString().padStart(2, '0')
+                      }}</span>
+                      <span>{{ ch.title | loc: lang() }}</span>
+                    </a>
+                  </li>
+                }
+              </ol>
+            </nav>
+          </div>
+        </aside>
+
+        <article class="min-w-0 lg:col-span-9">
+          @for (s of sections(); track s.id) {
+            <section class="section" [id]="s.id" [attr.aria-labelledby]="s.id + '-title'">
+              <h2 [id]="s.id + '-title'" class="text-2xl">{{ s.title | loc: lang() }}</h2>
+
+              @if (s.facts?.length) {
+                <dl class="facts mt-5">
+                  @for (f of s.facts; track $index) {
+                    <div class="fact">
+                      <dt class="order-2 mt-1 text-sm text-muted">{{ f.label | loc: lang() }}</dt>
+                      <dd class="order-1 font-serif text-2xl font-semibold leading-tight">
+                        {{ f.value | loc: lang() }}
+                      </dd>
+                    </div>
+                  }
+                </dl>
+              }
+
+              @if (s.body) {
+                <im-rich-text class="prose mt-4" [text]="s.body | loc: lang()" />
+              }
+
+              @if (s.steps?.length) {
+                <ol class="steps mt-6" role="list">
+                  @for (step of s.steps; track $index; let n = $index) {
+                    <li class="step">
+                      <span class="step-num" aria-hidden="true">{{ n + 1 }}</span>
+                      <div class="min-w-0">
+                        <h3 class="font-sans text-base font-bold">
+                          <span class="sr-only">{{ t('guide.step') }} {{ n + 1 }}: </span
+                          >{{ step.title | loc: lang() }}
+                        </h3>
+                        @if (step.where || step.time) {
+                          <p class="mt-0.5 flex flex-wrap gap-x-4 text-sm text-muted">
+                            @if (step.where) {
+                              <span
+                                ><span class="sr-only">{{ t('guide.where') }}: </span
+                                >{{ step.where | loc: lang() }}</span
+                              >
+                            }
+                            @if (step.time) {
+                              <span class="font-mono"
+                                ><span class="sr-only">{{ t('guide.time') }}: </span
+                                >{{ step.time | loc: lang() }}</span
+                              >
+                            }
+                          </p>
+                        }
+                        <im-rich-text class="mt-1.5" [text]="step.text | loc: lang()" />
+                      </div>
+                    </li>
+                  }
+                </ol>
+              }
+
+              @if (s.table; as tbl) {
+                <figure class="mt-6">
+                  <figcaption class="label-caps mb-3 text-muted">
+                    {{ tbl.caption | loc: lang() }}
+                  </figcaption>
+                  <im-ruled-table
+                    [caption]="tbl.caption | loc: lang()"
+                    [columns]="tableColumns(tbl, lang())"
+                    [rows]="tableRows(tbl, lang())"
+                  />
+                  @if (tbl.note) {
+                    <p class="mt-3 text-sm text-muted">
+                      <im-confirm-text [text]="tbl.note | loc: lang()" />
+                    </p>
+                  }
+                </figure>
+              }
+            </section>
+          }
+
+          <section class="next-steps no-print" aria-labelledby="next-steps-title">
+            <h2 id="next-steps-title" class="text-xl">{{ t('guide.nextSteps.title') }}</h2>
+            <ul class="mt-4 grid gap-3 sm:grid-cols-3" role="list">
+              <li>
+                <a class="action" [routerLink]="['/', lang(), 'project']">
+                  <svg imIcon="file-text" [size]="20" aria-hidden="true"></svg>
+                  <span>{{ t('guide.nextSteps.project') }}</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="action"
+                  [routerLink]="
+                    c.topic ? ['/', lang(), 'questions', c.topic] : ['/', lang(), 'questions']
+                  "
+                >
+                  <svg imIcon="message-square-text" [size]="20" aria-hidden="true"></svg>
+                  <span>{{ t('guide.nextSteps.questions') }}</span>
+                </a>
+              </li>
+              <li>
+                <a class="action" [routerLink]="['/', lang(), 'contact']">
+                  <svg imIcon="mail" [size]="20" aria-hidden="true"></svg>
+                  <span>{{ t('guide.nextSteps.contact') }}</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <div class="mt-8"><im-disclaimer /></div>
+
+          <nav class="pager no-print" [attr.aria-label]="t('guide.pager')">
+            @if (prev(); as p) {
+              <a class="pager-link" [routerLink]="['/', lang(), 'guide', p.id]" rel="prev">
+                <span class="label-caps flex items-center gap-1 text-muted"
+                  ><svg imIcon="arrow-left" [size]="14" aria-hidden="true"></svg
+                  >{{ t('guide.previous') }}</span
+                >
+                <span class="font-bold">{{ p.title | loc: lang() }}</span>
+              </a>
+            } @else {
+              <span></span>
+            }
+            @if (next(); as n) {
+              <a
+                class="pager-link text-right"
+                [routerLink]="['/', lang(), 'guide', n.id]"
+                rel="next"
+              >
+                <span class="label-caps flex items-center justify-end gap-1 text-muted"
+                  >{{ t('guide.next')
+                  }}<svg imIcon="arrow-right" [size]="14" aria-hidden="true"></svg
+                ></span>
+                <span class="font-bold">{{ n.title | loc: lang() }}</span>
+              </a>
+            }
+          </nav>
+        </article>
+      </div>
+    } @else if (guide()) {
+      <div class="mt-6 max-w-2xl">
+        <h1 class="text-3xl">{{ t('guide.missing.title') }}</h1>
+        <p class="mt-3 text-muted">{{ t('guide.missing.text') }}</p>
+        <a class="btn btn-primary mt-6" [routerLink]="['/', lang(), 'guide']">{{
+          t('guide.missing.back')
+        }}</a>
+      </div>
+    }
+  </div>
+</ng-container>

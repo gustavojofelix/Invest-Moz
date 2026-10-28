@@ -29,7 +29,10 @@ const FILES = {
   'rules/incentives.json': 'rules-incentives',
   'rules/obligations.json': 'rules-obligations',
   'rules/zones.json': 'rules-zones',
+  'guide/index.json': 'guide-index',
 };
+for (const f of readdirSync(join(DATA, 'guide', 'chapters')))
+  if (f.endsWith('.json')) FILES[`guide/chapters/${f}`] = 'guide-chapter';
 
 // Facts the engine provides to rule conditions (see core/domain/rules-engine.ts).
 const KNOWN_FACTS = new Set([
@@ -74,6 +77,7 @@ const KNOWN_VARS = new Set([
   'fact.envCategory',
   'fact.minQuota',
   'fact.maxQuota',
+  'fact.quota',
   'ctx.projectTitle',
   'ctx.investorCountry',
   'ctx.treatyRate',
@@ -201,6 +205,36 @@ if (lastVehicleRule?.when.length)
 for (const kb of data['knowledge-base.json'].references)
   if (kb.status !== 'illustrative')
     fail(`knowledge-base.json: ${kb.id} must stay "illustrative" in the POC`);
+
+const guide = data['guide/index.json'];
+const sourceIds = new Set(guide.sources.map((x) => x.id));
+for (const x of guide.sources)
+  if (x.refId && !kbIds.has(x.refId))
+    fail(`guide/index.json: source ${x.id} refId "${x.refId}" not in knowledge base`);
+const chapterIds = guide.chapters.map((c) => c.id);
+if (new Set(chapterIds).size !== chapterIds.length) fail('guide/index.json: duplicate chapter id');
+for (const c of guide.chapters) {
+  for (const x of c.sources)
+    if (!sourceIds.has(x)) fail(`guide/index.json: ${c.id} cites unknown source "${x}"`);
+  const body = data[`guide/chapters/${c.id}.json`];
+  if (!body) fail(`guide/chapters/${c.id}.json is missing`);
+  else if (body.id !== c.id) fail(`guide/chapters/${c.id}.json: id is "${body.id}"`);
+}
+for (const [file, json] of Object.entries(data)) {
+  if (!file.startsWith('guide/chapters/')) continue;
+  if (!chapterIds.includes(json.id)) fail(`${file}: chapter not listed in guide/index.json`);
+  const ids = new Set();
+  for (const sec of json.sections) {
+    if (ids.has(sec.id)) fail(`${file}: duplicate section id ${sec.id}`);
+    ids.add(sec.id);
+    if (!sec.body && !sec.facts && !sec.steps && !sec.table) fail(`${file}: ${sec.id} is empty`);
+    for (const [i, row] of (sec.table?.rows ?? []).entries())
+      if (row.length !== sec.table.columns.length)
+        fail(
+          `${file}: ${sec.id} table row ${i} has ${row.length} cells, expected ${sec.table.columns.length}`,
+        );
+  }
+}
 
 // -----------------------------------------------------------------------------
 if (errors.length) {

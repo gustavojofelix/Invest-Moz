@@ -1,0 +1,274 @@
+{
+  "id": "why-mozambique",
+  "sections": [
+    {
+      "id": "overview",
+      "title": {
+        "pt": "Sete vantagens estruturais",
+        "en": "Seven structural advantages",
+        "fr": "Sept avantages structurels"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "3 portos",
+            "en": "3 ports",
+            "fr": "3 ports"
+          },
+          "label": {
+            "pt": "de águas profundas — Maputo, Beira e Nacala",
+            "en": "deep-water ports — Maputo, Beira and Nacala",
+            "fr": "en eau profonde — Maputo, Beira et Nacala"
+          }
+        },
+        {
+          "value": {
+            "pt": "USD 0,08/kWh",
+            "en": "USD 0.08/kWh",
+            "fr": "0,08 USD/kWh"
+          },
+          "label": {
+            "pt": "tarifa eléctrica industrial, 44% abaixo da África do Sul",
+            "en": "industrial power tariff, 44% below South Africa",
+            "fr": "tarif électrique industriel, 44 % sous l'Afrique du Sud"
+          }
+        },
+        {
+          "value": {
+            "pt": "50 anos",
+            "en": "50 years",
+            "fr": "50 ans"
+          },
+          "label": {
+            "pt": "direito de uso da terra (DUAT) renovável, sem compra",
+            "en": "renewable land-use right (DUAT), no purchase",
+            "fr": "droit d'usage de la terre (DUAT) renouvelable, sans achat"
+          }
+        },
+        {
+          "value": {
+            "pt": "3 dias úteis",
+            "en": "3 working days",
+            "fr": "3 jours ouvrables"
+          },
+          "label": {
+            "pt": "prazo mínimo legal da via de registo na APIEX",
+            "en": "statutory minimum for the APIEX registration track",
+            "fr": "délai légal minimal de la voie d'enregistrement APIEX"
+          }
+        }
+      ],
+      "body": {
+        "pt": "- **Porta de entrada multicorredor** para a África Austral e Central.\n- **Plataforma energética regional:** gás e renováveis a custo competitivo.\n- **Terra produtiva** em escala e disponível.\n- **Plataformas industriais** ligadas aos corredores: zonas económicas especiais, parques e ecossistemas âncora.\n- Uma **base de custos operacionais** competitiva.\n- **Reformas** e um quadro de investimento moderno [ref:lei-8-2023].\n- **Qualidade de vida** que atrai e retém talento.\n\nO Guia APIEX sublinha que as vantagens se reforçam: a energia hídrica barata sustenta a indústria, os corredores abrem os mercados do interior e as zonas concentram as cadeias de fornecimento [ref:apiex-guide-2026].",
+        "en": "- **Multi-corridor gateway** to Southern and Central Africa.\n- **Regional energy platform:** gas and renewables at competitive cost.\n- **Productive land** at scale and available.\n- **Industrial platforms** linked to the corridors: special economic zones, parks and anchor ecosystems.\n- A competitive **operating cost base**.\n- **Reforms** and a modern investment framework [ref:lei-8-2023].\n- A **quality of life** that attracts and retains talent.\n\nThe APIEX guide stresses that these advantages reinforce each other: cheap hydropower supports industry, the corridors open inland markets and the zones co-locate supply chains [ref:apiex-guide-2026].",
+        "fr": "- **Porte d'entrée multicorridor** vers l'Afrique australe et centrale.\n- **Plateforme énergétique régionale :** gaz et renouvelables à coût compétitif.\n- **Terres productives** disponibles à grande échelle.\n- **Plateformes industrielles** reliées aux corridors : zones économiques spéciales, parcs et écosystèmes d'ancrage.\n- Une **base de coûts d'exploitation** compétitive.\n- **Réformes** et cadre d'investissement moderne [ref:lei-8-2023].\n- Une **qualité de vie** qui attire et retient les talents.\n\nLe guide APIEX souligne que ces avantages se renforcent : l'hydroélectricité bon marché soutient l'industrie, les corridors ouvrent les marchés intérieurs et les zones regroupent les chaînes d'approvisionnement [ref:apiex-guide-2026]."
+      }
+    },
+    {
+      "id": "corridors",
+      "title": {
+        "pt": "Uma porta de entrada multicorredor",
+        "en": "A multi-corridor gateway",
+        "fr": "Une porte d'entrée multicorridor"
+      },
+      "body": {
+        "pt": "Três portos de águas profundas, cada um com o seu corredor rodoferroviário, servem a África do Sul industrial, o Zimbabwe, a Zâmbia, o Malawi, o Botswana, o Eswatini e a RDC. O Porto de Maputo movimentou 32 milhões de toneladas em 2025, um recorde (+52% desde 2019), e prevê USD 2 mil milhões de investimento para chegar a 54 milhões de toneladas.\n\nUm quarto corredor emerge a norte, em Cabo Delgado (Pemba–Mtwara), ligado ao GNL do Rovuma e à grafite de Balama.\n\n- **Exportadores industriais:** acesso portuário directo em três corredores a partir de uma só base.\n- **Agronegócio:** Nacala para a Ásia; Maputo para a Europa e o Golfo.\n- **Logística mineira:** manuseamento de granéis e contentores nos três corredores.",
+        "en": "Three deep-water ports, each with its own road and rail corridor, serve South Africa's industrial heartland, Zimbabwe, Zambia, Malawi, Botswana, Eswatini and the DRC. The Port of Maputo handled 32 million tons in 2025, a record (+52% since 2019), and plans USD 2 billion of investment to reach 54 million tons.\n\nA fourth corridor is emerging in the north, in Cabo Delgado (Pemba–Mtwara), linked to Rovuma LNG and Balama graphite.\n\n- **Export manufacturers:** direct port access across three corridors from a single base.\n- **Agribusiness:** Nacala for Asia; Maputo for Europe and the Gulf.\n- **Mining logistics:** bulk and container handling on all three corridors.",
+        "fr": "Trois ports en eau profonde, chacun avec son corridor routier et ferroviaire, desservent le cœur industriel sud-africain, le Zimbabwe, la Zambie, le Malawi, le Botswana, l'Eswatini et la RDC. Le port de Maputo a traité 32 millions de tonnes en 2025, un record (+52 % depuis 2019), et prévoit 2 milliards USD d'investissement pour atteindre 54 millions de tonnes.\n\nUn quatrième corridor émerge au nord, au Cabo Delgado (Pemba–Mtwara), lié au GNL du Rovuma et au graphite de Balama.\n\n- **Industriels exportateurs :** accès portuaire direct sur trois corridors depuis une seule base.\n- **Agro-industrie :** Nacala pour l'Asie ; Maputo pour l'Europe et le Golfe.\n- **Logistique minière :** vrac et conteneurs sur les trois corridors."
+      }
+    },
+    {
+      "id": "energy",
+      "title": {
+        "pt": "Uma plataforma energética regional",
+        "en": "A regional energy platform",
+        "fr": "Une plateforme énergétique régionale"
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "USD 55 mil milhões+",
+            "en": "USD 55B+",
+            "fr": "55+ milliards USD"
+          },
+          "label": {
+            "pt": "de investimento activo e comprometido em três projectos de GNL do Rovuma",
+            "en": "of active and committed investment in three Rovuma LNG projects",
+            "fr": "d'investissement actif et engagé dans trois projets de GNL du Rovuma"
+          }
+        },
+        {
+          "value": {
+            "pt": "USD 7 mil milhões+",
+            "en": "USD 7B+",
+            "fr": "7+ milliards USD"
+          },
+          "label": {
+            "pt": "já contratados a empresas moçambicanas",
+            "en": "already contracted to Mozambican companies",
+            "fr": "déjà contractés auprès d'entreprises mozambicaines"
+          }
+        }
+      ],
+      "body": {
+        "pt": "Três decisões em 2025–2026 desbloquearam o gás do Rovuma: a TotalEnergies retomou o Mozambique LNG (primeiro GNL previsto para 2029), a Eni tomou a decisão final de investimento no Coral Norte FLNG (primeiro GNL em 2028) e a ExxonMobil levantou a força maior no Rovuma LNG, com decisão prevista para o segundo semestre de 2026. O Coral Sul FLNG exporta desde 2022.\n\nNa electricidade, a matriz é mais de 80% hídrica: a tarifa industrial de USD 0,08/kWh fica 44% abaixo da África do Sul e 58% abaixo do Quénia, e o país já é exportador líquido. Mphanda Nkuwa (1 500 MW) e o eólico de Namaacha (120 MW) vão reforçar essa vantagem.",
+        "en": "Three decisions in 2025–2026 unlocked Rovuma gas: TotalEnergies restarted Mozambique LNG (first LNG expected in 2029), Eni took the final investment decision on Coral North FLNG (first LNG in 2028) and ExxonMobil lifted force majeure on Rovuma LNG, with a decision expected in the second half of 2026. Coral South FLNG has been exporting since 2022.\n\nIn power, the generation mix is over 80% hydro: the industrial tariff of USD 0.08/kWh is 44% below South Africa and 58% below Kenya, and the country is already a net exporter. Mphanda Nkuwa (1,500 MW) and the Namaacha wind farm (120 MW) will deepen that advantage.",
+        "fr": "Trois décisions en 2025–2026 ont débloqué le gaz du Rovuma : TotalEnergies a relancé Mozambique LNG (premier GNL prévu en 2029), Eni a pris la décision finale d'investissement sur Coral Nord FLNG (premier GNL en 2028) et ExxonMobil a levé la force majeure sur Rovuma LNG, avec une décision attendue au second semestre 2026. Coral Sud FLNG exporte depuis 2022.\n\nEn électricité, le mix est à plus de 80 % hydraulique : le tarif industriel de 0,08 USD/kWh est 44 % inférieur à l'Afrique du Sud et 58 % au Kenya, et le pays est déjà exportateur net. Mphanda Nkuwa (1 500 MW) et l'éolien de Namaacha (120 MW) renforceront cet avantage."
+      }
+    },
+    {
+      "id": "land",
+      "title": {
+        "pt": "Terra produtiva em escala",
+        "en": "Productive land at scale",
+        "fr": "Des terres productives à grande échelle"
+      },
+      "body": {
+        "pt": "Com 36 milhões de hectares aráveis e menos de 15% cultivados, a diferença entre o potencial e a produção actual é uma das maiores oportunidades agrícolas do continente. Só 3–5% da terra é irrigada — a infra-estrutura é a oportunidade.\n\nA terra não se compra: o **DUAT** dá um direito de uso até 50 anos, renovável, sem investimento inicial na aquisição [ref:lei-19-97]. A diversidade agro-ecológica permite escolher culturas e mercados: horticultura, açúcar e citrinos no sul; soja, gergelim, algodão e tabaco no centro (corredor da Beira); macadâmia, caju e chá no norte (corredor de Nacala).",
+        "en": "With 36 million arable hectares and under 15% cultivated, the gap between potential and current output is one of the continent's largest agricultural opportunities. Only 3–5% of land is irrigated — the infrastructure is the opportunity.\n\nLand is not bought: the **DUAT** grants a use right of up to 50 years, renewable, with no upfront purchase [ref:lei-19-97]. The agro-ecological range lets investors match crops to markets: horticulture, sugar and citrus in the south; soya, sesame, cotton and tobacco in the centre (Beira corridor); macadamia, cashew and tea in the north (Nacala corridor).",
+        "fr": "Avec 36 millions d'hectares arables et moins de 15 % cultivés, l'écart entre potentiel et production est l'une des plus grandes opportunités agricoles du continent. Seuls 3–5 % des terres sont irrigués — l'infrastructure est l'opportunité.\n\nLa terre ne s'achète pas : le **DUAT** confère un droit d'usage jusqu'à 50 ans, renouvelable, sans achat initial [ref:lei-19-97]. La diversité agro-écologique permet d'adapter cultures et marchés : maraîchage, sucre et agrumes au sud ; soja, sésame, coton et tabac au centre (corridor de Beira) ; macadamia, cajou et thé au nord (corridor de Nacala)."
+      }
+    },
+    {
+      "id": "costs",
+      "title": {
+        "pt": "Uma base de custos competitiva",
+        "en": "A competitive cost base",
+        "fr": "Une base de coûts compétitive"
+      },
+      "body": {
+        "pt": "A vantagem de custos assenta em três factores: energia, trabalho e terra. É mais forte e mais fiável dentro dos parques industriais e dos corredores estabelecidos, onde a qualidade das infra-estruturas reforça a vantagem tarifária.",
+        "en": "The cost advantage rests on three inputs: energy, labour and land. It is strongest, and most reliably delivered, inside industrial parks and established corridors, where infrastructure quality reinforces the tariff advantage.",
+        "fr": "L'avantage de coûts repose sur trois facteurs : énergie, travail et terre. Il est le plus marqué, et le plus fiable, dans les parcs industriels et les corridors établis, où la qualité des infrastructures renforce l'avantage tarifaire."
+      },
+      "table": {
+        "caption": {
+          "pt": "Custos comparados",
+          "en": "Costs compared",
+          "fr": "Coûts comparés"
+        },
+        "columns": [
+          {
+            "pt": "Factor",
+            "en": "Input",
+            "fr": "Facteur"
+          },
+          {
+            "pt": "Moçambique",
+            "en": "Mozambique",
+            "fr": "Mozambique"
+          },
+          {
+            "pt": "África do Sul",
+            "en": "South Africa",
+            "fr": "Afrique du Sud"
+          },
+          {
+            "pt": "Quénia",
+            "en": "Kenya",
+            "fr": "Kenya"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Energia industrial",
+              "en": "Industrial power",
+              "fr": "Électricité industrielle"
+            },
+            {
+              "pt": "USD 0,08/kWh",
+              "en": "USD 0.08/kWh",
+              "fr": "0,08 USD/kWh"
+            },
+            {
+              "pt": "USD 0,143/kWh",
+              "en": "USD 0.143/kWh",
+              "fr": "0,143 USD/kWh"
+            },
+            {
+              "pt": "≈ USD 0,19/kWh",
+              "en": "≈ USD 0.19/kWh",
+              "fr": "≈ 0,19 USD/kWh"
+            }
+          ],
+          [
+            {
+              "pt": "Salário mínimo (indústria)",
+              "en": "Minimum wage (manufacturing)",
+              "fr": "Salaire minimum (industrie)"
+            },
+            {
+              "pt": "≈ USD 170/mês",
+              "en": "≈ USD 170/month",
+              "fr": "≈ 170 USD/mois"
+            },
+            {
+              "pt": "≈ USD 248/mês",
+              "en": "≈ USD 248/month",
+              "fr": "≈ 248 USD/mois"
+            },
+            {
+              "pt": "≈ USD 230/mês",
+              "en": "≈ USD 230/month",
+              "fr": "≈ 230 USD/mois"
+            }
+          ],
+          [
+            {
+              "pt": "Acesso à terra",
+              "en": "Land access",
+              "fr": "Accès à la terre"
+            },
+            {
+              "pt": "DUAT — sem compra",
+              "en": "DUAT — no purchase",
+              "fr": "DUAT — sans achat"
+            },
+            {
+              "pt": "Compra em propriedade plena",
+              "en": "Freehold purchase",
+              "fr": "Achat en pleine propriété"
+            },
+            {
+              "pt": "Compra de arrendamento",
+              "en": "Leasehold purchase",
+              "fr": "Achat de bail"
+            }
+          ]
+        ],
+        "note": {
+          "pt": "Fontes citadas pelo Guia APIEX 2026: EDM, GlobalPetrolPrices.com (Junho de 2025), Diploma Ministerial n.º 87/2025.",
+          "en": "Sources cited by the APIEX Guide 2026: EDM, GlobalPetrolPrices.com (June 2025), Ministerial Decree No. 87/2025.",
+          "fr": "Sources citées par le guide APIEX 2026 : EDM, GlobalPetrolPrices.com (juin 2025), arrêté ministériel n° 87/2025."
+        }
+      }
+    },
+    {
+      "id": "reforms",
+      "title": {
+        "pt": "Reformas e um quadro de investimento moderno",
+        "en": "Reforms and a modern investment framework",
+        "fr": "Réformes et cadre d'investissement moderne"
+      },
+      "body": {
+        "pt": "Desde 2023, Moçambique fez a maior revisão do seu quadro de investimento em 30 anos, com prazos vinculativos, menos barreiras administrativas e protecções do investidor publicadas no Boletim da República:\n\n- **Lei de Investimento n.º 8/2023**, em vigor desde Setembro de 2023, regulamentada pelo **Decreto n.º 8/2024** (Março de 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Nova regulamentação cambial — **Aviso n.º 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- Nova **Lei do Trabalho** (Lei n.º 13/2023) e reforma da contratação de estrangeiros (**Decreto n.º 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Lei das MPME (Lei n.º 7/2024), Lei do Fundo Soberano (Lei n.º 1/2024) e pacote fiscal de 2025 (Leis n.º 9 a 12/2025).\n- Novo regime das ZEE e ZFI, aprovado em Fevereiro de 2026 [ref:zee-zfi].\n\nA arbitragem ICSID/ICC é um direito legal do investidor, não uma concessão negociada.",
+        "en": "Since 2023 Mozambique has carried out the largest overhaul of its investment framework in 30 years, with binding timelines, fewer administrative barriers and investor protections published in the official gazette:\n\n- **Investment Law No. 8/2023**, in force since September 2023, implemented by **Decree No. 8/2024** (March 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- New exchange control rules — **Notice No. 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- A new **Labour Law** (Law No. 13/2023) and reform of foreign hiring (**Decree No. 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- The MSME Law (Law No. 7/2024), the Sovereign Fund Law (Law No. 1/2024) and the 2025 tax package (Laws Nos. 9 to 12/2025).\n- A new SEZ and IFZ framework, approved in February 2026 [ref:zee-zfi].\n\nICSID/ICC arbitration is a statutory investor right, not a negotiated concession.",
+        "fr": "Depuis 2023, le Mozambique a mené la plus importante refonte de son cadre d'investissement en 30 ans, avec des délais contraignants, moins de barrières administratives et des protections publiées au journal officiel :\n\n- **Loi sur l'investissement n° 8/2023**, en vigueur depuis septembre 2023, mise en œuvre par le **décret n° 8/2024** (mars 2024) [ref:lei-8-2023] [ref:dec-8-2024].\n- Nouvelle réglementation des changes — **Avis n° 3/GBM/2024** [ref:aviso-3-gbm-2024].\n- Nouvelle **loi sur le travail** (loi n° 13/2023) et réforme de l'emploi d'étrangers (**décret n° 88/2024**) [ref:lei-13-2023] [ref:dec-88-2024].\n- Loi sur les MPME (loi n° 7/2024), loi sur le fonds souverain (loi n° 1/2024) et paquet fiscal 2025 (lois n° 9 à 12/2025).\n- Nouveau régime des ZES et ZFI, approuvé en février 2026 [ref:zee-zfi].\n\nL'arbitrage CIRDI/CCI est un droit légal de l'investisseur, et non une concession négociée."
+      }
+    },
+    {
+      "id": "quality-of-life",
+      "title": {
+        "pt": "Um lugar onde as pessoas escolhem ficar",
+        "en": "A place where people choose to stay",
+        "fr": "Un endroit où l'on choisit de rester"
+      },
+      "body": {
+        "pt": "Para operações que precisam de continuidade de gestão, a qualidade de vida conta na contratação e na retenção de quadros.\n\n- **Educação:** currículos americano, britânico, francês e IB em Maputo (International School of Mozambique, escolas francesa, portuguesa e italiana), até ao secundário.\n- **Saúde:** modelo híbrido — cuidados privados locais e retaguarda em Joanesburgo, com seguro de saúde internacional e protocolo de evacuação.\n- **Custo de vida:** orçamento mensal de uma família expatriada de USD 1 600–1 900 (sem habitação de topo); Polana Cimento e Sommerschield a USD 2 000–3 000 por mês.\n- **Estilo de vida:** 2 700 km de costa, mergulho de classe mundial e uma cena gastronómica com influências portuguesas, africanas e do Índico.",
+        "en": "For operations that need management continuity, quality of life matters for recruitment and retention.\n\n- **Education:** US, UK, French and IB curricula in Maputo (International School of Mozambique, French, Portuguese and Italian schools), through secondary.\n- **Healthcare:** a hybrid model — local private care with Johannesburg backup, international health insurance and an evacuation protocol.\n- **Cost of living:** an expatriate family budget of USD 1,600–1,900 a month (excluding premium housing); Polana Cimento and Sommerschield at USD 2,000–3,000 a month.\n- **Lifestyle:** 2,700 km of coastline, world-class diving and a food scene shaped by Portuguese, African and Indian Ocean influences.",
+        "fr": "Pour les opérations qui exigent une continuité de direction, la qualité de vie compte dans le recrutement et la fidélisation.\n\n- **Éducation :** programmes américain, britannique, français et IB à Maputo (International School of Mozambique, écoles française, portugaise et italienne), jusqu'au secondaire.\n- **Santé :** modèle hybride — soins privés locaux et relais à Johannesburg, assurance santé internationale et protocole d'évacuation.\n- **Coût de la vie :** budget mensuel d'une famille expatriée de 1 600–1 900 USD (hors logement haut de gamme) ; Polana Cimento et Sommerschield à 2 000–3 000 USD par mois.\n- **Art de vivre :** 2 700 km de côtes, plongée de classe mondiale et une gastronomie aux influences portugaises, africaines et de l'océan Indien."
+      }
+    }
+  ]
+}

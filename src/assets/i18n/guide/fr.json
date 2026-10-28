@@ -1,0 +1,51 @@
+{
+  "eyebrow": "Guide de l'investisseur",
+  "title": "Investir au Mozambique",
+  "lead": "Ce qu'il faut savoir avant d'investir : le pays, les secteurs prioritaires, la loi sur l'investissement, la création de la société, la fiscalité, le travail, le contrôle des changes, les zones économiques, la terre et l'environnement. Information générale, avec les références juridiques et les sources.",
+  "lastReviewed": "Dernière révision : {{ date }}",
+  "part": "Partie",
+  "parts": {
+    "understand": {
+      "title": "Connaître le pays",
+      "text": "Le contexte, les avantages structurels et où se trouvent les opportunités."
+    },
+    "establish": {
+      "title": "S'établir",
+      "text": "La loi sur l'investissement, l'APIEX, la création de la société et la feuille de route jusqu'à l'exploitation."
+    },
+    "operate": {
+      "title": "Exploiter et croître",
+      "text": "Fiscalité, travail, changes, terre, environnement et protection de l'investissement."
+    }
+  },
+  "apply": {
+    "title": "Appliquez le guide à votre projet",
+    "text": "Décrivez votre projet et obtenez en quelques minutes une analyse sur mesure : véhicule juridique, régime APIEX, feuille de route, licences, fiscalité et calendrier des obligations.",
+    "project": "Décrire mon projet",
+    "questions": "Poser une question"
+  },
+  "sources": "Sources",
+  "note": "Ce guide est une information générale et ne constitue pas un conseil juridique ou fiscal. Les délais et montants sont indicatifs et peuvent changer ; vérifiez toujours auprès de Tax Advisory avant de décider.",
+  "breadcrumb": "Fil d'Ariane",
+  "chapter": "Chapitre",
+  "basedOn": "Sur la base de :",
+  "onThisPage": "Sur cette page",
+  "chapters": "Chapitres",
+  "step": "Étape",
+  "where": "Où",
+  "time": "Délai indicatif",
+  "nextSteps": {
+    "title": "Prochaines étapes",
+    "project": "Appliquer à mon projet",
+    "questions": "Poser une question sur ce thème",
+    "contact": "Parler à Tax Advisory"
+  },
+  "pager": "Navigation entre chapitres",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "missing": {
+    "title": "Chapitre introuvable",
+    "text": "Ce chapitre n'existe pas ou a changé d'adresse.",
+    "back": "Voir tous les chapitres"
+  }
+}

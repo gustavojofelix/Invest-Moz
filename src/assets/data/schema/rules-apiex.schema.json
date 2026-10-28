@@ -50,8 +50,7 @@
             ],
             "properties": {
               "threshold": {
-                "type": "string",
-                "minLength": 1
+                "$ref": "common.schema.json#/definitions/localizedText"
               },
               "authority": {
                 "$ref": "common.schema.json#/definitions/localizedText"

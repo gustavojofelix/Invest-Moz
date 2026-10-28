@@ -1,0 +1,172 @@
+{
+  "id": "land-esg",
+  "sections": [
+    {
+      "id": "duat",
+      "title": {
+        "pt": "O DUAT",
+        "en": "The DUAT",
+        "fr": "Le DUAT"
+      },
+      "body": {
+        "pt": "Em Moçambique a terra é propriedade do Estado e não pode ser comprada. O investidor obtém um **Direito de Uso e Aproveitamento da Terra (DUAT)** [ref:lei-19-97], protegido também pela Lei n.º 8/2023 [ref:lei-8-2023]:\n- **provisório**: 2 a 5 anos, com plano de exploração;\n- **definitivo**: até 50 anos, renovável, após prova de uso efectivo;\n- **comunitário ou costumeiro**: válido mesmo sem registo (artigo 12.º da Lei de Terras).\n\nConte com **3 a 24 meses**, consoante a área e a entidade competente. A política nacional de terras foi revista (Resolução n.º 45/2022) e a revisão da Lei n.º 19/97 está em consulta pública [ref:business-guide-2025].",
+        "en": "In Mozambique land belongs to the State and cannot be bought. Investors obtain a **land use right (DUAT)** [ref:lei-19-97], also protected by Law 8/2023 [ref:lei-8-2023]:\n- **provisional**: 2 to 5 years, with an exploitation plan;\n- **definitive**: up to 50 years, renewable, once effective use is proven;\n- **community or customary**: valid even if unregistered (Article 12 of the Land Law).\n\nAllow **3 to 24 months**, depending on the area and the approving authority. The national land policy has been revised (Resolution 45/2022) and the revision of Law 19/97 is under public consultation [ref:business-guide-2025].",
+        "fr": "Au Mozambique, la terre appartient à l'État et ne peut pas être achetée. L'investisseur obtient un **droit d'usage et d'exploitation de la terre (DUAT)** [ref:lei-19-97], également protégé par la loi n° 8/2023 [ref:lei-8-2023] :\n- **provisoire** : 2 à 5 ans, avec un plan d'exploitation ;\n- **définitif** : jusqu'à 50 ans, renouvelable, après preuve d'une utilisation effective ;\n- **communautaire ou coutumier** : valable même sans enregistrement (article 12 de la loi foncière).\n\nComptez **3 à 24 mois**, selon la superficie et l'autorité compétente. La politique foncière nationale a été révisée (résolution n° 45/2022) et la révision de la loi n° 19/97 est en consultation publique [ref:business-guide-2025]."
+      }
+    },
+    {
+      "id": "community",
+      "title": {
+        "pt": "Consulta às comunidades",
+        "en": "Community consultation",
+        "fr": "Consultation des communautés"
+      },
+      "body": {
+        "pt": "Antes de pedir o DUAT, verifique os direitos comunitários e costumeiros existentes sobre a terra. O **consentimento livre, prévio e informado** exige pelo menos **três assembleias comunitárias documentadas**, assinadas pelos líderes locais, antes de qualquer pedido formal de DUAT ou submissão do EIA; não basta um aviso de 30 dias [ref:apiex-guide-2026]. Reserve dois a quatro meses. É uma obrigação legal e uma condição dos financiadores de desenvolvimento, e a falta de consulta é a causa mais frequente de conflitos de terra e atrasos.",
+        "en": "Before applying for a DUAT, check the existing community and customary rights over the land. **Free, prior and informed consent** requires at least **three documented community assemblies**, signed by local leaders, before any formal DUAT application or EIA submission; a 30-day notice is not enough [ref:apiex-guide-2026]. Allow two to four months. It is a legal obligation and a condition of development lenders, and skipping it is the most frequent cause of land disputes and delays.",
+        "fr": "Avant de demander le DUAT, vérifiez les droits communautaires et coutumiers existants sur la terre. Le **consentement libre, préalable et éclairé** exige au moins **trois assemblées communautaires documentées**, signées par les chefs locaux, avant toute demande formelle de DUAT ou dépôt de l'EIE ; un avis de 30 jours ne suffit pas [ref:apiex-guide-2026]. Prévoyez deux à quatre mois. C'est une obligation légale et une condition des bailleurs de fonds du développement ; son omission est la première cause de litiges fonciers et de retards."
+      }
+    },
+    {
+      "id": "environment",
+      "title": {
+        "pt": "Licenciamento ambiental",
+        "en": "Environmental licensing",
+        "fr": "Autorisation environnementale"
+      },
+      "body": {
+        "pt": "Todos os projectos precisam de licença ambiental antes de iniciar a actividade [ref:aia-regulation]. A categoria depende da natureza e escala do projecto. Comece na fase de exploração (passo E5), antes de fechar o local, com um consultor acreditado na DNAIA/MTA [ref:apiex-guide-2026]. O incumprimento pode levar a ordens de correcção, suspensão, multas e, em casos graves, responsabilidade criminal.",
+        "en": "Every project needs an environmental licence before it starts operating [ref:aia-regulation]. The category depends on the project's nature and scale. Start during the Explore phase (step E5), before the site is final, with a DNAIA/MTA-accredited consultant [ref:apiex-guide-2026]. Non-compliance can bring improvement orders, suspension, fines and, in serious cases, criminal liability.",
+        "fr": "Tout projet doit obtenir une autorisation environnementale avant de démarrer [ref:aia-regulation]. La catégorie dépend de la nature et de l'ampleur du projet. Commencez dès la phase d'exploration (étape E5), avant d'arrêter le site, avec un consultant agréé par la DNAIA/MTA [ref:apiex-guide-2026]. Le non-respect peut entraîner des mises en demeure, une suspension, des amendes et, dans les cas graves, une responsabilité pénale."
+      },
+      "table": {
+        "caption": {
+          "pt": "Categorias de licenciamento ambiental",
+          "en": "Environmental licence categories",
+          "fr": "Catégories d'autorisation environnementale"
+        },
+        "columns": [
+          {
+            "pt": "Categoria",
+            "en": "Category",
+            "fr": "Catégorie"
+          },
+          {
+            "pt": "Projectos típicos",
+            "en": "Typical projects",
+            "fr": "Projets types"
+          },
+          {
+            "pt": "Prazo indicativo",
+            "en": "Indicative time",
+            "fr": "Délai indicatif"
+          },
+          {
+            "pt": "Depois da licença",
+            "en": "After the licence",
+            "fr": "Après l'autorisation"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "A+ / A (EIA completo)",
+              "en": "A+ / A (full EIA)",
+              "fr": "A+ / A (EIE complète)"
+            },
+            {
+              "pt": "Projectos de grande escala",
+              "en": "Large-scale projects",
+              "fr": "Projets de grande envergure"
+            },
+            {
+              "pt": "6 a 12 meses",
+              "en": "6 to 12 months",
+              "fr": "6 à 12 mois"
+            },
+            {
+              "pt": "Auditoria ambiental anual; plano de desactivação",
+              "en": "Annual environmental audit; decommissioning plan",
+              "fr": "Audit environnemental annuel ; plan de démantèlement"
+            }
+          ],
+          [
+            {
+              "pt": "B",
+              "en": "B",
+              "fr": "B"
+            },
+            {
+              "pt": "Média escala: 250 a 1 000 ha, agro-indústria média, aquacultura abaixo de 50 ha",
+              "en": "Medium scale: 250 to 1,000 ha, medium agro-industry, aquaculture under 50 ha",
+              "fr": "Échelle moyenne : 250 à 1 000 ha, agro-industrie moyenne, aquaculture de moins de 50 ha"
+            },
+            {
+              "pt": "2 a 4 meses",
+              "en": "2 to 4 months",
+              "fr": "2 à 4 mois"
+            },
+            {
+              "pt": "Auditoria ambiental periódica",
+              "en": "Periodic environmental audit",
+              "fr": "Audit environnemental périodique"
+            }
+          ],
+          [
+            {
+              "pt": "C",
+              "en": "C",
+              "fr": "C"
+            },
+            {
+              "pt": "Pequena escala e baixo impacto: menos de 250 ha, maioria da indústria ligeira e dos serviços",
+              "en": "Small scale, low impact: under 250 ha, most light manufacturing and services",
+              "fr": "Petite échelle, faible impact : moins de 250 ha, la plupart de l'industrie légère et des services"
+            },
+            {
+              "pt": "1 a 2 meses",
+              "en": "1 to 2 months",
+              "fr": "1 à 2 mois"
+            },
+            {
+              "pt": "Relatório de auto-monitorização",
+              "en": "Self-monitoring report",
+              "fr": "Rapport d'autosurveillance"
+            }
+          ]
+        ],
+        "note": {
+          "pt": "Fonte: Guia do Investimento da APIEX, 2026. Prazos indicativos.",
+          "en": "Source: APIEX Investment Guide 2026. Indicative timelines.",
+          "fr": "Source : Guide de l'investissement de l'APIEX, 2026. Délais indicatifs."
+        }
+      }
+    },
+    {
+      "id": "esg-standards",
+      "title": {
+        "pt": "Padrões ESG dos financiadores",
+        "en": "Lenders' ESG standards",
+        "fr": "Normes ESG des prêteurs"
+      },
+      "body": {
+        "pt": "Quem procura financiamento da IFC, BAD, BII, Norfund, BEI ou instrumentos mistos da UE terá de demonstrar alinhamento com os **Padrões de Desempenho da IFC** (PS1 a PS8): avaliação ambiental e social, condições de trabalho, eficiência de recursos, saúde e segurança das comunidades, aquisição de terras, biodiversidade, povos indígenas e património cultural [ref:ifc-ps]. Para a maior parte do IDE relevante é uma condição dos credores; integre-os no desenho do projecto desde o início. Investidores domiciliados na UE estão ainda sujeitos às directivas CSRD e, quando aplicável, CSDDD [ref:apiex-guide-2026].",
+        "en": "Anyone seeking finance from IFC, AfDB, BII, Norfund, EIB or EU blended instruments must show alignment with the **IFC Performance Standards** (PS1 to PS8): environmental and social assessment, labour conditions, resource efficiency, community health and safety, land acquisition, biodiversity, indigenous peoples and cultural heritage [ref:ifc-ps]. For most significant FDI this is a lender condition; build it into the project design from the start. EU-domiciled investors are also subject to the CSRD and, where applicable, the CSDDD [ref:apiex-guide-2026].",
+        "fr": "Quiconque sollicite un financement de l'IFC, de la BAD, de BII, de Norfund, de la BEI ou d'instruments mixtes de l'UE doit démontrer sa conformité aux **normes de performance de l'IFC** (PS1 à PS8) : évaluation environnementale et sociale, conditions de travail, utilisation rationnelle des ressources, santé et sécurité des communautés, acquisition de terres, biodiversité, peuples autochtones et patrimoine culturel [ref:ifc-ps]. Pour la plupart des IDE significatifs, c'est une condition des prêteurs ; intégrez-les dès la conception du projet. Les investisseurs domiciliés dans l'UE sont en outre soumis à la CSRD et, le cas échéant, à la CSDDD [ref:apiex-guide-2026]."
+      }
+    },
+    {
+      "id": "finance",
+      "title": {
+        "pt": "Fontes de financiamento",
+        "en": "Sources of finance",
+        "fr": "Sources de financement"
+      },
+      "body": {
+        "pt": "Algumas fontes indicadas pelo Guia da APIEX e pelos guias de negócio [ref:apiex-guide-2026] [ref:business-guide-2025]:\n- **FUNPI** (Fundo Nacional de Promoção da Irrigação): subsídio até **30%** do custo das infra-estruturas de irrigação, para projectos a partir de 200 ha; pedido ao MAAP/FUNPI em paralelo com a licença de uso de água;\n- **GAPI**: garantias de crédito até **75%** de um empréstimo bancário para projectos agro-industriais elegíveis;\n- **instituições financeiras de desenvolvimento** (IFC, BAD, BII, Norfund, BEI) e fundos especializados como a AgDevCo, com capital de USD 4 a 10 milhões por projecto;\n- **seguro de risco** de investimento da MIGA, do Grupo Banco Mundial.",
+        "en": "Some sources named in the APIEX Guide and the business guides [ref:apiex-guide-2026] [ref:business-guide-2025]:\n- **FUNPI** (National Irrigation Promotion Fund): a subsidy of up to **30%** of irrigation infrastructure cost for projects of 200 ha or more; apply to MAAP/FUNPI alongside the water use permit;\n- **GAPI**: credit guarantees covering up to **75%** of a bank loan for eligible agribusiness projects;\n- **development finance institutions** (IFC, AfDB, BII, Norfund, EIB) and specialist funds such as AgDevCo, with USD 4–10 million equity tickets;\n- investment **risk insurance** from MIGA, part of the World Bank Group.",
+        "fr": "Quelques sources citées par le Guide de l'APIEX et les guides d'affaires [ref:apiex-guide-2026] [ref:business-guide-2025] :\n- **FUNPI** (Fonds national de promotion de l'irrigation) : subvention jusqu'à **30 %** du coût des infrastructures d'irrigation, pour les projets d'au moins 200 ha ; demande au MAAP/FUNPI en parallèle du permis d'utilisation de l'eau ;\n- **GAPI** : garanties de crédit couvrant jusqu'à **75 %** d'un prêt bancaire pour les projets agro-industriels éligibles ;\n- **institutions de financement du développement** (IFC, BAD, BII, Norfund, BEI) et fonds spécialisés comme AgDevCo, avec des tickets en fonds propres de 4 à 10 millions USD ;\n- **assurance contre les risques** d'investissement de la MIGA, du Groupe de la Banque mondiale."
+      }
+    }
+  ]
+}

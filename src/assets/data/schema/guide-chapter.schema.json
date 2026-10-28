@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "guide-chapter.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "sections"
+  ],
+  "properties": {
+    "id": {
+      "enum": [
+        "at-a-glance",
+        "why-mozambique",
+        "sectors",
+        "investment-law",
+        "company-setup",
+        "roadmap",
+        "zones",
+        "tax",
+        "people",
+        "exchange",
+        "land-esg",
+        "protection"
+      ]
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "title": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "body": {
+            "$ref": "common.schema.json#/definitions/localizedText"
+          },
+          "facts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "label"
+              ],
+              "properties": {
+                "value": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                },
+                "label": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "text"
+              ],
+              "properties": {
+                "title": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                },
+                "text": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                },
+                "where": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                },
+                "time": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "table": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "caption",
+              "columns",
+              "rows"
+            ],
+            "properties": {
+              "caption": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              },
+              "columns": {
+                "type": "array",
+                "items": {
+                  "$ref": "common.schema.json#/definitions/localizedText"
+                },
+                "minItems": 2
+              },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "common.schema.json#/definitions/localizedText"
+                  }
+                }
+              },
+              "note": {
+                "$ref": "common.schema.json#/definitions/localizedText"
+              }
+            }
+          }
+        }
+      },
+      "minItems": 1
+    }
+  }
+}

@@ -49,7 +49,7 @@ export interface ApiexTable {
   /** Minimum FDI for the export-of-profits guarantee (Lei 8/2023). */
   fdiMinimumMzn: number;
   regime: Rule<{
-    threshold: string;
+    threshold: LocalizedText;
     authority: LocalizedText;
     path: LocalizedText;
     refs: RefId[];
@@ -68,6 +68,8 @@ export interface TreatiesTable {
 export interface QuotasTable {
   minPercent: number;
   maxPercent: number;
+  /** Quota by headcount, largest first: the first band with `workers >= minWorkers` applies. */
+  bands: { minWorkers: number; percent: number }[];
 }
 
 export interface RoadmapStepDef {

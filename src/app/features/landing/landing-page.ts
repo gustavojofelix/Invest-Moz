@@ -1,7 +1,9 @@
-import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, input, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { TranslocoDirective } from '@jsverse/transloco';
 import { DEMO_CREDENTIALS } from '@core/config/demo-credentials';
+import type { GuideIndex } from '@core/domain/guide';
+import { LocPipe } from '@core/i18n/format';
 import { LocaleService } from '@core/i18n/locale.service';
 import { BrandMark } from '@core/layout/brand-mark';
 import { AuthService, ProjectRepository } from '@core/ports';
@@ -23,7 +25,7 @@ const REGIMES = [
 @Component({
   selector: 'im-landing-page',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [Icon, RouterLink, TranslocoDirective, BrandMark, RefTag, MozMap],
+  imports: [Icon, RouterLink, TranslocoDirective, LocPipe, BrandMark, RefTag, MozMap],
   templateUrl: './landing-page.html',
   styles: `
     .regime {
@@ -34,6 +36,27 @@ const REGIMES = [
       .regime {
         padding: 1.25rem 1.25rem 1.25rem 0;
       }
+    }
+    .chapters {
+      display: grid;
+      column-gap: 2rem;
+    }
+    @media (min-width: 640px) {
+      .chapters {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    .chapters a {
+      display: flex;
+      gap: 0.875rem;
+      align-items: baseline;
+      padding: 0.875rem 0;
+      border-top: 1px solid var(--rule);
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .chapters a:hover {
+      color: var(--brand);
     }
     .how-num {
       font-family: var(--font-serif);
@@ -57,6 +80,8 @@ const REGIMES = [
   `,
 })
 export class LandingPage {
+  /** Resolved by guideIndexResolver (bound through withComponentInputBinding). */
+  readonly guide = input<GuideIndex>();
   private readonly router = inject(Router);
   private readonly projects = inject(ProjectRepository);
   private readonly auth = inject(AuthService);

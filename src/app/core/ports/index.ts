@@ -5,6 +5,7 @@
  */
 import type { Signal } from '@angular/core';
 import type { Observable } from 'rxjs';
+import type { GuideChapterBody, GuideChapterId, GuideIndex } from '../domain/guide';
 import type {
   Assessment,
   Country,
@@ -40,6 +41,12 @@ export abstract class KnowledgeBase {
   /** Synchronous lookup; returns undefined until `all()` has resolved once. */
   abstract lookup(id: RefId): LegalReference | undefined;
   abstract readonly loaded: Signal<boolean>;
+}
+
+export abstract class GuideService {
+  /** Chapter list and the sources the guide draws on (small; used by the landing too). */
+  abstract index(): Promise<GuideIndex>;
+  abstract chapter(id: GuideChapterId): Promise<GuideChapterBody>;
 }
 
 export abstract class ReferenceData {

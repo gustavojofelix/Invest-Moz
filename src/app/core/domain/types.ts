@@ -208,7 +208,7 @@ export interface Assessment {
   };
   companyVsBranch?: ComparisonRow[];
   investmentRegime: {
-    threshold: string;
+    threshold: LocalizedText;
     authority: LocalizedText;
     path: LocalizedText;
     fdiGuarantee: LocalizedText;

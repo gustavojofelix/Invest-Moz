@@ -90,11 +90,11 @@
         "id": "sez-ifz",
         "title": { "pt": "ZEE ou ZFI?", "en": "SEZ or IFZ?", "fr": "ZES ou ZFI ?" },
         "text": {
-          "pt": "Exportadores podem avaliar uma Zona Económica Especial (área geográfica com regime próprio) ou uma Zona Franca Industrial (estatuto da empresa, ligado à exportação: {{ZFI_EXPORT_REQUIREMENT}}). Benefícios: {{ZEE_ZFI_BENEFITS}}.",
-          "en": "Exporters may consider a Special Economic Zone (a geographic area with its own regime) or an Industrial Free Zone (a company status tied to exports: {{ZFI_EXPORT_REQUIREMENT}}). Benefits: {{ZEE_ZFI_BENEFITS}}.",
-          "fr": "Les exportateurs peuvent envisager une zone économique spéciale (zone géographique à régime propre) ou une zone franche industrielle (statut de l'entreprise lié à l'export : {{ZFI_EXPORT_REQUIREMENT}}). Avantages : {{ZEE_ZFI_BENEFITS}}."
+          "pt": "Exportadores podem avaliar uma Zona Económica Especial (área geográfica com regime próprio) ou uma Zona Franca Industrial (estatuto da empresa, que exige exportar pelo menos 70% da produção). Benefícios: na ZFI, até 10 anos de isenção total de IRPC; na ZEE, isenção nos anos 1 a 3, redução de 50% nos anos 4 a 10 e de 25% nos anos 11 a 15; em ambas, isenções aduaneiras e de IVA.",
+          "en": "Exporters may consider a Special Economic Zone (a geographic area with its own regime) or an Industrial Free Zone (a company status requiring at least 70% of output to be exported). Benefits: in an IFZ, up to 10 years of full IRPC exemption; in an SEZ, exemption in years 1 to 3, a 50% reduction in years 4 to 10 and 25% in years 11 to 15; in both, customs and VAT exemptions.",
+          "fr": "Les exportateurs peuvent envisager une zone économique spéciale (zone géographique à régime propre) ou une zone franche industrielle (statut de l'entreprise qui impose d'exporter au moins 70 % de la production). Avantages : en ZFI, jusqu'à 10 ans d'exonération totale d'IRPC ; en ZES, exonération les années 1 à 3, réduction de 50 % les années 4 à 10 et de 25 % les années 11 à 15 ; dans les deux cas, exonérations de douane et de TVA."
         },
-        "refs": ["zee-zfi"]
+        "refs": ["zee-zfi", "apiex-guide-2026"]
       }
     }
   ],
@@ -120,11 +120,11 @@
         "id": "gapi",
         "title": { "pt": "Garantias GAPI", "en": "GAPI guarantees", "fr": "Garanties GAPI" },
         "text": {
-          "pt": "A GAPI, instituição moçambicana de financiamento do desenvolvimento, pode partilhar risco com os bancos comerciais através de garantias ({{GAPI_GUARANTEE_TERMS}}).",
-          "en": "GAPI, a Mozambican development finance institution, can share risk with commercial banks through guarantees ({{GAPI_GUARANTEE_TERMS}}).",
-          "fr": "La GAPI, institution mozambicaine de financement du développement, peut partager le risque avec les banques commerciales par des garanties ({{GAPI_GUARANTEE_TERMS}})."
+          "pt": "A GAPI, instituição moçambicana de financiamento do desenvolvimento, pode partilhar risco com os bancos comerciais através de garantias de crédito até 75% do empréstimo bancário, em projectos agro-industriais elegíveis.",
+          "en": "GAPI, a Mozambican development finance institution, can share risk with commercial banks through credit guarantees covering up to 75% of a bank loan for eligible agribusiness projects.",
+          "fr": "La GAPI, institution mozambicaine de financement du développement, peut partager le risque avec les banques commerciales par des garanties de crédit couvrant jusqu'à 75 % d'un prêt bancaire pour les projets agro-industriels éligibles."
         },
-        "refs": []
+        "refs": ["apiex-guide-2026"]
       }
     },
     {
@@ -134,11 +134,11 @@
         "id": "funpi",
         "title": { "pt": "FUNPI", "en": "FUNPI", "fr": "FUNPI" },
         "text": {
-          "pt": "Linha pública de apoio ao investimento produtivo; condições e elegibilidade {{FUNPI_CONDITIONS}}.",
-          "en": "Public support line for productive investment; terms and eligibility {{FUNPI_CONDITIONS}}.",
-          "fr": "Ligne publique d'appui à l'investissement productif ; conditions et éligibilité {{FUNPI_CONDITIONS}}."
+          "pt": "Fundo Nacional de Promoção da Irrigação: subsídio até 30% do custo das infra-estruturas de irrigação em projectos de 200 ha ou mais; o pedido ao MAAP/FUNPI corre em paralelo com a licença de uso da água.",
+          "en": "National Irrigation Promotion Fund: a subsidy of up to 30% of the cost of irrigation infrastructure for projects of 200 ha or more; apply to MAAP/FUNPI in parallel with the water use permit.",
+          "fr": "Fonds national de promotion de l'irrigation : subvention jusqu'à 30 % du coût des infrastructures d'irrigation pour les projets de 200 ha ou plus ; demande au MAAP/FUNPI en parallèle du permis d'utilisation de l'eau."
         },
-        "refs": []
+        "refs": ["apiex-guide-2026"]
       }
     },
     {

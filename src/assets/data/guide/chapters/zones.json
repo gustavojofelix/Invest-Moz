@@ -1,0 +1,393 @@
+{
+  "id": "zones",
+  "sections": [
+    {
+      "id": "overview",
+      "title": {
+        "pt": "Plataformas industriais em números",
+        "en": "Industrial platforms in numbers",
+        "fr": "Les plateformes industrielles en chiffres"
+      },
+      "body": {
+        "pt": "As zonas estão posicionadas ao longo dos corredores de transporte, com acesso a portos, licenciamento simplificado e incentivos próprios. Dentro da zona, a **autoridade da zona substitui vários ministérios** como interlocutor de licenciamento e cumprimento [ref:zee-zfi]. Um novo quadro regulamentar das ZEE e ZFI foi aprovado pelo Conselho de Ministros em Fevereiro de 2026.",
+        "en": "Zones sit along the transport corridors, with port access, streamlined licensing and dedicated incentives. Inside a zone, the **zone authority replaces several ministries** as your licensing and compliance interface [ref:zee-zfi]. A new SEZ/IFZ regulatory framework was approved by the Council of Ministers in February 2026.",
+        "fr": "Les zones longent les corridors de transport, avec accès portuaire, autorisations simplifiées et incitations propres. Dans une zone, **l'autorité de la zone remplace plusieurs ministères** comme interlocuteur pour les autorisations et la conformité [ref:zee-zfi]. Un nouveau cadre réglementaire des ZES et ZFI a été approuvé par le Conseil des ministres en février 2026."
+      },
+      "facts": [
+        {
+          "value": {
+            "pt": "7 + 6",
+            "en": "7 + 6",
+            "fr": "7 + 6"
+          },
+          "label": {
+            "pt": "ZEE e ZFI aprovadas",
+            "en": "SEZs and IFZs approved",
+            "fr": "ZES et ZFI approuvées"
+          }
+        },
+        {
+          "value": {
+            "pt": "70+",
+            "en": "70+",
+            "fr": "70+"
+          },
+          "label": {
+            "pt": "Empresas de 18 países no Parque de Beluluane",
+            "en": "Companies from 18 countries at Beluluane",
+            "fr": "Entreprises de 18 pays à Beluluane"
+          }
+        },
+        {
+          "value": {
+            "pt": "USD 3 mil milhões+",
+            "en": "USD 3B+",
+            "fr": "3 Md USD+"
+          },
+          "label": {
+            "pt": "Investimento total em Beluluane",
+            "en": "Total investment at Beluluane",
+            "fr": "Investissement total à Beluluane"
+          }
+        },
+        {
+          "value": {
+            "pt": "12 000+",
+            "en": "12,000+",
+            "fr": "12 000+"
+          },
+          "label": {
+            "pt": "Empregos nos parques da MozParks",
+            "en": "Jobs across MozParks locations",
+            "fr": "Emplois dans les parcs MozParks"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sez-vs-ifz",
+      "title": {
+        "pt": "ZEE ou ZFI?",
+        "en": "SEZ or IFZ?",
+        "fr": "ZES ou ZFI ?"
+      },
+      "body": {
+        "pt": "A diferença principal é a exportação: a ZEE permite vender no mercado interno e exportar; a ZFI exige exportar **pelo menos 70%** da produção, mas compensa com uma isenção mais longa [ref:zee-zfi]. O acesso a ambas é coordenado pela APIEX.",
+        "en": "The main difference is exports: an SEZ allows both domestic and export sales; an IFZ requires exporting **at least 70%** of output but rewards it with a longer exemption [ref:zee-zfi]. Access to both is coordinated by APIEX.",
+        "fr": "La différence principale tient à l'export : une ZES autorise ventes locales et exportations ; une ZFI exige d'exporter **au moins 70 %** de la production, mais offre une exonération plus longue [ref:zee-zfi]. L'accès aux deux est coordonné par l'APIEX."
+      },
+      "table": {
+        "caption": {
+          "pt": "Comparação dos regimes ZEE e ZFI",
+          "en": "SEZ and IFZ regimes compared",
+          "fr": "Comparaison des régimes ZES et ZFI"
+        },
+        "columns": [
+          {
+            "pt": "Aspecto",
+            "en": "Aspect",
+            "fr": "Aspect"
+          },
+          {
+            "pt": "Zona Económica Especial (ZEE)",
+            "en": "Special Economic Zone (SEZ)",
+            "fr": "Zone économique spéciale (ZES)"
+          },
+          {
+            "pt": "Zona Franca Industrial (ZFI)",
+            "en": "Industrial Free Zone (IFZ)",
+            "fr": "Zone franche industrielle (ZFI)"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Exportação",
+              "en": "Export requirement",
+              "fr": "Exigence d'export"
+            },
+            {
+              "pt": "Sem mínimo; mercado interno e exportação",
+              "en": "No minimum; domestic and export sales",
+              "fr": "Pas de minimum ; ventes locales et export"
+            },
+            {
+              "pt": "Mínimo de 70% da produção",
+              "en": "Minimum 70% of output",
+              "fr": "Minimum 70 % de la production"
+            }
+          ],
+          [
+            {
+              "pt": "IRPC",
+              "en": "Corporate income tax",
+              "fr": "Impôt sur les sociétés"
+            },
+            {
+              "pt": "Anos 1–3: isenção total; anos 4–10: redução de 50%; anos 11–15: redução de 25%",
+              "en": "Years 1–3: full exemption; years 4–10: 50% reduction; years 11–15: 25% reduction",
+              "fr": "Années 1–3 : exonération totale ; années 4–10 : réduction de 50 % ; années 11–15 : réduction de 25 %"
+            },
+            {
+              "pt": "Até 10 anos de isenção total",
+              "en": "Up to 10 years full exemption",
+              "fr": "Jusqu'à 10 ans d'exonération totale"
+            }
+          ],
+          [
+            {
+              "pt": "Alfândegas e IVA",
+              "en": "Customs and VAT",
+              "fr": "Douane et TVA"
+            },
+            {
+              "pt": "Isenção de direitos sobre os insumos; isenção de IVA nas transmissões dentro da zona",
+              "en": "Duty exemption on inputs; VAT exemption on intra-zone transfers",
+              "fr": "Exonération des droits sur les intrants ; exonération de TVA sur les transferts intra-zone"
+            },
+            {
+              "pt": "Isenção de direitos sobre todos os insumos; isenção de IVA nas transmissões dentro da zona",
+              "en": "Duty exemption on all inputs; VAT exemption on intra-zone transfers",
+              "fr": "Exonération des droits sur tous les intrants ; exonération de TVA sur les transferts intra-zone"
+            }
+          ],
+          [
+            {
+              "pt": "Licenciamento",
+              "en": "Licensing",
+              "fr": "Autorisations"
+            },
+            {
+              "pt": "Autoridade da zona; APIEX como interlocutor único",
+              "en": "Zone authority; APIEX as single investor interface",
+              "fr": "Autorité de la zone ; APIEX comme interlocuteur unique"
+            },
+            {
+              "pt": "Autoridade única em vez de vários ministérios",
+              "en": "Single authority instead of several ministries",
+              "fr": "Autorité unique au lieu de plusieurs ministères"
+            }
+          ]
+        ],
+        "note": {
+          "pt": "Detalhe dos incentivos e procedimentos: APIEX, Decreto n.º 43/2009 e decretos de criação de cada zona.",
+          "en": "Incentive schedules and procedures: APIEX, Decree No. 43/2009 and each zone's establishment decree.",
+          "fr": "Détail des incitations et procédures : APIEX, décret n° 43/2009 et décrets de création de chaque zone."
+        }
+      }
+    },
+    {
+      "id": "zone-list",
+      "title": {
+        "pt": "Onde ficam as zonas",
+        "en": "Where the zones are",
+        "fr": "Où se trouvent les zones"
+      },
+      "table": {
+        "caption": {
+          "pt": "Principais zonas e parques",
+          "en": "Main zones and parks",
+          "fr": "Principales zones et parcs"
+        },
+        "columns": [
+          {
+            "pt": "Zona",
+            "en": "Zone",
+            "fr": "Zone"
+          },
+          {
+            "pt": "Província",
+            "en": "Province",
+            "fr": "Province"
+          },
+          {
+            "pt": "Dimensão e destaque",
+            "en": "Size and focus",
+            "fr": "Taille et spécificité"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "ZEE de Nacala",
+              "en": "Nacala SEZ",
+              "fr": "ZES de Nacala"
+            },
+            {
+              "pt": "Nampula",
+              "en": "Nampula",
+              "fr": "Nampula"
+            },
+            {
+              "pt": "1 539 km²; corredor de Nacala; 194 projectos",
+              "en": "1,539 km²; Nacala Corridor; 194 projects",
+              "fr": "1 539 km² ; corridor de Nacala ; 194 projets"
+            }
+          ],
+          [
+            {
+              "pt": "Parque Industrial de Beluluane (ZFI)",
+              "en": "Beluluane Industrial Park (IFZ)",
+              "fr": "Parc industriel de Beluluane (ZFI)"
+            },
+            {
+              "pt": "Maputo",
+              "en": "Maputo Province",
+              "fr": "Province de Maputo"
+            },
+            {
+              "pt": "700 ha, 400 ha disponíveis; 20 km do porto; 80 MW dedicados",
+              "en": "700 ha, 400 ha available; 20 km from the port; 80 MW dedicated power",
+              "fr": "700 ha, dont 400 ha disponibles ; à 20 km du port ; 80 MW dédiés"
+            }
+          ],
+          [
+            {
+              "pt": "ZEE de Manga-Mungassa",
+              "en": "Manga-Mungassa SEZ",
+              "fr": "ZES de Manga-Mungassa"
+            },
+            {
+              "pt": "Sofala",
+              "en": "Sofala",
+              "fr": "Sofala"
+            },
+            {
+              "pt": "217 ha; 12 km do porto da Beira",
+              "en": "217 ha; 12 km from the Port of Beira",
+              "fr": "217 ha ; à 12 km du port de Beira"
+            }
+          ],
+          [
+            {
+              "pt": "ZEE Agrícola do Vale do Limpopo",
+              "en": "Limpopo Valley Agribusiness SEZ",
+              "fr": "ZES agricole de la vallée du Limpopo"
+            },
+            {
+              "pt": "Gaza",
+              "en": "Gaza",
+              "fr": "Gaza"
+            },
+            {
+              "pt": "7 297 km²; regadio existente; Decreto n.º 4/2021",
+              "en": "7,297 km²; irrigation in place; Decree No. 4/2021",
+              "fr": "7 297 km² ; irrigation existante ; décret n° 4/2021"
+            }
+          ],
+          [
+            {
+              "pt": "ZEE de Mocuba",
+              "en": "Mocuba SEZ",
+              "fr": "ZES de Mocuba"
+            },
+            {
+              "pt": "Zambézia",
+              "en": "Zambézia",
+              "fr": "Zambézia"
+            },
+            {
+              "pt": "10 727 km²; agro-processamento; Decreto n.º 28/2014",
+              "en": "10,727 km²; agro-processing; Decree No. 28/2014",
+              "fr": "10 727 km² ; agro-transformation ; décret n° 28/2014"
+            }
+          ],
+          [
+            {
+              "pt": "ZEE de Niassa (UTE)",
+              "en": "Niassa UTE SEZ",
+              "fr": "ZES de Niassa (UTE)"
+            },
+            {
+              "pt": "Niassa",
+              "en": "Niassa",
+              "fr": "Niassa"
+            },
+            {
+              "pt": "681 ha",
+              "en": "681 ha",
+              "fr": "681 ha"
+            }
+          ],
+          [
+            {
+              "pt": "Parque Industrial de Topuito",
+              "en": "Topuito Industrial Park",
+              "fr": "Parc industriel de Topuito"
+            },
+            {
+              "pt": "Nampula",
+              "en": "Nampula",
+              "fr": "Nampula"
+            },
+            {
+              "pt": "215 ha; âncora Kenmare (areias minerais)",
+              "en": "215 ha; anchored by Kenmare (mineral sands)",
+              "fr": "215 ha ; ancré par Kenmare (sables minéralisés)"
+            }
+          ],
+          [
+            {
+              "pt": "Zonas turísticas",
+              "en": "Tourism zones",
+              "fr": "Zones touristiques"
+            },
+            {
+              "pt": "Maputo · Nampula",
+              "en": "Maputo · Nampula",
+              "fr": "Maputo · Nampula"
+            },
+            {
+              "pt": "ZEE turística da Baía de Macaneta; zona turística integrada de Crusse e Jamali",
+              "en": "Macaneta Bay tourism SEZ; Crusse and Jamali integrated tourism zone",
+              "fr": "ZES touristique de la baie de Macaneta ; zone touristique intégrée de Crusse et Jamali"
+            }
+          ],
+          [
+            {
+              "pt": "ZFI de Lucone e Minhuene",
+              "en": "Lucone and Minhuene IFZs",
+              "fr": "ZFI de Lucone et Minhuene"
+            },
+            {
+              "pt": "—",
+              "en": "—",
+              "fr": "—"
+            },
+            {
+              "pt": "Zonas francas industriais",
+              "en": "Industrial free zones",
+              "fr": "Zones franches industrielles"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "mozparks",
+      "title": {
+        "pt": "MozParks",
+        "en": "MozParks",
+        "fr": "MozParks"
+      },
+      "body": {
+        "pt": "A MozParks é o único operador integrado de parques industriais em Moçambique, uma parceria público-privada entre a APIEX e a ASEZA. O modelo assenta num investidor âncora cuja cadeia de fornecimento cria procura imediata para fornecedores instalados no parque, com estatuto de zona franca desde o primeiro dia.\n\n- **Beluluane** (Maputo) e **Topuito** (Nampula) em operação.\n- **Cabo Delgado**: quatro parques e duas bases logísticas ligados ao GNL e à indústria extractiva.\n- **Gaza**: nova iniciativa (2025) para agro-processamento.\n- Mandato do Governo para **20 parques até 2030**, quatro em construção. Contacto: mozparks.co.mz.",
+        "en": "MozParks is Mozambique's only integrated industrial park operator, a public-private partnership between APIEX and ASEZA. Its model rests on an anchor investor whose supply chain creates immediate demand for co-located suppliers, with free-zone status from day one.\n\n- **Beluluane** (Maputo) and **Topuito** (Nampula) in operation.\n- **Cabo Delgado**: four parks and two logistics bases linked to LNG and extractives.\n- **Gaza**: a new initiative (2025) for agro-processing.\n- A government mandate for **20 parks by 2030**, four under construction. Contact: mozparks.co.mz.",
+        "fr": "MozParks est le seul opérateur intégré de parcs industriels au Mozambique, un partenariat public-privé entre l'APIEX et l'ASEZA. Son modèle repose sur un investisseur d'ancrage dont la chaîne d'approvisionnement crée une demande immédiate pour les fournisseurs installés sur place, avec le statut de zone franche dès le premier jour.\n\n- **Beluluane** (Maputo) et **Topuito** (Nampula) en exploitation.\n- **Cabo Delgado** : quatre parcs et deux bases logistiques liés au GNL et aux industries extractives.\n- **Gaza** : nouvelle initiative (2025) pour l'agro-transformation.\n- Mandat gouvernemental de **20 parcs d'ici 2030**, dont quatre en construction. Contact : mozparks.co.mz."
+      }
+    },
+    {
+      "id": "corridors",
+      "title": {
+        "pt": "Os corredores",
+        "en": "The corridors",
+        "fr": "Les corridors"
+      },
+      "body": {
+        "pt": "Três portos de águas profundas ligam o Índico aos países sem litoral da África Austral:\n\n- **Corredor de Maputo** — África do Sul e Essuatíni; o porto movimentou 32 milhões de toneladas em 2025, recorde absoluto.\n- **Corredor da Beira** — Zimbabwe, Zâmbia, RDC e Malawi; carvão e agro-negócio.\n- **Corredor de Nacala** — o porto natural mais profundo da África Austral, com ligação ferroviária ao Malawi e exportação para a Ásia.\n- **Corredor de Cabo Delgado / Mtwara** (emergente) — Pemba, GNL da Bacia do Rovuma e grafite, com ligações à Tanzânia.",
+        "en": "Three deep-water ports link the Indian Ocean to southern Africa's landlocked economies:\n\n- **Maputo Corridor** — South Africa and Eswatini; the port handled 32 million tons in 2025, an all-time record.\n- **Beira Corridor** — Zimbabwe, Zambia, DRC and Malawi; coal and agribusiness.\n- **Nacala Corridor** — the deepest natural port in southern Africa, with rail to Malawi and exports to Asia.\n- **Cabo Delgado / Mtwara Corridor** (emerging) — Pemba, Rovuma Basin LNG and graphite, with links to Tanzania.",
+        "fr": "Trois ports en eau profonde relient l'océan Indien aux pays enclavés d'Afrique australe :\n\n- **Corridor de Maputo** — Afrique du Sud et Eswatini ; le port a traité 32 millions de tonnes en 2025, un record.\n- **Corridor de Beira** — Zimbabwe, Zambie, RDC et Malawi ; charbon et agro-industrie.\n- **Corridor de Nacala** — le port naturel le plus profond d'Afrique australe, relié par rail au Malawi, tourné vers l'Asie.\n- **Corridor de Cabo Delgado / Mtwara** (émergent) — Pemba, GNL du bassin du Rovuma et graphite, avec des liaisons vers la Tanzanie."
+      }
+    }
+  ]
+}

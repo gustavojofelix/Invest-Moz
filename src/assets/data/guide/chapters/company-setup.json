@@ -1,0 +1,320 @@
+{
+  "id": "company-setup",
+  "sections": [
+    {
+      "id": "forms",
+      "title": {
+        "pt": "Formas de negócio",
+        "en": "Forms of business",
+        "fr": "Formes d'entreprise"
+      },
+      "body": {
+        "pt": "O direito moçambicano admite [ref:dl-1-2022] [ref:business-guide-2025]:\n\n- **sociedade por quotas (Lda)** — a forma mais comum para investidores;\n- **sociedade anónima (SA)**;\n- **sociedade anónima simplificada (SAS)**;\n- sociedade em comandita;\n- empresário em nome individual;\n- **sucursal** ou **representação comercial** de sociedade estrangeira.\n\nA participação ou o controlo estrangeiro de sociedades **não está, em regra, restringido**. Os limites estão noutro lado: a terra não pode ser propriedade privada (usa-se o DUAT) e as actividades mineiras, petrolíferas e os contratos de gestão têm requisitos próprios.",
+        "en": "Mozambican law provides for [ref:dl-1-2022] [ref:business-guide-2025]:\n\n- the **private limited company (Lda)** — the most common choice for investors;\n- the **public limited company (SA)**;\n- the **simplified joint-stock company (SAS)**;\n- the joint partners limited liability company;\n- the individual trader;\n- a **branch** or **representative office** of a foreign company.\n\nForeign ownership or control of companies is **generally not restricted**. The limits sit elsewhere: land cannot be privately owned (a DUAT is used instead), and mining, petroleum and management contracts carry specific requirements.",
+        "fr": "Le droit mozambicain prévoit [ref:dl-1-2022] [ref:business-guide-2025] :\n\n- la **société à responsabilité limitée (Lda)** — le choix le plus courant des investisseurs ;\n- la **société anonyme (SA)** ;\n- la **société par actions simplifiée (SAS)** ;\n- la société en commandite ;\n- l'entrepreneur individuel ;\n- la **succursale** ou le **bureau de représentation** d'une société étrangère.\n\nLa participation ou le contrôle étranger des sociétés **n'est en principe pas restreint**. Les limites se trouvent ailleurs : la terre ne peut pas être propriété privée (on recourt au DUAT), et les mines, le pétrole et les contrats de gestion ont des exigences propres."
+      }
+    },
+    {
+      "id": "eight-steps",
+      "title": {
+        "pt": "Os oito passos da constituição",
+        "en": "The eight incorporation steps",
+        "fr": "Les huit étapes de la constitution"
+      },
+      "body": {
+        "pt": "Cada passo produz um documento exigido pelo seguinte, por isso seguem, em regra, esta ordem. Há reformas em curso para simplificar e acelerar o processo.",
+        "en": "Each step produces a document the next one requires, so they generally run in this order. Reforms are under way to simplify and speed up the process.",
+        "fr": "Chaque étape produit un document exigé par la suivante ; elles suivent donc en principe cet ordre. Des réformes sont en cours pour simplifier et accélérer la procédure."
+      },
+      "steps": [
+        {
+          "title": {
+            "pt": "Reserva do nome",
+            "en": "Name reservation",
+            "fr": "Réservation du nom"
+          },
+          "where": {
+            "pt": "Conservatória do Registo das Entidades Legais ou BAU",
+            "en": "Legal Entities Registry or BAU one-stop shop",
+            "fr": "Registre des entités légales ou guichet unique BAU"
+          },
+          "text": {
+            "pt": "Os sócios apresentam a empresa, a actividade, o sector e o valor do investimento; verifica-se que não existe nome igual ou muito semelhante. O nome inclui sempre a forma societária. Na prática: reserve dois ou três nomes alternativos — as recusas são frequentes.",
+            "en": "The partners present the company, its activity, sector and investment value; the registry checks no identical or very similar name exists. The name always includes the legal form. In practice: reserve two or three alternatives — rejections are common.",
+            "fr": "Les associés présentent la société, son activité, son secteur et le montant de l'investissement ; le registre vérifie qu'aucun nom identique ou très proche n'existe. Le nom inclut toujours la forme juridique. En pratique : réservez deux ou trois noms alternatifs — les refus sont fréquents."
+          }
+        },
+        {
+          "title": {
+            "pt": "Redacção do pacto social",
+            "en": "Drafting the articles of association",
+            "fr": "Rédaction des statuts"
+          },
+          "where": {
+            "pt": "Com o seu consultor; outorga perante notário",
+            "en": "With your adviser; executed before a notary",
+            "fr": "Avec votre conseil ; signature devant notaire"
+          },
+          "text": {
+            "pt": "O pacto define o objecto social, os sócios, o capital e as quotas, a sede e o tipo de sociedade. Na prática: o objecto social determina o código CAE e, por isso, o licenciamento — acerte-o nesta fase.",
+            "en": "The articles set the corporate object, partners, share capital and quotas, registered office and company type. In practice: the corporate object drives the CAE code and therefore the licensing route — get it right now.",
+            "fr": "Les statuts fixent l'objet social, les associés, le capital et les parts, le siège et le type de société. En pratique : l'objet social détermine le code CAE et donc la voie d'autorisation — soignez-le dès maintenant."
+          }
+        },
+        {
+          "title": {
+            "pt": "Abertura de conta bancária",
+            "en": "Opening a bank account",
+            "fr": "Ouverture d'un compte bancaire"
+          },
+          "where": {
+            "pt": "Qualquer banco comercial em Moçambique",
+            "en": "Any commercial bank in Mozambique",
+            "fr": "Toute banque commerciale au Mozambique"
+          },
+          "text": {
+            "pt": "Para depositar o capital social: certidão de reserva do nome, estatutos e cópias autenticadas dos documentos dos sócios. Sócios estrangeiros registam a entrada de capital no Banco de Moçambique através do banco. Na prática: defina já as assinaturas que obrigam a sociedade.",
+            "en": "To deposit the share capital: name certificate, statutes and certified copies of the shareholders' IDs. Foreign shareholders register the capital inflow with the Bank of Mozambique through the bank. In practice: set the signing rules now.",
+            "fr": "Pour déposer le capital social : certificat de nom, statuts et copies certifiées des pièces d'identité des associés. Les associés étrangers enregistrent l'entrée de capital auprès de la Banque du Mozambique via la banque. En pratique : fixez dès maintenant les règles de signature."
+          }
+        },
+        {
+          "title": {
+            "pt": "Registo comercial",
+            "en": "Commercial registration",
+            "fr": "Immatriculation commerciale"
+          },
+          "where": {
+            "pt": "Conservatória do Registo das Entidades Legais",
+            "en": "Legal Entities Registry",
+            "fr": "Registre des entités légales"
+          },
+          "text": {
+            "pt": "Os estatutos são submetidos para registo definitivo; a Conservatória emite a certidão definitiva e trata da publicação. Na prática: nada a jusante avança sem a certidão definitiva.",
+            "en": "The articles are filed for definitive registration; the Registry issues the definitive certificate and arranges publication. In practice: nothing downstream proceeds without the definitive certificate.",
+            "fr": "Les statuts sont déposés pour immatriculation définitive ; le registre délivre le certificat définitif et organise la publication. En pratique : rien ne peut avancer sans le certificat définitif."
+          }
+        },
+        {
+          "title": {
+            "pt": "Registo fiscal e NUIT",
+            "en": "Tax registration and NUIT",
+            "fr": "Enregistrement fiscal et NUIT"
+          },
+          "where": {
+            "pt": "Autoridade Tributária de Moçambique",
+            "en": "Mozambique Tax Authority",
+            "fr": "Administration fiscale du Mozambique"
+          },
+          "text": {
+            "pt": "Com a sociedade registada, obtém-se o Número Único de Identificação Tributária. Na prática: o NUIT desbloqueia a facturação, o registo da folha de salários e todas as obrigações fiscais.",
+            "en": "Once the company is registered, it obtains its Tax Identification Number. In practice: the NUIT unlocks invoicing, payroll registration and every tax obligation.",
+            "fr": "Une fois la société immatriculée, elle obtient son numéro d'identification fiscale. En pratique : le NUIT ouvre la facturation, l'enregistrement de la paie et toutes les obligations fiscales."
+          }
+        },
+        {
+          "title": {
+            "pt": "Publicação no Boletim da República",
+            "en": "Publication in the Boletim da República",
+            "fr": "Publication au Boletim da República"
+          },
+          "where": {
+            "pt": "Imprensa Nacional de Moçambique",
+            "en": "National Press of Mozambique",
+            "fr": "Imprimerie nationale du Mozambique"
+          },
+          "text": {
+            "pt": "Os estatutos são publicados para que a existência da sociedade seja pública, mediante taxa que varia com o número de páginas. Na prática: estatutos mais longos custam mais a publicar.",
+            "en": "The statutes are published so that the company's existence becomes public, for a fee that varies with the number of pages. In practice: longer articles cost more to publish.",
+            "fr": "Les statuts sont publiés pour rendre l'existence de la société publique, moyennant une taxe qui varie selon le nombre de pages. En pratique : des statuts plus longs coûtent plus cher à publier."
+          }
+        },
+        {
+          "title": {
+            "pt": "Licença comercial",
+            "en": "Commercial licence",
+            "fr": "Licence commerciale"
+          },
+          "where": {
+            "pt": "Direcção Provincial de Indústria e Comércio ou Conselho Municipal",
+            "en": "Provincial Directorate of Industry and Commerce, or the Municipal Council",
+            "fr": "Direction provinciale de l'industrie et du commerce, ou conseil municipal"
+          },
+          "text": {
+            "pt": "Pedido dirigido ao Governador Provincial, com nome, sede e actividade segundo a CAE [ref:dec-41-2026]. Lojas, padarias, mercearias e restaurantes licenciam-se no município. A taxa varia com a actividade. Na prática: minas, petróleo e gás, serviços financeiros e telecomunicações têm licenças adicionais.",
+            "en": "Request addressed to the Provincial Governor, stating name, registered office and activity under the CAE classification [ref:dec-41-2026]. Shops, bakeries, grocery stores and restaurants are licensed by the municipality. The fee varies with the activity. In practice: mining, oil and gas, financial services and telecoms need additional licences.",
+            "fr": "Demande adressée au gouverneur provincial, indiquant le nom, le siège et l'activité selon la nomenclature CAE [ref:dec-41-2026]. Boutiques, boulangeries, épiceries et restaurants relèvent de la municipalité. La taxe varie selon l'activité. En pratique : mines, pétrole et gaz, services financiers et télécoms exigent des licences supplémentaires."
+          }
+        },
+        {
+          "title": {
+            "pt": "Início de actividade",
+            "en": "Start of activity",
+            "fr": "Début d'activité"
+          },
+          "where": {
+            "pt": "Bairro Fiscal da área da sede",
+            "en": "Local tax office (Bairro Fiscal)",
+            "fr": "Bureau fiscal local (Bairro Fiscal)"
+          },
+          "text": {
+            "pt": "Com toda a documentação, entrega-se a declaração de início de actividade. Na prática: só depois desta declaração a sociedade está operacional para efeitos fiscais.",
+            "en": "With all the documents in hand, the company files its declaration of start of activity. In practice: only then is the company operational for tax purposes.",
+            "fr": "Avec l'ensemble des documents, la société dépose sa déclaration de début d'activité. En pratique : ce n'est qu'après cette déclaration qu'elle est opérationnelle sur le plan fiscal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "title": {
+        "pt": "Documentos de que vai precisar",
+        "en": "Documents you will need",
+        "fr": "Documents nécessaires"
+      },
+      "table": {
+        "caption": {
+          "pt": "Documentos da constituição e respectiva origem",
+          "en": "Incorporation documents and where they come from",
+          "fr": "Documents de constitution et leur origine"
+        },
+        "columns": [
+          {
+            "pt": "Documento",
+            "en": "Document",
+            "fr": "Document"
+          },
+          {
+            "pt": "Origem",
+            "en": "Source",
+            "fr": "Origine"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Certidão de reserva do nome",
+              "en": "Name reservation certificate",
+              "fr": "Certificat de réservation du nom"
+            },
+            {
+              "pt": "Conservatória do Registo das Entidades Legais / BAU",
+              "en": "Legal Entities Registry / BAU",
+              "fr": "Registre des entités légales / BAU"
+            }
+          ],
+          [
+            {
+              "pt": "Pacto social",
+              "en": "Articles of association",
+              "fr": "Statuts"
+            },
+            {
+              "pt": "Redigido com o consultor; outorgado perante notário",
+              "en": "Drafted with your adviser; executed before a notary",
+              "fr": "Rédigés avec votre conseil ; signés devant notaire"
+            }
+          ],
+          [
+            {
+              "pt": "Cópias autenticadas dos documentos dos sócios",
+              "en": "Certified copies of shareholders' IDs",
+              "fr": "Copies certifiées des pièces d'identité des associés"
+            },
+            {
+              "pt": "Sócios",
+              "en": "Shareholders",
+              "fr": "Associés"
+            }
+          ],
+          [
+            {
+              "pt": "Comprovativo do depósito do capital",
+              "en": "Proof of share capital deposit",
+              "fr": "Preuve du dépôt du capital"
+            },
+            {
+              "pt": "Banco comercial",
+              "en": "Commercial bank",
+              "fr": "Banque commerciale"
+            }
+          ],
+          [
+            {
+              "pt": "Certidão definitiva do registo comercial",
+              "en": "Definitive commercial registration certificate",
+              "fr": "Certificat définitif d'immatriculation"
+            },
+            {
+              "pt": "Conservatória do Registo das Entidades Legais",
+              "en": "Legal Entities Registry",
+              "fr": "Registre des entités légales"
+            }
+          ],
+          [
+            {
+              "pt": "Publicação dos estatutos",
+              "en": "Publication of the articles",
+              "fr": "Publication des statuts"
+            },
+            {
+              "pt": "Boletim da República / Imprensa Nacional",
+              "en": "Boletim da República / National Press",
+              "fr": "Boletim da República / Imprimerie nationale"
+            }
+          ],
+          [
+            {
+              "pt": "NUIT",
+              "en": "NUIT (tax ID)",
+              "fr": "NUIT (identifiant fiscal)"
+            },
+            {
+              "pt": "Autoridade Tributária de Moçambique",
+              "en": "Mozambique Tax Authority",
+              "fr": "Administration fiscale du Mozambique"
+            }
+          ],
+          [
+            {
+              "pt": "Licença comercial",
+              "en": "Commercial licence",
+              "fr": "Licence commerciale"
+            },
+            {
+              "pt": "Direcção Provincial de Indústria e Comércio ou Conselho Municipal",
+              "en": "Provincial Directorate of Industry and Commerce, or Municipal Council",
+              "fr": "Direction provinciale de l'industrie et du commerce, ou conseil municipal"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "branch",
+      "title": {
+        "pt": "Sucursal de sociedade estrangeira",
+        "en": "Branch of a foreign company",
+        "fr": "Succursale d'une société étrangère"
+      },
+      "body": {
+        "pt": "A sucursal segue um procedimento próprio [ref:business-guide-2025]:\n\n- parecer da entidade que supervisiona a actividade;\n- requerimento ao Ministro da Indústria e Comércio para licenciamento e inspecção;\n- notificação da data, inspecção e emissão da licença;\n- registo da sucursal na Conservatória das Entidades Legais;\n- registo fiscal;\n- licença do regulador sectorial, se aplicável;\n- declaração de início de actividade.",
+        "en": "A branch follows its own procedure [ref:business-guide-2025]:\n\n- an opinion from the authority supervising the activity;\n- an application to the Minister of Industry and Trade for licensing and inspection;\n- notice of the date, inspection and issue of the licence;\n- registration of the branch at the Legal Entities Registry;\n- tax registration;\n- the sector regulator's licence, where applicable;\n- declaration of start of activity.",
+        "fr": "La succursale suit sa propre procédure [ref:business-guide-2025] :\n\n- avis de l'autorité de tutelle de l'activité ;\n- demande au ministre de l'Industrie et du Commerce pour l'autorisation et l'inspection ;\n- notification de la date, inspection et délivrance de la licence ;\n- immatriculation de la succursale au registre des entités légales ;\n- enregistrement fiscal ;\n- licence du régulateur sectoriel, le cas échéant ;\n- déclaration de début d'activité."
+      }
+    },
+    {
+      "id": "practical-notes",
+      "title": {
+        "pt": "Notas práticas",
+        "en": "Practical notes",
+        "fr": "Notes pratiques"
+      },
+      "body": {
+        "pt": "- **As taxas não são fixas**: a publicação no Boletim da República varia com o número de páginas e a licença comercial com a actividade. Orçamente ambas quando os estatutos estiverem finais.\n- **Defina os signatários cedo**: alterar as assinaturas que obrigam a sociedade exige nova deliberação e nova instrução ao banco.\n- **Instalações licenciam-se localmente**: lojas, padarias, mercearias e restaurantes tratam com o Conselho Municipal, não com a Direcção Provincial.",
+        "en": "- **Fees are not fixed**: the Boletim da República fee varies with the number of pages and the commercial licence fee with the activity. Budget for both once the articles are final.\n- **Decide your signatories early**: changing who can bind the company needs a new resolution and a fresh bank instruction.\n- **Premises are licensed locally**: shops, bakeries, grocery stores and restaurants deal with the Municipal Council, not the Provincial Directorate.",
+        "fr": "- **Les taxes ne sont pas fixes** : la publication au Boletim da República varie avec le nombre de pages et la licence commerciale avec l'activité. Budgétez les deux une fois les statuts finalisés.\n- **Choisissez tôt vos signataires** : changer les personnes qui engagent la société exige une nouvelle résolution et une nouvelle instruction à la banque.\n- **Les locaux relèvent de la commune** : boutiques, boulangeries, épiceries et restaurants traitent avec le conseil municipal, et non avec la direction provinciale."
+      }
+    }
+  ]
+}

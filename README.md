@@ -1,11 +1,13 @@
 # Invest Moz
 
-**The investor assistant for doing business in Mozambique.**
+**The guide to investing in Mozambique, with an assistant that applies it to your project.**
 A partnership between **Tax Advisory**, which supplies and reviews the legal and tax content, and
 **Law Technology Solutions (LTS)**, which builds the technology.
 
 This repository is the **proof of concept (POC)** used to present the full user flow and UX to the client.
 - There is **no backend**. Everything runs in the browser on JSON seed data.
+- The **investor guide** (`/:lang/guide`) is 12 prerendered chapters built from the APIEX Investment Guide 2026,
+  Tax Advisory's tax sheets and registration guide, and the Lex Africa Business Guide 2025.
 - The "assistant" answers come from a reviewed answer bank with simulated streaming.
 - The site deploys as a **static site on Netlify**.
 
@@ -49,7 +51,7 @@ npm run preview           # → http://localhost:4310/pt
 | Command | What it does |
 |---|---|
 | `npm start` | Dev server with live reload |
-| `npm run build` | Production build with prerendering (42 static pages), then `postbuild` |
+| `npm run build` | Production build with prerendering (81 static pages), then `postbuild` |
 | `npm run preview` | Serves `dist/` the way Netlify does |
 | `npm run lint` | angular-eslint (TypeScript + template accessibility rules) |
 | `npm run typecheck` | Strict TypeScript for the app and the tests |
@@ -85,10 +87,13 @@ The credentials are shown on the landing page ("Acesso de demonstração") and p
 Reset the data first: **Shift + D → "Repor dados de demonstração"**.
 
 1. **Landing (PT), 45 s.** Open `/pt`.
+   - The hero leads with **Ler o guia do investidor**; below it, the twelve guide chapters.
    - Point to the eight legal regimes, each with its main instrument.
    - Read the "how it works" line: free general information; paid detailed advice.
    - Hover a province on the map. Mention the trust principles: reviewed base, *a confirmar* instead of
      invented numbers, pre-AO90 Portuguese.
+   - *(Optional, 30 s)* Open **Guia → Impostos**: the tax indicators and the treaty table, each with its
+     source, then **Próximos passos** at the end of the chapter.
 2. **Project, 45 s.** Click **Descrever o meu projecto → Carregar exemplo →** *Indústria agro-alimentar ·
    processamento de amêndoas* (cashew, Nampula).
    - Show the fields: Indian investor, mixed capital, USD 2.5M, 80 workers (4 foreign), the six facts.
@@ -99,8 +104,8 @@ Reset the data first: **Shift + D → "Repor dados de demonstração"**.
    - The APIEX path and the MZN 6.5M FDI guarantee.
    - The **six-step roadmap**: environmental licence on the red critical path, 4–6 months to operate,
      DUAT up to 24 months.
-   - The fact triggers: treaty (India rate *a confirmar*), shareholder loan 5M/10M and 2:1, fees abroad 20%
-     and VAT reverse charge, 5% quota.
+   - The fact triggers: treaty (India 7.5% on dividends), shareholder loan 5M/10M and 2:1, fees abroad 20%
+     and VAT reverse charge, foreign-worker quota (8% for 31–100 workers; 4 of 80 is within it).
    - The obligations calendar: point to the **"Antecipado"** flag (20 Dec 2026 is a Sunday → 18 Dec).
    - **Imprimir / Exportar PDF** shows the A4 memo.
 4. **Switch language, 20 s.** Click **EN** (or **FR**) in the header. The same page, now in English, keeps the
@@ -122,7 +127,7 @@ Reset the data first: **Shift + D → "Repor dados de demonstração"**.
 
 ```mermaid
 flowchart TB
-  UI["features/* — landing · intake · assessment · qa · enquiry · inbox · auth · demo"] --> F["Facades / page state (signals)"]
+  UI["features/* — landing · guide · intake · assessment · qa · enquiry · inbox · auth · demo"] --> F["Facades / page state (signals)"]
   F --> P["Ports (abstract classes, DI tokens)"]
   P --> J["Json* adapters (this phase)"]
   P -. later .-> H["Http* adapters → Python API"]
@@ -135,8 +140,8 @@ flowchart TB
 - **Angular 22**: standalone components, signals, zoneless change detection, the new control flow, `OnPush`
   everywhere, strict TypeScript.
 - **Rendering**: static output.
-  - `/:lang`, `/:lang/questions` and `/:lang/questions/:topic` are **prerendered in PT, EN and FR**
-    (42 pages), with incremental hydration below the fold.
+  - `/:lang`, `/:lang/guide`, `/:lang/guide/:chapter`, `/:lang/questions` and `/:lang/questions/:topic`
+    are **prerendered in PT, EN and FR** (81 pages), with incremental hydration below the fold.
   - Every other route renders on the client from `index.csr.html`.
 - **i18n**: Transloco with lazy scopes per feature (`src/assets/i18n/<scope>/<lang>.json`), loaded in route
   resolvers so prerendering waits for them.
@@ -168,7 +173,7 @@ src/app/
 │  ├─ layout/      shell, header, footer, flag stripe, brand marks, language switcher, SEO, theme
 │  └─ config/      firm details, demo credentials
 ├─ shared/ui/      ref-tag, ruled-table, memo-section, roadmap-timeline, obligation-calendar, …
-└─ features/       landing, intake, assessment, qa, enquiry, inbox, auth, demo
+└─ features/       landing, guide, intake, assessment, qa, enquiry, inbox, auth, demo
 ```
 
 ## Editing the content (JSON)
@@ -177,7 +182,8 @@ All legal and tax content lives in `src/assets/data/`. After any edit, run **`np
 
 | File | Content |
 |---|---|
-| `knowledge-base.json` | 28 legal references: `instrument`, `title`, `summary`, `excerpt` (PT/EN/FR), `lastReviewed`, `status` |
+| `guide/index.json` · `guide/chapters/*.json` | The investor guide: 12 chapters in three parts, their sources, and one file per chapter (sections with body text, key figures, steps and tables). Each chapter loads as its own lazy chunk |
+| `knowledge-base.json` | 31 legal references: `instrument`, `title`, `summary`, `excerpt` (PT/EN/FR), `lastReviewed`, `status` |
 | `qa/topics.json` · `qa/answers.json` | 12 topics; 48 answers (question, keywords, body, refs, "when to talk to us") |
 | `projects.json` | The 5 example projects (`TA-IM-EX01`…`EX05`) |
 | `enquiries.json` | The 8 seeded inbox enquiries |
@@ -248,9 +254,9 @@ checks, the build, and the Playwright flow. It works once the repository is on G
 
 | Check | Status |
 |---|---|
-| Unit tests | 61 passing. `core/domain` coverage: 99% statements, 94% branches, 100% functions and lines |
-| E2E (Playwright) | The demo flow passes in PT at 360px and in EN at 1440px, with no console errors and no horizontal scroll under the production CSP |
-| Data / i18n / orthography | 18 data files valid against their schemas; 422 UI keys × 3 locales; 648 localised content values; pre-AO90 check passes |
+| Unit tests | 62 passing. `core/domain` coverage: 99% statements, 94% branches, 100% functions and lines |
+| E2E (Playwright) | The demo flow and the guide flow (landing → index → chapter → next chapter) pass in PT at 360px and in EN at 1440px, with no console errors and no horizontal scroll under the production CSP |
+| Data / i18n / orthography | 31 data files valid against their schemas; 465 UI keys × 3 locales; 1,268 localised content values; pre-AO90 check passes |
 | Lighthouse (mobile, local) | Accessibility 99–100, Best Practices 100, SEO 100. Performance: landing 84–90, Q&A 88–90, assessment ≈ 76 (client-rendered). Local simulated runs vary by ±5; Netlify's CDN with HTTP/2 and brotli is usually faster |
 
 Accessibility: semantic HTML, a skip link, visible focus, keyboard-operable menus, sheets and the combobox,
@@ -283,5 +289,6 @@ Roadmap after approval:
   Built with `scripts/build-map.mjs`.
 - **Icons:** Lucide, ISC License. The used subset is generated by `scripts/build-icons.mjs`.
 - **Fonts:** Source Serif 4, Lato and IBM Plex Mono (SIL Open Font License), via Fontsource.
-- **Legal content:** illustrative, based on the client deck. See `CONTENT_TO_CONFIRM.md` for every value
-  Tax Advisory must confirm.
+- **Legal content:** illustrative, based on the client deck, the APIEX Investment Guide 2026, Tax Advisory's
+  tax indicators, treaty table and registration guide, and the Lex Africa / JLA Business Guide 2025. See
+  `CONTENT_TO_CONFIRM.md` for every value Tax Advisory must confirm.

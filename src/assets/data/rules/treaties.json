@@ -1,15 +1,55 @@
 {
   "noTreatyRate": { "pt": "20% (sem ADT)", "en": "20% (no treaty)", "fr": "20 % (sans convention)" },
   "unknownTreatyRate": {
-    "pt": "taxa do ADT {{TREATY_DIVIDEND_RATES}} (20% sem ADT)",
-    "en": "treaty rate {{TREATY_DIVIDEND_RATES}} (20% without treaty)",
-    "fr": "taux conventionnel {{TREATY_DIVIDEND_RATES}} (20 % hors convention)"
+    "pt": "taxa do ADT a confirmar com a Tax Advisory (20% sem ADT)",
+    "en": "treaty rate to be confirmed with Tax Advisory (20% without treaty)",
+    "fr": "taux conventionnel à confirmer avec Tax Advisory (20 % hors convention)"
   },
   "entries": [
     {
+      "country": "BW",
+      "dividends": { "pt": "0% ou 12% (consoante a participação; ADT Moçambique–Botswana)", "en": "0% or 12% (depending on the shareholding; Mozambique–Botswana treaty)", "fr": "0 % ou 12 % (selon la participation ; convention Mozambique–Botswana)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
+      "country": "IN",
+      "dividends": { "pt": "7,5% (ADT Moçambique–Índia)", "en": "7.5% (Mozambique–India treaty)", "fr": "7,5 % (convention Mozambique–Inde)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
+      "country": "IT",
+      "dividends": { "pt": "15% (ADT Moçambique–Itália)", "en": "15% (Mozambique–Italy treaty)", "fr": "15 % (convention Mozambique–Italie)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
+      "country": "MO",
+      "dividends": { "pt": "10% (ADT Moçambique–Macau)", "en": "10% (Mozambique–Macau treaty)", "fr": "10 % (convention Mozambique–Macao)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
+      "country": "MU",
+      "dividends": { "pt": "8%, 10% ou 15% (consoante a participação; ADT Moçambique–Maurícias)", "en": "8%, 10% or 15% (depending on the shareholding; Mozambique–Mauritius treaty)", "fr": "8 %, 10 % ou 15 % (selon la participation ; convention Mozambique–Maurice)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
+      "country": "PT",
+      "dividends": { "pt": "10% (ADT Moçambique–Portugal)", "en": "10% (Mozambique–Portugal treaty)", "fr": "10 % (convention Mozambique–Portugal)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
       "country": "ZA",
       "dividends": { "pt": "8% ou 15% (ADT Moçambique–África do Sul)", "en": "8% or 15% (Mozambique–South Africa treaty)", "fr": "8 % ou 15 % (convention Mozambique–Afrique du Sud)" },
-      "refs": ["dta-za"]
+      "refs": ["ta-dta-rates",  "dta-za"]
+    },
+    {
+      "country": "AE",
+      "dividends": { "pt": "0% (ADT Moçambique–Emirados Árabes Unidos)", "en": "0% (Mozambique–UAE treaty)", "fr": "0 % (convention Mozambique–Émirats arabes unis)" },
+      "refs": ["ta-dta-rates"]
+    },
+    {
+      "country": "VN",
+      "dividends": { "pt": "10% (ADT Moçambique–Vietname)", "en": "10% (Mozambique–Vietnam treaty)", "fr": "10 % (convention Mozambique–Viêt Nam)" },
+      "refs": ["ta-dta-rates"]
     }
   ]
 }

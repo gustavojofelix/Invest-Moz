@@ -16,6 +16,9 @@ const FILES: Record<string, () => JsonModule> = {
   'landing/pt': () => import('../../../assets/i18n/landing/pt.json'),
   'landing/en': () => import('../../../assets/i18n/landing/en.json'),
   'landing/fr': () => import('../../../assets/i18n/landing/fr.json'),
+  'guide/pt': () => import('../../../assets/i18n/guide/pt.json'),
+  'guide/en': () => import('../../../assets/i18n/guide/en.json'),
+  'guide/fr': () => import('../../../assets/i18n/guide/fr.json'),
   'intake/pt': () => import('../../../assets/i18n/intake/pt.json'),
   'intake/en': () => import('../../../assets/i18n/intake/en.json'),
   'intake/fr': () => import('../../../assets/i18n/intake/fr.json'),
@@ -38,6 +41,7 @@ const FILES: Record<string, () => JsonModule> = {
 
 export const TRANSLATION_SCOPES = [
   'landing',
+  'guide',
   'intake',
   'assessment',
   'qa',

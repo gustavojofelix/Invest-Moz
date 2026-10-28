@@ -4,6 +4,7 @@ import {
   classifySector,
   deriveFacts,
   describeProject,
+  quotaPercent,
   quotaStatus,
   treatyRate,
 } from './rules-engine';
@@ -62,11 +63,13 @@ describe('rules engine — example projects', () => {
       ]);
       const treaty = a.factTriggers.find((x) => x.id === 'treaty');
       expect(treaty?.fact.pt).toBe('País do investidor: Índia');
-      // India has a treaty but no confirmed rate in the brief → to-confirm placeholder
-      expect(treaty?.text.pt).toContain('{{TREATY_DIVIDEND_RATES}}');
+      // India–Mozambique treaty rate from Tax Advisory's treaty table
+      expect(treaty?.text.pt).toContain('7,5%');
       const quota = a.factTriggers.find((x) => x.id === 'quota-within');
       expect(quota?.fact.pt).toContain('(5%)');
       expect(quota?.fact.en).toContain('4 foreign out of 80 workers');
+      // 80 workers → the 31–100 band: an 8% quota
+      expect(quota?.text.en).toContain('the foreign-worker quota is 8%');
     });
 
     it('lists licences, incentives, obligations and location notes', () => {
@@ -86,7 +89,8 @@ describe('rules engine — example projects', () => {
 
     it('meets the FDI minimum for the export-of-profits guarantee', () => {
       expect(a.investmentRegime.fdiGuarantee.pt).toContain('supera o IDE mínimo');
-      expect(a.investmentRegime.threshold).toBe('{{APIEX_APPROVAL_THRESHOLDS}}');
+      expect(a.investmentRegime.threshold.en).toContain('about USD 54 million');
+      expect(a.investmentRegime.threshold.pt).toContain('Governador Provincial');
       expect(a.investmentRegime.path.en).toContain('up to 90 days');
     });
 
@@ -156,9 +160,10 @@ describe('rules engine — example projects', () => {
       expect(t?.text.pt).toContain('20%');
     });
 
-    it('handles temporary import, shareholder loan and a large headcount within quota', () => {
+    it('handles temporary import, shareholder loan and a large headcount over the 5% quota', () => {
+      // 12 of 220 workers is 5.45%, above the 5% band for companies with more than 100 workers.
       expect(ids(a.factTriggers)).toEqual(
-        expect.arrayContaining(['temporary-import', 'shareholder-loan', 'quota-within']),
+        expect.arrayContaining(['temporary-import', 'shareholder-loan', 'quota-over']),
       );
       expect(ids(a.roadmap)).toContain('temporary-import');
       expect(a.timeToOperate.pt).toContain('3–5 meses');
@@ -197,8 +202,10 @@ describe('rules engine — example projects', () => {
       expect(a.watchPoints.some((w) => w.pt.includes('Cabo Delgado'))).toBe(true);
     });
 
-    it('treats exactly 15% foreign workers as within quota', () => {
-      expect(a.factTriggers.find((t) => t.trigger === 'quota')?.id).toBe('quota-within');
+    it('puts 15% foreign workers over the 8% quota for 31–100 workers', () => {
+      const quota = a.factTriggers.find((t) => t.trigger === 'quota');
+      expect(quota?.id).toBe('quota-over');
+      expect(quota?.text.en).toContain('Above the 8% quota that applies to 60 workers');
     });
   });
 });
@@ -212,7 +219,7 @@ describe('rules engine — custom input', () => {
     expect(a.companyVsBranch).toBeUndefined();
     expect(a.factTriggers).toEqual([]);
     expect(a.investmentRegime.fdiGuarantee.pt).toContain('não se aplica');
-    expect(a.investmentRegime.path.pt).toContain('{{APIEX_REGISTRATION_THRESHOLD}}');
+    expect(a.investmentRegime.path.pt).toContain('o certificado é opcional');
     expect(a.timeToOperate.pt).toContain('2–4 semanas');
     expect(ids(a.obligations)).not.toContain('modelo-20');
     expect(ids(a.obligations)).not.toContain('permit-renewals');
@@ -228,7 +235,8 @@ describe('rules engine — custom input', () => {
     const env = a.roadmap.find((s) => s.id === 'env-licence');
     expect(env?.critical).toBe(true);
     expect(env?.title.pt).toContain('categoria A');
-    expect(a.timeToOperate.pt).toContain('{{ENV_LICENCE_CAT_A_DURATION}}');
+    expect(a.timeToOperate.pt).toContain('6 a 12 meses');
+    expect(env?.duration.en).toBe('6–12 months');
   });
 
   it('uses a category C licence in parallel with the DUAT for light activities needing land', () => {
@@ -307,11 +315,30 @@ describe('facts', () => {
     expect(classifySector('xyz', table).id).toBe('general');
   });
 
-  it('computes quota status', () => {
-    expect(quotaStatus({ workers: 10, foreignWorkers: 0 }, 15)).toBe('none');
-    expect(quotaStatus({ workers: 0, foreignWorkers: 2 }, 15)).toBe('over');
-    expect(quotaStatus({ workers: 20, foreignWorkers: 3 }, 15)).toBe('within');
-    expect(quotaStatus({ workers: 20, foreignWorkers: 4 }, 15)).toBe('over');
+  it('picks the foreign-worker quota band by headcount', () => {
+    const q = RULE_SET.quotas;
+    expect(quotaPercent(150, q)).toBe(5);
+    expect(quotaPercent(101, q)).toBe(5);
+    expect(quotaPercent(100, q)).toBe(8);
+    expect(quotaPercent(31, q)).toBe(8);
+    expect(quotaPercent(30, q)).toBe(10);
+    expect(quotaPercent(11, q)).toBe(10);
+    expect(quotaPercent(10, q)).toBe(15);
+    expect(quotaPercent(0, q)).toBe(15);
+    expect(quotaPercent(5, { ...q, bands: [] })).toBe(q.maxPercent);
+  });
+
+  it('computes quota status against the band for the headcount', () => {
+    const q = RULE_SET.quotas;
+    expect(quotaStatus({ workers: 10, foreignWorkers: 0 }, q)).toBe('none');
+    expect(quotaStatus({ workers: 0, foreignWorkers: 2 }, q)).toBe('over');
+    expect(quotaStatus({ workers: 80, foreignWorkers: 4 }, q)).toBe('within');
+    expect(quotaStatus({ workers: 80, foreignWorkers: 7 }, q)).toBe('over');
+    expect(quotaStatus({ workers: 150, foreignWorkers: 7 }, q)).toBe('within');
+    expect(quotaStatus({ workers: 150, foreignWorkers: 9 }, q)).toBe('over');
+    expect(quotaStatus({ workers: 20, foreignWorkers: 2 }, q)).toBe('within');
+    expect(quotaStatus({ workers: 20, foreignWorkers: 3 }, q)).toBe('over');
+    expect(quotaStatus({ workers: 10, foreignWorkers: 1 }, q)).toBe('within');
   });
 
   it('derives FDI in MZN and a zero ratio without workers', () => {
@@ -324,7 +351,11 @@ describe('facts', () => {
 
   it('returns treaty rates: known, unknown and none', () => {
     expect(treatyRate('ZA', COUNTRIES, RULE_SET).pt).toContain('8% ou 15%');
-    expect(treatyRate('PT', COUNTRIES, RULE_SET).pt).toContain('{{TREATY_DIVIDEND_RATES}}');
+    expect(treatyRate('PT', COUNTRIES, RULE_SET).pt).toContain('10%');
+    expect(treatyRate('IN', COUNTRIES, RULE_SET).en).toContain('7.5%');
+    const za = COUNTRIES.find((c) => c.code === 'ZA');
+    const extra = [...COUNTRIES, { ...za!, code: 'QQ' }];
+    expect(treatyRate('QQ', extra, RULE_SET).en).toContain('to be confirmed');
     expect(treatyRate('CN', COUNTRIES, RULE_SET).pt).toContain('20%');
     expect(treatyRate('XX', COUNTRIES, RULE_SET).en).toContain('20%');
   });

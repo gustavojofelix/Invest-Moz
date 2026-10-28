@@ -1,7 +1,9 @@
 {
   "seo": {
-    "siteTitle": "Invest Moz — O seu assistente para investir em Moçambique",
-    "siteDescription": "Descreva o seu projecto e receba um enquadramento jurídico e fiscal para investir em Moçambique, com as referências legais. Tax Advisory × Law Technology Solutions.",
+    "siteTitle": "Invest Moz — O guia para investir em Moçambique",
+    "siteDescription": "O guia para investir em Moçambique: sectores, Lei de Investimento, empresas, impostos, trabalho e câmbios, com as referências legais, e um enquadramento à medida do seu projecto. Tax Advisory × Law Technology Solutions.",
+    "guide": "Guia do investidor",
+    "guideDescription": "Guia para investir em Moçambique: sectores, Lei de Investimento, constituição de empresas, impostos, trabalho, câmbios, zonas económicas e ambiente, com as referências legais. Tax Advisory × Law Technology Solutions.",
     "project": "O seu projecto",
     "assessment": "Ficha de enquadramento",
     "questions": "Perguntas rápidas",
@@ -16,6 +18,7 @@
   "nav": {
     "home": "Invest Moz — página inicial",
     "main": "Navegação principal",
+    "guide": "Guia",
     "project": "O seu projecto",
     "questions": "Perguntas",
     "contact": "Contacto",

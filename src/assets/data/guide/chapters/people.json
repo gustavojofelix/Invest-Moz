@@ -1,0 +1,169 @@
+{
+  "id": "people",
+  "sections": [
+    {
+      "id": "labour-law",
+      "title": {
+        "pt": "Lei do Trabalho",
+        "en": "Labour Law",
+        "fr": "Loi sur le travail"
+      },
+      "body": {
+        "pt": "A Lei n.º 13/2023, de 25 de Agosto, é o quadro geral das relações de trabalho [ref:lei-13-2023]. Entre as novidades:\n- forma escrita obrigatória para contratos de comissão, trabalho no domicílio, empreitada, trabalho temporário, cedência, trabalho intermitente e teletrabalho;\n- licença de paternidade de sete dias (sessenta em caso de morte ou incapacidade da mãe);\n- regimes de teletrabalho, trabalho intermitente, pluralidade de empregadores e horários alternados;\n- suspensão do contrato por força maior.\n\nMantenha contratos escritos, respeite o salário mínimo do sector e as proibições de trabalho infantil [ref:apiex-guide-2026].",
+        "en": "Law 13/2023 of 25 August is the general framework for employment [ref:lei-13-2023]. New features include:\n- mandatory written form for commission, home-work, contract-work, temporary-work, assignment, intermittent and telework contracts;\n- seven days' paternity leave (sixty if the mother dies or is incapacitated);\n- rules for telework, intermittent work, multiple employers and alternating hours;\n- suspension of contracts for force majeure.\n\nKeep written contracts, pay at least the sector minimum wage and respect the child labour prohibitions [ref:apiex-guide-2026].",
+        "fr": "La loi n° 13/2023 du 25 août est le cadre général des relations de travail [ref:lei-13-2023]. Parmi les nouveautés :\n- forme écrite obligatoire pour les contrats à la commission, de travail à domicile, d'entreprise, de travail temporaire, de mise à disposition, intermittents et de télétravail ;\n- congé de paternité de sept jours (soixante en cas de décès ou d'incapacité de la mère) ;\n- régimes du télétravail, du travail intermittent, de la pluralité d'employeurs et des horaires alternés ;\n- suspension du contrat pour force majeure.\n\nTenez des contrats écrits, respectez le salaire minimum du secteur et les interdictions du travail des enfants [ref:apiex-guide-2026]."
+      }
+    },
+    {
+      "id": "social-security-wages",
+      "title": {
+        "pt": "Segurança social e salários",
+        "en": "Social security and wages",
+        "fr": "Sécurité sociale et salaires"
+      },
+      "body": {
+        "pt": "Registe a empresa no INSS antes de contratar o primeiro trabalhador. As contribuições incidem sobre o salário bruto: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nOs salários mínimos são fixados por sector e revistos periodicamente em negociação tripartida entre Governo, empregadores e sindicatos. Na indústria transformadora, o mínimo é de cerca de **MZN 10 622 por mês** (aproximadamente USD 165–170) após a revisão de 2026 [ref:apiex-guide-2026].",
+        "en": "Register the company with INSS before hiring the first employee. Contributions are levied on gross salary: {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nMinimum wages are set by sector and revised periodically through tripartite negotiation between Government, employers and unions. In manufacturing the minimum is about **MZN 10,622 a month** (roughly USD 165–170) after the 2026 revision [ref:apiex-guide-2026].",
+        "fr": "Inscrivez l'entreprise à l'INSS avant d'embaucher le premier salarié. Les cotisations portent sur le salaire brut : {{INSS_CONTRIBUTION_RATES}} [ref:inss].\n\nLes salaires minimums sont fixés par secteur et révisés périodiquement par une négociation tripartite entre le Gouvernement, les employeurs et les syndicats. Dans l'industrie manufacturière, le minimum est d'environ **10 622 MZN par mois** (environ 165–170 USD) après la révision de 2026 [ref:apiex-guide-2026]."
+      }
+    },
+    {
+      "id": "quota",
+      "title": {
+        "pt": "Quota de trabalhadores estrangeiros",
+        "en": "Foreign-worker quota",
+        "fr": "Quota de travailleurs étrangers"
+      },
+      "body": {
+        "pt": "Os trabalhadores estrangeiros têm, em regra, o mesmo tratamento que os moçambicanos, mas a sua contratação está limitada por quotas consoante a dimensão da empresa [ref:business-guide-2025] [ref:dec-88-2024]. Dentro da quota basta comunicar a contratação; fora dela é necessária autorização do Ministro do Trabalho. Nos projectos de investimento aprovados pelo Governo que prevejam uma percentagem diferente, basta a comunicação ao ministro que tutela a área do trabalho.",
+        "en": "Foreign workers are generally treated like Mozambican workers, but hiring them is capped by quotas that depend on company size [ref:business-guide-2025] [ref:dec-88-2024]. Within the quota a notification is enough; outside it, authorisation from the Minister of Labour is needed. In government-approved investment projects that set a different percentage, notifying the minister responsible for labour is sufficient.",
+        "fr": "Les travailleurs étrangers sont en principe traités comme les Mozambicains, mais leur recrutement est plafonné par des quotas selon la taille de l'entreprise [ref:business-guide-2025] [ref:dec-88-2024]. Dans le quota, une communication suffit ; au-delà, l'autorisation du ministre du Travail est nécessaire. Dans les projets d'investissement approuvés par le Gouvernement qui prévoient un pourcentage différent, il suffit d'informer le ministre chargé du travail."
+      },
+      "table": {
+        "caption": {
+          "pt": "Quota de trabalhadores estrangeiros por dimensão da empresa",
+          "en": "Foreign-worker quota by company size",
+          "fr": "Quota de travailleurs étrangers selon la taille de l'entreprise"
+        },
+        "columns": [
+          {
+            "pt": "Dimensão",
+            "en": "Company size",
+            "fr": "Taille"
+          },
+          {
+            "pt": "Trabalhadores",
+            "en": "Employees",
+            "fr": "Salariés"
+          },
+          {
+            "pt": "Quota máxima",
+            "en": "Maximum quota",
+            "fr": "Quota maximal"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "pt": "Grande",
+              "en": "Large",
+              "fr": "Grande"
+            },
+            {
+              "pt": "Mais de 100",
+              "en": "More than 100",
+              "fr": "Plus de 100"
+            },
+            {
+              "pt": "5%",
+              "en": "5%",
+              "fr": "5 %"
+            }
+          ],
+          [
+            {
+              "pt": "Média-grande",
+              "en": "Medium-to-large",
+              "fr": "Moyenne à grande"
+            },
+            {
+              "pt": "31 a 100",
+              "en": "31 to 100",
+              "fr": "31 à 100"
+            },
+            {
+              "pt": "8%",
+              "en": "8%",
+              "fr": "8 %"
+            }
+          ],
+          [
+            {
+              "pt": "Média",
+              "en": "Medium",
+              "fr": "Moyenne"
+            },
+            {
+              "pt": "11 a 30",
+              "en": "11 to 30",
+              "fr": "11 à 30"
+            },
+            {
+              "pt": "10%",
+              "en": "10%",
+              "fr": "10 %"
+            }
+          ],
+          [
+            {
+              "pt": "Pequena",
+              "en": "Small",
+              "fr": "Petite"
+            },
+            {
+              "pt": "Até 10",
+              "en": "Up to 10",
+              "fr": "Jusqu'à 10"
+            },
+            {
+              "pt": "15%",
+              "en": "15%",
+              "fr": "15 %"
+            }
+          ]
+        ],
+        "note": {
+          "pt": "Decreto n.º 37/2016, alterado pelos Decretos n.º 45/2021 e 43/2022; o Decreto n.º 88/2024 simplificou a tramitação. Confirme as condições em vigor junto do MTGAS.",
+          "en": "Decree 37/2016, as amended by Decrees 45/2021 and 43/2022; Decree 88/2024 simplified processing. Confirm the current conditions with MTGAS.",
+          "fr": "Décret n° 37/2016, modifié par les décrets n° 45/2021 et 43/2022 ; le décret n° 88/2024 a simplifié la procédure. Vérifiez les conditions en vigueur auprès du MTGAS."
+        }
+      }
+    },
+    {
+      "id": "work-permits",
+      "title": {
+        "pt": "Autorizações de trabalho",
+        "en": "Work permits",
+        "fr": "Autorisations de travail"
+      },
+      "body": {
+        "pt": "Um estrangeiro que trabalhe em Moçambique mais de **120 dias por ano** precisa de autorização de trabalho [ref:business-guide-2025]:\n- validade de **dois anos**, renovável por períodos sucessivos de dois anos;\n- pedido ao MTGAS no prazo de 15 dias após a chegada de cada trabalhador estrangeiro [ref:apiex-guide-2026];\n- trabalho de curta duração, fora da quota, até **90 dias** (180 dias nos sectores do petróleo e gás e da mineração).\n\nO sector extractivo tem regras próprias para trabalhadores estrangeiros.",
+        "en": "A foreigner working in Mozambique for more than **120 days a year** needs a work permit [ref:business-guide-2025]:\n- valid for **two years**, renewable for further two-year periods;\n- apply to MTGAS within 15 days of each foreign employee's arrival [ref:apiex-guide-2026];\n- short-term work outside the quota is possible for up to **90 days** (180 days in oil and gas and mining).\n\nThe extractive sector has its own rules for foreign workers.",
+        "fr": "Un étranger qui travaille au Mozambique plus de **120 jours par an** a besoin d'une autorisation de travail [ref:business-guide-2025] :\n- valable **deux ans**, renouvelable par périodes successives de deux ans ;\n- demande au MTGAS dans les 15 jours suivant l'arrivée de chaque salarié étranger [ref:apiex-guide-2026] ;\n- le travail de courte durée, hors quota, est possible jusqu'à **90 jours** (180 jours dans le pétrole et le gaz et dans les mines).\n\nLe secteur extractif a ses propres règles pour les travailleurs étrangers."
+      }
+    },
+    {
+      "id": "visas",
+      "title": {
+        "pt": "Vistos e residência",
+        "en": "Visas and residence",
+        "fr": "Visas et résidence"
+      },
+      "body": {
+        "pt": "Os quadros expatriados precisam de visto de trabalho e de autorização de residência, além da autorização de trabalho [ref:business-guide-2025]. Para investidores:\n- o **visto de actividade de investimento empresarial** está associado ao certificado de investimento da APIEX, para projectos a partir de **USD 500 000** [ref:lei-8-2023];\n- os vistos electrónicos pedem-se em evisa.gov.mz, ao abrigo do Decreto n.º 10/2023 [ref:apiex-guide-2026];\n- a APIEX apoia a facilitação de vistos e autorizações de trabalho.",
+        "en": "Expatriate staff need a work visa and a residence permit in addition to the work permit [ref:business-guide-2025]. For investors:\n- the **Business Investment Activity Visa** is linked to the APIEX investment certificate, for projects of **USD 500,000** or more [ref:lei-8-2023];\n- e-visas are requested at evisa.gov.mz under Decree 10/2023 [ref:apiex-guide-2026];\n- APIEX helps with visa and work permit facilitation.",
+        "fr": "Les cadres expatriés ont besoin d'un visa de travail et d'un titre de séjour, en plus de l'autorisation de travail [ref:business-guide-2025]. Pour les investisseurs :\n- le **visa d'activité d'investissement** est lié au certificat d'investissement de l'APIEX, pour les projets d'au moins **500 000 USD** [ref:lei-8-2023] ;\n- les visas électroniques se demandent sur evisa.gov.mz, en vertu du décret n° 10/2023 [ref:apiex-guide-2026] ;\n- l'APIEX facilite l'obtention des visas et des autorisations de travail."
+      }
+    }
+  ]
+}
